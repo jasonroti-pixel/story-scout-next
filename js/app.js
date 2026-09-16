@@ -25,6 +25,7 @@
   let activeEdition = null;
   /** @type {Array<{ date: string, weekday: string, dateLabel: string, am: number, pm: number, total: number }>} */
   let rundownIndex = [];
+  let junkIdSet = new Set();
 
   const els = {};
 
@@ -45,6 +46,7 @@
       "btn-theme",
       "btn-brand",
       "btn-refresh",
+      "btn-junk-folder",
       "btn-custom",
       "btn-save-loadout",
       "btn-load-loadout",
@@ -60,6 +62,8 @@
       "detail-body",
       "custom-dialog",
       "custom-form",
+      "junk-dialog",
+      "junk-list",
       "prep-dialog",
       "prep-body",
       "pwa-status",
@@ -216,7 +220,7 @@
     const caOnly = els["filter-canadian"] && els["filter-canadian"].checked;
     const clipsOnly = els["filter-clips"] && els["filter-clips"].checked;
 
-    let list = allStories.slice();
+    let list = allStories.filter((s) => !junkIdSet.has(String(s.id)));
 
     if (activeEdition && activeEdition.date) {
       list = list.filter((s) => s.date === activeEdition.date);
@@ -268,6 +272,7 @@
   function buildRundownIndex() {
     const byDate = new Map();
     for (const s of allStories) {
+      if (junkIdSet.has(String(s.id))) continue;
       const date = s.date || "unknown";
       if (!byDate.has(date)) {
         byDate.set(date, { date, am: 0, pm: 0, total: 0 });
@@ -405,6 +410,7 @@
           <div class="card-actions">
             <button type="button" class="btn btn-primary" data-act="add" data-id="${SSClips.escapeAttr(s.id)}">+ Loadout</button>
             <button type="button" class="btn" data-act="detail" data-id="${SSClips.escapeAttr(s.id)}">Detail</button>
+            <button type="button" class="btn btn-danger" data-act="junk" data-id="${SSClips.escapeAttr(s.id)}">JUNK</button>
           </div>
         </article>`;
       })
@@ -429,6 +435,7 @@
           showToast("Added to loadout");
         }
         if (btn.dataset.act === "detail") openDetail(id);
+        if (btn.dataset.act === "junk") junkStoryById(id);
       });
     });
   }
@@ -469,6 +476,7 @@
       </div>
       <div class="card-actions">
         <button type="button" class="btn btn-primary" id="detail-add">+ Loadout</button>
+        <button type="button" class="btn btn-danger" id="detail-junk">JUNK</button>
       </div>
     `;
     const addBtn = document.getElementById("detail-add");
@@ -479,7 +487,108 @@
         showToast("Added to loadout");
       });
     }
+    const junkBtn = document.getElementById("detail-junk");
+    if (junkBtn) junkBtn.addEventListener("click", () => junkStoryById(s.id));
     els["detail-dialog"].showModal();
+  }
+
+  async function refreshJunkIds() {
+    junkIdSet = await SSStorage.getJunkIds();
+    return junkIdSet;
+  }
+
+  function removeJunkFromLoadout() {
+    if (!SSLoadout || !SSLoadout.getItems || !SSLoadout.setItems) return false;
+    const current = SSLoadout.getItems();
+    const kept = current.filter((item) => !junkIdSet.has(String(item.id)));
+    if (kept.length === current.length) return false;
+    SSLoadout.setItems(kept);
+    return true;
+  }
+
+  async function junkStoryById(id) {
+    const story = findStory(id);
+    if (!story || junkIdSet.has(String(id))) return;
+    await SSStorage.junkStory(story);
+    if (SSLoadout && typeof SSLoadout.remove === "function") {
+      SSLoadout.remove(id);
+    } else if (SSLoadout && typeof SSLoadout.removeStory === "function") {
+      SSLoadout.removeStory(id);
+    } else {
+      removeJunkFromLoadout();
+    }
+    await refreshJunkIds();
+    if (els["detail-dialog"] && els["detail-dialog"].open) els["detail-dialog"].close();
+    buildRundownIndex();
+    if (activeEdition) await applyFilters();
+    else renderRundownPicker();
+    if (SSLoadout && SSLoadout.render) SSLoadout.render();
+    showToast("Sent to Junk");
+  }
+
+  function formatJunkDate(iso) {
+    const date = new Date(iso);
+    return Number.isNaN(date.getTime())
+      ? "unknown date"
+      : date.toLocaleString("en-CA", { timeZone: "America/Toronto" }) + " ET";
+  }
+
+  function renderJunkList() {
+    if (!els["junk-list"]) return;
+    SSStorage.listJunk().then((rows) => {
+      if (!rows.length) {
+        els["junk-list"].innerHTML = '<p class="empty-state">Junk is empty. Deleted stories wait here 7 days.</p>';
+        return;
+      }
+      const now = Date.now();
+      els["junk-list"].innerHTML = rows.map((row) => {
+        const story = row.story || {};
+        const deleted = new Date(row.deletedAt).getTime();
+        const remaining = Number.isNaN(deleted)
+          ? ""
+          : Math.max(0, Math.ceil((deleted + 7 * 24 * 60 * 60 * 1000 - now) / (24 * 60 * 60 * 1000)));
+        return `<article class="junk-row" data-id="${SSClips.escapeAttr(row.id)}">
+          <div class="junk-row-copy">
+            <h3>${SSClips.escapeHtml(story.title || row.id)}</h3>
+            <p>Deleted ${SSClips.escapeHtml(formatJunkDate(row.deletedAt))}${remaining !== "" ? " · " + remaining + " day" + (remaining === 1 ? "" : "s") + " remaining" : ""}</p>
+          </div>
+          <div class="junk-row-actions">
+            <button type="button" class="btn btn-primary" data-junk-act="restore" data-id="${SSClips.escapeAttr(row.id)}">RESTORE</button>
+            <button type="button" class="btn btn-danger" data-junk-act="delete" data-id="${SSClips.escapeAttr(row.id)}">DELETE FOREVER</button>
+          </div>
+        </article>`;
+      }).join("");
+      els["junk-list"].querySelectorAll("button[data-junk-act]").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          if (btn.dataset.junkAct === "restore") restoreJunkStory(btn.dataset.id);
+          if (btn.dataset.junkAct === "delete") deleteJunkForever(btn.dataset.id);
+        });
+      });
+    }).catch((err) => console.warn("[junk] list failed", err));
+  }
+
+  async function restoreJunkStory(id) {
+    const story = await SSStorage.restoreJunk(id);
+    if (story && !findStory(story.id)) {
+      allStories.unshift(story);
+      SSLoadout.setStoryIndex(allStories);
+      await SSSearch.rebuild(allStories);
+    }
+    await refreshJunkIds();
+    buildRundownIndex();
+    if (activeEdition) await applyFilters();
+    else renderRundownPicker();
+    renderJunkList();
+    showToast("Restored from Junk");
+  }
+
+  async function deleteJunkForever(id) {
+    await SSStorage.deleteJunk(id);
+    await refreshJunkIds();
+    renderJunkList();
+    buildRundownIndex();
+    if (activeEdition) await applyFilters();
+    else renderRundownPicker();
   }
 
   function brandLabel() {
@@ -634,6 +743,13 @@
       els["btn-brand"].addEventListener("click", () => toggleBrand());
     }
 
+    if (els["btn-junk-folder"]) {
+      els["btn-junk-folder"].addEventListener("click", () => {
+        renderJunkList();
+        if (els["junk-dialog"]) els["junk-dialog"].showModal();
+      });
+    }
+
     if (els["btn-refresh"]) {
       els["btn-refresh"].addEventListener("click", async () => {
         els["btn-refresh"].disabled = true;
@@ -742,7 +858,7 @@
   function registerSw() {
     if (!("serviceWorker" in navigator)) return;
     navigator.serviceWorker
-      .register("./sw.js?v=5")
+      .register("./sw.js?v=6")
       .then((reg) => {
         if (els["pwa-status"]) els["pwa-status"].textContent = "PWA ready";
         console.info("[sw] registered", reg.scope);
@@ -760,8 +876,11 @@
     wireUi();
     registerSw();
     try {
+      await SSStorage.purgeJunkOlderThan(7);
+      await refreshJunkIds();
       await bootstrapStories();
       await SSLoadout.load();
+      removeJunkFromLoadout();
       if (activeEdition) renderCards();
       else renderRundownPicker();
     } catch (err) {

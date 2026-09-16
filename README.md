@@ -61,6 +61,7 @@ Writes `data/stories.json` (capped ~280 stories, hashed ids).
 - Clip link-outs
 - Night/Day theme + Daily Goods / Jaystation brand
 - PWA offline shell + last-updated status
+- Junk folder is local (IndexedDB), auto-clears after 7 days; does not rewrite GitHub stories.json
 - Mobile responsive retro arcade UI (Press Start 2P + Inter, NES.css)
 
 

@@ -146,6 +146,7 @@
         <div class="header-controls">
           <button type="button" class="btn btn-primary" id="btn-theme" title="Toggle night/day">NIGHT</button>
           <button type="button" class="btn btn-warning" id="btn-brand" title="Toggle brand">DG</button>
+          <button type="button" class="btn btn-danger" id="btn-junk-folder" title="Open Junk folder">🗑 JUNK</button>
           <button type="button" class="btn btn-success" id="btn-refresh" title="Reload stories">SYNC</button>
         </div>
       </div>
@@ -263,6 +264,17 @@
         <button type="submit" class="btn" value="cancel">Cancel</button>
       </menu>
     </form>
+  </dialog>
+
+  <!-- Junk folder -->
+  <dialog id="junk-dialog" class="dialog junk-dialog">
+    <form method="dialog">
+      <menu class="dialog-menu">
+        <button type="submit" class="btn" value="cancel">Close</button>
+      </menu>
+    </form>
+    <p class="dialog-title section-header">Junk folder</p>
+    <div id="junk-list" class="junk-list"></div>
   </dialog>
 
   <!-- Prep sheet -->
