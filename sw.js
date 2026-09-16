@@ -1,5 +1,5 @@
 /* Story Scout Next — offline service worker */
-const CACHE = "story-scout-next-v1";
+const CACHE = "story-scout-next-v3";
 const PRECACHE = [
   "./",
   "./index.html",
@@ -46,13 +46,33 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  // Cache-first for app shell + same-origin assets
+  // Network-first for HTML/CSS/JS so UI deploys aren't stuck behind SW cache
+  const path = url.pathname;
+  const isShell =
+    path.endsWith("/") ||
+    path.endsWith(".html") ||
+    path.endsWith(".css") ||
+    path.endsWith(".js") ||
+    path.endsWith(".webmanifest");
+
   if (url.origin === self.location.origin) {
+    if (isShell) {
+      event.respondWith(
+        fetch(req)
+          .then((res) => {
+            const copy = res.clone();
+            caches.open(CACHE).then((c) => c.put(req, copy));
+            return res;
+          })
+          .catch(() => caches.match(req))
+      );
+      return;
+    }
     event.respondWith(
       caches.match(req).then((hit) => {
         if (hit) return hit;
         return fetch(req).then((res) => {
-          if (res && res.ok && req.url.startsWith(self.location.origin)) {
+          if (res && res.ok) {
             const copy = res.clone();
             caches.open(CACHE).then((c) => c.put(req, copy));
           }
