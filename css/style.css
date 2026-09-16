@@ -26,24 +26,24 @@
 }
 
 html[data-theme="day"] {
-  --bg: #e8e4f0;
-  --surface: #f4f0fa;
+  --bg: #e8f0f8;
+  --surface: #f0f4fa;
   --surface-raised: #ffffff;
-  --border: #b8b0d4;
-  --border-bright: #8a82b8;
-  --text: #2a2848;
-  --text-dim: #6e6a88;
-  --text-bright: #12101f;
-  --cyan: #0088a8;
-  --orange: #d45520;
-  --purple: #7a2fc0;
-  --green: #1a9a0a;
-  --pink: #c01850;
-  --yellow: #b8860b;
-  --red: #cc2222;
-  --overlay-bg: rgba(232, 228, 240, 0.94);
-  --scanline: rgba(0, 0, 0, 0.04);
-  --shadow-color: rgba(0, 0, 0, 0.2);
+  --border: #b8c8e0;
+  --border-bright: #8da4c8;
+  --text: #2a3650;
+  --text-dim: #6878a0;
+  --text-bright: #0e1a30;
+  --cyan: #0078c8;
+  --orange: #d45000;
+  --purple: #7b2db8;
+  --green: #1a8a00;
+  --pink: #c8185a;
+  --yellow: #b89000;
+  --red: #c82020;
+  --overlay-bg: rgba(200, 216, 240, 0.94);
+  --scanline: rgba(255, 255, 255, 0.04);
+  --shadow-color: rgba(0, 0, 0, 0.12);
 }
 
 html[data-brand="jaystation"] {
