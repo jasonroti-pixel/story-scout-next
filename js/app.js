@@ -21,6 +21,10 @@
   let allStories = [];
   let visibleStories = [];
   let lastPayloadMeta = null;
+  /** @type {{ date: string, slot: string } | null} */
+  let activeEdition = null;
+  /** @type {Array<{ date: string, weekday: string, dateLabel: string, am: number, pm: number, total: number }>} */
+  let rundownIndex = [];
 
   const els = {};
 
@@ -47,6 +51,7 @@
       "btn-prep-sheet",
       "btn-clear-loadout",
       "btn-print-prep",
+      "btn-back-rundowns",
       "last-updated",
       "story-count",
       "offline-badge",
@@ -60,6 +65,11 @@
       "pwa-status",
       "intro-screen",
       "app-shell",
+      "rundown-view",
+      "rundown-grid",
+      "rundown-empty",
+      "edition-view",
+      "edition-label",
       "intro-start",
       "intro-options",
       "intro-options-panel",
@@ -67,7 +77,11 @@
       "intro-theme",
       "intro-theme-opt",
       "intro-brand",
+      "intro-title",
+      "intro-presents",
+      "intro-brand-logo",
       "header-mascot",
+      "header-brand-logo",
       "intro-mascot",
       "intro-brand-opt",
       "toast",
@@ -153,7 +167,13 @@
     if (SSSearch.whenReady) await SSSearch.whenReady(3000);
     await SSSearch.rebuild(allStories);
     updateStatus();
-    await applyFilters();
+    buildRundownIndex();
+    if (activeEdition) {
+      await applyFilters();
+    } else {
+      renderRundownPicker();
+      showRundownView();
+    }
   }
 
   function updateStatus() {
@@ -172,12 +192,18 @@
   async function applyFilters() {
     const q = (els["search-input"] && els["search-input"].value) || "";
     const cat = (els["filter-category"] && els["filter-category"].value) || "";
-    const slot = (els["filter-slot"] && els["filter-slot"].value) || "";
+    const slot =
+      (activeEdition && activeEdition.slot) ||
+      ((els["filter-slot"] && els["filter-slot"].value) || "");
     const sort = (els["filter-sort"] && els["filter-sort"].value) || "score";
     const caOnly = els["filter-canadian"] && els["filter-canadian"].checked;
     const clipsOnly = els["filter-clips"] && els["filter-clips"].checked;
 
     let list = allStories.slice();
+
+    if (activeEdition && activeEdition.date) {
+      list = list.filter((s) => s.date === activeEdition.date);
+    }
 
     if (q.trim()) {
       const ids = await SSSearch.query(q, 200);
@@ -203,6 +229,122 @@
 
     visibleStories = list;
     renderCards();
+  }
+
+
+  const WEEKDAYS = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  const MONTHS = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+
+  function formatRundownDate(iso) {
+    const parts = String(iso || "").split("-").map(Number);
+    if (parts.length !== 3 || parts.some((n) => !n)) {
+      return { weekday: "—", dateLabel: String(iso || "—") };
+    }
+    const [y, m, d] = parts;
+    const dt = new Date(Date.UTC(y, m - 1, d, 12, 0, 0));
+    return {
+      weekday: WEEKDAYS[dt.getUTCDay()],
+      dateLabel: MONTHS[m - 1] + " " + String(d).padStart(2, "0"),
+    };
+  }
+
+  function buildRundownIndex() {
+    const byDate = new Map();
+    for (const s of allStories) {
+      const date = s.date || "unknown";
+      if (!byDate.has(date)) {
+        byDate.set(date, { date, am: 0, pm: 0, total: 0 });
+      }
+      const row = byDate.get(date);
+      row.total += 1;
+      if (s.slot === "pm") row.pm += 1;
+      else row.am += 1;
+    }
+    rundownIndex = Array.from(byDate.values())
+      .sort((a, b) => String(b.date).localeCompare(String(a.date)))
+      .map((row) => {
+        const fmt = formatRundownDate(row.date);
+        return Object.assign({}, row, {
+          weekday: fmt.weekday,
+          dateLabel: fmt.dateLabel,
+        });
+      });
+  }
+
+  function showRundownView() {
+    if (els["rundown-view"]) els["rundown-view"].hidden = false;
+    if (els["edition-view"]) els["edition-view"].hidden = true;
+  }
+
+  function showEditionView() {
+    if (els["rundown-view"]) els["rundown-view"].hidden = true;
+    if (els["edition-view"]) els["edition-view"].hidden = false;
+  }
+
+  function renderRundownPicker() {
+    const root = els["rundown-grid"];
+    if (!root) return;
+    buildRundownIndex();
+    if (!rundownIndex.length) {
+      root.innerHTML = "";
+      if (els["rundown-empty"]) els["rundown-empty"].hidden = false;
+      return;
+    }
+    if (els["rundown-empty"]) els["rundown-empty"].hidden = true;
+
+    root.innerHTML = rundownIndex
+      .map((row) => {
+        const amBtn = row.am
+          ? `<button type="button" class="edition-btn morning" data-date="${SSClips.escapeAttr(row.date)}" data-slot="am">MORNING</button>`
+          : "";
+        const pmBtn = row.pm
+          ? `<button type="button" class="edition-btn evening" data-date="${SSClips.escapeAttr(row.date)}" data-slot="pm">EVENING</button>`
+          : "";
+        return `<article class="rundown-card" role="listitem" data-date="${SSClips.escapeAttr(row.date)}">
+          <div class="rundown-card-top">
+            <img class="rundown-logo pixelated" src="assets/daily-goods-logo.jpeg" alt="Daily Goods" />
+            <div class="rundown-date-block">
+              <p class="rundown-weekday">${SSClips.escapeHtml(row.weekday)}</p>
+              <h3 class="rundown-date">${SSClips.escapeHtml(row.dateLabel)}</h3>
+            </div>
+          </div>
+          <div class="rundown-editions">${amBtn}${pmBtn}</div>
+          <p class="rundown-count">${row.total} stor${row.total === 1 ? "y" : "ies"}</p>
+        </article>`;
+      })
+      .join("");
+
+    root.querySelectorAll(".edition-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        openEdition(btn.dataset.date, btn.dataset.slot);
+      });
+    });
+  }
+
+  function openEdition(date, slot) {
+    if (!date || !slot) return;
+    activeEdition = { date: String(date), slot: String(slot) };
+    if (els["filter-slot"]) els["filter-slot"].value = activeEdition.slot;
+    const fmt = formatRundownDate(activeEdition.date);
+    const slotLabel = activeEdition.slot === "pm" ? "EVENING" : "MORNING";
+    if (els["edition-label"]) {
+      els["edition-label"].textContent =
+        fmt.weekday + " " + fmt.dateLabel + " · " + slotLabel;
+    }
+    showEditionView();
+    applyFilters();
+  }
+
+  function backToRundowns() {
+    activeEdition = null;
+    if (els["filter-slot"]) els["filter-slot"].value = "";
+    if (els["search-input"]) els["search-input"].value = "";
+    if (els["filter-category"]) els["filter-category"].value = "";
+    if (els["filter-canadian"]) els["filter-canadian"].checked = false;
+    if (els["filter-clips"]) els["filter-clips"].checked = false;
+    if (els["stories-list"]) els["stories-list"].innerHTML = "";
+    renderRundownPicker();
+    showRundownView();
   }
 
   function renderCards() {
@@ -398,6 +540,12 @@
       els["intro-screen"].hidden = true;
     }
     if (els["app-shell"]) els["app-shell"].hidden = false;
+    if (!activeEdition) {
+      renderRundownPicker();
+      showRundownView();
+    } else {
+      showEditionView();
+    }
   }
 
   function wireIntro() {
@@ -443,8 +591,23 @@
       const el = els[id];
       if (!el) return;
       const evt = el.tagName === "INPUT" && el.type === "search" ? "input" : "change";
-      el.addEventListener(evt, () => applyFilters());
+      el.addEventListener(evt, () => {
+        if (id === "filter-slot" && activeEdition && el.value) {
+          activeEdition = { date: activeEdition.date, slot: el.value };
+          const fmt = formatRundownDate(activeEdition.date);
+          const slotLabel = activeEdition.slot === "pm" ? "EVENING" : "MORNING";
+          if (els["edition-label"]) {
+            els["edition-label"].textContent =
+              fmt.weekday + " " + fmt.dateLabel + " · " + slotLabel;
+          }
+        }
+        applyFilters();
+      });
     });
+
+    if (els["btn-back-rundowns"]) {
+      els["btn-back-rundowns"].addEventListener("click", () => backToRundowns());
+    }
 
     if (els["btn-theme"]) {
       els["btn-theme"].addEventListener("click", () => toggleTheme());
@@ -515,7 +678,12 @@
         SSLoadout.setStoryIndex(allStories);
         await SSSearch.rebuild(allStories);
         updateStatus();
-        await applyFilters();
+        buildRundownIndex();
+        if (activeEdition) {
+          await applyFilters();
+        } else {
+          renderRundownPicker();
+        }
         showToast("Custom story added");
       });
     }
@@ -557,7 +725,7 @@
   function registerSw() {
     if (!("serviceWorker" in navigator)) return;
     navigator.serviceWorker
-      .register("./sw.js?v=3")
+      .register("./sw.js?v=4")
       .then((reg) => {
         if (els["pwa-status"]) els["pwa-status"].textContent = "PWA ready";
         console.info("[sw] registered", reg.scope);
@@ -577,7 +745,8 @@
     try {
       await bootstrapStories();
       await SSLoadout.load();
-      renderCards();
+      if (activeEdition) renderCards();
+      else renderRundownPicker();
     } catch (err) {
       if (els["stories-list"]) {
         els["stories-list"].innerHTML =

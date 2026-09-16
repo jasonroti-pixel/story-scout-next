@@ -1,5 +1,5 @@
 /* Story Scout Next — offline service worker */
-const CACHE = "story-scout-next-v3";
+const CACHE = "story-scout-next-v4";
 const PRECACHE = [
   "./",
   "./index.html",

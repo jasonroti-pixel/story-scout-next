@@ -274,7 +274,7 @@ html[data-theme="day"] .windows {
 
 .app-title {
   font-family: var(--font-pixel);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   margin: 0 0 0.35rem;
   color: var(--cyan);
   text-shadow: 0 0 8px rgba(0, 229, 255, 0.35);
@@ -583,9 +583,10 @@ textarea.input:focus {
 }
 
 .card-title {
-  font-family: var(--font-pixel);
-  font-size: 0.42rem;
-  line-height: 1.55;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.35;
   margin: 0;
   color: var(--text-bright);
 }
@@ -738,9 +739,10 @@ textarea.input:focus {
   color: var(--purple);
 }
 .detail-title {
-  font-family: var(--font-pixel);
-  font-size: 0.55rem;
-  line-height: 1.55;
+  font-family: var(--font-body);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.35;
   margin: 0.5rem 0;
   color: var(--text-bright);
 }
@@ -859,6 +861,154 @@ textarea.input:focus {
   #prep-dialog form {
     display: none;
   }
+}
+
+
+/* ---------- Rundown picker (Arcade-style) ---------- */
+.rundown-view {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.rundown-view[hidden],
+.edition-view[hidden] {
+  display: none !important;
+}
+
+.edition-view {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.rundown-heading {
+  text-align: center;
+}
+
+.rundown-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.85rem;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.rundown-card {
+  background: var(--surface);
+  border: 2px solid var(--border);
+  padding: 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  min-height: 168px;
+  box-shadow: 3px 3px 0 var(--shadow-color);
+}
+
+.rundown-card-top {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.65rem;
+}
+
+.rundown-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  flex-shrink: 0;
+}
+
+.rundown-date-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.rundown-weekday {
+  font-family: var(--font-pixel);
+  font-size: 0.32rem;
+  color: var(--text-dim);
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+
+.rundown-date {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: clamp(1.35rem, 2.8vw, 1.75rem);
+  line-height: 1.1;
+  color: var(--text-bright);
+  margin: 0;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.rundown-editions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  margin-top: 0.15rem;
+}
+
+.edition-btn {
+  font-family: var(--font-pixel);
+  font-size: 0.35rem;
+  line-height: 1.4;
+  padding: 0.5rem 0.55rem;
+  background: transparent;
+  border: 2px solid var(--border-bright);
+  color: var(--text-bright);
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  transition: color 0.1s, border-color 0.1s, box-shadow 0.1s, background 0.1s;
+}
+
+.edition-btn.morning {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+.edition-btn.morning:hover {
+  background: rgba(255, 215, 0, 0.1);
+  box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+}
+
+.edition-btn.evening {
+  border-color: var(--purple);
+  color: var(--purple);
+}
+.edition-btn.evening:hover {
+  background: rgba(180, 74, 255, 0.1);
+  box-shadow: 0 0 10px rgba(180, 74, 255, 0.3);
+}
+
+.rundown-count {
+  margin-top: auto;
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: var(--text-dim);
+}
+
+.edition-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.edition-label {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--text-bright);
+  letter-spacing: 0.02em;
 }
 
 /* ---------- Brand assets / Nico ---------- */

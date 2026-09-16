@@ -12,7 +12,7 @@
   <!-- Fonts: Press Start 2P + IBM Plex Mono (Arcade) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/style.css" />
 
@@ -156,56 +156,69 @@
       </div>
     </header>
 
-    <nav class="toolbar panel" aria-label="Filters">
-      <div class="toolbar-row">
-        <div class="search-wrap">
-          <input type="search" id="search-input" class="input" placeholder="Search stories…" autocomplete="off" />
-        </div>
-        <select id="filter-category" class="select" aria-label="Category">
-          <option value="">All categories</option>
-          <option>THE LIST</option>
-          <option>ENTERTAINMENT</option>
-          <option>BREAKOUT WATCH</option>
-          <option>LIFESTYLE CHAT</option>
-          <option>CANADIAN NEWS</option>
-          <option>TECH</option>
-          <option>SPORTS</option>
-          <option>CLOSER</option>
-        </select>
-        <select id="filter-slot" class="select" aria-label="Slot">
-          <option value="">AM + PM</option>
-          <option value="am">AM</option>
-          <option value="pm">PM</option>
-        </select>
-        <select id="filter-sort" class="select" aria-label="Sort">
-          <option value="score">Score</option>
-          <option value="date">Date</option>
-          <option value="category">Category</option>
-          <option value="title">Title</option>
-        </select>
-        <label class="chk"><input type="checkbox" id="filter-canadian" /><span>CA only</span></label>
-        <label class="chk"><input type="checkbox" id="filter-clips" /><span>Has clips</span></label>
-        <button type="button" class="btn btn-warning" id="btn-custom">+ Custom</button>
+    <section id="rundown-view" class="rundown-view" aria-label="Rundown picker">
+      <h2 class="section-header rundown-heading">SELECT RUNDOWN</h2>
+      <div id="rundown-grid" class="rundown-grid" role="list"></div>
+      <p id="rundown-empty" class="empty-state" hidden>No rundowns yet. Sync stories to continue.</p>
+    </section>
+
+    <div id="edition-view" class="edition-view" hidden>
+      <div class="edition-bar panel">
+        <button type="button" class="btn" id="btn-back-rundowns" title="Back to rundowns">← RUNDOWNS</button>
+        <span class="edition-label" id="edition-label"></span>
       </div>
-    </nav>
 
-    <div class="layout">
-      <main id="main" class="stories-pane">
-        <div id="stories-list" class="stories-grid" role="list"></div>
-        <p id="empty-state" class="empty-state" hidden>No stories match. Try clearing filters.</p>
-      </main>
-
-      <aside class="loadout-pane panel" aria-label="Show loadout">
-        <h2 class="pane-title section-header">LOADOUT</h2>
-        <div class="loadout-actions">
-          <button type="button" class="btn btn-primary" id="btn-save-loadout">Save</button>
-          <button type="button" class="btn" id="btn-load-loadout">Load</button>
-          <button type="button" class="btn btn-success" id="btn-prep-sheet">Prep sheet</button>
-          <button type="button" class="btn btn-danger" id="btn-clear-loadout">Clear</button>
+      <nav class="toolbar panel" aria-label="Filters">
+        <div class="toolbar-row">
+          <div class="search-wrap">
+            <input type="search" id="search-input" class="input" placeholder="Search stories…" autocomplete="off" />
+          </div>
+          <select id="filter-category" class="select" aria-label="Category">
+            <option value="">All categories</option>
+            <option>THE LIST</option>
+            <option>ENTERTAINMENT</option>
+            <option>BREAKOUT WATCH</option>
+            <option>LIFESTYLE CHAT</option>
+            <option>CANADIAN NEWS</option>
+            <option>TECH</option>
+            <option>SPORTS</option>
+            <option>CLOSER</option>
+          </select>
+          <select id="filter-slot" class="select" aria-label="Slot" hidden>
+            <option value="">AM + PM</option>
+            <option value="am">AM</option>
+            <option value="pm">PM</option>
+          </select>
+          <select id="filter-sort" class="select" aria-label="Sort">
+            <option value="score">Score</option>
+            <option value="date">Date</option>
+            <option value="category">Category</option>
+            <option value="title">Title</option>
+          </select>
+          <label class="chk"><input type="checkbox" id="filter-canadian" /><span>CA only</span></label>
+          <label class="chk"><input type="checkbox" id="filter-clips" /><span>Has clips</span></label>
+          <button type="button" class="btn btn-warning" id="btn-custom">+ Custom</button>
         </div>
-        <ol id="loadout-list" class="loadout-list"></ol>
-        <p class="hint">Drag to reorder · click ★ for backup</p>
-      </aside>
+      </nav>
+
+      <div class="layout">
+        <main id="main" class="stories-pane">
+          <div id="stories-list" class="stories-grid" role="list"></div>
+          <p id="empty-state" class="empty-state" hidden>No stories match. Try clearing filters.</p>
+        </main>
+
+        <aside class="loadout-pane panel" aria-label="Show loadout">
+          <h2 class="pane-title section-header">LOADOUT</h2>
+          <div class="loadout-actions">
+            <button type="button" class="btn btn-primary" id="btn-save-loadout">Save</button>
+            <button type="button" class="btn" id="btn-load-loadout">Load</button>
+            <button type="button" class="btn btn-success" id="btn-prep-sheet">Prep sheet</button>
+            <button type="button" class="btn btn-danger" id="btn-clear-loadout">Clear</button>
+          </div>
+          <ol id="loadout-list" class="loadout-list"></ol>
+          <p class="hint">Drag to reorder · click ★ for backup</p>
+        </aside>
+      </div>
     </div>
 
     <footer class="app-footer">
