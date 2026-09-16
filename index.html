@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="night" data-brand="daily-goods">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Story Scout Next — Canadian radio-prep story board (static SPA)" />
+  <meta name="theme-color" content="#0b0f1a" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23111'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' font-size='36' fill='%230ff'%3ESS%3C/text%3E%3C/svg%3E" />
+  <title>Story Scout Next</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+  <!-- NES.css retro UI -->
+  <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- CDN libs (no npm build) -->
+  <script src="https://unpkg.com/dexie@4.0.8/dist/dexie.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.2/Sortable.min.js"></script>
+  <!-- Orama is ESM-only; expose a window global for classic scripts -->
+  <script type="module">
+    import * as Orama from "https://cdn.jsdelivr.net/npm/@orama/orama@2.1.1/+esm";
+    window.Orama = Orama;
+    window.dispatchEvent(new Event("orama-ready"));
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to stories</a>
+
+  <header class="app-header nes-container is-rounded">
+    <div class="brand-row">
+      <div class="brand-block">
+        <h1 class="app-title">STORY SCOUT</h1>
+        <p class="app-subtitle" id="brand-label">Daily Goods · Radio Prep</p>
+      </div>
+      <div class="header-controls">
+        <button type="button" class="nes-btn is-primary" id="btn-theme" title="Toggle night/day">NIGHT</button>
+        <button type="button" class="nes-btn" id="btn-brand" title="Toggle brand">DG</button>
+        <button type="button" class="nes-btn is-success" id="btn-refresh" title="Reload stories">SYNC</button>
+      </div>
+    </div>
+    <div class="status-row">
+      <span class="nes-text" id="last-updated">Last updated: —</span>
+      <span class="nes-badge"><span class="is-dark" id="story-count">0</span></span>
+      <span class="nes-text is-disabled" id="offline-badge" hidden>OFFLINE</span>
+    </div>
+  </header>
+
+  <nav class="toolbar nes-container" aria-label="Filters">
+    <div class="toolbar-row">
+      <div class="search-wrap">
+        <input type="search" id="search-input" class="nes-input" placeholder="Search stories…" autocomplete="off" />
+      </div>
+      <select id="filter-category" class="nes-input" aria-label="Category">
+        <option value="">All categories</option>
+        <option>THE LIST</option>
+        <option>ENTERTAINMENT</option>
+        <option>BREAKOUT WATCH</option>
+        <option>LIFESTYLE CHAT</option>
+        <option>CANADIAN NEWS</option>
+        <option>TECH</option>
+        <option>SPORTS</option>
+        <option>CLOSER</option>
+      </select>
+      <select id="filter-slot" class="nes-input" aria-label="Slot">
+        <option value="">AM + PM</option>
+        <option value="am">AM</option>
+        <option value="pm">PM</option>
+      </select>
+      <select id="filter-sort" class="nes-input" aria-label="Sort">
+        <option value="score">Score</option>
+        <option value="date">Date</option>
+        <option value="category">Category</option>
+        <option value="title">Title</option>
+      </select>
+      <label class="chk"><input type="checkbox" id="filter-canadian" class="nes-checkbox" /><span>CA only</span></label>
+      <label class="chk"><input type="checkbox" id="filter-clips" class="nes-checkbox" /><span>Has clips</span></label>
+      <button type="button" class="nes-btn is-warning" id="btn-custom">+ Custom</button>
+    </div>
+  </nav>
+
+  <div class="layout">
+    <main id="main" class="stories-pane">
+      <div id="stories-list" class="stories-grid" role="list"></div>
+      <p id="empty-state" class="empty-state" hidden>No stories match. Try clearing filters.</p>
+    </main>
+
+    <aside class="loadout-pane nes-container is-rounded" aria-label="Show loadout">
+      <h2 class="pane-title">LOADOUT</h2>
+      <div class="loadout-actions">
+        <button type="button" class="nes-btn is-primary" id="btn-save-loadout">Save</button>
+        <button type="button" class="nes-btn" id="btn-load-loadout">Load</button>
+        <button type="button" class="nes-btn is-success" id="btn-prep-sheet">Prep sheet</button>
+        <button type="button" class="nes-btn is-error" id="btn-clear-loadout">Clear</button>
+      </div>
+      <ol id="loadout-list" class="loadout-list"></ol>
+      <p class="hint">Drag to reorder · click ★ for backup</p>
+    </aside>
+  </div>
+
+  <!-- Detail modal -->
+  <dialog id="detail-dialog" class="nes-dialog detail-dialog">
+    <form method="dialog">
+      <menu class="dialog-menu">
+        <button type="submit" class="nes-btn" value="cancel">Close</button>
+      </menu>
+    </form>
+    <article id="detail-body"></article>
+  </dialog>
+
+  <!-- Custom story modal -->
+  <dialog id="custom-dialog" class="nes-dialog">
+    <form id="custom-form" method="dialog">
+      <p class="title">Custom story</p>
+      <label>Title<input class="nes-input" name="title" required maxlength="200" /></label>
+      <label>Category
+        <select class="nes-input" name="category">
+          <option>THE LIST</option>
+          <option>ENTERTAINMENT</option>
+          <option>BREAKOUT WATCH</option>
+          <option>LIFESTYLE CHAT</option>
+          <option>CANADIAN NEWS</option>
+          <option>TECH</option>
+          <option>SPORTS</option>
+          <option>CLOSER</option>
+        </select>
+      </label>
+      <label>Angle<input class="nes-input" name="angle" maxlength="240" /></label>
+      <label>Bullets (one per line)<textarea class="nes-input" name="bullets" rows="3"></textarea></label>
+      <label>Debate<input class="nes-input" name="debate" maxlength="240" /></label>
+      <label>Source URL<input class="nes-input" name="url" type="url" /></label>
+      <menu class="dialog-menu">
+        <button type="submit" class="nes-btn is-primary" value="ok">Add</button>
+        <button type="submit" class="nes-btn" value="cancel">Cancel</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <!-- Prep sheet -->
+  <dialog id="prep-dialog" class="nes-dialog prep-dialog">
+    <form method="dialog">
+      <menu class="dialog-menu">
+        <button type="button" class="nes-btn is-primary" id="btn-print-prep">Print</button>
+        <button type="submit" class="nes-btn" value="cancel">Close</button>
+      </menu>
+    </form>
+    <div id="prep-body" class="prep-body"></div>
+  </dialog>
+
+  <footer class="app-footer">
+    <span>Story Scout Next · static GitHub Pages SPA</span>
+    <span id="pwa-status"></span>
+  </footer>
+
+  <script src="js/storage.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/clips.js"></script>
+  <script src="js/loadout.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

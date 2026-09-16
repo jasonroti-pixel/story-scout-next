@@ -1,0 +1,131 @@
+# Story Scout Next — RSS feed sources with category hints
+# Real public feeds for Canadian radio-prep story ingest
+
+feeds:
+  # --- CBC ---
+  - name: CBC Top Stories
+    url: https://www.cbc.ca/webfeed/rss/rss-topstories
+    category_hint: CANADIAN NEWS
+    source_type: news
+
+  - name: CBC Canada
+    url: https://www.cbc.ca/webfeed/rss/rss-canada
+    category_hint: CANADIAN NEWS
+    source_type: news
+
+  - name: CBC Entertainment
+    url: https://www.cbc.ca/webfeed/rss/rss-arts
+    category_hint: ENTERTAINMENT
+    source_type: news
+
+  - name: CBC Technology
+    url: https://www.cbc.ca/webfeed/rss/rss-technology
+    category_hint: TECH
+    source_type: news
+
+  # --- Canadian newspapers / TV ---
+  - name: Globe and Mail
+    url: https://www.theglobeandmail.com/arc/outboundfeeds/rss/category/canada/
+    category_hint: CANADIAN NEWS
+    source_type: news
+
+  - name: CP24
+    url: https://www.cp24.com/rss
+    category_hint: CANADIAN NEWS
+    source_type: news
+
+  - name: CTV News
+    url: https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009
+    category_hint: CANADIAN NEWS
+    source_type: news
+
+  - name: Toronto Star
+    url: https://www.thestar.com/content/thestar/feed.RSSManagerServlet.articles.topstories.rss
+    category_hint: CANADIAN NEWS
+    source_type: news
+
+  # --- Reddit ---
+  - name: Reddit r/canada
+    url: https://www.reddit.com/r/canada/.rss
+    category_hint: CANADIAN NEWS
+    source_type: social
+
+  - name: Reddit r/toronto
+    url: https://www.reddit.com/r/toronto/.rss
+    category_hint: CANADIAN NEWS
+    source_type: social
+
+  - name: Reddit r/technology
+    url: https://www.reddit.com/r/technology/.rss
+    category_hint: TECH
+    source_type: social
+
+  - name: Reddit r/entertainment
+    url: https://www.reddit.com/r/entertainment/.rss
+    category_hint: ENTERTAINMENT
+    source_type: social
+
+  - name: Reddit r/nottheonion
+    url: https://www.reddit.com/r/nottheonion/.rss
+    category_hint: THE LIST
+    source_type: social
+
+  - name: Reddit r/UpliftingNews
+    url: https://www.reddit.com/r/UpliftingNews/.rss
+    category_hint: LIFESTYLE CHAT
+    source_type: social
+
+  # --- US / international entertainment & news ---
+  - name: NY Post
+    url: https://nypost.com/feed/
+    category_hint: THE LIST
+    source_type: news
+
+  - name: Hollywood Reporter
+    url: https://www.hollywoodreporter.com/feed/
+    category_hint: ENTERTAINMENT
+    source_type: news
+
+  - name: People
+    url: https://people.com/feed/
+    category_hint: ENTERTAINMENT
+    source_type: news
+
+  - name: Variety
+    url: https://variety.com/feed/
+    category_hint: ENTERTAINMENT
+    source_type: news
+
+  - name: BBC News
+    url: https://feeds.bbci.co.uk/news/rss.xml
+    category_hint: CANADIAN NEWS
+    source_type: news
+
+  - name: Reuters Top News
+    url: https://www.reutersagency.com/feed/?taxonomy=best-topics&post_type=best
+    category_hint: CANADIAN NEWS
+    source_type: news
+
+  - name: The Verge
+    url: https://www.theverge.com/rss/index.xml
+    category_hint: TECH
+    source_type: news
+
+  - name: Ars Technica
+    url: https://feeds.arstechnica.com/arstechnica/index
+    category_hint: TECH
+    source_type: news
+
+categories:
+  - THE LIST
+  - ENTERTAINMENT
+  - BREAKOUT WATCH
+  - LIFESTYLE CHAT
+  - CANADIAN NEWS
+  - TECH
+  - SPORTS
+  - CLOSER
+
+pipeline:
+  max_stories: 80
+  pipeline_version: "1.0.0"
