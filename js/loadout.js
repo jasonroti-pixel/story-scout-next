@@ -67,15 +67,15 @@
         const s = storyById.get(it.id);
         const title = s ? s.title : "(missing story " + it.id + ")";
         const cat = s ? s.category : "";
-        return `<li class="loadout-item${it.isBackup ? " is-backup" : ""}" data-id="${SSClips.escapeAttr(it.id)}">
+        return `<li class="loadout-item card${it.isBackup ? " is-backup" : ""}" data-id="${SSClips.escapeAttr(it.id)}">
           <span class="lo-title">${idx + 1}. ${SSClips.escapeHtml(title)}</span>
-          <span class="nes-text is-disabled">${SSClips.escapeHtml(cat)}${it.isBackup ? " · BACKUP" : ""}</span>
+          <span class="lo-cat">${SSClips.escapeHtml(cat)}${it.isBackup ? " · BACKUP" : ""}</span>
           <label>Notes
-            <input class="nes-input lo-notes" data-id="${SSClips.escapeAttr(it.id)}" value="${SSClips.escapeAttr(it.notes)}" />
+            <input class="input lo-notes" data-id="${SSClips.escapeAttr(it.id)}" value="${SSClips.escapeAttr(it.notes)}" />
           </label>
           <div class="lo-actions">
-            <button type="button" data-act="backup" data-id="${SSClips.escapeAttr(it.id)}">★ Backup</button>
-            <button type="button" data-act="remove" data-id="${SSClips.escapeAttr(it.id)}">Remove</button>
+            <button type="button" class="btn btn-warning" data-act="backup" data-id="${SSClips.escapeAttr(it.id)}">★ Backup</button>
+            <button type="button" class="btn btn-danger" data-act="remove" data-id="${SSClips.escapeAttr(it.id)}">Remove</button>
           </div>
         </li>`;
       })
@@ -113,7 +113,7 @@
         <p><strong>${SSClips.escapeHtml(s.category || "")}</strong> · ${SSClips.escapeHtml(s.source || "")}</p>
         <p><em>Angle:</em> ${SSClips.escapeHtml(s.angle || "")}</p>
         <ul>${bullets}</ul>
-        <p><em>Debate:</em> ${SSClips.escapeHtml(s.debate || "")}</p>
+        <p><em>Debate:</em> <span class="detail-debate">${SSClips.escapeHtml(s.debate || "")}</span></p>
         ${it.notes ? `<p><em>Notes:</em> ${SSClips.escapeHtml(it.notes)}</p>` : ""}
         ${s.url ? `<p><a href="${SSClips.escapeAttr(s.url)}" target="_blank" rel="noopener">Source</a></p>` : ""}
       </section>`;

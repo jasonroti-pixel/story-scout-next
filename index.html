@@ -4,18 +4,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="description" content="Story Scout Next — Canadian radio-prep story board (static SPA)" />
-  <meta name="theme-color" content="#0b0f1a" />
+  <meta name="theme-color" content="#06050f" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23111'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' font-size='36' fill='%230ff'%3ESS%3C/text%3E%3C/svg%3E" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2306050f'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' font-size='36' fill='%2300e5ff'%3ESS%3C/text%3E%3C/svg%3E" />
   <title>Story Scout Next</title>
 
-  <!-- Fonts -->
+  <!-- Fonts: Press Start 2P + IBM Plex Mono (Arcade) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
 
-  <!-- NES.css retro UI -->
-  <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
 
   <!-- CDN libs (no npm build) -->
@@ -31,94 +29,208 @@
 <body>
   <a class="skip-link" href="#main">Skip to stories</a>
 
-  <header class="app-header nes-container is-rounded">
-    <div class="brand-row">
-      <div class="brand-block">
-        <h1 class="app-title">STORY SCOUT</h1>
-        <p class="app-subtitle" id="brand-label">Daily Goods · Radio Prep</p>
-      </div>
-      <div class="header-controls">
-        <button type="button" class="nes-btn is-primary" id="btn-theme" title="Toggle night/day">NIGHT</button>
-        <button type="button" class="nes-btn" id="btn-brand" title="Toggle brand">DG</button>
-        <button type="button" class="nes-btn is-success" id="btn-refresh" title="Reload stories">SYNC</button>
-      </div>
+  <!-- Full-screen Arcade intro -->
+  <div id="intro-screen" class="intro-screen" role="dialog" aria-label="Story Scout intro">
+    <div class="intro-sky" aria-hidden="true">
+      <svg class="intro-skyline" viewBox="0 0 320 120" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="skyGradNight" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#0a0820"/>
+            <stop offset="100%" stop-color="#06050f"/>
+          </linearGradient>
+          <linearGradient id="skyGradDay" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#7ec8ff"/>
+            <stop offset="100%" stop-color="#c8e4ff"/>
+          </linearGradient>
+        </defs>
+        <rect class="sky-fill" width="320" height="120" fill="url(#skyGradNight)"/>
+        <g class="stars">
+          <rect x="20" y="12" width="2" height="2" fill="#eae8ff"/>
+          <rect x="48" y="28" width="2" height="2" fill="#c4c0e8"/>
+          <rect x="80" y="8" width="2" height="2" fill="#eae8ff"/>
+          <rect x="110" y="22" width="2" height="2" fill="#00e5ff"/>
+          <rect x="140" y="14" width="2" height="2" fill="#eae8ff"/>
+          <rect x="175" y="30" width="2" height="2" fill="#c4c0e8"/>
+          <rect x="200" y="10" width="2" height="2" fill="#ffd700"/>
+          <rect x="230" y="24" width="2" height="2" fill="#eae8ff"/>
+          <rect x="260" y="16" width="2" height="2" fill="#b44aff"/>
+          <rect x="290" y="8" width="2" height="2" fill="#eae8ff"/>
+          <rect x="305" y="32" width="2" height="2" fill="#00e5ff"/>
+          <rect x="35" y="40" width="2" height="2" fill="#eae8ff"/>
+          <rect x="155" y="38" width="2" height="2" fill="#c4c0e8"/>
+          <rect x="275" y="42" width="2" height="2" fill="#eae8ff"/>
+        </g>
+        <!-- Pixel city skyline -->
+        <g class="city" fill="#0e0d1f" stroke="#2a2854" stroke-width="1">
+          <rect x="0" y="78" width="18" height="42"/>
+          <rect x="16" y="62" width="22" height="58"/>
+          <rect x="36" y="70" width="14" height="50"/>
+          <rect x="48" y="48" width="28" height="72"/>
+          <rect x="74" y="66" width="16" height="54"/>
+          <rect x="88" y="54" width="24" height="66"/>
+          <rect x="110" y="72" width="12" height="48"/>
+          <rect x="120" y="40" width="32" height="80"/>
+          <rect x="150" y="58" width="18" height="62"/>
+          <rect x="166" y="68" width="14" height="52"/>
+          <rect x="178" y="44" width="30" height="76"/>
+          <rect x="206" y="60" width="20" height="60"/>
+          <rect x="224" y="52" width="26" height="68"/>
+          <rect x="248" y="74" width="14" height="46"/>
+          <rect x="260" y="56" width="28" height="64"/>
+          <rect x="286" y="64" width="18" height="56"/>
+          <rect x="302" y="78" width="18" height="42"/>
+        </g>
+        <!-- Window lights -->
+        <g class="windows" fill="#ffd700">
+          <rect x="52" y="56" width="3" height="3"/><rect x="58" y="56" width="3" height="3"/>
+          <rect x="52" y="64" width="3" height="3"/><rect x="64" y="72" width="3" height="3"/>
+          <rect x="128" y="50" width="3" height="3"/><rect x="136" y="58" width="3" height="3"/>
+          <rect x="186" y="52" width="3" height="3"/><rect x="194" y="60" width="3" height="3"/>
+          <rect x="232" y="60" width="3" height="3"/><rect x="240" y="68" width="3" height="3"/>
+          <rect x="268" y="64" width="3" height="3"/><rect x="276" y="72" width="3" height="3"/>
+        </g>
+      </svg>
     </div>
-    <div class="status-row">
-      <span class="nes-text" id="last-updated">Last updated: —</span>
-      <span class="nes-badge"><span class="is-dark" id="story-count">0</span></span>
-      <span class="nes-text is-disabled" id="offline-badge" hidden>OFFLINE</span>
-    </div>
-  </header>
 
-  <nav class="toolbar nes-container" aria-label="Filters">
-    <div class="toolbar-row">
-      <div class="search-wrap">
-        <input type="search" id="search-input" class="nes-input" placeholder="Search stories…" autocomplete="off" />
+    <div class="intro-content">
+      <p class="intro-presents" id="intro-presents">THE DAILY GOODS PRESENTS</p>
+      <h1 class="intro-title" id="intro-title">JAYSTATION</h1>
+      <img class="intro-brand-logo pixelated" id="intro-brand-logo" src="assets/daily-goods-logo.jpeg" alt="The Daily Goods" hidden />
+      <p class="intro-subtitle">STORY SCOUT ARCADE</p>
+
+      <div class="intro-mascot-wrap">
+        <img class="intro-mascot pixelated" id="intro-mascot" src="assets/nico-sit.png" alt="Nico" />
+        <p class="intro-featuring">FEATURING NICO</p>
       </div>
-      <select id="filter-category" class="nes-input" aria-label="Category">
-        <option value="">All categories</option>
-        <option>THE LIST</option>
-        <option>ENTERTAINMENT</option>
-        <option>BREAKOUT WATCH</option>
-        <option>LIFESTYLE CHAT</option>
-        <option>CANADIAN NEWS</option>
-        <option>TECH</option>
-        <option>SPORTS</option>
-        <option>CLOSER</option>
-      </select>
-      <select id="filter-slot" class="nes-input" aria-label="Slot">
-        <option value="">AM + PM</option>
-        <option value="am">AM</option>
-        <option value="pm">PM</option>
-      </select>
-      <select id="filter-sort" class="nes-input" aria-label="Sort">
-        <option value="score">Score</option>
-        <option value="date">Date</option>
-        <option value="category">Category</option>
-        <option value="title">Title</option>
-      </select>
-      <label class="chk"><input type="checkbox" id="filter-canadian" class="nes-checkbox" /><span>CA only</span></label>
-      <label class="chk"><input type="checkbox" id="filter-clips" class="nes-checkbox" /><span>Has clips</span></label>
-      <button type="button" class="nes-btn is-warning" id="btn-custom">+ Custom</button>
-    </div>
-  </nav>
 
-  <div class="layout">
-    <main id="main" class="stories-pane">
-      <div id="stories-list" class="stories-grid" role="list"></div>
-      <p id="empty-state" class="empty-state" hidden>No stories match. Try clearing filters.</p>
-    </main>
-
-    <aside class="loadout-pane nes-container is-rounded" aria-label="Show loadout">
-      <h2 class="pane-title">LOADOUT</h2>
-      <div class="loadout-actions">
-        <button type="button" class="nes-btn is-primary" id="btn-save-loadout">Save</button>
-        <button type="button" class="nes-btn" id="btn-load-loadout">Load</button>
-        <button type="button" class="nes-btn is-success" id="btn-prep-sheet">Prep sheet</button>
-        <button type="button" class="nes-btn is-error" id="btn-clear-loadout">Clear</button>
+      <div class="intro-actions">
+        <button type="button" class="btn btn-warning" id="intro-brand" title="Switch brand">♦ SWITCH TO DAILY GOODS</button>
+        <button type="button" class="btn btn-primary intro-start" id="intro-start">START</button>
+        <button type="button" class="btn" id="intro-options">OPTIONS</button>
+        <button type="button" class="btn" id="intro-theme">NIGHT MODE</button>
       </div>
-      <ol id="loadout-list" class="loadout-list"></ol>
-      <p class="hint">Drag to reorder · click ★ for backup</p>
-    </aside>
+
+      <p class="intro-press-start blink" aria-hidden="true">PRESS START</p>
+      <p class="intro-footer-copy">© 2026 THE DAILY GOODS • TORONTO</p>
+    </div>
+
+    <div id="intro-options-panel" class="intro-options-panel panel" hidden>
+      <h2 class="section-header">OPTIONS</h2>
+      <div class="intro-options-row">
+        <button type="button" class="btn btn-primary" id="intro-theme-opt">THEME: NIGHT</button>
+        <button type="button" class="btn btn-warning" id="intro-brand-opt">BRAND: JS</button>
+      </div>
+      <div class="intro-nico-gallery">
+        <img class="pixelated" src="assets/nico-sit.png" alt="Nico sit" />
+        <img class="pixelated" src="assets/nico-run.png" alt="Nico run" />
+        <img class="pixelated" src="assets/nico-snarl.png" alt="Nico snarl" />
+        <img class="pixelated nico-sheet" src="assets/nico-run-sheet.png" alt="Nico run cycle" />
+      </div>
+      <button type="button" class="btn" id="intro-options-close">CLOSE</button>
+    </div>
+  </div>
+
+  <div id="app-shell" class="app-shell" hidden>
+    <header class="app-header topbar panel">
+      <div class="brand-row">
+        <div class="brand-block">
+          <div class="brand-lockup">
+            <img class="header-mascot pixelated" id="header-mascot" src="assets/nico-sit.png" alt="" />
+            <img class="header-brand-logo pixelated" id="header-brand-logo" src="assets/daily-goods-logo.jpeg" alt="Daily Goods" hidden />
+            <div>
+              <h1 class="app-title">STORY SCOUT</h1>
+              <p class="app-subtitle" id="brand-label">Jaystation · Radio Prep</p>
+            </div>
+          </div>
+        </div>
+        <div class="header-controls">
+          <button type="button" class="btn btn-primary" id="btn-theme" title="Toggle night/day">NIGHT</button>
+          <button type="button" class="btn btn-warning" id="btn-brand" title="Toggle brand">DG</button>
+          <button type="button" class="btn btn-success" id="btn-refresh" title="Reload stories">SYNC</button>
+        </div>
+      </div>
+      <div class="status-row">
+        <span class="text-dim" id="last-updated">Last updated: —</span>
+        <span class="tag" id="story-count">0</span>
+        <span class="text-dim offline-badge" id="offline-badge" hidden>OFFLINE</span>
+      </div>
+    </header>
+
+    <nav class="toolbar panel" aria-label="Filters">
+      <div class="toolbar-row">
+        <div class="search-wrap">
+          <input type="search" id="search-input" class="input" placeholder="Search stories…" autocomplete="off" />
+        </div>
+        <select id="filter-category" class="select" aria-label="Category">
+          <option value="">All categories</option>
+          <option>THE LIST</option>
+          <option>ENTERTAINMENT</option>
+          <option>BREAKOUT WATCH</option>
+          <option>LIFESTYLE CHAT</option>
+          <option>CANADIAN NEWS</option>
+          <option>TECH</option>
+          <option>SPORTS</option>
+          <option>CLOSER</option>
+        </select>
+        <select id="filter-slot" class="select" aria-label="Slot">
+          <option value="">AM + PM</option>
+          <option value="am">AM</option>
+          <option value="pm">PM</option>
+        </select>
+        <select id="filter-sort" class="select" aria-label="Sort">
+          <option value="score">Score</option>
+          <option value="date">Date</option>
+          <option value="category">Category</option>
+          <option value="title">Title</option>
+        </select>
+        <label class="chk"><input type="checkbox" id="filter-canadian" /><span>CA only</span></label>
+        <label class="chk"><input type="checkbox" id="filter-clips" /><span>Has clips</span></label>
+        <button type="button" class="btn btn-warning" id="btn-custom">+ Custom</button>
+      </div>
+    </nav>
+
+    <div class="layout">
+      <main id="main" class="stories-pane">
+        <div id="stories-list" class="stories-grid" role="list"></div>
+        <p id="empty-state" class="empty-state" hidden>No stories match. Try clearing filters.</p>
+      </main>
+
+      <aside class="loadout-pane panel" aria-label="Show loadout">
+        <h2 class="pane-title section-header">LOADOUT</h2>
+        <div class="loadout-actions">
+          <button type="button" class="btn btn-primary" id="btn-save-loadout">Save</button>
+          <button type="button" class="btn" id="btn-load-loadout">Load</button>
+          <button type="button" class="btn btn-success" id="btn-prep-sheet">Prep sheet</button>
+          <button type="button" class="btn btn-danger" id="btn-clear-loadout">Clear</button>
+        </div>
+        <ol id="loadout-list" class="loadout-list"></ol>
+        <p class="hint">Drag to reorder · click ★ for backup</p>
+      </aside>
+    </div>
+
+    <footer class="app-footer">
+      <span>Story Scout Next · static GitHub Pages SPA</span>
+      <span id="pwa-status"></span>
+    </footer>
   </div>
 
   <!-- Detail modal -->
-  <dialog id="detail-dialog" class="nes-dialog detail-dialog">
+  <dialog id="detail-dialog" class="dialog detail-dialog">
     <form method="dialog">
       <menu class="dialog-menu">
-        <button type="submit" class="nes-btn" value="cancel">Close</button>
+        <button type="submit" class="btn" value="cancel">Close</button>
       </menu>
     </form>
     <article id="detail-body"></article>
   </dialog>
 
   <!-- Custom story modal -->
-  <dialog id="custom-dialog" class="nes-dialog">
+  <dialog id="custom-dialog" class="dialog">
     <form id="custom-form" method="dialog">
-      <p class="title">Custom story</p>
-      <label>Title<input class="nes-input" name="title" required maxlength="200" /></label>
+      <p class="dialog-title section-header">Custom story</p>
+      <label>Title<input class="input" name="title" required maxlength="200" /></label>
       <label>Category
-        <select class="nes-input" name="category">
+        <select class="select" name="category">
           <option>THE LIST</option>
           <option>ENTERTAINMENT</option>
           <option>BREAKOUT WATCH</option>
@@ -129,32 +241,29 @@
           <option>CLOSER</option>
         </select>
       </label>
-      <label>Angle<input class="nes-input" name="angle" maxlength="240" /></label>
-      <label>Bullets (one per line)<textarea class="nes-input" name="bullets" rows="3"></textarea></label>
-      <label>Debate<input class="nes-input" name="debate" maxlength="240" /></label>
-      <label>Source URL<input class="nes-input" name="url" type="url" /></label>
+      <label>Angle<input class="input" name="angle" maxlength="240" /></label>
+      <label>Bullets (one per line)<textarea class="input" name="bullets" rows="3"></textarea></label>
+      <label>Debate<input class="input" name="debate" maxlength="240" /></label>
+      <label>Source URL<input class="input" name="url" type="url" /></label>
       <menu class="dialog-menu">
-        <button type="submit" class="nes-btn is-primary" value="ok">Add</button>
-        <button type="submit" class="nes-btn" value="cancel">Cancel</button>
+        <button type="submit" class="btn btn-primary" value="ok">Add</button>
+        <button type="submit" class="btn" value="cancel">Cancel</button>
       </menu>
     </form>
   </dialog>
 
   <!-- Prep sheet -->
-  <dialog id="prep-dialog" class="nes-dialog prep-dialog">
+  <dialog id="prep-dialog" class="dialog prep-dialog">
     <form method="dialog">
       <menu class="dialog-menu">
-        <button type="button" class="nes-btn is-primary" id="btn-print-prep">Print</button>
-        <button type="submit" class="nes-btn" value="cancel">Close</button>
+        <button type="button" class="btn btn-primary" id="btn-print-prep">Print</button>
+        <button type="submit" class="btn" value="cancel">Close</button>
       </menu>
     </form>
     <div id="prep-body" class="prep-body"></div>
   </dialog>
 
-  <footer class="app-footer">
-    <span>Story Scout Next · static GitHub Pages SPA</span>
-    <span id="pwa-status"></span>
-  </footer>
+  <div id="toast" class="toast" hidden role="status"></div>
 
   <script src="js/storage.js"></script>
   <script src="js/search.js"></script>

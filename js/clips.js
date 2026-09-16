@@ -28,7 +28,7 @@
 
   function renderClipList(clips) {
     if (!clips || !clips.length) {
-      return '<p class="nes-text is-disabled">No clips linked.</p>';
+      return '<p class="text-dim">No clips linked.</p>';
     }
     const items = clips
       .map((c) => {

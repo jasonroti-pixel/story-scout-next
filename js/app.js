@@ -2,7 +2,7 @@
  * Story Scout Next — main SPA controller.
  * Static GitHub Pages app: stories.json (+ optional twitter_stories.json),
  * Dexie cache, Orama search, filters, cards, loadout, detail, custom stories,
- * clip link-outs, night/day + brand toggle, PWA offline.
+ * clip link-outs, night/day + brand toggle, Arcade intro, PWA offline.
  */
 (function () {
   "use strict";
@@ -58,9 +58,33 @@
       "prep-dialog",
       "prep-body",
       "pwa-status",
+      "intro-screen",
+      "app-shell",
+      "intro-start",
+      "intro-options",
+      "intro-options-panel",
+      "intro-options-close",
+      "intro-theme",
+      "intro-theme-opt",
+      "intro-brand",
+      "header-mascot",
+      "intro-mascot",
+      "intro-brand-opt",
+      "toast",
     ].forEach((id) => {
       els[id] = $(id);
     });
+  }
+
+  function showToast(msg) {
+    const t = els["toast"];
+    if (!t) return;
+    t.textContent = msg;
+    t.hidden = false;
+    clearTimeout(showToast._timer);
+    showToast._timer = setTimeout(() => {
+      t.hidden = true;
+    }, 2200);
   }
 
   async function fetchJson(path) {
@@ -135,9 +159,7 @@
   function updateStatus() {
     const count = allStories.length;
     if (els["story-count"]) els["story-count"].textContent = String(count);
-    const gen =
-      (lastPayloadMeta && lastPayloadMeta.generated_at) ||
-      null;
+    const gen = (lastPayloadMeta && lastPayloadMeta.generated_at) || null;
     const label = gen
       ? new Date(gen).toLocaleString("en-CA", { timeZone: "America/Toronto" }) + " ET"
       : "cached / unknown";
@@ -193,27 +215,37 @@
     }
     if (els["empty-state"]) els["empty-state"].hidden = true;
 
+    const inLoadout = new Set(SSLoadout.getItems().map((it) => String(it.id)));
+
     root.innerHTML = visibleStories
       .map((s) => {
-        const ca = s.entities && s.entities.is_canadian ? "🇨🇦" : "";
+        const ca =
+          s.entities && s.entities.is_canadian
+            ? '<span class="tag tag-ca" title="Canadian">🇨🇦 CA</span>'
+            : "";
         const clip = SSClips.clipCountBadge(s.clips);
-        return `<article class="story-card${s.is_backup ? " is-backup" : ""}" role="listitem" tabindex="0" data-id="${SSClips.escapeAttr(s.id)}">
+        const selected = inLoadout.has(String(s.id)) ? " selected" : "";
+        const debate = s.debate
+          ? `<p class="card-debate">${SSClips.escapeHtml(s.debate)}</p>`
+          : "";
+        return `<article class="card story-card${s.is_backup ? " is-backup" : ""}${selected}" role="listitem" tabindex="0" data-id="${SSClips.escapeAttr(s.id)}">
           <div class="card-top">
-            <span class="cat-pill">${SSClips.escapeHtml(s.category || "")}</span>
+            <span class="tag cat">${SSClips.escapeHtml(s.category || "")}</span>
             <span class="score-pill">${Number(s.score || 0).toFixed(0)}</span>
           </div>
           <h3 class="card-title">${SSClips.escapeHtml(s.title || "")}</h3>
           <p class="card-angle">${SSClips.escapeHtml(s.angle || "")}</p>
+          ${debate}
           <div class="card-meta">
             <span>${SSClips.escapeHtml(s.slot || "").toUpperCase()}</span>
             <span>${SSClips.escapeHtml(s.date || "")}</span>
             <span>${SSClips.escapeHtml(s.source || "")}</span>
-            <span>${ca}</span>
+            ${ca}
             ${clip}
           </div>
           <div class="card-actions">
-            <button type="button" class="nes-btn is-primary" data-act="add" data-id="${SSClips.escapeAttr(s.id)}">+ Loadout</button>
-            <button type="button" class="nes-btn" data-act="detail" data-id="${SSClips.escapeAttr(s.id)}">Detail</button>
+            <button type="button" class="btn btn-primary" data-act="add" data-id="${SSClips.escapeAttr(s.id)}">+ Loadout</button>
+            <button type="button" class="btn" data-act="detail" data-id="${SSClips.escapeAttr(s.id)}">Detail</button>
           </div>
         </article>`;
       })
@@ -232,7 +264,11 @@
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         const id = btn.dataset.id;
-        if (btn.dataset.act === "add") SSLoadout.addStory(id);
+        if (btn.dataset.act === "add") {
+          SSLoadout.addStory(id);
+          renderCards();
+          showToast("Added to loadout");
+        }
         if (btn.dataset.act === "detail") openDetail(id);
       });
     });
@@ -248,13 +284,19 @@
     const ents = s.entities || {};
     const sent = s.sentiment || {};
     const bullets = (s.bullets || []).map((b) => `<li>${SSClips.escapeHtml(b)}</li>`).join("");
+    const caTag = ents.is_canadian ? '<span class="tag tag-ca">🇨🇦 Canadian</span>' : "";
     els["detail-body"].innerHTML = `
-      <div class="detail-cat">${SSClips.escapeHtml(s.category || "")} · score ${SSClips.escapeHtml(String(s.score))} · ${SSClips.escapeHtml((s.slot || "").toUpperCase())}</div>
+      <div class="detail-cat">
+        <span class="tag cat">${SSClips.escapeHtml(s.category || "")}</span>
+        <span class="detail-score"> score ${SSClips.escapeHtml(String(s.score))}</span>
+        · ${SSClips.escapeHtml((s.slot || "").toUpperCase())}
+        ${caTag}
+      </div>
       <h2 class="detail-title">${SSClips.escapeHtml(s.title || "")}</h2>
       <p>${SSClips.escapeHtml(s.angle || "")}</p>
       <div class="detail-section"><h3>Summary</h3><p>${SSClips.escapeHtml(s.summary || "")}</p></div>
       <div class="detail-section"><h3>Bullets</h3><ul>${bullets || "<li>—</li>"}</ul></div>
-      <div class="detail-section"><h3>Debate</h3><p>${SSClips.escapeHtml(s.debate || "")}</p></div>
+      <div class="detail-section"><h3>Debate</h3><p class="detail-debate">${SSClips.escapeHtml(s.debate || "")}</p></div>
       <div class="detail-section"><h3>Entities</h3>
         <p>People: ${SSClips.escapeHtml((ents.people || []).join(", ") || "—")}</p>
         <p>Orgs: ${SSClips.escapeHtml((ents.organizations || []).join(", ") || "—")}</p>
@@ -267,11 +309,17 @@
         ${s.url ? `<p><a href="${SSClips.escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">Open article ↗</a></p>` : ""}
       </div>
       <div class="card-actions">
-        <button type="button" class="nes-btn is-primary" id="detail-add">+ Loadout</button>
+        <button type="button" class="btn btn-primary" id="detail-add">+ Loadout</button>
       </div>
     `;
     const addBtn = document.getElementById("detail-add");
-    if (addBtn) addBtn.addEventListener("click", () => SSLoadout.addStory(s.id));
+    if (addBtn) {
+      addBtn.addEventListener("click", () => {
+        SSLoadout.addStory(s.id);
+        renderCards();
+        showToast("Added to loadout");
+      });
+    }
     els["detail-dialog"].showModal();
   }
 
@@ -280,14 +328,106 @@
     return brand === "jaystation" ? "Jaystation · Radio Prep" : "Daily Goods · Radio Prep";
   }
 
+  function brandShort() {
+    const brand = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    return brand === "jaystation" ? "JS" : "DG";
+  }
+
+  function brandLong() {
+    const brand = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    return brand === "jaystation" ? "JAYSTATION" : "DAILY GOODS";
+  }
+
+  function syncThemeButtons() {
+    const theme = document.documentElement.getAttribute("data-theme") || "night";
+    const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
+    if (els["btn-theme"]) els["btn-theme"].textContent = theme === "night" ? "NIGHT" : "DAY";
+    if (els["btn-brand"]) els["btn-brand"].textContent = brandShort();
+    if (els["brand-label"]) els["brand-label"].textContent = brandLabel();
+    if (els["intro-theme"]) {
+      els["intro-theme"].textContent = theme === "night" ? "NIGHT MODE" : "DAY MODE";
+    }
+    if (els["intro-theme-opt"]) {
+      els["intro-theme-opt"].textContent = "THEME: " + (theme === "night" ? "NIGHT" : "DAY");
+    }
+    if (els["intro-brand"]) {
+      els["intro-brand"].textContent =
+        brand === "jaystation" ? "♦ SWITCH TO DAILY GOODS" : "♦ SWITCH TO JAYSTATION";
+    }
+    if (els["intro-brand-opt"]) els["intro-brand-opt"].textContent = "BRAND: " + brandShort();
+    if (els["intro-title"]) {
+      els["intro-title"].textContent = brand === "jaystation" ? "JAYSTATION" : "THE DAILY GOODS";
+    }
+    if (els["intro-presents"]) {
+      els["intro-presents"].textContent =
+        brand === "jaystation" ? "THE DAILY GOODS PRESENTS" : "NOW PLAYING";
+    }
+    const logo = els["intro-brand-logo"];
+    if (logo) logo.hidden = brand !== "daily-goods";
+    const headerLogo = els["header-brand-logo"];
+    if (headerLogo) headerLogo.hidden = brand !== "daily-goods";
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", theme === "day" ? "#e8e4f0" : "#06050f");
+  }
+
   async function applyThemeSettings() {
     const theme = await SSStorage.loadSetting("theme", "night");
-    const brand = await SSStorage.loadSetting("brand", "daily-goods");
+    const brand = await SSStorage.loadSetting("brand", "jaystation");
     document.documentElement.setAttribute("data-theme", theme);
     document.documentElement.setAttribute("data-brand", brand);
-    if (els["btn-theme"]) els["btn-theme"].textContent = theme === "night" ? "NIGHT" : "DAY";
-    if (els["btn-brand"]) els["btn-brand"].textContent = brand === "jaystation" ? "JS" : "DG";
-    if (els["brand-label"]) els["brand-label"].textContent = brandLabel();
+    syncThemeButtons();
+  }
+
+  async function toggleTheme() {
+    const cur = document.documentElement.getAttribute("data-theme") || "night";
+    const next = cur === "night" ? "day" : "night";
+    await SSStorage.saveSetting("theme", next);
+    await applyThemeSettings();
+  }
+
+  async function toggleBrand() {
+    const cur = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    const next = cur === "daily-goods" ? "jaystation" : "daily-goods";
+    await SSStorage.saveSetting("brand", next);
+    await applyThemeSettings();
+  }
+
+  function startApp() {
+    if (els["intro-screen"]) {
+      els["intro-screen"].classList.add("is-hidden");
+      els["intro-screen"].hidden = true;
+    }
+    if (els["app-shell"]) els["app-shell"].hidden = false;
+  }
+
+  function wireIntro() {
+    if (els["intro-start"]) {
+      els["intro-start"].addEventListener("click", startApp);
+    }
+    if (els["intro-options"]) {
+      els["intro-options"].addEventListener("click", () => {
+        if (els["intro-options-panel"]) {
+          els["intro-options-panel"].hidden = !els["intro-options-panel"].hidden;
+        }
+      });
+    }
+    if (els["intro-options-close"]) {
+      els["intro-options-close"].addEventListener("click", () => {
+        if (els["intro-options-panel"]) els["intro-options-panel"].hidden = true;
+      });
+    }
+    if (els["intro-theme"]) {
+      els["intro-theme"].addEventListener("click", () => toggleTheme());
+    }
+    if (els["intro-theme-opt"]) {
+      els["intro-theme-opt"].addEventListener("click", () => toggleTheme());
+    }
+    if (els["intro-brand"]) {
+      els["intro-brand"].addEventListener("click", () => toggleBrand());
+    }
+    if (els["intro-brand-opt"]) {
+      els["intro-brand-opt"].addEventListener("click", () => toggleBrand());
+    }
   }
 
   function wireUi() {
@@ -307,21 +447,11 @@
     });
 
     if (els["btn-theme"]) {
-      els["btn-theme"].addEventListener("click", async () => {
-        const cur = document.documentElement.getAttribute("data-theme") || "night";
-        const next = cur === "night" ? "day" : "night";
-        await SSStorage.saveSetting("theme", next);
-        await applyThemeSettings();
-      });
+      els["btn-theme"].addEventListener("click", () => toggleTheme());
     }
 
     if (els["btn-brand"]) {
-      els["btn-brand"].addEventListener("click", async () => {
-        const cur = document.documentElement.getAttribute("data-brand") || "daily-goods";
-        const next = cur === "daily-goods" ? "jaystation" : "daily-goods";
-        await SSStorage.saveSetting("brand", next);
-        await applyThemeSettings();
-      });
+      els["btn-brand"].addEventListener("click", () => toggleBrand());
     }
 
     if (els["btn-refresh"]) {
@@ -329,6 +459,7 @@
         els["btn-refresh"].disabled = true;
         try {
           await bootstrapStories();
+          showToast("Stories synced");
         } finally {
           els["btn-refresh"].disabled = false;
         }
@@ -343,13 +474,6 @@
     }
 
     if (els["custom-form"]) {
-      els["custom-form"].addEventListener("close", async () => {
-        // handled via submit
-      });
-      els["custom-form"].addEventListener("submit", async (e) => {
-        // dialog form method=dialog — read returnValue
-      });
-      // Use button click interception for Add
       els["custom-dialog"].addEventListener("close", async () => {
         if (els["custom-dialog"].returnValue !== "ok") return;
         const fd = new FormData(els["custom-form"]);
@@ -392,22 +516,29 @@
         await SSSearch.rebuild(allStories);
         updateStatus();
         await applyFilters();
+        showToast("Custom story added");
       });
     }
 
     if (els["btn-save-loadout"]) {
       els["btn-save-loadout"].addEventListener("click", async () => {
         await SSLoadout.save();
-        alert("Loadout saved locally.");
+        showToast("Loadout saved");
       });
     }
     if (els["btn-load-loadout"]) {
       els["btn-load-loadout"].addEventListener("click", async () => {
         await SSLoadout.load();
+        renderCards();
+        showToast("Loadout loaded");
       });
     }
     if (els["btn-clear-loadout"]) {
-      els["btn-clear-loadout"].addEventListener("click", () => SSLoadout.clear());
+      els["btn-clear-loadout"].addEventListener("click", () => {
+        SSLoadout.clear();
+        renderCards();
+        showToast("Loadout cleared");
+      });
     }
     if (els["btn-prep-sheet"]) {
       els["btn-prep-sheet"].addEventListener("click", () => {
@@ -440,11 +571,13 @@
   async function init() {
     cacheEls();
     await applyThemeSettings();
+    wireIntro();
     wireUi();
     registerSw();
     try {
       await bootstrapStories();
       await SSLoadout.load();
+      renderCards();
     } catch (err) {
       if (els["stories-list"]) {
         els["stories-list"].innerHTML =
