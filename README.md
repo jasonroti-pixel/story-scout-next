@@ -41,6 +41,8 @@ Writes `data/stories.json` (capped ~280 stories, hashed ids).
 
 `deploy.yml` publishes to GitHub Pages on push to `main`.
 
+`merge-twitter.yml` is **manual only** (`workflow_dispatch`) — see Twitter packs below.
+
 ## Story schema
 
 `id`, `date`, `slot` (`am`|`pm`), `category`, `title`, `angle`, `bullets[]`, `debate`, `source`, `source_type`, `url`, `score`, `is_backup`, `entities{people,organizations,locations,is_canadian}`, `sentiment{compound,label}`, `summary`, `cluster_id`, `related_count`, `clips[{type,platform,url,thumbnail_url,duration_seconds,description}]`, `meta{ingested_at,source_published_at,pipeline_version}`
@@ -60,6 +62,25 @@ Writes `data/stories.json` (capped ~280 stories, hashed ids).
 - Night/Day theme + Daily Goods / Jaystation brand
 - PWA offline shell + last-updated status
 - Mobile responsive retro arcade UI (Press Start 2P + Inter, NES.css)
+
+
+## Twitter / social packs
+
+Drop reviewed packs as **`data/twitter_stories.json`** (array or `{ "stories": [...] }`, same story schema, optional `clips[]`).  
+You can also place pack files under **`data/incoming/*.json`**.
+
+GitHub reviews / merges via:
+
+```bash
+cd pipeline
+python merge_twitter.py
+```
+
+**Clip-attach rule:** if an incoming story matches an existing one (normalized URL, else high-similarity fuzzy title) **and** has `clips[]`, unique clips are **appended** by clip URL (deduped). No duplicate story is created. Matches with no new clips are skipped. Unmatched stories are added as net-new (`source_type` `social` / `twitter`).
+
+Manual Action: **`merge-twitter.yml`** (`workflow_dispatch` only — not scheduled yet). Commits `data/stories.json` (+ `data/last_merge_report.json`) when changed.
+
+Clip schema: `{type, platform, url, thumbnail_url, duration_seconds, description}` (link-out metadata only).
 
 ## Intentionally out of scope
 

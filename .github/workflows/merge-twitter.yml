@@ -1,0 +1,47 @@
+name: Merge Twitter Packs
+
+on:
+  workflow_dispatch:
+    inputs:
+      note:
+        description: "Optional note for this merge run"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Merge Twitter packs
+        working-directory: pipeline
+        run: python merge_twitter.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      - name: Commit stories.json if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/stories.json data/last_merge_report.json
+          if git diff --staged --quiet; then
+            echo "No merge changes to commit"
+          else
+            NOTE="${{ github.event.inputs.note }}"
+            MSG="chore(merge-twitter): attach clips / add social stories [skip ci]"
+            if [ -n "$NOTE" ]; then
+              MSG="$MSG — $NOTE"
+            fi
+            git commit -m "$MSG"
+            git push
+          fi

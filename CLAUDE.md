@@ -20,8 +20,9 @@ index.html
 css/style.css
 js/app.js search.js storage.js loadout.js clips.js
 data/stories.json
-pipeline/ingest.py enrich.py requirements.txt feeds.yml
-.github/workflows/ingest.yml deploy.yml
+pipeline/ingest.py enrich.py merge_twitter.py requirements.txt feeds.yml
+data/twitter_stories.json (optional) data/incoming/*.json
+.github/workflows/ingest.yml deploy.yml merge-twitter.yml
 sw.js manifest.webmanifest
 README.md CLAUDE.md
 ```
@@ -39,4 +40,6 @@ THE LIST | ENTERTAINMENT | BREAKOUT WATCH | LIFESTYLE CHAT | CANADIAN NEWS | TEC
 - After pipeline edits: `python3 -m py_compile pipeline/*.py`
 - Local UI: `python3 -m http.server` from repo root
 - Optional merge file: `data/twitter_stories.json` (same schema / `{stories:[…]}` envelope)
+- Merge packs: `python merge_twitter.py` (URL/title match → append unique clips; else net-new)
+- Manual Action: `merge-twitter.yml` (workflow_dispatch; not scheduled)
 - Ingest crons target America/Toronto AM/PM prep windows via dual UTC schedules (EDT+EST)

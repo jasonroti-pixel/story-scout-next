@@ -132,11 +132,28 @@
     try {
       const tw = await fetchJson("data/twitter_stories.json");
       const extra = normalizePayload(tw).stories;
-      const seen = new Set(merged.map((s) => String(s.id)));
+      const byId = new Map(merged.map((s) => [String(s.id), s]));
       for (const s of extra) {
-        if (!seen.has(String(s.id))) {
+        const id = String(s.id);
+        const existing = byId.get(id);
+        if (existing) {
+          // Clip-attach on load: append unique clips by url (no duplicate story)
+          if (s.clips && s.clips.length) {
+            existing.clips = existing.clips || [];
+            const seenUrl = new Set(
+              existing.clips.map((c) => String((c && c.url) || "").toLowerCase())
+            );
+            for (const c of s.clips) {
+              const u = String((c && c.url) || "").toLowerCase();
+              if (u && !seenUrl.has(u)) {
+                existing.clips.push(c);
+                seenUrl.add(u);
+              }
+            }
+          }
+        } else {
           merged.push(s);
-          seen.add(String(s.id));
+          byId.set(id, s);
         }
       }
     } catch (_) {
