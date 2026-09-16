@@ -557,7 +557,7 @@
   function registerSw() {
     if (!("serviceWorker" in navigator)) return;
     navigator.serviceWorker
-      .register("./sw.js")
+      .register("./sw.js?v=3")
       .then((reg) => {
         if (els["pwa-status"]) els["pwa-status"].textContent = "PWA ready";
         console.info("[sw] registered", reg.scope);
