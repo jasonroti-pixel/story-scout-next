@@ -26,7 +26,9 @@ python ingest.py            # fulltext via newspaper3k
 python ingest.py --no-fulltext   # faster / CI
 ```
 
-Writes `data/stories.json` (capped ~80 stories, hashed ids).
+Writes `data/stories.json` (capped ~280 stories, hashed ids).
+
+**Daily output target:** ~280 stories with a soft ~12 Canadian-lane pack and a large non-CA Arcade-style talk-radio mix (US viral, entertainment, tech, lifestyle, sports, closers). Ingest cost is GitHub Actions minutes, not LLM tokens.
 
 ### Cron (GitHub Actions)
 

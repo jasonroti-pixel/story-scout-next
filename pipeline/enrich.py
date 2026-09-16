@@ -188,16 +188,82 @@ def make_story_id(url: str, title: str = "") -> str:
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()[:16]
 
 
+# Strong talk-radio hints that should not be overridden by Canadian place names.
+STRONG_CATEGORY_HINTS = {
+    "ENTERTAINMENT",
+    "TECH",
+    "SPORTS",
+    "THE LIST",
+    "BREAKOUT WATCH",
+    "LIFESTYLE CHAT",
+    "CLOSER",
+}
+
+# Politics / policy / local-news signals that legitimately warrant CANADIAN NEWS.
+CA_NEWS_SIGNALS = {
+    "parliament",
+    "trudeau",
+    "premier",
+    "federal",
+    "provincial",
+    "election",
+    "policy",
+    "legislation",
+    "minister",
+    "budget",
+    "housing",
+    "mortgage",
+    "bank of canada",
+    "interest rate",
+    "transit",
+    "ttc",
+    "mayor",
+    "city council",
+    "strike",
+    "rcmp",
+    "immigration",
+    "healthcare",
+    "bill c-",
+}
+
+
 def assign_category(text: str, hint: str | None = None) -> str:
+    """Assign a board category from keywords + feed hint.
+
+    Respect strong entertainment/tech/sports/list hints even when Canadian
+    cities or people appear. Prefer CANADIAN NEWS only for politics/policy/
+    local-news signals or CBC Canada-style hints. Weak keyword scores defer
+    to the hint; zero scores with no hint fall back to THE LIST.
+    """
     blob = (text or "").lower()
     scores: dict[str, int] = {}
     for cat, words in CATEGORY_KEYWORDS.items():
         scores[cat] = sum(1 for w in words if w in blob)
     best = max(scores, key=scores.get)
-    if scores[best] == 0 and hint and hint in CATEGORY_KEYWORDS:
+    best_score = scores[best]
+
+    # Prefer category_hint when keyword evidence is weak.
+    if hint and hint in CATEGORY_KEYWORDS and best_score < 2:
         return hint
-    if scores[best] == 0:
-        return hint or "CANADIAN NEWS"
+
+    if best_score == 0:
+        if hint and hint in CATEGORY_KEYWORDS:
+            return hint
+        return "THE LIST"
+
+    # Do not force CANADIAN NEWS over a strong non-CA hint unless politics/policy.
+    if hint in STRONG_CATEGORY_HINTS and best == "CANADIAN NEWS":
+        politics = sum(1 for s in CA_NEWS_SIGNALS if s in blob)
+        if politics == 0:
+            return hint
+        # Politics present: still prefer hint if the hint category also scored.
+        if scores.get(hint, 0) >= 1 and politics < 2:
+            return hint
+
+    # CBC Canada-style / explicit CA hint with politics → CANADIAN NEWS
+    if hint == "CANADIAN NEWS" and best_score < 2:
+        return "CANADIAN NEWS"
+
     return best
 
 
@@ -303,25 +369,58 @@ def build_bullets(text: str, n: int = 3) -> list[str]:
     return bullets
 
 
+def _trim_hook(text: str, lo: int = 120, hi: int = 220) -> str:
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    if len(text) > hi:
+        cut = text[: hi - 1].rsplit(" ", 1)[0].rstrip(",;:—-")
+        return cut + "…"
+    return text
+
+
 def suggest_angle(title: str, summary: str, category: str) -> str:
+    """Arcade-style 1–2 sentence radio hook (why care / debate / shelf life).
+
+    No template prefixes like "Listener bait:" — aim ~120–220 chars when a
+    summary exists. CLOSER stays category CLOSER for UI filters; voice is
+    kicker/goodbye energy in the hook itself.
+    """
     t = (title or "").strip()
-    if category == "THE LIST":
-        return f"Listener bait: {t}" if t else "Oddball listener bait"
-    if category == "ENTERTAINMENT":
-        return f"Pop culture hook: {t}" if t else "Pop culture hook"
-    if category == "BREAKOUT WATCH":
-        return f"Who is rising: {t}" if t else "Rising talent watch"
-    if category == "LIFESTYLE CHAT":
-        return f"Phone-in angle: {t}" if t else "Phone-in lifestyle chat"
-    if category == "CANADIAN NEWS":
-        return f"Local / national take: {t}" if t else "Canadian news take"
-    if category == "TECH":
-        return f"Explain-it-to-me: {t}" if t else "Tech explainer"
-    if category == "SPORTS":
-        return f"Watercooler scoreboard: {t}" if t else "Sports watercooler"
+    s = (summary or "").strip()
+
+    why = {
+        "THE LIST": "Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+        "ENTERTAINMENT": "Shelf life through drive time — who is overrated and who actually delivered?",
+        "BREAKOUT WATCH": "Name-drop them now so you can claim you called it first.",
+        "LIFESTYLE CHAT": "Easy phone-in: is this smart living or lifestyle cosplay?",
+        "CANADIAN NEWS": "Make it local in one sentence — who pays, who waits, who shrugs?",
+        "TECH": "Explain it like a coworker Slack rant: helpful tool or creep factor?",
+        "SPORTS": "Hot-take window is open — who is carrying, who is hiding?",
+        "CLOSER": "Kicker energy: leave them smiling on the way to commercial.",
+    }
+    closer_note = "CLOSER: THE KICKER/GOODBYES — "
+    tail = why.get(category, "Worth ninety seconds if the room lights up.")
+
+    if s:
+        first = re.split(r"(?<=[.!?])\s+", s)[0].strip()
+        if first and first[-1] not in ".!?":
+            first += "."
+        if category == "CLOSER":
+            hook = f"{closer_note}{first} {tail}"
+        else:
+            hook = f"{first} {tail}"
+        hook = _trim_hook(hook)
+        if len(hook) < 120 and t:
+            extra = f"{t}. {tail}" if category != "CLOSER" else f"{closer_note}{t}. {tail}"
+            hook = _trim_hook(extra)
+        return hook
+
+    if t:
+        if category == "CLOSER":
+            return _trim_hook(f"{closer_note}{t}. {tail}")
+        return _trim_hook(f"{t}. {tail}")
     if category == "CLOSER":
-        return f"Warm exit: {t}" if t else "Feel-good closer"
-    return t or "Talkable angle"
+        return "CLOSER: THE KICKER/GOODBYES — warm exit that still feels earned."
+    return "Talkable beat with room for a thirty-second caller take."
 
 
 def suggest_debate(title: str, category: str) -> str:
@@ -348,7 +447,7 @@ def score_story(
 ) -> float:
     score = 50.0
     if entities.get("is_canadian"):
-        score += 15
+        score += 5
     if category in ("THE LIST", "ENTERTAINMENT", "CLOSER"):
         score += 8
     if source_type == "social":
@@ -410,7 +509,7 @@ class StoryDeduper:
 def enrich_story(
     raw: dict[str, Any],
     deduper: StoryDeduper | None = None,
-    pipeline_version: str = "1.0.0",
+    pipeline_version: str = "1.1.0",
 ) -> dict[str, Any]:
     """Enrich a raw ingest dict into the Story Scout schema."""
     title = (raw.get("title") or "").strip()

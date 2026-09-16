@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 """
 Story Scout Next — RSS ingest pipeline.
-feedparser + newspaper3k → enrich → data/stories.json (cap ~80).
+feedparser + newspaper3k → enrich → mix-balanced data/stories.json.
+
+Daily target ~280 stories with a soft ~12 Canadian-lane pack and a large
+Arcade-style non-CA talk-radio mix (THE LIST, ENTERTAINMENT, TECH, etc.).
+Cost driver is Actions minutes, not LLM tokens.
 """
 
 from __future__ import annotations
@@ -24,6 +28,26 @@ ROOT = Path(__file__).resolve().parent.parent
 FEEDS_PATH = Path(__file__).resolve().parent / "feeds.yml"
 OUT_PATH = ROOT / "data" / "stories.json"
 TZ = ZoneInfo("America/Toronto")
+
+CANADIAN_SOURCE_HINTS = (
+    "cbc",
+    "ctv",
+    "globe",
+    "cp24",
+    "toronto star",
+    "r/canada",
+    "reddit r/canada",
+)
+
+TALKABLE_CATEGORIES = {
+    "THE LIST",
+    "ENTERTAINMENT",
+    "BREAKOUT WATCH",
+    "LIFESTYLE CHAT",
+    "TECH",
+    "SPORTS",
+    "CLOSER",
+}
 
 
 def load_config() -> dict[str, Any]:
@@ -85,7 +109,7 @@ def clean_html_summary(raw: str) -> str:
     return text
 
 
-def fetch_feed_entries(feed_cfg: dict[str, Any], limit: int = 12) -> list[dict[str, Any]]:
+def fetch_feed_entries(feed_cfg: dict[str, Any], limit: int = 18) -> list[dict[str, Any]]:
     url = feed_cfg["url"]
     name = feed_cfg.get("name") or url
     category_hint = feed_cfg.get("category_hint")
@@ -115,11 +139,71 @@ def fetch_feed_entries(feed_cfg: dict[str, Any], limit: int = 12) -> list[dict[s
     return entries
 
 
+def is_canadian_lane(story: dict[str, Any]) -> bool:
+    entities = story.get("entities") or {}
+    if entities.get("is_canadian"):
+        return True
+    if story.get("category") == "CANADIAN NEWS":
+        return True
+    source = (story.get("source") or "").lower()
+    return any(hint in source for hint in CANADIAN_SOURCE_HINTS)
+
+
+def balance_mix(
+    stories: list[dict[str, Any]],
+    max_stories: int,
+    target_canadian: int,
+) -> list[dict[str, Any]]:
+    """Keep ~target_canadian CA-lane stories, fill the rest with non-CA talkables.
+
+    High-scoring Canadian pieces may exceed the soft target only when non-CA
+    inventory cannot fill remaining slots — never crowd out talkables when
+    non-Canadian inventory exists.
+    """
+    ranked = sorted(stories, key=lambda s: float(s.get("score") or 0), reverse=True)
+    ca = [s for s in ranked if is_canadian_lane(s)]
+    non_ca = [s for s in ranked if not is_canadian_lane(s)]
+
+    talkables = [s for s in non_ca if s.get("category") in TALKABLE_CATEGORIES]
+    other_non = [s for s in non_ca if s.get("category") not in TALKABLE_CATEGORIES]
+    non_ca_ordered = talkables + other_non
+
+    selected: list[dict[str, Any]] = []
+    used: set[str] = set()
+
+    for s in ca[: max(0, target_canadian)]:
+        selected.append(s)
+        used.add(s["id"])
+
+    for s in non_ca_ordered:
+        if len(selected) >= max_stories:
+            break
+        if s["id"] in used:
+            continue
+        selected.append(s)
+        used.add(s["id"])
+
+    # Only add extra Canadian stories into leftover slots (no non-CA crowding).
+    if len(selected) < max_stories:
+        for s in ca[target_canadian:]:
+            if len(selected) >= max_stories:
+                break
+            if s["id"] in used:
+                continue
+            selected.append(s)
+            used.add(s["id"])
+
+    selected.sort(key=lambda s: float(s.get("score") or 0), reverse=True)
+    return selected[:max_stories]
+
+
 def run(max_stories: int | None = None, fetch_full: bool = True) -> Path:
     cfg = load_config()
     pipeline_cfg = cfg.get("pipeline") or {}
-    max_stories = max_stories or int(pipeline_cfg.get("max_stories") or 80)
-    pipeline_version = str(pipeline_cfg.get("pipeline_version") or "1.0.0")
+    max_stories = max_stories or int(pipeline_cfg.get("max_stories") or 280)
+    per_feed_limit = int(pipeline_cfg.get("per_feed_limit") or 18)
+    target_canadian = int(pipeline_cfg.get("target_canadian") or 12)
+    pipeline_version = str(pipeline_cfg.get("pipeline_version") or "1.1.0")
     now = datetime.now(TZ)
     date = now.date().isoformat()
     slot = slot_for_now(now)
@@ -129,7 +213,7 @@ def run(max_stories: int | None = None, fetch_full: bool = True) -> Path:
 
     for feed_cfg in cfg.get("feeds") or []:
         try:
-            entries = fetch_feed_entries(feed_cfg, limit=10)
+            entries = fetch_feed_entries(feed_cfg, limit=per_feed_limit)
             print(f"[ingest] {feed_cfg.get('name')}: {len(entries)} entries", flush=True)
         except Exception as exc:
             print(f"[ingest] FAILED {feed_cfg.get('name')}: {exc}", flush=True)
@@ -168,13 +252,15 @@ def run(max_stories: int | None = None, fetch_full: bool = True) -> Path:
         except Exception as exc:
             print(f"[enrich] skip {raw.get('title')}: {exc}", flush=True)
 
-    # Prefer higher scores; keep backups for lower-ranked extras
+    # Prefer higher scores, then mix-balance BEFORE slicing to max_stories
     stories.sort(key=lambda s: float(s.get("score") or 0), reverse=True)
-    for i, story in enumerate(stories):
-        story["is_backup"] = i >= max(12, max_stories // 3)
-        story["related_count"] = deduper.related_count(story["cluster_id"])
+    stories = balance_mix(stories, max_stories=max_stories, target_canadian=target_canadian)
 
-    stories = stories[:max_stories]
+    # Primary show pack ≈ Arcade morning size; rest marked backup
+    primary_n = min(66, int(max_stories * 0.35))
+    for i, story in enumerate(stories):
+        story["is_backup"] = i >= primary_n
+        story["related_count"] = deduper.related_count(story["cluster_id"])
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {

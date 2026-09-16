@@ -1,18 +1,194 @@
 {
-  "generated_at": "2026-09-16T13:30:00+00:00",
+  "generated_at": "2026-09-16T07:45:00+00:00",
   "timezone": "America/Toronto",
   "date": "2026-09-16",
   "slot": "am",
-  "pipeline_version": "1.0.0",
-  "count": 12,
+  "pipeline_version": "1.1.0",
+  "count": 78,
   "stories": [
     {
-      "id": "a1b2c3d4e5f60718",
-      "date": "2026-09-15",
+      "id": "ed4b8fcc5a94b8b6",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Man sues airline after emotional support peacock denied boarding",
+      "angle": "A passenger tried to board with an emotional support peacock and is now suing after the gate said no. Shelf life is perfect — empathy vs. cabin chaos, and everyone has a take in under thirty seconds.",
+      "bullets": [
+        "Airline says peacocks are not approved service animals under current policy.",
+        "Traveler claims anxiety spiked after the bird was turned away at the jet bridge.",
+        "Airport witnesses say the peacock was surprisingly polite until denied."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/nottheonion",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/nottheonion/comments/peacock_boarding_2026/",
+      "score": 90.1,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Delta"
+        ],
+        "locations": [
+          "Atlanta"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.1,
+        "label": "positive"
+      },
+      "summary": "Airline says peacocks are not approved service animals under current policy. Traveler claims anxiety spiked after the bird was turned away at the jet bridge. Airport witnesses say the peacock was surprisingly polite until denied.",
+      "cluster_id": "ed4b8fcc5a94b8b6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T07:07:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "30631ac97054310d",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Reddit r/technology: AI meeting notetaker caught leaking private Slack quotes",
+      "angle": "An AI meeting notetaker allegedly leaked private Slack quotes into a shared summary — the creep-factor segment of the week. Helpful tool or privacy nightmare? Callers already have receipts.",
+      "bullets": [
+        "Employees noticed confidential phrases appearing in auto-generated recaps.",
+        "Vendor says a permissions misconfig is under investigation.",
+        "Security blogs urge a temporary ban until audit logs are public."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Reddit r/technology",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/technology/comments/ai_notetaker_slack_leak_2026/",
+      "score": 90.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "San Francisco"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.45,
+        "label": "negative"
+      },
+      "summary": "Employees noticed confidential phrases appearing in auto-generated recaps. Vendor says a permissions misconfig is under investigation. Security blogs urge a temporary ban until audit logs are public.",
+      "cluster_id": "30631ac97054310d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T09:33:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "af20b4fbb889bad3",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Ottawa man tries to return a live beaver he 'found' in his backyard pool",
+      "angle": "A Kanata homeowner filmed a beaver doing laps in the family pool, then asked animal control if he could 'return' it like a wrong Amazon package. Pure List gold — would you call wildlife first, or hit record?",
+      "bullets": [
+        "Homeowner filmed a beaver calmly circling his suburban pool near Kanata.",
+        "Wildlife officers say relocation is common in wet Septembers after heavy rain.",
+        "Clip racked up hundreds of thousands of views overnight on social platforms."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/nottheonion",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/nottheonion/comments/sample_beaver_pool/",
+      "score": 89.2,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Ottawa Humane Society"
+        ],
+        "locations": [
+          "Ottawa",
+          "Kanata"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.34,
+        "label": "positive"
+      },
+      "summary": "A Kanata resident woke up to find a beaver doing laps in the family pool. Animal control safely relocated the guest, but not before the homeowner's video went viral across Canadian social feeds.",
+      "cluster_id": "af20b4fbb889bad3",
+      "related_count": 1,
+      "clips": [
+        {
+          "type": "video",
+          "platform": "tiktok",
+          "url": "https://www.tiktok.com/@example/video/1234567890",
+          "thumbnail_url": "https://via.placeholder.com/320x180.png?text=Beaver+Pool",
+          "duration_seconds": 28,
+          "description": "Original backyard beaver clip (link-out)"
+        }
+      ],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-15T22:40:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "21567c115b728d20",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Taylor Swift eras remix sparks streaming chart war overnight",
+      "angle": "A surprise Eras remix dropped and streaming charts went into overnight war mode — playlist gatekeepers, stan armies, and radio already picking sides. Overrated or earned? The phones will decide before lunch.",
+      "bullets": [
+        "Remix features a guest verse that split fans into genius and unnecessary camps.",
+        "Spotify and Apple Music chart trackers lit up within hours of release.",
+        "Tour merch sellers report a same-day spike in remix-era apparel."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/music/news/taylor-swift-eras-remix-chart-war/",
+      "score": 89.0,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Taylor Swift"
+        ],
+        "organizations": [],
+        "locations": [
+          "Los Angeles"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5,
+        "label": "positive"
+      },
+      "summary": "Remix features a guest verse that split fans into genius and unnecessary camps. Spotify and Apple Music chart trackers lit up within hours of release. Tour merch sellers report a same-day spike in remix-era apparel.",
+      "cluster_id": "21567c115b728d20",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T06:24:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "c0c7eb28f2c10872",
+      "date": "2026-09-16",
       "slot": "am",
       "category": "CANADIAN NEWS",
       "title": "TTC operators warn of crunch as back-to-school ridership surges",
-      "angle": "Local / national take: Is your morning commute getting worse — and who's to blame?",
+      "angle": "September ridership is crushing Line 1 again — packed platforms, short-tempered operators, and a blame game between City Hall and the union. Ask callers: is your commute worse than last year, and who actually owns the fix?",
       "bullets": [
         "TTC reports double-digit ridership jumps on Line 1 and key bus corridors since Labour Day.",
         "Union and city officials trade blame over staffing gaps and delayed vehicle deliveries.",
@@ -43,7 +219,7 @@
         "label": "negative"
       },
       "summary": "Toronto's transit system is feeling the September squeeze as students return and ridership climbs. Union leaders say staffing shortages leave operators stretched, while the city points to long lead times for new streetcars and buses.",
-      "cluster_id": "a1b2c3d4e5f60718",
+      "cluster_id": "c0c7eb28f2c10872",
       "related_count": 2,
       "clips": [
         {
@@ -56,70 +232,298 @@
         }
       ],
       "meta": {
-        "ingested_at": "2026-09-15T13:30:00+00:00",
-        "source_published_at": "2026-09-15T11:05:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T11:05:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "b2c3d4e5f6071829",
-      "date": "2026-09-15",
+      "id": "f27cc65f8bb1c364",
+      "date": "2026-09-16",
       "slot": "am",
-      "category": "THE LIST",
-      "title": "Ottawa man tries to return a live beaver he 'found' in his backyard pool",
-      "angle": "Listener bait: Would you call animal control — or make a TikTok first?",
+      "category": "SPORTS",
+      "title": "NFL Week 2: Underdog QB 4th-quarter heroics break the internet",
+      "angle": "An underdog QB fourth-quarter heroics broke the internet and every local hot-take show — clutch gene or soft defense? Sports watercooler with highlight shelf life through Monday.",
       "bullets": [
-        "Homeowner filmed a beaver calmly circling his suburban pool near Kanata.",
-        "Wildlife officers say relocation is common in wet Septembers after heavy rain.",
-        "Clip racked up hundreds of thousands of views overnight on social platforms."
+        "Final drive included two conversions and a sideline catch still under review online.",
+        "Fantasy managers who benched him are writing apology essays.",
+        "Coach refuses to call it a breakthrough; players disagree on camera."
       ],
-      "debate": "Would you do this / try this? Why or why not?",
-      "source": "Reddit r/nottheonion",
-      "source_type": "social",
-      "url": "https://www.reddit.com/r/nottheonion/comments/sample_beaver_pool/",
-      "score": 91.2,
+      "debate": "Hot take: who is actually carrying the team?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/16/nfl-underdog-qb-heroics/",
+      "score": 88.5,
       "is_backup": false,
       "entities": {
         "people": [],
         "organizations": [
-          "Ottawa Humane Society"
+          "NFL"
         ],
         "locations": [
-          "Ottawa",
-          "Kanata"
+          "Kansas City"
         ],
-        "is_canadian": true
+        "is_canadian": false
       },
       "sentiment": {
-        "compound": 0.34,
+        "compound": 0.55,
         "label": "positive"
       },
-      "summary": "A Kanata resident woke up to find a beaver doing laps in the family pool. Animal control safely relocated the guest, but not before the homeowner's video went viral across Canadian social feeds.",
-      "cluster_id": "b2c3d4e5f6071829",
-      "related_count": 1,
-      "clips": [
-        {
-          "type": "video",
-          "platform": "tiktok",
-          "url": "https://www.tiktok.com/@example/video/1234567890",
-          "thumbnail_url": "https://via.placeholder.com/320x180.png?text=Beaver+Pool",
-          "duration_seconds": 28,
-          "description": "Original backyard beaver clip (link-out)"
-        }
-      ],
+      "summary": "Final drive included two conversions and a sideline catch still under review online. Fantasy managers who benched him are writing apology essays. Coach refuses to call it a breakthrough; players disagree on camera.",
+      "cluster_id": "f27cc65f8bb1c364",
+      "related_count": 0,
+      "clips": [],
       "meta": {
-        "ingested_at": "2026-09-15T13:30:00+00:00",
-        "source_published_at": "2026-09-14T22:40:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T07:43:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "c3d4e5f60718293a",
-      "date": "2026-09-15",
+      "id": "6f0ce144692db82b",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "TECH",
+      "title": "The Verge: Browser vendor ships anti-fingerprinting mode by default",
+      "angle": "A major browser just shipped anti-fingerprinting by default — advertisers panic, privacy folks cheer, and IT Slack lights up. Explain-it-to-me: is this the week tracking finally loses, or just a new arms race?",
+      "bullets": [
+        "Mode randomizes certain device signals that trackers rely on.",
+        "Ad-tech groups warn measurement will get noisier overnight.",
+        "Enterprise admins ask how it interacts with SSO and fraud tools."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/2026/9/16/browser-anti-fingerprinting-default",
+      "score": 88.2,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.15,
+        "label": "positive"
+      },
+      "summary": "Mode randomizes certain device signals that trackers rely on. Ad-tech groups warn measurement will get noisier overnight. Enterprise admins ask how it interacts with SSO and fraud tools.",
+      "cluster_id": "6f0ce144692db82b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T08:26:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "b5e2cebf41755afe",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Couple discovers Airbnb listing was actually their own vacation home",
+      "angle": "They booked a charming coastal rental and unlocked their own vacation house, listed by a helpful relative. Betrayal, farce, and inheritance drama — ask if family group chats should require a lawyer.",
+      "bullets": [
+        "Listing photos matched their place down to the quirky lighthouse lamp.",
+        "Relative allegedly pocketed bookings for months while house sitting.",
+        "Platform says it is investigating; family Thanksgiving is cancelled."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/15/airbnb-own-house-listing/",
+      "score": 88.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Airbnb"
+        ],
+        "locations": [
+          "Cape Cod"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2,
+        "label": "negative"
+      },
+      "summary": "Listing photos matched their place down to the quirky lighthouse lamp. Relative allegedly pocketed bookings for months while house sitting. Platform says it is investigating; family Thanksgiving is cancelled.",
+      "cluster_id": "b5e2cebf41755afe",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T09:21:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "4a1e485d6dd98a2c",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Florida HOA fines homeowner for unauthorized pink flamingo lawn art",
+      "angle": "An HOA ticketed a pink flamingo display as unauthorized lawn art — neighbors split between rule-followers and chaos agents. Ask the phones: enforcement, or lighten up already?",
+      "bullets": [
+        "HOA cited decorative flamingos under a vague non-approved ornament clause.",
+        "Homeowner complaint video jumped from NextDoor to national weird-news feeds.",
+        "Legal Twitter is debating whether aesthetic rules survive a public roasting."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/16/hoa-pink-flamingo-fine/",
+      "score": 87.4,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "HOA"
+        ],
+        "locations": [
+          "Florida"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.15,
+        "label": "positive"
+      },
+      "summary": "HOA cited decorative flamingos under a vague non-approved ornament clause. Homeowner complaint video jumped from NextDoor to national weird-news feeds. Legal Twitter is debating whether aesthetic rules survive a public roasting.",
+      "cluster_id": "4a1e485d6dd98a2c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T06:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f16ddb41fed5c628",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "TECH",
+      "title": "The Verge: Wearable pin promises real-time fact checks in conversations",
+      "angle": "A wearable pin promises real-time fact checks mid-conversation — debate bait with sci-fi polish. Helpful dinner-table tool, or the fastest way to ruin Thanksgiving with a blinking LED?",
+      "bullets": [
+        "Device whispers corrections via bone-conduction or a paired phone.",
+        "Demo videos carefully avoid political topics; reviewers do not.",
+        "Ethicists warn about consent when one person is secretly scoring speech."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/2026/9/16/wearable-realtime-factcheck-pin",
+      "score": 87.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Device whispers corrections via bone-conduction or a paired phone. Demo videos carefully avoid political topics; reviewers do not. Ethicists warn about consent when one person is secretly scoring speech.",
+      "cluster_id": "f16ddb41fed5c628",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T15:15:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "2f666a86a1bfaf85",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Ars: Researchers demo fridge magnet that spoofs smart-lock NFC",
+      "angle": "Researchers demoed a fridge-magnet-sized NFC spoof against certain smart locks — rental-tech anxiety with a DIY villain prop. Tech talk: convenience tax, or time to go back to metal keys?",
+      "bullets": [
+        "Attack works at short range on locks that skip challenge-response.",
+        "Vendors issue firmware advisories within hours of the paper drop.",
+        "Apartment forums explode with are-we-safe-tonight threads."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/security/2026/09/nfc-fridge-magnet-smart-lock/",
+      "score": 86.7,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.35,
+        "label": "negative"
+      },
+      "summary": "Attack works at short range on locks that skip challenge-response. Vendors issue firmware advisories within hours of the paper drop. Apartment forums explode with are-we-safe-tonight threads.",
+      "cluster_id": "2f666a86a1bfaf85",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T10:40:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "894ca3875b4b935e",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Robot vacuum escapes apartment, boards elevator, goes viral downtown",
+      "angle": "A robot vacuum exited an apartment, rode an elevator, and wandered into lobby lore. Not-the-onion energy with a tech wink — do we own the gadgets, or do they own the building now?",
+      "bullets": [
+        "Security footage shows the bot patiently waiting for the elevator.",
+        "Building staff escorted it home; residents want a bot leash policy.",
+        "Clip topped Reddit overnight with caption contests."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/nottheonion",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/nottheonion/comments/robot_vacuum_elevator_2026/",
+      "score": 86.5,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Chicago"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4,
+        "label": "positive"
+      },
+      "summary": "Security footage shows the bot patiently waiting for the elevator. Building staff escorted it home; residents want a bot leash policy. Clip topped Reddit overnight with caption contests.",
+      "cluster_id": "894ca3875b4b935e",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T10:28:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "50b74adefcad4afa",
+      "date": "2026-09-16",
       "slot": "am",
       "category": "ENTERTAINMENT",
       "title": "Drake teases surprise Toronto pop-up show for charity week",
-      "angle": "Pop culture hook: Who's getting tickets — and is this the soft launch of a new era?",
+      "angle": "Drake is dangling a same-week OVO intimate set downtown with charity proceeds attached — details scarce, rumour threads already camping. Local pride segment with shelf life: who actually gets in, and is this a soft launch?",
       "bullets": [
         "Instagram Stories hinted at a same-week OVO intimate set in downtown Toronto.",
         "Proceeds earmarked for local youth arts programs, per a brief label statement.",
@@ -148,7 +552,7 @@
         "label": "positive"
       },
       "summary": "Drake is teasing a last-minute Toronto pop-up tied to charity week, with buzz building over a possible intimate OVO set. Details remain scarce, but fan communities are treating it as must-cover local entertainment news.",
-      "cluster_id": "c3d4e5f60718293a",
+      "cluster_id": "50b74adefcad4afa",
       "related_count": 0,
       "clips": [
         {
@@ -161,59 +565,302 @@
         }
       ],
       "meta": {
-        "ingested_at": "2026-09-15T13:30:00+00:00",
-        "source_published_at": "2026-09-15T09:20:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T09:20:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "d4e5f60718293a4b",
-      "date": "2026-09-15",
+      "id": "94b9e7841cdcc63d",
+      "date": "2026-09-16",
       "slot": "am",
       "category": "TECH",
-      "title": "Canadian AI startup raises $40M to keep training data onshore",
-      "angle": "Explain-it-to-me: Should Canada own its own AI data stacks?",
+      "title": "Meta tests memory timeline that reconstructs your week from photos",
+      "angle": "Meta is testing a memory timeline that rebuilds your week from photos — convenient diary or creep dossier? Privacy talk with shelf life: helpful innovation, or the algorithm writing your biography?",
       "bullets": [
-        "Montreal-based firm closed a Series B focused on sovereign AI infrastructure.",
-        "Investors include Canadian pension-linked funds and a European deep-tech arm.",
-        "Pitch: enterprise clients want training data that never leaves Canadian soil."
+        "Feature auto-clusters locations, faces, and inferred moments.",
+        "Opt-in copy emphasizes nostalgia; security researchers emphasize metadata.",
+        "Early testers report uncanny accuracy and uncanny dread in equal measure."
       ],
       "debate": "Helpful innovation or privacy nightmare?",
       "source": "The Verge",
       "source_type": "news",
-      "url": "https://www.theverge.com/2026/9/15/canadian-ai-onshore-funding",
-      "score": 79.4,
+      "url": "https://www.theverge.com/2026/9/16/meta-memory-timeline-test",
+      "score": 86.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Meta"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.05,
+        "label": "negative"
+      },
+      "summary": "Feature auto-clusters locations, faces, and inferred moments. Opt-in copy emphasizes nostalgia; security researchers emphasize metadata. Early testers report uncanny accuracy and uncanny dread in equal measure.",
+      "cluster_id": "94b9e7841cdcc63d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T16:22:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "fd86bc2b51e470ec",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Bank of Canada holds rate as housing cooling uneven across cities",
+      "angle": "BoC held again while Toronto and Vancouver listings soften and the Prairies stay tight — renewals in the next year are still the political grenade. Plain-language take: what does 'hold' mean when your mortgage letter arrives?",
+      "bullets": [
+        "Central bank keeps the overnight rate unchanged after mixed inflation prints.",
+        "Toronto and Vancouver listings soften; Prairie markets stay comparatively tight.",
+        "Renewals in the next 12 months remain the political hot potato."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/business/article-boc-holds-september-2026/",
+      "score": 85.6,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Tiff Macklem"
+        ],
+        "organizations": [
+          "Bank of Canada"
+        ],
+        "locations": [
+          "Toronto",
+          "Vancouver",
+          "Ottawa"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.05,
+        "label": "negative"
+      },
+      "summary": "The Bank of Canada held its policy rate steady, citing uneven cooling in housing and sticky services inflation. Mortgage holders facing renewals remain the audience most hungry for plain-language takes.",
+      "cluster_id": "fd86bc2b51e470ec",
+      "related_count": 3,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T14:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e3fd81e91289be13",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "CLOSER",
+      "title": "Boy returns lost wallet with cash intact — note goes viral for kindness",
+      "angle": "CLOSER: THE KICKER/GOODBYES — A kid returned a wallet with the cash intact and a note so earnest it broke the internet in the best way. Exit on kindness without getting syrupy: who taught him that?",
+      "bullets": [
+        "Wallet contained concert tickets and a week grocery money.",
+        "Owner posted the note and tipped the family with a surprise gift card.",
+        "Local news desk calls it the rare story that needs no villain."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/wallet_note_kindness_2026/",
+      "score": 85.5,
       "is_backup": false,
       "entities": {
         "people": [],
         "organizations": [],
         "locations": [
-          "Montreal",
-          "Canada"
+          "Ohio"
         ],
-        "is_canadian": true
+        "is_canadian": false
       },
       "sentiment": {
-        "compound": 0.45,
+        "compound": 0.85,
         "label": "positive"
       },
-      "summary": "A Montreal AI company secured $40 million to build onshore training infrastructure for Canadian enterprises. The raise taps into growing demand for data residency and 'sovereign AI' options north of the border.",
-      "cluster_id": "d4e5f60718293a4b",
+      "summary": "Wallet contained concert tickets and a week grocery money. Owner posted the note and tipped the family with a surprise gift card. Local news desk calls it the rare story that needs no villain.",
+      "cluster_id": "e3fd81e91289be13",
       "related_count": 0,
       "clips": [],
       "meta": {
-        "ingested_at": "2026-09-15T13:30:00+00:00",
-        "source_published_at": "2026-09-15T08:00:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T15:39:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "e5f60718293a4b5c",
-      "date": "2026-09-15",
+      "id": "ae4d8a8f3b7d4545",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Hollywood Reporter: A-list divorce filing leaks before publicists wake up",
+      "angle": "An A-list divorce filing hit the docket before publicists had coffee — timeline leaks, statement drafts, and tabloid sprint mode. Pop culture with shelf life: sympathy, speculation, or leave them alone?",
+      "bullets": [
+        "Court docs were briefly public before a sealing request.",
+        "Both camps issued carefully vague statements about growing apart.",
+        "Brand partners quietly pause joint campaigns pending the news cycle."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/news/a-list-divorce-filing-leak-2026",
+      "score": 85.3,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Los Angeles"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.25,
+        "label": "negative"
+      },
+      "summary": "Court docs were briefly public before a sealing request. Both camps issued carefully vague statements about growing apart. Brand partners quietly pause joint campaigns pending the news cycle.",
+      "cluster_id": "ae4d8a8f3b7d4545",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T07:31:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "686d1567ac42af2c",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "TECH",
+      "title": "The Verge: Streaming sticks start inserting AI why-you-paused prompts",
+      "angle": "Streaming sticks are testing AI prompts that ask why you paused — engagement science meets couch creepiness. Debate writes itself: helpful recommendation, or surveillance with a smiley UI?",
+      "bullets": [
+        "Prompts appear after mid-episode pauses longer than two minutes.",
+        "Privacy advocates call it emotional telemetry dressed as UX.",
+        "Company says data is on-device first with opt-out buried three menus deep."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/2026/9/15/streaming-stick-why-you-paused",
+      "score": 85.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2,
+        "label": "negative"
+      },
+      "summary": "Prompts appear after mid-episode pauses longer than two minutes. Privacy advocates call it emotional telemetry dressed as UX. Company says data is on-device first with opt-out buried three menus deep.",
+      "cluster_id": "686d1567ac42af2c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T11:47:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e2096789f1d20515",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "THE LIST",
+      "title": "State fair deep-fried latte declared a public safety concern",
+      "angle": "A deep-fried latte at the state fair got flagged as a public safety concern — scalding dairy meets carnival chaos. Food bit with opinions: innovation, or the moment the fair finally went too far?",
+      "bullets": [
+        "Health inspectors cited temperature and spill risk near walkways.",
+        "Vendor insists it is basically a doughnut with ambition.",
+        "Fairgoers formed a line anyway and posted burn-risk reviews."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/16/deep-fried-latte-fair/",
+      "score": 84.7,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Iowa"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2,
+        "label": "positive"
+      },
+      "summary": "Health inspectors cited temperature and spill risk near walkways. Vendor insists it is basically a doughnut with ambition. Fairgoers formed a line anyway and posted burn-risk reviews.",
+      "cluster_id": "e2096789f1d20515",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T11:35:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "aa33e586229a0295",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "BREAKOUT WATCH",
+      "title": "Indie game studio four-person team sells 1M copies in a week",
+      "angle": "A four-person indie sold a million copies in a week — Steam charts, Discord chaos, and publishers rewriting acquisition slides. Call it now: the next overnight studio, or a lightning-strike genre hit?",
+      "bullets": [
+        "Game blends cozy farming with rogue-like combat in a weirdly sticky loop.",
+        "Team still answers bug reports from a shared spreadsheet.",
+        "Publisher offers arriving faster than the patch notes."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/2026/9/16/indie-four-person-million-copies",
+      "score": 84.4,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Seattle"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7,
+        "label": "positive"
+      },
+      "summary": "Game blends cozy farming with rogue-like combat in a weirdly sticky loop. Team still answers bug reports from a shared spreadsheet. Publisher offers arriving faster than the patch notes.",
+      "cluster_id": "aa33e586229a0295",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T07:55:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "5f9ea8bac496f66b",
+      "date": "2026-09-16",
       "slot": "am",
       "category": "SPORTS",
       "title": "Maple Leafs camp opens with new captain speculation already loud",
-      "angle": "Watercooler scoreboard: Who wears the C — and does it even matter in October?",
+      "angle": "Leafs media day turned into a captaincy referendum before anyone laced up — veterans deflect, coaches talk 'leadership group,' and talk radio is already drafting segments. Does the C even matter in October, or is this just content?",
       "bullets": [
         "Training camp media day turned into a captaincy referendum among analysts.",
         "Veterans deflect questions; coaching staff says leadership group comes first.",
@@ -244,7 +891,7 @@
         "label": "positive"
       },
       "summary": "Maple Leafs training camp opened with the captaincy debate dominating the narrative. Coaches insist the leadership group is the priority, but Toronto sports media is already framing it as the story of the week.",
-      "cluster_id": "e5f60718293a4b5c",
+      "cluster_id": "5f9ea8bac496f66b",
       "related_count": 1,
       "clips": [
         {
@@ -257,107 +904,382 @@
         }
       ],
       "meta": {
-        "ingested_at": "2026-09-15T13:30:00+00:00",
-        "source_published_at": "2026-09-15T10:15:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T10:15:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "f60718293a4b5c6d",
-      "date": "2026-09-15",
+      "id": "d86b800a6b19391c",
+      "date": "2026-09-16",
       "slot": "pm",
-      "category": "LIFESTYLE CHAT",
-      "title": "Why Canadians are quietly quitting the 5 a.m. club",
-      "angle": "Phone-in angle: Are early mornings productive — or performative?",
+      "category": "TECH",
+      "title": "Reddit r/technology: Electric car OS update bricks dashboards overnight",
+      "angle": "An overnight EV OS update reportedly bricked dashboards for a slice of owners — stranded screens, roadside memes, and warranty panic. Tech with car energy: over-the-air convenience or remote brick risk?",
       "bullets": [
-        "Wellness writers say hustle-culture mornings are losing steam post-pandemic.",
-        "Sleep researchers argue consistent bedtime beats heroic wake-up times.",
-        "Listeners love confessing their real routines versus the ones they post."
+        "Owners describe blank clusters and failed reverse-camera feeds.",
+        "Automaker pushes a rollback package while dealers triage.",
+        "Regulators ask whether OTA updates need a mandatory fail-safe mode."
       ],
-      "debate": "Would you do this / try this? Why or why not?",
-      "source": "Reddit r/UpliftingNews",
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Reddit r/technology",
       "source_type": "social",
-      "url": "https://www.reddit.com/r/UpliftingNews/comments/sample_5am_club/",
-      "score": 74.8,
+      "url": "https://www.reddit.com/r/technology/comments/ev_os_brick_2026/",
+      "score": 84.0,
       "is_backup": false,
       "entities": {
         "people": [],
         "organizations": [],
         "locations": [
-          "Canada"
+          "California"
         ],
-        "is_canadian": true
+        "is_canadian": false
       },
       "sentiment": {
-        "compound": 0.28,
-        "label": "positive"
+        "compound": -0.4,
+        "label": "negative"
       },
-      "summary": "A wave of lifestyle coverage suggests Canadians are ditching extreme early-morning routines for sleep-first schedules. The debate makes for easy phone-in radio: productivity theatre versus genuine rest.",
-      "cluster_id": "f60718293a4b5c6d",
+      "summary": "Owners describe blank clusters and failed reverse-camera feeds. Automaker pushes a rollback package while dealers triage. Regulators ask whether OTA updates need a mandatory fail-safe mode.",
+      "cluster_id": "d86b800a6b19391c",
       "related_count": 0,
       "clips": [],
       "meta": {
-        "ingested_at": "2026-09-15T13:30:00+00:00",
-        "source_published_at": "2026-09-14T18:30:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T14:08:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "0718293a4b5c6d7e",
-      "date": "2026-09-15",
-      "slot": "pm",
-      "category": "BREAKOUT WATCH",
-      "title": "Vancouver indie band's bedroom EP cracks US alternative chart",
-      "angle": "Who is rising: Meet the trio everyone will claim they discovered first",
+      "id": "e162f06acb290556",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "CLOSER",
+      "title": "Firefighter proposes after rescuing couple cat from storm drain",
+      "angle": "CLOSER: THE KICKER/GOODBYES — A firefighter rescued a couple cat from a storm drain, then proposed on the wet sidewalk while the whole block cheered. Weird-sweet closer: heroics, ring, and a very confused cat.",
       "bullets": [
-        "Self-released EP hit the Billboard Alternative Bubbling Under list.",
-        "Band still plays 200-cap rooms on the East Side between day jobs.",
-        "Labels are circling; the group says DIY is the brand for now."
+        "Cat had been missing for two days after heavy rain.",
+        "Proposal happened minutes after the animal was towel-dried.",
+        "Bodycam-adjacent phone video is the softest clip of the week."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "People",
+      "source_type": "news",
+      "url": "https://people.com/firefighter-proposes-after-cat-rescue-2026",
+      "score": 84.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Arizona"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.9,
+        "label": "positive"
+      },
+      "summary": "Cat had been missing for two days after heavy rain. Proposal happened minutes after the animal was towel-dried. Bodycam-adjacent phone video is the softest clip of the week.",
+      "cluster_id": "e162f06acb290556",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T16:46:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d181360bbddba2fb",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "SPORTS",
+      "title": "NBA preseason: Star demands trade after cryptic social post",
+      "angle": "An NBA star cryptic social post set off trade-demand alarms before tipoff of preseason. Locker-room telegraphing as content — who is actually carrying, and who is auditioning for exit interviews?",
+      "bullets": [
+        "Post featured a deleted caption and a photo of packed boxes.",
+        "Front office says no comment on social speculation.",
+        "Rival beat writers already floating three-team rumor diagrams."
+      ],
+      "debate": "Hot take: who is actually carrying the team?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/news/nba-star-cryptic-trade-post-2026",
+      "score": 83.5,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "NBA"
+        ],
+        "locations": [
+          "Los Angeles"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1,
+        "label": "negative"
+      },
+      "summary": "Post featured a deleted caption and a photo of packed boxes. Front office says no comment on social speculation. Rival beat writers already floating three-team rumor diagrams.",
+      "cluster_id": "d181360bbddba2fb",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T08:50:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "3271244d5cb0696b",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "THE LIST",
+      "title": "Town bans leaf blowers before 10 a.m. — residents revolt with rakes",
+      "angle": "A suburban leaf-blower ban before 10 a.m. sparked a rake rebellion and a noise-war group chat. Morning bit that writes itself: quiet streets vs. weekend warriors who live for the two-stroke symphony.",
+      "bullets": [
+        "Ordinance aims to cut early-morning noise after a summer of complaints.",
+        "Some residents staged a silent rake-in outside city hall.",
+        "Landscapers warn jobs will take longer and cost more this fall."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/nottheonion",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/nottheonion/comments/leafblower_ban_2026/",
+      "score": 83.2,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Ohio"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.05,
+        "label": "positive"
+      },
+      "summary": "Ordinance aims to cut early-morning noise after a summer of complaints. Some residents staged a silent rake-in outside city hall. Landscapers warn jobs will take longer and cost more this fall.",
+      "cluster_id": "3271244d5cb0696b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T08:14:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1bc0c12f131e7e73",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "BREAKOUT WATCH",
+      "title": "TikTok comic silent sketch format lands Netflix development deal",
+      "angle": "A silent-sketch TikTok comic just landed a Netflix development deal — no dialogue, pure timing, and brands circling. Name-drop now: is wordless comedy the next export, or a one-format wonder?",
+      "bullets": [
+        "Creator sketches regularly clear tens of millions of views without captions.",
+        "Deal is a first-look for a half-hour variety special.",
+        "Managers say the pitch is Chaplin for the For You page."
       ],
       "debate": "Agree or disagree — make your case in 30 seconds.",
       "source": "Hollywood Reporter",
       "source_type": "news",
-      "url": "https://www.hollywoodreporter.com/news/music/vancouver-indie-breakout-2026",
-      "score": 77.0,
+      "url": "https://www.hollywoodreporter.com/tv/tiktok-silent-comic-netflix-2026",
+      "score": 83.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Netflix"
+        ],
+        "locations": [
+          "Los Angeles"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6,
+        "label": "positive"
+      },
+      "summary": "Creator sketches regularly clear tens of millions of views without captions. Deal is a first-look for a half-hour variety special. Managers say the pitch is Chaplin for the For You page.",
+      "cluster_id": "1bc0c12f131e7e73",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T16:34:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e50f8c3cc8209efc",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "CLOSER",
+      "title": "Stray dog applies for job at bakery, gets hired as greeter",
+      "angle": "CLOSER: THE KICKER/GOODBYES — A stray kept showing up at a bakery until they hired him as greeter — floury paws optional. Feel-good weird that still asks: pets at work, or just this one perfect dog?",
+      "bullets": [
+        "Regulars started tipping treats in a jar by the register.",
+        "Health rules required a designated dog zone and weekly vet checks.",
+        "Adoption offers poured in; bakery says he is already on payroll snacks."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/bakery_dog_greeter_2026/",
+      "score": 83.0,
       "is_backup": false,
       "entities": {
         "people": [],
         "organizations": [],
         "locations": [
-          "Vancouver"
+          "Oregon"
         ],
-        "is_canadian": true
+        "is_canadian": false
       },
       "sentiment": {
-        "compound": 0.55,
+        "compound": 0.8,
         "label": "positive"
       },
-      "summary": "A Vancouver indie trio watched their bedroom EP creep onto a US alternative chart without a major-label push. The story is pure breakout fuel for morning shows hunting the next Canadian export.",
-      "cluster_id": "0718293a4b5c6d7e",
+      "summary": "Regulars started tipping treats in a jar by the register. Health rules required a designated dog zone and weekly vet checks. Adoption offers poured in; bakery says he is already on payroll snacks.",
+      "cluster_id": "e50f8c3cc8209efc",
       "related_count": 0,
-      "clips": [
-        {
-          "type": "audio",
-          "platform": "youtube",
-          "url": "https://www.youtube.com/watch?v=indieEpSample",
-          "thumbnail_url": "https://via.placeholder.com/320x180.png?text=Indie+EP",
-          "duration_seconds": 186,
-          "description": "Lead single official audio (link-out)"
-        }
-      ],
+      "clips": [],
       "meta": {
-        "ingested_at": "2026-09-15T13:30:00+00:00",
-        "source_published_at": "2026-09-15T07:45:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T17:53:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "18293a4b5c6d7e8f",
-      "date": "2026-09-15",
+      "id": "b2a6436f9455fb3a",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "SPORTS",
+      "title": "College football: Walk-on receiver first TD goes stadium-viral",
+      "angle": "A walk-on receiver first TD went stadium-viral — mom in the stands, student section losing it, highlight packages writing themselves. Feel-adjacent sports with pure lift; still ask who really carried the drive.",
+      "bullets": [
+        "Player had been on the scout team two weeks earlier.",
+        "Broadcast mic'd the celebration and the clip escaped local rights fast.",
+        "NIL offers reportedly hit his DMs before the postgame presser ended."
+      ],
+      "debate": "Hot take: who is actually carrying the team?",
+      "source": "Reddit r/entertainment",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/sports/comments/walkon_first_td_2026/",
+      "score": 82.8,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Texas"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7,
+        "label": "positive"
+      },
+      "summary": "Player had been on the scout team two weeks earlier. Broadcast mic'd the celebration and the clip escaped local rights fast. NIL offers reportedly hit his DMs before the postgame presser ended.",
+      "cluster_id": "b2a6436f9455fb3a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T11:11:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "700f701ba7d203d7",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "CLOSER",
+      "title": "Rescue owl released on anniversary of its rehab — crowd goes quiet",
+      "angle": "CLOSER: THE KICKER/GOODBYES — A rehab owl release anniversary drew a quiet crowd that forgot to cheer until it cleared the trees. Nature closer: hush, lift, and a reminder that not every win needs a roar.",
+      "bullets": [
+        "Wildlife center invited the original finder to open the crate.",
+        "Phones stayed mostly down after staff asked for a silent send-off.",
+        "Clip ends on wingbeats and one kid whispering go."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.com/news/science-environment-owl-release-2026",
+      "score": 82.5,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Scotland"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8,
+        "label": "positive"
+      },
+      "summary": "Wildlife center invited the original finder to open the crate. Phones stayed mostly down after staff asked for a silent send-off. Clip ends on wingbeats and one kid whispering go.",
+      "cluster_id": "700f701ba7d203d7",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T10:28:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "3ea78f87d3fb3b2a",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Variety: Streaming platform axes mid-season hit, creators go public",
+      "angle": "A mid-season hit got axed and the creators went public with the spreadsheet story — algorithms, unfinished arcs, and fan petitions. Agree or disagree: cancel culture for shows, or just ruthless math?",
+      "bullets": [
+        "Show ranked in the platform weekly top ten when the cut landed.",
+        "Writers posted a thread explaining unfinished character arcs.",
+        "Petition crosses six figures; platform cites portfolio balance."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/news/streaming-axes-midseason-hit/",
+      "score": 82.4,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "New York"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.3,
+        "label": "negative"
+      },
+      "summary": "Show ranked in the platform weekly top ten when the cut landed. Writers posted a thread explaining unfinished character arcs. Petition crosses six figures; platform cites portfolio balance.",
+      "cluster_id": "3ea78f87d3fb3b2a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T09:45:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a06576fe976c8851",
+      "date": "2026-09-16",
       "slot": "pm",
       "category": "CLOSER",
       "title": "Halifax kids raise $12K selling lemonade for neighbour's wheelchair ramp",
-      "angle": "Warm exit: Small town, big heart — end the hour on a high",
+      "angle": "CLOSER: THE KICKER/GOODBYES — Halifax kids hit $12K with lemonade, then local trades finished the neighbour's wheelchair ramp for free. End the hour on juice boxes, ribbon-cutting, and a room that actually feels better.",
       "bullets": [
         "Elementary students ran a weekend stand after seeing their neighbour struggle with stairs.",
         "Local contractors volunteered labour once the fundraising goal was hit.",
@@ -383,112 +1305,348 @@
         "label": "positive"
       },
       "summary": "A group of Halifax schoolkids raised twelve thousand dollars for a neighbour's wheelchair ramp, then watched local trades finish the build for free. Perfect feel-good closer for any daypart.",
-      "cluster_id": "18293a4b5c6d7e8f",
+      "cluster_id": "a06576fe976c8851",
       "related_count": 0,
       "clips": [],
       "meta": {
-        "ingested_at": "2026-09-15T13:30:00+00:00",
+        "ingested_at": "2026-09-16T07:45:00+00:00",
         "source_published_at": "2026-09-14T16:00:00+00:00",
-        "pipeline_version": "1.0.0"
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "293a4b5c6d7e8f90",
+      "id": "9a302f4f387c3e37",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "THE LIST",
+      "title": "City council debates ban on decorative rocks after pebble rage incident",
+      "angle": "A council debates banning decorative rocks after a pebble rage driveway dispute went viral. Civic weirdness with phone-in energy: HOA brainrot, or legitimate safety after someone got beaned?",
+      "bullets": [
+        "Incident allegedly began over landscaping that looked too intentional.",
+        "ER visit was minor; social video was not.",
+        "Council packet includes photos of rocks labeled Exhibit A through G."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/nottheonion",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/nottheonion/comments/pebble_rage_2026/",
+      "score": 82.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Arizona"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.05,
+        "label": "negative"
+      },
+      "summary": "Incident allegedly began over landscaping that looked too intentional. ER visit was minor; social video was not. Council packet includes photos of rocks labeled Exhibit A through G.",
+      "cluster_id": "9a302f4f387c3e37",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T14:56:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "8b21647d9b17e4db",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "LIFESTYLE CHAT",
+      "title": "Uplifting: strangers form grocery buddy network for elderly neighbours",
+      "angle": "Strangers built a grocery-buddy network for elderly neighbours — group chats, shared lists, and Sunday drop-offs. Soft lifestyle uplift that still invites a debate: charity, community, or unpaid labour?",
+      "bullets": [
+        "Neighborhood organizers match shoppers with seniors who struggle with apps.",
+        "Stores report more small weekday orders instead of monthly bulk runs.",
+        "Volunteers say the chats became unexpected friendships."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/grocery_buddy_network_2026/",
+      "score": 82.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Minnesota"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.75,
+        "label": "positive"
+      },
+      "summary": "Neighborhood organizers match shoppers with seniors who struggle with apps. Stores report more small weekday orders instead of monthly bulk runs. Volunteers say the chats became unexpected friendships.",
+      "cluster_id": "8b21647d9b17e4db",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T17:05:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "66991fbe768b5189",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "LIFESTYLE CHAT",
+      "title": "Couple tries phone-free Sundays for a month — results divide internet",
+      "angle": "A couple documented phone-free Sundays for a month and the internet split into monks vs. doomscrollers. Perfect phone-in: romantic reset, or performative offline branding?",
+      "bullets": [
+        "They locked devices in a kitchen safe from brunch until bedtime.",
+        "Highlights included longer walks and one missed family emergency text.",
+        "Comment sections turned into a referendum on attention spans."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/phone_free_sundays_2026/",
+      "score": 81.7,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Portland"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.25,
+        "label": "positive"
+      },
+      "summary": "They locked devices in a kitchen safe from brunch until bedtime. Highlights included longer walks and one missed family emergency text. Comment sections turned into a referendum on attention spans.",
+      "cluster_id": "66991fbe768b5189",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T14:44:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a77bb45cbd477024",
       "date": "2026-09-16",
       "slot": "am",
       "category": "CANADIAN NEWS",
-      "title": "Bank of Canada holds rate as housing cooling uneven across cities",
-      "angle": "Local / national take: What does 'hold' mean for your mortgage renewal?",
+      "title": "CTV: Ottawa probes grocery 'shrinkflation' claims as fall prices bite",
+      "angle": "Grocery receipts are the new talk-radio weather — Ottawa is probing shrinkflation claims just as fall prices bite again. Callers will bring receipts; hosts need one clear question: is this gouging, or just quieter packaging?",
       "bullets": [
-        "Central bank keeps the overnight rate unchanged after mixed inflation prints.",
-        "Toronto and Vancouver listings soften; Prairie markets stay comparatively tight.",
-        "Renewals in the next 12 months remain the political hot potato."
+        "Competition officials say they are reviewing packaging and unit-price complaints.",
+        "Retailers argue commodity costs and supply chains still drive shelf prices.",
+        "Social threads compare before/after photos of cereal boxes and yogurt tubs."
       ],
       "debate": "Does this change how you see the story locally?",
-      "source": "Globe and Mail",
+      "source": "CTV News",
       "source_type": "news",
-      "url": "https://www.theglobeandmail.com/business/article-boc-holds-september-2026/",
-      "score": 85.6,
+      "url": "https://www.ctvnews.ca/canada/ottawa-shrinkflation-probe-2026",
+      "score": 81.5,
       "is_backup": false,
       "entities": {
-        "people": [
-          "Tiff Macklem"
-        ],
+        "people": [],
         "organizations": [
-          "Bank of Canada"
+          "Competition Bureau"
         ],
         "locations": [
-          "Toronto",
-          "Vancouver",
           "Ottawa"
         ],
         "is_canadian": true
       },
       "sentiment": {
-        "compound": -0.05,
-        "label": "neutral"
+        "compound": -0.18,
+        "label": "negative"
       },
-      "summary": "The Bank of Canada held its policy rate steady, citing uneven cooling in housing and sticky services inflation. Mortgage holders facing renewals remain the audience most hungry for plain-language takes.",
-      "cluster_id": "293a4b5c6d7e8f90",
-      "related_count": 3,
+      "summary": "Federal officials are examining grocery shrinkflation complaints as households feel another autumn price pinch. The story is built for phone-ins: receipts, packaging photos, and frustration with quiet downsizing.",
+      "cluster_id": "a77bb45cbd477024",
+      "related_count": 0,
       "clips": [],
       "meta": {
-        "ingested_at": "2026-09-16T13:30:00+00:00",
-        "source_published_at": "2026-09-16T14:00:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T13:10:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "3a4b5c6d7e8f9012",
+      "id": "1586dc5c6b5b7839",
       "date": "2026-09-16",
       "slot": "am",
-      "category": "ENTERTAINMENT",
-      "title": "People Magazine: Canadian actor lands lead in Prestige Streamer thriller",
-      "angle": "Pop culture hook: Another hometown success story — do we overclaim every star?",
+      "category": "THE LIST",
+      "title": "Climate oddity: Midwestern town sees lightning in snow squall video",
+      "angle": "A Midwest snow squall lit up with lightning on video and meteorologists had to explain thundersnow again. Weather oddity with viral legs — science lesson plus did-you-see-that caller bait.",
       "bullets": [
-        "Toronto-born actor cast as lead in a six-episode prestige thriller.",
-        "Filming splits between Dublin and Hamilton standing in for US cities.",
-        "Casting news dropped alongside a first-look still that lit up fan accounts."
+        "Local TV weather desk confirmed thundersnow conditions for twenty minutes.",
+        "Clip shows blue flashes over a grocery parking lot.",
+        "Schools delayed openings while drivers learned what visibility zero means."
       ],
-      "debate": "Overrated or underrated — where do you land?",
-      "source": "People",
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
       "source_type": "news",
-      "url": "https://people.com/canadian-actor-streamer-thriller-2026",
-      "score": 73.5,
-      "is_backup": true,
+      "url": "https://nypost.com/2026/09/16/thundersnow-midwest-video/",
+      "score": 81.5,
+      "is_backup": false,
       "entities": {
         "people": [],
         "organizations": [],
         "locations": [
-          "Toronto",
-          "Hamilton",
-          "Dublin"
+          "Wisconsin"
         ],
-        "is_canadian": true
+        "is_canadian": false
       },
       "sentiment": {
-        "compound": 0.48,
+        "compound": 0.1,
         "label": "positive"
       },
-      "summary": "A Toronto-born actor booked the lead in a prestige streamer thriller, with Hamilton doubling for American cities. Soft entertainment news that still plays well for Canadian pride segments.",
-      "cluster_id": "3a4b5c6d7e8f9012",
+      "summary": "Local TV weather desk confirmed thundersnow conditions for twenty minutes. Clip shows blue flashes over a grocery parking lot. Schools delayed openings while drivers learned what visibility zero means.",
+      "cluster_id": "1586dc5c6b5b7839",
       "related_count": 0,
       "clips": [],
       "meta": {
-        "ingested_at": "2026-09-16T13:30:00+00:00",
-        "source_published_at": "2026-09-16T06:30:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T15:03:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "4b5c6d7e8f901234",
+      "id": "a646bcc2d57bf2f3",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "SPORTS",
+      "title": "Premier League VAR audio leak renews human refs campaign",
+      "angle": "A Premier League VAR audio leak renewed the human-refs-only campaign overnight — clarity vs. chaos on tape. Sports argument that works for casuals: more transparency, or too much sausage-making?",
+      "bullets": [
+        "Audio reveals hesitation and conflicting angles on a late penalty.",
+        "Managers demand consistent release policy for all major calls.",
+        "Fans edit the leak into meme soundboards within hours."
+      ],
+      "debate": "Hot take: who is actually carrying the team?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.com/sport/football/var-audio-leak-2026",
+      "score": 81.3,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Premier League"
+        ],
+        "locations": [
+          "London"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.15,
+        "label": "negative"
+      },
+      "summary": "Audio reveals hesitation and conflicting angles on a late penalty. Managers demand consistent release policy for all major calls. Fans edit the leak into meme soundboards within hours.",
+      "cluster_id": "a646bcc2d57bf2f3",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T10:04:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "26bea613c97e4bf8",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "ENTERTAINMENT",
+      "title": "People: Reality star quiet luxury wedding costs spark fan revolt",
+      "angle": "A reality star quiet-luxury wedding price tag leaked and the fandom revolted — tasteful or tone-deaf after seasons of relatable branding? Easy entertainment beat with a class-anger undercurrent.",
+      "bullets": [
+        "Anonymous vendor quotes put the weekend north of seven figures.",
+        "Fan forums dug up old clips about budget living and DIY decor.",
+        "Network says the special will still air with adjusted messaging."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "People",
+      "source_type": "news",
+      "url": "https://people.com/reality-star-quiet-luxury-wedding-2026",
+      "score": 81.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Miami"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1,
+        "label": "negative"
+      },
+      "summary": "Anonymous vendor quotes put the weekend north of seven figures. Fan forums dug up old clips about budget living and DIY decor. Network says the special will still air with adjusted messaging.",
+      "cluster_id": "26bea613c97e4bf8",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T08:38:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "5deb7337f5f0eeaf",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "CLOSER",
+      "title": "Teacher students secretly rebuild classroom library after flood",
+      "angle": "CLOSER: THE KICKER/GOODBYES — Students secretly rebuilt a classroom library after a flood, complete with handwritten card-catalog jokes. Warm exit that still leaves room for a soft debate on what school funding should cover.",
+      "bullets": [
+        "Books arrived in unlabeled boxes over three weekends.",
+        "Teacher cried on camera when the surprise reveal hit Monday morning.",
+        "PTA matched donations to finish the last shelf."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.com/news/education-classroom-library-rebuild-2026",
+      "score": 81.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Manchester"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.78,
+        "label": "positive"
+      },
+      "summary": "Books arrived in unlabeled boxes over three weekends. Teacher cried on camera when the surprise reveal hit Monday morning. PTA matched donations to finish the last shelf.",
+      "cluster_id": "5deb7337f5f0eeaf",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T06:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1e6b81846bb6113a",
       "date": "2026-09-16",
       "slot": "am",
       "category": "TECH",
       "title": "Ars Technica: New iPhone camera quirk sparks conspiracy-theory memes",
-      "angle": "Explain-it-to-me: Bug, feature, or marketing genius?",
+      "angle": "A quirky iPhone night-mode orb after an update fueled meme conspiracies overnight. Teach a little optics, laugh at the lore — bug, feature, or accidental marketing genius?",
       "bullets": [
-        "Users noticed a reflective 'orb' in night-mode shots after the latest update.",
+        "Users noticed a reflective orb in night-mode shots after the latest update.",
         "Apple has not commented; Reddit threads are already deep into lore.",
         "Great tech talk bit: separate the real camera science from the memes."
       ],
@@ -496,8 +1654,8 @@
       "source": "Ars Technica",
       "source_type": "news",
       "url": "https://arstechnica.com/gadgets/2026/09/iphone-camera-orb-memes/",
-      "score": 70.2,
-      "is_backup": true,
+      "score": 80.8,
+      "is_backup": false,
       "entities": {
         "people": [],
         "organizations": [
@@ -508,34 +1666,187 @@
       },
       "sentiment": {
         "compound": 0.05,
-        "label": "neutral"
+        "label": "positive"
       },
-      "summary": "A quirky iPhone camera artifact after a software update fueled meme conspiracy threads. Easy tech segment that lets hosts teach a little optics while laughing at the lore.",
-      "cluster_id": "4b5c6d7e8f901234",
+      "summary": "Users noticed a reflective orb in night-mode shots after the latest update. Apple has not commented; Reddit threads are already deep into lore. Great tech talk bit: separate the real camera science from the memes.",
+      "cluster_id": "1e6b81846bb6113a",
       "related_count": 0,
-      "clips": [
-        {
-          "type": "image",
-          "platform": "web",
-          "url": "https://arstechnica.com/gadgets/2026/09/iphone-camera-orb-memes/",
-          "thumbnail_url": "https://via.placeholder.com/320x180.png?text=Camera+Orb",
-          "duration_seconds": null,
-          "description": "Sample night-mode orb photo (link-out article)"
-        }
-      ],
+      "clips": [],
       "meta": {
-        "ingested_at": "2026-09-16T13:30:00+00:00",
-        "source_published_at": "2026-09-16T05:10:00+00:00",
-        "pipeline_version": "1.0.0"
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T07:19:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     },
     {
-      "id": "5c6d7e8f90123456",
+      "id": "6ba3dc15533bc16e",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "US politics oddity: Town votes to rename pothole after retiring mayor",
+      "angle": "A town voted to rename its worst pothole after a retiring mayor — roast or honor, depending who you ask. Not-the-onion civic comedy with a soft politics edge that still plays as List, not lecture.",
+      "bullets": [
+        "Resolution passed with laughter audible on the council livestream.",
+        "Public works says filling Mayor Memorial Crater is still unfunded.",
+        "Mayor claims to be deeply moved and slightly offended."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/nottheonion",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/nottheonion/comments/pothole_mayor_name_2026/",
+      "score": 80.5,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Pennsylvania"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.25,
+        "label": "positive"
+      },
+      "summary": "Resolution passed with laughter audible on the council livestream. Public works says filling Mayor Memorial Crater is still unfunded. Mayor claims to be deeply moved and slightly offended.",
+      "cluster_id": "6ba3dc15533bc16e",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T16:10:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "63618ab4e56f57c3",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "BBC: Bond franchise teases soft reboot casting shortlist",
+      "angle": "Bond soft-reboot shortlist is leaking again — accents, ages, and who gets to redefine the tuxedo. Classic watercooler entertainment: tradition vs. refresh, and which rumour you want to be true.",
+      "bullets": [
+        "Studio sources float three names across UK and international talent.",
+        "Fans already meme-casting unexpected comedians into the role.",
+        "Producers insist 007 stays male; the internet did not ask for permission."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.com/news/entertainment-arts-bond-soft-reboot-2026",
+      "score": 80.5,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Eon Productions"
+        ],
+        "locations": [
+          "London"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2,
+        "label": "positive"
+      },
+      "summary": "Studio sources float three names across UK and international talent. Fans already meme-casting unexpected comedians into the role. Producers insist 007 stays male; the internet did not ask for permission.",
+      "cluster_id": "63618ab4e56f57c3",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T10:52:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "c650ae836dd4defd",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "CLOSER",
+      "title": "Little League team surprises ump with thank-you banner",
+      "angle": "CLOSER: THE KICKER/GOODBYES — A Little League team surprised their longtime ump with a thank-you banner after a rough-call season. Soft sports closer: respect still exists, and kids wrote the nicest misspellings.",
+      "bullets": [
+        "Banner hung on the backstop before the final regular-season game.",
+        "Umpire needed a minute; parents pretend they planned the tears.",
+        "Local paper ran it under why we still show up on weeknights."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/little_league_ump_banner_2026/",
+      "score": 80.5,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Indiana"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.75,
+        "label": "positive"
+      },
+      "summary": "Banner hung on the backstop before the final regular-season game. Umpire needed a minute; parents pretend they planned the tears. Local paper ran it under why we still show up on weeknights.",
+      "cluster_id": "c650ae836dd4defd",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T11:35:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "432cc78abcc7f0d3",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "LIFESTYLE CHAT",
+      "title": "Study says friendship recess at work boosts productivity more than perks",
+      "angle": "A new study claims a scheduled friendship recess beats free snacks for productivity — forced fun or actual human maintenance? Phone-in lifestyle: would your workplace survive a mandatory hang?",
+      "bullets": [
+        "Researchers tracked teams that took a 15-minute social break mid-afternoon.",
+        "Self-reported focus scores rose more than in perk-heavy control groups.",
+        "Managers worry about measuring friendship ROI like a KPI."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/friendship_recess_2026/",
+      "score": 80.2,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "United States"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4,
+        "label": "positive"
+      },
+      "summary": "Researchers tracked teams that took a 15-minute social break mid-afternoon. Self-reported focus scores rose more than in perk-heavy control groups. Managers worry about measuring friendship ROI like a KPI.",
+      "cluster_id": "432cc78abcc7f0d3",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T11:23:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1b181ce0eac4b406",
       "date": "2026-09-16",
       "slot": "pm",
       "category": "THE LIST",
       "title": "NY Post: Tourist asks Toronto cops for directions to 'the CN Tower in Montreal'",
-      "angle": "Listener bait: Funniest tourist fail you've seen in your city?",
+      "angle": "A tourist reportedly asked Toronto officers how to reach the CN Tower in Montreal — map, straight faces, national roasting session. Classic List with a Canadian punchline: funniest tourist fail you've seen in your city?",
       "bullets": [
         "Bodycam-adjacent recount (via social) of a lost tourist conflating Canadian landmarks.",
         "Officers reportedly kept straight faces while pointing at a map of Ontario.",
@@ -563,13 +1874,1342 @@
         "label": "positive"
       },
       "summary": "A tourist in Toronto reportedly asked officers how to get to the CN Tower in Montreal, sparking a wave of affectionate roasting online. Classic List material with a Canadian punchline.",
-      "cluster_id": "5c6d7e8f90123456",
+      "cluster_id": "1b181ce0eac4b406",
       "related_count": 0,
       "clips": [],
       "meta": {
-        "ingested_at": "2026-09-16T13:30:00+00:00",
+        "ingested_at": "2026-09-16T07:45:00+00:00",
         "source_published_at": "2026-09-16T12:00:00+00:00",
-        "pipeline_version": "1.0.0"
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f7bfdff2e2c7f6d8",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "CLOSER",
+      "title": "Airline passenger buys meals for entire delayed cabin",
+      "angle": "CLOSER: THE KICKER/GOODBYES — One passenger bought meals for an entire delayed cabin and refused the spotlight until someone filmed the receipt. Generosity closer with a practical punchline: would you do it, and what is the cap?",
+      "bullets": [
+        "Delay stretched past four hours after a mechanical issue.",
+        "Gate agents helped distribute orders without announcing the donor.",
+        "Clip emphasizes tired kids lighting up more than the dollar amount."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/15/passenger-buys-meals-delayed-flight/",
+      "score": 80.0,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Denver"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7,
+        "label": "positive"
+      },
+      "summary": "Delay stretched past four hours after a mechanical issue. Gate agents helped distribute orders without announcing the donor. Clip emphasizes tired kids lighting up more than the dollar amount.",
+      "cluster_id": "f7bfdff2e2c7f6d8",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T07:07:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "92804d3de87f1ab0",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "THE LIST",
+      "title": "Ski resort opens early after freak September cold snap",
+      "angle": "A ski resort opened early after a freak September cold snap — powder photos in sandals season. Weather whiplash List: climate anxiety with a powder day punchline, ask if you would call in sick.",
+      "bullets": [
+        "Resort marketing leaned hard into wrong month, right snow.",
+        "Locals warn the early base may not survive a warm week.",
+        "Airlines report a spike in last-minute mountain weekend searches."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/16/ski-resort-early-september-open/",
+      "score": 79.8,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Colorado"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2,
+        "label": "positive"
+      },
+      "summary": "Resort marketing leaned hard into wrong month, right snow. Locals warn the early base may not survive a warm week. Airlines report a spike in last-minute mountain weekend searches.",
+      "cluster_id": "92804d3de87f1ab0",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T17:17:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f2a78291b5015414",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "People: Pop duo announces hiatus after on-stage argument goes viral",
+      "angle": "A pop duo on-stage argument went viral and a hiatus announcement followed before midnight. Drama with a shelf life: creative differences, PR spin, or the soft launch of two solo careers?",
+      "bullets": [
+        "Fan videos captured mics still live during the spat.",
+        "Label statement cites needed creative reset without assigning blame.",
+        "Ticketmaster refunds policy becomes the unexpected subplot."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "People",
+      "source_type": "news",
+      "url": "https://people.com/pop-duo-hiatus-onstage-argument-2026",
+      "score": 79.6,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Las Vegas"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.15,
+        "label": "negative"
+      },
+      "summary": "Fan videos captured mics still live during the spat. Label statement cites needed creative reset without assigning blame. Ticketmaster refunds policy becomes the unexpected subplot.",
+      "cluster_id": "f2a78291b5015414",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T12:06:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "23743441960f8eda",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "TECH",
+      "title": "OpenAI competitor open-sources smaller model aimed at laptops",
+      "angle": "A smaller open-source model aimed at laptops just dropped from an OpenAI competitor — local AI without the cloud bill. Tech explain: freedom and privacy win, or quality cliff with extra steps?",
+      "bullets": [
+        "Model card claims usable chat performance on 16GB machines.",
+        "Developers benchmark against on-device assistants overnight.",
+        "Cloud vendors downplay impact while quietly watching download counters."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/ai/2026/09/opensource-laptop-model/",
+      "score": 79.5,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "OpenAI"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2,
+        "label": "positive"
+      },
+      "summary": "Model card claims usable chat performance on 16GB machines. Developers benchmark against on-device assistants overnight. Cloud vendors downplay impact while quietly watching download counters.",
+      "cluster_id": "23743441960f8eda",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T17:29:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "82d9a4cd34836f94",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "CLOSER",
+      "title": "Lost concert ticket found taped to venue door with pay it forward note",
+      "angle": "CLOSER: THE KICKER/GOODBYES — Someone taped a spare concert ticket to the venue door with a pay-it-forward note and a smiley in Sharpie. Tiny miracle closer: trust fall for strangers, or the best kind of chaos?",
+      "bullets": [
+        "Fan who found it live-posted the seat reveal from inside the show.",
+        "Original buyer never came forward; venue left the note in a frame.",
+        "Commenters admit they would have hesitated — then rooted for it."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/concert_ticket_door_2026/",
+      "score": 79.5,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Nashville"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.72,
+        "label": "positive"
+      },
+      "summary": "Fan who found it live-posted the seat reveal from inside the show. Original buyer never came forward; venue left the note in a frame. Commenters admit they would have hesitated — then rooted for it.",
+      "cluster_id": "82d9a4cd34836f94",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T09:21:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a8d0404d7d0f1672",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Canadian AI startup raises $40M to keep training data onshore",
+      "angle": "Montreal just banked $40M to keep enterprise AI training data on Canadian soil — pension money, European deep-tech, and a sovereignty pitch. Explain-it bit: is 'onshore AI' real privacy, or just a nicer billing label?",
+      "bullets": [
+        "Montreal-based firm closed a Series B focused on sovereign AI infrastructure.",
+        "Investors include Canadian pension-linked funds and a European deep-tech arm.",
+        "Pitch: enterprise clients want training data that never leaves Canadian soil."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/2026/9/15/canadian-ai-onshore-funding",
+      "score": 79.4,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Montreal",
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.45,
+        "label": "positive"
+      },
+      "summary": "A Montreal AI company secured $40 million to build onshore training infrastructure for Canadian enterprises. The raise taps into growing demand for data residency and 'sovereign AI' options north of the border.",
+      "cluster_id": "a8d0404d7d0f1672",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-15T08:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "41c70922f9454dc2",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "SPORTS",
+      "title": "MLB: Pitch clock tweak proposal sparks pitcher vs. hitter civil war",
+      "angle": "A pitch-clock tweak proposal just restarted the pitcher-vs-hitter civil war — pace of play vs. craft. Perfect mid-show sports bit with two clean camps and zero middle ground.",
+      "bullets": [
+        "Proposal would add seconds in high-leverage innings only.",
+        "Pitchers claim fatigue and strategy; hitters want fewer soft resets.",
+        "Broadcast partners quietly love the drama either way."
+      ],
+      "debate": "Hot take: who is actually carrying the team?",
+      "source": "Reuters Top News",
+      "source_type": "news",
+      "url": "https://www.reuters.com/sports/mlb-pitch-clock-tweak-2026",
+      "score": 79.2,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "MLB"
+        ],
+        "locations": [
+          "New York"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Proposal would add seconds in high-leverage innings only. Pitchers claim fatigue and strategy; hitters want fewer soft resets. Broadcast partners quietly love the drama either way.",
+      "cluster_id": "41c70922f9454dc2",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T09:57:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "2646a55366cd8d93",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "LIFESTYLE CHAT",
+      "title": "Dating app adds values first prompts — users say it feels like homework",
+      "angle": "A dating app new values-first prompts have users calling it homework before the first date. Relationship chat with teeth: deeper matches, or the death of flirtatious chaos?",
+      "bullets": [
+        "Prompts cover politics-lite, money habits, and weekend energy levels.",
+        "Early data shows longer first messages and fewer ghosted chats.",
+        "Critics say the vibe shifted from spark to performance review."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/16/dating-app-values-prompts/",
+      "score": 79.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.05,
+        "label": "positive"
+      },
+      "summary": "Prompts cover politics-lite, money habits, and weekend energy levels. Early data shows longer first messages and fewer ghosted chats. Critics say the vibe shifted from spark to performance review.",
+      "cluster_id": "2646a55366cd8d93",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T16:58:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "8c4934e79d313386",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Office installs focus pods that employees say feel like time-out chairs",
+      "angle": "A company rolled out focus pods; staff say they feel like elementary time-out chairs with Wi-Fi. Workplace List: productivity theatre vs. quiet rooms that actually help — who would sit in one on purpose?",
+      "bullets": [
+        "Pods are marketed as deep-work sanctuaries with ambient soundscapes.",
+        "Employees leaked photos comparing them to school detention corners.",
+        "HR promises a redesign after the meme cycle peaked."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/nottheonion",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/nottheonion/comments/focus_pods_timeout_2026/",
+      "score": 78.9,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Austin"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Pods are marketed as deep-work sanctuaries with ambient soundscapes. Employees leaked photos comparing them to school detention corners. HR promises a redesign after the meme cycle peaked.",
+      "cluster_id": "8c4934e79d313386",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T12:42:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a37b4e60aeb8f725",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "LIFESTYLE CHAT",
+      "title": "Sleep scientists push social jet lag awareness for weekend warriors",
+      "angle": "Sleep scientists are naming social jet lag — the hangover from weekend schedule whiplash. Relatable lifestyle science: are Sunday nights ruined by Saturday 2 a.m., and would you actually fix it?",
+      "bullets": [
+        "Paper links weekend bedtime shifts to Monday mood and focus dips.",
+        "Advice is boring on purpose: keep wake times within an hour.",
+        "Listeners love confessing their most chaotic weekend sleep math."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.com/news/health-social-jet-lag-2026",
+      "score": 78.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "United Kingdom"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.1,
+        "label": "positive"
+      },
+      "summary": "Paper links weekend bedtime shifts to Monday mood and focus dips. Advice is boring on purpose: keep wake times within an hour. Listeners love confessing their most chaotic weekend sleep math.",
+      "cluster_id": "a37b4e60aeb8f725",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T13:37:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "5d5e7cf100d8f1ef",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "CLOSER",
+      "title": "Grandmother TikTok gardening tips hit a million followers overnight",
+      "angle": "CLOSER: THE KICKER/GOODBYES — A grandmother deadpan gardening tips hit a million followers overnight — compost jokes included. Soft closer with breakout energy: internet still has room for earnest weirdos.",
+      "bullets": [
+        "Videos are shot on a porch with a skeptical cat cameo.",
+        "Seed companies are sliding into DMs with sponsorship offers.",
+        "She says she will only promote tools she already owns."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "People",
+      "source_type": "news",
+      "url": "https://people.com/grandma-tiktok-gardening-million-2026",
+      "score": 78.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Georgia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.65,
+        "label": "positive"
+      },
+      "summary": "Videos are shot on a porch with a skeptical cat cameo. Seed companies are sliding into DMs with sponsorship offers. She says she will only promote tools she already owns.",
+      "cluster_id": "5d5e7cf100d8f1ef",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T08:14:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e38e239508399445",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "BREAKOUT WATCH",
+      "title": "Bedroom producer hits Billboard Heatseekers with sample-free dance EP",
+      "angle": "A bedroom producer cracked Heatseekers with a sample-free dance EP built on a laptop and stubborn ethics. Rising-talent watch: DIY purity as brand, or the moment a label buys the story?",
+      "bullets": [
+        "EP was uploaded with a public stems folder for remix culture.",
+        "DJs in Berlin and Seoul started spinning the lead cut the same weekend.",
+        "Major labels circling; artist says ownership terms are non-negotiable."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/music/news/bedroom-producer-heatseekers-2026",
+      "score": 78.2,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Brooklyn"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5,
+        "label": "positive"
+      },
+      "summary": "EP was uploaded with a public stems folder for remix culture. DJs in Berlin and Seoul started spinning the lead cut the same weekend. Major labels circling; artist says ownership terms are non-negotiable.",
+      "cluster_id": "e38e239508399445",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T17:41:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "3bbe64dd2f9023a7",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Smart fridge starts suggesting leftovers based on guilt score",
+      "angle": "A smart fridge update suggests leftovers based on a guilt score — waste math with a judgmental UI. Tech-meets-lifestyle: helpful nudge, or your appliances doing passive-aggressive therapy?",
+      "bullets": [
+        "Algorithm weighs expiration dates, past toss rates, and recipe effort.",
+        "Users report the fridge sounding disappointed via companion app copy.",
+        "Privacy folks note the inventory camera never really turned off."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/2026/9/16/smart-fridge-guilt-score",
+      "score": 78.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.05,
+        "label": "positive"
+      },
+      "summary": "Algorithm weighs expiration dates, past toss rates, and recipe effort. Users report the fridge sounding disappointed via companion app copy. Privacy folks note the inventory camera never really turned off.",
+      "cluster_id": "3bbe64dd2f9023a7",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T06:36:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "c056d67fc9ddafe1",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "SPORTS",
+      "title": "Tennis: Rising American crashes top-10 after five-set marathon",
+      "angle": "A rising American crashed the top ten after a five-set marathon that emptied the tank and filled the highlight reels. Breakout-adjacent sports: destiny run, or schedule luck meeting peak fitness?",
+      "bullets": [
+        "Match lasted past midnight local time with multiple trainings-worth of sprints.",
+        "Coach says recovery protocol is now the real opponent.",
+        "Sponsors scramble to update ranking graphics mid-tournament."
+      ],
+      "debate": "Hot take: who is actually carrying the team?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.com/sport/tennis/rising-american-top10-2026",
+      "score": 78.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "New York"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4,
+        "label": "positive"
+      },
+      "summary": "Match lasted past midnight local time with multiple trainings-worth of sprints. Coach says recovery protocol is now the real opponent. Sponsors scramble to update ranking graphics mid-tournament.",
+      "cluster_id": "c056d67fc9ddafe1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T12:18:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "ee891d7c6f39eccb",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "ENTERTAINMENT",
+      "title": "Hollywood Reporter: Awards season early buzz crowns unexpected indie",
+      "angle": "An unexpected indie just grabbed early awards-season buzz — tiny budget, huge critic quotes, zero marquee names. Breakout adjacent: do Oscars still reward risk, or is this just September optimism?",
+      "bullets": [
+        "Festival ovation clips are circulating among guild voters already.",
+        "Distributor accelerating a limited run into key markets.",
+        "Studio tentpoles suddenly look nervous in side-by-side tracking."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/awards-indie-buzz-2026",
+      "score": 77.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Telluride"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.45,
+        "label": "positive"
+      },
+      "summary": "Festival ovation clips are circulating among guild voters already. Distributor accelerating a limited run into key markets. Studio tentpoles suddenly look nervous in side-by-side tracking.",
+      "cluster_id": "ee891d7c6f39eccb",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T11:59:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e4ae575aa77df34a",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Reuters: Chipmakers warn of another GPU allocation scramble for holidays",
+      "angle": "Chipmakers are warning of another holiday GPU scramble — builders, gamers, and AI startups all in the same checkout line. Plain-language tech: who gets rationed first, and should normal PCs even care?",
+      "bullets": [
+        "Foundries cite demand from both consumer cards and data-center SKUs.",
+        "Retailers quietly raising preorder deposits on flagship models.",
+        "Analysts expect gray-market premiums if shipping slips again."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Reuters Top News",
+      "source_type": "news",
+      "url": "https://www.reuters.com/technology/gpu-allocation-holidays-2026",
+      "score": 77.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Taiwan"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.05,
+        "label": "negative"
+      },
+      "summary": "Foundries cite demand from both consumer cards and data-center SKUs. Retailers quietly raising preorder deposits on flagship models. Analysts expect gray-market premiums if shipping slips again.",
+      "cluster_id": "e4ae575aa77df34a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T12:54:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "549f87fe43907828",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "BREAKOUT WATCH",
+      "title": "Unknown K-pop trainee pre-debut freestyle clips break US For You pages",
+      "angle": "A pre-debut K-pop trainee freestyle clips are breaking US For You pages before any title track exists. Pure breakout fuel — invent the hype carefully so you do not look late next month.",
+      "bullets": [
+        "Clips emphasize choreography precision without heavy styling.",
+        "US dance creators are duetting and slowing the footwork.",
+        "Agency neither confirms nor denies an accelerated debut window."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/music/news/kpop-trainee-freestyle-fyp-2026",
+      "score": 77.1,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Seoul"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.55,
+        "label": "positive"
+      },
+      "summary": "Clips emphasize choreography precision without heavy styling. US dance creators are duetting and slowing the footwork. Agency neither confirms nor denies an accelerated debut window.",
+      "cluster_id": "549f87fe43907828",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T08:02:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "b6b38583b54ef381",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "BREAKOUT WATCH",
+      "title": "Vancouver indie band's bedroom EP cracks US alternative chart",
+      "angle": "A Vancouver trio still playing 200-cap East Side rooms just cracked a US alternative bubbling-under chart with a self-released EP. Name-drop them this morning so you can claim you called the Canadian export first.",
+      "bullets": [
+        "Self-released EP hit the Billboard Alternative Bubbling Under list.",
+        "Band still plays 200-cap rooms on the East Side between day jobs.",
+        "Labels are circling; the group says DIY is the brand for now."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/news/music/vancouver-indie-breakout-2026",
+      "score": 77.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Vancouver"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.55,
+        "label": "positive"
+      },
+      "summary": "A Vancouver indie trio watched their bedroom EP creep onto a US alternative chart without a major-label push. The story is pure breakout fuel for morning shows hunting the next Canadian export.",
+      "cluster_id": "b6b38583b54ef381",
+      "related_count": 0,
+      "clips": [
+        {
+          "type": "audio",
+          "platform": "youtube",
+          "url": "https://www.youtube.com/watch?v=indieEpSample",
+          "thumbnail_url": "https://via.placeholder.com/320x180.png?text=Indie+EP",
+          "duration_seconds": 186,
+          "description": "Lead single official audio (link-out)"
+        }
+      ],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-15T07:45:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "4afd9f3445f5052e",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "BREAKOUT WATCH",
+      "title": "College quarterback NIL podcast outdraws local sports talk",
+      "angle": "A college QB NIL podcast is outdrawing the local sports-talk station — athletes as media brands in real time. Breakout watch with a sports twist: is this empowerment, or the death of traditional locker-room access?",
+      "bullets": [
+        "Weekly downloads surpassed the market top afternoon show.",
+        "Guests include NFL vets and rival players via Zoom.",
+        "Boosters are quietly nervous about uncontrolled narratives."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Reddit r/entertainment",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/entertainment/comments/nil_podcast_qb_2026/",
+      "score": 76.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Alabama"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.35,
+        "label": "positive"
+      },
+      "summary": "Weekly downloads surpassed the market top afternoon show. Guests include NFL vets and rival players via Zoom. Boosters are quietly nervous about uncontrolled narratives.",
+      "cluster_id": "4afd9f3445f5052e",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T06:48:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "abeb21b59a28b349",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "SPORTS",
+      "title": "NBA: Rookie center defensive metrics shock advanced-stat Twitter",
+      "angle": "A rookie center defensive metrics just shocked advanced-stat Twitter — blocks, contests, and a highlight reel of denied dunks. Sports nerd bit that still converts: eye test vs. spreadsheet swagger.",
+      "bullets": [
+        "Per-possession numbers rival veterans twice his age early on.",
+        "Opposing coaches already scheme away from his side of the floor.",
+        "Fantasy leagues scramble to adjust sleeper rankings midweek."
+      ],
+      "debate": "Hot take: who is actually carrying the team?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/2026/9/16/nba-rookie-center-defense-metrics",
+      "score": 76.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "NBA"
+        ],
+        "locations": [
+          "Boston"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.35,
+        "label": "positive"
+      },
+      "summary": "Per-possession numbers rival veterans twice his age early on. Opposing coaches already scheme away from his side of the floor. Fantasy leagues scramble to adjust sleeper rankings midweek.",
+      "cluster_id": "abeb21b59a28b349",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T14:32:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "0a1b04ce11febe58",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Man returns library book 42 years late with a handwritten apology",
+      "angle": "A 42-years-late library book came back with a handwritten apology and a crumpled five. Soft weirdness that still pops — redemption arc, librarian grace, and the fine that never quite dies.",
+      "bullets": [
+        "Book was a 1980s travel guide checked out in another state.",
+        "Library waived most fees and framed the note for the staff room.",
+        "Social shares turned it into a mini confession booth for overdue guilt."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/library_42_years_2026/",
+      "score": 76.2,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Michigan"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.55,
+        "label": "positive"
+      },
+      "summary": "Book was a 1980s travel guide checked out in another state. Library waived most fees and framed the note for the staff room. Social shares turned it into a mini confession booth for overdue guilt.",
+      "cluster_id": "0a1b04ce11febe58",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T13:49:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "683e6ee1aeca9077",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "ENTERTAINMENT",
+      "title": "Celebrity chef cookbook AI accusations split the foodie internet",
+      "angle": "A celebrity chef faces AI-accusation drama over cookbook prose — ghostwriters, bots, and bruised brands. Entertainment with lifestyle crossover: does voice authenticity matter if the recipes slap?",
+      "bullets": [
+        "Side-by-side text comparisons circulated on food TikTok.",
+        "Publisher stands by human editors; chef calls it seasoning the truth.",
+        "Book preorders dipped then rebounded on controversy sales."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/biz/news/chef-cookbook-ai-accusations/",
+      "score": 76.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "New York"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1,
+        "label": "negative"
+      },
+      "summary": "Side-by-side text comparisons circulated on food TikTok. Publisher stands by human editors; chef calls it seasoning the truth. Book preorders dipped then rebounded on controversy sales.",
+      "cluster_id": "683e6ee1aeca9077",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T14:20:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "978be6e7e66d13e9",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "BREAKOUT WATCH",
+      "title": "UK bedroom singer lo-fi cover playlist cracks US viral charts",
+      "angle": "A UK bedroom singer lo-fi cover playlist cracked US viral charts without a label photoshoot. Breakout watch: soft voice, hard streaming math — claim them before the remixes arrive.",
+      "bullets": [
+        "Covers lean acoustic and slightly behind the beat on purpose.",
+        "US creators use the tracks under study-with-me livestreams.",
+        "Managers overseas are booking a first micro-tour of coffee shops."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.com/news/entertainment-arts-lofi-cover-breakout-2026",
+      "score": 75.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Manchester"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5,
+        "label": "positive"
+      },
+      "summary": "Covers lean acoustic and slightly behind the beat on purpose. US creators use the tracks under study-with-me livestreams. Managers overseas are booking a first micro-tour of coffee shops.",
+      "cluster_id": "978be6e7e66d13e9",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T10:16:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "bec7ca469264c145",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Variety: Marvel phase rumour claims major character recast",
+      "angle": "A Marvel recast rumour is loud enough that even casual fans are picking sides — contract drama, reboot logic, or just engagement farming? Treat it as rumour discipline: what is confirmed vs. what sells clicks.",
+      "bullets": [
+        "Trade blogs cite multiple sources with zero on-record confirmation.",
+        "Actor reps issue a non-denial that fans read as smoke.",
+        "Comic forums already redesigning the suit for the hypothetical new face."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/news/marvel-character-recast-rumour/",
+      "score": 75.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Marvel Studios"
+        ],
+        "locations": [
+          "Burbank"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Trade blogs cite multiple sources with zero on-record confirmation. Actor reps issue a non-denial that fans read as smoke. Comic forums already redesigning the suit for the hypothetical new face.",
+      "cluster_id": "bec7ca469264c145",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T13:13:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e4bcf43ed1089ace",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "BREAKOUT WATCH",
+      "title": "Stand-up special filmed in a laundromat becomes surprise comedy hit",
+      "angle": "A laundromat stand-up special is the surprise comedy hit of the week — fluorescent lights, dryer noise, and bits about quarters. Rising talent with visual novelty; ask if venues just got a new blueprint.",
+      "bullets": [
+        "Special shot guerrilla-style between late-night wash cycles.",
+        "Clips of audience folding clothes mid-joke are the viral hook.",
+        "Streamers bidding after a festival midnight screening."
+      ],
+      "debate": "Agree or disagree — make your case in 30 seconds.",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/news/laundromat-standup-special-2026",
+      "score": 75.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Philadelphia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.48,
+        "label": "positive"
+      },
+      "summary": "Special shot guerrilla-style between late-night wash cycles. Clips of audience folding clothes mid-joke are the viral hook. Streamers bidding after a festival midnight screening.",
+      "cluster_id": "e4bcf43ed1089ace",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T09:09:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "24194fe88267b20b",
+      "date": "2026-09-16",
+      "slot": "pm",
+      "category": "LIFESTYLE CHAT",
+      "title": "Why Canadians are quietly quitting the 5 a.m. club",
+      "angle": "Hustle-culture mornings are losing the plot — sleep researchers say consistent bedtimes beat heroic alarms, and listeners love confessing the gap between posted routines and real ones. Phone-in gold for the post-Labour Day slump.",
+      "bullets": [
+        "Wellness writers say hustle-culture mornings are losing steam post-pandemic.",
+        "Sleep researchers argue consistent bedtime beats heroic wake-up times.",
+        "Listeners love confessing their real routines versus the ones they post."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reddit r/UpliftingNews",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/UpliftingNews/comments/sample_5am_club/",
+      "score": 74.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.28,
+        "label": "positive"
+      },
+      "summary": "A wave of lifestyle coverage suggests Canadians are ditching extreme early-morning routines for sleep-first schedules. The debate makes for easy phone-in radio: productivity theatre versus genuine rest.",
+      "cluster_id": "24194fe88267b20b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-14T18:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d8ab5a0b9f4bb786",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "SPORTS",
+      "title": "Golf: LIV-PGA calendar rumor claims shared signature events in 2027",
+      "angle": "A LIV-PGA calendar rumor claims shared signature events in 2027 — peace deal or PR fiction? Golf talk for people who do not golf: money, egos, and whether fans actually want one big tent.",
+      "bullets": [
+        "Anonymous sources describe a framework, not a signed agreement.",
+        "Players on both sides urge patience while agents smell leverage.",
+        "Broadcasters quietly model a unified weekend rights package."
+      ],
+      "debate": "Hot take: who is actually carrying the team?",
+      "source": "Reuters Top News",
+      "source_type": "news",
+      "url": "https://www.reuters.com/sports/liv-pga-shared-events-rumour-2026",
+      "score": 74.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "LIV Golf",
+          "PGA Tour"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Anonymous sources describe a framework, not a signed agreement. Players on both sides urge patience while agents smell leverage. Broadcasters quietly model a unified weekend rights package.",
+      "cluster_id": "d8ab5a0b9f4bb786",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T13:25:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "77a09ae4ca9b6c17",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Hollywood strike-adjacent rumor: writers room AI observer clause",
+      "angle": "A strike-adjacent rumor claims some deals include an AI observer clause in writers rooms — tool, spy, or bargaining chip? Industry talk that still translates: who owns the jokes when a model is listening?",
+      "bullets": [
+        "Guild sources call the rumor overstated but not impossible.",
+        "Studios frame it as productivity analytics, not creative input.",
+        "Writers on social sketch satirical meeting minutes attributed to bots."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/business/ai-observer-writers-room-rumour-2026",
+      "score": 74.2,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Los Angeles"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2,
+        "label": "negative"
+      },
+      "summary": "Guild sources call the rumor overstated but not impossible. Studios frame it as productivity analytics, not creative input. Writers on social sketch satirical meeting minutes attributed to bots.",
+      "cluster_id": "77a09ae4ca9b6c17",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T15:27:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "336c2159d0c2f630",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "LIFESTYLE CHAT",
+      "title": "Viral meal-prep trend: one-pan dinners with a five-ingredient cap",
+      "angle": "The five-ingredient one-pan dinner trend is eating meal-prep TikTok — less grocery math, more weeknight survival. Lifestyle chat: smart constraint, or another aesthetic that dies by November?",
+      "bullets": [
+        "Creators emphasize grocery lists that fit on a sticky note.",
+        "Dietitians caution against equating simplicity with balanced nutrition.",
+        "Grocery chains report spikes in sheet-pan vegetable bundles."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "People",
+      "source_type": "news",
+      "url": "https://people.com/five-ingredient-one-pan-dinners-2026",
+      "score": 74.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.3,
+        "label": "positive"
+      },
+      "summary": "Creators emphasize grocery lists that fit on a sticky note. Dietitians caution against equating simplicity with balanced nutrition. Grocery chains report spikes in sheet-pan vegetable bundles.",
+      "cluster_id": "336c2159d0c2f630",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T12:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "4b6d721f347a652b",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Ars Technica: Open-source password manager patches clipboard race bug",
+      "angle": "An open-source password manager patched a clipboard race bug that could expose secrets on shared machines. Short tech hygiene segment — update now, then ask if clipboards were always the weak link.",
+      "bullets": [
+        "Bug involved timing between copy events and background clipboard managers.",
+        "Maintainers shipped a fix and a clear upgrade advisory.",
+        "Security Twitter praises the disclosure tone as a model."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/gadgets/2026/09/password-manager-clipboard-race/",
+      "score": 73.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1,
+        "label": "negative"
+      },
+      "summary": "Bug involved timing between copy events and background clipboard managers. Maintainers shipped a fix and a clear upgrade advisory. Security Twitter praises the disclosure tone as a model.",
+      "cluster_id": "4b6d721f347a652b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T13:01:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "7ce7021927738d34",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "People Magazine: Canadian actor lands lead in Prestige Streamer thriller",
+      "angle": "Toronto-born lead, Hamilton doubling for US cities, first-look still already lighting up fan accounts — soft pride segment that still asks whether we overclaim every star with a passport stamp.",
+      "bullets": [
+        "Toronto-born actor cast as lead in a six-episode prestige thriller.",
+        "Filming splits between Dublin and Hamilton standing in for US cities.",
+        "Casting news dropped alongside a first-look still that lit up fan accounts."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "People",
+      "source_type": "news",
+      "url": "https://people.com/canadian-actor-streamer-thriller-2026",
+      "score": 73.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Toronto",
+          "Hamilton",
+          "Dublin"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.48,
+        "label": "positive"
+      },
+      "summary": "A Toronto-born actor booked the lead in a prestige streamer thriller, with Hamilton doubling for American cities. Soft entertainment news that still plays well for Canadian pride segments.",
+      "cluster_id": "7ce7021927738d34",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T06:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9ff956e7e73ae22f",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "LIFESTYLE CHAT",
+      "title": "Capsule wardrobe challenge claims people wear 70 percent less stuff",
+      "angle": "A capsule-wardrobe challenge claims people wear 70 percent less stuff and feel finer — minimalism flex or laundry math? Lifestyle phone-in with closet shame optional.",
+      "bullets": [
+        "Participants limited themselves to 30 items for thirty days.",
+        "Self-reports cite faster mornings and fewer nothing-to-wear spirals.",
+        "Critics say the challenge ignores climate, jobs, and kid chaos."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "People",
+      "source_type": "news",
+      "url": "https://people.com/capsule-wardrobe-challenge-2026",
+      "score": 73.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.3,
+        "label": "positive"
+      },
+      "summary": "Participants limited themselves to 30 items for thirty days. Self-reports cite faster mornings and fewer nothing-to-wear spirals. Critics say the challenge ignores climate, jobs, and kid chaos.",
+      "cluster_id": "9ff956e7e73ae22f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T06:12:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1b34a01fad5c1f0d",
+      "date": "2026-09-16",
+      "slot": "am",
+      "category": "LIFESTYLE CHAT",
+      "title": "Office workers revive walking meetings after hybrid burnout survey",
+      "angle": "Walking meetings are back after a hybrid burnout survey — fresh air as management fashion. Lifestyle vs. gimmick: does pacing help ideas, or just punish people who wanted a chair?",
+      "bullets": [
+        "Survey respondents ranked outdoor walks above meditation apps.",
+        "Some companies issuing weather contingency Zoom policies.",
+        "Accessibility advocates urge optional formats, not mandates."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "Reuters Top News",
+      "source_type": "news",
+      "url": "https://www.reuters.com/lifestyle/walking-meetings-hybrid-burnout-2026",
+      "score": 72.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "New York"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2,
+        "label": "positive"
+      },
+      "summary": "Survey respondents ranked outdoor walks above meditation apps. Some companies issuing weather contingency Zoom policies. Accessibility advocates urge optional formats, not mandates.",
+      "cluster_id": "1b34a01fad5c1f0d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-16T07:45:00+00:00",
+        "source_published_at": "2026-09-16T15:51:00+00:00",
+        "pipeline_version": "1.1.0"
       }
     }
   ]

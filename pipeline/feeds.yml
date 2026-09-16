@@ -127,5 +127,7 @@ categories:
   - CLOSER
 
 pipeline:
-  max_stories: 80
-  pipeline_version: "1.0.0"
+  max_stories: 280
+  per_feed_limit: 18  # ingest.py reads this; entries kept per feed before global mix
+  target_canadian: 12  # soft target — keep about this many CA-lane stories when ranking
+  pipeline_version: "1.1.0"
