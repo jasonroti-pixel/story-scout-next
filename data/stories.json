@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-22T18:03:34.384880+00:00",
+  "generated_at": "2026-09-22T18:30:45.536580+00:00",
   "timezone": "America/Toronto",
   "date": "2026-09-22",
   "slot": "am",
   "pipeline_version": "1.1.0",
-  "count": 429,
+  "count": 453,
   "stories": [
     {
       "id": "b865b4242f8b4444",
@@ -106,6 +106,48 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:17.597793+00:00",
         "source_published_at": "2026-09-21T18:43:56+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "ddc77e80376e40e4",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Digger’ London premiere red carpet: Tom Cruise, Hannah Waddingham, Salma Hayek and more",
+      "angle": "From the film's star Tom Cruise to Salma Hayek, scroll through to see all the best photos from the starry red carpet. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "From the film's star Tom Cruise to Salma Hayek, scroll through to see all the best photos from the starry red carpet."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/22/photos/digger-london-premiere-red-carpet-tom-cruise-hannah-waddingham-salma-hayek-and-more/",
+      "score": 80.4,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Tom Cruise",
+          "Hannah Waddingham",
+          "Salma Hayek"
+        ],
+        "organizations": [],
+        "locations": [
+          "London"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.6369,
+        "label": "positive"
+      },
+      "summary": "From the film's star Tom Cruise to Salma Hayek, scroll through to see all the best photos from the starry red carpet.",
+      "cluster_id": "ddc77e80376e40e4",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.090264+00:00",
+        "source_published_at": "2026-09-22T18:12:26+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -324,6 +366,56 @@
       }
     },
     {
+      "id": "5fb1094739058430",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Netflix Submits Original Song From ‘Ray Gunn’ for Oscars, Written by Kimbra and Performed by Scarlett Johansson (EXCLUSIVE)",
+      "angle": "Netflix will officially submit “Too Much To Ask” from the animated feature “Ray Gunn” for consideration in the original song category at the Oscars, Variety has learned exclusively. Shelf life through drive time — who…",
+      "bullets": [
+        "Netflix will officially submit “Too Much To Ask” from the animated feature “Ray Gunn” for consideration in the original song category at the Oscars, Variety has learned exclusively.",
+        "Directed by Brad Bird, “Ray Gunn” is set in Metropia, a gigantic city in an alternate future as seen from 1939, where private eye Raymond Gunn is [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/artisans/news/oscars-original-song-ray-gunn-kimbra-scarlett-johansson-1236866979/",
+      "score": 78.0,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Ray Gunn",
+          "Kimbra",
+          "Performed",
+          "Scarlett Johansson",
+          "Brad Bird",
+          "Raymond Gunn"
+        ],
+        "organizations": [
+          "Netflix Submits Original",
+          "Netflix",
+          "Variety"
+        ],
+        "locations": [
+          "Metropia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7034,
+        "label": "positive"
+      },
+      "summary": "Netflix will officially submit “Too Much To Ask” from the animated feature “Ray Gunn” for consideration in the original song category at the Oscars, Variety has learned exclusively. Directed by Brad Bird, “Ray Gunn” is set in Metropia, a gigantic city in an alternate future as seen from 1939, where private eye Raymond Gunn is [&#8230;]",
+      "cluster_id": "5fb1094739058430",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.699031+00:00",
+        "source_published_at": "2026-09-22T18:10:13+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "229744b364a132e2",
       "date": "2026-09-22",
       "slot": "am",
@@ -491,6 +583,52 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:16.937479+00:00",
         "source_published_at": "2026-09-22T07:32:46+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "712b3c7bae676e01",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "US holds three hours of talks with Iran on sidelines of UN: Trump",
+      "angle": "President Trump revealed Tuesday that his special envoys Steve Witkoff and Jared Kushner held a three-hour meeting with Iranian leaders on the sidelines of the United Nations General Assembly. Ask the phones: would you…",
+      "bullets": [
+        "President Trump revealed Tuesday that his special envoys Steve Witkoff and Jared Kushner held a three-hour meeting with Iranian leaders on the sidelines of the United Nations General Assembly."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/us-news/us-holds-three-hours-of-talks-with-iran-on-sidelines-of-un-trump/",
+      "score": 75.7,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Trump",
+          "Steve Witkoff",
+          "Jared Kushner"
+        ],
+        "organizations": [
+          "UN",
+          "the United Nations General Assembly"
+        ],
+        "locations": [
+          "US",
+          "Iran"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6705,
+        "label": "positive"
+      },
+      "summary": "President Trump revealed Tuesday that his special envoys Steve Witkoff and Jared Kushner held a three-hour meeting with Iranian leaders on the sidelines of the United Nations General Assembly.",
+      "cluster_id": "712b3c7bae676e01",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.056032+00:00",
+        "source_published_at": "2026-09-22T18:13:42+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -774,6 +912,104 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:17.007649+00:00",
         "source_published_at": "2026-09-22T06:22:30+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e134fe15f339620f",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Disney Promotes Cathleen Taff to President Entertainment Studios and Consumer Products",
+      "angle": "Disney has set Cathleen Taff as president of its newly combined Disney Entertainment &#8211; Studios and Consumer Products team. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Disney has set Cathleen Taff as president of its newly combined Disney Entertainment &#8211; Studios and Consumer Products team.",
+        "4, the global licensing and publishing businesses will move under Disney Entertainment – Studios.",
+        "Staying put under the Disney Experiences division are Disney Parks Merchandise, Disney Store, and DisneyStore.com."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/news/disney-cathleen-taff-studios-consumer-products-president-1236872335/",
+      "score": 73.7,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Disney Store"
+        ],
+        "organizations": [
+          "Disney Promotes Cathleen Taff",
+          "Entertainment Studios",
+          "Consumer Products",
+          "Disney",
+          "Cathleen Taff",
+          "Disney Entertainment &",
+          "Studios",
+          "Disney Entertainment – Studios",
+          "Disney Experiences",
+          "Disney Parks Merchandise",
+          "DisneyStore.com",
+          "Disney [&#8230"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8689,
+        "label": "positive"
+      },
+      "summary": "Disney has set Cathleen Taff as president of its newly combined Disney Entertainment &#8211; Studios and Consumer Products team. Beginning Oct. 4, the global licensing and publishing businesses will move under Disney Entertainment – Studios. Staying put under the Disney Experiences division are Disney Parks Merchandise, Disney Store, and DisneyStore.com.",
+      "cluster_id": "e134fe15f339620f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.615816+00:00",
+        "source_published_at": "2026-09-22T18:15:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e26780599be0c1ab",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Taylor Swift Announces New Single, ‘Patient Zero,’ Coming This Week",
+      "angle": "Taylor Swift&#8217;s big news, at least for the moment, has turned out to be a new single, &#8220;Patient Zero,&#8221; coming out Friday, with few other details announced. Shelf life through drive time — who is…",
+      "bullets": [
+        "Taylor Swift&#8217;s big news, at least for the moment, has turned out to be a new single, &#8220;Patient Zero,&#8221; coming out Friday, with few other details announced.",
+        "&#8220;I&#8217;ve been impatiently waiting to tell you that my brand new single &#8216;Patient Zero&#8217; will be out on September 25 (!!!!!!!!!!!!) and it’s available to pre-order now on [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/music/news/taylor-swift-patient-zero-single-easter-eggs-1236872454/",
+      "score": 73.7,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Patient Zero",
+          "Taylor",
+          "8220;Patient Zero,&#8221"
+        ],
+        "organizations": [
+          "Taylor Swift Announces"
+        ],
+        "locations": [
+          "New Single"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.471,
+        "label": "negative"
+      },
+      "summary": "Taylor Swift&#8217;s big news, at least for the moment, has turned out to be a new single, &#8220;Patient Zero,&#8221; coming out Friday, with few other details announced. &#8220;I&#8217;ve been impatiently waiting to tell you that my brand new single &#8216;Patient Zero&#8217; will be out on September 25 (!!!!!!!!!!!!) and it’s available to pre-order now on [&#8230;]",
+      "cluster_id": "e26780599be0c1ab",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.656873+00:00",
+        "source_published_at": "2026-09-22T18:12:25+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1145,6 +1381,50 @@
       }
     },
     {
+      "id": "1a9eb6c04c53c80f",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Don’t Lie, Don’t Cry and Use Common Sense: Adam Levy, Judge Judy’s Son, Joins the Family Business With ‘Adam’s Law’",
+      "angle": "Don’t Lie, Don’t Cry and Use Common Sense: Adam Levy, Judge Judy’s Son, Joins the Family Business With ‘Adam’s Law’. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Don’t lie and don’t cry.",
+        "That sentiment has emerged as an unofficial motto for the daytime courtshow “Adam’s Law” after one week on the air.",
+        "The Monday-Friday syndicated series debuted Sept."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/news/adams-law-adam-levy-judge-judy-sheindlin-court-show-1236872416/",
+      "score": 73.0,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Adam Levy",
+          "Judy’s Son"
+        ],
+        "organizations": [
+          "the Family Business With ‘Adam’s Law",
+          "CBS"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.5994,
+        "label": "negative"
+      },
+      "summary": "Don’t lie and don’t cry. That sentiment has emerged as an unofficial motto for the daytime courtshow “Adam’s Law” after one week on the air. The Monday-Friday syndicated series debuted Sept. 14 as a bet by CBS that the court-show genre still has room for fresh faces.",
+      "cluster_id": "1a9eb6c04c53c80f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.575724+00:00",
+        "source_published_at": "2026-09-22T18:17:37+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "82b23f16c65eb806",
       "date": "2026-09-22",
       "slot": "am",
@@ -1233,6 +1513,48 @@
       "meta": {
         "ingested_at": "2026-09-22T18:03:33.226852+00:00",
         "source_published_at": "2026-09-22T17:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "05c5bbd718217f98",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Why Cardinals won’t use ‘easy’ fix for invisible Marvin Harrison Jr.",
+      "angle": "After the Seahawks’ 31-7 Week 2 win over the Cardinals on Sunday, there were two takeaways from the Ohio State receivers who participated in this contest. Ask the phones: would you film it, flee it, or pretend you saw…",
+      "bullets": [
+        "After the Seahawks’ 31-7 Week 2 win over the Cardinals on Sunday, there were two takeaways from the Ohio State receivers who participated in this contest."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/sports/why-cardinals-wont-use-easy-fix-for-invisible-marvin-harrison-jr/",
+      "score": 72.9,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Marvin Harrison Jr",
+          "Seahawks"
+        ],
+        "organizations": [
+          "Cardinals",
+          "Ohio State"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5859,
+        "label": "positive"
+      },
+      "summary": "After the Seahawks’ 31-7 Week 2 win over the Cardinals on Sunday, there were two takeaways from the Ohio State receivers who participated in this contest.",
+      "cluster_id": "05c5bbd718217f98",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.917749+00:00",
+        "source_published_at": "2026-09-22T18:17:20+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1460,6 +1782,46 @@
       }
     },
     {
+      "id": "8f80e491a5afb6cd",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "LeBron James goes viral for brutal brick-fest during open run",
+      "angle": "A video of new Philadelphia 76ers star LeBron James missing several shots during an offseason open run has gone viral. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "A video of new Philadelphia 76ers star LeBron James missing several shots during an offseason open run has gone viral."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/sports/lebron-james-goes-viral-for-brutal-brick-fest-in-pickup-game/",
+      "score": 72.4,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "LeBron James"
+        ],
+        "organizations": [],
+        "locations": [
+          "Philadelphia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.743,
+        "label": "negative"
+      },
+      "summary": "A video of new Philadelphia 76ers star LeBron James missing several shots during an offseason open run has gone viral.",
+      "cluster_id": "8f80e491a5afb6cd",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.814824+00:00",
+        "source_published_at": "2026-09-22T18:20:50+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "e3bfeeff0cb2cb50",
       "date": "2026-09-22",
       "slot": "am",
@@ -1576,6 +1938,49 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.777067+00:00",
         "source_published_at": "2026-09-22T14:38:56+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "0bac10eef429f20a",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Gulf states will urge Trump not to escalate Iran war — after he threatens to wipe out entire nation",
+      "angle": "Gulf state officials are set to meet with President Trump on Tuesday and urge him to avoid any escalation with Iran in favor of diplomacy, according to a new report. Ask the phones: would you film it, flee it, or…",
+      "bullets": [
+        "Gulf state officials are set to meet with President Trump on Tuesday and urge him to avoid any escalation with Iran in favor of diplomacy, according to a new report."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/world-news/gulf-states-to-urge-trump-not-to-escalate-war-with-iran-report/",
+      "score": 72.2,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Trump"
+        ],
+        "organizations": [
+          "Trump"
+        ],
+        "locations": [
+          "Gulf",
+          "Iran"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7184,
+        "label": "negative"
+      },
+      "summary": "Gulf state officials are set to meet with President Trump on Tuesday and urge him to avoid any escalation with Iran in favor of diplomacy, according to a new report.",
+      "cluster_id": "0bac10eef429f20a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.882433+00:00",
+        "source_published_at": "2026-09-22T18:19:13+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -2166,6 +2571,42 @@
       }
     },
     {
+      "id": "07d977f8e17f5176",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "It’s (almost) the most wonderful time of year: Where to order your Christmas cards now",
+      "angle": "Beat the holiday rush right now (you'll thank us later). Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Beat the holiday rush right now (you'll thank us later)"
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/article/best-places-to-buy-holiday-christmas-cards-online/",
+      "score": 71.4,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8372,
+        "label": "positive"
+      },
+      "summary": "Beat the holiday rush right now (you'll thank us later)",
+      "cluster_id": "07d977f8e17f5176",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.782139+00:00",
+        "source_published_at": "2026-09-22T18:21:52+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "5f34cfe4eeaaf186",
       "date": "2026-09-22",
       "slot": "am",
@@ -2238,6 +2679,47 @@
       }
     },
     {
+      "id": "d086d0ba90358bb1",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Minions Creator Pierre Coffin Signs With WME (Exclusive)",
+      "angle": "The filmmaker made his solo directorial debut with this summer's 'Minions &#38; Monsters,' which marked the best-reviewed title in the lucrative 'Despicable Me' franchise. Shelf life through drive time — who is…",
+      "bullets": [
+        "The filmmaker made his solo directorial debut with this summer's 'Minions &#38; Monsters,' which marked the best-reviewed title in the lucrative 'Despicable Me' franchise."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/pierre-coffin-minions-creator-despicable-me-signs-wme-1236707637/",
+      "score": 71.3,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Pierre Coffin"
+        ],
+        "organizations": [
+          "Minions &",
+          "Monsters"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.128,
+        "label": "positive"
+      },
+      "summary": "The filmmaker made his solo directorial debut with this summer's 'Minions &#38; Monsters,' which marked the best-reviewed title in the lucrative 'Despicable Me' franchise.",
+      "cluster_id": "d086d0ba90358bb1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.225244+00:00",
+        "source_published_at": "2026-09-22T18:17:53+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "5b6bd826831acf44",
       "date": "2026-09-22",
       "slot": "am",
@@ -2254,7 +2736,7 @@
       "source_type": "news",
       "url": "https://www.theverge.com/transportation/998550/a-cut-cable-disrupted-hundreds-of-flights-across-the-us",
       "score": 71.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Bryan Bedford"
@@ -2301,7 +2783,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/toronto/comments/1wnc7yb/the_vimy_oaks_mentioned_in_mark_carneys_speech_to/",
       "score": 71.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2337,7 +2819,7 @@
       "source_type": "news",
       "url": "https://www.hollywoodreporter.com/business/business-news/assistants-vs-agents-creator-co-founds-new-workspace-to-help-hollywood-and-its-assistants-keep-up-1236706968/",
       "score": 71.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2375,7 +2857,7 @@
       "source_type": "news",
       "url": "https://variety.com/2026/film/global/la-gradiva-debuts-trailer-cannes-critics-winner-1236871881/",
       "score": 71.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2411,7 +2893,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/us-news/rattlesnake-seen-slithering-dancing-on-socal-beach-in-rare-encounter/",
       "score": 71.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2451,7 +2933,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/us-news/cuba-and-iran-delegations-walk-out-of-trumps-fiery-un-speech-after-prez-threatens-to-take-down-their-governments/",
       "score": 71.1,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2487,7 +2969,7 @@
       "source_type": "news",
       "url": "https://www.hollywoodreporter.com/movies/movie-news/paramount-merger-5-million-indie-films-1236707539/",
       "score": 71.1,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2509,6 +2991,46 @@
       }
     },
     {
+      "id": "3ed474dd35ea0d15",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "30-year-old Praxis CEO planning AI-powered utopia in Uruguay — with first residents expected next year",
+      "angle": "“Having, like, an actual place is, like, really, really fire,” Brown told the outlet. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "“Having, like, an actual place is, like, really, really fire,” Brown told the outlet."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/business/30-year-old-praxis-ceo-planning-ai-powered-utopia-in-uruguay/",
+      "score": 71.1,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Brown"
+        ],
+        "organizations": [],
+        "locations": [
+          "Uruguay"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6124,
+        "label": "positive"
+      },
+      "summary": "“Having, like, an actual place is, like, really, really fire,” Brown told the outlet.",
+      "cluster_id": "3ed474dd35ea0d15",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.988190+00:00",
+        "source_published_at": "2026-09-22T18:15:23+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "e1f8532f85bba3be",
       "date": "2026-09-22",
       "slot": "am",
@@ -2523,7 +3045,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/sports/taser-aimed-at-wnba-star-paige-bueckers-during-chaotic-arike-ogunbowale-arrest-bodycam/",
       "score": 70.9,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2559,7 +3081,7 @@
       "source_type": "news",
       "url": "https://pagesix.com/2026/09/22/entertainment/kat-dennings-reveals-2-broke-girls-scene-she-refused-to-film/",
       "score": 70.8,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2595,7 +3117,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/business/megyn-kelly-blasts-nikole-hannah-jones-for-sending-daughter-to-piss-poor-school/",
       "score": 70.7,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2631,7 +3153,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/nottheonion/comments/1wn1dqz/a_raccoon_boot_camp_in_mississippi_teaches/",
       "score": 70.6,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2836,6 +3358,87 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.902122+00:00",
         "source_published_at": "2026-09-22T17:00:45+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "c44f12714d1ae7e4",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Taylor Swift shocks fans with surprise announcement: ‘I’ve been impatiently waiting to tell you’",
+      "angle": "The Grammy winner made the announcement via her website on Tuesday. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "The Grammy winner made the announcement via her website on Tuesday."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/22/entertainment/taylor-swift-shocks-fans-with-surprise-announcement/",
+      "score": 70.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Taylor Swift",
+          "Grammy"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.34,
+        "label": "positive"
+      },
+      "summary": "The Grammy winner made the announcement via her website on Tuesday.",
+      "cluster_id": "c44f12714d1ae7e4",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.847184+00:00",
+        "source_published_at": "2026-09-22T18:19:59+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1524592125a02e4d",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Creed Humphrey’s fiancee has her bachelorette party at Chiefs’ ‘MNF’ game",
+      "angle": "Kansas City offensive lineman Creed Humphrey's fiancée and her girlfriends dressed in Chiefs gear and ran drills on the field at Arrowhead Stadium to commemorate her bachelorette party. Ask the phones: would you film…",
+      "bullets": [
+        "Kansas City offensive lineman Creed Humphrey's fiancée and her girlfriends dressed in Chiefs gear and ran drills on the field at Arrowhead Stadium to commemorate her bachelorette party."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/sports/creed-humphreys-fiancee-has-her-bachelorette-party-at-chiefs-mnf-game/",
+      "score": 70.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Humphrey’s",
+          "Creed Humphrey"
+        ],
+        "organizations": [],
+        "locations": [
+          "Kansas City",
+          "Arrowhead Stadium"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.34,
+        "label": "positive"
+      },
+      "summary": "Kansas City offensive lineman Creed Humphrey's fiancée and her girlfriends dressed in Chiefs gear and ran drills on the field at Arrowhead Stadium to commemorate her bachelorette party.",
+      "cluster_id": "1524592125a02e4d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.156053+00:00",
+        "source_published_at": "2026-09-22T18:10:24+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -3331,6 +3934,48 @@
       }
     },
     {
+      "id": "d92565f87902a562",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Florida mom accused of having sex with her dog claims she was framed by vengeful ex — as friends launch fundraiser",
+      "angle": "Friends of the Florida mom who was arrested after her husband allegedly caught her on camera performing sex acts with her dog have launched a fundraiser to support her — claiming she was set by her vengeful spouse. Ask…",
+      "bullets": [
+        "Friends of the Florida mom who was arrested after her husband allegedly caught her on camera performing sex acts with her dog have launched a fundraiser to support her — claiming she was set by her vengeful spouse.",
+        "Malia Nummerdor, a 38-year-old mother of two son, was arrested last week after her estranged husband Erik..."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/us-news/florida-mom-accused-of-having-sex-with-her-dog-claims-she-was-framed-by-veneful-ex/",
+      "score": 69.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Malia Nummerdor",
+          "Erik"
+        ],
+        "organizations": [],
+        "locations": [
+          "Florida"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.25,
+        "label": "positive"
+      },
+      "summary": "Friends of the Florida mom who was arrested after her husband allegedly caught her on camera performing sex acts with her dog have launched a fundraiser to support her — claiming she was set by her vengeful spouse. Malia Nummerdor, a 38-year-old mother of two son, was arrested last week after her estranged husband Erik...",
+      "cluster_id": "d92565f87902a562",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.749319+00:00",
+        "source_published_at": "2026-09-22T18:22:44+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "81cd773f0654c45d",
       "date": "2026-09-22",
       "slot": "am",
@@ -3482,6 +4127,90 @@
       "meta": {
         "ingested_at": "2026-09-22T17:21:22.061671+00:00",
         "source_published_at": "2026-09-22T17:09:06+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "7debf61d96b2f490",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Save $30 on Apple’s Magic Keyboard with Touch ID and a numpad",
+      "angle": "Until the end of the day on September 22nd, 2026, Best Buy and Amazon have the black Apple Magic Keyboard on sale for $169.99, a $30 discount from the usual price. Explain it like a coworker Slack rant: helpful tool or…",
+      "bullets": [
+        "Until the end of the day on September 22nd, 2026, Best Buy and Amazon have the black Apple Magic Keyboard on sale for $169.99, a $30 discount from the usual price.",
+        "This is the souped-up version of Apple’s full-size, wireless keyboard, with a Touch ID button, numerical pad, arrow keys, plus additional function keys."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/gadgets/998824/apple-magic-keyboard-touch-interstellar-4k-blu-ray-deal-sale",
+      "score": 69.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Best Buy",
+          "wireless keyboard",
+          "arrow keys"
+        ],
+        "organizations": [
+          "Apple’s Magic Keyboard",
+          "Amazon",
+          "Apple"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8442,
+        "label": "positive"
+      },
+      "summary": "Until the end of the day on September 22nd, 2026, Best Buy and Amazon have the black Apple Magic Keyboard on sale for $169.99, a $30 discount from the usual price. This is the souped-up version of Apple’s full-size, wireless keyboard, with a Touch ID button, numerical pad, arrow keys, plus additional function keys. The [&#8230;]",
+      "cluster_id": "7debf61d96b2f490",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:44.581093+00:00",
+        "source_published_at": "2026-09-22T18:10:57+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "fa9d8cdba307ff68",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "What Andy Pages means to Dodgers’ postseason after returning from injury",
+      "angle": "Andy Pages is back with the Dodgers, but questions remain about how he will look at the plate. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Andy Pages is back with the Dodgers, but questions remain about how he will look at the plate."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/sports/what-dodgers-will-get-from-andy-after-return-from-broken-hand/",
+      "score": 69.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Andy Pages",
+          "Dodgers"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2263,
+        "label": "negative"
+      },
+      "summary": "Andy Pages is back with the Dodgers, but questions remain about how he will look at the plate.",
+      "cluster_id": "fa9d8cdba307ff68",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.122671+00:00",
+        "source_published_at": "2026-09-22T18:11:31+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -4524,6 +5253,48 @@
       }
     },
     {
+      "id": "9b9ce46624236afe",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Long Island high school promises to discipline students who taunted rival football team with tasteless signs",
+      "angle": "Sachem School District will discipline students who taunted William Floyd football players with crude signs targeting their girlfriends. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Sachem School District will discipline students who taunted William Floyd football players with crude signs targeting their girlfriends."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/us-news/long-island-high-school-promises-to-discipline-students-who-taunted-rival-football-team-with-tasteless-signs/",
+      "score": 67.7,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "William Floyd"
+        ],
+        "organizations": [
+          "Sachem School District"
+        ],
+        "locations": [
+          "Long Island"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2732,
+        "label": "negative"
+      },
+      "summary": "Sachem School District will discipline students who taunted William Floyd football players with crude signs targeting their girlfriends.",
+      "cluster_id": "9b9ce46624236afe",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.954153+00:00",
+        "source_published_at": "2026-09-22T18:15:56+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "b08176469d7cf71e",
       "date": "2026-09-22",
       "slot": "am",
@@ -4944,6 +5715,49 @@
       "meta": {
         "ingested_at": "2026-09-22T18:03:32.753643+00:00",
         "source_published_at": "2026-09-22T17:45:53+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "af767d1a230fab74",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Former CAF soldier who opened fire on police officer outside Belleville, Ont. synagogue has died",
+      "angle": "&#32; submitted by &#32; /u/MrLyle [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/MrLyle [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wngvmk/former_caf_soldier_who_opened_fire_on_police/",
+      "score": 67.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Ont"
+        ],
+        "organizations": [
+          "CAF",
+          "/u/MrLyle"
+        ],
+        "locations": [
+          "Belleville"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7184,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/MrLyle [link] &#32; [comments]",
+      "cluster_id": "af767d1a230fab74",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.470256+00:00",
+        "source_published_at": "2026-09-22T18:00:51+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -6566,6 +7380,55 @@
       }
     },
     {
+      "id": "9bf9673b05d3528c",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "TECH",
+      "title": "San Francisco sues Trump Media for selling early access to Trump posts",
+      "angle": "San Francisco is suing the Trump Media &#38; Technology Group, the parent company behind Truth Social, for selling early access to President Donald Trump's posts on the social media site. Explain it like a coworker…",
+      "bullets": [
+        "San Francisco is suing the Trump Media &#38; Technology Group, the parent company behind Truth Social, for selling early access to President Donald Trump's posts on the social media site.",
+        "The lawsuit, filed today in California state court, alleges that the Truth API feed is a \"corrupt business scheme\" that violates both California's Unfair Competition [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/tech/998914/trump-truth-social-api-lawsuit-san-francisco",
+      "score": 66.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Trump Media",
+          "Donald Trump"
+        ],
+        "organizations": [
+          "Trump",
+          "the Trump Media &#",
+          "Technology Group",
+          "Truth Social",
+          "Unfair Competition [&"
+        ],
+        "locations": [
+          "San Francisco",
+          "California"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7003,
+        "label": "negative"
+      },
+      "summary": "San Francisco is suing the Trump Media &#38; Technology Group, the parent company behind Truth Social, for selling early access to President Donald Trump's posts on the social media site. The lawsuit, filed today in California state court, alleges that the Truth API feed is a \"corrupt business scheme\" that violates both California's Unfair Competition [&#8230;]",
+      "cluster_id": "9bf9673b05d3528c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:44.622086+00:00",
+        "source_published_at": "2026-09-22T17:43:50+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "74f5d1c0406773e9",
       "date": "2026-09-22",
       "slot": "am",
@@ -7800,6 +8663,46 @@
       }
     },
     {
+      "id": "b7d7e8f601377cd9",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "California sued over ‘pay-to-play’ fee forcing businesses to fund ‘green research’",
+      "angle": "The California Department of Toxic Substances Control began requiring spray foam manufacturers to pay two cents for every pound sold in the state. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The California Department of Toxic Substances Control began requiring spray foam manufacturers to pay two cents for every pound sold in the state."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/science/texas-company-sues-california-over-fee-to-fund-green-research/",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "The California Department of Toxic Substances Control"
+        ],
+        "locations": [
+          "California"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1027,
+        "label": "negative"
+      },
+      "summary": "The California Department of Toxic Substances Control began requiring spray foam manufacturers to pay two cents for every pound sold in the state.",
+      "cluster_id": "b7d7e8f601377cd9",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.672917+00:00",
+        "source_published_at": "2026-09-22T18:30:11+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "1903a1248c0632cd",
       "date": "2026-09-22",
       "slot": "am",
@@ -8090,6 +8993,42 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.991079+00:00",
         "source_published_at": "2026-09-22T11:00:37+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9ea83c986babb44f",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "LIFESTYLE CHAT",
+      "title": "Neuroscientist warns common household item is a ‘public health emergency’ on the same level as asbestos",
+      "angle": "Many of us have them in our homes and at offices — but a neuroscientist is warning that one household staple may be a major threat to your health. Easy phone-in: is this smart living or lifestyle cosplay?",
+      "bullets": [
+        "Many of us have them in our homes and at offices — but a neuroscientist is warning that one household staple may be a major threat to your health."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/health/neuroscientist-warns-common-household-item-is-a-public-health-emergency/",
+      "score": 63.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8534,
+        "label": "negative"
+      },
+      "summary": "Many of us have them in our homes and at offices — but a neuroscientist is warning that one household staple may be a major threat to your health.",
+      "cluster_id": "9ea83c986babb44f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.708486+00:00",
+        "source_published_at": "2026-09-22T18:24:42+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -8945,6 +9884,44 @@
       "meta": {
         "ingested_at": "2026-09-22T17:21:22.064396+00:00",
         "source_published_at": "2026-09-22T17:05:06+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f977e83954ea09ff",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Iconic department store is closing locations — including 1 in California",
+      "angle": "Another staple of the American shopping mall is quietly trimming its stock. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Another staple of the American shopping mall is quietly trimming its stock."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/business/iconic-department-store-jcpenney-closes-massive-california-location/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "California"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Another staple of the American shopping mall is quietly trimming its stock.",
+      "cluster_id": "f977e83954ea09ff",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:43.019833+00:00",
+        "source_published_at": "2026-09-22T18:13:56+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -12184,6 +13161,46 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.958690+00:00",
         "source_published_at": "2026-09-22T05:00:15+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "c289272e07777606",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Competition Bureau reaches deal with Empire to end grocer’s use of property controls",
+      "angle": "&#32; submitted by &#32; /u/Cao_Ni-Ma [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Cao_Ni-Ma [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wng71h/competition_bureau_reaches_deal_with_empire_to/",
+      "score": 58.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Competition Bureau"
+        ],
+        "locations": [
+          "Empire"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0516,
+        "label": "positive"
+      },
+      "summary": "&#32; submitted by &#32; /u/Cao_Ni-Ma [link] &#32; [comments]",
+      "cluster_id": "c289272e07777606",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:30:42.570367+00:00",
+        "source_published_at": "2026-09-22T17:36:58+00:00",
         "pipeline_version": "1.1.0"
       }
     },
