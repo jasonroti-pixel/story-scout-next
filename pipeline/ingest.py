@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 """
 Story Scout Next — RSS ingest pipeline.
-feedparser + newspaper3k → enrich → mix-balanced data/stories.json.
+feedparser + newspaper3k → enrich → mix-balanced, then MERGED into the
+existing data/stories.json board (never overwritten: every story already
+on the board survives, fresh stories are added only when new).
 
 Daily target ~280 stories with a soft ~12 Canadian-lane pack and a large
 Arcade-style non-CA talk-radio mix (THE LIST, ENTERTAINMENT, TECH, etc.).
@@ -197,6 +199,56 @@ def balance_mix(
     return selected[:max_stories]
 
 
+def load_existing_board() -> list[dict[str, Any]]:
+    """Load the stories already on the board, or [] when none exists yet."""
+    if not OUT_PATH.is_file():
+        return []
+    try:
+        payload = json.loads(OUT_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError) as exc:
+        print(f"[ingest] warn: could not read existing board: {exc}", flush=True)
+        return []
+    if isinstance(payload, list):
+        raw = payload
+    elif isinstance(payload, dict):
+        raw = payload.get("stories") or []
+    else:
+        return []
+    return [s for s in raw if isinstance(s, dict)]
+
+
+def merge_into_board(
+    existing: list[dict[str, Any]],
+    fresh: list[dict[str, Any]],
+) -> tuple[list[dict[str, Any]], int]:
+    """Append fresh stories not already on the board. Never removes anything.
+
+    Dedupe is by story id (SHA-256 prefix of URL/title), which is stable
+    across runs, so a rerun adds nothing twice.
+    """
+    seen: set[str] = set()
+    for story in existing:
+        sid = story.get("id") or make_story_id(
+            story.get("url") or "", story.get("title") or ""
+        )
+        story["id"] = sid
+        seen.add(sid)
+
+    merged = list(existing)
+    added = 0
+    for story in fresh:
+        sid = story.get("id") or make_story_id(
+            story.get("url") or "", story.get("title") or ""
+        )
+        story["id"] = sid
+        if sid in seen:
+            continue
+        seen.add(sid)
+        merged.append(story)
+        added += 1
+    return merged, added
+
+
 def run(max_stories: int | None = None, fetch_full: bool = True) -> Path:
     cfg = load_config()
     pipeline_cfg = cfg.get("pipeline") or {}
@@ -256,11 +308,24 @@ def run(max_stories: int | None = None, fetch_full: bool = True) -> Path:
     stories.sort(key=lambda s: float(s.get("score") or 0), reverse=True)
     stories = balance_mix(stories, max_stories=max_stories, target_canadian=target_canadian)
 
-    # Primary show pack ≈ Arcade morning size; rest marked backup
-    primary_n = min(66, int(max_stories * 0.35))
-    for i, story in enumerate(stories):
-        story["is_backup"] = i >= primary_n
+    for story in stories:
         story["related_count"] = deduper.related_count(story["cluster_id"])
+
+    # Merge into the existing board instead of overwriting it: everything
+    # already on the board survives (including merged Twitter packs); fresh
+    # stories join only when their id is not already present.
+    existing = load_existing_board()
+    merged, added = merge_into_board(existing, stories)
+    print(
+        f"[ingest] board: {len(existing)} existing + {added} new = {len(merged)}",
+        flush=True,
+    )
+
+    # Primary show pack ≈ Arcade morning size, re-ranked across the merged board
+    primary_n = min(66, int(max_stories * 0.35))
+    merged.sort(key=lambda s: float(s.get("score") or 0), reverse=True)
+    for i, story in enumerate(merged):
+        story["is_backup"] = i >= primary_n
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     payload = {
@@ -269,11 +334,11 @@ def run(max_stories: int | None = None, fetch_full: bool = True) -> Path:
         "date": date,
         "slot": slot,
         "pipeline_version": pipeline_version,
-        "count": len(stories),
-        "stories": stories,
+        "count": len(merged),
+        "stories": merged,
     }
     OUT_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"[ingest] wrote {len(stories)} stories → {OUT_PATH}", flush=True)
+    print(f"[ingest] wrote {len(merged)} stories ({added} new) → {OUT_PATH}", flush=True)
     return OUT_PATH
 
 
