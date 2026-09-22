@@ -1,11 +1,63 @@
 {
-  "generated_at": "2026-09-22T17:21:22.200395+00:00",
+  "generated_at": "2026-09-22T18:03:34.384880+00:00",
   "timezone": "America/Toronto",
   "date": "2026-09-22",
   "slot": "am",
   "pipeline_version": "1.1.0",
-  "count": 396,
+  "count": 429,
   "stories": [
+    {
+      "id": "b865b4242f8b4444",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Jameis Winston struggled heavily as Rams dominate Giants | Blue Rush",
+      "angle": "Will the Giants be able to tread water in Jaxson Dart’s absence? Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Will the Giants be able to tread water in Jaxson Dart’s absence?",
+        "Why was Big Blue’s pass rush so ineffective against the Rams?",
+        "How will New York respond after also losing the physicality battle out in Los Angeles?"
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/video/jameis-winston-struggled-heavily-as-rams-dominate-giants-blue-rush/",
+      "score": 84.6,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Jameis Winston",
+          "Rams",
+          "Paul Schwartz",
+          "Brandon London"
+        ],
+        "organizations": [
+          "Rams dominate Giants",
+          "Giants",
+          "Big Blue’s",
+          "Blue Rush"
+        ],
+        "locations": [
+          "Jaxson Dart’s",
+          "New York",
+          "Los Angeles"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.8635,
+        "label": "negative"
+      },
+      "summary": "Will the Giants be able to tread water in Jaxson Dart’s absence? Why was Big Blue’s pass rush so ineffective against the Rams? How will New York respond after also losing the physicality battle out in Los Angeles?",
+      "cluster_id": "b865b4242f8b4444",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.499392+00:00",
+        "source_published_at": "2026-09-22T18:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
     {
       "id": "ff81de2c68e4c949",
       "date": "2026-09-22",
@@ -54,6 +106,44 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:17.597793+00:00",
         "source_published_at": "2026-09-21T18:43:56+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1c499af6fa8631b4",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Naked video call and bizarre Will Smith claim before fiery crash that killed six revealed in tearful testimony",
+      "angle": "The driver was “cleaning obsessively” and at one point \"popped up” naked on a video call. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The driver was “cleaning obsessively” and at one point \"popped up” naked on a video call."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/us-news/nicole-lintons-bizarre-video-calls-revealed-before-130-mph-los-angeles-crash-that-killed-six/",
+      "score": 79.0,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Will Smith"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.8979,
+        "label": "negative"
+      },
+      "summary": "The driver was “cleaning obsessively” and at one point \"popped up” naked on a video call.",
+      "cluster_id": "1c499af6fa8631b4",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.589848+00:00",
+        "source_published_at": "2026-09-22T17:55:19+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -230,6 +320,93 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:18.060355+00:00",
         "source_published_at": "2026-09-22T06:20:51+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "229744b364a132e2",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Lana Condor on Why She Always Believed in ‘Coyote vs. Acme’ and Her Plan to Return to Romance",
+      "angle": "The 29-year-old actress has had a busy release year between the now-saved Looney Tunes film and a slew of Prime Video offerings, and it's certainly changed her outlook on the industry: \"I feel like it gave me a little…",
+      "bullets": [
+        "The 29-year-old actress has had a busy release year between the now-saved Looney Tunes film and a slew of Prime Video offerings, and it's certainly changed her outlook on the industry: \"I feel like it gave me a little bit more faith.\""
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/lana-condor-coyote-vs-acme-romance-return-interview-1236707248/",
+      "score": 77.8,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Lana Condor",
+          "Acme",
+          "Looney Tunes"
+        ],
+        "organizations": [
+          "Prime Video"
+        ],
+        "locations": [
+          "Romance"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8841,
+        "label": "positive"
+      },
+      "summary": "The 29-year-old actress has had a busy release year between the now-saved Looney Tunes film and a slew of Prime Video offerings, and it's certainly changed her outlook on the industry: \"I feel like it gave me a little bit more faith.\"",
+      "cluster_id": "229744b364a132e2",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.870768+00:00",
+        "source_published_at": "2026-09-22T17:31:38+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "259cc1216995e254",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "AOC issues thinly veiled threat to Kamala Harris as Democrats gear up for White House fight",
+      "angle": "The New York Democrat has not ruled out a 2028 run as other potential contenders chart their own plans. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The New York Democrat has not ruled out a 2028 run as other potential contenders chart their own plans."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/us-news/ocasio-cortez-leaves-2028-presidential-options-open-as-harris-and-newsom-weigh-their-paths/",
+      "score": 77.2,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Kamala Harris"
+        ],
+        "organizations": [
+          "AOC",
+          "White House"
+        ],
+        "locations": [
+          "New York"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.7184,
+        "label": "negative"
+      },
+      "summary": "The New York Democrat has not ruled out a 2028 run as other potential contenders chart their own plans.",
+      "cluster_id": "259cc1216995e254",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.684203+00:00",
+        "source_published_at": "2026-09-22T17:52:02+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1014,6 +1191,52 @@
       }
     },
     {
+      "id": "abf6c4c09265b357",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Lucky Dog’ Expands on CBS Saturday Mornings, Adds New Series ‘Paws with Purpose’ (EXCLUSIVE)",
+      "angle": "“Lucky Dog: Paws with Purpose,” a new series from Hearst Media Production Group, will premiere Oct. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "“Lucky Dog: Paws with Purpose,” a new series from Hearst Media Production Group, will premiere Oct.",
+        "3 on CBS, as part of its “CBS WKND” Saturday morning educational/informational lineup for the 2026-27 season.",
+        "In “Lucky Dog: Paws with Purpose,” Emmy-winning animal trainer and host Brandon McMillan pairs dogs with military veterans and families."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/news/lucky-dog-franchise-expands-sets-paws-with-purpose-release-1236867389/",
+      "score": 72.9,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Mornings",
+          "Paws",
+          "Brandon McMillan"
+        ],
+        "organizations": [
+          "CBS",
+          "Hearst Media Production Group",
+          "CBS WKND"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.3885,
+        "label": "positive"
+      },
+      "summary": "“Lucky Dog: Paws with Purpose,” a new series from Hearst Media Production Group, will premiere Oct. 3 on CBS, as part of its “CBS WKND” Saturday morning educational/informational lineup for the 2026-27 season. In “Lucky Dog: Paws with Purpose,” Emmy-winning animal trainer and host Brandon McMillan pairs dogs with military veterans and families. The series [&#8230;]",
+      "cluster_id": "abf6c4c09265b357",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:33.226852+00:00",
+        "source_published_at": "2026-09-22T17:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "1a3316d2b0938251",
       "date": "2026-09-22",
       "slot": "am",
@@ -1233,6 +1456,88 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:17.042046+00:00",
         "source_published_at": "2026-09-22T05:23:43+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e3bfeeff0cb2cb50",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Nolan Wells’ parents ‘do not believe’ son ‘simply and accidentally’ drowned, despite grand jury report findings",
+      "angle": "A grand jury finding no evidence of foul play leading up to Wells' death. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "A grand jury finding no evidence of foul play leading up to Wells' death."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/us-news/nolan-wells-parents-do-not-believe-son-simply-and-accidentally-drowned-despite-grand-jury-report-findings/",
+      "score": 72.3,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Nolan Wells"
+        ],
+        "organizations": [
+          "Wells"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7253,
+        "label": "negative"
+      },
+      "summary": "A grand jury finding no evidence of foul play leading up to Wells' death.",
+      "cluster_id": "e3bfeeff0cb2cb50",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.708029+00:00",
+        "source_published_at": "2026-09-22T17:49:26+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9cdfe0046e2335c1",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Darkwing Duck’ Revived at Disney+ Starring Mark Hamill, Seth Rogen, Lizzy Caplan and Lilimar",
+      "angle": "The show, which first debuted in 1991, follows the adventures of Drake Mallard, aka iconic crime fighter Darkwing Duck. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "The show, which first debuted in 1991, follows the adventures of Drake Mallard, aka iconic crime fighter Darkwing Duck."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/darkwing-duck-revival-disney-mark-hamill-seth-rogen-cast-1236707643/",
+      "score": 72.3,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Starring Mark Hamill",
+          "Seth Rogen",
+          "Lizzy Caplan",
+          "Lilimar",
+          "Drake Mallard"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.128,
+        "label": "negative"
+      },
+      "summary": "The show, which first debuted in 1991, follows the adventures of Drake Mallard, aka iconic crime fighter Darkwing Duck.",
+      "cluster_id": "9cdfe0046e2335c1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.821745+00:00",
+        "source_published_at": "2026-09-22T18:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1619,6 +1924,52 @@
       }
     },
     {
+      "id": "b8c00136ef23ccb2",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Club Kid’ Gets 35mm Pre-Release Screening at San Francisco’s Castro Theatre – Film News in Brief",
+      "angle": "SFFilm will present a special preview screening A24’s “Club Kid” in 35mm at San Francisco’s Castro Theatre on Nov. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "SFFilm will present a special preview screening A24’s “Club Kid” in 35mm at San Francisco’s Castro Theatre on Nov.",
+        "with writer, director and star Jordan Firstman making an appearance for a post-screening conversation.",
+        "“&#8217;Club Kid&#8217; is an exhilarating introduction to Jordan Firstman as a filmmaker, with a world that feels completely [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/news/film-news-in-brief-sept-21-2026-1236867385/",
+      "score": 71.6,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Jordan Firstman"
+        ],
+        "organizations": [
+          "Pre-Release Screening",
+          "SFFilm",
+          "A24"
+        ],
+        "locations": [
+          "San Francisco’s"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6597,
+        "label": "positive"
+      },
+      "summary": "SFFilm will present a special preview screening A24’s “Club Kid” in 35mm at San Francisco’s Castro Theatre on Nov. 2 at 7:00 p.m. with writer, director and star Jordan Firstman making an appearance for a post-screening conversation. “&#8217;Club Kid&#8217; is an exhilarating introduction to Jordan Firstman as a filmmaker, with a world that feels completely [&#8230;]",
+      "cluster_id": "b8c00136ef23ccb2",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:33.113637+00:00",
+        "source_published_at": "2026-09-22T17:52:14+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "cf4fbc9e9b9275da",
       "date": "2026-09-22",
       "slot": "am",
@@ -1729,6 +2080,88 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.933707+00:00",
         "source_published_at": "2026-09-22T17:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "4017e97932282ab9",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Dolly Parton’s nephew fires back after being fired as security chief: ‘Refuse to be intimidated’",
+      "angle": "Seaver and his team said they're \"dismayed by the unexpected and, so far, unexplained actions\" taken since the country icon's death. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Seaver and his team said they're \"dismayed by the unexpected and, so far, unexplained actions\" taken since the country icon's death."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/22/celebrity-news/dolly-partons-nephew-fires-back-after-being-fired-as-security-chief-refuse-to-be-intimidated/",
+      "score": 71.4,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8402,
+        "label": "negative"
+      },
+      "summary": "Seaver and his team said they're \"dismayed by the unexpected and, so far, unexplained actions\" taken since the country icon's death.",
+      "cluster_id": "4017e97932282ab9",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.798816+00:00",
+        "source_published_at": "2026-09-22T17:40:55+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "2faac4ffcc0df977",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Jordan Peele’s Monkeypaw Productions and Universal Film Team With American Cinematheque and Beyond Fest for ‘No Drama’ Initiative (EXCLUSIVE)",
+      "angle": "Jordan Peele&#8217;s Monkeypaw Productions is gearing up for the second edition of its “No Drama” filmmaker initiative, presented in partnership with Universal Film. Shelf life through drive time — who is overrated and…",
+      "bullets": [
+        "Jordan Peele&#8217;s Monkeypaw Productions is gearing up for the second edition of its “No Drama” filmmaker initiative, presented in partnership with Universal Film.",
+        "The global initiative — developed by Universal’s Filmmaker &#38; Content Strategies group — launched in 2024 as a one-year, non-exclusive program that supports emerging genre filmmakers by providing access and industry exposure [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/news/jordan-peele-monkeypaw-universal-no-drama-1236871733/",
+      "score": 71.4,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Jordan Peele’s Monkeypaw Productions"
+        ],
+        "organizations": [
+          "Universal Film Team With American Cinematheque",
+          "Beyond Fest",
+          "Jordan Peele&#8217;s Monkeypaw Productions",
+          "Universal Film",
+          "Universal’s Filmmaker &",
+          "Content Strategies"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6408,
+        "label": "positive"
+      },
+      "summary": "Jordan Peele&#8217;s Monkeypaw Productions is gearing up for the second edition of its “No Drama” filmmaker initiative, presented in partnership with Universal Film. The global initiative — developed by Universal’s Filmmaker &#38; Content Strategies group — launched in 2024 as a one-year, non-exclusive program that supports emerging genre filmmakers by providing access and industry exposure [&#8230;]",
+      "cluster_id": "2faac4ffcc0df977",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:33.059668+00:00",
+        "source_published_at": "2026-09-22T18:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1960,6 +2393,46 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.927671+00:00",
         "source_published_at": "2026-09-22T17:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "602a7e01432e5c1c",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Camouflaged rattlesnake caught in bizarre dance on SoCal beach during rare encounter",
+      "angle": "A beachgoer captured the camouflaged rattler crawling near the waterline, occasionally slipping into the surf and then coming back to the shore at Crystal Cove in Newport Beach. Ask the phones: would you film it, flee…",
+      "bullets": [
+        "A beachgoer captured the camouflaged rattler crawling near the waterline, occasionally slipping into the surf and then coming back to the shore at Crystal Cove in Newport Beach."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/us-news/rattlesnake-seen-slithering-dancing-on-socal-beach-in-rare-encounter/",
+      "score": 71.2,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "SoCal",
+          "Crystal Cove",
+          "Newport Beach"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.3182,
+        "label": "negative"
+      },
+      "summary": "A beachgoer captured the camouflaged rattler crawling near the waterline, occasionally slipping into the surf and then coming back to the shore at Crystal Cove in Newport Beach.",
+      "cluster_id": "602a7e01432e5c1c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.613345+00:00",
+        "source_published_at": "2026-09-22T17:54:31+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -2196,7 +2669,7 @@
       "source_type": "news",
       "url": "https://variety.com/2026/film/news/iron-boy-tangles-the-violinist-animation-is-films-line-up-1236871603/",
       "score": 70.5,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2232,7 +2705,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/us-news/tennessee-wendys-manager-arrested-after-admitting-to-tying-neurodivergent-employee-to-kitchen-equipment-for-tiktok-stunt-cops/",
       "score": 70.4,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [
@@ -2273,7 +2746,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/technology/comments/1wn5mux/londoner_jailed_for_selling_27million_of_fake/",
       "score": 70.4,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2309,7 +2782,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/sports/danica-patrick-parties-through-aaron-rodgers-controversy-after-qbs-scathing-accusations/",
       "score": 70.4,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2345,7 +2818,7 @@
       "source_type": "news",
       "url": "https://www.hollywoodreporter.com/music/music-news/george-michael-tribute-vmas-raye-sombr-teddy-swims-1236707619/",
       "score": 70.4,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2381,7 +2854,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/nottheonion/comments/1wmoqe4/would_you_eat_a_cookie_made_from_upcycled_plastic/",
       "score": 70.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2417,7 +2890,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/nottheonion/comments/1wlt120/logan_paul_gives_a_speech_to_united_states/",
       "score": 70.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2453,7 +2926,7 @@
       "source_type": "news",
       "url": "https://decider.com/2026/09/22/when-does-the-love-hypothesis-movie-come-out-amazon-prime-video-release-time/",
       "score": 70.1,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2475,6 +2948,90 @@
       }
     },
     {
+      "id": "8c7e415ef0c92b5d",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Former No. 1 pick accuses LeBron James of having ‘toxic’ impact on Lakers stars",
+      "angle": "Former NBA top pick Kwame Brown made several powerful claims toward former Los Angeles Lakers star LeBron James. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Former NBA top pick Kwame Brown made several powerful claims toward former Los Angeles Lakers star LeBron James."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/sports/ex-lakers-star-claims-lebron-james-had-toxic-impact-on-dalton-knecht/",
+      "score": 70.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "LeBron James",
+          "Kwame Brown"
+        ],
+        "organizations": [
+          "NBA"
+        ],
+        "locations": [
+          "Los Angeles"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.296,
+        "label": "positive"
+      },
+      "summary": "Former NBA top pick Kwame Brown made several powerful claims toward former Los Angeles Lakers star LeBron James.",
+      "cluster_id": "8c7e415ef0c92b5d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.636209+00:00",
+        "source_published_at": "2026-09-22T17:52:55+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "208e256f591f4719",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Rachel Zoe reveals first freelance styling gig was for Britney Spears’ iconic ‘…Baby One More Time’ video",
+      "angle": "The celeb stylist-turned-\"RHOBH\" star told \"Virtual Reali-Tea\" how the Princess of Pop helped launch her career. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The celeb stylist-turned-\"RHOBH\" star told \"Virtual Reali-Tea\" how the Princess of Pop helped launch her career."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/22/style/rachel-zoe-reveals-first-freelance-styling-gig-was-for-britney-spears/",
+      "score": 70.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Rachel Zoe",
+          "Virtual Reali-Tea"
+        ],
+        "organizations": [
+          "Britney Spears"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.296,
+        "label": "positive"
+      },
+      "summary": "The celeb stylist-turned-\"RHOBH\" star told \"Virtual Reali-Tea\" how the Princess of Pop helped launch her career.",
+      "cluster_id": "208e256f591f4719",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.731152+00:00",
+        "source_published_at": "2026-09-22T17:48:50+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "5ded4b42962bdcbc",
       "date": "2026-09-22",
       "slot": "am",
@@ -2489,7 +3046,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/us-news/california-democrats-staffer-arrested-in-ice-operation/",
       "score": 69.8,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2525,7 +3082,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/nottheonion/comments/1wmeyzh/man_used_fake_penises_in_spiritual_cleansing_to/",
       "score": 69.8,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2561,7 +3118,7 @@
       "source_type": "news",
       "url": "https://www.hollywoodreporter.com/movies/movie-news/lily-rose-depp-playboy-mansion-drama-1236707405/",
       "score": 69.8,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2692,6 +3249,44 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.890600+00:00",
         "source_published_at": "2026-09-22T16:50:22+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f859600e55087cef",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Physicians’ ‘health-xiety’ is on the rise — but their trust with patients hasn’t wavered",
+      "angle": "Still, 64% said they're concerned AI could strip away the personal touch of healthcare altogether. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Still, 64% said they're concerned AI could strip away the personal touch of healthcare altogether."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/health/physicians-health-xiety-is-on-the-rise-but-their-trust-with-patients-hasnt-wavered/",
+      "score": 69.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "AI"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6652,
+        "label": "positive"
+      },
+      "summary": "Still, 64% said they're concerned AI could strip away the personal touch of healthcare altogether.",
+      "cluster_id": "f859600e55087cef",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.544794+00:00",
+        "source_published_at": "2026-09-22T17:57:19+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -3035,6 +3630,89 @@
       }
     },
     {
+      "id": "ece88cca40a24c21",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Darkwing Duck’ Reboot Ordered to Series at Disney+ With Mark Hamill, Seth Rogen in Lead Roles",
+      "angle": "The &#8220;Darkwing Duck&#8221; reboot has been ordered to series at Disney+, Variety has learned. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "The &#8220;Darkwing Duck&#8221; reboot has been ordered to series at Disney+, Variety has learned.",
+        "The news comes nearly six years after Variety exclusively reported the project was in development at the streamer.",
+        "The voice cast for the new series will include: Mark Hamill (“Batman: The Animated Series,” “Batman: Arkham Asylum”) as Drake Mallard aka Darkwing [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/news/darkwing-duck-reboot-series-disney-mark-hamill-seth-rogen-1236872302/",
+      "score": 69.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Mark Hamill",
+          "Seth Rogen",
+          "Drake Mallard"
+        ],
+        "organizations": [
+          "Disney+",
+          "Variety"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "The &#8220;Darkwing Duck&#8221; reboot has been ordered to series at Disney+, Variety has learned. The news comes nearly six years after Variety exclusively reported the project was in development at the streamer. The voice cast for the new series will include: Mark Hamill (“Batman: The Animated Series,” “Batman: Arkham Asylum”) as Drake Mallard aka Darkwing [&#8230;]",
+      "cluster_id": "ece88cca40a24c21",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:33.086621+00:00",
+        "source_published_at": "2026-09-22T18:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "c03bc6c018168d8b",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "NYC Marathon route changing for first time in 15 years — what runners need to know",
+      "angle": "The change comes after years of complaints from residents who griped the steady stream of runners through the current course cut them off from necessary amenities. Ask the phones: would you film it, flee it, or pretend…",
+      "bullets": [
+        "The change comes after years of complaints from residents who griped the steady stream of runners through the current course cut them off from necessary amenities."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/us-news/nyc-marathon-route-changing-for-first-time-in-15-years/",
+      "score": 68.9,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "NYC Marathon"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.5859,
+        "label": "negative"
+      },
+      "summary": "The change comes after years of complaints from residents who griped the steady stream of runners through the current course cut them off from necessary amenities.",
+      "cluster_id": "c03bc6c018168d8b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.660956+00:00",
+        "source_published_at": "2026-09-22T17:52:46+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "2b84444dd064098c",
       "date": "2026-09-22",
       "slot": "am",
@@ -3308,6 +3986,47 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.664601+00:00",
         "source_published_at": "2026-09-22T16:06:52+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "b6d6074aae2d95f4",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "No one wants to buy Tribeca Film Festival co-founders’ NYC apartment —  now $27M discounted from its original ask",
+      "angle": "The Dakota apartment has been on the market since 2016. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "The Dakota apartment has been on the market since 2016."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/real-estate/no-one-wants-to-buy-tribeca-film-festival-co-founders-nyc-home/",
+      "score": 68.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Tribeca Film Festival",
+          "NYC"
+        ],
+        "locations": [
+          "Dakota"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5423,
+        "label": "positive"
+      },
+      "summary": "The Dakota apartment has been on the market since 2016.",
+      "cluster_id": "b6d6074aae2d95f4",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.567248+00:00",
+        "source_published_at": "2026-09-22T17:55:58+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -4187,6 +4906,48 @@
       }
     },
     {
+      "id": "4e30a2f6f2e3a92f",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Christina Aguilera brings back her ‘Dirrty’-era headscarf",
+      "angle": "The \"Ain't No Other Man\" singer rocked the accessory during a Monday boat ride in Italy while packing on the PDA with her fiancé, Matthew Rutler. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The \"Ain't No Other Man\" singer rocked the accessory during a Monday boat ride in Italy while packing on the PDA with her fiancé, Matthew Rutler."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/22/style/christina-aguilera-brings-back-her-dirrty-era-headscarf/",
+      "score": 67.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Matthew Rutler"
+        ],
+        "organizations": [
+          "Christina Aguilera"
+        ],
+        "locations": [
+          "Italy"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2235,
+        "label": "positive"
+      },
+      "summary": "The \"Ain't No Other Man\" singer rocked the accessory during a Monday boat ride in Italy while packing on the PDA with her fiancé, Matthew Rutler.",
+      "cluster_id": "4e30a2f6f2e3a92f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.753643+00:00",
+        "source_published_at": "2026-09-22T17:45:53+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "467df5dd4f9dda7e",
       "date": "2026-09-22",
       "slot": "am",
@@ -4607,6 +5368,44 @@
       }
     },
     {
+      "id": "9fa4ae8f18da3504",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Depressing new map shows how far $20 of gas gets you in LA after price hikes",
+      "angle": "Wherever you need to go, it's going to be expensive. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Wherever you need to go, it's going to be expensive."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/lifestyle/new-la-map-shows-how-far-20-of-gas-gets-drivers-after-price-hikes/",
+      "score": 66.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "LA"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.3818,
+        "label": "negative"
+      },
+      "summary": "Wherever you need to go, it's going to be expensive.",
+      "cluster_id": "9fa4ae8f18da3504",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.521939+00:00",
+        "source_published_at": "2026-09-22T17:59:38+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "4c025240eeb3882e",
       "date": "2026-09-22",
       "slot": "am",
@@ -4823,6 +5622,45 @@
       "meta": {
         "ingested_at": "2026-09-22T17:21:22.063070+00:00",
         "source_published_at": "2026-09-22T17:05:10+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e46edb6108a66a63",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "The 'selfless decision' that saved our boy's life",
+      "angle": "Ollie is still thriving and happy 10 years after receiving a liver transplant from 17-year-old Miriam. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Ollie is still thriving and happy 10 years after receiving a liver transplant from 17-year-old Miriam."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3kp9l1j94o?at_medium=RSS&at_campaign=rss",
+      "score": 66.6,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Ollie",
+          "Miriam"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7579,
+        "label": "positive"
+      },
+      "summary": "Ollie is still thriving and happy 10 years after receiving a liver transplant from 17-year-old Miriam.",
+      "cluster_id": "e46edb6108a66a63",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:33.620569+00:00",
+        "source_published_at": "2026-09-22T10:42:28+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -6041,6 +6879,46 @@
       }
     },
     {
+      "id": "a5b4185afee09ed6",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Big bags are back: This Marc Jacobs tote is 60% off during Nordstrom Rack’s anniversary sale",
+      "angle": "Don't kid yourself, size matters — when it comes to your work bag. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Don't kid yourself, size matters — when it comes to your work bag."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/shopping/this-marc-jacobs-tote-is-60-off-during-nordstrom-racks-anniversary-sale/",
+      "score": 65.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Marc Jacobs"
+        ],
+        "organizations": [],
+        "locations": [
+          "Nordstrom Rack’s"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0258,
+        "label": "neutral"
+      },
+      "summary": "Don't kid yourself, size matters — when it comes to your work bag.",
+      "cluster_id": "a5b4185afee09ed6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.775444+00:00",
+        "source_published_at": "2026-09-22T17:42:58+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "f8814a54f5160799",
       "date": "2026-09-22",
       "slot": "am",
@@ -6078,6 +6956,42 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:15.539278+00:00",
         "source_published_at": "2026-09-21T18:32:16+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a36a2cf23f9efa5d",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Tariffs drive Canadian sales of U.S.-made vehicles to new lows",
+      "angle": "&#32; submitted by &#32; /u/overstretched_slinky [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/overstretched_slinky [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wngnpg/tariffs_drive_canadian_sales_of_usmade_vehicles/",
+      "score": 65.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.2023,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/overstretched_slinky [link] &#32; [comments]",
+      "cluster_id": "a36a2cf23f9efa5d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.292994+00:00",
+        "source_published_at": "2026-09-22T17:53:04+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -6305,6 +7219,47 @@
       }
     },
     {
+      "id": "14146b2944b2316c",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Spider-Man: Brand New Day’ Filmmaker Destin Daniel Cretton Signs Overall Deal with Sony Pictures (Exclusive)",
+      "angle": "The deal expands Sony's relationship with Cretton, whose web-swinging movie is now highest grossing domestic release of all time. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "The deal expands Sony's relationship with Cretton, whose web-swinging movie is now highest grossing domestic release of all time."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-destin-daniel-cretton-1236707646/",
+      "score": 64.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Sony Pictures",
+          "Sony"
+        ],
+        "locations": [
+          "Cretton"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.1531,
+        "label": "positive"
+      },
+      "summary": "The deal expands Sony's relationship with Cretton, whose web-swinging movie is now highest grossing domestic release of all time.",
+      "cluster_id": "14146b2944b2316c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.844936+00:00",
+        "source_published_at": "2026-09-22T17:44:36+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "04f7c1dab287fc62",
       "date": "2026-09-22",
       "slot": "am",
@@ -6415,6 +7370,44 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.948167+00:00",
         "source_published_at": "2026-09-22T16:45:14+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "4ecc2ab63e5db5aa",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Iran recruiting boys as young as 12 to train for ‘self sacrifice’ brigades",
+      "angle": "Iran has launched a new military recruitment drive aimed at children under the age of 15 as part of the Islamic republic's \"self-sacrifice\" campaign. Ask the phones: would you film it, flee it, or pretend you saw…",
+      "bullets": [
+        "Iran has launched a new military recruitment drive aimed at children under the age of 15 as part of the Islamic republic's \"self-sacrifice\" campaign."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/22/world-news/iran-recruiting-boys-as-young-as-12-to-train-for-self-sacrifice-brigades/",
+      "score": 64.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Iran"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.128,
+        "label": "positive"
+      },
+      "summary": "Iran has launched a new military recruitment drive aimed at children under the age of 15 as part of the Islamic republic's \"self-sacrifice\" campaign.",
+      "cluster_id": "4ecc2ab63e5db5aa",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.473406+00:00",
+        "source_published_at": "2026-09-22T18:01:23+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -6723,6 +7716,86 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.661361+00:00",
         "source_published_at": "2026-09-22T16:30:32+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "227c2e5feb53c28f",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Suspect in shooting outside Belleville synagogue has died, police watchdog says",
+      "angle": "Police have identified the man as 29-year-old Sean Ward of Quinte West. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Police have identified the man as 29-year-old Sean Ward of Quinte West"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-belleville-synagogue-shooting-september-22/",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Sean Ward"
+        ],
+        "organizations": [],
+        "locations": [
+          "Belleville"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7003,
+        "label": "negative"
+      },
+      "summary": "Police have identified the man as 29-year-old Sean Ward of Quinte West",
+      "cluster_id": "227c2e5feb53c28f",
+      "related_count": 1,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:31.371323+00:00",
+        "source_published_at": "2026-09-22T17:36:24+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "4b10fff139a10176",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Suspect in shooting outside Belleville synagogue has died, police watchdog says",
+      "angle": "Belleville police have identified the man as 29-year-old Sean Ward of Quinte West. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Belleville police have identified the man as 29-year-old Sean Ward of Quinte West"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-suspect-in-shooting-outside-belleville-synagogue-dies/",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Sean Ward"
+        ],
+        "organizations": [],
+        "locations": [
+          "Belleville"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7003,
+        "label": "negative"
+      },
+      "summary": "Belleville police have identified the man as 29-year-old Sean Ward of Quinte West",
+      "cluster_id": "227c2e5feb53c28f",
+      "related_count": 1,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:31.392508+00:00",
+        "source_published_at": "2026-09-22T17:19:29+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -9447,6 +10520,44 @@
       }
     },
     {
+      "id": "64120b52700cedf3",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Student who accidentally overdosed on paracetamol learns to walk and talk again",
+      "angle": "Riley Lubas took two over-the counter medicines without realising they both contained paracetamol. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Riley Lubas took two over-the counter medicines without realising they both contained paracetamol."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c80462yzr50ro?at_medium=RSS&at_campaign=rss",
+      "score": 60.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Riley Lubas"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.34,
+        "label": "negative"
+      },
+      "summary": "Riley Lubas took two over-the counter medicines without realising they both contained paracetamol.",
+      "cluster_id": "64120b52700cedf3",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:33.575612+00:00",
+        "source_published_at": "2026-09-22T14:27:45+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "cf183823cff57496",
       "date": "2026-09-22",
       "slot": "am",
@@ -9564,6 +10675,45 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:18.329778+00:00",
         "source_published_at": "2026-09-22T08:53:03+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "baa4b2e897a13ea8",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Review: Resident Evil is the fresh take this flagging franchise really needed",
+      "angle": "Director Zach Cregger's clever reboot strikes perfect balance between horror, humor, and over-the-top gore. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Director Zach Cregger's clever reboot strikes perfect balance between horror, humor, and over-the-top gore."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/culture/2026/09/review-resident-evil-is-the-fresh-take-this-flagging-franchise-really-needed/",
+      "score": 60.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Zach Cregger",
+          "gore"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.128,
+        "label": "negative"
+      },
+      "summary": "Director Zach Cregger's clever reboot strikes perfect balance between horror, humor, and over-the-top gore.",
+      "cluster_id": "baa4b2e897a13ea8",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:34.005051+00:00",
+        "source_published_at": "2026-09-22T17:30:07+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -9911,6 +11061,46 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.685593+00:00",
         "source_published_at": "2026-09-22T10:28:20+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "0b08eb473cccaf9b",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "B.C. snap election expected as premier makes noon PT announcement",
+      "angle": "&#32; submitted by &#32; /u/_Lucille_ [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/_Lucille_ [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wnfkai/bc_snap_election_expected_as_premier_makes_noon/",
+      "score": 60.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "/u/_Lucille"
+        ],
+        "organizations": [],
+        "locations": [
+          "B.C."
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "&#32; submitted by &#32; /u/_Lucille_ [link] &#32; [comments]",
+      "cluster_id": "0b08eb473cccaf9b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:32.155516+00:00",
+        "source_published_at": "2026-09-22T17:14:48+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -11668,6 +12858,80 @@
       }
     },
     {
+      "id": "06a24bbfdddcaa32",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "TECH",
+      "title": "IT mistake erases 11 years of viewing history for hospitals’ maternity records",
+      "angle": "The English hospitals recovered patient care data only. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "The English hospitals recovered patient care data only."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/information-technology/2026/09/it-mistake-erases-11-years-of-viewing-history-for-hospitals-maternity-records/",
+      "score": 57.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2023,
+        "label": "positive"
+      },
+      "summary": "The English hospitals recovered patient care data only.",
+      "cluster_id": "06a24bbfdddcaa32",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:34.049095+00:00",
+        "source_published_at": "2026-09-22T16:55:40+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "66f4f4a9df462667",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "New out-of-control wildfire growing near Sooke, B.C.",
+      "angle": "New out-of-control wildfire growing near Sooke, B.C.. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Crews are responding to the Mount Jack wildfire"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/british-columbia/article-new-out-of-control-wildfire-growing-near-sooke-bc/",
+      "score": 56.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Sooke"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.1779,
+        "label": "positive"
+      },
+      "summary": "Crews are responding to the Mount Jack wildfire",
+      "cluster_id": "66f4f4a9df462667",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:31.414204+00:00",
+        "source_published_at": "2026-09-22T17:24:11+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "10718d3b3dad4e09",
       "date": "2026-09-22",
       "slot": "am",
@@ -12041,6 +13305,82 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.954741+00:00",
         "source_published_at": "2026-09-22T12:26:31+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "ec92d5470033c8d1",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Toyota orders workers to train humanoid robots but says humans won't be replaced",
+      "angle": "Toyota's push comes as automakers race to develop and deploy humanoid robots. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Toyota's push comes as automakers race to develop and deploy humanoid robots."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/ai/2026/09/toyota-claims-plan-for-400000-factory-robots-wont-replace-human-workers/",
+      "score": 55.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Toyota"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Toyota's push comes as automakers race to develop and deploy humanoid robots.",
+      "cluster_id": "ec92d5470033c8d1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:34.027213+00:00",
+        "source_published_at": "2026-09-22T17:06:16+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f78de113bfcdf0c6",
+      "date": "2026-09-22",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Effort begins to fill the void left by terminated US climate report",
+      "angle": "First paper added to community collection is a roadmap for research. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "First paper added to community collection is a roadmap for research."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/science/2026/09/effort-begins-to-fill-the-void-left-by-terminated-us-climate-report/",
+      "score": 55.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "US"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "First paper added to community collection is a roadmap for research.",
+      "cluster_id": "f78de113bfcdf0c6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-22T18:03:34.070360+00:00",
+        "source_published_at": "2026-09-22T16:26:30+00:00",
         "pipeline_version": "1.1.0"
       }
     },
