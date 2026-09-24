@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-24T18:19:41.304410+00:00",
+  "generated_at": "2026-09-24T18:51:59.206512+00:00",
   "timezone": "America/Toronto",
   "date": "2026-09-24",
   "slot": "am",
   "pipeline_version": "1.1.0",
-  "count": 831,
+  "count": 850,
   "stories": [
     {
       "id": "b510ed3856735d95",
@@ -697,6 +697,49 @@
       }
     },
     {
+      "id": "2b46b19dddd85d33",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Federal Film and TV Tax Credit Hits Congress: Bipartisan Group Introduces Hollywood Bill",
+      "angle": "The federal incentive would be eligible to be stacked on top of individual state tax incentives, much like the current system in Canada and Australia. Shelf life through drive time — who is overrated and who actually…",
+      "bullets": [
+        "The federal incentive would be eligible to be stacked on top of individual state tax incentives, much like the current system in Canada and Australia."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/news/politics-news/federal-film-tv-tax-credit-officially-introduced-1236708907/",
+      "score": 78.7,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Hollywood Bill"
+        ],
+        "organizations": [
+          "Federal Film and TV Tax Credit Hits Congress: Bipartisan Group"
+        ],
+        "locations": [
+          "Canada",
+          "Australia"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.8658,
+        "label": "positive"
+      },
+      "summary": "The federal incentive would be eligible to be stacked on top of individual state tax incentives, much like the current system in Canada and Australia.",
+      "cluster_id": "2b46b19dddd85d33",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.986710+00:00",
+        "source_published_at": "2026-09-24T18:24:30+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "b57a4f5f1ae36f33",
       "date": "2026-09-22",
       "slot": "am",
@@ -1061,6 +1104,45 @@
       }
     },
     {
+      "id": "1a61816b89b1b45a",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "LA Metro crash suspect wheeled into court on hospital gurney to face murder charges in wreck that sparked helicopter tragedy",
+      "angle": "The long-awaited arraignment for the suspect in Tuesday's tragic Metro bus crash, which killed two and triggered a chain of events that led to a news helicopter crash, took place Friday. Ask the phones: would you film…",
+      "bullets": [
+        "The long-awaited arraignment for the suspect in Tuesday's tragic Metro bus crash, which killed two and triggered a chain of events that led to a news helicopter crash, took place Friday."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/la-metro-bus-crash-pleads-not-guilty-to-second-degree-murder-charges-for-deadly-collision/",
+      "score": 77.9,
+      "is_backup": false,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "LA",
+          "Metro"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.9862,
+        "label": "negative"
+      },
+      "summary": "The long-awaited arraignment for the suspect in Tuesday's tragic Metro bus crash, which killed two and triggered a chain of events that led to a news helicopter crash, took place Friday.",
+      "cluster_id": "1a61816b89b1b45a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.564867+00:00",
+        "source_published_at": "2026-09-24T18:38:10+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "229744b364a132e2",
       "date": "2026-09-22",
       "slot": "am",
@@ -1101,6 +1183,97 @@
       "meta": {
         "ingested_at": "2026-09-22T18:03:32.870768+00:00",
         "source_published_at": "2026-09-22T17:31:38+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "113a518a4499801f",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Teyana Taylor, Charli xcx, Belmont Cameli Join 2026 MTV VMAs Presenters Lineup (Exclusive)",
+      "angle": "Also taking the stage at Sunday's show will be Alex Warren, Ciara Miller, David Corenswet, Ella Bright, Isabel May, Jeff Probst, Rachel Dratch, Tyla and Troye Sivan. Shelf life through drive time — who is overrated and…",
+      "bullets": [
+        "Also taking the stage at Sunday's show will be Alex Warren, Ciara Miller, David Corenswet, Ella Bright, Isabel May, Jeff Probst, Rachel Dratch, Tyla and Troye Sivan."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/music/music-news/2026-mtv-vma-presenters-teyana-taylor-charli-xcx-belmont-cameli-1236709470/",
+      "score": 77.8,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Teyana Taylor",
+          "Alex Warren",
+          "Ciara Miller",
+          "David Corenswet",
+          "Jeff Probst",
+          "Rachel Dratch",
+          "Troye Sivan"
+        ],
+        "organizations": [
+          "Belmont Cameli Join",
+          "MTV",
+          "Presenters Lineup (Exclusive"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6808,
+        "label": "positive"
+      },
+      "summary": "Also taking the stage at Sunday's show will be Alex Warren, Ciara Miller, David Corenswet, Ella Bright, Isabel May, Jeff Probst, Rachel Dratch, Tyla and Troye Sivan.",
+      "cluster_id": "113a518a4499801f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:56.032959+00:00",
+        "source_published_at": "2026-09-24T18:19:38+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "98ef9b08ccdd2a5f",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Carrot Top threatened in chilling ‘extortion’ video before suicide attempt: ‘You’re on the wrong side of this’",
+      "angle": "Brian Evans previously opened for Carrot Top's long-running show at the Luxor in Las Vegas. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Brian Evans previously opened for Carrot Top's long-running show at the Luxor in Las Vegas."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/24/celebrity-news/carrot-top-threatened-in-chilling-extortion-video-before-suicide-attempt/",
+      "score": 77.7,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Carrot Top",
+          "Brian Evans",
+          "Carrot Top's"
+        ],
+        "organizations": [],
+        "locations": [
+          "Luxor",
+          "Las Vegas"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.872,
+        "label": "negative"
+      },
+      "summary": "Brian Evans previously opened for Carrot Top's long-running show at the Luxor in Las Vegas.",
+      "cluster_id": "98ef9b08ccdd2a5f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.408533+00:00",
+        "source_published_at": "2026-09-24T18:46:16+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1362,6 +1535,51 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:38.710507+00:00",
         "source_published_at": "2026-09-24T17:58:16+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "ac2490fa1a24a84b",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "NYC high school worker had sickening trysts with girl in empty rooms while officials turned blind eye: lawsuit",
+      "angle": "A Brooklyn public high school worker routinely rendezvoused with a teenage girl in empty rooms for sickening daytime trysts – while administrators shrugged off abuse complaints, a bombshell new lawsuit claimed. Ask the…",
+      "bullets": [
+        "A Brooklyn public high school worker routinely rendezvoused with a teenage girl in empty rooms for sickening daytime trysts – while administrators shrugged off abuse complaints, a bombshell new lawsuit claimed.",
+        "Former student Brittany Linton, now a grown mother of five, claimed that Canarsie High School worker Kevin Gilford Orr made her life a living..."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/nyc-high-school-worker-had-sickening-trysts-with-girl-in-empty-rooms-while-officials-turned-blind-eye-lawsuit/",
+      "score": 76.7,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Brittany Linton",
+          "Kevin Gilford Orr"
+        ],
+        "organizations": [
+          "NYC",
+          "Canarsie High School"
+        ],
+        "locations": [
+          "Brooklyn"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.9674,
+        "label": "negative"
+      },
+      "summary": "A Brooklyn public high school worker routinely rendezvoused with a teenage girl in empty rooms for sickening daytime trysts – while administrators shrugged off abuse complaints, a bombshell new lawsuit claimed. Former student Brittany Linton, now a grown mother of five, claimed that Canarsie High School worker Kevin Gilford Orr made her life a living...",
+      "cluster_id": "ac2490fa1a24a84b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.467291+00:00",
+        "source_published_at": "2026-09-24T18:45:09+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -2010,6 +2228,53 @@
       }
     },
     {
+      "id": "3ed28ee0ff0fe534",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Los Angeles Dodgers’ Mookie Betts signs with 3 Arts Sports and Sanders Sports & Entertainment",
+      "angle": "Los Angeles Dodgers player Mookie Betts has signed with 3 Arts Sports and Sanders Sports &#38; Entertainment (SSE) for personal representation. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Los Angeles Dodgers player Mookie Betts has signed with 3 Arts Sports and Sanders Sports &#38; Entertainment (SSE) for personal representation.",
+        "“I’ve always believed in surrounding myself with people who understand my vision and bring expertise in areas where I can continue to grow,” Betts said.",
+        "“As the opportunities around me have continued to evolve, [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/sports/news/los-angeles-dodgers-mookie-betts-signs-1236874721/",
+      "score": 75.5,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Mookie Betts",
+          "Betts"
+        ],
+        "organizations": [
+          "Los Angeles Dodgers",
+          "3 Arts Sports",
+          "Sanders Sports & Entertainment",
+          "Sanders Sports &",
+          "SSE"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8481,
+        "label": "positive"
+      },
+      "summary": "Los Angeles Dodgers player Mookie Betts has signed with 3 Arts Sports and Sanders Sports &#38; Entertainment (SSE) for personal representation. “I’ve always believed in surrounding myself with people who understand my vision and bring expertise in areas where I can continue to grow,” Betts said. “As the opportunities around me have continued to evolve, [&#8230;]",
+      "cluster_id": "3ed28ee0ff0fe534",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:56.461477+00:00",
+        "source_published_at": "2026-09-24T18:42:23+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "b983be5ea97ce16c",
       "date": "2026-09-22",
       "slot": "am",
@@ -2570,6 +2835,50 @@
       }
     },
     {
+      "id": "725d764f1a914045",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Russian strikes in Ukraine kill 8 as UN debates on how to end war",
+      "angle": "A strike on Ukraine’s northeastern Kharkiv region killed six agricultural workers and wounded 12 others, Interior Minister Ihor Vyhivskyi said. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "A strike on Ukraine’s northeastern Kharkiv region killed six agricultural workers and wounded 12 others, Interior Minister Ihor Vyhivskyi said."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/world-news/8-killed-amid-russian-strikes-in-ukraine-as-un-debates-how-to-end-the-war/",
+      "score": 74.5,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Ihor Vyhivskyi"
+        ],
+        "organizations": [
+          "UN",
+          "Interior"
+        ],
+        "locations": [
+          "Ukraine",
+          "Kharkiv"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.9524,
+        "label": "negative"
+      },
+      "summary": "A strike on Ukraine’s northeastern Kharkiv region killed six agricultural workers and wounded 12 others, Interior Minister Ihor Vyhivskyi said.",
+      "cluster_id": "725d764f1a914045",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.752267+00:00",
+        "source_published_at": "2026-09-24T18:20:06+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "e1c7a884160ac499",
       "date": "2026-09-22",
       "slot": "am",
@@ -2622,7 +2931,7 @@
       "source_type": "news",
       "url": "https://variety.com/2026/film/global/san-sebastian-2026-creative-investors-conference-10-takes-1236874055/",
       "score": 74.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "San Sebastian’s Creative Investors’ Conference"
@@ -2652,6 +2961,45 @@
       }
     },
     {
+      "id": "b9df0798a0a30fee",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Dolly Parton’s sister pushes back on family feud rumors following nephew’s firing, restraining order",
+      "angle": "Stella Parton spoke out after the late Grammy winner's head of security and nephew, Bryan Seaver, was fired from his long-standing job. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Stella Parton spoke out after the late Grammy winner's head of security and nephew, Bryan Seaver, was fired from his long-standing job."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/24/celebrity-news/dolly-partons-sister-pushes-back-on-family-feud-rumors-following-nephews-firing-restraining-order/",
+      "score": 74.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Stella Parton",
+          "Bryan Seaver"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7184,
+        "label": "negative"
+      },
+      "summary": "Stella Parton spoke out after the late Grammy winner's head of security and nephew, Bryan Seaver, was fired from his long-standing job.",
+      "cluster_id": "b9df0798a0a30fee",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.705183+00:00",
+        "source_published_at": "2026-09-24T18:26:37+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "0ace279430549b75",
       "date": "2026-09-23",
       "slot": "am",
@@ -2666,7 +3014,7 @@
       "source_type": "news",
       "url": "https://pagesix.com/2026/09/23/celebrity-news/dolly-partons-staff-flees-office-over-singers-nephews-threatening-texts/",
       "score": 74.1,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Bryan Seaver"
@@ -2708,7 +3056,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/UpliftingNews/comments/1wlzbvb/ke_huy_quan_says_his_first_residual_check_of/",
       "score": 74.0,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2744,7 +3092,7 @@
       "source_type": "news",
       "url": "https://www.hollywoodreporter.com/music/music-news/dolly-parton-tribute-2026-mtv-vmas-kacey-musgraves-1236708477/",
       "score": 73.9,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Kacey Musgraves"
@@ -2784,7 +3132,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/us-news/norwegian-skater-joachim-lanham-rollerblading-across-us-killed-after-allegedly-being-struck-by-82-year-old-driver-in-kansas-hit-and-run/",
       "score": 73.8,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Joachim Lanham"
@@ -2827,7 +3175,7 @@
       "source_type": "news",
       "url": "https://variety.com/2026/tv/news/disney-cathleen-taff-studios-consumer-products-president-1236872335/",
       "score": 73.7,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Disney Store"
@@ -2879,7 +3227,7 @@
       "source_type": "news",
       "url": "https://variety.com/2026/music/news/taylor-swift-patient-zero-single-easter-eggs-1236872454/",
       "score": 73.7,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Patient Zero",
@@ -7898,6 +8246,46 @@
       }
     },
     {
+      "id": "aeddbc32d4cfbf97",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Canadian, U.S. crews help rescue entangled humpback whale in B.C.",
+      "angle": "&#32; submitted by &#32; /u/Apprehensive_Idea758 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Apprehensive_Idea758 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp6cmq/canadian_us_crews_help_rescue_entangled_humpback/",
+      "score": 70.2,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "B.C.. &"
+        ],
+        "locations": [
+          "U.S."
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.7184,
+        "label": "positive"
+      },
+      "summary": "&#32; submitted by &#32; /u/Apprehensive_Idea758 [link] &#32; [comments]",
+      "cluster_id": "aeddbc32d4cfbf97",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.266474+00:00",
+        "source_published_at": "2026-09-24T16:29:04+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "da6cbc4fa9e29ca2",
       "date": "2026-09-22",
       "slot": "am",
@@ -7971,6 +8359,47 @@
       "meta": {
         "ingested_at": "2026-09-23T09:05:30.951700+00:00",
         "source_published_at": "2026-09-23T00:55:51+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "2f84f37830c83f71",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "BBC upholds complaints over Victoria Beckham slur on Have I Got News For You",
+      "angle": "Two viewers complained to the BBC over the \"gratuitously offensive\" comment made during the show. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Two viewers complained to the BBC over the \"gratuitously offensive\" comment made during the show."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqde0wrl9d5do?at_medium=RSS&at_campaign=rss",
+      "score": 70.1,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Victoria Beckham"
+        ],
+        "organizations": [
+          "BBC",
+          "Have I Got News For You"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.8126,
+        "label": "negative"
+      },
+      "summary": "Two viewers complained to the BBC over the \"gratuitously offensive\" comment made during the show.",
+      "cluster_id": "2f84f37830c83f71",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:57.477055+00:00",
+        "source_published_at": "2026-09-24T18:18:55+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -8676,6 +9105,49 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:01.324121+00:00",
         "source_published_at": "2026-09-24T04:44:14+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "6a118044a21cb000",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Susan Sarandon among celebs, lefty pols cuffed near UN while calling for Netanyahu’s arrest during protest",
+      "angle": "The protest began at around noon, with socialist groups joining Jewish Voice For Peace to block traffic near the United Nations headquarter. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The protest began at around noon, with socialist groups joining Jewish Voice For Peace to block traffic near the United Nations headquarter."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/celebs-lefty-pols-cuffed-near-un-while-calling-for-netanyahus-arrest-during-protest/",
+      "score": 69.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Susan Sarandon",
+          "Netanyahu"
+        ],
+        "organizations": [
+          "UN",
+          "Jewish Voice For Peace",
+          "the United Nations"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.25,
+        "label": "negative"
+      },
+      "summary": "The protest began at around noon, with socialist groups joining Jewish Voice For Peace to block traffic near the United Nations headquarter.",
+      "cluster_id": "6a118044a21cb000",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.515447+00:00",
+        "source_published_at": "2026-09-24T18:40:22+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -9714,6 +10186,48 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:05.702384+00:00",
         "source_published_at": "2026-09-23T16:46:26+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a6ff21942cf51a54",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Hamed Shafia, who murdered sisters in horrific honour killings in Kingston, gets break",
+      "angle": "&#32; submitted by &#32; /u/Future_Procedure6078 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Future_Procedure6078 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp8ek3/hamed_shafia_who_murdered_sisters_in_horrific/",
+      "score": 68.9,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Hamed Shafia"
+        ],
+        "organizations": [
+          "/u/Future_Procedure6078"
+        ],
+        "locations": [
+          "Kingston"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.891,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/Future_Procedure6078 [link] &#32; [comments]",
+      "cluster_id": "a6ff21942cf51a54",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:54.936976+00:00",
+        "source_published_at": "2026-09-24T17:45:45+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -10818,6 +11332,52 @@
       }
     },
     {
+      "id": "3165589a74e369f4",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "NJ school district forced students to keep image of Dem Rep on their computers, parent says",
+      "angle": "Students enrolled in the Glen Ridge Public School system in New Jersey were briefly forced to have an image of Rep. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Students enrolled in the Glen Ridge Public School system in New Jersey were briefly forced to have an image of Rep.",
+        "Analilia Mejia on their desktop background this week to celebrate Hispanic Heritage Month, a parent alleged."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/nj-school-district-forced-students-to-keep-image-of-dem-rep-on-their-computers-parent-says/",
+      "score": 68.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Analilia Mejia"
+        ],
+        "organizations": [
+          "NJ",
+          "Dem Rep"
+        ],
+        "locations": [
+          "the Glen Ridge Public School",
+          "New Jersey",
+          "Hispanic Heritage Month"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.3182,
+        "label": "negative"
+      },
+      "summary": "Students enrolled in the Glen Ridge Public School system in New Jersey were briefly forced to have an image of Rep. Analilia Mejia on their desktop background this week to celebrate Hispanic Heritage Month, a parent alleged.",
+      "cluster_id": "3165589a74e369f4",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.616067+00:00",
+        "source_published_at": "2026-09-24T18:33:52+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "d728f826c1b8d632",
       "date": "2026-09-22",
       "slot": "am",
@@ -11393,6 +11953,44 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:38.208547+00:00",
         "source_published_at": "2026-09-24T16:36:10+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "fcdbe89211da31b3",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Dua Lipa’s daring top made of nothing but buttons",
+      "angle": "The pop star keeps the avant-garde fashion coming. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The pop star keeps the avant-garde fashion coming."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/24/style/dua-lipa-wears-a-daring-top-made-of-nothing-but-buttons/",
+      "score": 67.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Dua Lipa’s"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2846,
+        "label": "positive"
+      },
+      "summary": "The pop star keeps the avant-garde fashion coming.",
+      "cluster_id": "fcdbe89211da31b3",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.358990+00:00",
+        "source_published_at": "2026-09-24T18:50:40+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -17039,6 +17637,46 @@
       }
     },
     {
+      "id": "8a60beb65a3caff3",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Belleville, Ont., synagogue shooting was a ‘hate-motivated’ crime, police say",
+      "angle": "Shooting during Yom Kippur was ‘a targeted attack against the Jewish community,’ police chief says. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Shooting during Yom Kippur was ‘a targeted attack against the Jewish community,’ police chief says"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-belleville-synagogue-shooting-update-september-24/",
+      "score": 64.7,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Ont"
+        ],
+        "organizations": [],
+        "locations": [
+          "Belleville"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.765,
+        "label": "negative"
+      },
+      "summary": "Shooting during Yom Kippur was ‘a targeted attack against the Jewish community,’ police chief says",
+      "cluster_id": "8a60beb65a3caff3",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:53.230023+00:00",
+        "source_published_at": "2026-09-24T18:27:44+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "aedcc4cc7b1543fb",
       "date": "2026-09-22",
       "slot": "am",
@@ -17906,6 +18544,46 @@
       }
     },
     {
+      "id": "dc998226deb8a7a7",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Watch: UN delegates walk out of Netanyahu speech",
+      "angle": "The Israeli delegation could be be seen cheering in support during Netanyahu's speech. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "The Israeli delegation could be be seen cheering in support during Netanyahu's speech."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cqwyzmpm3pgdo?at_medium=RSS&at_campaign=rss",
+      "score": 64.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Netanyahu"
+        ],
+        "organizations": [
+          "UN"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7184,
+        "label": "positive"
+      },
+      "summary": "The Israeli delegation could be be seen cheering in support during Netanyahu's speech.",
+      "cluster_id": "dc998226deb8a7a7",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:57.338115+00:00",
+        "source_published_at": "2026-09-24T18:29:29+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "ce47365f083f8f67",
       "date": "2026-09-22",
       "slot": "am",
@@ -18620,6 +19298,44 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:38.293924+00:00",
         "source_published_at": "2026-09-24T12:32:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "8829dace016d48da",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Sex offender bailed to flat overlooking playground",
+      "angle": "Victims of Zapher Dogen were living close to the 32-year-old, who admitted multiple offences. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Victims of Zapher Dogen were living close to the 32-year-old, who admitted multiple offences."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c62kw7pqjw0zo?at_medium=RSS&at_campaign=rss",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Zapher Dogen"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7003,
+        "label": "negative"
+      },
+      "summary": "Victims of Zapher Dogen were living close to the 32-year-old, who admitted multiple offences.",
+      "cluster_id": "8829dace016d48da",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:57.385266+00:00",
+        "source_published_at": "2026-09-24T17:57:52+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -21239,6 +21955,47 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:38.150202+00:00",
         "source_published_at": "2026-09-24T13:29:28+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "43fa5a0542e37120",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Is the ‘Forgotten Island’ Movie Streaming on Netflix or Disney Plus?",
+      "angle": "This new animated DreamWorks movie weaves a magical tale. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "This new animated DreamWorks movie weaves a magical tale."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://decider.com/2026/09/24/watch-forgotten-island-movie-streaming-netflix-disney-plus/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Disney Plus",
+          "DreamWorks"
+        ],
+        "locations": [
+          "Netflix"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "This new animated DreamWorks movie weaves a magical tale.",
+      "cluster_id": "43fa5a0542e37120",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:55.658094+00:00",
+        "source_published_at": "2026-09-24T18:30:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -27026,6 +27783,46 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:39.887145+00:00",
         "source_published_at": "2026-09-24T16:36:33+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "911e7c1e8741acaa",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Why Australia chose the world's biggest political stage to reveal OpenAI hack",
+      "angle": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cr3eqk15ld14o?at_medium=RSS&at_campaign=rss",
+      "score": 59.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "UN"
+        ],
+        "locations": [
+          "Australia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4019,
+        "label": "positive"
+      },
+      "summary": "Australia, which has strict social media restrictions and has proposed controls on algorithms and smart glasses, announced the breach at the UN.",
+      "cluster_id": "911e7c1e8741acaa",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:51:57.524705+00:00",
+        "source_published_at": "2026-09-24T18:06:40+00:00",
         "pipeline_version": "1.1.0"
       }
     },
