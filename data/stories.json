@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-24T09:01:04.235311+00:00",
+  "generated_at": "2026-09-24T18:19:41.304410+00:00",
   "timezone": "America/Toronto",
   "date": "2026-09-24",
   "slot": "am",
   "pipeline_version": "1.1.0",
-  "count": 737,
+  "count": 831,
   "stories": [
     {
       "id": "b510ed3856735d95",
@@ -97,6 +97,54 @@
       "meta": {
         "ingested_at": "2026-09-23T09:05:31.460202+00:00",
         "source_published_at": "2026-09-23T05:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a7684fe616e85471",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Musk’ Trailer: Alex Gibney Dissects the Legacy of the World’s Richest Man in Sprawling Documentary",
+      "angle": "Bleecker Street has released the trailer for “Musk,” Alex Gibney’s new documentary about the world’s richest man, tech mogul Elon Musk. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Bleecker Street has released the trailer for “Musk,” Alex Gibney’s new documentary about the world’s richest man, tech mogul Elon Musk.",
+        "“Musk” premiered out of competition at the 83rd Venice International Film Festival on Sept.",
+        "8, where it received a four-minute standing ovation, and then screened at the Toronto International Film Festival."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/news/musk-trailer-documentary-elon-1236873861/",
+      "score": 85.2,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Trailer",
+          "Alex Gibney Dissects",
+          "Alex Gibney’s",
+          "Elon Musk"
+        ],
+        "organizations": [
+          "the World’s Richest Man in Sprawling Documentary",
+          "the Toronto International Film Festival"
+        ],
+        "locations": [
+          "Bleecker Street"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.9217,
+        "label": "positive"
+      },
+      "summary": "Bleecker Street has released the trailer for “Musk,” Alex Gibney’s new documentary about the world’s richest man, tech mogul Elon Musk. “Musk” premiered out of competition at the 83rd Venice International Film Festival on Sept. 8, where it received a four-minute standing ovation, and then screened at the Toronto International Film Festival. The sprawling exposé [&#8230;]",
+      "cluster_id": "a7684fe616e85471",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.566572+00:00",
+        "source_published_at": "2026-09-24T16:35:28+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -200,6 +248,52 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:17.597793+00:00",
         "source_published_at": "2026-09-21T18:43:56+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "abf4fc1f491496a5",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "John Malkovich to Receive Outstanding Performer of the Year Award at Santa Barbara International Film Festival",
+      "angle": "John Malkovich will be honored with the Outstanding Performer of the Year Award for his performance in Martin McDonagh’s “Wild Horse Nine” at the 42nd annual Santa Barbara International Film Festival, which will take…",
+      "bullets": [
+        "John Malkovich will be honored with the Outstanding Performer of the Year Award for his performance in Martin McDonagh’s “Wild Horse Nine” at the 42nd annual Santa Barbara International Film Festival, which will take place Feb.",
+        "The film recently screened at the Telluride, Toronto and Venice film festivals, the latter of which awarded Malkovich [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/awards/news/john-malkovich-outstanding-performer-of-the-year-sbiff-1236874590/",
+      "score": 81.8,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "John Malkovich",
+          "Martin McDonagh’s"
+        ],
+        "organizations": [],
+        "locations": [
+          "Santa Barbara International Film Festival",
+          "Telluride",
+          "Toronto",
+          "Venice",
+          "Malkovich"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.984,
+        "label": "positive"
+      },
+      "summary": "John Malkovich will be honored with the Outstanding Performer of the Year Award for his performance in Martin McDonagh’s “Wild Horse Nine” at the 42nd annual Santa Barbara International Film Festival, which will take place Feb. 3-13. The film recently screened at the Telluride, Toronto and Venice film festivals, the latter of which awarded Malkovich [&#8230;]",
+      "cluster_id": "abf4fc1f491496a5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.483242+00:00",
+        "source_published_at": "2026-09-24T17:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -376,6 +470,52 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:05.560532+00:00",
         "source_published_at": "2026-09-23T17:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "75174d3b25739fdf",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Former Disney CEO Bob Iger on What He Valued in a Successor After Chapek Ouster: Can They Deal With a ‘Real Crisis’ in ‘Reasonable and Sane and Steady,’ ‘Mature Way’",
+      "angle": "It&#8217;s no secret that former Disney CEO Bob Iger didn&#8217;t end up loving his first choice successor, Bob Chapek, following Chapek&#8217;s very public firing and Iger&#8217;s rehiring. Shelf life through drive…",
+      "bullets": [
+        "It&#8217;s no secret that former Disney CEO Bob Iger didn&#8217;t end up loving his first choice successor, Bob Chapek, following Chapek&#8217;s very public firing and Iger&#8217;s rehiring.",
+        "But now that Iger has left the top post for good and handed over the reins to former parks head Josh D&#8217;Amaro, he&#8217;s got some specifics notes on [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/news/disney-bob-iger-picking-new-ceo-firing-chapek-1236874587/",
+      "score": 79.4,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Bob Iger",
+          "Bob Iger didn&#8217;t",
+          "Bob Chapek",
+          "Iger",
+          "Josh"
+        ],
+        "organizations": [
+          "Disney",
+          "Chapek&#8217;s"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8364,
+        "label": "positive"
+      },
+      "summary": "It&#8217;s no secret that former Disney CEO Bob Iger didn&#8217;t end up loving his first choice successor, Bob Chapek, following Chapek&#8217;s very public firing and Iger&#8217;s rehiring. But now that Iger has left the top post for good and handed over the reins to former parks head Josh D&#8217;Amaro, he&#8217;s got some specifics notes on [&#8230;]",
+      "cluster_id": "75174d3b25739fdf",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.220809+00:00",
+        "source_published_at": "2026-09-24T17:56:07+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -649,6 +789,52 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:02.828376+00:00",
         "source_published_at": "2026-09-24T04:11:06+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d4dd0391aa600284",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Sam Worthington and Sofia Carson to Star in ‘The Parsifal Mosaic’ TV Show in the Works at Hulu, Legendary (EXCLUSIVE)",
+      "angle": "Sam Worthington and Sofia Carson are executive producing and attached to star in &#8220;The Parsifal Mosaic,&#8221; a drama series based on Robert Ludlum&#8217;s 1982 spy novel in development at Hulu. Shelf life…",
+      "bullets": [
+        "Sam Worthington and Sofia Carson are executive producing and attached to star in &#8220;The Parsifal Mosaic,&#8221; a drama series based on Robert Ludlum&#8217;s 1982 spy novel in development at Hulu.",
+        "The small screen adaptation hails from Legendary Entertainment and writer Wes Tooke, who served as showrunner on USA Network&#8217;s &#8220;Colony&#8221; and worked on Amazon&#8217;s &#8220;Jean-Claude [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/news/the-parsifal-mosaic-tv-show-sam-worthington-hulu-1236874353/",
+      "score": 78.5,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Sam Worthington",
+          "Sofia Carson",
+          "Robert Ludlum&#8217;s 1982",
+          "Wes Tooke"
+        ],
+        "organizations": [
+          "Legendary Entertainment",
+          "USA Network&#8217;s &#",
+          "Amazon&#8217;s &#"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7456,
+        "label": "positive"
+      },
+      "summary": "Sam Worthington and Sofia Carson are executive producing and attached to star in &#8220;The Parsifal Mosaic,&#8221; a drama series based on Robert Ludlum&#8217;s 1982 spy novel in development at Hulu. The small screen adaptation hails from Legendary Entertainment and writer Wes Tooke, who served as showrunner on USA Network&#8217;s &#8220;Colony&#8221; and worked on Amazon&#8217;s &#8220;Jean-Claude [&#8230;]",
+      "cluster_id": "d4dd0391aa600284",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.175854+00:00",
+        "source_published_at": "2026-09-24T18:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1141,6 +1327,45 @@
       }
     },
     {
+      "id": "e81ec9cc4b63ccce",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "‘American Idol’ alum Caleb Flynn’s ex-mistress sobs as she reads her text about wanting to kill his wife at murder trial",
+      "angle": "Former “American Idol” star Caleb Flynn’s mistress sobbed in court Wednesday as she read a text message she sent saying she wanted to kill his wife, according to footage. Ask the phones: would you film it, flee it, or…",
+      "bullets": [
+        "Former “American Idol” star Caleb Flynn’s mistress sobbed in court Wednesday as she read a text message she sent saying she wanted to kill his wife, according to footage."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/american-idol-alum-caleb-flynns-ex-misstress-sobs-as-she-reads-her-text-about-wanting-to-kill-his-wife-at-murder-trial/",
+      "score": 76.7,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Caleb Flynn’s",
+          "Caleb Flynn"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.9702,
+        "label": "negative"
+      },
+      "summary": "Former “American Idol” star Caleb Flynn’s mistress sobbed in court Wednesday as she read a text message she sent saying she wanted to kill his wife, according to footage.",
+      "cluster_id": "e81ec9cc4b63ccce",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.710507+00:00",
+        "source_published_at": "2026-09-24T17:58:16+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "ea960deb9cae23a8",
       "date": "2026-09-23",
       "slot": "am",
@@ -1315,6 +1540,52 @@
       }
     },
     {
+      "id": "9092fb9fd5076a37",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Black Bear Lands Distribution Rights to Taylor Jenkins Reid’s ‘Atmosphere’ Movie, Produced by Laika",
+      "angle": "Black Bear has acquired worldwide rights to Laika’s live-action adaptation of Taylor Jenkins Reid&#8217;s bestselling novel, “Atmosphere.” The Academy Award-winning indie studio and distribution company (“Imitation…",
+      "bullets": [
+        "Black Bear has acquired worldwide rights to Laika’s live-action adaptation of Taylor Jenkins Reid&#8217;s bestselling novel, “Atmosphere.” The Academy Award-winning indie studio and distribution company (“Imitation Game,” “Sing Sing,” “Train Dreams”) landed the rights in a highly competitive situation and will release the film theatrically.",
+        "“Atmosphere” is the latest global hit by Jenkins Reid, whose [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/news/black-bear-taylor-jenkins-reid-atmosphere-1236873994/",
+      "score": 76.1,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Taylor Jenkins Reid’s ‘",
+          "Laika’s",
+          "Taylor Jenkins Reid&#8217;s",
+          "Sing Sing",
+          "Jenkins Reid"
+        ],
+        "organizations": [
+          "Black Bear Lands Distribution Rights",
+          "Black Bear"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5095,
+        "label": "positive"
+      },
+      "summary": "Black Bear has acquired worldwide rights to Laika’s live-action adaptation of Taylor Jenkins Reid&#8217;s bestselling novel, “Atmosphere.” The Academy Award-winning indie studio and distribution company (“Imitation Game,” “Sing Sing,” “Train Dreams”) landed the rights in a highly competitive situation and will release the film theatrically. “Atmosphere” is the latest global hit by Jenkins Reid, whose [&#8230;]",
+      "cluster_id": "9092fb9fd5076a37",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.305734+00:00",
+        "source_published_at": "2026-09-24T17:45:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "5c3aa8df9dcfcd9b",
       "date": "2026-09-22",
       "slot": "am",
@@ -1436,6 +1707,88 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:16.937479+00:00",
         "source_published_at": "2026-09-22T07:32:46+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "90e76dfa6d592999",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Milania Giudice had ‘suicidal thoughts, mental breakdown’ during airport clash with Teresa, Gia: police",
+      "angle": "Page Six exclusively revealed that Milania had enrolled in anger management classes following her domestic violence arrest in May. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Page Six exclusively revealed that Milania had enrolled in anger management classes following her domestic violence arrest in May."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/24/celebrity-news/milania-giudice-had-suicidal-thoughts-mental-breakdown-during-airport-clash-with-teresa-gia-police/",
+      "score": 75.8,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Gia",
+          "Milania"
+        ],
+        "organizations": [
+          "Milania Giudice"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8807,
+        "label": "negative"
+      },
+      "summary": "Page Six exclusively revealed that Milania had enrolled in anger management classes following her domestic violence arrest in May.",
+      "cluster_id": "90e76dfa6d592999",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.408442+00:00",
+        "source_published_at": "2026-09-24T18:13:47+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "32cec196379f8277",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘The Beast in Me’ Is No Longer a Limited Series: Netflix Orders Season 2",
+      "angle": "Claire Danes will reprise her role, and Howard Gordon will return as co-showrunner with Daniel Pearle. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Claire Danes will reprise her role, and Howard Gordon will return as co-showrunner with Daniel Pearle."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/the-beast-in-me-season-2-netflix-claire-danes-1236709432/",
+      "score": 75.8,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Netflix Orders Season 2",
+          "Claire Danes",
+          "Howard Gordon",
+          "Daniel Pearle"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.4767,
+        "label": "negative"
+      },
+      "summary": "Claire Danes will reprise her role, and Howard Gordon will return as co-showrunner with Daniel Pearle.",
+      "cluster_id": "32cec196379f8277",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.012824+00:00",
+        "source_published_at": "2026-09-24T17:26:36+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1574,6 +1927,50 @@
       }
     },
     {
+      "id": "4ee340d1eb4491ed",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Watch: Why has Trump been so eager to welcome Xi?",
+      "angle": "President Donald Trump has been talking about Chinese President Xi Jinping's visit for months, the BBC's Sarah Smith looks at why. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "President Donald Trump has been talking about Chinese President Xi Jinping's visit for months, the BBC's Sarah Smith looks at why."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/videos/c914d17zn6kxo?at_medium=RSS&at_campaign=rss",
+      "score": 75.6,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Xi",
+          "Donald Trump",
+          "Xi Jinping's",
+          "Sarah Smith"
+        ],
+        "organizations": [
+          "Trump",
+          "BBC"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.7583,
+        "label": "positive"
+      },
+      "summary": "President Donald Trump has been talking about Chinese President Xi Jinping's visit for months, the BBC's Sarah Smith looks at why.",
+      "cluster_id": "4ee340d1eb4491ed",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.600078+00:00",
+        "source_published_at": "2026-09-24T15:16:27+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "d29261de2c905e3e",
       "date": "2026-09-22",
       "slot": "am",
@@ -1657,6 +2054,93 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:17.977399+00:00",
         "source_published_at": "2026-09-22T08:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "93512725b4a0dba7",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Taylor Jenkins Reid Movie ‘Atmosphere’ Lands at Black Bear",
+      "angle": "‘Captain Marvel' directors Anna Boden and Ryan Fleck are set to write and direct the film from Laika. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "‘Captain Marvel' directors Anna Boden and Ryan Fleck are set to write and direct the film from Laika."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/black-bear-lands-taylor-jenkins-reid-movie-atmosphere-1236709380/",
+      "score": 75.2,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Taylor Jenkins Reid Movie ‘Atmosphere",
+          "Marvel",
+          "Anna Boden",
+          "Ryan Fleck"
+        ],
+        "organizations": [
+          "Black Bear"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4215,
+        "label": "positive"
+      },
+      "summary": "‘Captain Marvel' directors Anna Boden and Ryan Fleck are set to write and direct the film from Laika.",
+      "cluster_id": "93512725b4a0dba7",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.910404+00:00",
+        "source_published_at": "2026-09-24T17:45:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "80c7a1cb330c4237",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Keira Knightley, Ben Whishaw Reunite as Old Killers With New Enemies in ‘Black Doves’ Season 2 Trailer",
+      "angle": "Ambika Mod and Neve Campbell offer dangerous new company to professional spook Helen and best friend and triggerman Sam as the Netflix espionage thriller returns Nov. Shelf life through drive time — who is overrated…",
+      "bullets": [
+        "Ambika Mod and Neve Campbell offer dangerous new company to professional spook Helen and best friend and triggerman Sam as the Netflix espionage thriller returns Nov."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/black-doves-season-two-trailer-1236709406/",
+      "score": 75.2,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Keira Knightley",
+          "Ben Whishaw Reunite",
+          "Ambika Mod",
+          "Neve Campbell",
+          "Sam"
+        ],
+        "organizations": [],
+        "locations": [
+          "Netflix"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.4215,
+        "label": "negative"
+      },
+      "summary": "Ambika Mod and Neve Campbell offer dangerous new company to professional spook Helen and best friend and triggerman Sam as the Netflix espionage thriller returns Nov. 5.",
+      "cluster_id": "80c7a1cb330c4237",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.983369+00:00",
+        "source_published_at": "2026-09-24T17:32:07+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1779,6 +2263,50 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:06.483981+00:00",
         "source_published_at": "2026-09-23T16:09:41+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "64be3e503af0d64b",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Kaia Gerber’s friends, boyfriend help model search for missing cat days after brother Presley’s death",
+      "angle": "Influencer Jake Shane and actor Lewis Pullman, who has been dating Kaia for almost two years, hung up \"Lost Cat\" posters in her Hollywood Hills neighborhood. Shelf life through drive time — who is overrated and who…",
+      "bullets": [
+        "Influencer Jake Shane and actor Lewis Pullman, who has been dating Kaia for almost two years, hung up \"Lost Cat\" posters in her Hollywood Hills neighborhood."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/24/celebrity-news/kaia-gerbers-friends-help-her-search-for-missing-cat-after-brother-presleys-death/",
+      "score": 74.8,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Kaia Gerber’s",
+          "Presley",
+          "Jake Shane",
+          "Lewis Pullman",
+          "Kaia"
+        ],
+        "organizations": [],
+        "locations": [
+          "Hollywood Hills"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.3818,
+        "label": "negative"
+      },
+      "summary": "Influencer Jake Shane and actor Lewis Pullman, who has been dating Kaia for almost two years, hung up \"Lost Cat\" posters in her Hollywood Hills neighborhood.",
+      "cluster_id": "64be3e503af0d64b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.741017+00:00",
+        "source_published_at": "2026-09-24T17:54:01+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -2395,7 +2923,7 @@
       "source_type": "news",
       "url": "https://www.hollywoodreporter.com/news/general-news/presley-gerber-death-investigation-suspected-overdose-1236707072/",
       "score": 73.6,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Presley Gerber’s Death Is Being Investigated"
@@ -2435,7 +2963,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/entertainment/comments/1wn6lad/clavicular_charged_with_rape_and_drugging_in/",
       "score": 73.6,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2457,6 +2985,44 @@
       }
     },
     {
+      "id": "0a27c4cc2203a337",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "‘Survivor’ winner Chris Underwood reflects on controversial Season 38 win",
+      "angle": "After his elimination from \"The Challenge,\" Underwood told Page Six why there's \"a whole new perspective\" to \"Survivor: Edge of Extinction\" seven years later. Ask the phones: would you film it, flee it, or pretend you…",
+      "bullets": [
+        "After his elimination from \"The Challenge,\" Underwood told Page Six why there's \"a whole new perspective\" to \"Survivor: Edge of Extinction\" seven years later."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/24/entertainment/survivor-winner-chris-underwood-reflects-on-controversial-season-38-win/",
+      "score": 73.6,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Chris Underwood"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8625,
+        "label": "positive"
+      },
+      "summary": "After his elimination from \"The Challenge,\" Underwood told Page Six why there's \"a whole new perspective\" to \"Survivor: Edge of Extinction\" seven years later.",
+      "cluster_id": "0a27c4cc2203a337",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.496192+00:00",
+        "source_published_at": "2026-09-24T18:03:12+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "09cf21ee2d880a47",
       "date": "2026-09-22",
       "slot": "am",
@@ -2471,7 +3037,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/sports/giants-feel-deonte-banks-absence-in-banged-up-cornerbacks-group/",
       "score": 73.5,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Rams",
@@ -2512,7 +3078,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/23/media/javier-bardem-slammed-for-targeting-pink-over-macklemore-comments-the-left-is-eating-itself/",
       "score": 73.5,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Javier Bardem",
@@ -2557,7 +3123,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/24/sports/dodgers-shohei-ohtani-shows-progress-in-return-from-injury/",
       "score": 73.5,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Shohei Ohtani",
@@ -2598,7 +3164,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/entertainment/comments/1wmuyzu/white_house_launching_trump_tv_amid_media_ban/",
       "score": 73.4,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -2634,7 +3200,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/us-news/socialist-communist-groups-coordinate-promote-spontaneous-anti-ice-protests-in-austin/",
       "score": 73.3,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [
@@ -2675,7 +3241,7 @@
       "source_type": "news",
       "url": "https://variety.com/2026/theater/news/juliet-stevenson-olivia-williams-tim-crouch-an-oak-tree-1236871011/",
       "score": 73.3,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Juliet Stevenson",
@@ -2728,7 +3294,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/24/us-news/tennessee-cops-raided-mans-home-after-he-criticized-officer-for-speeding-lawsuit/",
       "score": 73.3,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Joshua Gibbons'"
@@ -2754,6 +3320,48 @@
       }
     },
     {
+      "id": "8714b53eb74a5870",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Forgotten Island’ Review: A Delightful Animated Celebration of Friendship and Filipino Culture",
+      "angle": "In Hollywood, parallel thought is a funny thing. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "In Hollywood, parallel thought is a funny thing.",
+        "As in every other sphere, two or more people can have a similar idea at the same time, but when those ideas bloom into movies, their release can feel like a land rush.",
+        "Which is more firmly cemented in moviegoers’ memories, “Dante’s Peak” or “Volcano”?"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/reviews/forgotten-island-review-1236874557/",
+      "score": 73.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Dante’s Peak"
+        ],
+        "organizations": [],
+        "locations": [
+          "Hollywood"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8201,
+        "label": "positive"
+      },
+      "summary": "In Hollywood, parallel thought is a funny thing. As in every other sphere, two or more people can have a similar idea at the same time, but when those ideas bloom into movies, their release can feel like a land rush. Which is more firmly cemented in moviegoers’ memories, “Dante’s Peak” or “Volcano”?",
+      "cluster_id": "8714b53eb74a5870",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.389445+00:00",
+        "source_published_at": "2026-09-24T17:14:30+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "05f87407a3fd15b8",
       "date": "2026-09-22",
       "slot": "am",
@@ -2768,7 +3376,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/opinion/1619-project-scribe-nikole-hannah-jones-has-only-begun-to-face-how-she-failed-her-daughter/",
       "score": 73.1,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Nikole Hannah-Jones"
@@ -2808,7 +3416,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/sports/giants-report-card-from-nfl-week-2-loss-to-rams/",
       "score": 73.1,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Rams",
@@ -2838,6 +3446,46 @@
       }
     },
     {
+      "id": "983e4b7cb475be5d",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "‘Nervous’ residents of one NYC nabe say new, city-planted trees will ruin area’s Feng Shui, bring ‘bad luck’",
+      "angle": "‘Nervous’ residents of one NYC nabe say new, city-planted trees will ruin area’s Feng Shui, bring ‘bad luck’. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "There's some bad chi in the trees."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/bensonhursts-feng-shui-at-risk-from-city-plan-to-plant-more-trees/",
+      "score": 73.1,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Feng Shui"
+        ],
+        "organizations": [
+          "NYC"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8074,
+        "label": "negative"
+      },
+      "summary": "There's some bad chi in the trees.",
+      "cluster_id": "983e4b7cb475be5d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.530177+00:00",
+        "source_published_at": "2026-09-24T18:03:09+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "346b4016d6d35c9e",
       "date": "2026-09-22",
       "slot": "am",
@@ -2852,7 +3500,7 @@
       "source_type": "social",
       "url": "https://www.reddit.com/r/entertainment/comments/1wn7d4n/children_are_still_being_held_in_a_concentration/",
       "score": 73.0,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [],
         "organizations": [],
@@ -3336,6 +3984,50 @@
       }
     },
     {
+      "id": "c4a07d23779e6173",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "California husband arrested at Mexico soccer match accused of being cartel kingpin, wife says it’s ludicrous",
+      "angle": "Joel Rene Cardenas Carrillo, a 46-year-old US citizen from Visalia, traveled to the Mexican state of Colima in July to visit his father. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Joel Rene Cardenas Carrillo, a 46-year-old US citizen from Visalia, traveled to the Mexican state of Colima in July to visit his father."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/california-man-detained-in-mexico-misidentified-as-cartel-kingpin-wife-says/",
+      "score": 72.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Rene Cardenas Carrillo"
+        ],
+        "organizations": [],
+        "locations": [
+          "California",
+          "Mexico",
+          "US",
+          "Visalia",
+          "Colima"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7783,
+        "label": "negative"
+      },
+      "summary": "Joel Rene Cardenas Carrillo, a 46-year-old US citizen from Visalia, traveled to the Mexican state of Colima in July to visit his father.",
+      "cluster_id": "c4a07d23779e6173",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.676557+00:00",
+        "source_published_at": "2026-09-24T17:59:33+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "35e2c266e2d7372c",
       "date": "2026-09-22",
       "slot": "am",
@@ -3572,6 +4264,46 @@
       }
     },
     {
+      "id": "7d32aeead25af488",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Lawmakers Unveil 20%-30% U.S. Film Incentive in Bid to Restore Hollywood Production",
+      "angle": "A bipartisan group of lawmakers unveiled federal legislation Thursday that would create a 20%-30% U.S. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "A bipartisan group of lawmakers unveiled federal legislation Thursday that would create a 20%-30% U.S.",
+        "film incentive, in a bid to secure American dominance in entertainment production.",
+        "The incentive would stack on top of state tax credits, combining to create the world&#8217;s most generous subsidies for film and TV."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/news/lawmakers-federal-film-incentive-introduced-1236873572/",
+      "score": 72.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "U.S."
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.9744,
+        "label": "positive"
+      },
+      "summary": "A bipartisan group of lawmakers unveiled federal legislation Thursday that would create a 20%-30% U.S. film incentive, in a bid to secure American dominance in entertainment production. The incentive would stack on top of state tax credits, combining to create the world&#8217;s most generous subsidies for film and TV. &#8220;If it passes and it stacks [&#8230;]",
+      "cluster_id": "7d32aeead25af488",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.263913+00:00",
+        "source_published_at": "2026-09-24T17:45:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "fbfd64a5c14f1293",
       "date": "2026-09-24",
       "slot": "am",
@@ -3728,6 +4460,50 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:02.266037+00:00",
         "source_published_at": "2026-09-24T02:56:59+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "ce3563d43389f89f",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Bombardier CEO Éric Martel Report on Business Speaker Series",
+      "angle": "Watch live as ROB magazine editor speaks with Martel on the company’s reinvention and the future of Canada’s aerospace and technology sector. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Watch live as ROB magazine editor speaks with Martel on the company’s reinvention and the future of Canada’s aerospace and technology sector"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/business/article-bombardier-ceo-eric-martel-report-on-business-speaker-series/",
+      "score": 72.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Bombardier",
+          "Éric Martel Report",
+          "Martel"
+        ],
+        "organizations": [
+          "ROB"
+        ],
+        "locations": [
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.6523,
+        "label": "negative"
+      },
+      "summary": "Watch live as ROB magazine editor speaks with Martel on the company’s reinvention and the future of Canada’s aerospace and technology sector",
+      "cluster_id": "ce3563d43389f89f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:36.940885+00:00",
+        "source_published_at": "2026-09-24T17:50:42+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -4086,6 +4862,45 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.884751+00:00",
         "source_published_at": "2026-09-22T16:54:57+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "839810bd432bbc7c",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "‘AHS’ co-stars Leslie Grossman and Billie Lourd fawn over each other: ‘My work wife’",
+      "angle": "Both actresses have appeared in several seasons of the beloved spooky franchise. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Both actresses have appeared in several seasons of the beloved spooky franchise."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/24/celebrity-news/ahs-leslie-grossman-billie-lourd-fawn-over-each-other/",
+      "score": 72.1,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Leslie Grossman",
+          "Billie Lourd"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5106,
+        "label": "positive"
+      },
+      "summary": "Both actresses have appeared in several seasons of the beloved spooky franchise.",
+      "cluster_id": "839810bd432bbc7c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.587549+00:00",
+        "source_published_at": "2026-09-24T18:00:53+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -4610,6 +5425,44 @@
       }
     },
     {
+      "id": "21f8478210d2b1eb",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Poll: Canadians and Americans agree, Trump was in the wrong with trade war",
+      "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wowz35/poll_canadians_and_americans_agree_trump_was_in/",
+      "score": 71.7,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Trump"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.6705,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+      "cluster_id": "21f8478210d2b1eb",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.034367+00:00",
+        "source_published_at": "2026-09-24T09:25:53+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "ea91a15146ef0449",
       "date": "2026-09-22",
       "slot": "am",
@@ -4767,6 +5620,52 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:05.895749+00:00",
         "source_published_at": "2026-09-23T15:43:11+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "6472fdda6395fafa",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "It’s sinister that Meta’s Muse AI mascot is so cute",
+      "angle": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Explain it like a coworker…",
+      "bullets": [
+        "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life.",
+        "Opt in for Optimizer here.",
+        "Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/column/999999/optimizer-meta-muse-ai-cute",
+      "score": 71.6,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Optimizer",
+          "Victoria Song"
+        ],
+        "organizations": [
+          "Meta’s Muse AI",
+          "Verge"
+        ],
+        "locations": [
+          "Blorbo"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.7555,
+        "label": "positive"
+      },
+      "summary": "This is Optimizer, a weekly newsletter sent from Verge senior reviewer Victoria Song that dissects and discusses the latest gizmos and potions that swear they're going to change your life. Opt in for Optimizer here. Last night, I asked Blorbo - what I named my Muse AI agent - to help me set some health [&#8230;]",
+      "cluster_id": "6472fdda6395fafa",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.548660+00:00",
+        "source_published_at": "2026-09-24T17:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -5649,6 +6548,48 @@
       }
     },
     {
+      "id": "c2a50523f43ea8f1",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Novel ‘heart in a box’ technology gives London, Ont., patient ‘second life’",
+      "angle": "After a cardiac arrest and triple bypass, Raj Mittal learned he was a candidate for a transplant. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "After a cardiac arrest and triple bypass, Raj Mittal learned he was a candidate for a transplant.",
+        "His donor heart arrived warm and pumping"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-novel-heart-in-a-box-technology-gives-london-ont-patient-second-life/",
+      "score": 71.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Ont",
+          "Raj Mittal"
+        ],
+        "organizations": [],
+        "locations": [
+          "London"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.7184,
+        "label": "positive"
+      },
+      "summary": "After a cardiac arrest and triple bypass, Raj Mittal learned he was a candidate for a transplant. His donor heart arrived warm and pumping",
+      "cluster_id": "c2a50523f43ea8f1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.077419+00:00",
+        "source_published_at": "2026-09-24T10:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "dbd1afb60e8646ce",
       "date": "2026-09-22",
       "slot": "am",
@@ -5757,6 +6698,45 @@
       "meta": {
         "ingested_at": "2026-09-22T18:30:42.988190+00:00",
         "source_published_at": "2026-09-22T18:15:23+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "ad26c7f2f4999b35",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "The Federal Film Incentive Bill: What’s In and What’s Out",
+      "angle": "A bipartisan group of lawmakers unveiled a bill on Thursday to create a 20% federal film incentive, with bonuses that could bring the total rebate to 30%. Shelf life through drive time — who is overrated and who…",
+      "bullets": [
+        "A bipartisan group of lawmakers unveiled a bill on Thursday to create a 20% federal film incentive, with bonuses that could bring the total rebate to 30%.",
+        "Here&#8217;s a quick rundown on what&#8217;s included and excluded from the proposal: Included: Productions must have a minimum spend of $1 million (per film or per TV season), [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/news/federal-film-incentive-bill-whats-in-and-whats-out-1236874552/",
+      "score": 71.1,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "The Federal Film Incentive Bill"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8074,
+        "label": "positive"
+      },
+      "summary": "A bipartisan group of lawmakers unveiled a bill on Thursday to create a 20% federal film incentive, with bonuses that could bring the total rebate to 30%. Here&#8217;s a quick rundown on what&#8217;s included and excluded from the proposal: Included: Productions must have a minimum spend of $1 million (per film or per TV season), [&#8230;]",
+      "cluster_id": "ad26c7f2f4999b35",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.344943+00:00",
+        "source_published_at": "2026-09-24T17:45:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -6013,6 +6993,50 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:02.525245+00:00",
         "source_published_at": "2026-09-24T08:53:30+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f66275577aa598b5",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Scientist Jim Bruce was a globally renowned voice on the dangers of climate change",
+      "angle": "A founding member of the Intergovernmental Panel on Climate Change, he was the only Canadian representative in the delegation that accepted the 2007 Nobel Peace Prize jointly with former U.S. Make it local in one…",
+      "bullets": [
+        "A founding member of the Intergovernmental Panel on Climate Change, he was the only Canadian representative in the delegation that accepted the 2007 Nobel Peace Prize jointly with former U.S.",
+        "vice-president Al Gore"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-jim-bruce-ipcc-obituary/",
+      "score": 70.9,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Jim Bruce",
+          "Al Gore"
+        ],
+        "organizations": [
+          "the Intergovernmental Panel on Climate Change"
+        ],
+        "locations": [
+          "U.S."
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.6908,
+        "label": "positive"
+      },
+      "summary": "A founding member of the Intergovernmental Panel on Climate Change, he was the only Canadian representative in the delegation that accepted the 2007 Nobel Peace Prize jointly with former U.S. vice-president Al Gore",
+      "cluster_id": "f66275577aa598b5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.303587+00:00",
+        "source_published_at": "2026-09-24T14:09:24+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -6288,6 +7312,49 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:02.756662+00:00",
         "source_published_at": "2026-09-24T04:51:31+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "6769d0086e87550b",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Richard S. Reisberg, Top Television Executive at Viacom and MGM/UA, Dies at 85",
+      "angle": "He also worked at Reeves Entertainment and Lionsgate during his long career. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "He also worked at Reeves Entertainment and Lionsgate during his long career."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/business/business-news/richard-reisberg-dead-viacom-mgm-ua-television-1236709499/",
+      "score": 70.6,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Richard S. Reisberg"
+        ],
+        "organizations": [
+          "Top Television Executive",
+          "Viacom",
+          "MGM/UA",
+          "Reeves Entertainment"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5574,
+        "label": "positive"
+      },
+      "summary": "He also worked at Reeves Entertainment and Lionsgate during his long career.",
+      "cluster_id": "6769d0086e87550b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.837085+00:00",
+        "source_published_at": "2026-09-24T18:08:27+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -6677,6 +7744,46 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:05.408358+00:00",
         "source_published_at": "2026-09-23T17:19:18+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e497e77dab038f12",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Santa Barbara Film Fest: John Malkovich Tapped for Performer of the Year Award for ‘Wild Horse Nine’",
+      "angle": "The 72-year-old will be feted with an evening of clips and conversation on Friday, Feb. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "The 72-year-old will be feted with an evening of clips and conversation on Friday, Feb."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/santa-barbara-film-fest-john-malkovich-performer-of-the-year-1236709160/",
+      "score": 70.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "John Malkovich Tapped"
+        ],
+        "organizations": [],
+        "locations": [
+          "Santa Barbara Film Fest"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5423,
+        "label": "positive"
+      },
+      "summary": "The 72-year-old will be feted with an evening of clips and conversation on Friday, Feb. 12.",
+      "cluster_id": "e497e77dab038f12",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.946748+00:00",
+        "source_published_at": "2026-09-24T17:36:05+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -8900,6 +10007,45 @@
       }
     },
     {
+      "id": "291e49b437d837fc",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "'It has broken us as a family,' mother of poison seller victim tells hearing",
+      "angle": "Tanya Whitaker broke down before she spoke of how her son Samuel's death had devastated her family. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Tanya Whitaker broke down before she spoke of how her son Samuel's death had devastated her family."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm20ldvx9xlxo?at_medium=RSS&at_campaign=rss",
+      "score": 68.6,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Tanya Whitaker",
+          "Samuel"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.9607,
+        "label": "negative"
+      },
+      "summary": "Tanya Whitaker broke down before she spoke of how her son Samuel's death had devastated her family.",
+      "cluster_id": "291e49b437d837fc",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.805279+00:00",
+        "source_published_at": "2026-09-24T17:49:46+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "df04050e577c844b",
       "date": "2026-09-22",
       "slot": "am",
@@ -9018,6 +10164,49 @@
       "meta": {
         "ingested_at": "2026-09-22T17:21:21.969524+00:00",
         "source_published_at": "2025-09-18T08:12:52+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9cce9f68f44c8496",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Alarming new poll shows gap widening even further between Steve Hilton and Xavier Becerra",
+      "angle": "The poll found that Becerra’s lead over Hilton had increased slightly. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The poll found that Becerra’s lead over Hilton had increased slightly."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/xavier-becerras-lead-over-steve-hilton-widens-in-new-governor-poll/",
+      "score": 68.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Steve Hilton",
+          "Xavier Becerra"
+        ],
+        "organizations": [
+          "Becerra"
+        ],
+        "locations": [
+          "Hilton"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.1531,
+        "label": "positive"
+      },
+      "summary": "The poll found that Becerra’s lead over Hilton had increased slightly.",
+      "cluster_id": "9cce9f68f44c8496",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.769378+00:00",
+        "source_published_at": "2026-09-24T17:53:06+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -9587,6 +10776,48 @@
       }
     },
     {
+      "id": "f3e4d9877d8bb9e9",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Many Canadians support Carney’s airport privatization plan, poll finds",
+      "angle": "A quarter of survey respondents aren’t sure, with support highest in Quebec and lowest in Saskatchewan and Manitoba. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "A quarter of survey respondents aren’t sure, with support highest in Quebec and lowest in Saskatchewan and Manitoba"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/business/article-many-canadians-support-carneys-airport-privatization-plan-poll-finds/",
+      "score": 68.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Carney’s"
+        ],
+        "organizations": [],
+        "locations": [
+          "Quebec",
+          "Saskatchewan",
+          "Manitoba"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.6249,
+        "label": "positive"
+      },
+      "summary": "A quarter of survey respondents aren’t sure, with support highest in Quebec and lowest in Saskatchewan and Manitoba",
+      "cluster_id": "f3e4d9877d8bb9e9",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.124444+00:00",
+        "source_published_at": "2026-09-24T17:00:03+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "d728f826c1b8d632",
       "date": "2026-09-22",
       "slot": "am",
@@ -10124,6 +11355,44 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:04.451257+00:00",
         "source_published_at": "2026-09-23T16:09:05+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "bc6c8325d81e890c",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Quebec physicians' law blamed in part for five doctor suicides in five months",
+      "angle": "&#32; submitted by &#32; /u/Mylittlethrowaway2 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Mylittlethrowaway2 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp6jch/quebec_physicians_law_blamed_in_part_for_five/",
+      "score": 67.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Quebec"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.4767,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/Mylittlethrowaway2 [link] &#32; [comments]",
+      "cluster_id": "bc6c8325d81e890c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.208547+00:00",
+        "source_published_at": "2026-09-24T16:36:10+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -10883,6 +12152,46 @@
       }
     },
     {
+      "id": "62440ac6398974f5",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "49ers star fined $15K for ‘offensive demonstration in poor taste’ as ‘No Fun League’ strikes again",
+      "angle": "Kyle Juszczyk is commonly known as \"Juice\" by his San Francisco 49ers teammates. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Kyle Juszczyk is commonly known as \"Juice\" by his San Francisco 49ers teammates."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/sports/49ers-kyle-juszczyk-fined-for-longtime-chugging-celebration/",
+      "score": 67.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Kyle Juszczyk"
+        ],
+        "organizations": [],
+        "locations": [
+          "San Francisco"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2263,
+        "label": "negative"
+      },
+      "summary": "Kyle Juszczyk is commonly known as \"Juice\" by his San Francisco 49ers teammates.",
+      "cluster_id": "62440ac6398974f5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.804828+00:00",
+        "source_published_at": "2026-09-24T17:50:24+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "5d539ca477beca34",
       "date": "2026-09-22",
       "slot": "am",
@@ -11244,6 +12553,46 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:07.598326+00:00",
         "source_published_at": "2026-09-23T15:45:11+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "08ab33bac0d29214",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "'I can't see it stopping' - Middlesbrough's young men discuss gangs after A66 crash",
+      "angle": "Last month's deadly A66 crash shone a light on organised crime and opportunities for young people in Middlesbrough. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Last month's deadly A66 crash shone a light on organised crime and opportunities for young people in Middlesbrough."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm0lrjn73npyo?at_medium=RSS&at_campaign=rss",
+      "score": 67.1,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "A66"
+        ],
+        "locations": [
+          "Middlesbrough"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.7056,
+        "label": "negative"
+      },
+      "summary": "Last month's deadly A66 crash shone a light on organised crime and opportunities for young people in Middlesbrough.",
+      "cluster_id": "08ab33bac0d29214",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.218607+00:00",
+        "source_published_at": "2026-09-24T06:29:47+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -11725,6 +13074,99 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:06.132167+00:00",
         "source_published_at": "2026-09-23T17:20:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "03b85e00d3b99eb9",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Beast in Me’ Renewed for Season 2 With Claire Danes Returning",
+      "angle": "&#8220;The Beast in Me&#8221; has been renewed for Season 2 at Netflix, Variety has learned. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "&#8220;The Beast in Me&#8221; has been renewed for Season 2 at Netflix, Variety has learned.",
+        "Claire Danes will return to star as Aggie Wiggs and executive produce as she did in Season 1.",
+        "In addition, Season 1 showrunner Howard Gordon has signed an overall TV deal with Netflix under his Teakwood Lane Productions banner, through [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/news/beast-in-me-renewed-season-2-claire-danes-1236874320/",
+      "score": 67.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Claire Danes",
+          "Howard Gordon"
+        ],
+        "organizations": [
+          "Variety",
+          "Aggie Wiggs",
+          "Teakwood Lane Productions"
+        ],
+        "locations": [
+          "Netflix"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "&#8220;The Beast in Me&#8221; has been renewed for Season 2 at Netflix, Variety has learned. Claire Danes will return to star as Aggie Wiggs and executive produce as she did in Season 1. In addition, Season 1 showrunner Howard Gordon has signed an overall TV deal with Netflix under his Teakwood Lane Productions banner, through [&#8230;]",
+      "cluster_id": "03b85e00d3b99eb9",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.431237+00:00",
+        "source_published_at": "2026-09-24T17:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "415c38fe837d734c",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Now Google Chrome shares tabs to new devices that save where you were",
+      "angle": "Google is rolling out some new Chrome browser features that are designed to make it easier to research and study complicated topics. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Google is rolling out some new Chrome browser features that are designed to make it easier to research and study complicated topics.",
+        "The cross-device tab switching feature is getting a memory upgrade, alongside new capabilities for Gemini in Chrome that can analyze more types of media and generate interactive study quizzes.",
+        "Chrome has an existing [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/tech/999901/google-chrome-tab-memory-gemini-updates",
+      "score": 67.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Gemini",
+          "Chrome"
+        ],
+        "organizations": [
+          "Google Chrome",
+          "Google"
+        ],
+        "locations": [
+          "Chrome"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.802,
+        "label": "positive"
+      },
+      "summary": "Google is rolling out some new Chrome browser features that are designed to make it easier to research and study complicated topics. The cross-device tab switching feature is getting a memory upgrade, alongside new capabilities for Gemini in Chrome that can analyze more types of media and generate interactive study quizzes. Chrome has an existing [&#8230;]",
+      "cluster_id": "415c38fe837d734c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.506617+00:00",
+        "source_published_at": "2026-09-24T17:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -12376,6 +13818,47 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:06.071488+00:00",
         "source_published_at": "2026-09-23T17:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f62ae2192362e178",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "U.S.-China summit highlights the 'hypocrisy' of American trade policy, experts say — Washington pursues deals with China while criticizing Ottawa for doing the same",
+      "angle": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wowe1c/uschina_summit_highlights_the_hypocrisy_of/",
+      "score": 66.6,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "U.S.-China",
+          "Washington",
+          "China",
+          "Ottawa"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.3612,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]",
+      "cluster_id": "f62ae2192362e178",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.971568+00:00",
+        "source_published_at": "2026-09-24T08:48:11+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -13702,6 +15185,85 @@
       }
     },
     {
+      "id": "6341ed1020c4e5a4",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "UTA Signs the Kansas City Chiefs’ Foolish Club Studios (Exclusive)",
+      "angle": "The entertainment studio produces scripted and unscripted film and TV projects. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "The entertainment studio produces scripted and unscripted film and TV projects."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/business/business-news/uta-signs-kansas-city-chiefs-foolish-club-studios-1236708705/",
+      "score": 66.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "UTA",
+          "the Kansas City Chiefs’ Foolish Club Studios"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.296,
+        "label": "positive"
+      },
+      "summary": "The entertainment studio produces scripted and unscripted film and TV projects.",
+      "cluster_id": "6341ed1020c4e5a4",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.074879+00:00",
+        "source_published_at": "2026-09-24T17:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "dbb349c999b4cac8",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "El Niño moves into record-breaking territory, increases odds of a warmer than average winter across much of Canada",
+      "angle": "&#32; submitted by &#32; /u/Portalrules123 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Portalrules123 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp4fuf/el_niño_moves_into_recordbreaking_territory/",
+      "score": 66.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "El Niño"
+        ],
+        "locations": [
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.296,
+        "label": "positive"
+      },
+      "summary": "&#32; submitted by &#32; /u/Portalrules123 [link] &#32; [comments]",
+      "cluster_id": "dbb349c999b4cac8",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.003004+00:00",
+        "source_published_at": "2026-09-24T15:17:05+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "74f5d1c0406773e9",
       "date": "2026-09-22",
       "slot": "am",
@@ -13783,6 +15345,46 @@
       }
     },
     {
+      "id": "06b5f7bdd8537e09",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Pierre Poilievre’s Conservatives can’t wait to buy Trump’s bullshit",
+      "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wowx6n/pierre_poilievres_conservatives_cant_wait_to_buy/",
+      "score": 65.9,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Pierre Poilievre’s Conservatives"
+        ],
+        "organizations": [
+          "Trump"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.5859,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+      "cluster_id": "06b5f7bdd8537e09",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.177993+00:00",
+        "source_published_at": "2026-09-24T09:22:28+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "0e7436c86f00a103",
       "date": "2026-09-22",
       "slot": "am",
@@ -13816,6 +15418,129 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.789655+00:00",
         "source_published_at": "2026-09-22T14:34:17+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e65bc8539afb1cdc",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "2026-27 New Jersey Devils predictions, best bets, odds: Nico Hischier set up for strong season",
+      "angle": "The New Jersey Devils are a hard team to project for the 2026-27 season. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The New Jersey Devils are a hard team to project for the 2026-27 season."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/betting/2026-27-new-jersey-devils-predictions-best-bets-odds-nico-hischier-set-up-for-strong-season/",
+      "score": 65.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Nico Hischier"
+        ],
+        "organizations": [
+          "The New Jersey Devils"
+        ],
+        "locations": [
+          "New Jersey"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.0772,
+        "label": "negative"
+      },
+      "summary": "The New Jersey Devils are a hard team to project for the 2026-27 season.",
+      "cluster_id": "e65bc8539afb1cdc",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.615926+00:00",
+        "source_published_at": "2026-09-24T18:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "39827c544227d4d7",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Suzuki says Carney driving Canada ‘into a ditch’ on climate",
+      "angle": "Suzuki said he now feels he was ‘wilfully blind’ to Carney’s promises of action on climate. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Suzuki said he now feels he was ‘wilfully blind’ to Carney’s promises of action on climate"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-suzuki-says-carney-driving-canada-into-a-ditch-on-climate/",
+      "score": 65.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Suzuki"
+        ],
+        "organizations": [],
+        "locations": [
+          "Carney",
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.3818,
+        "label": "positive"
+      },
+      "summary": "Suzuki said he now feels he was ‘wilfully blind’ to Carney’s promises of action on climate",
+      "cluster_id": "39827c544227d4d7",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.337029+00:00",
+        "source_published_at": "2026-09-24T13:17:47+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a3b0c91ef51c1db9",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Ex-England striker Andy Carroll reveals he was sexually assaulted in 2021",
+      "angle": "Former England striker Andy Carroll reveals he was sexually assaulted in 2021, by a man who has subsequently been jailed for three years. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Former England striker Andy Carroll reveals he was sexually assaulted in 2021, by a man who has subsequently been jailed for three years."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/sport/football/articles/c6grv7x544qro?at_medium=RSS&at_campaign=rss",
+      "score": 65.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Andy Carroll"
+        ],
+        "organizations": [],
+        "locations": [
+          "England"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.875,
+        "label": "negative"
+      },
+      "summary": "Former England striker Andy Carroll reveals he was sexually assaulted in 2021, by a man who has subsequently been jailed for three years.",
+      "cluster_id": "a3b0c91ef51c1db9",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.845556+00:00",
+        "source_published_at": "2026-09-24T12:18:04+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -13943,6 +15668,80 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:02.721972+00:00",
         "source_published_at": "2026-09-24T06:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "608fbb48993b7445",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Legendary California oyster enclave on sale for $13M after 101-year run",
+      "angle": "Legendary California oyster enclave on sale for $13M after 101-year run. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Well, shucks."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/real-estate/legendary-california-oyster-enclave-on-sale-for-13m-after-101-year-run/",
+      "score": 65.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Legendary California"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2732,
+        "label": "positive"
+      },
+      "summary": "Well, shucks.",
+      "cluster_id": "608fbb48993b7445",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.436342+00:00",
+        "source_published_at": "2026-09-24T18:08:51+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "8ef24cd22f274ac6",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Former soldier who shot at synagogue was suing military for $1M over vaccination policy",
+      "angle": "&#32; submitted by &#32; /u/Displeased_Canadian [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Displeased_Canadian [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp3ra1/former_soldier_who_shot_at_synagogue_was_suing/",
+      "score": 65.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.2732,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/Displeased_Canadian [link] &#32; [comments]",
+      "cluster_id": "8ef24cd22f274ac6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.096339+00:00",
+        "source_published_at": "2026-09-24T14:51:25+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -14520,6 +16319,91 @@
       }
     },
     {
+      "id": "16dae4c7c5cb5aa1",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Muse will apparently let you download its entire filesystem",
+      "angle": "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you.",
+        "Peter James and Jonny L.",
+        "Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000222/meta-muse-ai-filesystem",
+      "score": 65.1,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Peter James",
+          "Jonny L. Saunders"
+        ],
+        "organizations": [
+          "Meta's Muse",
+          "Muse",
+          "Saunders"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6124,
+        "label": "positive"
+      },
+      "summary": "A pair of developers say that with very little prompting, Meta's Muse will share its entire filesystem with you. Peter James and Jonny L. Saunders have said they both independently coaxed Muse into zipping up and sharing the entire contents of its root filesystem, Ubuntu system files, app templates, and internal documentation. Saunders posted on [&#8230;]",
+      "cluster_id": "16dae4c7c5cb5aa1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.421707+00:00",
+        "source_published_at": "2026-09-24T17:14:12+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d49efdbbbc7a1253",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Firm fined £1m after man killed by window that fell from luxury penthouse",
+      "angle": "Mick Ferris was crushed when the 130kg window fell from The Corniche building in Vauxhall. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Mick Ferris was crushed when the 130kg window fell from The Corniche building in Vauxhall."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ydvp14y6xo?at_medium=RSS&at_campaign=rss",
+      "score": 65.1,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Mick Ferris"
+        ],
+        "organizations": [
+          "Corniche"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8074,
+        "label": "negative"
+      },
+      "summary": "Mick Ferris was crushed when the 130kg window fell from The Corniche building in Vauxhall.",
+      "cluster_id": "d49efdbbbc7a1253",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.924133+00:00",
+        "source_published_at": "2026-09-24T14:58:49+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "a36a2cf23f9efa5d",
       "date": "2026-09-22",
       "slot": "am",
@@ -14717,6 +16601,126 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:01.995603+00:00",
         "source_published_at": "2026-09-24T06:36:44+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "47065a4e2c293757",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Stephen A. Smith Explains How SiriusXM Is Becoming a Home for Political Independents",
+      "angle": "The satellite radio giant has channels for progressives and conservatives, even as it turns its POTUS channel into something that caters more to independent thinkers. Shelf life through drive time — who is overrated…",
+      "bullets": [
+        "The satellite radio giant has channels for progressives and conservatives, even as it turns its POTUS channel into something that caters more to independent thinkers."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/business/digital/siriusxm-potus-channel-political-independents-1236705277/",
+      "score": 65.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Stephen A. Smith"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "The satellite radio giant has channels for progressives and conservatives, even as it turns its POTUS channel into something that caters more to independent thinkers.",
+      "cluster_id": "47065a4e2c293757",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.877998+00:00",
+        "source_published_at": "2026-09-24T18:07:36+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "fa453c39310a0120",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Ottawa not on track to balance operating budget despite Carney’s claim, PBO suggests",
+      "angle": "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp4k3q/ottawa_not_on_track_to_balance_operating_budget/",
+      "score": 65.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Carney’s"
+        ],
+        "organizations": [
+          "PBO"
+        ],
+        "locations": [
+          "Ottawa"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]",
+      "cluster_id": "fa453c39310a0120",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.124312+00:00",
+        "source_published_at": "2026-09-24T15:21:39+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "dee2469052b73547",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Crashed RAF jet steered to 'avoid built-up areas' before pilots ejected, commander says",
+      "angle": "Gp Capt Gez Currie said the pilots are in hospital, and their families are with them. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Gp Capt Gez Currie said the pilots are in hospital, and their families are with them."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/crx2zlqqpn2do?at_medium=RSS&at_campaign=rss",
+      "score": 65.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Gp Capt Gez Currie"
+        ],
+        "organizations": [
+          "RAF"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.296,
+        "label": "negative"
+      },
+      "summary": "Gp Capt Gez Currie said the pilots are in hospital, and their families are with them.",
+      "cluster_id": "dee2469052b73547",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.728082+00:00",
+        "source_published_at": "2026-09-24T12:29:39+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -14956,6 +16960,49 @@
       }
     },
     {
+      "id": "6a9dc6458c308e98",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "White House restores access to media outlets banned by Trump after judge's order",
+      "angle": "Lawyers for CNN, Politico and MS Now are seeking an emergency court hearing, saying the White House \"repeatedly violated\" the order. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Lawyers for CNN, Politico and MS Now are seeking an emergency court hearing, saying the White House \"repeatedly violated\" the order."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo?at_medium=RSS&at_campaign=rss",
+      "score": 64.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Politico"
+        ],
+        "organizations": [
+          "White House",
+          "Trump",
+          "CNN",
+          "the White House"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7783,
+        "label": "negative"
+      },
+      "summary": "Lawyers for CNN, Politico and MS Now are seeking an emergency court hearing, saying the White House \"repeatedly violated\" the order.",
+      "cluster_id": "6a9dc6458c308e98",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.638881+00:00",
+        "source_published_at": "2026-09-24T17:49:20+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "f1818836f386fbe7",
       "date": "2026-09-22",
       "slot": "am",
@@ -15062,6 +17109,99 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.770540+00:00",
         "source_published_at": "2026-09-21T18:01:20+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "bcb31d434ed42cb8",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Jensen Huang talks about AI and climate change like a supervillain",
+      "angle": "As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first.",
+        "The Nvidia CEO discussed the future of energy and AI's impact on our planet in the latest episode of The Ezra Klein Show.",
+        "But his comments boil down to the [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/tech/1000140/jensen-huang-nvidia-ai-energy-climate-change-supervillain",
+      "score": 64.6,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Jensen Huang"
+        ],
+        "organizations": [
+          "AI"
+        ],
+        "locations": [
+          "AI",
+          "Nvidia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7612,
+        "label": "negative"
+      },
+      "summary": "As Jensen Huang puts it, AI can help fight climate change - but only if it inflicts \"an enormous amount of pain and suffering\" first. The Nvidia CEO discussed the future of energy and AI's impact on our planet in the latest episode of The Ezra Klein Show. But his comments boil down to the [&#8230;]",
+      "cluster_id": "bcb31d434ed42cb8",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.339878+00:00",
+        "source_published_at": "2026-09-24T18:04:44+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "dac80f12a88a9c0a",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Muse sure looks a lot like OpenClaw",
+      "angle": "We seem to be entering into an AI agent renaissance. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "We seem to be entering into an AI agent renaissance.",
+        "Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the US, by an Apptopia estimate.",
+        "And AI agent platform Instinct, whose eponymous creator is fundraising at a $2.5 billion valuation, has been [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/report/1000180/muse-openclaw-instinct-lookalike",
+      "score": 64.6,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "App Store"
+        ],
+        "organizations": [
+          "Meta",
+          "AI",
+          "Muse",
+          "Apptopia"
+        ],
+        "locations": [
+          "AI",
+          "US"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7579,
+        "label": "positive"
+      },
+      "summary": "We seem to be entering into an AI agent renaissance. Meta's new consumer-facing AI agent, Muse, topped the App Store charts soon after its release and has 600,000 daily active users in the US, by an Apptopia estimate. And AI agent platform Instinct, whose eponymous creator is fundraising at a $2.5 billion valuation, has been [&#8230;]",
+      "cluster_id": "dac80f12a88a9c0a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.462770+00:00",
+        "source_published_at": "2026-09-24T17:10:38+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -15221,6 +17361,47 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:02.887537+00:00",
         "source_published_at": "2026-09-24T08:42:35+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "dc4c07e6cf0b5896",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Man jailed for two years over throwing bottle at Portsmouth migrant protest",
+      "angle": "Del Somerville, 42, pleaded guilty to violent disorder following an overnight protest at Eastney. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Del Somerville, 42, pleaded guilty to violent disorder following an overnight protest at Eastney."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c8vgy7ww21rqo?at_medium=RSS&at_campaign=rss",
+      "score": 64.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Eastney"
+        ],
+        "locations": [
+          "Portsmouth",
+          "Del Somerville"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.9393,
+        "label": "negative"
+      },
+      "summary": "Del Somerville, 42, pleaded guilty to violent disorder following an overnight protest at Eastney.",
+      "cluster_id": "dc4c07e6cf0b5896",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.764991+00:00",
+        "source_published_at": "2026-09-24T15:57:55+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -15385,6 +17566,87 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:03.679767+00:00",
         "source_published_at": "2026-09-23T20:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "af4ed973bd096545",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Gabby’s Dollhouse’ Spinoff ‘Doozie’s Doghouse’ Set at Netflix (Exclusive)",
+      "angle": "Doozie is Gabby's sister, who was first winked at in 'Gabby's Dollhouse: The Movie,' and now she has her own series with a new trailer. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Doozie is Gabby's sister, who was first winked at in 'Gabby's Dollhouse: The Movie,' and now she has her own series with a new trailer."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/gabbys-dollhouse-spinoff-doozies-doghouse-netflix-1236708926/",
+      "score": 64.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Gabby’s Dollhouse’ Spinoff ‘Doozie’s Doghouse’ Set",
+          "Doozie is Gabby's",
+          "Gabby"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.128,
+        "label": "positive"
+      },
+      "summary": "Doozie is Gabby's sister, who was first winked at in 'Gabby's Dollhouse: The Movie,' and now she has her own series with a new trailer.",
+      "cluster_id": "af4ed973bd096545",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.106090+00:00",
+        "source_published_at": "2026-09-24T17:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "aa388f5e31fc3511",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "NDP leader says Ottawa breaking labour law as Bank of Canada strike nears 100 days",
+      "angle": "&#32; submitted by &#32; /u/NiceDot4794 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/NiceDot4794 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp090z/ndp_leader_says_ottawa_breaking_labour_law_as/",
+      "score": 64.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "NDP",
+          "Bank of Canada"
+        ],
+        "locations": [
+          "Ottawa"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.128,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/NiceDot4794 [link] &#32; [comments]",
+      "cluster_id": "aa388f5e31fc3511",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.240041+00:00",
+        "source_published_at": "2026-09-24T12:25:39+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -16244,6 +18506,163 @@
       }
     },
     {
+      "id": "81635f0291813a2a",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "New ‘Musk’ Trailer Highlights the Mogul’s “Shocking” Conflicts of Interest",
+      "angle": "New ‘Musk’ Trailer Highlights the Mogul’s “Shocking” Conflicts of Interest. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "A taste from Bleecker Street ahead of Oct.",
+        "9 culture-jamming theatrical release."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/news/politics-news/watch-musk-trailer-documentary-theaters-showtimes-1236709407/",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Bleecker Street"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.1027,
+        "label": "positive"
+      },
+      "summary": "A taste from Bleecker Street ahead of Oct. 9 culture-jamming theatrical release.",
+      "cluster_id": "81635f0291813a2a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.044448+00:00",
+        "source_published_at": "2026-09-24T17:07:39+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d14fce6e5ec25e17",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Nova Scotia government spent nearly $2-billion outside of budget",
+      "angle": "Province closed 2025-26 fiscal year with record-high deficit of $1.4-billion, Finance Minister says. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Province closed 2025-26 fiscal year with record-high deficit of $1.4-billion, Finance Minister says"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-nova-scotia-budget-finance/",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Finance"
+        ],
+        "locations": [
+          "Nova Scotia"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.4019,
+        "label": "negative"
+      },
+      "summary": "Province closed 2025-26 fiscal year with record-high deficit of $1.4-billion, Finance Minister says",
+      "cluster_id": "d14fce6e5ec25e17",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:36.993807+00:00",
+        "source_published_at": "2026-09-24T18:01:36+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f522b4967cce6442",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Scammers Pretending to Be Grandchildren Are Robbing the Elderly in Canada",
+      "angle": "&#32; submitted by &#32; /u/Reporterab90 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Reporterab90 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp0dvi/scammers_pretending_to_be_grandchildren_are/",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Elderly",
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.1027,
+        "label": "positive"
+      },
+      "summary": "&#32; submitted by &#32; /u/Reporterab90 [link] &#32; [comments]",
+      "cluster_id": "f522b4967cce6442",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.293924+00:00",
+        "source_published_at": "2026-09-24T12:32:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "2739f3f1d3060de6",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "German prosecutors investigate 105-year-old for crimes at Nazi PoW camp",
+      "angle": "The suspect is alleged to have been an accessory to murder at the Stalag 326 camp, where tens of thousands of Soviet PoWs died. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "The suspect is alleged to have been an accessory to murder at the Stalag 326 camp, where tens of thousands of Soviet PoWs died."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo?at_medium=RSS&at_campaign=rss",
+      "score": 63.9,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Nazi PoW",
+          "Stalag"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8885,
+        "label": "negative"
+      },
+      "summary": "The suspect is alleged to have been an accessory to murder at the Stalag 326 camp, where tens of thousands of Soviet PoWs died.",
+      "cluster_id": "2739f3f1d3060de6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.998120+00:00",
+        "source_published_at": "2026-09-24T14:37:34+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "1903a1248c0632cd",
       "date": "2026-09-22",
       "slot": "am",
@@ -16583,6 +19002,48 @@
       }
     },
     {
+      "id": "91392b60cd53bbf5",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Poland says fire at Starlink station is sabotage as Denmark warns of rising Russian threat",
+      "angle": "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmp30r1klk37o?at_medium=RSS&at_campaign=rss",
+      "score": 63.6,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Starlink"
+        ],
+        "locations": [
+          "Poland",
+          "Denmark",
+          "Ukraine"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8625,
+        "label": "negative"
+      },
+      "summary": "The satellite station is used in part to provide internet coverage to neighbouring Ukraine, the government says.",
+      "cluster_id": "91392b60cd53bbf5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.690823+00:00",
+        "source_published_at": "2026-09-24T16:00:29+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "498fff1be7fc434c",
       "date": "2026-09-22",
       "slot": "am",
@@ -16691,6 +19152,46 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:01.113670+00:00",
         "source_published_at": "2026-09-24T01:17:21+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "dfc9333f31fdfa26",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "As Canada deepens ties with Europe, could it leave U.S. banks and dollars behind?",
+      "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wowslm/as_canada_deepens_ties_with_europe_could_it_leave/",
+      "score": 63.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Canada",
+          "Europe",
+          "U.S."
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.0516,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+      "cluster_id": "dfc9333f31fdfa26",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.379127+00:00",
+        "source_published_at": "2026-09-24T09:14:23+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -16924,6 +19425,84 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.871671+00:00",
         "source_published_at": "2026-09-22T15:49:17+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9b5e89853cf3aec4",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Sadly, this $1,549 RTX 5070-equipped gaming PC is a very good deal",
+      "angle": "While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop.",
+        "Walmart has a well-equipped CyberPowerPC gaming PC on sale for $1,549, almost $600 off its original price of $2,139.",
+        "It’s powered by an Intel Core i7-14700KF processor, and paired with 32GB of 6000MHz [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/gadgets/1000122/cyberpowerpc-gaming-prebuilt-rtx-5070-core-i7-asrock-oled-monitor-deal-sale",
+      "score": 63.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Intel"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8313,
+        "label": "positive"
+      },
+      "summary": "While PC component prices remain high, you can save a good bit of money on a system by purchasing a prebuilt desktop. Walmart has a well-equipped CyberPowerPC gaming PC on sale for $1,549, almost $600 off its original price of $2,139. It’s powered by an Intel Core i7-14700KF processor, and paired with 32GB of 6000MHz [&#8230;]",
+      "cluster_id": "9b5e89853cf3aec4",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.301277+00:00",
+        "source_published_at": "2026-09-24T18:19:23+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "5d69bb1df007a60f",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Two accused in sensational Toronto airport gold heist are now facing separate trials, pleading not guilty",
+      "angle": "&#32; submitted by &#32; /u/Slight_Sherbert_5239 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Slight_Sherbert_5239 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp3fd1/two_accused_in_sensational_toronto_airport_gold/",
+      "score": 63.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Toronto"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0341,
+        "label": "neutral"
+      },
+      "summary": "&#32; submitted by &#32; /u/Slight_Sherbert_5239 [link] &#32; [comments]",
+      "cluster_id": "5d69bb1df007a60f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.350396+00:00",
+        "source_published_at": "2026-09-24T14:38:34+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -18388,6 +20967,282 @@
       }
     },
     {
+      "id": "954d72079d436d33",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "White House pushes purge of non-citizens from voter rolls ahead of midterms: report",
+      "angle": "Reuters reported this year that as many as 30,000 non-citizens have been erroneously added to voter rolls since 2000. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Reuters reported this year that as many as 30,000 non-citizens have been erroneously added to voter rolls since 2000."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/us-news/white-house-pushes-purge-of-non-citizens-from-voter-rolls-ahead-of-midterms-report/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "White House",
+          "Reuters"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Reuters reported this year that as many as 30,000 non-citizens have been erroneously added to voter rolls since 2000.",
+      "cluster_id": "954d72079d436d33",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.468470+00:00",
+        "source_published_at": "2026-09-24T18:05:32+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "ad64455e45be5b78",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Congo running short on Ebola treatment center workers during deadly virus’ latest surge: WHO",
+      "angle": "Congo is running short of health workers to staff treatment centers for history’s fastest-growing Ebola outbreak, the World Health Organization said Wednesday. Ask the phones: would you film it, flee it, or pretend you…",
+      "bullets": [
+        "Congo is running short of health workers to staff treatment centers for history’s fastest-growing Ebola outbreak, the World Health Organization said Wednesday."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/world-news/congo-lacks-health-workers-to-run-ebola-treatment-centers-during-latest-surge-of-deadly-virus-who/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "the World Health Organization"
+        ],
+        "locations": [
+          "Congo"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Congo is running short of health workers to staff treatment centers for history’s fastest-growing Ebola outbreak, the World Health Organization said Wednesday.",
+      "cluster_id": "ad64455e45be5b78",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.560964+00:00",
+        "source_published_at": "2026-09-24T18:01:35+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d4e4c3cec4aa37a1",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Lush’s Advent Calendar is the ‘bomb’ — but stock is disappearing quickly",
+      "angle": "Lush’s Advent Calendar is the ‘bomb’ — but stock is disappearing quickly. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "We tried it — here's the 411."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/24/shopping/lush-advent-calendar-the-best-gift-for-bath-lovers/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Lush’s Advent Calendar"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "We tried it — here's the 411.",
+      "cluster_id": "d4e4c3cec4aa37a1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.642396+00:00",
+        "source_published_at": "2026-09-24T18:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "3edd59348bab6ae2",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Sesame Street’ Movie Set at Netflix, Plus ‘Gabby’s Dollhouse’ Spinoff and ‘KPop Demon Hunters’ Game",
+      "angle": "After kids and family content brought Netflix 15% of its viewership in the first half of 2026, the streamer is doubling down on its children&#8217;s slate. Shelf life through drive time — who is overrated and who…",
+      "bullets": [
+        "After kids and family content brought Netflix 15% of its viewership in the first half of 2026, the streamer is doubling down on its children&#8217;s slate.",
+        "Netflix announced several family-oriented projects on Thursday, beginning with &#8220;Sesame Street,&#8221; which it began streaming last year.",
+        "A new &#8220;Sesame Street&#8221; film is in development, produced by Sesame Workshop [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/gaming/news/sesame-street-movie-kpop-demon-hunters-game-netflix-1236874602/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Netflix, Plus ‘Gabby’s Dollhouse’ Spinoff",
+          "children&#8217;s",
+          "Netflix",
+          "Sesame Workshop [&#8230"
+        ],
+        "locations": [
+          "Netflix"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "After kids and family content brought Netflix 15% of its viewership in the first half of 2026, the streamer is doubling down on its children&#8217;s slate. Netflix announced several family-oriented projects on Thursday, beginning with &#8220;Sesame Street,&#8221; which it began streaming last year. A new &#8220;Sesame Street&#8221; film is in development, produced by Sesame Workshop [&#8230;]",
+      "cluster_id": "3edd59348bab6ae2",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.524558+00:00",
+        "source_published_at": "2026-09-24T17:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "775e7f0067174e28",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "More than two in three Canadians back EU associate membership: poll",
+      "angle": "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp0zaj/more_than_two_in_three_canadians_back_eu/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "EU"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]",
+      "cluster_id": "775e7f0067174e28",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.904522+00:00",
+        "source_published_at": "2026-09-24T12:59:41+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "c68a4477466a0cd5",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Ontario woman dropped by insurance company after making two claims within five years",
+      "angle": "&#32; submitted by &#32; /u/Haggisboy [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Haggisboy [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp1pup/ontario_woman_dropped_by_insurance_company_after/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "&#32; submitted by &#32; /u/Haggisboy [link] &#32; [comments]",
+      "cluster_id": "c68a4477466a0cd5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.937060+00:00",
+        "source_published_at": "2026-09-24T13:31:05+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "fa8bbc0b60fdee67",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Report: CFL has moved closer to Quebec City expansion",
+      "angle": "&#32; submitted by &#32; /u/Haggisboy [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Haggisboy [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wp1ofi/report_cfl_has_moved_closer_to_quebec_city/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "CFL"
+        ],
+        "locations": [
+          "Quebec City"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "&#32; submitted by &#32; /u/Haggisboy [link] &#32; [comments]",
+      "cluster_id": "fa8bbc0b60fdee67",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.150202+00:00",
+        "source_published_at": "2026-09-24T13:29:28+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "5dea52253aa150d7",
       "date": "2026-09-22",
       "slot": "am",
@@ -18534,6 +21389,44 @@
       "meta": {
         "ingested_at": "2026-09-22T17:02:23.866415+00:00",
         "source_published_at": "2026-09-21T22:36:22+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "25e91f5c97801d5c",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Sesame Street’ Movie in the Works at Netflix",
+      "angle": "‘Sesame Street’ Movie in the Works at Netflix. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "More sunny days on the way."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/sesame-street-movie-netflix-1236709317/",
+      "score": 62.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Netflix"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4754,
+        "label": "positive"
+      },
+      "summary": "More sunny days on the way.",
+      "cluster_id": "25e91f5c97801d5c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.133651+00:00",
+        "source_published_at": "2026-09-24T17:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -18818,6 +21711,46 @@
       }
     },
     {
+      "id": "eae28eacb8964855",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "The Xbox reset gets ugly",
+      "angle": "It feels like Xbox has been in a permanent state of turmoil for at least two years now, and this week is no different. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "It feels like Xbox has been in a permanent state of turmoil for at least two years now, and this week is no different.",
+        "Microsoft cut 268 jobs across its gaming division this week, shuffled major studios and franchises around, and continued its Xbox \"reset.\" Layoffs have become a way of life for Xbox employees, [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/tech/999919/microsoft-xbox-reorganization-activision-notepad",
+      "score": 62.6,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Xbox",
+          "Microsoft"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.765,
+        "label": "negative"
+      },
+      "summary": "It feels like Xbox has been in a permanent state of turmoil for at least two years now, and this week is no different. Microsoft cut 268 jobs across its gaming division this week, shuffled major studios and franchises around, and continued its Xbox \"reset.\" Layoffs have become a way of life for Xbox employees, [&#8230;]",
+      "cluster_id": "eae28eacb8964855",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.685755+00:00",
+        "source_published_at": "2026-09-24T16:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "e45c9b4ebd9ef9d1",
       "date": "2026-09-22",
       "slot": "am",
@@ -18935,6 +21868,45 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:18.540265+00:00",
         "source_published_at": "2026-09-21T23:28:26+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "47929600c1a5daba",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Spain's housing crisis in focus after eviction of 87-year-old woman",
+      "angle": "The tenant of the flat in the Retiro area of central Madrid, Maricarmen, was unable to pay her rent set after it was increased by an investment firm. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "The tenant of the flat in the Retiro area of central Madrid, Maricarmen, was unable to pay her rent set after it was increased by an investment firm."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/videos/cm4gjvz734w3o?at_medium=RSS&at_campaign=rss",
+      "score": 62.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Spain",
+          "Retiro"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7506,
+        "label": "negative"
+      },
+      "summary": "The tenant of the flat in the Retiro area of central Madrid, Maricarmen, was unable to pay her rent set after it was increased by an investment firm.",
+      "cluster_id": "47929600c1a5daba",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.143264+00:00",
+        "source_published_at": "2026-09-24T16:45:45+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -19430,6 +22402,45 @@
       }
     },
     {
+      "id": "c047f5c9200d503b",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Drinking at football matches - would fans welcome it?",
+      "angle": "Andy Burnham has long championed a repeal of the ban which prevents football supporters from drinking alcohol in the view of the pitch. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Andy Burnham has long championed a repeal of the ban which prevents football supporters from drinking alcohol in the view of the pitch.",
+        "But do fans even want it?"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cq1kx140gwlzo?at_medium=RSS&at_campaign=rss",
+      "score": 62.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Andy Burnham"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4956,
+        "label": "positive"
+      },
+      "summary": "Andy Burnham has long championed a repeal of the ban which prevents football supporters from drinking alcohol in the view of the pitch. But do fans even want it?",
+      "cluster_id": "c047f5c9200d503b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.072184+00:00",
+        "source_published_at": "2026-09-24T14:09:46+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "d64a8aecd0e0708d",
       "date": "2026-09-22",
       "slot": "am",
@@ -19504,6 +22515,52 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:07.824789+00:00",
         "source_published_at": "2026-09-23T14:27:49+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d0c09943ed7a0f81",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Meta is going to let you build games with AI right on your phone",
+      "angle": "Meta has a new plan to get people to make games for its Horizon social platform. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Meta has a new plan to get people to make games for its Horizon social platform.",
+        "The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls.",
+        "The apps will be available in [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games",
+      "score": 61.9,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Horizon Studio"
+        ],
+        "organizations": [
+          "Meta",
+          "Horizon Create"
+        ],
+        "locations": [
+          "AI",
+          "Horizon"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4939,
+        "label": "positive"
+      },
+      "summary": "Meta has a new plan to get people to make games for its Horizon social platform. The company today announced two new development tools that will let you create games with AI prompts: Horizon Create, a mobile app, and Horizon Studio, a browser app that offers more granular controls. The apps will be available in [&#8230;]",
+      "cluster_id": "d0c09943ed7a0f81",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.379799+00:00",
+        "source_published_at": "2026-09-24T17:52:29+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -19900,6 +22957,42 @@
       }
     },
     {
+      "id": "c3aa0e94ca80efcf",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Institutional failures, dismissed warning signs factors in deaths of eight children, report says",
+      "angle": "Report Thursday analyzed the deaths of eight children in five different cases. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Report Thursday analyzed the deaths of eight children in five different cases"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-institutional-failures-warning-signs-deaths-of-eight-children-report/",
+      "score": 61.6,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.6597,
+        "label": "negative"
+      },
+      "summary": "Report Thursday analyzed the deaths of eight children in five different cases",
+      "cluster_id": "c3aa0e94ca80efcf",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.236716+00:00",
+        "source_published_at": "2026-09-24T15:03:06+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "0f473537996f51b7",
       "date": "2026-09-22",
       "slot": "am",
@@ -20167,6 +23260,42 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:03.141007+00:00",
         "source_published_at": "2026-09-23T21:25:01+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "3415a540149f8126",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Canadians are in the dark about their wildfire risk",
+      "angle": "Experts and politicians are endorsing a national strategy on wildfire hazard mapping, but the process would be far from simple. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Experts and politicians are endorsing a national strategy on wildfire hazard mapping, but the process would be far from simple"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-canadians-are-in-the-dark-about-their-wildfire-risk/",
+      "score": 61.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.1406,
+        "label": "negative"
+      },
+      "summary": "Experts and politicians are endorsing a national strategy on wildfire hazard mapping, but the process would be far from simple",
+      "cluster_id": "3415a540149f8126",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.181609+00:00",
+        "source_published_at": "2026-09-24T10:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -20821,6 +23950,82 @@
       }
     },
     {
+      "id": "91b2dfa3ee10e9bc",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Meta puts its AI assistant on a keychain",
+      "angle": "Meta says the keychain-sized Muse Charm will ship in December. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Meta says the keychain-sized Muse Charm will ship in December."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/ai/2026/09/meta-puts-its-ai-assistant-on-a-keychain/",
+      "score": 61.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Meta"
+        ],
+        "organizations": [],
+        "locations": [
+          "AI"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4019,
+        "label": "positive"
+      },
+      "summary": "Meta says the keychain-sized Muse Charm will ship in December.",
+      "cluster_id": "91b2dfa3ee10e9bc",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.754601+00:00",
+        "source_published_at": "2026-09-24T14:03:38+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9f3ced3b5c33cd6b",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Boys found ‘healthy and happy’ following alleged July abduction",
+      "angle": "Boys found ‘healthy and happy’ following alleged July abduction. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Boys found ‘healthy and happy’ following alleged July abduction"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-boys-found-healthy-and-happy-following-alleged-july-abduction/",
+      "score": 60.9,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.5859,
+        "label": "negative"
+      },
+      "summary": "Boys found ‘healthy and happy’ following alleged July abduction",
+      "cluster_id": "9f3ced3b5c33cd6b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:36.967283+00:00",
+        "source_published_at": "2026-09-24T18:01:46+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "785aa89cf476c9d7",
       "date": "2026-09-22",
       "slot": "am",
@@ -21011,6 +24216,42 @@
       }
     },
     {
+      "id": "49621e07f7e0cfed",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "These smart glasses have been recalled for overheating temples causing burns",
+      "angle": "A company called Inmo that makes several different variations of smart glasses has issued a recall for its Air3 because the left temple \"can overheat during extended use, posing a risk of serious injury or death due to…",
+      "bullets": [
+        "A company called Inmo that makes several different variations of smart glasses has issued a recall for its Air3 because the left temple \"can overheat during extended use, posing a risk of serious injury or death due to burn hazard.\" To date there have been 10 reports of users experiencing a \"burning sensation to the [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/tech/1000085/inmo-air3-smart-glasses-recall-cpsc-free-software-update",
+      "score": 60.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.5719,
+        "label": "negative"
+      },
+      "summary": "A company called Inmo that makes several different variations of smart glasses has issued a recall for its Air3 because the left temple \"can overheat during extended use, posing a risk of serious injury or death due to burn hazard.\" To date there have been 10 reports of users experiencing a \"burning sensation to the [&#8230;]",
+      "cluster_id": "49621e07f7e0cfed",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.594313+00:00",
+        "source_published_at": "2026-09-24T16:29:31+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "b53115c0f2cc15c2",
       "date": "2026-09-22",
       "slot": "am",
@@ -21161,6 +24402,47 @@
       }
     },
     {
+      "id": "b19af3158d015a90",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Why did an OpenAI system hack Australia's health system - and can it be stopped in the future?",
+      "angle": "News that an automated AI agent hacked a government IT system raises big questions about regulating the tech. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "News that an automated AI agent hacked a government IT system raises big questions about regulating the tech."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw24jm9rryy3o?at_medium=RSS&at_campaign=rss",
+      "score": 60.6,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "AI"
+        ],
+        "locations": [
+          "OpenAI",
+          "Australia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.5574,
+        "label": "negative"
+      },
+      "summary": "News that an automated AI agent hacked a government IT system raises big questions about regulating the tech.",
+      "cluster_id": "b19af3158d015a90",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.034503+00:00",
+        "source_published_at": "2026-09-24T14:08:38+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "49da107cd8ea1d21",
       "date": "2026-09-22",
       "slot": "am",
@@ -21239,6 +24521,42 @@
       "meta": {
         "ingested_at": "2026-09-23T09:05:28.832059+00:00",
         "source_published_at": "2026-09-23T00:42:22+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "3ece3b7d64eab89f",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Ontario deficit comes in better than projected at $13-billion",
+      "angle": "Province says revenue was higher than expected from government enterprises such as the LCBO. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Province says revenue was higher than expected from government enterprises such as the LCBO"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-ontario-deficit-comes-in-better-than-projected-at-13-billion/",
+      "score": 60.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0516,
+        "label": "positive"
+      },
+      "summary": "Province says revenue was higher than expected from government enterprises such as the LCBO",
+      "cluster_id": "3ece3b7d64eab89f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.154027+00:00",
+        "source_published_at": "2026-09-24T16:29:49+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -22683,6 +26001,46 @@
       }
     },
     {
+      "id": "d471a63b920a77e2",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Marineland dolphin dies at Spain aquarium, 5th death after rescue transfer",
+      "angle": "&#32; submitted by &#32; /u/Surax [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Surax [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1woywq2/marineland_dolphin_dies_at_spain_aquarium_5th/",
+      "score": 59.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "/u/Surax"
+        ],
+        "locations": [
+          "Spain"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1531,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/Surax [link] &#32; [comments]",
+      "cluster_id": "d471a63b920a77e2",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:38.266795+00:00",
+        "source_published_at": "2026-09-24T11:18:41+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "9098b41900784859",
       "date": "2026-09-22",
       "slot": "am",
@@ -22874,6 +26232,49 @@
       }
     },
     {
+      "id": "80a0d27a4c5b1a2f",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Dolphin shipped out of Marineland dies in Spain after move",
+      "angle": "Echo is the fifth animal from the closed Niagara Falls tourist attraction to die after a massive movement of whales and dolphins over the summer. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Echo is the fifth animal from the closed Niagara Falls tourist attraction to die after a massive movement of whales and dolphins over the summer"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/toronto/article-dolphin-shipped-out-of-marineland-dies-in-spain-after-move/",
+      "score": 59.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Niagara Falls"
+        ],
+        "organizations": [
+          "Echo"
+        ],
+        "locations": [
+          "Marineland",
+          "Spain"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2263,
+        "label": "negative"
+      },
+      "summary": "Echo is the fifth animal from the closed Niagara Falls tourist attraction to die after a massive movement of whales and dolphins over the summer",
+      "cluster_id": "80a0d27a4c5b1a2f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.418985+00:00",
+        "source_published_at": "2026-09-24T11:34:10+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "c3dc47e8fb31b1bc",
       "date": "2026-09-22",
       "slot": "am",
@@ -23058,6 +26459,47 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:08.136680+00:00",
         "source_published_at": "2026-09-23T11:00:17+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "b25cf60c1afe311d",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Israeli ambassador to U.S. thanks doctors after West Bank car attack",
+      "angle": "Israel's ambassador to the United States said on Thursday that his 38-year-old son remained in critical condition, a day after a ramming attack in the occupied West Bank. Make it local in one sentence — who pays, who…",
+      "bullets": [
+        "Israel's ambassador to the United States said on Thursday that his 38-year-old son remained in critical condition, a day after a ramming attack in the occupied West Bank."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/video-israeli-ambassador-to-us-thanks-doctors-after-west-bank-car-attack/",
+      "score": 59.2,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "U.S.",
+          "West Bank",
+          "Israel",
+          "the United States"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.4215,
+        "label": "negative"
+      },
+      "summary": "Israel's ambassador to the United States said on Thursday that his 38-year-old son remained in critical condition, a day after a ramming attack in the occupied West Bank.",
+      "cluster_id": "b25cf60c1afe311d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.390123+00:00",
+        "source_published_at": "2026-09-24T11:54:07+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -23545,6 +26987,49 @@
       }
     },
     {
+      "id": "c1c65c5e30b33b4c",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Greek PM urges Burnham to return Elgin Marbles permanently",
+      "angle": "Andy Burnham said in 2023 the sculptures should be returned to Greece with \"no strings attached\". Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Andy Burnham said in 2023 the sculptures should be returned to Greece with \"no strings attached\"."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo?at_medium=RSS&at_campaign=rss",
+      "score": 59.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Burnham",
+          "Andy Burnham"
+        ],
+        "organizations": [
+          "Elgin Marbles"
+        ],
+        "locations": [
+          "Greece"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Andy Burnham said in 2023 the sculptures should be returned to Greece with \"no strings attached\".",
+      "cluster_id": "c1c65c5e30b33b4c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.887145+00:00",
+        "source_published_at": "2026-09-24T16:36:33+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "cdd75efc1657ea31",
       "date": "2026-09-22",
       "slot": "am",
@@ -23859,6 +27344,47 @@
       }
     },
     {
+      "id": "62bb527af0cd61f3",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Gemini can now call businesses for you so you don’t have to wait on hold",
+      "angle": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment.…",
+      "bullets": [
+        "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment.",
+        "According to Google, you don't even need to start the call to have Gemini handle it for you: Instead of dialing yourself, [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1000116/google-gemini-business-phone-calls",
+      "score": 58.6,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Google"
+        ],
+        "locations": [
+          "Gemini"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.3612,
+        "label": "positive"
+      },
+      "summary": "Google's launching an \"early experiment\" feature on Pixel 11 that lets users delegate local business calls to Gemini, like making a reservation, checking if a product is in stock, or rescheduling an appointment. According to Google, you don't even need to start the call to have Gemini handle it for you: Instead of dialing yourself, [&#8230;]",
+      "cluster_id": "62bb527af0cd61f3",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.640800+00:00",
+        "source_published_at": "2026-09-24T16:04:31+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "c289272e07777606",
       "date": "2026-09-22",
       "slot": "am",
@@ -23895,6 +27421,86 @@
       "meta": {
         "ingested_at": "2026-09-22T18:30:42.570367+00:00",
         "source_published_at": "2026-09-22T17:36:58+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "10d0868487b22fc5",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "‘He did not know my daughter,’ U.K. victim’s mother tells Kenneth Law sentencing",
+      "angle": "Mother tells court she had arranged treatment for her daughter when second deadly package arrived; Ford rules out inquiry. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Mother tells court she had arranged treatment for her daughter when second deadly package arrived; Ford rules out inquiry"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-kenneth-law-sentencing-hearing-live-updates-sept-24/",
+      "score": 58.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Kenneth Law"
+        ],
+        "organizations": [
+          "Ford"
+        ],
+        "locations": [
+          "U.K."
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1531,
+        "label": "negative"
+      },
+      "summary": "Mother tells court she had arranged treatment for her daughter when second deadly package arrived; Ford rules out inquiry",
+      "cluster_id": "10d0868487b22fc5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.028408+00:00",
+        "source_published_at": "2026-09-24T13:12:21+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a08d2c0dadc4f221",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Morning Update: Kenneth Law sentencing hearing begins",
+      "angle": "Also in today’s edition: High Seas Treaty and oyster disease management. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Also in today’s edition: High Seas Treaty and oyster disease management"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-morning-update-kenneth-law-sentencing-hearing-begins/",
+      "score": 58.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Kenneth Law"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1531,
+        "label": "negative"
+      },
+      "summary": "Also in today’s edition: High Seas Treaty and oyster disease management",
+      "cluster_id": "a08d2c0dadc4f221",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.361546+00:00",
+        "source_published_at": "2026-09-24T10:24:47+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -24012,6 +27618,87 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:02.859094+00:00",
         "source_published_at": "2026-09-24T07:10:19+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "11f6330d454fd539",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "As AI hacks ramp up, are we back in big tech's 'move fast and break things' era?",
+      "angle": "Despite promises to make safe AI, examples of bots behaving badly are now coming at us thick and fast. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Despite promises to make safe AI, examples of bots behaving badly are now coming at us thick and fast."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6eq8egl3wd2o?at_medium=RSS&at_campaign=rss",
+      "score": 58.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "AI"
+        ],
+        "locations": [
+          "AI"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.3365,
+        "label": "negative"
+      },
+      "summary": "Despite promises to make safe AI, examples of bots behaving badly are now coming at us thick and fast.",
+      "cluster_id": "11f6330d454fd539",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.180824+00:00",
+        "source_published_at": "2026-09-24T11:29:20+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a70dea97c582d9f6",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "NASA chief concerned China may deny access to parts of South Pole",
+      "angle": "\"If you come up short with who comes down the ladder first, the impact is felt around the world.\". Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "\"If you come up short with who comes down the ladder first, the impact is felt around the world.\""
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/space/2026/09/nasa-chief-concerned-china-may-deny-access-to-parts-of-south-pole/",
+      "score": 58.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "NASA"
+        ],
+        "locations": [
+          "China",
+          "South Pole"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.34,
+        "label": "negative"
+      },
+      "summary": "\"If you come up short with who comes down the ladder first, the impact is felt around the world.\"",
+      "cluster_id": "a70dea97c582d9f6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.720169+00:00",
+        "source_published_at": "2026-09-24T14:57:50+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -25369,6 +29056,47 @@
       }
     },
     {
+      "id": "d53a7479a791daa2",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Review: Apple's hyper-pricey M5 Ultra Mac Studio made me into a vibe coder",
+      "angle": "Usable local AI is a lot of fun, but how much would you pay for it? Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Usable local AI is a lot of fun, but how much would you pay for it?"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/gadgets/2026/09/review-apples-hyper-pricey-m5-ultra-mac-studio-made-me-into-a-vibe-coder/",
+      "score": 56.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Apple",
+          "M5 Ultra Mac Studio"
+        ],
+        "locations": [
+          "AI"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.1406,
+        "label": "positive"
+      },
+      "summary": "Usable local AI is a lot of fun, but how much would you pay for it?",
+      "cluster_id": "d53a7479a791daa2",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.821035+00:00",
+        "source_published_at": "2026-09-24T11:00:04+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "6af58b306bcd0e6e",
       "date": "2026-09-22",
       "slot": "am",
@@ -25788,6 +29516,42 @@
       }
     },
     {
+      "id": "809430fcd8c7e360",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Small boat migrant arrivals reach 781 in one day, breaking 2026 record",
+      "angle": "A total of 781 migrants arrive on Wednesday, but the yearly total is below the same point in 2025. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "A total of 781 migrants arrive on Wednesday, but the yearly total is below the same point in 2025."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cwz0z597m471o?at_medium=RSS&at_campaign=rss",
+      "score": 55.1,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0129,
+        "label": "neutral"
+      },
+      "summary": "A total of 781 migrants arrive on Wednesday, but the yearly total is below the same point in 2025.",
+      "cluster_id": "809430fcd8c7e360",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:39.959225+00:00",
+        "source_published_at": "2026-09-24T14:58:51+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "b7520cd457bdcc85",
       "date": "2026-09-22",
       "slot": "am",
@@ -26085,6 +29849,84 @@
       "meta": {
         "ingested_at": "2026-09-23T09:05:32.581677+00:00",
         "source_published_at": "2026-09-22T20:38:30+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "89e5f2bb8136d425",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "TECH",
+      "title": "There's a new way to break RSA that's faster than anything we've seen before",
+      "angle": "Until now, cryptographers thought factoring was the only way to break RSA. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Until now, cryptographers thought factoring was the only way to break RSA."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+      "score": 55.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "RSA"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Until now, cryptographers thought factoring was the only way to break RSA. Not anymore.",
+      "cluster_id": "89e5f2bb8136d425",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:40.787125+00:00",
+        "source_published_at": "2026-09-24T11:15:44+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "2cdad3a30e62f99c",
+      "date": "2026-09-24",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "AFN regional chiefs to meet with Carney, premiers next month",
+      "angle": "It will be the first such meeting between chiefs and first ministers in decades. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "It will be the first such meeting between chiefs and first ministers in decades"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-afn-regional-chiefs-to-meet-with-carney-premiers-next-month/",
+      "score": 55.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "AFN"
+        ],
+        "locations": [
+          "Carney"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "It will be the first such meeting between chiefs and first ministers in decades",
+      "cluster_id": "2cdad3a30e62f99c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-24T18:19:37.208135+00:00",
+        "source_published_at": "2026-09-24T10:41:11+00:00",
         "pipeline_version": "1.1.0"
       }
     },
