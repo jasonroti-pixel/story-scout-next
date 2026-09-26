@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-25T19:06:41.635937+00:00",
+  "generated_at": "2026-09-26T09:07:53.184554+00:00",
   "timezone": "America/Toronto",
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "slot": "am",
   "pipeline_version": "1.1.0",
-  "count": 1029,
+  "count": 1115,
   "stories": [
     {
       "id": "b510ed3856735d95",
@@ -521,6 +521,54 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:05.560532+00:00",
         "source_published_at": "2026-09-23T17:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "20dbc5e3186cb570",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Love Hypothesis’ Director Claire Scanlon Breaks Down the Biggest ‘Star Wars’ Easter Eggs, From Gracie Abrams’ Song to Color-Coded Wardrobes",
+      "angle": "“Star Wars” has featured iconic locations throughout the franchise, taking audiences to Tatooine, Naboo and now, a campus biology lab at Stanford University. Shelf life through drive time — who is overrated and who…",
+      "bullets": [
+        "“Star Wars” has featured iconic locations throughout the franchise, taking audiences to Tatooine, Naboo and now, a campus biology lab at Stanford University.",
+        "The romantic comedy “Love Hypothesis” premiered on Amazon Prime on Sept.",
+        "23, featuring Lili Reinhart and Tom Bateman as romantic interests who get caught in a fake-dating-turned-real-love trope."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/features/the-love-hypothesis-star-wars-easter-eggs-1236875151/",
+      "score": 79.6,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Claire Scanlon",
+          "Gracie Abrams’ Song",
+          "Lili Reinhart",
+          "Tom Bateman"
+        ],
+        "organizations": [
+          "Color-Coded",
+          "Tatooine, Naboo",
+          "Stanford University",
+          "Amazon"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8625,
+        "label": "positive"
+      },
+      "summary": "“Star Wars” has featured iconic locations throughout the franchise, taking audiences to Tatooine, Naboo and now, a campus biology lab at Stanford University. The romantic comedy “Love Hypothesis” premiered on Amazon Prime on Sept. 23, featuring Lili Reinhart and Tom Bateman as romantic interests who get caught in a fake-dating-turned-real-love trope. On the surface, there [&#8230;]",
+      "cluster_id": "20dbc5e3186cb570",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.406502+00:00",
+        "source_published_at": "2026-09-26T01:09:17+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -1077,6 +1125,99 @@
       }
     },
     {
+      "id": "ed200dfdd4ee1cd2",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Julianne Moore Accepts Zurich’s Golden Icon Award — in German",
+      "angle": "Moore credited her career to a childhood spent in Europe, while 'Wild Horse Nine' filmmaker Martin McDonagh was also honored at the Swiss film festival. Shelf life through drive time — who is overrated and who actually…",
+      "bullets": [
+        "Moore credited her career to a childhood spent in Europe, while 'Wild Horse Nine' filmmaker Martin McDonagh was also honored at the Swiss film festival."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/julianne-moore-zurich-golden-icon-award-german-martin-film-1236712458/",
+      "score": 78.4,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Julianne Moore Accepts Zurich’s",
+          "Moore",
+          "Martin McDonagh"
+        ],
+        "organizations": [],
+        "locations": [
+          "Golden Icon Award",
+          "Europe"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.936,
+        "label": "positive"
+      },
+      "summary": "Moore credited her career to a childhood spent in Europe, while 'Wild Horse Nine' filmmaker Martin McDonagh was also honored at the Swiss film festival.",
+      "cluster_id": "ed200dfdd4ee1cd2",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.734541+00:00",
+        "source_published_at": "2026-09-26T06:44:29+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "b49b1dac5760ad67",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Tilly Norwood Would Love to Work With Tom Holland and Olivia Colman: ‘But Only If It Were Their Digital Twins’ on an ‘AI Production’",
+      "angle": "A year after announcing AI actress Tilly Norwood at Zurich Film Festival’s Summit, Particle 6 founder and Norwood creator Eline van der Velden returned to the Swiss event to look back at the backlash her creation has…",
+      "bullets": [
+        "A year after announcing AI actress Tilly Norwood at Zurich Film Festival’s Summit, Particle 6 founder and Norwood creator Eline van der Velden returned to the Swiss event to look back at the backlash her creation has faced since.",
+        "Asked if she could have ever predicted the furore around Norwood, van der Velden said not [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/global/tilly-norwood-tom-holland-olivia-colman-ai-production-1236876240/",
+      "score": 78.4,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Tom Holland",
+          "Tilly Norwood",
+          "Eline van",
+          "Velden",
+          "van der Velden"
+        ],
+        "organizations": [
+          "Tilly Norwood",
+          "AI",
+          "Norwood"
+        ],
+        "locations": [
+          "Olivia",
+          "Zurich Film Festival’s Summit"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.743,
+        "label": "positive"
+      },
+      "summary": "A year after announcing AI actress Tilly Norwood at Zurich Film Festival’s Summit, Particle 6 founder and Norwood creator Eline van der Velden returned to the Swiss event to look back at the backlash her creation has faced since. Asked if she could have ever predicted the furore around Norwood, van der Velden said not [&#8230;]",
+      "cluster_id": "b49b1dac5760ad67",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.215711+00:00",
+        "source_published_at": "2026-09-26T08:28:18+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "9e581861ed438ada",
       "date": "2026-09-22",
       "slot": "am",
@@ -1469,6 +1610,48 @@
       }
     },
     {
+      "id": "4fa1d4b79902bea5",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Isaac Mizrahi on the ‘Unzipped’ Restoration, the John Galliano Met Gala Fiasco and Why the ‘Devil Wears Prada’ Cerulean Blue Speech ‘Makes Me Want to Kill Somebody’",
+      "angle": "No doubt Isaac Mizrahi is excited about the release of the newly restored “Unzipped,” the 1995 documentary chronicling a moment in time when he was one of the fashion world&#8217;s hottest designers. Shelf life through…",
+      "bullets": [
+        "No doubt Isaac Mizrahi is excited about the release of the newly restored “Unzipped,” the 1995 documentary chronicling a moment in time when he was one of the fashion world&#8217;s hottest designers.",
+        "However, Mizrahi admits he’s not that eager to watch it.",
+        "“I have to say I hate looking back,” he tells me."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/columns/isaac-mizrahi-unzipped-restoration-john-galliano-met-gala-devil-wears-prada-cerulean-blue-1236876106/",
+      "score": 77.8,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Isaac Mizrahi",
+          "Fiasco",
+          "Kill Somebody"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8779,
+        "label": "negative"
+      },
+      "summary": "No doubt Isaac Mizrahi is excited about the release of the newly restored “Unzipped,” the 1995 documentary chronicling a moment in time when he was one of the fashion world&#8217;s hottest designers. However, Mizrahi admits he’s not that eager to watch it. “I have to say I hate looking back,” he tells me.",
+      "cluster_id": "4fa1d4b79902bea5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.468552+00:00",
+        "source_published_at": "2026-09-26T00:44:22+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "98ef9b08ccdd2a5f",
       "date": "2026-09-24",
       "slot": "am",
@@ -1603,6 +1786,103 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:06.364484+00:00",
         "source_published_at": "2026-09-23T16:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "4e1c92f916d30d7c",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘SNL’ Promotes Keri Powers to Sole Head of Talent Department, Rebecca Schwartz Upped to Producer",
+      "angle": "The news comes after longtime music booker Brian Siedlecki departed from the series; The Hollywood Reporter previously reported that the program chose not to renew his contract. Shelf life through drive time — who is…",
+      "bullets": [
+        "The news comes after longtime music booker Brian Siedlecki departed from the series; The Hollywood Reporter previously reported that the program chose not to renew his contract."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/snl-keri-powers-head-talent-rebecca-schwartz-producer-1236710402/",
+      "score": 77.4,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Promotes Keri Powers",
+          "Sole Head",
+          "Rebecca Schwartz Upped",
+          "Brian Siedlecki"
+        ],
+        "organizations": [
+          "SNL",
+          "Talent Department"
+        ],
+        "locations": [
+          "Producer",
+          "Hollywood"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6369,
+        "label": "positive"
+      },
+      "summary": "The news comes after longtime music booker Brian Siedlecki departed from the series; The Hollywood Reporter previously reported that the program chose not to renew his contract.",
+      "cluster_id": "4e1c92f916d30d7c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.942851+00:00",
+        "source_published_at": "2026-09-26T00:30:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "b55d77f7213c2f36",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Five Hilton All-Inclusive Resorts for Destination Weddings: From Mexico to the Dominican Republic",
+      "angle": "Celebrities have long understood that sometimes the best wedding venue requires a passport. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Celebrities have long understood that sometimes the best wedding venue requires a passport.",
+        "George and Amal Clooney turned Venice into the backdrop for their multi-day 2014 celebration, Priyanka Chopra and Nick Jonas took over Jodhpur’s Umaid Bhawan Palace for their lavish 2018 nuptials, and Kourtney Kardashian and Travis Barker brought their guests to Portofino for [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/shopping/news/best-hilton-hotels-destination-weddings-book-online-1236875965/",
+      "score": 77.4,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "George and Amal Clooney",
+          "Nick Jonas",
+          "Kourtney Kardashian",
+          "Travis Barker"
+        ],
+        "organizations": [
+          "Priyanka Chopra"
+        ],
+        "locations": [
+          "Mexico",
+          "the Dominican Republic",
+          "Venice",
+          "Jodhpur",
+          "Portofino"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6369,
+        "label": "positive"
+      },
+      "summary": "Celebrities have long understood that sometimes the best wedding venue requires a passport. George and Amal Clooney turned Venice into the backdrop for their multi-day 2014 celebration, Priyanka Chopra and Nick Jonas took over Jodhpur’s Umaid Bhawan Palace for their lavish 2018 nuptials, and Kourtney Kardashian and Travis Barker brought their guests to Portofino for [&#8230;]",
+      "cluster_id": "b55d77f7213c2f36",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.648319+00:00",
+        "source_published_at": "2026-09-25T23:36:41+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -2078,6 +2358,48 @@
       }
     },
     {
+      "id": "db755cea87047cfb",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Inside Ryan Murphy’s Universe: How Director Max Winkler Found Creative Meaning in ‘Lizzie Borden,’ ‘Love Story’ and More",
+      "angle": "In 2019, Max Winkler was an indie film director about to level up. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "In 2019, Max Winkler was an indie film director about to level up.",
+        "Having cut his teeth directing sitcoms in the &#8217;10s — including “New Girl,” “Brooklyn Nine-Nine” and “Fresh Off the Boat” — 2017’s dark comedy “Flower” was warmly received by audiences.",
+        "His next film was the gritty boxing drama “Jungleland,” which starred Charlie [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/tv/features/lizzie-borden-director-max-winkler-ryan-murphy-1236875327/",
+      "score": 76.2,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Inside Ryan Murphy’s",
+          "Max Winkler",
+          "Lizzie Borden"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7184,
+        "label": "positive"
+      },
+      "summary": "In 2019, Max Winkler was an indie film director about to level up. Having cut his teeth directing sitcoms in the &#8217;10s — including “New Girl,” “Brooklyn Nine-Nine” and “Fresh Off the Boat” — 2017’s dark comedy “Flower” was warmly received by audiences. His next film was the gritty boxing drama “Jungleland,” which starred Charlie [&#8230;]",
+      "cluster_id": "db755cea87047cfb",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.770883+00:00",
+        "source_published_at": "2026-09-25T22:54:35+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "aea0f2de9d3c897c",
       "date": "2026-09-23",
       "slot": "am",
@@ -2472,6 +2794,51 @@
       }
     },
     {
+      "id": "ca4a85bdd36d962d",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Scarlett Johansson Takes Break From Filming Overseas for ‘Paper Tiger’ NYFF Premiere After Skipping Cannes: ‘I’m Hallucinating’",
+      "angle": "A very jet-lagged Scarlett Johansson reunited with co-stars Adam Driver and Miles Teller for the New York Film Festival premiere of &#8220;Paper Tiger,&#8221; which kicked off the festival&#8217;s 64th edition. Shelf…",
+      "bullets": [
+        "A very jet-lagged Scarlett Johansson reunited with co-stars Adam Driver and Miles Teller for the New York Film Festival premiere of &#8220;Paper Tiger,&#8221; which kicked off the festival&#8217;s 64th edition.",
+        "“I’m hallucinating,” said Johansson, who just got off a long international flight, where she’s filming another movie.",
+        "“It’s 5 in the morning — which is [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/festivals/scarlett-johansson-paper-tiger-new-york-film-festival-premiere-adam-driver-1236872284/",
+      "score": 75.9,
+      "is_backup": false,
+      "entities": {
+        "people": [
+          "Scarlett Johansson",
+          "Adam Driver",
+          "Miles Teller",
+          "Johansson"
+        ],
+        "organizations": [
+          "the New York Film Festival premiere of &"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4939,
+        "label": "positive"
+      },
+      "summary": "A very jet-lagged Scarlett Johansson reunited with co-stars Adam Driver and Miles Teller for the New York Film Festival premiere of &#8220;Paper Tiger,&#8221; which kicked off the festival&#8217;s 64th edition. “I’m hallucinating,” said Johansson, who just got off a long international flight, where she’s filming another movie. “It’s 5 in the morning — which is [&#8230;]",
+      "cluster_id": "ca4a85bdd36d962d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.341058+00:00",
+        "source_published_at": "2026-09-26T01:16:41+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "984580af6868d0b6",
       "date": "2026-09-22",
       "slot": "am",
@@ -2616,7 +2983,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/22/us-news/us-holds-three-hours-of-talks-with-iran-on-sidelines-of-un-trump/",
       "score": 75.7,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Trump",
@@ -2662,7 +3029,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/23/sports/chris-spatolas-sister-in-law-shares-heartbreaking-photo-as-family-mourns-death/",
       "score": 75.6,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Chris Spatola’s",
@@ -2705,7 +3072,7 @@
       "source_type": "news",
       "url": "https://nypost.com/2026/09/24/us-news/kyrsten-sinemas-ex-bodyguard-in-homewrecker-case-trashes-her-arizona-home-causes-200k-in-damage/",
       "score": 75.6,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Kyrsten Sinema",
@@ -2750,7 +3117,7 @@
       "source_type": "news",
       "url": "https://www.bbc.co.uk/news/videos/c914d17zn6kxo?at_medium=RSS&at_campaign=rss",
       "score": 75.6,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Xi",
@@ -2794,7 +3161,7 @@
       "source_type": "news",
       "url": "https://www.hollywoodreporter.com/movies/movie-features/resident-evil-austin-abrams-breaks-down-ending-1236707140/",
       "score": 75.5,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Abrams",
@@ -2835,7 +3202,7 @@
       "source_type": "news",
       "url": "https://variety.com/2026/sports/news/los-angeles-dodgers-mookie-betts-signs-1236874721/",
       "score": 75.5,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Mookie Betts",
@@ -2882,7 +3249,7 @@
       "source_type": "news",
       "url": "https://variety.com/2026/tv/global/banijay-date-knight-mipcom-1236871449/",
       "score": 75.4,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Banijay Nordic",
@@ -2914,6 +3281,53 @@
       }
     },
     {
+      "id": "332cc68913187db7",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Olivia Rodrigo’s ‘Unraveled’ Tour Setlist: Every Song Played on Opening Night in Connecticut",
+      "angle": "Olivia Rodrigo officially kicked off the &#8220;Unraveled&#8221; tour on Friday night with her first show at PeoplesBank Arena in Hartford, CT. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Olivia Rodrigo officially kicked off the &#8220;Unraveled&#8221; tour on Friday night with her first show at PeoplesBank Arena in Hartford, CT.",
+        "Scroll down to see the setlist as it&#8217;s being updated live.",
+        "The 86-date tour is in support of Rodrigo&#8217;s third album &#8220;You Seem Pretty Sad for a Girl So in Love,&#8221; which she released [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/music/news/olivia-rodrigo-unraveled-tour-setlist-opening-connecticut-1236875900/",
+      "score": 75.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Olivia Rodrigo’s ‘Unraveled’ Tour Setlist",
+          "Olivia Rodrigo",
+          "Arena"
+        ],
+        "organizations": [
+          "CT"
+        ],
+        "locations": [
+          "Connecticut",
+          "Hartford"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6369,
+        "label": "positive"
+      },
+      "summary": "Olivia Rodrigo officially kicked off the &#8220;Unraveled&#8221; tour on Friday night with her first show at PeoplesBank Arena in Hartford, CT. Scroll down to see the setlist as it&#8217;s being updated live. The 86-date tour is in support of Rodrigo&#8217;s third album &#8220;You Seem Pretty Sad for a Girl So in Love,&#8221; which she released [&#8230;]",
+      "cluster_id": "332cc68913187db7",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.527525+00:00",
+        "source_published_at": "2026-09-26T00:27:23+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "93512725b4a0dba7",
       "date": "2026-09-24",
       "slot": "am",
@@ -2928,7 +3342,7 @@
       "source_type": "news",
       "url": "https://www.hollywoodreporter.com/movies/movie-news/black-bear-lands-taylor-jenkins-reid-movie-atmosphere-1236709380/",
       "score": 75.2,
-      "is_backup": false,
+      "is_backup": true,
       "entities": {
         "people": [
           "Taylor Jenkins Reid Movie ‘Atmosphere",
@@ -3895,6 +4309,47 @@
       }
     },
     {
+      "id": "1d005145cc96378d",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Anthony Volpe’s Yankees third base cameo was valuable — even if it was quiet",
+      "angle": "If the Yankees want to ensure they do not have a ball hit to third base against them in the playoffs, perhaps they should put Anthony Volpe there. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "If the Yankees want to ensure they do not have a ball hit to third base against them in the playoffs, perhaps they should put Anthony Volpe there."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/sports/anthony-volpes-yankees-third-base-cameo-was-valuable-even-if-it-was-quiet/",
+      "score": 74.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Anthony Volpe’s Yankees",
+          "Anthony Volpe"
+        ],
+        "organizations": [
+          "Yankees"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7184,
+        "label": "positive"
+      },
+      "summary": "If the Yankees want to ensure they do not have a ball hit to third base against them in the playoffs, perhaps they should put Anthony Volpe there.",
+      "cluster_id": "1d005145cc96378d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.579653+00:00",
+        "source_published_at": "2026-09-26T04:04:42+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "0ace279430549b75",
       "date": "2026-09-23",
       "slot": "am",
@@ -4645,6 +5100,48 @@
       }
     },
     {
+      "id": "e2e5ea23a0c4e4a0",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Taylor Swift Breaks Two Spotify Records for 2026, Including Most-Streamed Female Artist in a Day",
+      "angle": "Taylor Swift has broken two Spotify records for 2026, including most-streamed female artist in a day. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Taylor Swift has broken two Spotify records for 2026, including most-streamed female artist in a day.",
+        "Swift broke the records following the midnight release of &#8220;The Life of a Showgirl: Encore,&#8221; which featured four new songs, including lead single &#8220;Patient Zero.&#8221; That song broke the record for the most-streamed song by a female artist in [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/music/news/taylor-swift-breaks-spotify-records-most-streamed-female-1236876086/",
+      "score": 73.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Taylor Swift Breaks",
+          "Taylor Swift"
+        ],
+        "organizations": [
+          "Spotify"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.6486,
+        "label": "negative"
+      },
+      "summary": "Taylor Swift has broken two Spotify records for 2026, including most-streamed female artist in a day. Swift broke the records following the midnight release of &#8220;The Life of a Showgirl: Encore,&#8221; which featured four new songs, including lead single &#8220;Patient Zero.&#8221; That song broke the record for the most-streamed song by a female artist in [&#8230;]",
+      "cluster_id": "e2e5ea23a0c4e4a0",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.587581+00:00",
+        "source_published_at": "2026-09-25T23:43:56+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "92bdc9e85e89013f",
       "date": "2026-09-22",
       "slot": "am",
@@ -4677,6 +5174,89 @@
       "meta": {
         "ingested_at": "2026-09-22T17:21:21.983652+00:00",
         "source_published_at": "2026-09-22T00:52:38+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "8b464722e7c6c4ec",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Danielle Smith’s popularity dips as her party now tied with NDP in support: poll | UCP sees support drop in Calgary by 10 points since the spring",
+      "angle": "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wq8bla/danielle_smiths_popularity_dips_as_her_party_now/",
+      "score": 73.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Danielle Smith"
+        ],
+        "organizations": [
+          "NDP",
+          "UCP"
+        ],
+        "locations": [
+          "Calgary"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.8442,
+        "label": "positive"
+      },
+      "summary": "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]",
+      "cluster_id": "8b464722e7c6c4ec",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.350235+00:00",
+        "source_published_at": "2026-09-25T21:21:53+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e6f558d534330516",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Tarik Skubal ‘not really satisfied’ yet despite dominating Giants in Dodgers’ playoff tune-up",
+      "angle": "Tarik Skubal saved his best for his last start of the regular season. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Tarik Skubal saved his best for his last start of the regular season"
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/sports/tarik-skubal-fuels-dodgers-playoff-hopes-in-win-over-giants/",
+      "score": 73.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Tarik Skubal"
+        ],
+        "organizations": [
+          "Giants"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8355,
+        "label": "positive"
+      },
+      "summary": "Tarik Skubal saved his best for his last start of the regular season",
+      "cluster_id": "e6f558d534330516",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.428960+00:00",
+        "source_published_at": "2026-09-26T04:25:49+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -4815,6 +5395,48 @@
       }
     },
     {
+      "id": "5eedc180b9b6602c",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "LaGuardia Airport’s TSA X-ray reveals shocking illegal stash concealed beside passenger’s Xbox",
+      "angle": "The incident occurred this month as a passenger was moving through the TSA line when an alarm went off. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The incident occurred this month as a passenger was moving through the TSA line when an alarm went off."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/us-news/laguardia-airports-tsa-x-ray-reveals-illegal-stash-concealed-beside-passengers-xbox/",
+      "score": 73.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "’s Xbox"
+        ],
+        "organizations": [
+          "TSA"
+        ],
+        "locations": [
+          "LaGuardia Airport’s"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8271,
+        "label": "negative"
+      },
+      "summary": "The incident occurred this month as a passenger was moving through the TSA line when an alarm went off.",
+      "cluster_id": "5eedc180b9b6602c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.962991+00:00",
+        "source_published_at": "2026-09-26T07:52:26+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "8714b53eb74a5870",
       "date": "2026-09-24",
       "slot": "am",
@@ -4894,6 +5516,46 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:39.040833+00:00",
         "source_published_at": "2026-09-25T18:48:43+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9b0010a2cd4da608",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Texas university student-athlete Alejandra Franco dies after accident at rodeo event",
+      "angle": "A Texas college student was killed while performing at the rodeo show following an incident involving a horse Thursday night. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "A Texas college student was killed while performing at the rodeo show following an incident involving a horse Thursday night."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/us-news/tarleton-state-university-student-athlete-alejandra-franco-dies-after-accident-at-rodeo-event/",
+      "score": 73.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Alejandra Franco"
+        ],
+        "organizations": [],
+        "locations": [
+          "Texas"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.8225,
+        "label": "negative"
+      },
+      "summary": "A Texas college student was killed while performing at the rodeo show following an incident involving a horse Thursday night.",
+      "cluster_id": "9b0010a2cd4da608",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.326483+00:00",
+        "source_published_at": "2026-09-26T05:35:16+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -5058,6 +5720,44 @@
       "meta": {
         "ingested_at": "2026-09-25T09:25:12.484632+00:00",
         "source_published_at": "2026-09-24T20:50:41+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "8cd4e49c4a315210",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Dear Abby: My friends are pushing to exchange birthday presents even though I can’t afford it",
+      "angle": "Dear Abby advises a woman struggling with affording a birthday gift exchange and a wife dealing with an overly-spontaneous husband. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Dear Abby advises a woman struggling with affording a birthday gift exchange and a wife dealing with an overly-spontaneous husband."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/lifestyle/dear-abby-my-friends-are-pushing-to-exchange-birthday-presents-even-though-i-cant-afford-it/",
+      "score": 73.1,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Abby"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8126,
+        "label": "positive"
+      },
+      "summary": "Dear Abby advises a woman struggling with affording a birthday gift exchange and a wife dealing with an overly-spontaneous husband.",
+      "cluster_id": "8cd4e49c4a315210",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.070025+00:00",
+        "source_published_at": "2026-09-26T07:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -5569,6 +6269,49 @@
       }
     },
     {
+      "id": "0fa6c7d50ae797cb",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Hanuman Ansh’ Indian Sleeper Hit’s International Distribution Strategy Unveiled by ‘K.G.F,’ ‘Kantara’ Outfit Hombale Films (EXCLUSIVE)",
+      "angle": "Indian devotional film &#8220;Hanuman Ansh&#8221; has grossed more than $3.5 million outside its home territory since Hombale Films took it to international audiences, and the company behind the blockbuster…",
+      "bullets": [
+        "Indian devotional film &#8220;Hanuman Ansh&#8221; has grossed more than $3.5 million outside its home territory since Hombale Films took it to international audiences, and the company behind the blockbuster &#8220;K.G.F&#8221; and &#8220;Kantara&#8221; franchises has now detailed how it engineered the run.",
+        "Written and directed by Vishal Chaturvedi and adapted from his book &#8220;Divine Detour: That [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/film/news/hanuman-ansh-indian-sleeper-hit-hombale-films-strategy-1236876199/",
+      "score": 72.9,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Hanuman Ansh’"
+        ],
+        "organizations": [
+          "K.G.F",
+          "Hombale Films",
+          "Vishal Chaturvedi"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7865,
+        "label": "positive"
+      },
+      "summary": "Indian devotional film &#8220;Hanuman Ansh&#8221; has grossed more than $3.5 million outside its home territory since Hombale Films took it to international audiences, and the company behind the blockbuster &#8220;K.G.F&#8221; and &#8220;Kantara&#8221; franchises has now detailed how it engineered the run. Written and directed by Vishal Chaturvedi and adapted from his book &#8220;Divine Detour: That [&#8230;]",
+      "cluster_id": "0fa6c7d50ae797cb",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.278733+00:00",
+        "source_published_at": "2026-09-26T02:09:30+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "1a3316d2b0938251",
       "date": "2026-09-22",
       "slot": "am",
@@ -5686,6 +6429,52 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:38.676557+00:00",
         "source_published_at": "2026-09-24T17:59:33+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "8a34718cffcd1f63",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Roki Sasaki, Tanner Scott look like Dodgers’ playoff bullpen anchors",
+      "angle": "SAN FRANCISCO – The sequence was promising on paper. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "SAN FRANCISCO – The sequence was promising on paper.",
+        "In practice on Friday night, it was spectacular.",
+        "Roki Sasaki in the eighth inning."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/sports/roki-sasaki-tanner-scott-look-like-dodgers-playoff-bullpen-anchors/",
+      "score": 72.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Roki Sasaki",
+          "Dodgers",
+          "Dave Roberts"
+        ],
+        "organizations": [
+          "Giants"
+        ],
+        "locations": [
+          "SAN FRANCISCO"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.3818,
+        "label": "positive"
+      },
+      "summary": "SAN FRANCISCO – The sequence was promising on paper. In practice on Friday night, it was spectacular. Roki Sasaki in the eighth inning.",
+      "cluster_id": "8a34718cffcd1f63",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.226284+00:00",
+        "source_published_at": "2026-09-26T06:25:22+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -6262,6 +7051,50 @@
       }
     },
     {
+      "id": "ef14ce4c8ef9e134",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Atlanta detective accused of swiping 12-pack of beer from Publix — then using undercover car to flee",
+      "angle": "Atlanta Police Detective Ronald Sluss was arrested and relieved of duty in the field after allegedly stealing a $19 pack of beer from a Canton Publix. Ask the phones: would you film it, flee it, or pretend you saw…",
+      "bullets": [
+        "Atlanta Police Detective Ronald Sluss was arrested and relieved of duty in the field after allegedly stealing a $19 pack of beer from a Canton Publix."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/25/us-news/atlanta-detective-accused-of-swiping-12-pack-of-beer-from-publix/",
+      "score": 72.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Ronald Sluss"
+        ],
+        "organizations": [
+          "Publix",
+          "Atlanta Police",
+          "a Canton Publix"
+        ],
+        "locations": [
+          "Atlanta"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7506,
+        "label": "negative"
+      },
+      "summary": "Atlanta Police Detective Ronald Sluss was arrested and relieved of duty in the field after allegedly stealing a $19 pack of beer from a Canton Publix.",
+      "cluster_id": "ef14ce4c8ef9e134",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.630653+00:00",
+        "source_published_at": "2026-09-26T03:54:08+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "23d93dcd049caf66",
       "date": "2026-09-22",
       "slot": "am",
@@ -6461,6 +7294,44 @@
       }
     },
     {
+      "id": "48099d7dfb75b35d",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Coach Signs Off on Statement Bags for Fall With Playful Styles Inspired by Elle Fanning and Others",
+      "angle": "Plus, lots of prints, fringe, beading and beyond. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Plus, lots of prints, fringe, beading and beyond."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/lifestyle/shopping/coach-patchwork-shearling-fringe-statement-purses-tabby-bag-1236709891/",
+      "score": 72.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Signs Off"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7269,
+        "label": "positive"
+      },
+      "summary": "Plus, lots of prints, fringe, beading and beyond.",
+      "cluster_id": "48099d7dfb75b35d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.836375+00:00",
+        "source_published_at": "2026-09-26T03:17:04+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "3587725c0307fdb3",
       "date": "2026-09-22",
       "slot": "am",
@@ -6625,6 +7496,48 @@
       }
     },
     {
+      "id": "844c6b548ca061af",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Ahead of ‘Nobody Wants This’ Season 3, Adam Brody Declares His Support for “A Free Palestine”",
+      "angle": "The actor, who appears on the Netflix series as a rabbi, discussed his political activism in a new interview with GQ. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "The actor, who appears on the Netflix series as a rabbi, discussed his political activism in a new interview with GQ."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/nobody-wants-this-adam-brody-support-a-free-palestine-1236712430/",
+      "score": 72.2,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Adam Brody Declares"
+        ],
+        "organizations": [
+          "GQ"
+        ],
+        "locations": [
+          "Netflix"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7184,
+        "label": "positive"
+      },
+      "summary": "The actor, who appears on the Netflix series as a rabbi, discussed his political activism in a new interview with GQ.",
+      "cluster_id": "844c6b548ca061af",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.785069+00:00",
+        "source_published_at": "2026-09-26T03:33:12+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "0c967279270ffd8a",
       "date": "2026-09-22",
       "slot": "am",
@@ -6734,6 +7647,46 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:39.183740+00:00",
         "source_published_at": "2026-09-25T18:41:20+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "b2145d2411e63572",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Family of paralyzed Marine vet allegedly shot by migrant speaks out as health issue could delay testimony",
+      "angle": "The shooting sparked outrage from the veteran's family, who pointed to the illegal immigrant suspect's extensive prior criminal record in Texas. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "The shooting sparked outrage from the veteran's family, who pointed to the illegal immigrant suspect's extensive prior criminal record in Texas."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/us-news/marine-vet-jimmy-friesenhahn-health-issues-may-delay-testimony-after-texas-shooting/",
+      "score": 72.1,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Marine"
+        ],
+        "locations": [
+          "Texas"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.9118,
+        "label": "negative"
+      },
+      "summary": "The shooting sparked outrage from the veteran's family, who pointed to the illegal immigrant suspect's extensive prior criminal record in Texas.",
+      "cluster_id": "b2145d2411e63572",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.859196+00:00",
+        "source_published_at": "2026-09-26T09:02:39+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -7580,6 +8533,50 @@
       }
     },
     {
+      "id": "d1ccfdfff3af8b54",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Florence Pugh Says She Was Not “Scared” to Show Support for Palestine: “I Don’t Know Why It Took So Long for People to Actually Feel Sympathy”",
+      "angle": "The Oscar-nominated actress appeared on the cover of Vanity Fair, where she said, \"because so many people actively weren’t [talking about Palestine], that made me even more confused — and kind of probably even more in…",
+      "bullets": [
+        "The Oscar-nominated actress appeared on the cover of Vanity Fair, where she said, \"because so many people actively weren’t [talking about Palestine], that made me even more confused — and kind of probably even more in the right to talk about it.”"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/news/general-news/florence-pugh-palestine-support-hollywood-sympathy-1236710258/",
+      "score": 71.7,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Florence Pugh",
+          "Oscar"
+        ],
+        "organizations": [
+          "Vanity Fair"
+        ],
+        "locations": [
+          "n’t",
+          "Palestine"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4715,
+        "label": "positive"
+      },
+      "summary": "The Oscar-nominated actress appeared on the cover of Vanity Fair, where she said, \"because so many people actively weren’t [talking about Palestine], that made me even more confused — and kind of probably even more in the right to talk about it.”",
+      "cluster_id": "d1ccfdfff3af8b54",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.105035+00:00",
+        "source_published_at": "2026-09-25T21:40:30+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "ea91a15146ef0449",
       "date": "2026-09-22",
       "slot": "am",
@@ -8033,6 +9030,44 @@
       }
     },
     {
+      "id": "fd9b3af3e5dbe8dd",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "F1 moves to Saturday for Azerbaijan Grand Prix — How to watch live for free",
+      "angle": "F1 moves to Saturday for Azerbaijan Grand Prix — How to watch live for free. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "It's a rare Saturday morning Grand Prix."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/sports/where-to-watch-f1-azerbaijan-grand-prix-2026-live-for-free/",
+      "score": 71.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "F1"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8519,
+        "label": "positive"
+      },
+      "summary": "It's a rare Saturday morning Grand Prix.",
+      "cluster_id": "fd9b3af3e5dbe8dd",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.117971+00:00",
+        "source_published_at": "2026-09-26T07:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "9caee6ceb1f804a1",
       "date": "2026-09-22",
       "slot": "am",
@@ -8271,6 +9306,44 @@
       }
     },
     {
+      "id": "5e0ecf9de3fc3370",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Islanders’ third-pair decision comes into view as Isaiah George doesn’t help cause in rough night",
+      "angle": "It feels like training camp only just started, and yet the clock is ticking for the Islanders to make roster decisions. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "It feels like training camp only just started, and yet the clock is ticking for the Islanders to make roster decisions."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/sports/islanders-third-pair-decision-comes-into-view/",
+      "score": 71.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Isaiah George"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6369,
+        "label": "positive"
+      },
+      "summary": "It feels like training camp only just started, and yet the clock is ticking for the Islanders to make roster decisions.",
+      "cluster_id": "5e0ecf9de3fc3370",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.479564+00:00",
+        "source_published_at": "2026-09-26T04:13:03+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "5f34cfe4eeaaf186",
       "date": "2026-09-22",
       "slot": "am",
@@ -8380,6 +9453,86 @@
       "meta": {
         "ingested_at": "2026-09-22T18:30:43.225244+00:00",
         "source_published_at": "2026-09-22T18:17:53+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d99bd12e25fc35c5",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Murder or medical mix-up? New questions in the case of killer nurse Colin Norris",
+      "angle": "A BBC podcast reveals a scenario in which the nurse's murders may never have taken place at all. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "A BBC podcast reveals a scenario in which the nurse's murders may never have taken place at all."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckg7q33gnwro?at_medium=RSS&at_campaign=rss",
+      "score": 71.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Colin Norris"
+        ],
+        "organizations": [
+          "BBC"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.9325,
+        "label": "negative"
+      },
+      "summary": "A BBC podcast reveals a scenario in which the nurse's murders may never have taken place at all.",
+      "cluster_id": "d99bd12e25fc35c5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.370328+00:00",
+        "source_published_at": "2026-09-26T08:05:11+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "957d7c5934522163",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Narcos’ Director Andrés Baiz Tackling Police Helicopter Thriller ‘Helo’ for Netflix (Exclusive)",
+      "angle": "Patrick Aison, known for his work on the recent live-action Predator movies, wrote the script. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Patrick Aison, known for his work on the recent live-action Predator movies, wrote the script."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/narcos-director-andres-baiz-helicopter-helo-netflix-1236710205/",
+      "score": 71.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Narcos",
+          "Andrés Baiz",
+          "Patrick Aison"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2263,
+        "label": "positive"
+      },
+      "summary": "Patrick Aison, known for his work on the recent live-action Predator movies, wrote the script.",
+      "cluster_id": "957d7c5934522163",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.155426+00:00",
+        "source_published_at": "2026-09-25T21:33:13+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -8900,6 +10053,49 @@
       }
     },
     {
+      "id": "aa598a3f03577c1f",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘To Catch a Predator’ Host Chris Hansen Watches Robert Pattinson’s ‘Primetime’ — and He’s Not a Fan",
+      "angle": "After weeks of sparring with A24 from the sidelines, Hansen graded Pattinson's performance a \"D\" and called the film a \"fever dream.\". Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "After weeks of sparring with A24 from the sidelines, Hansen graded Pattinson's performance a \"D\" and called the film a \"fever dream.\""
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/chris-hansen-robert-pattinson-primetime-review-1236710231/",
+      "score": 71.1,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Chris Hansen Watches",
+          "Robert Pattinson’s",
+          "Hansen",
+          "Pattinson"
+        ],
+        "organizations": [
+          "A24"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0098,
+        "label": "neutral"
+      },
+      "summary": "After weeks of sparring with A24 from the sidelines, Hansen graded Pattinson's performance a \"D\" and called the film a \"fever dream.\"",
+      "cluster_id": "aa598a3f03577c1f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.891848+00:00",
+        "source_published_at": "2026-09-26T02:41:45+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "09c88fae5b0b4652",
       "date": "2026-09-23",
       "slot": "am",
@@ -9156,6 +10352,52 @@
       }
     },
     {
+      "id": "12b1aae9d7de8790",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Ukraine’s Zelensky says he urged Trump to enlist China’s help in ending Russia’s invasion",
+      "angle": "Zelensky told reporters he has not yet received feedback from the White House about Trump’s talks with Chinese President Xi Jinping. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Zelensky told reporters he has not yet received feedback from the White House about Trump’s talks with Chinese President Xi Jinping."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/world-news/ukraines-zelensky-says-he-urged-trump-to-enlist-chinas-help-in-ending-russias-invasion/",
+      "score": 71.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Zelensky",
+          "Xi Jinping"
+        ],
+        "organizations": [
+          "Trump",
+          "the White House"
+        ],
+        "locations": [
+          "Ukraine",
+          "China",
+          "Russia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4019,
+        "label": "positive"
+      },
+      "summary": "Zelensky told reporters he has not yet received feedback from the White House about Trump’s talks with Chinese President Xi Jinping.",
+      "cluster_id": "12b1aae9d7de8790",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.016857+00:00",
+        "source_published_at": "2026-09-26T07:03:34+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "e1f8532f85bba3be",
       "date": "2026-09-22",
       "slot": "am",
@@ -9399,6 +10641,49 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:01.878866+00:00",
         "source_published_at": "2026-09-24T07:12:09+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "c918c0a677dc02db",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "Calls From the Dead, a Madrid Dystopia and Kids Swap Among Writers’ Show Pitches as Iberseries",
+      "angle": "There's also a historical satire about women vying for power at the Spanish court, the story of a woman who opened the first LGBT bookstore in Spain and a social collision in Galicia are also in focus. Shelf life…",
+      "bullets": [
+        "There's also a historical satire about women vying for power at the Spanish court, the story of a woman who opened the first LGBT bookstore in Spain and a social collision in Galicia are also in focus."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/iberseries-platino-industria-writers-show-pitches-preview-1236696391/",
+      "score": 70.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Dead",
+          "LGBT"
+        ],
+        "locations": [
+          "Madrid",
+          "Spain",
+          "Galicia"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7783,
+        "label": "negative"
+      },
+      "summary": "There's also a historical satire about women vying for power at the Spanish court, the story of a woman who opened the first LGBT bookstore in Spain and a social collision in Galicia are also in focus.",
+      "cluster_id": "c918c0a677dc02db",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.684276+00:00",
+        "source_published_at": "2026-09-26T08:00:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -10269,6 +11554,49 @@
       }
     },
     {
+      "id": "2490ae8f2febc127",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "‘Its not zero’ former Trump aide says on U.S. military threat to Canada",
+      "angle": "&#32; submitted by &#32; /u/Kriptaraz [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Kriptaraz [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wq95cp/its_not_zero_former_trump_aide_says_on_us/",
+      "score": 70.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Kriptaraz"
+        ],
+        "organizations": [
+          "Trump"
+        ],
+        "locations": [
+          "U.S.",
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.5267,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/Kriptaraz [link] &#32; [comments]",
+      "cluster_id": "2490ae8f2febc127",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.246974+00:00",
+        "source_published_at": "2026-09-25T21:57:09+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "60d30241ba09168f",
       "date": "2026-09-22",
       "slot": "am",
@@ -10782,6 +12110,47 @@
       }
     },
     {
+      "id": "980fa9ac479edfbb",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "What ‘60 Minutes’ Was Missing In Its First Two New Episodes, According to Its Ex-Managing Editor",
+      "angle": "Guy Campanile, a famously exacting 34-year veteran of CBS News, offered his view of the new season — and it’s less bleak than you might think. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Guy Campanile, a famously exacting 34-year veteran of CBS News, offered his view of the new season — and it’s less bleak than you might think."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/business/business-news/what-60-minutes-was-missing-in-its-first-two-new-episodes-according-to-its-ex-managing-editor-1236709835/",
+      "score": 70.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Its Ex-Managing",
+          "Guy Campanile"
+        ],
+        "organizations": [
+          "CBS News"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.296,
+        "label": "negative"
+      },
+      "summary": "Guy Campanile, a famously exacting 34-year veteran of CBS News, offered his view of the new season — and it’s less bleak than you might think.",
+      "cluster_id": "980fa9ac479edfbb",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.995550+00:00",
+        "source_published_at": "2026-09-25T23:49:22+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "7b1741981a517556",
       "date": "2026-09-25",
       "slot": "am",
@@ -11197,6 +12566,47 @@
       "meta": {
         "ingested_at": "2026-09-22T18:03:32.544794+00:00",
         "source_published_at": "2026-09-22T17:57:19+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d6d79c2a8ccdb28a",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Dan Aykroyd reveals he and Bill Murray stole police motorcycles during ‘Ghostbusters’ joyride in NYC",
+      "angle": "Dan Aykroyd reveals he and Bill Murray stole police motorcycles during ‘Ghostbusters’ joyride in NYC. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "After all, we were Ghostbusters,” he said."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/26/entertainment/dan-aykroyd-reveals-he-and-bill-murray-stole-police-motorcycles-during-ghostbusters-joyride-in-nyc/",
+      "score": 69.7,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Dan Aykroyd",
+          "Bill Murray"
+        ],
+        "organizations": [],
+        "locations": [
+          "NYC"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2732,
+        "label": "positive"
+      },
+      "summary": "“No consequences. After all, we were Ghostbusters,” he said.",
+      "cluster_id": "d6d79c2a8ccdb28a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.276850+00:00",
+        "source_published_at": "2026-09-26T05:57:36+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -12133,6 +13543,90 @@
       }
     },
     {
+      "id": "1e2db0325e67eb21",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Former RCMP intelligence director convicted of violating secrets law granted day parole",
+      "angle": "Cameron Ortis, sentenced to 14 years for violating Canada’s secrecy laws, was deemed a low risk to reoffend by the Parole Board of Canada. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Cameron Ortis, sentenced to 14 years for violating Canada’s secrecy laws, was deemed a low risk to reoffend by the Parole Board of Canada"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-cameron-ortis-former-rcmp-intelligence-director-granted-day-parole/",
+      "score": 69.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Cameron Ortis"
+        ],
+        "organizations": [
+          "RCMP",
+          "the Parole Board of Canada"
+        ],
+        "locations": [
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.7351,
+        "label": "negative"
+      },
+      "summary": "Cameron Ortis, sentenced to 14 years for violating Canada’s secrecy laws, was deemed a low risk to reoffend by the Parole Board of Canada",
+      "cluster_id": "1e2db0325e67eb21",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:46.926122+00:00",
+        "source_published_at": "2026-09-26T00:19:16+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "7e050366a8d0c1dc",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘Control Resonant’ Team on ‘Reverse Symmetry’ of Switching From Jesse to Dylan as Sequel Game’s New Protagonist",
+      "angle": "Following a nearly seven-year development journey, Remedy Entertainment has unleashed the sequel to its 2019 hit video game “Control.” Released Thursday for Steam, the Epic Games Store, PlayStation 5 and Xbox Series X…",
+      "bullets": [
+        "Following a nearly seven-year development journey, Remedy Entertainment has unleashed the sequel to its 2019 hit video game “Control.” Released Thursday for Steam, the Epic Games Store, PlayStation 5 and Xbox Series X and S, “Control Resonant” picks up after Jesse Faden, the protagonist of the original “Control” game, goes missing upon the conclusion of [&#8230;]"
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Variety",
+      "source_type": "news",
+      "url": "https://variety.com/2026/gaming/news/control-resonant-dylan-jesse-zoe-story-1236875720/",
+      "score": 69.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Jesse Faden"
+        ],
+        "organizations": [
+          "Dylan as Sequel Game’s New Protagonist",
+          "Remedy Entertainment"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4404,
+        "label": "positive"
+      },
+      "summary": "Following a nearly seven-year development journey, Remedy Entertainment has unleashed the sequel to its 2019 hit video game “Control.” Released Thursday for Steam, the Epic Games Store, PlayStation 5 and Xbox Series X and S, “Control Resonant” picks up after Jesse Faden, the protagonist of the original “Control” game, goes missing upon the conclusion of [&#8230;]",
+      "cluster_id": "7e050366a8d0c1dc",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.708876+00:00",
+        "source_published_at": "2026-09-25T23:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "fa9d8cdba307ff68",
       "date": "2026-09-22",
       "slot": "am",
@@ -12211,6 +13705,45 @@
       "meta": {
         "ingested_at": "2026-09-24T09:01:02.449464+00:00",
         "source_published_at": "2026-09-23T23:08:06+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a9f7533e79ef9028",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Inside the FBI hack: Agents fearful and angry after 'dangerous' data breach",
+      "angle": "Current and former agents speak to the BBC about the devastating impact of the FBI hack. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Current and former agents speak to the BBC about the devastating impact of the FBI hack."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm4gjjlgzdjgo?at_medium=RSS&at_campaign=rss",
+      "score": 69.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "FBI",
+          "BBC"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.9313,
+        "label": "negative"
+      },
+      "summary": "Current and former agents speak to the BBC about the devastating impact of the FBI hack.",
+      "cluster_id": "a9f7533e79ef9028",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.619830+00:00",
+        "source_published_at": "2026-09-25T23:05:40+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -12743,6 +14276,46 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:39.215979+00:00",
         "source_published_at": "2026-09-25T18:41:19+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "0d6f208ab675ac0b",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "ENTERTAINMENT",
+      "title": "‘The Tonight Show’ Is Bringing Back Its Billionaire Microdrama Satire for a Second Season",
+      "angle": "‘The Tonight Show’ Is Bringing Back Its Billionaire Microdrama Satire for a Second Season. Shelf life through drive time — who is overrated and who actually delivered?",
+      "bullets": [
+        "Me Billionaire' will premiere during the upcoming Sunday episode of Jimmy Fallon’s late-night show."
+      ],
+      "debate": "Overrated or underrated — where do you land?",
+      "source": "Hollywood Reporter",
+      "source_type": "news",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/the-tonight-show-microdrama-second-season-1236710367/",
+      "score": 69.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Microdrama Satire",
+          "Billionaire",
+          "Jimmy Fallon’s"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "‘Who Billionaire? Me Billionaire' will premiere during the upcoming Sunday episode of Jimmy Fallon’s late-night show.",
+      "cluster_id": "0d6f208ab675ac0b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.045164+00:00",
+        "source_published_at": "2026-09-25T23:36:26+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -13358,6 +14931,46 @@
       }
     },
     {
+      "id": "d5e86a6de3d3f663",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Marineland belugas that died in Chicago had rocks, maybe paint in stomachs before arrival: initial necropsy | CBC News",
+      "angle": "&#32; submitted by &#32; /u/Hour_Significance817 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Hour_Significance817 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wqcefg/marineland_belugas_that_died_in_chicago_had_rocks/",
+      "score": 68.6,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "CBC News"
+        ],
+        "locations": [
+          "Chicago"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.5574,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/Hour_Significance817 [link] &#32; [comments]",
+      "cluster_id": "d5e86a6de3d3f663",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.045891+00:00",
+        "source_published_at": "2026-09-26T00:22:57+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "df04050e577c844b",
       "date": "2026-09-22",
       "slot": "am",
@@ -13558,6 +15171,47 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:37.563602+00:00",
         "source_published_at": "2026-09-25T14:58:10+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "d82f226ffaf59d7e",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Joshua fight at risk over promoter row, says Fury",
+      "angle": "Tyson Fury says his long-awaited all-British heavyweight fight against Anthony Joshua in December is in jeopardy. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Tyson Fury says his long-awaited all-British heavyweight fight against Anthony Joshua in December is in jeopardy."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/sport/boxing/articles/cq3d77ppnzdro?at_medium=RSS&at_campaign=rss",
+      "score": 68.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Joshua",
+          "Anthony Joshua"
+        ],
+        "organizations": [
+          "Tyson Fury"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.9501,
+        "label": "negative"
+      },
+      "summary": "Tyson Fury says his long-awaited all-British heavyweight fight against Anthony Joshua in December is in jeopardy.",
+      "cluster_id": "d82f226ffaf59d7e",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.072747+00:00",
+        "source_published_at": "2026-09-26T08:39:44+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -14409,6 +16063,44 @@
       }
     },
     {
+      "id": "a50d516fc5cb9976",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Thousands without power, roads flood in New Jersey as first major signs of nor’easter take shape",
+      "angle": "Tens of millions of people are in the path of the storm already beginning to lash the region with strong winds and rain. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+      "bullets": [
+        "Tens of millions of people are in the path of the storm already beginning to lash the region with strong winds and rain."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/us-news/thousands-without-power-roads-flood-in-new-jersey-ahead-of-noreaster-set-to-thrash-east-coast/",
+      "score": 68.1,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "New Jersey"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5106,
+        "label": "positive"
+      },
+      "summary": "Tens of millions of people are in the path of the storm already beginning to lash the region with strong winds and rain.",
+      "cluster_id": "a50d516fc5cb9976",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.381459+00:00",
+        "source_published_at": "2026-09-26T05:13:48+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "477bd5a175d80bf7",
       "date": "2026-09-22",
       "slot": "am",
@@ -14797,6 +16489,44 @@
       "meta": {
         "ingested_at": "2026-09-23T18:13:03.001069+00:00",
         "source_published_at": "2026-09-23T10:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1be992055a0c040f",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Élections Québec has told employees not to speak English. Does that violate Anglos' rights? | CBC News",
+      "angle": "&#32; submitted by &#32; /u/HelFJandinn [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/HelFJandinn [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wq6o86/élections_québec_has_told_employees_not_to_speak/",
+      "score": 67.9,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "CBC News"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.4939,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/HelFJandinn [link] &#32; [comments]",
+      "cluster_id": "1be992055a0c040f",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.402415+00:00",
+        "source_published_at": "2026-09-25T20:15:23+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -15750,6 +17480,45 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:37.191865+00:00",
         "source_published_at": "2026-09-25T18:09:42+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "7ffbae09fccbfc28",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Quebec premier warns of U.S. attempts to sow division ahead of election",
+      "angle": "Quebec premier warns of U.S. attempts to sow division ahead of election. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "think tank detailed a plan to support Quebec independence, including by helping the sovereigntist PQ party to power"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-quebec-premier-warns-of-us-attempts-to-sow-division-ahead-of-election/",
+      "score": 67.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Quebec",
+          "U.S."
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.7351,
+        "label": "positive"
+      },
+      "summary": "Document from U.S. think tank detailed a plan to support Quebec independence, including by helping the sovereigntist PQ party to power",
+      "cluster_id": "7ffbae09fccbfc28",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:46.673210+00:00",
+        "source_published_at": "2026-09-26T00:43:11+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -18306,6 +20075,44 @@
       }
     },
     {
+      "id": "035c62cfea80c7e9",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "As Merz scrambles for support, Germany's identity crisis is laid bare",
+      "angle": "Voters are turning away from the centre in Germany as fears grow about the economy and migration. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Voters are turning away from the centre in Germany as fears grow about the economy and migration."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cmx2zlqeje9zo?at_medium=RSS&at_campaign=rss",
+      "score": 66.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Germany"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.6369,
+        "label": "negative"
+      },
+      "summary": "Voters are turning away from the centre in Germany as fears grow about the economy and migration.",
+      "cluster_id": "035c62cfea80c7e9",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.571011+00:00",
+        "source_published_at": "2026-09-25T23:08:02+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "c4ed7216d637b5cb",
       "date": "2026-09-22",
       "slot": "am",
@@ -18430,6 +20237,46 @@
       "meta": {
         "ingested_at": "2026-09-23T09:05:31.063754+00:00",
         "source_published_at": "2026-09-23T09:01:55+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "60c17e75dcf45c1a",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "THE LIST",
+      "title": "Charlie Kirk assassination report highlights several security failures at Utah Valley University",
+      "angle": "The original day-of security posture planned for only three university law enforcement officers securing the event, which was attended by several thousand people. Ask the phones: would you film it, flee it, or pretend…",
+      "bullets": [
+        "The original day-of security posture planned for only three university law enforcement officers securing the event, which was attended by several thousand people."
+      ],
+      "debate": "Would you do this / try this? Why or why not?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/us-news/charlie-kirk-assassination-report-highlights-several-security-failures-at-utah-valley-university/",
+      "score": 66.3,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Charlie Kirk"
+        ],
+        "organizations": [
+          "Utah Valley University"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.128,
+        "label": "positive"
+      },
+      "summary": "The original day-of security posture planned for only three university law enforcement officers securing the event, which was attended by several thousand people.",
+      "cluster_id": "60c17e75dcf45c1a",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.529867+00:00",
+        "source_published_at": "2026-09-26T04:08:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -19542,6 +21389,44 @@
       }
     },
     {
+      "id": "5f8ca2841f5d6b91",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "E-motorbikes seized by police sold on at auction, BBC finds",
+      "angle": "Thousands of electric motorbikes are confiscated annually because they are suspected of being driven illegally or used in a crime - most are destroyed, but last year police sold at least 161. Make it local in one…",
+      "bullets": [
+        "Thousands of electric motorbikes are confiscated annually because they are suspected of being driven illegally or used in a crime - most are destroyed, but last year police sold at least 161."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm86xn6775z3o?at_medium=RSS&at_campaign=rss",
+      "score": 66.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "BBC"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.6045,
+        "label": "negative"
+      },
+      "summary": "Thousands of electric motorbikes are confiscated annually because they are suspected of being driven illegally or used in a crime - most are destroyed, but last year police sold at least 161.",
+      "cluster_id": "5f8ca2841f5d6b91",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.023890+00:00",
+        "source_published_at": "2026-09-25T23:02:42+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "74f5d1c0406773e9",
       "date": "2026-09-22",
       "slot": "am",
@@ -19864,6 +21749,44 @@
       }
     },
     {
+      "id": "4014c3a6b3c76ef1",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Can &#8216;eSUV&#8217; e-bikes really go from trail to town?",
+      "angle": "Have you ever wanted an electric bike that easily transitions from the drudgery of urban asphalt to adventures in gravel and dirt? Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Have you ever wanted an electric bike that easily transitions from the drudgery of urban asphalt to adventures in gravel and dirt?",
+        "That's what a subclass of so-called \"electric SUV\" (eSUV) e-bikes claims to do, with their wide, all-terrain tires and front and rear suspension, plus practical accessories like fenders and racks.",
+        "So, that's what [&#8230;]"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "The Verge",
+      "source_type": "news",
+      "url": "https://www.theverge.com/transportation/999785/amflow-tl-review-avinox-esuv-e-bike-avinox",
+      "score": 65.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.5803,
+        "label": "positive"
+      },
+      "summary": "Have you ever wanted an electric bike that easily transitions from the drudgery of urban asphalt to adventures in gravel and dirt? That's what a subclass of so-called \"electric SUV\" (eSUV) e-bikes claims to do, with their wide, all-terrain tires and front and rear suspension, plus practical accessories like fenders and racks. So, that's what [&#8230;]",
+      "cluster_id": "4014c3a6b3c76ef1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.734739+00:00",
+        "source_published_at": "2026-09-26T07:00:00+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "8f0803284f037fc5",
       "date": "2026-09-22",
       "slot": "am",
@@ -20061,6 +21984,44 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:38.096339+00:00",
         "source_published_at": "2026-09-24T14:51:25+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a57458a7b8baa435",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "More than $724K raised for hero Belleville cop who prevented a Jewish massacre",
+      "angle": "&#32; submitted by &#32; /u/sleipnir45 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/sleipnir45 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wqbdgm/more_than_724k_raised_for_hero_belleville_cop_who/",
+      "score": 65.7,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Belleville"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5719,
+        "label": "positive"
+      },
+      "summary": "&#32; submitted by &#32; /u/sleipnir45 [link] &#32; [comments]",
+      "cluster_id": "a57458a7b8baa435",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.096713+00:00",
+        "source_published_at": "2026-09-25T23:35:38+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -20839,6 +22800,46 @@
       "meta": {
         "ingested_at": "2026-09-25T09:25:10.755979+00:00",
         "source_published_at": "2026-09-25T01:42:18+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "7ad454c4b647e428",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "'Zero chance' U.S. attacks Canada, Alaska governor tells conference",
+      "angle": "&#32; submitted by &#32; /u/Sunnydaysomeday [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Sunnydaysomeday [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wq8i7l/zero_chance_us_attacks_canada_alaska_governor/",
+      "score": 65.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "U.S.",
+          "Canada",
+          "Alaska"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.2263,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/Sunnydaysomeday [link] &#32; [comments]",
+      "cluster_id": "7ad454c4b647e428",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.198487+00:00",
+        "source_published_at": "2026-09-25T21:29:32+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -21889,6 +23890,46 @@
       }
     },
     {
+      "id": "73474fdf4423d698",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Your uncle’s frozen Mac says it’s infected after viewing a Google ad. Now what?",
+      "angle": "Ads appearing all over the Internet are trying to scam people. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Ads appearing all over the Internet are trying to scam people."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/security/2026/09/google-ads-caught-delivering-convincing-scareware-ads-to-unsuspecting-users/",
+      "score": 64.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Mac"
+        ],
+        "organizations": [
+          "Google"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7845,
+        "label": "negative"
+      },
+      "summary": "Ads appearing all over the Internet are trying to scam people.",
+      "cluster_id": "73474fdf4423d698",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.475817+00:00",
+        "source_published_at": "2026-09-25T19:38:59+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "f1818836f386fbe7",
       "date": "2026-09-22",
       "slot": "am",
@@ -21961,6 +24002,47 @@
       "meta": {
         "ingested_at": "2026-09-24T18:51:53.230023+00:00",
         "source_published_at": "2026-09-24T18:27:44+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "35493723d5486260",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Court rules Trump can blacklist Anthropic for refusing to enable Claude features",
+      "angle": "\"Overly constrained AI models\" could cause military operations to fail, judges say. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "\"Overly constrained AI models\" could cause military operations to fail, judges say."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
+      "score": 64.7,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Claude"
+        ],
+        "organizations": [
+          "Trump",
+          "AI"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.765,
+        "label": "negative"
+      },
+      "summary": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
+      "cluster_id": "35493723d5486260",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.377982+00:00",
+        "source_published_at": "2026-09-25T21:36:20+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -22369,6 +24451,44 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:39.764991+00:00",
         "source_published_at": "2026-09-24T15:57:55+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "98417c8c4223bc6d",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "The treasured 'eternal snow' on this tropical island is about to disappear forever",
+      "angle": "Climate change is transforming Papua's snowy peaks, which hold scientific value and spiritual significance. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Climate change is transforming Papua's snowy peaks, which hold scientific value and spiritual significance."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm5ydvww0erdo?at_medium=RSS&at_campaign=rss",
+      "score": 64.4,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Papua"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.7351,
+        "label": "positive"
+      },
+      "summary": "Climate change is transforming Papua's snowy peaks, which hold scientific value and spiritual significance.",
+      "cluster_id": "98417c8c4223bc6d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.318834+00:00",
+        "source_published_at": "2026-09-25T22:12:48+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -23867,6 +25987,88 @@
       }
     },
     {
+      "id": "ebddd5d80ba943f6",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Elections Alberta pushes back against misleading online claims ahead of referendum",
+      "angle": "Elections Alberta pushes back against misleading online claims ahead of referendum. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Officials are countering false claims about the Oct.",
+        "19 vote as hundreds of thousands of Albertans request mail-in ballots"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/alberta/article-separation-referendum-elections-alberta-counters-misleading-online/",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Alberta"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.4019,
+        "label": "negative"
+      },
+      "summary": "Officials are countering false claims about the Oct. 19 vote as hundreds of thousands of Albertans request mail-in ballots",
+      "cluster_id": "ebddd5d80ba943f6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:46.725162+00:00",
+        "source_published_at": "2026-09-26T01:07:12+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f0382c889db02887",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "The computer hacker who tried to take down Man City",
+      "angle": "BBC Sport travelled to Portugal to find out more about Rui Pinto - the computer hacker who sparked the Manchester City investigation. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "BBC Sport travelled to Portugal to find out more about Rui Pinto - the computer hacker who sparked the Manchester City investigation."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cwywld5v28jo?at_medium=RSS&at_campaign=rss",
+      "score": 64.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "BBC Sport",
+          "Rui Pinto"
+        ],
+        "organizations": [],
+        "locations": [
+          "Man City",
+          "Portugal",
+          "Manchester City"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "BBC Sport travelled to Portugal to find out more about Rui Pinto - the computer hacker who sparked the Manchester City investigation.",
+      "cluster_id": "f0382c889db02887",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.870370+00:00",
+        "source_published_at": "2026-09-26T05:56:40+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "2739f3f1d3060de6",
       "date": "2026-09-24",
       "slot": "am",
@@ -24639,6 +26841,47 @@
       }
     },
     {
+      "id": "77d146d4070141ea",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Burnham not doing enough to boost growth, says former business secretary",
+      "angle": "Ex-Business Secretary Peter Kyle calls for more urgency on the economy, as Labour members head to the party's annual conference. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Ex-Business Secretary Peter Kyle calls for more urgency on the economy, as Labour members head to the party's annual conference."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c9zrzzmez7j5o?at_medium=RSS&at_campaign=rss",
+      "score": 63.5,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Peter Kyle"
+        ],
+        "organizations": [
+          "Ex-Business",
+          "Labour"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6486,
+        "label": "positive"
+      },
+      "summary": "Ex-Business Secretary Peter Kyle calls for more urgency on the economy, as Labour members head to the party's annual conference.",
+      "cluster_id": "77d146d4070141ea",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.971217+00:00",
+        "source_published_at": "2026-09-26T07:59:43+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "f34fc6e4e2c59bcb",
       "date": "2026-09-22",
       "slot": "am",
@@ -25033,6 +27276,44 @@
       }
     },
     {
+      "id": "390703f0fbbc4726",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Review: The iPhone 18 Pro is Apple's coolest smartphone (but only literally)",
+      "angle": "Better thermals and battery life make this iterative update nicer to use. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Better thermals and battery life make this iterative update nicer to use."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/apple/2026/09/review-the-iphone-18-pro-is-apples-coolest-smartphone-but-only-literally/",
+      "score": 63.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Apple"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.8271,
+        "label": "positive"
+      },
+      "summary": "Better thermals and battery life make this iterative update nicer to use.",
+      "cluster_id": "390703f0fbbc4726",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.526225+00:00",
+        "source_published_at": "2026-09-25T19:34:42+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "ad6aa11a675fbc93",
       "date": "2026-09-23",
       "slot": "am",
@@ -25144,6 +27425,42 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:40.378431+00:00",
         "source_published_at": "2026-09-25T15:36:22+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "f8e714576a59f1c1",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "After seven years, a spacecraft company is releasing its Otters into the wild",
+      "angle": "\"There is always a tension that comes with seeing the first of anything fly.\". Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "\"There is always a tension that comes with seeing the first of anything fly.\""
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/space/2026/09/after-seven-years-a-spacecraft-company-is-releasing-its-otters-into-the-wild/",
+      "score": 63.2,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.3182,
+        "label": "negative"
+      },
+      "summary": "\"There is always a tension that comes with seeing the first of anything fly.\"",
+      "cluster_id": "f8e714576a59f1c1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.769409+00:00",
+        "source_published_at": "2026-09-25T15:35:23+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -27042,6 +29359,86 @@
       }
     },
     {
+      "id": "39791194236eda4b",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Whistleblower alleges millions of Driscoll’s berries sent to Canada with excess chemical levels",
+      "angle": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wql2d8/whistleblower_alleges_millions_of_driscolls/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Driscoll"
+        ],
+        "locations": [
+          "Canada"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]",
+      "cluster_id": "39791194236eda4b",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.148972+00:00",
+        "source_published_at": "2026-09-26T08:15:54+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "b466499e81b36136",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Canpotex announces $500M Port of Vancouver investment for potash shipping",
+      "angle": "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wqkv08/canpotex_announces_500m_port_of_vancouver/",
+      "score": 63.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Canpotex"
+        ],
+        "locations": [
+          "Vancouver"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]",
+      "cluster_id": "b466499e81b36136",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.653132+00:00",
+        "source_published_at": "2026-09-26T08:03:01+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "5dea52253aa150d7",
       "date": "2026-09-22",
       "slot": "am",
@@ -27358,6 +29755,49 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:39.710081+00:00",
         "source_published_at": "2026-09-25T18:23:17+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "7c72c12a26e7c823",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "South African white genocide does not exist, new ambassador to US tells BBC",
+      "angle": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cm2l8qv7zppko?at_medium=RSS&at_campaign=rss",
+      "score": 62.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Roelf Meyer"
+        ],
+        "organizations": [
+          "BBC",
+          "Trump"
+        ],
+        "locations": [
+          "US"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0772,
+        "label": "positive"
+      },
+      "summary": "Roelf Meyer tells the BBC that being a white Afrikaner gives him legitimacy to challenge Trump's claim of a genocide.",
+      "cluster_id": "7c72c12a26e7c823",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.470933+00:00",
+        "source_published_at": "2026-09-25T23:20:48+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -27921,6 +30361,45 @@
       }
     },
     {
+      "id": "d97929a7c55da8b6",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Liberal MP says he was demoted for supporting NDP bill targeting arms export controls",
+      "angle": "&#32; submitted by &#32; /u/Chrristoaivalis [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/Chrristoaivalis [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wq96gw/liberal_mp_says_he_was_demoted_for_supporting_ndp/",
+      "score": 62.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "NDP",
+          "Chrristoaivalis"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.4404,
+        "label": "positive"
+      },
+      "summary": "&#32; submitted by &#32; /u/Chrristoaivalis [link] &#32; [comments]",
+      "cluster_id": "d97929a7c55da8b6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.452560+00:00",
+        "source_published_at": "2026-09-25T21:58:33+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "bc61b5e25edb3079",
       "date": "2026-09-22",
       "slot": "am",
@@ -28102,6 +30581,47 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:40.240952+00:00",
         "source_published_at": "2026-09-25T12:51:48+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "70528e6446b8252c",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Inside iconic horror game Silent Hill's Scottish makeover",
+      "angle": "One of gaming's biggest horror franchises has come to the UK. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "One of gaming's biggest horror franchises has come to the UK.",
+        "Can it live up to the original?"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/ckvgyzjpy2eno?at_medium=RSS&at_campaign=rss",
+      "score": 62.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Silent Hill's"
+        ],
+        "locations": [
+          "UK"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.7269,
+        "label": "negative"
+      },
+      "summary": "One of gaming's biggest horror franchises has come to the UK. Can it live up to the original?",
+      "cluster_id": "70528e6446b8252c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.671774+00:00",
+        "source_published_at": "2026-09-25T23:34:20+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -28690,6 +31210,90 @@
       }
     },
     {
+      "id": "35f3517657cb14ee",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "‘Squad’ Democrat slammed by Trump admin for most ‘radical’ plan targeting ICE yet",
+      "angle": "\"Radical leftists are calling to defund the police and abolish DHS. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "\"Radical leftists are calling to defund the police and abolish DHS.",
+        "It’s NEVER going to happen,\" Markwayne Mullin said."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://nypost.com/2026/09/26/us-news/illinois-rep-delia-ramirez-slammed-by-trump-admin-for-most-radical-plan-targeting-ice-yet/",
+      "score": 62.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Markwayne Mullin"
+        ],
+        "organizations": [
+          "Trump"
+        ],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "\"Radical leftists are calling to defund the police and abolish DHS. It’s NEVER going to happen,\" Markwayne Mullin said.",
+      "cluster_id": "35f3517657cb14ee",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:49.168751+00:00",
+        "source_published_at": "2026-09-26T06:35:47+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "411f3ca948ca4064",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Iran offers US deal to reopen Strait of Hormuz in seven days",
+      "angle": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cqgmrr9ekr7ko?at_medium=RSS&at_campaign=rss",
+      "score": 62.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Hormuz"
+        ],
+        "organizations": [
+          "BBC"
+        ],
+        "locations": [
+          "Iran",
+          "US"
+        ],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Asked about the Iranian proposal, a US official told the BBC \"constructive discussions\" were taking place through mediators.",
+      "cluster_id": "411f3ca948ca4064",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.920849+00:00",
+        "source_published_at": "2026-09-26T05:03:09+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "d64a8aecd0e0708d",
       "date": "2026-09-22",
       "slot": "am",
@@ -29126,6 +31730,44 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:40.274354+00:00",
         "source_published_at": "2026-09-25T18:02:55+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "814587787a8fbd1d",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Competition Bureau to study grocery pricing policies",
+      "angle": "Investigation will build on findings of 2023 retail grocery market study, which found greater competition could help lower prices and spur innovation. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Investigation will build on findings of 2023 retail grocery market study, which found greater competition could help lower prices and spur innovation"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-competition-bureau-to-study-grocery-pricing-policies/",
+      "score": 61.8,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Competition Bureau"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.6808,
+        "label": "positive"
+      },
+      "summary": "Investigation will build on findings of 2023 retail grocery market study, which found greater competition could help lower prices and spur innovation",
+      "cluster_id": "814587787a8fbd1d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:47.080154+00:00",
+        "source_published_at": "2026-09-25T20:29:09+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -30249,6 +32891,44 @@
       }
     },
     {
+      "id": "fb1ca72991c4b600",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+      "angle": "\"There is no evidence of any significant, widespread displacement or reduction in hiring.”. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "\"There is no evidence of any significant, widespread displacement or reduction in hiring.”"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
+      "score": 61.1,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "AI"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.6096,
+        "label": "negative"
+      },
+      "summary": "\"There is no evidence of any significant, widespread displacement or reduction in hiring.”",
+      "cluster_id": "fb1ca72991c4b600",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.574948+00:00",
+        "source_published_at": "2026-09-25T19:11:05+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "3e88d293777c28ce",
       "date": "2026-09-22",
       "slot": "am",
@@ -30557,6 +33237,86 @@
       }
     },
     {
+      "id": "1ee91b86e9054148",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Sharon Stone urges Sydney Sweeney to ‘take responsibility’ for betting ad controversy",
+      "angle": "Sweeney made headlines this month when appearing nearly nude as part of a promotional campaign for the sports betting platform Novig. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Sweeney made headlines this month when appearing nearly nude as part of a promotional campaign for the sports betting platform Novig."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "NY Post",
+      "source_type": "news",
+      "url": "https://pagesix.com/2026/09/26/celebrity-news/sharon-stone-urges-sydney-sweeney-to-take-responsibility-for-betting-ad-controversy/",
+      "score": 61.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Sharon Stone",
+          "Sydney Sweeney",
+          "Novig"
+        ],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "Sweeney made headlines this month when appearing nearly nude as part of a promotional campaign for the sports betting platform Novig.",
+      "cluster_id": "1ee91b86e9054148",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.911566+00:00",
+        "source_published_at": "2026-09-26T08:25:05+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "5465dcbbdfb52ed3",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Can Trump ever be wrong? His pick to lead FDA refused to say.",
+      "angle": "Heidi Overton faced questions focused on vaccines, birth control, and vapes. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Heidi Overton faced questions focused on vaccines, birth control, and vapes."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/health/2026/09/can-trump-ever-be-wrong-his-pick-to-lead-fda-refused-to-say/",
+      "score": 61.0,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Heidi Overton"
+        ],
+        "organizations": [
+          "FDA"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.4019,
+        "label": "negative"
+      },
+      "summary": "Heidi Overton faced questions focused on vaccines, birth control, and vapes.",
+      "cluster_id": "5465dcbbdfb52ed3",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.327749+00:00",
+        "source_published_at": "2026-09-25T23:00:26+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "9f3ced3b5c33cd6b",
       "date": "2026-09-24",
       "slot": "am",
@@ -30753,6 +33513,50 @@
       }
     },
     {
+      "id": "afac15e5727d9db5",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Trump administration takes Musk’s side in fight over EU tech rules",
+      "angle": "Washington says Brussels overreached when it fined X €120 million under the DSA. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Washington says Brussels overreached when it fined X €120 million under the DSA."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/tech-policy/2026/09/trump-administration-takes-musks-side-in-fight-over-eu-tech-rules/",
+      "score": 60.8,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Musk"
+        ],
+        "organizations": [
+          "EU",
+          "DSA"
+        ],
+        "locations": [
+          "Washington",
+          "Brussels"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.3818,
+        "label": "negative"
+      },
+      "summary": "Washington says Brussels overreached when it fined X €120 million under the DSA.",
+      "cluster_id": "afac15e5727d9db5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.919530+00:00",
+        "source_published_at": "2026-09-25T13:45:49+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "8180b074a8d63144",
       "date": "2026-09-22",
       "slot": "am",
@@ -30895,6 +33699,87 @@
       "meta": {
         "ingested_at": "2026-09-24T18:19:40.594313+00:00",
         "source_published_at": "2026-09-24T16:29:31+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "a0e2385e7faebb13",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "B.C. attorney general shocked by news report that ChatGPT told Tumbler Ridge shooter how to avoid safeguards",
+      "angle": "&#32; submitted by &#32; /u/givalina [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "&#32; submitted by &#32; /u/givalina [link] &#32; [comments]"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Reddit r/canada",
+      "source_type": "social",
+      "url": "https://www.reddit.com/r/canada/comments/1wqa0fz/bc_attorney_general_shocked_by_news_report_that/",
+      "score": 60.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Tumbler Ridge"
+        ],
+        "locations": [
+          "B.C."
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2732,
+        "label": "negative"
+      },
+      "summary": "&#32; submitted by &#32; /u/givalina [link] &#32; [comments]",
+      "cluster_id": "a0e2385e7faebb13",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:48.757371+00:00",
+        "source_published_at": "2026-09-25T22:34:33+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "41bbfbf53b4a65d8",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "UK ticket holder wins 'life-changing' £111m EuroMillions jackpot",
+      "angle": "It is the third time a UK-based player has scooped the EuroMillions jackpot this year, National Lottery operator Allwyn said. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "It is the third time a UK-based player has scooped the EuroMillions jackpot this year, National Lottery operator Allwyn said."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c5j9xx1pv2p2o?at_medium=RSS&at_campaign=rss",
+      "score": 60.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "National Lottery",
+          "Allwyn"
+        ],
+        "locations": [
+          "UK"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5719,
+        "label": "positive"
+      },
+      "summary": "It is the third time a UK-based player has scooped the EuroMillions jackpot this year, National Lottery operator Allwyn said.",
+      "cluster_id": "41bbfbf53b4a65d8",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.520541+00:00",
+        "source_published_at": "2026-09-26T07:57:50+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -31514,6 +34399,44 @@
       }
     },
     {
+      "id": "c1f84d082e5760d7",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Is solar's growth finally slowing in the US?",
+      "angle": "Renewables easily cover changes in US demand, which is rising by 2% in 2026. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Renewables easily cover changes in US demand, which is rising by 2% in 2026."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/science/2026/09/is-solars-growth-finally-slowing-in-the-us/",
+      "score": 60.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "US"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5423,
+        "label": "positive"
+      },
+      "summary": "Renewables easily cover changes in US demand, which is rising by 2% in 2026.",
+      "cluster_id": "c1f84d082e5760d7",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.672014+00:00",
+        "source_published_at": "2026-09-25T18:27:18+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "cf183823cff57496",
       "date": "2026-09-22",
       "slot": "am",
@@ -31749,6 +34672,43 @@
       "meta": {
         "ingested_at": "2026-09-23T09:05:32.045963+00:00",
         "source_published_at": "2026-09-23T04:19:41+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "30c9daac73a4d779",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "How the bare nails trend became a class issue",
+      "angle": "Bare nails - or nails that appear that way - are a growing trend. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Bare nails - or nails that appear that way - are a growing trend.",
+        "But is it as innocent as it seems?"
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cpd7zw43wexo?at_medium=RSS&at_campaign=rss",
+      "score": 60.3,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.5346,
+        "label": "positive"
+      },
+      "summary": "Bare nails - or nails that appear that way - are a growing trend. But is it as innocent as it seems?",
+      "cluster_id": "30c9daac73a4d779",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.220234+00:00",
+        "source_published_at": "2026-09-25T23:31:20+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -32733,6 +35693,44 @@
       }
     },
     {
+      "id": "ffd7235f99f1caf1",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Bangkok declares disaster as heavy rains spark flooding",
+      "angle": "Days of near continuous downpours have caused widespread flooding in the Thai capital. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Days of near continuous downpours have caused widespread flooding in the Thai capital."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/videos/ck9800jdj1q0o?at_medium=RSS&at_campaign=rss",
+      "score": 59.9,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Bangkok"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.4939,
+        "label": "negative"
+      },
+      "summary": "Days of near continuous downpours have caused widespread flooding in the Thai capital.",
+      "cluster_id": "ffd7235f99f1caf1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.121015+00:00",
+        "source_published_at": "2026-09-26T06:28:58+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "d22597e903cf59a1",
       "date": "2026-09-22",
       "slot": "am",
@@ -33088,6 +36086,44 @@
       }
     },
     {
+      "id": "2a5ad4fe27ed6902",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+      "angle": "Vendors rolling out AI have an \"incentive to deny as many claims as possible.\". Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Vendors rolling out AI have an \"incentive to deny as many claims as possible.\""
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment/",
+      "score": 59.6,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "AI"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.4588,
+        "label": "negative"
+      },
+      "summary": "Vendors rolling out AI have an \"incentive to deny as many claims as possible.\"",
+      "cluster_id": "2a5ad4fe27ed6902",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.971070+00:00",
+        "source_published_at": "2026-09-25T11:00:28+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "c759417377af3b6c",
       "date": "2026-09-23",
       "slot": "am",
@@ -33240,6 +36276,45 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:40.785153+00:00",
         "source_published_at": "2026-09-25T17:01:36+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "3a2f81fa451d51c9",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Belleville’s tiny Jewish community vows to carry on after attack",
+      "angle": "Belleville’s tiny Jewish community vows to carry on after attack. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "‘There has been some trauma from this.",
+        "But we’re going to pick up the pieces,’ synagogue’s volunteer president says"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-belleville-synagogue-shooting-jewish-community-carry-on/",
+      "score": 59.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Belleville"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.4497,
+        "label": "negative"
+      },
+      "summary": "‘There has been some trauma from this. But we’re going to pick up the pieces,’ synagogue’s volunteer president says",
+      "cluster_id": "3a2f81fa451d51c9",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:46.624914+00:00",
+        "source_published_at": "2026-09-25T22:58:11+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -33435,6 +36510,42 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:40.308350+00:00",
         "source_published_at": "2026-09-25T12:47:03+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "927680628fdab6a2",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Your child has left home. Here's why it's time to stop checking up on them",
+      "angle": "Parents say social media groups and tracking apps are feeding their anxiety about children who have recently gone to uni. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Parents say social media groups and tracking apps are feeding their anxiety about children who have recently gone to uni."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/c6evwmzxdn4do?at_medium=RSS&at_campaign=rss",
+      "score": 59.4,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.4404,
+        "label": "negative"
+      },
+      "summary": "Parents say social media groups and tracking apps are feeding their anxiety about children who have recently gone to uni.",
+      "cluster_id": "927680628fdab6a2",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.171082+00:00",
+        "source_published_at": "2026-09-25T23:03:51+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -35968,6 +39079,82 @@
       }
     },
     {
+      "id": "10d31c0185a34ea0",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "With PRIMA, NASA will try to build a billion-dollar space telescope in record time",
+      "angle": "NASA's PRIMA mission will use spare parts from Webb to do major science at a lower cost. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "NASA's PRIMA mission will use spare parts from Webb to do major science at a lower cost."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/space/2026/09/nasa-green-lights-billion-dollar-infrared-observatory-for-launch-in-early-2030s/",
+      "score": 58.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "PRIMA",
+          "NASA",
+          "Webb"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.296,
+        "label": "negative"
+      },
+      "summary": "NASA's PRIMA mission will use spare parts from Webb to do major science at a lower cost.",
+      "cluster_id": "10d31c0185a34ea0",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.871047+00:00",
+        "source_published_at": "2026-09-25T14:07:46+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "548329a9ced2dbc0",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Rocket Report: Era of cheap launch is over? Astra sets early 2027 target for return",
+      "angle": "\"The customer got comfortable with a high reliability and a low price.\". Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "\"The customer got comfortable with a high reliability and a low price.\""
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/space/2026/09/rocket-report-era-of-cheap-launch-is-over-astra-sets-early-2027-target-for-return/",
+      "score": 58.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.296,
+        "label": "positive"
+      },
+      "summary": "\"The customer got comfortable with a high reliability and a low price.\"",
+      "cluster_id": "548329a9ced2dbc0",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:53.021360+00:00",
+        "source_published_at": "2026-09-25T11:00:10+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "9c4f380eaf5561cd",
       "date": "2026-09-25",
       "slot": "am",
@@ -36084,6 +39271,84 @@
       }
     },
     {
+      "id": "874bdf4dd4ebeb9d",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "US being left behind in EV charging speeds as China goes sub-5 min to 70%",
+      "angle": "The new LFP battery charges from 10 to 70% in 4.5 minutes at just 65˚C. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "The new LFP battery charges from 10 to 70% in 4.5 minutes at just 65˚C."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/cars/2026/09/us-being-left-behind-in-ev-charging-speeds-as-china-goes-sub-5-min-to-70/",
+      "score": 57.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "EV",
+          "LFP"
+        ],
+        "locations": [
+          "US",
+          "China"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2732,
+        "label": "negative"
+      },
+      "summary": "The new LFP battery charges from 10 to 70% in 4.5 minutes at just 65˚C.",
+      "cluster_id": "874bdf4dd4ebeb9d",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.820709+00:00",
+        "source_published_at": "2026-09-25T15:21:55+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "e4583a5669624f64",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Eby proposes 2-per-cent tax on unsold condos to encourage developers to sell",
+      "angle": "Government would impose tax on units left vacant for more than a year. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Government would impose tax on units left vacant for more than a year"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/british-columbia/article-eby-proposes-tax-on-unsold-condos-to-encourage-developers-to-sell/",
+      "score": 57.7,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.2732,
+        "label": "positive"
+      },
+      "summary": "Government would impose tax on units left vacant for more than a year",
+      "cluster_id": "e4583a5669624f64",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:46.775418+00:00",
+        "source_published_at": "2026-09-26T00:58:39+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "ea36c1448b7e80d4",
       "date": "2026-09-22",
       "slot": "am",
@@ -36119,6 +39384,46 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:19.621451+00:00",
         "source_published_at": "2026-09-18T20:26:33+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "834599042ffa6be6",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Tesla workers balk at training Optimus humanoid robots as replacements",
+      "angle": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/ai/2026/09/tesla-workers-balk-at-training-optimus-humanoid-robots-as-replacements/",
+      "score": 57.6,
+      "is_backup": true,
+      "entities": {
+        "people": [
+          "Optimus"
+        ],
+        "organizations": [
+          "Tesla"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.0572,
+        "label": "negative"
+      },
+      "summary": "Despite challenges, Tesla aims for 1,000 Optimus robots per week by end of 2026.",
+      "cluster_id": "834599042ffa6be6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.427314+00:00",
+        "source_published_at": "2026-09-25T21:10:51+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -36697,6 +40002,45 @@
       }
     },
     {
+      "id": "671d18ffb699a52c",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Clubs seek legal advice after Man City found guilty over financial rule breaches",
+      "angle": "Premier League clubs are seeking legal advice as to whether they would have a case for financial compensation as a result of City's breaches. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Premier League clubs are seeking legal advice as to whether they would have a case for financial compensation as a result of City's breaches."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/sport/football/articles/cr89jjwy4nqpo?at_medium=RSS&at_campaign=rss",
+      "score": 57.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [
+          "Man City",
+          "City"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.2023,
+        "label": "negative"
+      },
+      "summary": "Premier League clubs are seeking legal advice as to whether they would have a case for financial compensation as a result of City's breaches.",
+      "cluster_id": "671d18ffb699a52c",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:50.821535+00:00",
+        "source_published_at": "2026-09-25T20:13:53+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
       "id": "4c64312076078c68",
       "date": "2026-09-25",
       "slot": "am",
@@ -36850,6 +40194,45 @@
       "meta": {
         "ingested_at": "2026-09-22T09:50:18.884953+00:00",
         "source_published_at": "2026-09-21T17:47:54+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1869d87339dc2f19",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "angle": "Microsoft's new Surface laptops forgo Copilot+ PC branding. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "Microsoft's new Surface laptops forgo Copilot+ PC branding."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/",
+      "score": 56.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Microsoft",
+          "Surface"
+        ],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": -0.1531,
+        "label": "negative"
+      },
+      "summary": "Microsoft's new Surface laptops forgo Copilot+ PC branding.",
+      "cluster_id": "1869d87339dc2f19",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.719657+00:00",
+        "source_published_at": "2026-09-25T17:57:37+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -37271,6 +40654,42 @@
       "meta": {
         "ingested_at": "2026-09-23T09:05:31.876238+00:00",
         "source_published_at": "2026-09-23T07:27:24+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "1c61da6785134ae1",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Could an iced coffee freeze you out of the job market?",
+      "angle": "Employees and recruiters weigh into the online debate around interview etiquette. Make it local in one sentence — who pays, who waits, who shrugs?",
+      "bullets": [
+        "Employees and recruiters weigh into the online debate around interview etiquette."
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cv62k9p1rz4do?at_medium=RSS&at_campaign=rss",
+      "score": 55.5,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0516,
+        "label": "positive"
+      },
+      "summary": "Employees and recruiters weigh into the online debate around interview etiquette.",
+      "cluster_id": "1c61da6785134ae1",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.268200+00:00",
+        "source_published_at": "2026-09-25T23:08:22+00:00",
         "pipeline_version": "1.1.0"
       }
     },
@@ -38039,6 +41458,87 @@
       "meta": {
         "ingested_at": "2026-09-25T19:06:40.866781+00:00",
         "source_published_at": "2026-09-25T16:22:05+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "08dc8880e8edd0d7",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "OpenAI bots meddled with multiple US government agency sites",
+      "angle": "OpenAI said its bots accessed public data from a range of institutions during test exercises. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "OpenAI said its bots accessed public data from a range of institutions during test exercises."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "BBC News",
+      "source_type": "news",
+      "url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
+      "score": 55.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "OpenAI"
+        ],
+        "locations": [
+          "US"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "OpenAI said its bots accessed public data from a range of institutions during test exercises.",
+      "cluster_id": "08dc8880e8edd0d7",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:51.421123+00:00",
+        "source_published_at": "2026-09-26T02:50:56+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9a9a3369d841c5a6",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "TECH",
+      "title": "Paramount/WBD merger conditions give the public \"virtually nothing,\" judge is told",
+      "angle": "US judge reviews deal with California, says it must not be result of collusion. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+      "bullets": [
+        "US judge reviews deal with California, says it must not be result of collusion."
+      ],
+      "debate": "Helpful innovation or privacy nightmare?",
+      "source": "Ars Technica",
+      "source_type": "news",
+      "url": "https://arstechnica.com/tech-policy/2026/09/paramount-wbd-merger-conditions-give-the-public-virtually-nothing-judge-is-told/",
+      "score": 55.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [
+          "Paramount"
+        ],
+        "locations": [
+          "US",
+          "California"
+        ],
+        "is_canadian": false
+      },
+      "sentiment": {
+        "compound": 0.0,
+        "label": "neutral"
+      },
+      "summary": "US judge reviews deal with California, says it must not be result of collusion.",
+      "cluster_id": "9a9a3369d841c5a6",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:07:52.623667+00:00",
+        "source_published_at": "2026-09-25T18:42:57+00:00",
         "pipeline_version": "1.1.0"
       }
     },
