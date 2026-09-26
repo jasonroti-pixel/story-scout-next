@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-26T09:07:53.184554+00:00",
+  "generated_at": "2026-09-26T09:48:02.410006+00:00",
   "timezone": "America/Toronto",
   "date": "2026-09-26",
   "slot": "am",
   "pipeline_version": "1.1.0",
-  "count": 1115,
+  "count": 1116,
   "stories": [
     {
       "id": "b510ed3856735d95",
@@ -21423,6 +21423,42 @@
       "meta": {
         "ingested_at": "2026-09-26T09:07:51.023890+00:00",
         "source_published_at": "2026-09-25T23:02:42+00:00",
+        "pipeline_version": "1.1.0"
+      }
+    },
+    {
+      "id": "9d19732691d07ec5",
+      "date": "2026-09-26",
+      "slot": "am",
+      "category": "CANADIAN NEWS",
+      "title": "Ontario’s taxing problem with property owners",
+      "angle": "Lifting province’s property assessment freeze could cause municipal taxes to shoot up for some, while others may find they’ve been paying too much for years. Make it local in one sentence — who pays, who waits, who…",
+      "bullets": [
+        "Lifting province’s property assessment freeze could cause municipal taxes to shoot up for some, while others may find they’ve been paying too much for years"
+      ],
+      "debate": "Does this change how you see the story locally?",
+      "source": "Globe and Mail",
+      "source_type": "news",
+      "url": "https://www.theglobeandmail.com/canada/article-ontarios-taxing-problem-with-property-owners/",
+      "score": 66.0,
+      "is_backup": true,
+      "entities": {
+        "people": [],
+        "organizations": [],
+        "locations": [],
+        "is_canadian": true
+      },
+      "sentiment": {
+        "compound": -0.5994,
+        "label": "negative"
+      },
+      "summary": "Lifting province’s property assessment freeze could cause municipal taxes to shoot up for some, while others may find they’ve been paying too much for years",
+      "cluster_id": "9d19732691d07ec5",
+      "related_count": 0,
+      "clips": [],
+      "meta": {
+        "ingested_at": "2026-09-26T09:47:57.924278+00:00",
+        "source_published_at": "2026-09-26T09:15:00+00:00",
         "pipeline_version": "1.1.0"
       }
     },
