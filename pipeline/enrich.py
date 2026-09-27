@@ -7,6 +7,7 @@ datasketch MinHash LSH dedupe, category assignment.
 from __future__ import annotations
 
 import hashlib
+import json
 import re
 from datetime import datetime, timezone
 from typing import Any
@@ -225,6 +226,68 @@ CA_NEWS_SIGNALS = {
     "healthcare",
     "bill c-",
 }
+
+
+_ml_clf = None  # (vectorizer, classifier, sections) or False when unavailable
+
+# Section order the vendored model was trained on (models/section-clf-v1).
+
+
+def _get_ml_clf():
+    """Lazily load the vendored section classifier (models/section-clf-v1).
+
+    Returns (vec, clf, sections) or None when the model files or sklearn
+    are unavailable; callers must fall back to assign_category.
+    """
+    global _ml_clf
+    if _ml_clf is None:
+        try:
+            import pickle
+            from pathlib import Path
+
+            d = Path(__file__).resolve().parent / "models" / "section-clf-v1"
+            vec = pickle.loads((d / "tfidf.pkl").read_bytes())
+            clf = pickle.loads((d / "section_clf.pkl").read_bytes())
+            sections = json.loads((d / "meta.json").read_text())["sections"]
+            _ml_clf = (vec, clf, sections)
+        except Exception:
+            _ml_clf = False
+    return _ml_clf or None
+
+
+def classify_section_ml(text: str):
+    """Classify a story into a rundown section with the fitted model.
+
+    Returns (section, probs) or None when the model is unavailable.
+    Any inference error returns None so the caller can fall back to
+    keyword classification.
+
+    NOTE: the model was trained on an archive that never used TECH or
+    SPORTS, so its classes_ cover only 6 sections. Probabilities are
+    mapped back onto the full section order (unseen classes get 0.0);
+    callers should route TECH/SPORTS hints around this function.
+    """
+    ml = _get_ml_clf()
+    if ml is None:
+        return None
+    try:
+        vec, clf, sections = ml
+
+        X = vec.transform([text or ""])
+        proba = clf.predict_proba(X)[0]
+        probs = {sec: 0.0 for sec in sections}
+        for cls, p in zip(clf.classes_, proba):
+            if cls in probs:
+                probs[cls] = float(p)
+        best = max(sections, key=probs.__getitem__)
+        return best, {s: round(probs[s], 4) for s in sections}
+    except Exception:
+        return None
+
+
+# Classes the fitted model never saw in training (absent from the archive).
+# Stories with these feed hints bypass the ML and use keyword classification.
+ML_UNSEEN_SECTIONS = {"TECH", "SPORTS"}
 
 
 def assign_category(text: str, hint: str | None = None) -> str:
@@ -522,7 +585,20 @@ def enrich_story(
     date = raw.get("date") or datetime.now(timezone.utc).astimezone().date().isoformat()
 
     combined = f"{title}. {body}"
-    category = assign_category(combined, category_hint)
+    section_model = "keywords"
+    section_probs: dict[str, float] | None = None
+    if category_hint in ML_UNSEEN_SECTIONS:
+        # The fitted model never saw TECH/SPORTS in training; trust the
+        # feed hint via the keyword path for these.
+        category = assign_category(combined, category_hint)
+        section_model = "keywords-hint"
+    else:
+        ml_result = classify_section_ml(f"{title} {body}")
+        if ml_result is not None:
+            category, section_probs = ml_result
+            section_model = "ml-v1"
+        else:
+            category = assign_category(combined, category_hint)
     entities = extract_entities(combined)
     sentiment = analyze_sentiment(combined)
     summary = summarize(body or title)
@@ -565,6 +641,8 @@ def enrich_story(
             "ingested_at": now,
             "source_published_at": published,
             "pipeline_version": pipeline_version,
+            "section_model": section_model,
+            "section_probs": section_probs,
         },
     }
     return story

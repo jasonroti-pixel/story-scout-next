@@ -1,0 +1,26 @@
+{
+ "sections": [
+  "THE LIST",
+  "ENTERTAINMENT",
+  "BREAKOUT WATCH",
+  "LIFESTYLE CHAT",
+  "CANADIAN NEWS",
+  "TECH",
+  "SPORTS",
+  "CLOSER"
+ ],
+ "features": "tfidf(title+body, 1-2grams, 20k), no hist, no jev",
+ "C": 2.0,
+ "class_weight": "None",
+ "cv": 0.4516965652621528,
+ "test_accuracy": 0.543661971830986,
+ "classes_seen": [
+  "BREAKOUT WATCH",
+  "CANADIAN NEWS",
+  "CLOSER",
+  "ENTERTAINMENT",
+  "LIFESTYLE CHAT",
+  "THE LIST"
+ ],
+ "baseline_keywords": 0.304
+}
