@@ -24,7 +24,51 @@ from zoneinfo import ZoneInfo
 import feedparser
 import yaml
 
-from enrich import StoryDeduper, enrich_story, make_story_id
+from enrich import StoryDeduper, enrich_story, jev_section_features, make_story_id
+
+
+def _fetch_jev_features(raw_items: list[dict[str, Any]], date: str, slot: str) -> None:
+    """Best-effort Jev features for the stacked section model.
+
+    When TYPESAFE_API_KEY is set, fetches the 12 features per story with a
+    small thread pool and stores them as raw["_jev"]. Any failure (missing
+    key, API error, timeout) leaves _jev unset and enrich_story silently
+    falls back to the text-only model. Never raises; never blocks the run.
+    Stories with TECH/SPORTS hints skip the call (the model never saw them).
+    """
+    import os
+    from concurrent.futures import ThreadPoolExecutor
+
+    api_key = os.environ.get("TYPESAFE_API_KEY", "").strip()
+    if not api_key:
+        return
+    targets = [
+        r for r in raw_items
+        if r.get("category_hint") not in {"TECH", "SPORTS"}
+    ]
+    if not targets:
+        return
+
+    def _one(raw: dict[str, Any]):
+        try:
+            feats = jev_section_features(
+                raw.get("title") or "",
+                raw.get("body") or raw.get("summary") or "",
+                api_key,
+                raw.get("date") or date,
+            )
+            if feats:
+                raw["_jev"] = feats
+        except Exception:
+            pass
+
+    try:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            list(pool.map(_one, targets))
+        n = sum(1 for r in raw_items if r.get("_jev"))
+        print(f"[ingest] jev features: {n}/{len(targets)} stories", flush=True)
+    except Exception as exc:
+        print(f"[ingest] jev fetch skipped: {exc}", flush=True)
 
 ROOT = Path(__file__).resolve().parent.parent
 FEEDS_PATH = Path(__file__).resolve().parent / "feeds.yml"
@@ -296,6 +340,7 @@ def run(max_stories: int | None = None, fetch_full: bool = True) -> Path:
             )
 
     deduper = StoryDeduper()
+    _fetch_jev_features(raw_items, date, slot)
     stories: list[dict[str, Any]] = []
     for raw in raw_items:
         try:

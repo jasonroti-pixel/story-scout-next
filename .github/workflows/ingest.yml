@@ -44,6 +44,10 @@ jobs:
         run: python ingest.py --no-fulltext
         env:
           PYTHONUNBUFFERED: "1"
+          # Optional: when set, ingest fetches Jev features per story and uses
+          # the stacked section model (0.62 test). Unset or failing -> the
+          # text-only model (0.54) is used instead. The run never breaks.
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
 
       - name: Commit stories.json
         run: |

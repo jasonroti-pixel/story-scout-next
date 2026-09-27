@@ -289,6 +289,230 @@ def classify_section_ml(text: str):
 # Stories with these feed hints bypass the ML and use keyword classification.
 ML_UNSEEN_SECTIONS = {"TECH", "SPORTS"}
 
+_stacked_clf = None  # (vectorizer, classifier, sections) or False when unavailable
+
+
+def _get_stacked_clf():
+    """Lazily load the stacked section classifier (models/section-clf-stacked-v1).
+
+    Same TF-IDF text features as section-clf-v1 plus 12 Jev features
+    (top_p, topic_conf, air_suitability, canadian_angle, freshness, and a
+    7-dim topic_section one-hot). Returns (vec, clf, sections) or None;
+    callers fall back to classify_section_ml.
+    """
+    global _stacked_clf
+    if _stacked_clf is None:
+        try:
+            import pickle
+            from pathlib import Path
+
+            d = Path(__file__).resolve().parent / "models" / "section-clf-stacked-v1"
+            vec = pickle.loads((d / "tfidf.pkl").read_bytes())
+            clf = pickle.loads((d / "section_clf.pkl").read_bytes())
+            sections = json.loads((d / "meta.json").read_text())["sections"]
+            _stacked_clf = (vec, clf, sections)
+        except Exception:
+            _stacked_clf = False
+    return _stacked_clf or None
+
+
+def _jev_questions(today: str) -> dict:
+    """The 5 Jev questions the stacked model was trained on (iter8 battery)."""
+    return {
+        "is_top_story": {
+            "type": "noul",
+            "instructions": (
+                "Is this one of the day's biggest, most consequential stories, "
+                "the kind that leads the show? About one quarter of the "
+                "day's stories make THE LIST. In this show's history, THE LIST stories are "
+                "dominated by national politics and government action (the White House, "
+                "Congress, courts and major lawsuits), world affairs (China, wars, trade "
+                "deals), major tech/AI stories with wide impact, and big economic news. "
+                "Examples of top stories: "
+                "'Trump signs executive order to ban certain Canadian goods, including alcohol'; "
+                "'25 states sue Trump over forced-labour tariffs'; "
+                "'FBI investigating 153 million US and Canadian driver's licenses leaked on "
+                "Russian cybercrime forum'. Examples of smaller stories: "
+                "'NYC City Hall ditches iconic green doors, breaks wedding photo tradition'; "
+                "'Why Your Kitchen Tools Keep Vanishing Into the Void'."
+            ),
+            "criteria": {
+                "true": "belongs with the day's biggest headlines",
+                "false": "a smaller story, however interesting",
+            },
+        },
+        "topic_section": {
+            "type": "choice",
+            "instructions": (
+                "Which topic section would the show's producer run this story in? "
+                "This is only about the story's topic and energy, not its importance. "
+                "Use the examples under each option as your guide."
+            ),
+            "criteria": {
+                "ENTERTAINMENT": (
+                    "Celebrity-centered: stars, Hollywood, movies and film, music, TV, fan "
+                    "reactions, celebrity backlash and controversies. If a celebrity or the "
+                    "entertainment industry is the subject, it lives here, even when the story "
+                    "is outrageous. "
+                    "Examples: 'Sandra Bullock Reveals Hollywood Auditions Were so Disturbing, "
+                    "'Perverts' Asked Her To Drop Her Pants'; "
+                    "'Macklemore speaks out after being dropped from Ed Sheeran's tour following "
+                    "his 'Free Palestine' speech'. "
+                    "But if it is fundamentally about a shocking or absurd event that merely "
+                    "happens to involve a famous person, it is BREAKOUT WATCH."
+                ),
+                "BREAKOUT WATCH": (
+                    "Viral, shocking, absurd, or outrageous stories with talker energy: the kind "
+                    "of thing blowing up on social media that everyone will be discussing. This "
+                    "includes substantive news with a wow edge, not just silly items. "
+                    "Examples: 'LA blew $60M on homeless 'fix' - it housed just three units'; "
+                    "'Apocalyptic video shows wildfire flames surrounding train'. "
+                    "Quick-hit viral fuel, not discussion fodder: if the story carries a real "
+                    "debate or discussion angle, it is almost never Breakout Watch. "
+                    "If the story is fundamentally about a celebrity or the entertainment "
+                    "industry, it is ENTERTAINMENT; if it is a light end-of-show kicker, it is CLOSER."
+                ),
+                "LIFESTYLE CHAT": (
+                    "Lifestyle and culture conversation, often driven by new research or studies: "
+                    "health, wellness, relationships, dating, parenting, food, home, the brain. "
+                    "'New study finds...' framing is the classic tell. Conversational and "
+                    "relatable, built for listener opinions and calls. "
+                    "Examples: 'Depression Actually Rewires Your Brain, New Study Finds'; "
+                    "'Think your country's rigged? New study says that's wrecking your mood'."
+                ),
+                "CANADIAN NEWS": (
+                    "Canada-first news, politics, and national issues that hit home for Canadian "
+                    "listeners: Parliament, the Prime Minister, premiers, trade deals, sovereignty. "
+                    "Examples: 'Carney presses 10 EU countries to ratify Canada trade deal'; "
+                    "'Carney says US trade terms could box Canada in'."
+                ),
+                "TECH": (
+                    "Stories fundamentally about technology, AI, gadgets, or the internet; "
+                    "not viral (BREAKOUT WATCH) and not health or science news (LIFESTYLE CHAT). "
+                    "Example: a hands-on review of a new AI gadget launch."
+                ),
+                "SPORTS": (
+                    "Only the big wins or huge Canadian sports news; no scores or stats unless "
+                    "record-breaking; athlete hot takes, controversies, and sports figures in the news. "
+                    "Example: a record-breaking championship win."
+                ),
+                "CLOSER": (
+                    "The end-of-show kicker: light, fun, heartwarming, or quirky 'and finally' stories "
+                    "that send listeners off smiling, including light celebrity items. Wildlife "
+                    "rescues, anniversaries and throwbacks, good-news oddities. Earnest or silly, "
+                    "it must feel like a smile. "
+                    "Examples: 'Three critically endangered American Red Wolf pups born at the "
+                    "Saint Louis Zoo were fostered into a wild family'; "
+                    "'Cult classic Donnie Darko will return to theaters in 4K for its 25th "
+                    "anniversary in October'. "
+                    "Never heavy news and never outrage; those belong elsewhere."
+                ),
+            },
+        },
+        "air_suitability": {
+            "type": "score",
+            "instructions": (
+                "How central is this story to today's show? About 4 in 10 stories end up as backups, so be "
+                "selective: reserve the top levels for stories that clearly earn a slot."
+            ),
+            "criteria": [
+                "Cut: does not belong in the rundown at all",
+                "Weak backup: thin, hold only if desperate",
+                "Solid backup: decent reserve if time allows",
+                "Likely core: probably earns a slot",
+                "Must-air: the show is weaker without it",
+            ],
+        },
+        "canadian_angle": {
+            "type": "noul",
+            "instructions": "Does this story have a Canadian angle or direct relevance to a Canadian audience?",
+            "criteria": {
+                "true": "mentions Canada or Canadians, or affects them directly",
+                "false": "no Canadian connection",
+            },
+        },
+        "freshness": {
+            "type": "noul",
+            "instructions": f"Today is {today}. Is this story fresh enough for today's show?",
+            "criteria": {
+                "true": "published within the last 48 hours, or evergreen with no expiry",
+                "false": "older than 48 hours and time-bound to a past event",
+            },
+        },
+    }
+
+
+def jev_section_features(title: str, body: str, api_key: str, today: str):
+    """Fetch the 12 Jev features the stacked model needs, best-effort.
+
+    One POST to the Jev API with the 5 training questions. Returns the
+    12-dim feature list or None on ANY failure (network, auth, timeout,
+    malformed response) so the caller can fall back to the text-only model.
+    Never raises.
+    """
+    try:
+        import urllib.request
+
+        state = {"title": title or "", "body": (body or "")[:2000], "today": today}
+        payload = json.dumps(
+            {"state": state, "model": "jev-latest", "questions": _jev_questions(today)},
+            separators=(",", ":"),
+        ).encode("utf-8")
+        req = urllib.request.Request(
+            "https://api.typesafe.ai/v1/systemone",
+            data=payload,
+            method="POST",
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {api_key}",
+            },
+        )
+        with urllib.request.urlopen(req, timeout=60) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        a = data.get("answers") or {}
+        topic = (a.get("topic_section") or {}).get("choice")
+        if topic is None:
+            return None
+        onehot = [1.0 if topic == s else 0.0 for s in
+                  ["ENTERTAINMENT", "BREAKOUT WATCH", "LIFESTYLE CHAT",
+                   "CANADIAN NEWS", "TECH", "SPORTS", "CLOSER"]]
+        return [
+            float((a.get("is_top_story") or {}).get("noul", 0.5)),
+            float((a.get("topic_section") or {}).get("confidence", 0.0)),
+            float((a.get("air_suitability") or {}).get("score", 3.0)),
+            float((a.get("canadian_angle") or {}).get("noul", 0.0)),
+            float((a.get("freshness") or {}).get("noul", 0.8)),
+        ] + onehot
+    except Exception:
+        return None
+
+
+def classify_section_stacked(text: str, jev_feats):
+    """Classify with the stacked model (text TF-IDF + 12 Jev features).
+
+    Returns (section, probs) or None when the model is unavailable, the
+    feature layout is wrong, or inference fails. Callers fall back to
+    classify_section_ml, then keywords.
+    """
+    ml = _get_stacked_clf()
+    if ml is None or not jev_feats or len(jev_feats) != 12:
+        return None
+    try:
+        import numpy as np
+        from scipy.sparse import csr_matrix, hstack
+
+        vec, clf, sections = ml
+        X = hstack([vec.transform([text or ""]), csr_matrix(np.array(jev_feats).reshape(1, -1))])
+        proba = clf.predict_proba(X)[0]
+        probs = {sec: 0.0 for sec in sections}
+        for cls, p in zip(clf.classes_, proba):
+            if cls in probs:
+                probs[cls] = float(p)
+        best = max(sections, key=probs.__getitem__)
+        return best, {s: round(probs[s], 4) for s in sections}
+    except Exception:
+        return None
+
 
 def assign_category(text: str, hint: str | None = None) -> str:
     """Assign a board category from keywords + feed hint.
@@ -593,12 +817,19 @@ def enrich_story(
         category = assign_category(combined, category_hint)
         section_model = "keywords-hint"
     else:
-        ml_result = classify_section_ml(f"{title} {body}")
-        if ml_result is not None:
-            category, section_probs = ml_result
-            section_model = "ml-v1"
+        # Stacked model when Jev features were fetched upstream (ml-stacked-v1,
+        # 0.62 test); text-only model otherwise (ml-v1, 0.54); keywords last.
+        stacked = classify_section_stacked(f"{title} {body}", raw.get("_jev"))
+        if stacked is not None:
+            category, section_probs = stacked
+            section_model = "ml-stacked-v1"
         else:
-            category = assign_category(combined, category_hint)
+            ml_result = classify_section_ml(f"{title} {body}")
+            if ml_result is not None:
+                category, section_probs = ml_result
+                section_model = "ml-v1"
+            else:
+                category = assign_category(combined, category_hint)
     entities = extract_entities(combined)
     sentiment = analyze_sentiment(combined)
     summary = summarize(body or title)

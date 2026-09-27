@@ -1,0 +1,31 @@
+{
+ "sections": [
+  "THE LIST",
+  "ENTERTAINMENT",
+  "BREAKOUT WATCH",
+  "LIFESTYLE CHAT",
+  "CANADIAN NEWS",
+  "TECH",
+  "SPORTS",
+  "CLOSER"
+ ],
+ "features": "tfidf(title+body, 1-2grams, 20k) + jev[12]: top_p, topic_conf, air_suitability, canadian_angle, freshness + topic_section onehot(7)",
+ "jev_questions": [
+  "is_top_story",
+  "topic_section",
+  "air_suitability",
+  "canadian_angle",
+  "freshness"
+ ],
+ "C": 1.0,
+ "test_accuracy": 0.6225352112676056,
+ "classes_seen": [
+  "BREAKOUT WATCH",
+  "CANADIAN NEWS",
+  "CLOSER",
+  "ENTERTAINMENT",
+  "LIFESTYLE CHAT",
+  "THE LIST"
+ ],
+ "fallback": "section-clf-v1 (text-only, 0.5437) then keywords"
+}
