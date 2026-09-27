@@ -150,6 +150,11 @@
     );
   }
 
+  // Poses from the owner's sprite sheet; w = sprite width in pixels.
+  function frame(cls, pose, w) {
+    return '<img class="' + cls + '" src="assets/px/nico-' + pose + '.svg" style="--w:' + w + '" alt="" />';
+  }
+
   function buildCredits(root) {
     const rows = CREDITS.map(
       ([k, v]) => (k ? "<dt>" + esc(k) + "</dt>" : "") + "<dd>" + esc(v) + "</dd>"
@@ -163,13 +168,14 @@
       '<img class="cr-sprite cr-house" src="assets/px/farmhouse.svg" alt="" />' +
       layer("cr-ground", "credits-ground") +
       '<div class="cr-nico">' +
-      '<img class="f-run f-run0" src="assets/px/nico-run0.svg" alt="" />' +
-      '<img class="f-run f-run1" src="assets/px/nico-run1.svg" alt="" />' +
-      '<img class="f-run f-run2" src="assets/px/nico-run2.svg" alt="" />' +
-      '<img class="f-run f-run3" src="assets/px/nico-run3.svg" alt="" />' +
-      '<img class="f-sit" src="assets/px/nico-sit.svg" alt="" />' +
-      '<img class="f-jump" src="assets/px/nico-jump.svg" alt="" />' +
-      '<img class="cr-held" src="assets/px/ball.svg" alt="" />' +
+      frame("f-run f-run0", "run-a", 90) +
+      frame("f-run f-run1", "run-c", 91) +
+      frame("f-run f-run2", "leap", 97) +
+      frame("f-run f-run3", "run-c", 91) +
+      frame("f-sit", "sit-front", 77) +
+      frame("f-jump", "leap", 97) +
+      frame("f-carry", "run-b", 100) +
+      frame("f-caught", "sit-ball", 100) +
       "</div>" +
       '<div class="cr-ball-x"><div class="cr-ball-y"><img src="assets/px/ball.svg" alt="" /></div></div>' +
       "</div>" +

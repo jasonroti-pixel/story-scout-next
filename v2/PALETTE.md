@@ -116,12 +116,19 @@ Every pairing used for body-size text meets WCAG AA (4.5 : 1).
 
 ## Nico (character art)
 
-Nico uses no new colours. He is rendered with a **coat ramp** built from existing tokens, darkest to brightest: `space-950` → `space-900` → `space-700` → `indigo-800` → `indigo-600` → `indigo-500`.
-- **Coat:** most of the coat stays in the two darkest steps (glossy black). The indigo steps are reserved for specular streaks along the skull, brows, cheeks and shoulders. A thin `space-700` bounce rim sits on the shadow side.
-- **Eyes:** `burg-800` / `sandy-800` / `ember` iris, `void` pupil, `ant-50` key glint, `ant-100`/`ant-200` fill glints.
-- **Mouth and tongue:** `burg-800`/`burg-900` mouth, `rasp-400` gums, tongue in `rasp-200` / `rasp-400` / `rasp-700` with a `sandy-200` wet highlight.
-- **Ear folds:** `burg-900` / `mauve`.
-- **Bandana tartan:** `rasp-700` field with `rasp-600` lit hem, `burg-700`/`burg-800` bands, `burg-900` shadow hem, and `sandy-800` / `burg-600` pinstripes.
+Nico is **not drawn by the generator**. Every Nico sprite is sampled from the owner's approved art in `assets/src/` by `tools/extract_nico.py`, then re-mapped onto this palette:
+
+| Source | Coat ramp (dark → light) | Why |
+|---|---|---|
+| `nico-closeup.jpg` (hero, badge, banner, footer, tab icon) | `void` → `space-950` → `space-900` → `indigo-900` → `space-600` → `indigo-600` → `indigo-300` | The close-up's charcoal has a warm lilac-grey sheen |
+| `nico-sprite-sheet.jpg` (poses, credits, gallery, eggs) | `void` → `space-950` → `space-900` → `space-700` → `space-600` → `space-500` → `indigo-300` | The sheet's black is neutral with cool grey gloss |
+
+- **Coat:** tones are assigned by luminance rank inside each sprite, so the source's shading structure is preserved exactly.
+- **Tongue and gums:** `rasp-200` / `rasp-400` / `rasp-700`.
+- **Mouth, lips and ear leather:** `burg-800` / `burg-900` / `mauve` / `ember`.
+- **Teeth and catch-lights:** `ant-50` / `ant-200`.
+- **Ball:** the source orange sits outside the palette, so it maps to the most saturated warm tones available (`sandy-600` / `sandy-700` / `ember` / `sandy-800`). The blue seam maps to `indigo-500` / `indigo-600` / `indigo-700`.
+- **Bandana (added, from the brief):** red tartan with a `rasp-700` field, `burg-700`/`burg-800` bands, `sandy-800` pinstripe, a `rasp-600` lit hem and a `burg-900` shadow hem.
 
 ## Scenes
 

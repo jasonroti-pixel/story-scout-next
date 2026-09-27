@@ -18,7 +18,7 @@ import os
 import random
 
 from palette import P
-import nico as N
+from nico_data import SPRITES as NICO
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "assets", "px")
@@ -160,135 +160,29 @@ def write_scene(name, canvas, eggs=(), title="", front=None):
 
 
 # --------------------------------------------------------------------------
-# Nico palette roles (fixed)
+# Nico: every sprite comes from the owner's art (see extract_nico.py);
+# nico_data.py holds the palette-keyed pixel grids.
 # --------------------------------------------------------------------------
 INK = "void"
-COAT = ("space-700", "space-900", "space-950")  # hi, base, lo
-SHEEN = "indigo-600"
-GLINT = "ant-50"
-EYE = "burg-900"
-MOUTH = "burg-800"
-TONGUE = "rasp-200"
-TONGUE_LO = "rasp-400"
-TOOTH = "ant-50"
-PLAID = ("rasp-700", "burg-700", "ant-100")  # base, stripe, cross
 
 
-def plaid(x, y):
-    sx, sy = x % 4 == 0, y % 4 == 0
-    if sx and sy:
-        return PLAID[2]
-    if sx or sy:
-        return PLAID[1]
-    return PLAID[0]
-
-
-# --------------------------------------------------------------------------
-# Nico hero: smiling, head + chest + front paws, 3/4 facing
-# --------------------------------------------------------------------------
-def nico_hero():
-    return N.nico_master(Canvas)
-
-
-# --------------------------------------------------------------------------
-# Nico side view (run cycle, jump, sit) for credits + eggs
-# --------------------------------------------------------------------------
-def _leg(c, x0, y0, x1, y1, key, paw=True):
-    """2px-thick leg from hip/shoulder (x0,y0) to foot (x1,y1) + a paw nub."""
-    c.line(x0, y0, x1, y1, key)
-    c.line(x0 + 1, y0, x1 + 1, y1, key)
-    if paw:
-        c.set(x1 + 2, y1, key)
-
-
-def _head(c, hx, hy, open_mouth=False, tongue=True):
-    base = COAT
-    c.ellipse(hx, hy + 1, 5.5, 5, None, lit=base)
-    c.ellipse(hx + 4.5, hy + 3, 3.6, 2.8, None, lit=(base[0], base[0], base[1]))  # broad muzzle
-    c.poly([(hx - 4, hy - 2), (hx - 2, hy - 5), (hx + 1, hy - 3)], base[1])        # rose ear
-    c.set(hx - 2, hy - 3, "burg-900")
-    c.set(hx + 1, hy, EYE)
-    c.set(hx + 2, hy, GLINT)
-    c.set(hx + 8, hy + 2, INK)
-    c.set(hx + 7, hy + 2, INK)
-    if open_mouth:
-        c.rect(hx + 3, hy + 4, 5, 2, MOUTH)
-        c.set(hx + 7, hy + 4, TOOTH)
-    else:
-        c.line(hx + 3, hy + 5, hx + 7, hy + 5, MOUTH)
-    c.set(hx + 2, hy + 4, INK)
-    if tongue:
-        c.set(hx + 3, hy + 6, TONGUE)
-        c.set(hx + 4, hy + 6, TONGUE)
-        c.set(hx + 4, hy + 7, TONGUE_LO)
-    # plaid bandana at the neck
-    for (x, y) in [(hx - 3, hy + 5), (hx - 2, hy + 5), (hx - 1, hy + 6), (hx, hy + 6),
-                   (hx - 3, hy + 6), (hx - 2, hy + 6), (hx - 2, hy + 7), (hx - 1, hy + 7), (hx - 1, hy + 8)]:
-        c.set(x, y, plaid(x, y) if (x + y) % 3 else "burg-700")
-
-
-def _rim(c, key=SHEEN, skip=(INK, GLINT, EYE, MOUTH, TONGUE, TONGUE_LO, TOOTH) + PLAID + ("burg-900",)):
-    """1px top rim light so the black coat reads against dark scenery."""
-    for (x, y), k in list(c.px.items()):
-        if k in skip:
-            continue
-        if (x, y - 1) not in c.px:
-            c.set(x, y, key)
-
-
-def nico_side(frame="run0"):
-    """Facing right. frames: run0..run3, jump, sit."""
-    c = Canvas(36, 26)
-    B = COAT
-    if frame == "sit":
-        c.ellipse(12, 18, 7, 5.5, None, lit=B)          # haunch
-        c.ellipse(19, 13, 5, 7, None, lit=B)            # upright chest
-        c.poly([(9, 13), (18, 7), (22, 12), (12, 16)], B[1])  # back line
-        _leg(c, 19, 17, 19, 23, B[1])
-        _leg(c, 22, 17, 22, 23, B[0])
-        c.ellipse(11, 23, 5, 1.6, None, lit=B)          # hind foot
-        c.line(5, 22, 2, 20, B[1])                      # tail
-        c.set(2, 19, B[1])
-        _head(c, 22, 4)
-    elif frame == "jump":
-        c.ellipse(11, 13, 7, 4.2, None, lit=B)          # rear
-        c.ellipse(19, 10, 7, 4.8, None, lit=B)          # chest, raised
-        _leg(c, 22, 12, 28, 8, B[1])                    # front legs reaching
-        _leg(c, 20, 13, 26, 11, B[0])
-        _leg(c, 8, 15, 2, 20, B[1])                     # hind legs pushing off
-        _leg(c, 11, 16, 6, 21, B[0])
-        c.line(4, 11, 1, 8, B[1])                       # tail up
-        _head(c, 26, 3, open_mouth=True, tongue=False)
-    else:
-        i = int(frame[-1])
-        bob = (0, -1, 0, 1)[i]
-        c.ellipse(12, 12 + bob, 8, 4.6, None, lit=B)    # barrel
-        c.ellipse(20, 11 + bob, 6, 5.4, None, lit=B)    # deep chest
-        fronts = [((21, 15), (25, 21)), ((21, 15), (22, 22)), ((21, 15), (18, 21)), ((21, 15), (23, 22))]
-        backs = [((9, 15), (4, 21)), ((9, 15), (8, 22)), ((9, 15), (12, 21)), ((9, 15), (6, 22))]
-        f2 = fronts[(i + 2) % 4]
-        b2 = backs[(i + 2) % 4]
-        _leg(c, f2[0][0] - 2, f2[0][1] + bob, f2[1][0] - 2, f2[1][1], B[2])   # far legs, darker
-        _leg(c, b2[0][0] + 2, b2[0][1] + bob, b2[1][0] + 2, b2[1][1], B[2])
-        (fx0, fy0), (fx1, fy1) = fronts[i]
-        (bx0, by0), (bx1, by1) = backs[i]
-        _leg(c, fx0, fy0 + bob, fx1, fy1, B[1])
-        _leg(c, bx0, by0 + bob, bx1, by1, B[1])
-        c.line(4, 10 + bob, 1, 7 + bob + (i % 2), B[1])  # tail
-        _head(c, 25, 5 + bob)
-    _rim(c)
-    c.outline(INK)
+def from_grid(grid):
+    c = Canvas(len(grid[0]), len(grid))
+    for y, row in enumerate(grid):
+        for x, k in enumerate(row):
+            if k:
+                c.set(x, y, k)
     return c
 
 
-def nico_mini():
-    """Tiny Nico for footer, tab icon and the hidden background eggs."""
-    return N.nico_mini(Canvas)
+def nico_egg():
+    """Tiny sitting Nico (from the sprite sheet) for the hidden background eggs."""
+    return from_grid(NICO["nico-egg"])
 
 
 def nico_peek(rows=8):
-    """Just Nico's head and paws-up over a ledge."""
-    full = nico_mini()
+    """Just Nico's head over a ledge."""
+    full = nico_egg()
     c = Canvas(full.w, rows)
     for (x, y), k in full.px.items():
         if y < rows:
@@ -300,13 +194,13 @@ def nico_peek(rows=8):
 # Props
 # --------------------------------------------------------------------------
 def ball():
-    """Nico's red/blue ball (from the reference photo), 10x10."""
+    """Nico's orange ball with the blue seam (as in the owner's sprite sheet), 10x10."""
     c = Canvas(12, 12)
-    c.ellipse(6, 6, 5, 5, None, lit=("rasp-400", "rasp-600", "rasp-700"))
-    for y in range(1, 11):
-        c.set(3 + (y > 5), y, "indigo-600")
-        c.set(8 + (y > 5), y, "indigo-600")
-        c.set(4 + (y > 5), y, "indigo-700")
+    c.ellipse(6, 6, 5, 5, None, lit=("sandy-600", "sandy-700", "sandy-800"))
+    for x in range(1, 11):                     # curved seam, like the sheet's ball
+        y = int(round(3 + 0.09 * (x - 6) ** 2 + (x - 1) * 0.35))
+        c.set(x, y, "indigo-600")
+        c.set(x, y + 1, "indigo-700")
     c.set(4, 3, "ant-50")
     c.outline(INK)
     return c
@@ -554,7 +448,7 @@ def scene_trail():
     front.ellipse(58, 167, 3, 2, "bushhi")
     for x in range(40, 66, 3):
         front.set(x, 163 + (x % 2), "bushhi")
-    eggs = [(nico_mini(), 52, 155, "trail")]
+    eggs = [(nico_egg(), 52, 148, "trail")]
     write_scene("trail", c, eggs, "Dusk trail to the farmhouse", front)
 
 
@@ -607,7 +501,7 @@ def scene_harbor():
     front.rect(248, 153, 14, 1, "pier")      # coiled rope
     front.rect(250, 155, 11, 1, "pier")
     front.rect(246, 154, 2, 2, "pier")
-    eggs = [(nico_mini(), 251, 146, "harbor")]
+    eggs = [(nico_egg(), 251, 137, "harbor")]
     write_scene("harbor", c, eggs, "Harbour skyline at night", front)
 
 
@@ -733,12 +627,8 @@ def scene_credits_layers():
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    master = nico_hero()
-    write_sprite("nico-hero", master, "Nico")
-    write_sprite("nico-badge", N.nico_badge(Canvas, master), "Nico")
-    write_sprite("nico-mini", nico_mini(), "Nico")
-    for f in ("run0", "run1", "run2", "run3", "jump", "sit"):
-        write_sprite("nico-" + f, N.nico_side(Canvas, f), "Nico")
+    for name, grid in NICO.items():
+        write_sprite(name, from_grid(grid), "Nico")
     write_sprite("ball", ball(), "Ball")
     write_sprite("farmhouse", farmhouse(), "Farmhouse")
     write_sprite("medallion", medallion(), "")
