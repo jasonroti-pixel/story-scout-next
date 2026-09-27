@@ -393,10 +393,12 @@ html[data-theme="day"] .select { box-shadow: inset 3px 3px 0 var(--ant-200); }
   flex: none;
 }
 .nico-medallion img { display: block; width: 100%; height: auto; }
-.nico-medallion-xl { width: 232px; height: 232px; margin: 0 auto; }
-.nico-medallion-xl img { width: 204px; margin-bottom: 4px; }
+/* sprites render at whole-number scales only (hero 96px @2x, badge 48px @1x) */
+.nico-medallion-xl { width: 240px; height: 240px; margin: 0 auto; place-items: center; }
+.nico-medallion-xl img { width: 192px; }
 .nico-medallion-sm { width: 52px; height: 52px; border: 0; }
-.nico-medallion-sm img { width: 46px; margin-bottom: 1px; }
+.nico-medallion-sm { place-items: center; }
+.nico-medallion-sm img { width: 42px; margin-top: 4px; }
 
 .dg-logo {
   display: block;
@@ -1187,7 +1189,7 @@ html[data-theme="day"] .detail-score { color: var(--rasp-700); }
   color: var(--text-dim);
 }
 .footer-brand { display: inline-flex; align-items: center; gap: 10px; }
-.footer-brand img { width: 30px; height: auto; }
+.footer-brand img { width: 34px; height: auto; }
 
 .toast {
   position: fixed;
@@ -1408,8 +1410,8 @@ html[data-theme="day"] .detail-score { color: var(--rasp-700); }
   .toolbar-row > .btn { flex: 1 1 auto; }
   .stories-grid { grid-template-columns: 1fr; }
   .marquee { padding: 20px 18px 24px; }
-  .nico-medallion-xl { width: 184px; height: 184px; }
-  .nico-medallion-xl img { width: 164px; }
+  .nico-medallion-xl { width: 216px; height: 216px; }
+  .nico-medallion-xl img { width: 192px; }
   .dialog { padding: 18px; }
   .dialog::before { margin: -18px -18px 16px; }
   .scene-strip { margin: var(--gap) -18px -18px; }

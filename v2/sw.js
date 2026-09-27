@@ -2,7 +2,7 @@
    Cache names are namespaced "ssn-v2-" so v2 never evicts or overwrites
    v1's cache (and cleanup below only ever deletes v2's own old caches). */
 const PREFIX = "ssn-v2-";
-const CACHE = PREFIX + "arcade-1";
+const CACHE = PREFIX + "arcade-2";
 const PRECACHE = [
   "./",
   "./index.html",
@@ -19,6 +19,7 @@ const PRECACHE = [
   "./assets/daily-goods-logo.jpeg",
   "./assets/px/nico-hero.svg",
   "./assets/px/nico-mini.svg",
+  "./assets/px/nico-badge.svg",
   "./assets/px/nico-sit.svg",
   "./assets/px/medallion.svg",
   "./assets/px/scene-city.svg",

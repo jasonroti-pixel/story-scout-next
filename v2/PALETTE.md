@@ -114,6 +114,15 @@ The `(mix)` column shows how each tone is derived.
 
 Every pairing used for body-size text meets WCAG AA (4.5 : 1).
 
+## Nico (character art)
+
+Nico uses no new colours. He is rendered with a **coat ramp** built from existing tokens, darkest to brightest: `space-950` → `space-900` → `space-700` → `indigo-800` → `indigo-600` → `indigo-500`.
+- **Coat:** most of the coat stays in the two darkest steps (glossy black). The indigo steps are reserved for specular streaks along the skull, brows, cheeks and shoulders. A thin `space-700` bounce rim sits on the shadow side.
+- **Eyes:** `burg-800` / `sandy-800` / `ember` iris, `void` pupil, `ant-50` key glint, `ant-100`/`ant-200` fill glints.
+- **Mouth and tongue:** `burg-800`/`burg-900` mouth, `rasp-400` gums, tongue in `rasp-200` / `rasp-400` / `rasp-700` with a `sandy-200` wet highlight.
+- **Ear folds:** `burg-900` / `mauve`.
+- **Bandana tartan:** `rasp-700` field with `rasp-600` lit hem, `burg-700`/`burg-800` bands, `burg-900` shadow hem, and `sandy-800` / `burg-600` pinstripes.
+
 ## Scenes
 
 Scene SVGs paint with *role* classes (`s-sky0`, `s-far`, `s-win`…), not colours. `css/scenes.css` maps each role to a token twice: once for night and once for day. The same pixel art therefore re-lights with the theme, and every scene pixel stays on this palette.

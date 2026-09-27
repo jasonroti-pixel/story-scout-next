@@ -26,7 +26,8 @@ v2/                            "Peak Arcade" rebuild — operational clone of v1
   js/arcade.js                 visual only: scenes, hidden Nicos, end credits
   assets/px/*.svg              generated pixel art (Nico sprites, scenes)
   assets/daily-goods-logo.jpeg
-  tools/pixelart.py palette.py generator (stdlib; re-run to redraw art)
+  tools/pixelart.py palette.py nico.py  generator (stdlib; re-run to redraw art;
+                               nico.py = detailed Nico master + derived sprites)
   PALETTE.md                   expanded palette + usage rules
   sw.js manifest.webmanifest
 data/stories.json              shared by v1 and v2 (fetched as ../data/…)

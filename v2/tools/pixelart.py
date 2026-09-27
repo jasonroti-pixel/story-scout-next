@@ -18,6 +18,7 @@ import os
 import random
 
 from palette import P
+import nico as N
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "assets", "px")
@@ -186,96 +187,7 @@ def plaid(x, y):
 # Nico hero: smiling, head + chest + front paws, 3/4 facing
 # --------------------------------------------------------------------------
 def nico_hero():
-    c = Canvas(58, 54)
-    cx = 29
-    # Shoulders / chest (behind head)
-    c.ellipse(cx, 44, 19, 11, None, lit=COAT)
-    # Front legs + paws
-    for lx in (15, 36):
-        c.rect(lx, 40, 8, 9, COAT[1])
-        c.rect(lx, 40, 2, 8, COAT[0])
-        c.rect(lx + 7, 41, 1, 8, COAT[2])
-        c.ellipse(lx + 4, 50.5, 5.4, 2.8, None, lit=COAT)
-        for tx in (lx + 2, lx + 4, lx + 6):
-            c.set(tx, 52, COAT[2])
-    # Rose ears: small flaps folding out to the sides
-    c.poly([(16, 10), (8, 8), (5, 12), (7, 16), (15, 15)], COAT[1])
-    c.poly([(42, 10), (50, 8), (53, 12), (51, 16), (43, 15)], COAT[1])
-    c.poly([(14, 11), (9, 10), (8, 13), (13, 14)], "burg-900")
-    c.poly([(44, 11), (49, 10), (50, 13), (45, 14)], "burg-900")
-    c.line(8, 9, 12, 9, COAT[0])
-    # Skull (flat, broad) + big jaw / cheeks
-    c.ellipse(cx, 16, 16, 10.5, None, lit=COAT)
-    c.ellipse(cx, 26, 19, 11, None, lit=COAT)
-    # Muzzle
-    c.ellipse(cx, 25.5, 10, 6.5, None, lit=(COAT[0], COAT[0], COAT[1]))
-    for x, y in [(cx - 5, 21), (cx - 6, 22), (cx - 6, 23), (cx + 5, 21)]:
-        c.set(x, y, "space-600")
-    # Forehead groove + wrinkle
-    c.line(cx, 9, cx, 17, COAT[2])
-    c.line(cx - 4, 18, cx - 2, 19, COAT[2])
-    c.line(cx + 4, 18, cx + 2, 19, COAT[2])
-    # Skull sheen
-    for x, y in [(19, 8), (20, 7), (21, 7), (22, 6), (23, 6), (24, 6)]:
-        c.set(x, y, SHEEN)
-    c.set(21, 8, "indigo-500")
-    c.set(22, 7, "indigo-500")
-    # Eyes: warm brown iris, pupil, glint, brow
-    for ex in (18, 36):
-        c.rect(ex, 15, 5, 5, EYE)
-        c.rect(ex + 1, 14, 3, 1, EYE)
-        c.rect(ex + 2, 16, 2, 3, INK)
-        c.rect(ex + 1, 15, 2, 2, GLINT)
-        c.set(ex + 3, 18, "sandy-800")
-        c.set(ex + 4, 17, "sandy-800")
-        c.set(ex, 15, COAT[1])
-        c.set(ex + 4, 15, COAT[1])
-    for x, y in [(17, 12), (18, 11), (19, 11), (20, 11), (21, 12), (37, 12), (38, 11), (39, 11), (40, 11), (41, 12)]:
-        c.set(x, y, COAT[0])
-    # cheek + chest muscle sheen (like the photo's glossy coat)
-    for x, y in [(12, 24), (12, 25), (13, 27), (45, 24), (45, 25), (44, 27), (14, 43), (15, 42), (16, 42),
-                 (42, 42), (43, 42), (44, 43)]:
-        c.set(x, y, SHEEN)
-    # Nose
-    c.ellipse(cx, 22, 4.6, 2.6, INK)
-    c.set(cx - 2, 23, "void")
-    c.set(cx + 2, 23, "void")
-    c.set(cx - 3, 21, "space-500")
-    c.set(cx - 2, 21, "space-600")
-    c.set(cx - 2, 20, "space-600")
-    c.line(cx, 24, cx, 26, INK)
-    # Ear-to-ear grin
-    c.ellipse(cx, 31, 10.5, 4.4, MOUTH)
-    c.rect(cx - 9, 28, 19, 1, "burg-900")
-    c.rect(cx - 10, 27, 21, 1, INK)
-    for x, y in [(cx - 11, 27), (cx - 12, 26), (cx - 13, 25), (cx + 11, 27), (cx + 12, 26), (cx + 13, 25)]:
-        c.set(x, y, INK)
-    # Teeth
-    for x in (cx - 8, cx - 7, cx + 7, cx + 8):
-        c.set(x, 28, TOOTH)
-    c.set(cx - 8, 29, TOOTH)
-    c.set(cx + 8, 29, TOOTH)
-    # Lower lip
-    for x in range(cx - 8, cx + 9):
-        c.set(x, 35, INK)
-    # Tongue out, hanging past the lip
-    c.ellipse(cx + 0.5, 34, 5.2, 5, TONGUE)
-    c.ellipse(cx + 0.5, 36.2, 3.6, 2.4, "rasp-200")
-    c.line(cx, 31, cx, 36, TONGUE_LO)
-    c.set(cx - 3, 31, "ant-200")
-    c.set(cx - 2, 31, "ant-200")
-    # Bandana (red plaid): neck band + point
-    band = Canvas(58, 54)
-    band.poly([(12, 37), (46, 37), (44, 41), (14, 41)], "x")
-    band.poly([(17, 40), (41, 40), (29, 51)], "x")
-    for (x, y) in band.px:
-        if not (abs(x - cx) <= 4 and y <= 39):  # tongue sits in front
-            c.set(x, y, plaid(x, y))
-    for x in range(12, 47):
-        if (x, 41) in band.px and not (17 <= x <= 41):
-            c.set(x, 41, "burg-800")
-    c.outline(INK)
-    return c
+    return N.nico_master(Canvas)
 
 
 # --------------------------------------------------------------------------
@@ -370,27 +282,8 @@ def nico_side(frame="run0"):
 
 
 def nico_mini():
-    """Tiny sitting Nico for background easter eggs (15x13)."""
-    rows = [
-        ".....ooooo.....",
-        "oo.oobbbbboo.oo",
-        "ohoobbbbbbbooho",
-        "obbbbbbbbbbbbbo",
-        ".obbwebbbwebbo.",
-        ".obbbbnnnbbbbo.",
-        "..obmmmmmmmbo..",
-        "..oobmmtmmboo..",
-        "...oRDRtRDRo...",
-        "..obRRRDRRRbo..",
-        ".obbbbRRRbbbbo.",
-        ".obbbbbobbbbbo.",
-        ".ooooo.o.ooooo.",
-    ]
-    km = {"o": INK, "b": COAT[1], "h": COAT[0], "w": GLINT, "e": "sandy-800", "n": INK,
-          "m": MOUTH, "t": TONGUE, "R": PLAID[0], "D": PLAID[2]}
-    c = Canvas(15, 13)
-    c.from_ascii(rows, km)
-    return c
+    """Tiny Nico for footer, tab icon and the hidden background eggs."""
+    return N.nico_mini(Canvas)
 
 
 def nico_peek(rows=8):
@@ -840,10 +733,12 @@ def scene_credits_layers():
 
 def main():
     os.makedirs(OUT, exist_ok=True)
-    write_sprite("nico-hero", nico_hero(), "Nico")
+    master = nico_hero()
+    write_sprite("nico-hero", master, "Nico")
+    write_sprite("nico-badge", N.nico_badge(Canvas, master), "Nico")
     write_sprite("nico-mini", nico_mini(), "Nico")
     for f in ("run0", "run1", "run2", "run3", "jump", "sit"):
-        write_sprite("nico-" + f, nico_side(f), "Nico")
+        write_sprite("nico-" + f, N.nico_side(Canvas, f), "Nico")
     write_sprite("ball", ball(), "Ball")
     write_sprite("farmhouse", farmhouse(), "Farmhouse")
     write_sprite("medallion", medallion(), "")
