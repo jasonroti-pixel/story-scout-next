@@ -129,12 +129,12 @@
   }
 
   async function loadRemoteStories() {
-    const primary = await fetchJson("data/stories.json");
+    const primary = await fetchJson("../data/stories.json");
     const { stories, meta } = normalizePayload(primary);
     let merged = stories.slice();
 
     try {
-      const tw = await fetchJson("data/twitter_stories.json");
+      const tw = await fetchJson("../data/twitter_stories.json");
       const extra = normalizePayload(tw).stories;
       const byId = new Map(merged.map((s) => [String(s.id), s]));
       for (const s of extra) {

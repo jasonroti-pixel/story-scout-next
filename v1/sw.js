@@ -9,7 +9,7 @@ const PRECACHE = [
   "./js/storage.js",
   "./js/loadout.js",
   "./js/clips.js",
-  "./data/stories.json",
+  "../data/stories.json",
   "./manifest.webmanifest",
 ];
 
