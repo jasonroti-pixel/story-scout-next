@@ -1,19 +1,19 @@
 {
-  "name": "Story Scout Next",
-  "short_name": "StoryScout",
-  "description": "Canadian radio-prep story board \u2014 static SPA",
+  "name": "Story Scout Next v2 — Peak Arcade",
+  "short_name": "Scout v2",
+  "description": "Canadian radio-prep story board — static SPA (v2 Peak Arcade)",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#06050f",
-  "theme_color": "#06050f",
+  "background_color": "#012641",
+  "theme_color": "#012641",
   "lang": "en-CA",
   "icons": [
     {
-      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%2306050f'/%3E%3Ctext x='50%25' y='58%25' text-anchor='middle' font-size='28' fill='%2300e5ff'%3ESS%3C/text%3E%3C/svg%3E",
+      "src": "assets/px/nico-mini.svg",
       "sizes": "any",
       "type": "image/svg+xml",
-      "purpose": "any maskable"
+      "purpose": "any"
     }
   ]
 }

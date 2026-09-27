@@ -1,0 +1,85 @@
+/* Story Scout Next v2 — Peak Arcade scene roles.
+   Scene SVGs (assets/px/scene-*.svg) paint with role classes (s-sky0, s-far…).
+   This file maps each role to a palette token, once for night and once for day,
+   so the same pixel art re-lights with the theme. Tokens live in style.css. */
+
+.px-scene .s-sky0 { fill: var(--space-950); }
+.px-scene .s-sky1 { fill: var(--space-800); }
+.px-scene .s-sky2 { fill: var(--indigo-800); }
+.px-scene .s-sky3 { fill: var(--dusk); }
+.px-scene .s-sky4 { fill: var(--burg-700); }
+.px-scene .s-star { fill: var(--ant-100); }
+.px-scene .s-star2 { fill: var(--indigo-300); }
+.px-scene .s-sun0 { fill: var(--sandy-400); }
+.px-scene .s-sun1 { fill: var(--sandy-600); }
+.px-scene .s-sun2 { fill: var(--rasp-600); }
+.px-scene .s-moon { fill: var(--ant-100); }
+.px-scene .s-moonlo { fill: var(--sandy-400); }
+.px-scene .s-cloud { fill: var(--indigo-600); }
+.px-scene .s-cloudlo { fill: var(--mauve); }
+.px-scene .s-far { fill: var(--indigo-900); }
+.px-scene .s-farhi { fill: var(--indigo-700); }
+.px-scene .s-farwin { fill: var(--indigo-600); }
+.px-scene .s-snow { fill: var(--indigo-500); }
+.px-scene .s-mid { fill: var(--mauve); }
+.px-scene .s-midhi { fill: var(--dusk); }
+.px-scene .s-tree { fill: var(--space-900); }
+.px-scene .s-treehi { fill: var(--space-700); }
+.px-scene .s-near { fill: var(--space-950); }
+.px-scene .s-nearhi { fill: var(--indigo-800); }
+.px-scene .s-win { fill: var(--sandy-600); }
+.px-scene .s-win2 { fill: var(--rasp-400); }
+.px-scene .s-beacon { fill: var(--rasp-600); }
+.px-scene .s-ground { fill: var(--void); }
+.px-scene .s-lane { fill: var(--indigo-800); }
+.px-scene .s-wall { fill: var(--burg-700); }
+.px-scene .s-wall2 { fill: var(--burg-800); }
+.px-scene .s-roof { fill: var(--space-950); }
+.px-scene .s-trim { fill: var(--sandy-700); }
+.px-scene .s-trail { fill: var(--sandy-800); }
+.px-scene .s-trailhi { fill: var(--sandy-700); }
+.px-scene .s-fence { fill: var(--burg-900); }
+.px-scene .s-bush { fill: var(--space-900); }
+.px-scene .s-bushhi { fill: var(--space-700); }
+.px-scene .s-water { fill: var(--space-900); }
+.px-scene .s-waterhi { fill: var(--space-700); }
+.px-scene .s-reflect { fill: var(--sandy-800); }
+.px-scene .s-pier { fill: var(--burg-900); }
+
+/* Day: same art, morning light */
+html[data-theme="day"] .px-scene .s-sky0 { fill: var(--ant-50); }
+html[data-theme="day"] .px-scene .s-sky1 { fill: var(--ant-100); }
+html[data-theme="day"] .px-scene .s-sky2 { fill: var(--ant-200); }
+html[data-theme="day"] .px-scene .s-sky3 { fill: var(--sandy-400); }
+html[data-theme="day"] .px-scene .s-sky4 { fill: var(--sandy-600); }
+html[data-theme="day"] .px-scene .s-star,
+html[data-theme="day"] .px-scene .s-star2 { fill: transparent; }
+html[data-theme="day"] .px-scene .s-sun0 { fill: var(--ant-50); }
+html[data-theme="day"] .px-scene .s-sun1 { fill: var(--sandy-400); }
+html[data-theme="day"] .px-scene .s-sun2 { fill: var(--sandy-600); }
+html[data-theme="day"] .px-scene .s-moon { fill: var(--ant-50); }
+html[data-theme="day"] .px-scene .s-moonlo { fill: var(--ant-50); }
+html[data-theme="day"] .px-scene .s-cloud { fill: var(--ant-50); }
+html[data-theme="day"] .px-scene .s-cloudlo { fill: var(--ant-300); }
+html[data-theme="day"] .px-scene .s-far { fill: var(--ant-300); }
+html[data-theme="day"] .px-scene .s-farhi { fill: var(--ant-50); }
+html[data-theme="day"] .px-scene .s-farwin { fill: var(--ant-200); }
+html[data-theme="day"] .px-scene .s-snow { fill: var(--ant-50); }
+html[data-theme="day"] .px-scene .s-mid { fill: var(--indigo-300); }
+html[data-theme="day"] .px-scene .s-midhi { fill: var(--ant-300); }
+html[data-theme="day"] .px-scene .s-tree { fill: var(--indigo-600); }
+html[data-theme="day"] .px-scene .s-treehi { fill: var(--indigo-500); }
+html[data-theme="day"] .px-scene .s-near { fill: var(--indigo-700); }
+html[data-theme="day"] .px-scene .s-nearhi { fill: var(--indigo-600); }
+html[data-theme="day"] .px-scene .s-win { fill: var(--sandy-400); }
+html[data-theme="day"] .px-scene .s-win2 { fill: var(--ant-200); }
+html[data-theme="day"] .px-scene .s-ground { fill: var(--indigo-800); }
+html[data-theme="day"] .px-scene .s-lane { fill: var(--sandy-600); }
+html[data-theme="day"] .px-scene .s-roof { fill: var(--indigo-800); }
+html[data-theme="day"] .px-scene .s-trail { fill: var(--sandy-600); }
+html[data-theme="day"] .px-scene .s-trailhi { fill: var(--sandy-400); }
+html[data-theme="day"] .px-scene .s-bush { fill: var(--indigo-800); }
+html[data-theme="day"] .px-scene .s-bushhi { fill: var(--indigo-600); }
+html[data-theme="day"] .px-scene .s-water { fill: var(--indigo-500); }
+html[data-theme="day"] .px-scene .s-waterhi { fill: var(--indigo-300); }
+html[data-theme="day"] .px-scene .s-reflect { fill: var(--sandy-400); }

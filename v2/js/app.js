@@ -635,7 +635,7 @@
     const headerLogo = els["header-brand-logo"];
     if (headerLogo) headerLogo.hidden = brand !== "daily-goods";
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute("content", theme === "day" ? "#e8e4f0" : "#06050f");
+    if (meta) meta.setAttribute("content", theme === "day" ? "#F7E6D2" : "#012641");
   }
 
   async function applyThemeSettings() {

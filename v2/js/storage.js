@@ -4,7 +4,8 @@
 (function (global) {
   "use strict";
 
-  const db = new Dexie("StoryScoutNext");
+  // v2 keeps its own IndexedDB so it never reads or overwrites v1's data.
+  const db = new Dexie("StoryScoutNextV2");
   db.version(1).stores({
     stories: "id, date, slot, category, score, is_backup",
     meta: "key",
