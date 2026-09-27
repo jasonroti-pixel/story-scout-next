@@ -15,6 +15,7 @@
     --border: #2a2350;
     --cyan: #00e5ff;
     --magenta: #ee005a;
+    --sandy: #faae7b;
     --text: #e8e6ff;
     --muted: #8f8ab8;
   }
@@ -75,6 +76,8 @@
     margin-bottom: 14px;
   }
   a.card.v2 .ver { color: var(--magenta); }
+  a.card.fetcher:hover { border-color: var(--sandy); box-shadow: 0 8px 32px rgba(250, 174, 123, .18); }
+  a.card.fetcher .ver { color: var(--sandy); }
   .card h2 { font-size: 20px; margin-bottom: 10px; }
   .card p { color: var(--muted); font-size: 13px; line-height: 1.6; }
   .tag {
@@ -104,6 +107,12 @@
       <h2>Peak Arcade</h2>
       <p>Golden-age arcade at its sharpest: crisp pixel art, living pixel scenery, and Nico front and centre (plus a few hiding in the backgrounds). Same stories, same loadout, same app underneath.</p>
       <span class="tag">peak arcade · same app</span>
+    </a>
+    <a class="card fetcher" href="https://jasonroti-pixel.github.io/daily-goods-rundowns/summarizer.html" target="_blank" rel="noopener">
+      <div class="ver">NICO FETCHER ↗</div>
+      <h2>Nico Fetcher</h2>
+      <p>Throw Nico some links. He fetches them back as summaries. Opens in a new tab.</p>
+      <span class="tag">tool · new tab</span>
     </a>
   </div>
   <footer>THE DAILY GOODS · prep tooling</footer>
