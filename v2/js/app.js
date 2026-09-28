@@ -50,7 +50,12 @@
       "btn-save-loadout",
       "btn-load-loadout",
       "btn-prep-sheet",
+      "btn-copy-loadout",
+      "btn-email-loadout",
       "btn-clear-loadout",
+      "btn-loadout",
+      "btn-close-loadout",
+      "loadout-pane",
       "btn-print-prep",
       "btn-back-rundowns",
       "last-updated",
@@ -181,6 +186,22 @@
         throw err;
       }
     }
+    // Merge user-created custom stories (they persist in this browser's
+    // Dexie table; a remote sync never includes them).
+    try {
+      const customs = await SSStorage.listCustomStories();
+      if (customs && customs.length) {
+        const seen = new Set(allStories.map((s) => String(s.id)));
+        customs.forEach((c) => {
+          if (!seen.has(String(c.id))) {
+            allStories.unshift(c);
+            seen.add(String(c.id));
+          }
+        });
+      }
+    } catch (mergeErr) {
+      console.warn("[app] custom story merge failed", mergeErr);
+    }
     SSLoadout.setStoryIndex(allStories);
     if (SSSearch.whenReady) await SSSearch.whenReady(3000);
     await SSSearch.rebuild(allStories);
@@ -291,11 +312,13 @@
   }
 
   function showRundownView() {
+    setPage("picker");
     if (els["rundown-view"]) els["rundown-view"].hidden = false;
     if (els["edition-view"]) els["edition-view"].hidden = true;
   }
 
   function showEditionView() {
+    setPage("board");
     if (els["rundown-view"]) els["rundown-view"].hidden = true;
     if (els["edition-view"]) els["edition-view"].hidden = false;
   }
@@ -386,6 +409,7 @@
             : "";
         const clip = SSClips.clipCountBadge(s.clips);
         const selected = inLoadout.has(String(s.id)) ? " selected" : "";
+        const addLabel = inLoadout.has(String(s.id)) ? "✓ In loadout" : "+ Loadout";
         const debate = s.debate
           ? `<p class="card-debate">${SSClips.escapeHtml(s.debate)}</p>`
           : "";
@@ -405,7 +429,7 @@
             ${clip}
           </div>
           <div class="card-actions">
-            <button type="button" class="btn btn-primary" data-act="add" data-id="${SSClips.escapeAttr(s.id)}">+ Loadout</button>
+            <button type="button" class="btn btn-primary" data-act="add" data-id="${SSClips.escapeAttr(s.id)}">${addLabel}</button>
             <button type="button" class="btn" data-act="detail" data-id="${SSClips.escapeAttr(s.id)}">Detail</button>
             <button type="button" class="btn btn-danger" data-act="junk" data-id="${SSClips.escapeAttr(s.id)}">JUNK</button>
           </div>
@@ -427,9 +451,9 @@
         e.stopPropagation();
         const id = btn.dataset.id;
         if (btn.dataset.act === "add") {
-          SSLoadout.addStory(id);
+          const res = SSLoadout.toggleStory(id);
           renderCards();
-          showToast("Added to loadout");
+          showToast(res === "added" ? "ADDED TO LOADOUT" : "REMOVED FROM LOADOUT");
         }
         if (btn.dataset.act === "detail") openDetail(id);
         if (btn.dataset.act === "junk") junkStoryById(id);
@@ -478,10 +502,16 @@
     `;
     const addBtn = document.getElementById("detail-add");
     if (addBtn) {
+      const syncDetailAddLabel = () => {
+        const inLo = SSLoadout.getItems().some((it) => String(it.id) === String(s.id));
+        addBtn.textContent = inLo ? "✓ In loadout" : "+ Loadout";
+      };
+      syncDetailAddLabel();
       addBtn.addEventListener("click", () => {
-        SSLoadout.addStory(s.id);
+        const res = SSLoadout.toggleStory(s.id);
+        syncDetailAddLabel();
         renderCards();
-        showToast("Added to loadout");
+        showToast(res === "added" ? "ADDED TO LOADOUT" : "REMOVED FROM LOADOUT");
       });
     }
     const junkBtn = document.getElementById("detail-junk");
@@ -625,8 +655,35 @@
     if (logo) logo.hidden = brand !== "daily-goods";
     const headerLogo = els["header-brand-logo"];
     if (headerLogo) headerLogo.hidden = brand !== "daily-goods";
+    syncPageMeta();
+  }
+
+  /* Per-page duo palettes: home has no data-page (untouched); the rundown
+     picker, story board, and credits each re-theme within their own duo. */
+  function setPage(page) {
+    const html = document.documentElement;
+    if (page) html.setAttribute("data-page", page);
+    else html.removeAttribute("data-page");
+    syncPageMeta();
+  }
+
+  function syncPageMeta() {
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute("content", theme === "day" ? "#F7E6D2" : "#012641");
+    if (!meta) return;
+    const theme =
+      document.documentElement.getAttribute("data-theme") || "night";
+    const page =
+      document.documentElement.getAttribute("data-page") || "home";
+    const colors = {
+      home: { night: "#012641", day: "#F7E6D2" },
+      picker: { night: "#211138", day: "#FDDFCB" },
+      board: { night: "#012641", day: "#FBC3D8" },
+      credits: { night: "#24080B", day: "#F7E6D2" },
+    };
+    meta.setAttribute(
+      "content",
+      ((colors[page] || colors.home)[theme] || colors.home.night)
+    );
   }
 
   async function applyThemeSettings() {
@@ -635,6 +692,7 @@
     document.documentElement.setAttribute("data-theme", theme);
     document.documentElement.setAttribute("data-brand", brand);
     syncThemeButtons();
+    syncPageMeta();
   }
 
   async function toggleTheme() {
@@ -786,12 +844,10 @@
         await SSSearch.rebuild(allStories);
         updateStatus();
         buildRundownIndex();
-        if (activeEdition) {
-          await applyFilters();
-        } else {
-          renderRundownPicker();
-        }
-        showToast("Custom story added");
+        // Jump to the edition the custom story belongs to so it is visible
+        // and can be tapped into the loadout.
+        openEdition(story.date, story.slot);
+        showToast("Custom story added — tap + Loadout to add it");
       });
     }
 
@@ -824,6 +880,34 @@
     if (els["btn-print-prep"]) {
       els["btn-print-prep"].addEventListener("click", () => window.print());
     }
+    if (els["btn-copy-loadout"]) {
+      els["btn-copy-loadout"].addEventListener("click", async () => {
+        const ok = await SSLoadout.copyPrepText();
+        showToast(ok ? "Loadout copied to clipboard" : "Copy failed — use Prep sheet");
+      });
+    }
+    if (els["btn-email-loadout"]) {
+      els["btn-email-loadout"].addEventListener("click", () => {
+        SSLoadout.emailPrepText();
+        showToast("Opening email with loadout");
+      });
+    }
+    if (els["btn-close-loadout"]) {
+      els["btn-close-loadout"].addEventListener("click", () => {
+        if (els["loadout-pane"]) els["loadout-pane"].classList.remove("open");
+      });
+    }
+    if (els["btn-loadout"]) {
+      els["btn-loadout"].addEventListener("click", () => {
+        const pane = els["loadout-pane"];
+        if (!pane) return;
+        if (window.matchMedia("(max-width: 960px)").matches) {
+          pane.classList.toggle("open");
+        } else {
+          pane.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+    }
 
     window.addEventListener("online", updateStatus);
     window.addEventListener("offline", updateStatus);
@@ -853,7 +937,13 @@
       await SSStorage.purgeJunkOlderThan(7);
       await refreshJunkIds();
       await bootstrapStories();
-      await SSLoadout.load();
+      // Restore the working loadout from this browser's localStorage
+      // (auto-saved after every change; per-user, never shared).
+      SSLoadout.restore();
+      if (!SSLoadout.getItems().length) {
+        // One-time migration: pick up a pre-fix manual snapshot if present.
+        await SSLoadout.load();
+      }
       removeJunkFromLoadout();
       if (activeEdition) renderCards();
       else renderRundownPicker();

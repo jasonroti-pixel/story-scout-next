@@ -833,7 +833,51 @@ html[data-theme="day"] .app-title { text-shadow: 3px 3px 0 var(--sandy-400); }
 }
 @media (max-width: 960px) {
   .layout { grid-template-columns: 1fr; }
-  .loadout-pane { position: static; max-height: none; }
+  /* Loadout becomes a slide-in drawer on mobile, opened from the
+     topbar LOADOUT button (production parity). */
+  .loadout-pane {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: min(430px, 94vw);
+    max-height: none;
+    z-index: 80;
+    overflow-y: auto;
+    transform: translateX(105%);
+    transition: transform 0.25s ease;
+    border-left: var(--bw) solid var(--line);
+    border-radius: 0;
+  }
+  .loadout-pane.open { transform: none; }
+}
+
+/* Loadout count badge on the topbar button */
+.lo-count {
+  display: inline-block;
+  min-width: 1.6em;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--bg);
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Drawer close button: mobile only */
+.btn-close-drawer { display: none; margin-left: auto; }
+@media (max-width: 960px) {
+  .btn-close-drawer { display: inline-block; }
+  .pane-head { display: flex; align-items: center; gap: 8px; }
+}
+/* Per-user isolation note in the empty loadout */
+.lo-local {
+  display: block;
+  margin-top: 8px;
+  font-size: var(--fs-xs);
+  color: var(--text-dim);
 }
 
 .stories-grid {
