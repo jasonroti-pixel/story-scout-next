@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-28T17:57:40.541591+00:00",
+ "generated_at": "2026-09-28T20:29:05.876851+00:00",
  "timezone": "America/Toronto",
  "date": "2026-09-28",
- "slot": "am",
+ "slot": "pm",
  "pipeline_version": "1.2.0",
- "count": 1315,
+ "count": 1373,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -249,6 +249,68 @@
     "ingested_at": "2026-09-25T09:25:12.590370+00:00",
     "source_published_at": "2026-09-25T07:31:41+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "549484d2e1b8ea84",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Street Fighter’ Filmmaker Kitao Sakurai, Netflix’s Jinny Howe and Women of ‘The Pitt’ Set as Honorees for Milestone CAPE Gala",
+   "angle": "‘Street Fighter’ Filmmaker Kitao Sakurai, Netflix’s Jinny Howe and Women of ‘The Pitt’ Set as Honorees for Milestone CAPE Gala. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Presented by Lexus, the Oct.",
+    "3 gala will also honor actor Ben Wang and Walt Disney Animation Studios' Kalikolehua Hurley and feature presenters Auliʻi Cravalho, Nisha Ganatra, Ali Ahn, Sherry Cola, Lilly Singh and Callina Liang."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/news/general-news/cape-anniversary-gala-2026-honorees-presenters-1236713636/",
+   "score": 83.6,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Kitao Sakurai",
+     "Netflix’s",
+     "Ben Wang",
+     "Kalikolehua Hurley",
+     "Auliʻi Cravalho",
+     "Nisha Ganatra",
+     "Ali Ahn",
+     "Sherry Cola",
+     "Callina Liang"
+    ],
+    "organizations": [
+     "Lexus",
+     "Walt Disney Animation Studios'",
+     "Lilly Singh"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.7579,
+    "label": "positive"
+   },
+   "summary": "Presented by Lexus, the Oct. 3 gala will also honor actor Ben Wang and Walt Disney Animation Studios' Kalikolehua Hurley and feature presenters Auliʻi Cravalho, Nisha Ganatra, Ali Ahn, Sherry Cola, Lilly Singh and Callina Liang.",
+   "cluster_id": "549484d2e1b8ea84",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.144979+00:00",
+    "source_published_at": "2026-09-28T18:24:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0802,
+     "ENTERTAINMENT": 0.6639,
+     "BREAKOUT WATCH": 0.0318,
+     "LIFESTYLE CHAT": 0.102,
+     "CANADIAN NEWS": 0.0624,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0597
+    }
    }
   },
   {
@@ -654,6 +716,65 @@
    }
   },
   {
+   "id": "e799ec92b08f7b01",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Kristen Stewart, Riley Keough and Wagner Moura to Star in Olivier Assayas’ Next Film ‘Spiritual World’",
+   "angle": "French director Olivier Assayas (&#8220;The Wizard of the Kremlin&#8221;) has set his next movie, &#8220;Spiritual World,&#8221; with a starry cast including Kristen Stewart, Vicky Krieps, Riley Keough and Wagner…",
+   "bullets": [
+    "French director Olivier Assayas (&#8220;The Wizard of the Kremlin&#8221;) has set his next movie, &#8220;Spiritual World,&#8221; with a starry cast including Kristen Stewart, Vicky Krieps, Riley Keough and Wagner Moura.",
+    "The movie reunites Assayas with Stewart who won a Cesar Award for best supporting actress for her role opposite Juliette Binoche in his 2015 film [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/kristen-stewart-riley-keough-olivier-assayas-spiritual-world-1236877487/",
+   "score": 80.4,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Kristen Stewart",
+     "Riley Keough",
+     "Olivier Assayas",
+     "Kremlin&#8221",
+     "Vicky Krieps",
+     "Assayas",
+     "Stewart",
+     "Juliette Binoche"
+    ],
+    "organizations": [
+     "Wagner Moura"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.936,
+    "label": "positive"
+   },
+   "summary": "French director Olivier Assayas (&#8220;The Wizard of the Kremlin&#8221;) has set his next movie, &#8220;Spiritual World,&#8221; with a starry cast including Kristen Stewart, Vicky Krieps, Riley Keough and Wagner Moura. The movie reunites Assayas with Stewart who won a Cesar Award for best supporting actress for her role opposite Juliette Binoche in his 2015 film [&#8230;]",
+   "cluster_id": "e799ec92b08f7b01",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.742685+00:00",
+    "source_published_at": "2026-09-28T18:34:58+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.065,
+     "ENTERTAINMENT": 0.8108,
+     "BREAKOUT WATCH": 0.0293,
+     "LIFESTYLE CHAT": 0.0198,
+     "CANADIAN NEWS": 0.0191,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.056
+    }
+   }
+  },
+  {
    "id": "23cdfcf9212a2e8a",
    "date": "2026-09-23",
    "slot": "am",
@@ -693,6 +814,67 @@
     "ingested_at": "2026-09-23T18:13:05.560532+00:00",
     "source_published_at": "2026-09-23T17:30:00+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "3d871d54f7cedc8c",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Julianne Moore to Receive Icon Award at SCAD Savannah Film Festival With ‘The Debut’ Set as Centerpiece Selection",
+   "angle": "The Savannah College of Art and Design will present Julianne Moore with the Icon Award at the SCAD Savannah Film Festival, as it sets her film “The Dead Donkey,” Jesse Eisenberg&#8217;s musical comedy from A24, as the…",
+   "bullets": [
+    "The Savannah College of Art and Design will present Julianne Moore with the Icon Award at the SCAD Savannah Film Festival, as it sets her film “The Dead Donkey,” Jesse Eisenberg&#8217;s musical comedy from A24, as the Centerpiece selection.",
+    "The news comes following the announcement that SCAD will open with Bleecker Street&#8217;s “A Talent for [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/the-debut-scad-centerpiece-julianne-moore-honor-1236877183/",
+   "score": 80.2,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Julianne Moore",
+     "Jesse",
+     "Centerpiece",
+     "Bleecker"
+    ],
+    "organizations": [
+     "Receive Icon Award",
+     "The Savannah College of Art and Design",
+     "the Icon Award",
+     "A24",
+     "SCAD"
+    ],
+    "locations": [
+     "the SCAD Savannah Film Festival"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9246,
+    "label": "positive"
+   },
+   "summary": "The Savannah College of Art and Design will present Julianne Moore with the Icon Award at the SCAD Savannah Film Festival, as it sets her film “The Dead Donkey,” Jesse Eisenberg&#8217;s musical comedy from A24, as the Centerpiece selection. The news comes following the announcement that SCAD will open with Bleecker Street&#8217;s “A Talent for [&#8230;]",
+   "cluster_id": "3d871d54f7cedc8c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.433241+00:00",
+    "source_published_at": "2026-09-28T20:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0429,
+     "ENTERTAINMENT": 0.7358,
+     "BREAKOUT WATCH": 0.0896,
+     "LIFESTYLE CHAT": 0.0309,
+     "CANADIAN NEWS": 0.0638,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0369
+    }
    }
   },
   {
@@ -1087,6 +1269,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0447
+    }
+   }
+  },
+  {
+   "id": "8ccb2b4f20241424",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Richard Linklater Gives Major ‘Merrily We Roll Along’ Update",
+   "angle": "The director provided a Zurich Film Festival audience with a \"progress report\" on the movie — currently shooting across 20 years with Paul Mescal, Ben Platt and Beanie Feldstein — and explained why he isn't worried…",
+   "bullets": [
+    "The director provided a Zurich Film Festival audience with a \"progress report\" on the movie — currently shooting across 20 years with Paul Mescal, Ben Platt and Beanie Feldstein — and explained why he isn't worried about \"tempting fate.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/richard-linklater-merrily-we-roll-along-film-update-zurich-1236713752/",
+   "score": 78.8,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Richard Linklater",
+     "Paul Mescal",
+     "Ben Platt",
+     "Beanie Feldstein"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7838,
+    "label": "positive"
+   },
+   "summary": "The director provided a Zurich Film Festival audience with a \"progress report\" on the movie — currently shooting across 20 years with Paul Mescal, Ben Platt and Beanie Feldstein — and explained why he isn't worried about \"tempting fate.\"",
+   "cluster_id": "8ccb2b4f20241424",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.912191+00:00",
+    "source_published_at": "2026-09-28T19:55:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.113,
+     "ENTERTAINMENT": 0.53,
+     "BREAKOUT WATCH": 0.076,
+     "LIFESTYLE CHAT": 0.1157,
+     "CANADIAN NEWS": 0.0641,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1012
     }
    }
   },
@@ -2900,6 +3134,114 @@
    }
   },
   {
+   "id": "76f83d27ff422b8c",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Watch: RAF Fairford suspects are bailed, what happens now?",
+   "angle": "The men were all UK nationals in their 20s who live in London and were arrested under the Explosives Act and on suspicion of preparing a terrorist act. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "The men were all UK nationals in their 20s who live in London and were arrested under the Explosives Act and on suspicion of preparing a terrorist act."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/videos/cw33kxk3707jo?at_medium=RSS&at_campaign=rss",
+   "score": 77.2,
+   "is_backup": false,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "RAF Fairford"
+    ],
+    "locations": [
+     "UK",
+     "London"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.9153,
+    "label": "negative"
+   },
+   "summary": "The men were all UK nationals in their 20s who live in London and were arrested under the Explosives Act and on suspicion of preparing a terrorist act.",
+   "cluster_id": "76f83d27ff422b8c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.887400+00:00",
+    "source_published_at": "2026-09-28T19:28:54+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1265,
+     "ENTERTAINMENT": 0.2819,
+     "BREAKOUT WATCH": 0.1849,
+     "LIFESTYLE CHAT": 0.1714,
+     "CANADIAN NEWS": 0.0748,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1604
+    }
+   }
+  },
+  {
+   "id": "64c465d0361004f6",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "The Best Celebrity Memoirs of 2026: Sylvester Stallone, Ari Emmanuel, Lena Dunham and More",
+   "angle": "The memoir has become a new rite of passage for Hollywood stars, who have turned to the medium as a way to tell their stories in their own words, often for the first time ever. Shelf life through drive time — who is…",
+   "bullets": [
+    "The memoir has become a new rite of passage for Hollywood stars, who have turned to the medium as a way to tell their stories in their own words, often for the first time ever.",
+    "One of the most anticipated memoirs this year is Sylvester Stallone&#8217;s &#8220;The Steps,&#8221; in which the beloved actor looks back [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/feature/best-memoirs-celebrity-hollywood-1235052681/",
+   "score": 77.2,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Sylvester Stallone",
+     "Ari Emmanuel",
+     "Lena Dunham"
+    ],
+    "organizations": [
+     "Sylvester Stallone&#8217;s &"
+    ],
+    "locations": [
+     "Hollywood"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8176,
+    "label": "positive"
+   },
+   "summary": "The memoir has become a new rite of passage for Hollywood stars, who have turned to the medium as a way to tell their stories in their own words, often for the first time ever. One of the most anticipated memoirs this year is Sylvester Stallone&#8217;s &#8220;The Steps,&#8221; in which the beloved actor looks back [&#8230;]",
+   "cluster_id": "64c465d0361004f6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.591729+00:00",
+    "source_published_at": "2026-09-28T19:15:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1182,
+     "ENTERTAINMENT": 0.6397,
+     "BREAKOUT WATCH": 0.0382,
+     "LIFESTYLE CHAT": 0.0994,
+     "CANADIAN NEWS": 0.0762,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0283
+    }
+   }
+  },
+  {
    "id": "5e5eecb4a831ca53",
    "date": "2026-09-23",
    "slot": "am",
@@ -2915,7 +3257,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/tv/global/mip-london-ending-london-book-fair-event-mip-talks-1236873015/",
    "score": 77.1,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "MIP London"
@@ -2945,6 +3287,60 @@
    }
   },
   {
+   "id": "ac31d626759c3871",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Big Brother 28’ star Dee Valladares reveals if she would have betrayed Rick Devens",
+   "angle": "Valladares also told Page Six if she thought she could have beat Devens in the final two. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Valladares also told Page Six if she thought she could have beat Devens in the final two."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/09/28/entertainment/big-brother-28-star-dee-valladares-wouldve-betrayed-rick-devens-at-final-3/",
+   "score": 77.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Dee Valladares",
+     "Rick Devens",
+     "Valladares",
+     "Devens"
+    ],
+    "organizations": [
+     "Page Six"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6124,
+    "label": "negative"
+   },
+   "summary": "Valladares also told Page Six if she thought she could have beat Devens in the final two.",
+   "cluster_id": "ac31d626759c3871",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.822207+00:00",
+    "source_published_at": "2026-09-28T19:47:24+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0854,
+     "ENTERTAINMENT": 0.4522,
+     "BREAKOUT WATCH": 0.1062,
+     "LIFESTYLE CHAT": 0.1477,
+     "CANADIAN NEWS": 0.0365,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1719
+    }
+   }
+  },
+  {
    "id": "d26f89c2d8c77bad",
    "date": "2026-09-28",
    "slot": "am",
@@ -2960,7 +3356,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/music/awards/madonna-sabrina-carpenter-charli-xcx-mtv-vmas-performance-1236876448/",
    "score": 76.9,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Madonna",
@@ -3015,7 +3411,7 @@
    "source_type": "news",
    "url": "https://nypost.com/2026/09/28/us-news/texas-man-arrested-after-intentionally-crashing-into-a-closed-kroger-to-use-bathroom-cops/",
    "score": 76.8,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [],
     "organizations": [
@@ -3067,7 +3463,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/film/global/florence-pugh-cornell-university-sexual-assault-case-1236877220/",
    "score": 76.8,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Florence Pugh Speaks",
@@ -3122,7 +3518,7 @@
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/tv/tv-reviews/brothers-review-matthew-mcconaughey-woody-harrelson-apple-1236707764/",
    "score": 76.7,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Matthew McConaughey",
@@ -3169,7 +3565,7 @@
    "source_type": "news",
    "url": "https://nypost.com/2026/09/24/us-news/american-idol-alum-caleb-flynns-ex-misstress-sobs-as-she-reads-her-text-about-wanting-to-kill-his-wife-at-murder-trial/",
    "score": 76.7,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Caleb Flynn’s",
@@ -4496,6 +4892,58 @@
    }
   },
   {
+   "id": "2e7da5f5281b7ab2",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Margaret Atwood’s $1M gift brings a love of birds full circle at Western",
+   "angle": "&#32; submitted by &#32; /u/deggar34 [link] &#32; [comments]. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/deggar34 [link] &#32; [comments]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wsm84y/margaret_atwoods_1m_gift_brings_a_love_of_birds/",
+   "score": 76.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Margaret Atwood’s"
+    ],
+    "organizations": [
+     "Western.",
+     "/u/deggar34"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7964,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/deggar34 [link] &#32; [comments]",
+   "cluster_id": "2e7da5f5281b7ab2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.032736+00:00",
+    "source_published_at": "2026-09-28T18:14:01+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1096,
+     "ENTERTAINMENT": 0.2892,
+     "BREAKOUT WATCH": 0.2207,
+     "LIFESTYLE CHAT": 0.1477,
+     "CANADIAN NEWS": 0.1758,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.057
+    }
+   }
+  },
+  {
    "id": "e5b8aef32deef8b5",
    "date": "2026-09-23",
    "slot": "am",
@@ -5178,6 +5626,62 @@
     "ingested_at": "2026-09-26T09:07:50.527525+00:00",
     "source_published_at": "2026-09-26T00:27:23+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "aa5484b421f5e9f4",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Woke megachurch pastor trying to unseat Kansas GOP senator called on congregation to repent for driving, eating beef",
+   "angle": "Kansas Dem Senate nominee Adam Hamilton is under fire from GOP Sen. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Kansas Dem Senate nominee Adam Hamilton is under fire from GOP Sen.",
+    "Roger Marshall for a past sermon urging people to repent for eating beef."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/woke-megachurch-pastor-trying-to-unseat-kansas-gop-senator-called-on-congregation-to-repent-for-driving-eating-beef/",
+   "score": 75.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Adam Hamilton",
+     "Roger Marshall"
+    ],
+    "organizations": [
+     "GOP",
+     "Senate"
+    ],
+    "locations": [
+     "Kansas"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.34,
+    "label": "negative"
+   },
+   "summary": "Kansas Dem Senate nominee Adam Hamilton is under fire from GOP Sen. Roger Marshall for a past sermon urging people to repent for eating beef.",
+   "cluster_id": "aa5484b421f5e9f4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.643563+00:00",
+    "source_published_at": "2026-09-28T19:52:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1849,
+     "ENTERTAINMENT": 0.4364,
+     "BREAKOUT WATCH": 0.0951,
+     "LIFESTYLE CHAT": 0.0294,
+     "CANADIAN NEWS": 0.0808,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1734
+    }
    }
   },
   {
@@ -6453,6 +6957,57 @@
    }
   },
   {
+   "id": "7d1850ae0e717c1a",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Florence Pugh Speaks Out on Cornell Rape Case, Calls Out Instagram for “Censoring” Her Social Media Post",
+   "angle": "\"This is really the moment where we need our men to be as horrified and as sickened as us,\" the actress wrote. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "\"This is really the moment where we need our men to be as horrified and as sickened as us,\" the actress wrote."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/news/general-news/florence-pugh-speaks-out-cornell-rape-case-1236713592/",
+   "score": 74.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Florence Pugh Speaks"
+    ],
+    "organizations": [
+     "Cornell Rape Case"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9136,
+    "label": "negative"
+   },
+   "summary": "\"This is really the moment where we need our men to be as horrified and as sickened as us,\" the actress wrote.",
+   "cluster_id": "7d1850ae0e717c1a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.096778+00:00",
+    "source_published_at": "2026-09-28T18:41:24+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0716,
+     "ENTERTAINMENT": 0.6507,
+     "BREAKOUT WATCH": 0.0404,
+     "LIFESTYLE CHAT": 0.1163,
+     "CANADIAN NEWS": 0.0826,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0384
+    }
+   }
+  },
+  {
    "id": "8054b0c30a3d6342",
    "date": "2026-09-22",
    "slot": "am",
@@ -6624,6 +7179,55 @@
     "ingested_at": "2026-09-22T09:50:17.007649+00:00",
     "source_published_at": "2026-09-22T06:22:30+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "3191f044e96261c8",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Rob Lowe names his best on-screen kiss: ‘Most beautiful woman I’d ever seen’",
+   "angle": "The actor admitted he was \"scared\" to film the kissing scene. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The actor admitted he was \"scared\" to film the kissing scene."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/09/28/celebrity-news/rob-lowe-names-his-best-on-screen-kiss/",
+   "score": 73.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rob Lowe"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.875,
+    "label": "positive"
+   },
+   "summary": "The actor admitted he was \"scared\" to film the kissing scene.",
+   "cluster_id": "3191f044e96261c8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.426849+00:00",
+    "source_published_at": "2026-09-28T20:07:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0354,
+     "ENTERTAINMENT": 0.7663,
+     "BREAKOUT WATCH": 0.0477,
+     "LIFESTYLE CHAT": 0.0416,
+     "CANADIAN NEWS": 0.0416,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0674
+    }
    }
   },
   {
@@ -7075,6 +7679,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1573
+    }
+   }
+  },
+  {
+   "id": "7520dcb46473ae9e",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Eva Mendes and Kelly Rutherford have this chic matching set in common",
+   "angle": "The California-based brand is also a favorite of Meghan Markle's. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The California-based brand is also a favorite of Meghan Markle's."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/09/28/style/eva-mendes-and-kelly-rutherford-have-this-heidi-merrick-set-in-common/",
+   "score": 73.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Eva Mendes",
+     "Kelly Rutherford"
+    ],
+    "organizations": [
+     "Meghan Markle's"
+    ],
+    "locations": [
+     "California"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.657,
+    "label": "positive"
+   },
+   "summary": "The California-based brand is also a favorite of Meghan Markle's.",
+   "cluster_id": "7520dcb46473ae9e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.685186+00:00",
+    "source_published_at": "2026-09-28T19:51:53+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1591,
+     "ENTERTAINMENT": 0.4623,
+     "BREAKOUT WATCH": 0.0483,
+     "LIFESTYLE CHAT": 0.1186,
+     "CANADIAN NEWS": 0.1104,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1013
     }
    }
   },
@@ -8506,6 +9164,59 @@
    }
   },
   {
+   "id": "f790d0c00a443a47",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Reacher’ Renewed for Season 6 Ahead of Season 5 Premiere",
+   "angle": "&#8220;Reacher&#8221; continues its win streak at Amazon, with Prime Video renewing the action series for a sixth season while Season 5 is still in production. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "&#8220;Reacher&#8221; continues its win streak at Amazon, with Prime Video renewing the action series for a sixth season while Season 5 is still in production.",
+    "The series, which stars Alan Ritchson in the title role, has been a consistent hit for Amazon since it originally launched in 2022.",
+    "Amazon says that Season 4 of &#8220;Reacher&#8221; [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/reacher-renewed-season-6-season-5-premiere-1236877515/",
+   "score": 73.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Alan Ritchson"
+    ],
+    "organizations": [
+     "Amazon"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8126,
+    "label": "positive"
+   },
+   "summary": "&#8220;Reacher&#8221; continues its win streak at Amazon, with Prime Video renewing the action series for a sixth season while Season 5 is still in production. The series, which stars Alan Ritchson in the title role, has been a consistent hit for Amazon since it originally launched in 2022. Amazon says that Season 4 of &#8220;Reacher&#8221; [&#8230;]",
+   "cluster_id": "f790d0c00a443a47",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.641974+00:00",
+    "source_published_at": "2026-09-28T19:15:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0491,
+     "ENTERTAINMENT": 0.8158,
+     "BREAKOUT WATCH": 0.0339,
+     "LIFESTYLE CHAT": 0.0294,
+     "CANADIAN NEWS": 0.0226,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0493
+    }
+   }
+  },
+  {
    "id": "346b4016d6d35c9e",
    "date": "2026-09-22",
    "slot": "am",
@@ -8947,6 +9658,65 @@
    }
   },
   {
+   "id": "a0c1a6598ee656ab",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Bob Chapek Still Feels ‘Let Down’ by Bob Iger and Disney: ‘They’ve Attempted to Erase Me’",
+   "angle": "When Bob Chapek assumed the helm of the Disney empire in February 2020 as Bob Iger’s personally picked successor, it felt like the well-earned pinnacle of decades of hard work at the Magic Kingdom. Shelf life through…",
+   "bullets": [
+    "When Bob Chapek assumed the helm of the Disney empire in February 2020 as Bob Iger’s personally picked successor, it felt like the well-earned pinnacle of decades of hard work at the Magic Kingdom.",
+    "But in less than three years, Chapek’s dream was destroyed: He was abruptly dismissed in November 2022, and Iger returned as [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/biz/news/bob-chapek-book-interview-iger-disney-disappointment-1236877387/",
+   "score": 73.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Bob Chapek",
+     "Bob Iger",
+     "Bob Iger’s",
+     "Iger"
+    ],
+    "organizations": [
+     "Disney",
+     "pinnacle",
+     "Chapek"
+    ],
+    "locations": [
+     "the Magic Kingdom"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2023,
+    "label": "negative"
+   },
+   "summary": "When Bob Chapek assumed the helm of the Disney empire in February 2020 as Bob Iger’s personally picked successor, it felt like the well-earned pinnacle of decades of hard work at the Magic Kingdom. But in less than three years, Chapek’s dream was destroyed: He was abruptly dismissed in November 2022, and Iger returned as [&#8230;]",
+   "cluster_id": "a0c1a6598ee656ab",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.484594+00:00",
+    "source_published_at": "2026-09-28T19:45:16+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1241,
+     "ENTERTAINMENT": 0.4787,
+     "BREAKOUT WATCH": 0.1968,
+     "LIFESTYLE CHAT": 0.0866,
+     "CANADIAN NEWS": 0.0731,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0407
+    }
+   }
+  },
+  {
    "id": "82b23f16c65eb806",
    "date": "2026-09-22",
    "slot": "am",
@@ -9167,6 +9937,62 @@
    }
   },
   {
+   "id": "c0bfe86f70c22f34",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Paramount and States Defend Antitrust Settlement From Sen. Booker’s Criticisms",
+   "angle": "Paramount and a coalition of 12 state attorneys general defended their antitrust settlement on Monday from a series of criticisms raised last week by New Jersey Sen. Shelf life through drive time — who is overrated and…",
+   "bullets": [
+    "Paramount and a coalition of 12 state attorneys general defended their antitrust settlement on Monday from a series of criticisms raised last week by New Jersey Sen.",
+    "In separate filings, the two sides argued that the deal was vigorously negotiated, has &#8220;teeth,&#8221; and should not be subjected to an independent &#8220;public interest&#8221; review."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/paramount-settlement-cory-booker-response-1236877590/",
+   "score": 72.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Booker’s Criticisms",
+     "Cory Booker"
+    ],
+    "organizations": [
+     "Paramount",
+     "States Defend Antitrust Settlement"
+    ],
+    "locations": [
+     "New Jersey"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5859,
+    "label": "negative"
+   },
+   "summary": "Paramount and a coalition of 12 state attorneys general defended their antitrust settlement on Monday from a series of criticisms raised last week by New Jersey Sen. Cory Booker. In separate filings, the two sides argued that the deal was vigorously negotiated, has &#8220;teeth,&#8221; and should not be subjected to an independent &#8220;public interest&#8221; review. [&#8230;]",
+   "cluster_id": "c0bfe86f70c22f34",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.383181+00:00",
+    "source_published_at": "2026-09-28T20:07:54+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2518,
+     "ENTERTAINMENT": 0.3289,
+     "BREAKOUT WATCH": 0.1727,
+     "LIFESTYLE CHAT": 0.0995,
+     "CANADIAN NEWS": 0.0745,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0726
+    }
+   }
+  },
+  {
    "id": "1a3316d2b0938251",
    "date": "2026-09-22",
    "slot": "am",
@@ -9381,6 +10207,64 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0443
+    }
+   }
+  },
+  {
+   "id": "d660a74d6d1b1df8",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Disney and Columbia Sportswear Expand Partnership With Mickey Mouse ‘Outdoor Club Collection’: Shop the Full Lineup Here",
+   "angle": "Mickey Mouse is heading to the trail in a new collection from Columbia Sportswear. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Mickey Mouse is heading to the trail in a new collection from Columbia Sportswear.",
+    "Disney has teamed up with the outerwear company for “Mickey’s Outdoor Club” collection, a lineup of fleece, rainwear, T-shirts and accessories &#8220;inspired by a classic family road trip,&#8221; according to the brand.",
+    "The collaboration launches Sept."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/shopping/news/disney-columbia-sportswear-mickey-mouse-collection-shop-1236877627/",
+   "score": 72.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mickey Mouse"
+    ],
+    "organizations": [
+     "Disney",
+     "Columbia Sportswear Expand Partnership With Mickey Mouse ‘",
+     "Columbia Sportswear",
+     "Mickey’s Outdoor Club",
+     "accessories &#",
+     "Columbia Greater Rewards ["
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7845,
+    "label": "positive"
+   },
+   "summary": "Mickey Mouse is heading to the trail in a new collection from Columbia Sportswear. Disney has teamed up with the outerwear company for “Mickey’s Outdoor Club” collection, a lineup of fleece, rainwear, T-shirts and accessories &#8220;inspired by a classic family road trip,&#8221; according to the brand. The collaboration launches Sept. 29 for Columbia Greater Rewards [&#8230;]",
+   "cluster_id": "d660a74d6d1b1df8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.538104+00:00",
+    "source_published_at": "2026-09-28T19:27:14+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1059,
+     "ENTERTAINMENT": 0.5893,
+     "BREAKOUT WATCH": 0.1,
+     "LIFESTYLE CHAT": 0.0654,
+     "CANADIAN NEWS": 0.0821,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0574
     }
    }
   },
@@ -9755,6 +10639,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0584
+    }
+   }
+  },
+  {
+   "id": "5ce71a45ae1e8378",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Patient Zero,’ the New Taylor Swift Music Video, Explained",
+   "angle": "Taylor Swift's new video inspires questions. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Taylor Swift's new video inspires questions.",
+    "We've got the answers."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://decider.com/2026/09/28/patient-zero-movie-new-taylor-swift-music-video-patient-zero-explained/",
+   "score": 72.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Patient Zero",
+     "Taylor Swift's"
+    ],
+    "organizations": [
+     "the New Taylor Swift Music Video"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5719,
+    "label": "positive"
+   },
+   "summary": "Taylor Swift's new video inspires questions. We've got the answers.",
+   "cluster_id": "5ce71a45ae1e8378",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.200131+00:00",
+    "source_published_at": "2026-09-28T20:20:05+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1859,
+     "ENTERTAINMENT": 0.6163,
+     "BREAKOUT WATCH": 0.0408,
+     "LIFESTYLE CHAT": 0.089,
+     "CANADIAN NEWS": 0.0239,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0441
     }
    }
   },
@@ -10153,6 +11090,61 @@
    }
   },
   {
+   "id": "3977371df4219332",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Matt Groening on the Future of ‘Futurama’ as the Series Gets Another Finale: ‘We Will Rise Again’ (EXCLUSIVE)",
+   "angle": "Matt Groening on the Future of ‘Futurama’ as the Series Gets Another Finale: ‘We Will Rise Again’ (EXCLUSIVE). Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Long live “Futurama!” As the long-running animated series wraps its Season 14 Monday on Hulu, there are no further plans at the moment for it to return as a regular series."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/matt-groening-futurama-season-14-finale-future-1236877180/",
+   "score": 72.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Matt Groening",
+     "Futurama"
+    ],
+    "organizations": [
+     "the Future of ‘Futurama",
+     "Futurama"
+    ],
+    "locations": [
+     "the Matt Groening"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5512,
+    "label": "positive"
+   },
+   "summary": "“Futurama” is over. Long live “Futurama!” As the long-running animated series wraps its Season 14 Monday on Hulu, there are no further plans at the moment for it to return as a regular series.",
+   "cluster_id": "3977371df4219332",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.797291+00:00",
+    "source_published_at": "2026-09-28T18:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1735,
+     "ENTERTAINMENT": 0.4397,
+     "BREAKOUT WATCH": 0.1141,
+     "LIFESTYLE CHAT": 0.093,
+     "CANADIAN NEWS": 0.1259,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0538
+    }
+   }
+  },
+  {
    "id": "23d93dcd049caf66",
    "date": "2026-09-22",
    "slot": "am",
@@ -10493,6 +11485,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0355
+    }
+   }
+  },
+  {
+   "id": "881b47207e5f4724",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Aaron Judge makes bold Yankees playoff proclamation as he tries to convince brass he’s ready",
+   "angle": "Aaron Judge is putting his calf where his mouth is. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Aaron Judge is putting his calf where his mouth is."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/aaron-judge-makes-bold-yankees-prediction-as-he-tries-to-convince-brass-hes-ready/",
+   "score": 72.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Aaron"
+    ],
+    "organizations": [
+     "Yankees"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7269,
+    "label": "positive"
+   },
+   "summary": "Aaron Judge is putting his calf where his mouth is.",
+   "cluster_id": "881b47207e5f4724",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.159359+00:00",
+    "source_published_at": "2026-09-28T20:21:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.202,
+     "ENTERTAINMENT": 0.531,
+     "BREAKOUT WATCH": 0.0441,
+     "LIFESTYLE CHAT": 0.0877,
+     "CANADIAN NEWS": 0.0973,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0379
     }
    }
   },
@@ -11215,6 +12258,65 @@
    }
   },
   {
+   "id": "bd46022340d64b0f",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Victor Glover, First Black Astronaut to Fly to the Moon, Signs With CAA",
+   "angle": "CAA has signed emeritus astronaut Victor Glover for representation in all areas. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "CAA has signed emeritus astronaut Victor Glover for representation in all areas.",
+    "Glover is a retired U.S.",
+    "Navy captain and NASA astronaut who made history several times during his career as a space explorer."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/biz/news/caa-victor-glover-first-black-astronaut-moon-1236875875/",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Victor Glover",
+     "Moon"
+    ],
+    "organizations": [
+     "First Black Astronaut",
+     "U.S. Navy",
+     "NASA",
+     "Glover",
+     "Resilience",
+     "the International Space Station"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "CAA has signed emeritus astronaut Victor Glover for representation in all areas. Glover is a retired U.S. Navy captain and NASA astronaut who made history several times during his career as a space explorer. In 2020, Glover piloted the first operational flight of SpaceX&#8217;s Crew Dragon spacecraft, Resilience, to the International Space Station.",
+   "cluster_id": "bd46022340d64b0f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.691453+00:00",
+    "source_published_at": "2026-09-28T18:40:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1684,
+     "ENTERTAINMENT": 0.392,
+     "BREAKOUT WATCH": 0.1297,
+     "LIFESTYLE CHAT": 0.0609,
+     "CANADIAN NEWS": 0.1422,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1069
+    }
+   }
+  },
+  {
    "id": "2b1017331325ea6e",
    "date": "2026-09-22",
    "slot": "am",
@@ -11818,6 +12920,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0331
+    }
+   }
+  },
+  {
+   "id": "25535a08557d4a7d",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Matthew Stafford caught spitting in Broncos tunnel after controversial Rams loss",
+   "angle": "A video of Los Angeles Rams quarterback Matthew Stafford spitting in the Denver Broncos' tunnel is raising eyebrows. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "A video of Los Angeles Rams quarterback Matthew Stafford spitting in the Denver Broncos' tunnel is raising eyebrows."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/matthew-stafford-seen-spitting-in-broncos-tunnel-after-rams-loss/",
+   "score": 71.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Matthew Stafford",
+     "Rams"
+    ],
+    "organizations": [],
+    "locations": [
+     "Los Angeles",
+     "the Denver Broncos'"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4767,
+    "label": "negative"
+   },
+   "summary": "A video of Los Angeles Rams quarterback Matthew Stafford spitting in the Denver Broncos' tunnel is raising eyebrows.",
+   "cluster_id": "25535a08557d4a7d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.513793+00:00",
+    "source_published_at": "2026-09-28T20:05:51+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2309,
+     "ENTERTAINMENT": 0.2858,
+     "BREAKOUT WATCH": 0.1959,
+     "LIFESTYLE CHAT": 0.0933,
+     "CANADIAN NEWS": 0.1443,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0498
     }
    }
   },
@@ -13492,6 +14647,60 @@
    }
   },
   {
+   "id": "d5f2b523df490fdd",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Hollywood hotspot marred by kitten-killing allegations plots its comeback",
+   "angle": "Before closing down in 2025, the restaurant hosted high-profile figures from entertainment and business, including Beyoncé, Jay-Z, Jeff Bezos, and Will Ferrell. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "Before closing down in 2025, the restaurant hosted high-profile figures from entertainment and business, including Beyoncé, Jay-Z, Jeff Bezos, and Will Ferrell."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/hollywood-hotspot-horses-announces-comeback/",
+   "score": 71.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jeff Bezos",
+     "Will Ferrell"
+    ],
+    "organizations": [
+     "Beyoncé"
+    ],
+    "locations": [
+     "Hollywood"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4215,
+    "label": "positive"
+   },
+   "summary": "Before closing down in 2025, the restaurant hosted high-profile figures from entertainment and business, including Beyoncé, Jay-Z, Jeff Bezos, and Will Ferrell.",
+   "cluster_id": "d5f2b523df490fdd",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.598989+00:00",
+    "source_published_at": "2026-09-28T19:58:10+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1837,
+     "ENTERTAINMENT": 0.3323,
+     "BREAKOUT WATCH": 0.1687,
+     "LIFESTYLE CHAT": 0.1179,
+     "CANADIAN NEWS": 0.1312,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0661
+    }
+   }
+  },
+  {
    "id": "dbd1afb60e8646ce",
    "date": "2026-09-22",
    "slot": "am",
@@ -14537,6 +15746,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0403
+    }
+   }
+  },
+  {
+   "id": "55a9d8c050b21df1",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Woman beaten to death in Central Park ID’d as beloved homeless artist famed for painting birds",
+   "angle": "A beloved homeless artist famed for painting the birds of Central Park was the woman found viciously murdered in a gazebo near the park’s boathouse, The Post has learned. Shelf life through drive time — who is…",
+   "bullets": [
+    "A beloved homeless artist famed for painting the birds of Central Park was the woman found viciously murdered in a gazebo near the park’s boathouse, The Post has learned."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/woman-beaten-to-death-in-central-park-idd-as-beloved-homeless-artist-famed-for-painting-birds/",
+   "score": 70.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Post"
+    ],
+    "locations": [
+     "Central Park"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7783,
+    "label": "negative"
+   },
+   "summary": "A beloved homeless artist famed for painting the birds of Central Park was the woman found viciously murdered in a gazebo near the park’s boathouse, The Post has learned.",
+   "cluster_id": "55a9d8c050b21df1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.472149+00:00",
+    "source_published_at": "2026-09-28T20:07:34+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1128,
+     "ENTERTAINMENT": 0.5706,
+     "BREAKOUT WATCH": 0.1435,
+     "LIFESTYLE CHAT": 0.0525,
+     "CANADIAN NEWS": 0.0697,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.051
     }
    }
   },
@@ -16169,6 +17429,57 @@
    }
   },
   {
+   "id": "f9508e1da39ad53a",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Where to watch Eagles vs. Bears live for free on Monday Night Football",
+   "angle": "Much of the intrigue heading into the final game of Week 3 centered around one question: Who will start at quarterback for the Bears? Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Much of the intrigue heading into the final game of Week 3 centered around one question: Who will start at quarterback for the Bears?"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/how-to-watch-eagles-vs-bears-for-free-on-monday-night-football/",
+   "score": 70.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Eagles"
+    ],
+    "organizations": [],
+    "locations": [
+     "Bears"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5106,
+    "label": "positive"
+   },
+   "summary": "Much of the intrigue heading into the final game of Week 3 centered around one question: Who will start at quarterback for the Bears?",
+   "cluster_id": "f9508e1da39ad53a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.289267+00:00",
+    "source_published_at": "2026-09-28T20:16:49+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2336,
+     "ENTERTAINMENT": 0.3067,
+     "BREAKOUT WATCH": 0.1276,
+     "LIFESTYLE CHAT": 0.1505,
+     "CANADIAN NEWS": 0.0512,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1304
+    }
+   }
+  },
+  {
    "id": "8c7e415ef0c92b5d",
    "date": "2026-09-22",
    "slot": "am",
@@ -17289,6 +18600,57 @@
    }
   },
   {
+   "id": "ef5b9fa0b55e1786",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "Iran court upholds lashes sentence for singer who performed without hijab",
+   "angle": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/crn45ed1kqqgo?at_medium=RSS&at_campaign=rss",
+   "score": 69.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Parastoo Ahmadi"
+    ],
+    "organizations": [],
+    "locations": [
+     "Iran"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4588,
+    "label": "negative"
+   },
+   "summary": "Parastoo Ahmadi was convicted of \"offending public decency\" after singing while wearing a sleeveless dress during a livestreamed concert.",
+   "cluster_id": "ef5b9fa0b55e1786",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.285323+00:00",
+    "source_published_at": "2026-09-28T17:15:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.305,
+     "ENTERTAINMENT": 0.1408,
+     "BREAKOUT WATCH": 0.2071,
+     "LIFESTYLE CHAT": 0.1273,
+     "CANADIAN NEWS": 0.0451,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1747
+    }
+   }
+  },
+  {
    "id": "d92565f87902a562",
    "date": "2026-09-22",
    "slot": "am",
@@ -18401,6 +19763,61 @@
     "ingested_at": "2026-09-26T09:07:51.619830+00:00",
     "source_published_at": "2026-09-25T23:05:40+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "a26e403669cafa8c",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Chuck Lorre on Paramount-Warner Bros. Merger, New Memoir and Fear Being a Great Motivator for ‘The Big Bang Theory’ Spin-Off",
+   "angle": "The superproducer and prolific philanthropist dishes on his new tome, 'Sitcom': \"I thought I was going to write this book and reveal where all the skeletons are buried. Shelf life through drive time — who is overrated…",
+   "bullets": [
+    "The superproducer and prolific philanthropist dishes on his new tome, 'Sitcom': \"I thought I was going to write this book and reveal where all the skeletons are buried.",
+    "It turns out most of them are mine.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-features/chuck-lorre-interview-memoir-sitcom-1236713241/",
+   "score": 69.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Chuck Lorre",
+     "Sitcom"
+    ],
+    "organizations": [
+     "Paramount-Warner Bros. Merger",
+     "New Memoir",
+     "Fear Being a Great Motivator for ‘The Big Bang Theory’ Spin-Off"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2263,
+    "label": "positive"
+   },
+   "summary": "The superproducer and prolific philanthropist dishes on his new tome, 'Sitcom': \"I thought I was going to write this book and reveal where all the skeletons are buried. It turns out most of them are mine.\"",
+   "cluster_id": "a26e403669cafa8c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.005303+00:00",
+    "source_published_at": "2026-09-28T19:07:26+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1189,
+     "ENTERTAINMENT": 0.5772,
+     "BREAKOUT WATCH": 0.0586,
+     "LIFESTYLE CHAT": 0.1325,
+     "CANADIAN NEWS": 0.0616,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0511
+    }
    }
   },
   {
@@ -19642,6 +21059,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0068
+    }
+   }
+  },
+  {
+   "id": "5a4dc34d6acdf17e",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "FBI offers $1-million reward for tips about gangster tied to Nijjar killing",
+   "angle": "Indian gangster Satinderjeet Singh, also known as Goldy Brar, was added to FBI’s list of 10 most wanted fugitives Monday. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Indian gangster Satinderjeet Singh, also known as Goldy Brar, was added to FBI’s list of 10 most wanted fugitives Monday"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-fbi-1-million-reward-satinderjeet-singh-goldy-brar-hardeep-singh/",
+   "score": 68.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Satinderjeet Singh",
+     "Goldy Brar"
+    ],
+    "organizations": [
+     "FBI"
+    ],
+    "locations": [
+     "Nijjar"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.1779,
+    "label": "negative"
+   },
+   "summary": "Indian gangster Satinderjeet Singh, also known as Goldy Brar, was added to FBI’s list of 10 most wanted fugitives Monday",
+   "cluster_id": "5a4dc34d6acdf17e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:00.162596+00:00",
+    "source_published_at": "2026-09-28T18:17:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3694,
+     "ENTERTAINMENT": 0.2081,
+     "BREAKOUT WATCH": 0.175,
+     "LIFESTYLE CHAT": 0.0843,
+     "CANADIAN NEWS": 0.0788,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0845
     }
    }
   },
@@ -21484,6 +22955,57 @@
    }
   },
   {
+   "id": "7c0b34f4e46d3089",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "Mahmood signals rethink on migrants' right to remain",
+   "angle": "The home secretary has been under pressure to water down the proposals from some Labour MPs, including Angela Rayner. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The home secretary has been under pressure to water down the proposals from some Labour MPs, including Angela Rayner."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmz7zxdy4gllo?at_medium=RSS&at_campaign=rss",
+   "score": 68.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Angela Rayner"
+    ],
+    "organizations": [
+     "Labour"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.296,
+    "label": "negative"
+   },
+   "summary": "The home secretary has been under pressure to water down the proposals from some Labour MPs, including Angela Rayner.",
+   "cluster_id": "7c0b34f4e46d3089",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.063889+00:00",
+    "source_published_at": "2026-09-28T18:04:41+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3803,
+     "ENTERTAINMENT": 0.1927,
+     "BREAKOUT WATCH": 0.1471,
+     "LIFESTYLE CHAT": 0.0934,
+     "CANADIAN NEWS": 0.1145,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0719
+    }
+   }
+  },
+  {
    "id": "94615b78d999caf0",
    "date": "2026-09-22",
    "slot": "am",
@@ -21941,6 +23463,112 @@
     "ingested_at": "2026-09-24T18:51:55.358990+00:00",
     "source_published_at": "2026-09-24T18:50:40+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "c9a96996a23bfc74",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "James H. Rosenfield, Sr., Former Executive VP of CBS Broadcast Group, Dies at 97",
+   "angle": "James H. Rosenfield, Sr., Former Executive VP of CBS Broadcast Group, Dies at 97. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Rosenfield, Sr., a former top CBS executive who helped build the network into a cultural powerhouse, died Sept.",
+    "Rosenfield spent two decades at CBS, during the years that brought programs like “All in the Family,” “M*A*S*H” and “60 Minutes.”"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/james-rosenfield-dead-cbs-1236877582/",
+   "score": 67.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "James H. Rosenfield",
+     "Rosenfield"
+    ],
+    "organizations": [
+     "CBS Broadcast Group",
+     "Dies",
+     "CBS"
+    ],
+    "locations": [
+     "Boston"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0772,
+    "label": "negative"
+   },
+   "summary": "James H. Rosenfield, Sr., a former top CBS executive who helped build the network into a cultural powerhouse, died Sept. 26. He was 97. Rosenfield spent two decades at CBS, during the years that brought programs like “All in the Family,” “M*A*S*H” and “60 Minutes.”",
+   "cluster_id": "c9a96996a23bfc74",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.330644+00:00",
+    "source_published_at": "2026-09-28T20:11:06+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0925,
+     "ENTERTAINMENT": 0.4637,
+     "BREAKOUT WATCH": 0.184,
+     "LIFESTYLE CHAT": 0.0879,
+     "CANADIAN NEWS": 0.0807,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0913
+    }
+   }
+  },
+  {
+   "id": "77b37e31029b715a",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "Five men arrested in RAF Fairford incident released on police bail",
+   "angle": "Police are exploring whether proxies or individuals working on behalf of a foreign state are involved. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Police are exploring whether proxies or individuals working on behalf of a foreign state are involved."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6e9elmpvglno?at_medium=RSS&at_campaign=rss",
+   "score": 67.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "RAF Fairford"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4767,
+    "label": "negative"
+   },
+   "summary": "Police are exploring whether proxies or individuals working on behalf of a foreign state are involved.",
+   "cluster_id": "77b37e31029b715a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.841732+00:00",
+    "source_published_at": "2026-09-28T19:16:26+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4882,
+     "ENTERTAINMENT": 0.0976,
+     "BREAKOUT WATCH": 0.1052,
+     "LIFESTYLE CHAT": 0.1039,
+     "CANADIAN NEWS": 0.1427,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0624
+    }
    }
   },
   {
@@ -23246,6 +24874,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0658
+    }
+   }
+  },
+  {
+   "id": "dc7fc6083d126411",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "Russian foreign minister questions 'what will become of UK' and future of 'the Celts'",
+   "angle": "In response, Plaid Cymru said Wales' future was \"not for the Kremlin to endorse, oppose or exploit\". Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "In response, Plaid Cymru said Wales' future was \"not for the Kremlin to endorse, oppose or exploit\"."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6j9xk474wxgo?at_medium=RSS&at_campaign=rss",
+   "score": 67.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Wales"
+    ],
+    "organizations": [
+     "Kremlin"
+    ],
+    "locations": [
+     "UK"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2263,
+    "label": "positive"
+   },
+   "summary": "In response, Plaid Cymru said Wales' future was \"not for the Kremlin to endorse, oppose or exploit\".",
+   "cluster_id": "dc7fc6083d126411",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.195539+00:00",
+    "source_published_at": "2026-09-28T18:58:58+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5822,
+     "ENTERTAINMENT": 0.1638,
+     "BREAKOUT WATCH": 0.052,
+     "LIFESTYLE CHAT": 0.0803,
+     "CANADIAN NEWS": 0.0825,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0392
     }
    }
   },
@@ -24838,6 +26519,58 @@
    }
   },
   {
+   "id": "67d5d118ae56b202",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Tulsa King’ Season 4 Trailer Released: “Bad Things Are Going to Happen”",
+   "angle": "Sylvester Stallone returns in Paramount+'s fourth season of 'Tulsa King.'. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Sylvester Stallone returns in Paramount+'s fourth season of 'Tulsa King.'"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/tulsa-king-season-4-trailer-release-date-1236713552/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Tulsa King",
+     "Sylvester Stallone"
+    ],
+    "organizations": [],
+    "locations": [
+     "Paramount+"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Sylvester Stallone returns in Paramount+'s fourth season of 'Tulsa King.'",
+   "cluster_id": "67d5d118ae56b202",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.865265+00:00",
+    "source_published_at": "2026-09-28T20:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1272,
+     "ENTERTAINMENT": 0.6766,
+     "BREAKOUT WATCH": 0.0707,
+     "LIFESTYLE CHAT": 0.0561,
+     "CANADIAN NEWS": 0.0392,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0301
+    }
+   }
+  },
+  {
    "id": "72f197b3798c84e5",
    "date": "2026-09-22",
    "slot": "am",
@@ -25893,6 +27626,55 @@
    }
   },
   {
+   "id": "b3811e91658ec3f8",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "What a US diesel export ban could mean for you",
+   "angle": "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cky9z3r00l9eo?at_medium=RSS&at_campaign=rss",
+   "score": 66.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "US"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3612,
+    "label": "negative"
+   },
+   "summary": "The threatened proposal aims to protect US consumers from rising costs, but it could trigger major economic waves if it were to happen.",
+   "cluster_id": "b3811e91658ec3f8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.458268+00:00",
+    "source_published_at": "2026-09-28T18:18:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4455,
+     "ENTERTAINMENT": 0.1661,
+     "BREAKOUT WATCH": 0.0796,
+     "LIFESTYLE CHAT": 0.1832,
+     "CANADIAN NEWS": 0.0804,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0452
+    }
+   }
+  },
+  {
    "id": "505da911486940c6",
    "date": "2026-09-28",
    "slot": "am",
@@ -25938,6 +27720,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0187
+    }
+   }
+  },
+  {
+   "id": "925e0cf687672cd7",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Sen. John Kennedy pushes to ban living pols from getting buildings named after them",
+   "angle": "Sen. John Kennedy pushes to ban living pols from getting buildings named after them. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "John Kennedy (R-La.) called for a new rule to ensure that living pols can't have a building named after them while they are still alive."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/sen-john-kennedy-pushes-to-ban-living-pols-from-getting-buildings-named-after-them/",
+   "score": 66.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "John Kennedy"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.1531,
+    "label": "positive"
+   },
+   "summary": "One-liner whiz Sen. John Kennedy (R-La.) called for a new rule to ensure that living pols can't have a building named after them while they are still alive.",
+   "cluster_id": "925e0cf687672cd7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.731907+00:00",
+    "source_published_at": "2026-09-28T19:51:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1641,
+     "ENTERTAINMENT": 0.2847,
+     "BREAKOUT WATCH": 0.1171,
+     "LIFESTYLE CHAT": 0.094,
+     "CANADIAN NEWS": 0.2102,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1298
     }
    }
   },
@@ -29508,6 +31339,61 @@
    }
   },
   {
+   "id": "e5c5d7ad954d84d9",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Julia Child’s Boston-area home asks $6.47M — where she filmed her shows and her flowers still grow",
+   "angle": "Julia Child’s Boston-area home asks $6.47M — where she filmed her shows and her flowers still grow. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "This updated Cambridge, Mass.",
+    "home -- just blocks from Harvard Yard -- still has her stamp."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/real-estate/julia-childs-boston-area-home-asks-6-47m/",
+   "score": 65.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Julia Child’s",
+     "Harvard Yard"
+    ],
+    "locations": [
+     "Boston",
+     "Cambridge",
+     "Mass."
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2263,
+    "label": "negative"
+   },
+   "summary": "This updated Cambridge, Mass. home -- just blocks from Harvard Yard -- still has her stamp.",
+   "cluster_id": "e5c5d7ad954d84d9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.245666+00:00",
+    "source_published_at": "2026-09-28T20:16:53+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0511,
+     "ENTERTAINMENT": 0.8357,
+     "BREAKOUT WATCH": 0.039,
+     "LIFESTYLE CHAT": 0.0159,
+     "CANADIAN NEWS": 0.0257,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0326
+    }
+   }
+  },
+  {
    "id": "ed8497a0d24b5f07",
    "date": "2026-09-25",
    "slot": "am",
@@ -29639,6 +31525,51 @@
    "meta": {
     "ingested_at": "2026-09-28T17:57:39.878278+00:00",
     "source_published_at": "2026-09-28T12:09:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "fa414384ca3b5546",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Bose starts adding Auracast to its headphones",
+   "angle": "A new firmware update for the $449 Bose QuietComfort Ultra Headphones Gen 2 adds support for Bluetooth LE Audio and Auracast as beta features. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "A new firmware update for the $449 Bose QuietComfort Ultra Headphones Gen 2 adds support for Bluetooth LE Audio and Auracast as beta features.",
+    "The flagship Ultra headphones are the first from Bose to support the audio sharing technology, which the company plans to bring to more devices soon.",
+    "Only a few major manufacturers include [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1001522/bose-headphones-get-auracast-support",
+   "score": 65.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Bose"
+    ],
+    "organizations": [
+     "Auracast",
+     "QuietComfort Ultra Headphones Gen 2"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8225,
+    "label": "positive"
+   },
+   "summary": "A new firmware update for the $449 Bose QuietComfort Ultra Headphones Gen 2 adds support for Bluetooth LE Audio and Auracast as beta features. The flagship Ultra headphones are the first from Bose to support the audio sharing technology, which the company plans to bring to more devices soon. Only a few major manufacturers include [&#8230;]",
+   "cluster_id": "fa414384ca3b5546",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.635831+00:00",
+    "source_published_at": "2026-09-28T19:31:24+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -30524,6 +32455,106 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0536
+    }
+   }
+  },
+  {
+   "id": "42a29864f68b58e5",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Heil Jupiter!’ Review: Mexican Arthouse Auteur Carlos Reygadas Takes a Beguiling Cinematic Trip to Nowhere",
+   "angle": "The latest feature from the director of 'Silent Light' and 'Post Tenebras Lux' was shot across several continents in different languages, including one invented for the film. Shelf life through drive time — who is…",
+   "bullets": [
+    "The latest feature from the director of 'Silent Light' and 'Post Tenebras Lux' was shot across several continents in different languages, including one invented for the film."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-reviews/heil-jupiter-review-carlos-reygadas-1236713462/",
+   "score": 65.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Carlos Reygadas"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The latest feature from the director of 'Silent Light' and 'Post Tenebras Lux' was shot across several continents in different languages, including one invented for the film.",
+   "cluster_id": "42a29864f68b58e5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:03.051859+00:00",
+    "source_published_at": "2026-09-28T18:45:14+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0938,
+     "ENTERTAINMENT": 0.5922,
+     "BREAKOUT WATCH": 0.0698,
+     "LIFESTYLE CHAT": 0.0507,
+     "CANADIAN NEWS": 0.0706,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1229
+    }
+   }
+  },
+  {
+   "id": "d29f220d6256c4ce",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "CANADIAN NEWS",
+   "title": "Hamilton steel plant to lay off 500 workers as U.S. tariffs prompt ‘survival’ move",
+   "angle": "&#32; submitted by &#32; /u/Sanaralerx [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Sanaralerx [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wsman5/hamilton_steel_plant_to_lay_off_500_workers_as_us/",
+   "score": 65.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Hamilton"
+    ],
+    "organizations": [],
+    "locations": [
+     "U.S."
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/Sanaralerx [link] &#32; [comments]",
+   "cluster_id": "d29f220d6256c4ce",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:01.480511+00:00",
+    "source_published_at": "2026-09-28T18:16:25+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3527,
+     "ENTERTAINMENT": 0.081,
+     "BREAKOUT WATCH": 0.1095,
+     "LIFESTYLE CHAT": 0.0462,
+     "CANADIAN NEWS": 0.3695,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0411
     }
    }
   },
@@ -31459,6 +33490,50 @@
     "ingested_at": "2026-09-26T09:07:51.318834+00:00",
     "source_published_at": "2026-09-25T22:12:48+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "3a3d10d73e96ef6c",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "OpenAI keeps bulldozing mathematicians",
+   "angle": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. Explain it like a coworker…",
+   "bullets": [
+    "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them.",
+    "OpenAI is now trying to do better.",
+    "Somehow, it has botched that too."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1001477/openai-math-advisory-group",
+   "score": 64.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "OpenAI"
+    ],
+    "organizations": [],
+    "locations": [
+     "OpenAI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7351,
+    "label": "positive"
+   },
+   "summary": "In a chaotic few months, OpenAI has demonstrated it can do two things with remarkable consistency: make impressive breakthroughs in mathematics, then colossally screw up announcing them. OpenAI is now trying to do better. Somehow, it has botched that too.",
+   "cluster_id": "3a3d10d73e96ef6c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.897017+00:00",
+    "source_published_at": "2026-09-28T17:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -33225,6 +35300,50 @@
    }
   },
   {
+   "id": "0521ce66261c4e2a",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Walmart won’t hike prices based on your shopping history, CEO says",
+   "angle": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal.",
+    "In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather than dynamically change prices."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1001492/walmart-dynamic-pricing-digital-shelf-labels",
+   "score": 63.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "John Furner"
+    ],
+    "organizations": [
+     "The Wall Street Journal",
+     "Walmart"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6908,
+    "label": "positive"
+   },
+   "summary": "Walmart says it won't change product prices based on your personal information or the time of day, as reported earlier by The Wall Street Journal. In a letter to customers, Walmart CEO John Furner writes that the company's switch to digital shelf labels is meant to save store associates time, rather than dynamically change prices. [&#8230;]",
+   "cluster_id": "0521ce66261c4e2a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.946134+00:00",
+    "source_published_at": "2026-09-28T16:44:57+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "1903a1248c0632cd",
    "date": "2026-09-22",
    "slot": "am",
@@ -33330,6 +35449,55 @@
     "ingested_at": "2026-09-25T19:06:38.528409+00:00",
     "source_published_at": "2026-09-25T12:41:32+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "8799bd3aeaeeaaa7",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "McDonald’s testing ads on drive-thru menus: ‘Like a YouTube video’",
+   "angle": "McDonald’s testing ads on drive-thru menus: ‘Like a YouTube video’. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Want fries with your ads?"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/tech/mcdonalds-is-testing-ads-on-drive-thru-menus-its-like-a-youtube-video/",
+   "score": 63.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "McDonald"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0772,
+    "label": "positive"
+   },
+   "summary": "Want fries with your ads?",
+   "cluster_id": "8799bd3aeaeeaaa7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.554947+00:00",
+    "source_published_at": "2026-09-28T20:03:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2468,
+     "ENTERTAINMENT": 0.5087,
+     "BREAKOUT WATCH": 0.0626,
+     "LIFESTYLE CHAT": 0.0599,
+     "CANADIAN NEWS": 0.0738,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0482
+    }
    }
   },
   {
@@ -33765,6 +35933,49 @@
     "ingested_at": "2026-09-25T19:06:37.629187+00:00",
     "source_published_at": "2026-09-25T13:45:12+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "0455b6b914730449",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Trump cuts fuel economy standards back to 2014 levels",
+   "angle": "Trump cuts fuel economy standards back to 2014 levels. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "In 2020, Trump cut CAFE to 40 mpg.",
+    "Now he’s cut it again to just 35 mpg."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/cars/2026/09/trump-cuts-fuel-economy-standards-back-to-2014-levels/",
+   "score": 63.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "CAFE"
+    ],
+    "organizations": [
+     "Trump"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6597,
+    "label": "negative"
+   },
+   "summary": "In 2020, Trump cut CAFE to 40 mpg. Now he’s cut it again to just 35 mpg.",
+   "cluster_id": "0455b6b914730449",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:05.181705+00:00",
+    "source_published_at": "2026-09-28T19:35:51+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -34568,6 +36779,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0403
+    }
+   }
+  },
+  {
+   "id": "4c124a5e82073d3e",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "CANADIAN NEWS",
+   "title": "U.S. Pressure Is Awakening an Energy Giant in Canada",
+   "angle": "&#32; submitted by &#32; /u/Cao_Ni-Ma [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Cao_Ni-Ma [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wsov20/us_pressure_is_awakening_an_energy_giant_in_canada/",
+   "score": 63.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "U.S.",
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.0258,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/Cao_Ni-Ma [link] &#32; [comments]",
+   "cluster_id": "4c124a5e82073d3e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:01.606040+00:00",
+    "source_published_at": "2026-09-28T19:49:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1497,
+     "ENTERTAINMENT": 0.0336,
+     "BREAKOUT WATCH": 0.0442,
+     "LIFESTYLE CHAT": 0.0167,
+     "CANADIAN NEWS": 0.7362,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0196
     }
    }
   },
@@ -37289,6 +39550,210 @@
    }
   },
   {
+   "id": "5cf7443d2174a2b0",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Starbucks’ ‘widely recyclable’ plastic cups end up in landfills, incinerators: nonprofit",
+   "angle": "Most of the single-use, plastic cold beverage cups placed in recycling bins at Starbucks stores ended up in landfills or incinerators, Vermont-based Beyond Plastics said Monday. Shelf life through drive time — who is…",
+   "bullets": [
+    "Most of the single-use, plastic cold beverage cups placed in recycling bins at Starbucks stores ended up in landfills or incinerators, Vermont-based Beyond Plastics said Monday."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/business/starbucks-widely-recyclable-plastic-cups-end-up-in-landfills-incinerators-nonprofit/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Starbucks",
+     "Beyond Plastics"
+    ],
+    "locations": [
+     "Vermont"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Most of the single-use, plastic cold beverage cups placed in recycling bins at Starbucks stores ended up in landfills or incinerators, Vermont-based Beyond Plastics said Monday.",
+   "cluster_id": "5cf7443d2174a2b0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.337965+00:00",
+    "source_published_at": "2026-09-28T20:12:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2479,
+     "ENTERTAINMENT": 0.2717,
+     "BREAKOUT WATCH": 0.0976,
+     "LIFESTYLE CHAT": 0.1778,
+     "CANADIAN NEWS": 0.1518,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0532
+    }
+   }
+  },
+  {
+   "id": "d6f2ac889964c7d3",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "New Yorkers are fleeing to this much cheaper city as Big Apple home prices hit $832K",
+   "angle": "New York had the second-largest net outflow of house hunters in the US, with buyers eyeing a metro where typical homes cost just $309,000, according to Redfin. Ask the phones: would you film it, flee it, or pretend you…",
+   "bullets": [
+    "New York had the second-largest net outflow of house hunters in the US, with buyers eyeing a metro where typical homes cost just $309,000, according to Redfin."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/real-estate/new-yorkers-flee-for-philadelphia-as-home-prices-hit-832k/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Big Apple"
+    ],
+    "locations": [
+     "New York",
+     "US",
+     "Redfin"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "New York had the second-largest net outflow of house hunters in the US, with buyers eyeing a metro where typical homes cost just $309,000, according to Redfin.",
+   "cluster_id": "d6f2ac889964c7d3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.779477+00:00",
+    "source_published_at": "2026-09-28T19:48:15+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.7112,
+     "ENTERTAINMENT": 0.0376,
+     "BREAKOUT WATCH": 0.1156,
+     "LIFESTYLE CHAT": 0.0497,
+     "CANADIAN NEWS": 0.0453,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0406
+    }
+   }
+  },
+  {
+   "id": "34b63c1f565bc3ea",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Reacher’ Scores Season 6 Renewal at Prime Video",
+   "angle": "The show keeps up its string of early pickups, with the latest coming soon after the fourth season finale. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The show keeps up its string of early pickups, with the latest coming soon after the fourth season finale."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/reacher-renewed-season-6-prime-video-1236713657/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The show keeps up its string of early pickups, with the latest coming soon after the fourth season finale.",
+   "cluster_id": "34b63c1f565bc3ea",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.954531+00:00",
+    "source_published_at": "2026-09-28T19:15:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0429,
+     "ENTERTAINMENT": 0.8566,
+     "BREAKOUT WATCH": 0.0264,
+     "LIFESTYLE CHAT": 0.0295,
+     "CANADIAN NEWS": 0.0218,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.023
+    }
+   }
+  },
+  {
+   "id": "c208f8a6c535b8ce",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "CANADIAN NEWS",
+   "title": "Statistics Canada just found an extra 17,000 people in New Brunswick",
+   "angle": "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wsoudx/statistics_canada_just_found_an_extra_17000/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Statistics Canada",
+     "/u/Academic-Flight-783"
+    ],
+    "locations": [
+     "New Brunswick"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]",
+   "cluster_id": "c208f8a6c535b8ce",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:01.564650+00:00",
+    "source_published_at": "2026-09-28T19:49:15+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.134,
+     "ENTERTAINMENT": 0.028,
+     "BREAKOUT WATCH": 0.1256,
+     "LIFESTYLE CHAT": 0.0474,
+     "CANADIAN NEWS": 0.6424,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0226
+    }
+   }
+  },
+  {
    "id": "5dea52253aa150d7",
    "date": "2026-09-22",
    "slot": "am",
@@ -37652,6 +40117,53 @@
    }
   },
   {
+   "id": "da1149ea8723f1ee",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Florida seeks a ban on ChatGPT acting like a person",
+   "angle": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. Explain it like a…",
+   "bullets": [
+    "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns.",
+    "According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of language, including first-person pronouns [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1001527/chatgpt-florida-ban-first-person-human-attributes-kids",
+   "score": 62.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "James Uthmeier",
+     "Uthmeier"
+    ],
+    "organizations": [
+     "AI"
+    ],
+    "locations": [
+     "Florida",
+     "AI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3818,
+    "label": "positive"
+   },
+   "summary": "Florida Attorney General James Uthmeier is calling for a judge to block OpenAI from \"giving ChatGPT false human attributes,\" a few months after Florida sued the AI company over safety concerns. According to Uthmeier, users are lulled into a false sense of security by the AI bot, as \"ChatGPT's use of language, including first-person pronouns [&#8230;]",
+   "cluster_id": "da1149ea8723f1ee",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.845858+00:00",
+    "source_published_at": "2026-09-28T17:00:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "3789fae1a8a18776",
    "date": "2026-09-23",
    "slot": "am",
@@ -37811,6 +40323,58 @@
     "ingested_at": "2026-09-25T09:25:14.323391+00:00",
     "source_published_at": "2026-09-24T22:29:48+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "8dd1b36383560d33",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "LIFESTYLE CHAT",
+   "title": "Anand offers funding to support Ukrainian children abducted by Russia",
+   "angle": "Canada providing $863,000 for civil society groups in Ukraine that help returned children and families, Anand says. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "Canada providing $863,000 for civil society groups in Ukraine that help returned children and families, Anand says"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-anand-abducted-ukrainian-kids-funding-ottawa/",
+   "score": 62.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Russia",
+     "Canada",
+     "Ukraine",
+     "Anand"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "Canada providing $863,000 for civil society groups in Ukraine that help returned children and families, Anand says",
+   "cluster_id": "8dd1b36383560d33",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:00.413988+00:00",
+    "source_published_at": "2026-09-28T20:09:11+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1327,
+     "ENTERTAINMENT": 0.0842,
+     "BREAKOUT WATCH": 0.1474,
+     "LIFESTYLE CHAT": 0.317,
+     "CANADIAN NEWS": 0.2734,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0454
+    }
    }
   },
   {
@@ -40625,6 +43189,58 @@
    }
   },
   {
+   "id": "a40560e10d18d1e5",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "LIFESTYLE CHAT",
+   "title": "Ottawa extends Ebola travel restrictions for 60 days",
+   "angle": "Decision affects people who are from or have visited Uganda, South Sudan and the Democratic Republic of Congo. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "Decision affects people who are from or have visited Uganda, South Sudan and the Democratic Republic of Congo"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-canada-ebola-travel-rules/",
+   "score": 61.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Ottawa",
+     "Uganda",
+     "South Sudan",
+     "the Democratic Republic of Congo"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.128,
+    "label": "positive"
+   },
+   "summary": "Decision affects people who are from or have visited Uganda, South Sudan and the Democratic Republic of Congo",
+   "cluster_id": "a40560e10d18d1e5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:00.456515+00:00",
+    "source_published_at": "2026-09-28T19:19:41+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.21,
+     "ENTERTAINMENT": 0.223,
+     "BREAKOUT WATCH": 0.1018,
+     "LIFESTYLE CHAT": 0.2615,
+     "CANADIAN NEWS": 0.0579,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1459
+    }
+   }
+  },
+  {
    "id": "fa1a14a0c6b74edb",
    "date": "2026-09-22",
    "slot": "am",
@@ -42873,6 +45489,94 @@
    }
   },
   {
+   "id": "9f66b4cfc362b1f0",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Trump finalizes rule to make cars less fuel efficient",
+   "angle": "The US Department of Transportation finalized its plans today to weaken fuel efficiency standards, calling it \"among the largest deregulatory actions under the second Trump Administration.\" It's a nail in the coffin…",
+   "bullets": [
+    "The US Department of Transportation finalized its plans today to weaken fuel efficiency standards, calling it \"among the largest deregulatory actions under the second Trump Administration.\" It's a nail in the coffin for Biden-era standards that would have required fleet average fuel economy to reach 50.4 miles per gallon by model year 2031.",
+    "President Donald [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/news/1001610/trump-weakens-fuel-efficiency-standards",
+   "score": 60.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Donald"
+    ],
+    "organizations": [
+     "The US Department of Transportation",
+     "Trump Administration"
+    ],
+    "locations": [
+     "Biden"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.323,
+    "label": "positive"
+   },
+   "summary": "The US Department of Transportation finalized its plans today to weaken fuel efficiency standards, calling it \"among the largest deregulatory actions under the second Trump Administration.\" It's a nail in the coffin for Biden-era standards that would have required fleet average fuel economy to reach 50.4 miles per gallon by model year 2031. President Donald [&#8230;]",
+   "cluster_id": "9f66b4cfc362b1f0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.739303+00:00",
+    "source_published_at": "2026-09-28T18:39:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "fd0853808c284f31",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Kalshi loses again as judges rule prediction markets must obey gambling laws",
+   "angle": "Kalshi's defiance of state gambling laws may be headed to Supreme Court. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Kalshi's defiance of state gambling laws may be headed to Supreme Court."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/tech-policy/2026/09/another-court-rules-kalshi-sports-bets-arent-swaps-says-states-can-crack-down/",
+   "score": 60.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kalshi"
+    ],
+    "organizations": [
+     "Supreme Court"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3182,
+    "label": "positive"
+   },
+   "summary": "Kalshi's defiance of state gambling laws may be headed to Supreme Court.",
+   "cluster_id": "fd0853808c284f31",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:05.225071+00:00",
+    "source_published_at": "2026-09-28T19:04:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "c8b7580d0a35361c",
    "date": "2026-09-22",
    "slot": "am",
@@ -44203,6 +46907,46 @@
     "ingested_at": "2026-09-26T09:07:52.971070+00:00",
     "source_published_at": "2026-09-25T11:00:28+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "8d8a7bcbb77bed64",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Google seemingly confirms plans to kill ChromeOS in 2034",
+   "angle": "Google support maps out how Googlebooks can take over where ChromeOS left off. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Google support maps out how Googlebooks can take over where ChromeOS left off."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/gadgets/2026/09/google-seemingly-confirms-plans-to-kill-chromeos-in-2034/",
+   "score": 59.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Googlebooks"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4588,
+    "label": "negative"
+   },
+   "summary": "Google support maps out how Googlebooks can take over where ChromeOS left off.",
+   "cluster_id": "8d8a7bcbb77bed64",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:05.266162+00:00",
+    "source_published_at": "2026-09-28T18:04:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -46644,6 +49388,52 @@
    }
   },
   {
+   "id": "b86603e367f75d38",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "OpenAI’s AI agents need to catch up",
+   "angle": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. Explain it…",
+   "bullets": [
+    "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents.",
+    "On Tuesday, it will likely try to capture the lead in that race.",
+    "Rumors abound that OpenAI will release its own AI agent, dubbed Aeon - [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+   "score": 58.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "OpenAI",
+     "AI",
+     "Aeon - [&#8230"
+    ],
+    "locations": [
+     "AI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3182,
+    "label": "negative"
+   },
+   "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI will release its own AI agent, dubbed Aeon - [&#8230;]",
+   "cluster_id": "b86603e367f75d38",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.687312+00:00",
+    "source_published_at": "2026-09-28T18:45:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "1e6775363b1863de",
    "date": "2026-09-22",
    "slot": "am",
@@ -47708,6 +50498,44 @@
    }
   },
   {
+   "id": "3f2cce1106d423ab",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "To keep drug prices high, pharma has been piling up the patents",
+   "angle": "Add-on patents have increased drug patent periods from two years to over six. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Add-on patents have increased drug patent periods from two years to over six."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/health/2026/09/to-keep-drug-prices-high-pharma-has-been-piling-up-the-patents/",
+   "score": 57.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "Add-on patents have increased drug patent periods from two years to over six.",
+   "cluster_id": "3f2cce1106d423ab",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:05.139535+00:00",
+    "source_published_at": "2026-09-28T19:53:37+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "ea36c1448b7e80d4",
    "date": "2026-09-22",
    "slot": "am",
@@ -48446,6 +51274,54 @@
      "SPORTS": 0.0,
      "CLOSER": 0.0768
     }
+   }
+  },
+  {
+   "id": "2d7c9a6429514241",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "AI is supercharging hacking, and your local hospitals and banks aren’t ready",
+   "angle": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door.",
+    "Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses.",
+    "The work sometimes put it in close contact with these companies' financial data, which was stored on its systems."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1001427/ai-is-supercharging-hacking-and-your-local-hospitals-and-banks-arent-ready",
+   "score": 57.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Janice Malone"
+    ],
+    "organizations": [
+     "Vivian",
+     "Door"
+    ],
+    "locations": [
+     "AI",
+     "Alabama"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "In March, Janice Malone began getting calls about suspicious activity from her nonprofit organization, Vivian's Door. Vivian's Door, headquartered in Alabama, typically provided training, resources, and community to underserved and minority-owned businesses. The work sometimes put it in close contact with these companies' financial data, which was stored on its systems.",
+   "cluster_id": "2d7c9a6429514241",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:04.794610+00:00",
+    "source_published_at": "2026-09-28T18:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -49225,6 +52101,91 @@
     "ingested_at": "2026-09-22T17:02:23.976238+00:00",
     "source_published_at": "2026-09-22T14:01:16+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "50db72957cee6b6e",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Scientists solve 1840s space weather mystery",
+   "angle": "19th century Nature account of 1841 train delayed by geomagnetic storm got year wrong—due to a typo. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "19th century Nature account of 1841 train delayed by geomagnetic storm got year wrong—due to a typo."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/science/2026/09/scientists-solve-1840s-space-weather-mystery/",
+   "score": 55.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0258,
+    "label": "neutral"
+   },
+   "summary": "19th century Nature account of 1841 train delayed by geomagnetic storm got year wrong—due to a typo.",
+   "cluster_id": "50db72957cee6b6e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:05.308297+00:00",
+    "source_published_at": "2026-09-28T17:56:36+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "c15e94f7cc9b83ae",
+   "date": "2026-09-28",
+   "slot": "pm",
+   "category": "CANADIAN NEWS",
+   "title": "Teen is ‘first and only’ patient to have a tooth growing in bizarre place — doctors ‘were very surprised’",
+   "angle": "In what was likely a first-of-its-kind case, a teenage boy presented an ectopic tooth growing in a highly unusual place. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "In what was likely a first-of-its-kind case, a teenage boy presented an ectopic tooth growing in a highly unusual place."
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/health/teen-is-first-patient-to-have-a-tooth-growing-in-bizarre-place/",
+   "score": 55.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0258,
+    "label": "neutral"
+   },
+   "summary": "In what was likely a first-of-its-kind case, a teenage boy presented an ectopic tooth growing in a highly unusual place.",
+   "cluster_id": "c15e94f7cc9b83ae",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T20:29:02.383503+00:00",
+    "source_published_at": "2026-09-28T20:07:40+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1409,
+     "ENTERTAINMENT": 0.1547,
+     "BREAKOUT WATCH": 0.208,
+     "LIFESTYLE CHAT": 0.1537,
+     "CANADIAN NEWS": 0.2092,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1335
+    }
    }
   },
   {
