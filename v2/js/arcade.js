@@ -211,11 +211,15 @@
     if (btn) btn.focus();
   }
 
+  let pageBeforeCredits = null;
+
   function openCredits() {
     const root = document.getElementById("credits");
     if (!root) return;
     clearTimers();
     lastFocus = document.activeElement;
+    pageBeforeCredits = document.documentElement.getAttribute("data-page");
+    document.documentElement.setAttribute("data-page", "credits");
     root.className = "credits";
     buildCredits(root);
     root.hidden = false;
@@ -242,6 +246,10 @@
     root.hidden = true;
     root.innerHTML = "";
     document.body.style.overflow = "";
+    if (pageBeforeCredits)
+      document.documentElement.setAttribute("data-page", pageBeforeCredits);
+    else document.documentElement.removeAttribute("data-page");
+    pageBeforeCredits = null;
     if (lastFocus && lastFocus.focus) lastFocus.focus();
   }
 
