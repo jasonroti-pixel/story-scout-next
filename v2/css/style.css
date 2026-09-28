@@ -455,7 +455,19 @@ html[data-theme="day"] .select { box-shadow: inset 3px 3px 0 var(--ant-200); }
 /* sprites render at whole-number scales only (hero 96px @2x, badge 48px @1x) */
 /* sprites render at whole-number scales (hero 94px @2x, badge 40px @1x) */
 .nico-medallion-xl { width: 256px; height: 256px; margin: 0 auto; place-items: center; }
-.nico-medallion-xl img { width: 188px; margin-top: 8px; }
+/* Backdrop disc behind the hero: theme-aware, switches with day/night mode */
+.nico-medallion-xl::before {
+  content: "";
+  position: absolute;
+  inset: 34px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 50% 35%, var(--indigo-700) 0%, var(--space-900) 62%, var(--space-950) 100%);
+  z-index: 0;
+}
+html[data-theme="day"] .nico-medallion-xl::before {
+  background: radial-gradient(circle at 50% 35%, var(--ant-50) 0%, var(--sandy-400) 58%, var(--sandy-600) 100%);
+}
+.nico-medallion-xl img { width: 188px; margin-top: 8px; position: relative; z-index: 1; }
 .nico-medallion-sm { width: 56px; height: 56px; border: 0; place-items: center; }
 .nico-medallion-sm img { width: 40px; margin-top: 6px; }
 
