@@ -311,14 +311,20 @@
       });
   }
 
+  function introUp() {
+    return els["intro-screen"] && !els["intro-screen"].hidden;
+  }
+
   function showRundownView() {
-    setPage("picker");
+    // The title screen is home: it carries no data-page and keeps its own
+    // look. Only re-theme once the intro is dismissed and the picker shows.
+    if (!introUp()) setPage("picker");
     if (els["rundown-view"]) els["rundown-view"].hidden = false;
     if (els["edition-view"]) els["edition-view"].hidden = true;
   }
 
   function showEditionView() {
-    setPage("board");
+    if (!introUp()) setPage("board");
     if (els["rundown-view"]) els["rundown-view"].hidden = true;
     if (els["edition-view"]) els["edition-view"].hidden = false;
   }
