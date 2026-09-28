@@ -894,7 +894,7 @@
     }
     if (els["btn-close-loadout"]) {
       els["btn-close-loadout"].addEventListener("click", () => {
-        if (els["loadout-pane"]) els["loadout-pane"].classList.remove("open");
+        closeLoadoutDrawer(false);
       });
     }
     if (els["btn-loadout"]) {
@@ -902,12 +902,46 @@
         const pane = els["loadout-pane"];
         if (!pane) return;
         if (window.matchMedia("(max-width: 960px)").matches) {
-          pane.classList.toggle("open");
+          if (pane.classList.contains("open")) closeLoadoutDrawer(false);
+          else openLoadoutDrawer();
         } else {
           pane.scrollIntoView({ behavior: "smooth", block: "start" });
         }
       });
     }
+    // Mobile drawer: the OS/browser back gesture should close the drawer,
+    // not navigate away from the board. Push a history entry on open and
+    // close the drawer on popstate instead of leaving the page.
+    let drawerHistoryPushed = false;
+    function openLoadoutDrawer() {
+      const pane = els["loadout-pane"];
+      if (!pane) return;
+      pane.classList.add("open");
+      if (!drawerHistoryPushed) {
+        try {
+          window.history.pushState({ ssnDrawer: "loadout" }, "");
+          drawerHistoryPushed = true;
+        } catch (err) {
+          /* history unavailable */
+        }
+      }
+    }
+    function closeLoadoutDrawer(viaPop) {
+      const pane = els["loadout-pane"];
+      if (!pane || !pane.classList.contains("open")) return;
+      pane.classList.remove("open");
+      if (!viaPop && drawerHistoryPushed) {
+        drawerHistoryPushed = false;
+        window.history.back();
+      }
+    }
+    window.addEventListener("popstate", () => {
+      const pane = els["loadout-pane"];
+      if (pane && pane.classList.contains("open")) {
+        pane.classList.remove("open");
+        drawerHistoryPushed = false;
+      }
+    });
 
     window.addEventListener("online", updateStatus);
     window.addEventListener("offline", updateStatus);
