@@ -493,7 +493,6 @@
     const s = findStory(id);
     if (!s || !els["detail-body"] || !els["detail-dialog"]) return;
     const ents = s.entities || {};
-    const sent = s.sentiment || {};
     const bullets = (s.bullets || []).map((b) => `<li>${SSClips.escapeHtml(b)}</li>`).join("");
     const caTag = ents.is_canadian ? '<span class="tag tag-ca">🇨🇦 Canadian</span>' : "";
     els["detail-body"].innerHTML = `
@@ -508,13 +507,6 @@
       <div class="detail-section"><h3>Summary</h3><p>${SSClips.escapeHtml(s.summary || "")}</p></div>
       <div class="detail-section"><h3>Bullets</h3><ul>${bullets || "<li>—</li>"}</ul></div>
       <div class="detail-section"><h3>Debate</h3><p class="detail-debate">${SSClips.escapeHtml(s.debate || "")}</p></div>
-      <div class="detail-section"><h3>Entities</h3>
-        <p>People: ${SSClips.escapeHtml((ents.people || []).join(", ") || "—")}</p>
-        <p>Orgs: ${SSClips.escapeHtml((ents.organizations || []).join(", ") || "—")}</p>
-        <p>Places: ${SSClips.escapeHtml((ents.locations || []).join(", ") || "—")}</p>
-        <p>Canadian: ${ents.is_canadian ? "yes" : "no"} · Sentiment: ${SSClips.escapeHtml(sent.label || "—")} (${SSClips.escapeHtml(String(sent.compound ?? "—"))})</p>
-      </div>
-      <div class="detail-section"><h3>Clips (link-out)</h3>${SSClips.renderClipList(s.clips)}</div>
       <div class="detail-section"><h3>Source</h3>
         <p>${SSClips.escapeHtml(s.source || "")} · ${SSClips.escapeHtml(s.source_type || "")}</p>
         ${s.url ? `<p><a href="${SSClips.escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">Open article ↗</a></p>` : ""}
