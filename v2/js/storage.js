@@ -4,7 +4,8 @@
 (function (global) {
   "use strict";
 
-  const db = new Dexie("StoryScoutNext");
+  // v2 keeps its own IndexedDB so it never reads or overwrites v1's data.
+  const db = new Dexie("StoryScoutNextV2");
   db.version(1).stores({
     stories: "id, date, slot, category, score, is_backup",
     meta: "key",
@@ -16,10 +17,15 @@
   });
 
   async function saveStories(stories, meta) {
+    // Preserve custom stories: a sync must never wipe user-created rows.
+    const customs = await db.stories.filter((s) => s && s.source_type === "custom").toArray();
     await db.transaction("rw", db.stories, db.meta, async () => {
       await db.stories.clear();
       if (stories && stories.length) {
-        await db.stories.bulkPut(stories);
+        await db.stories.bulkAdd(stories);
+      }
+      if (customs && customs.length) {
+        await db.stories.bulkAdd(customs);
       }
       await db.meta.put({
         key: "lastSync",
@@ -72,8 +78,16 @@
     return db.loadouts.orderBy("updatedAt").reverse().toArray();
   }
 
+  async function listCustomStories() {
+    return db.stories.filter((s) => s && s.source_type === "custom").toArray();
+  }
+
   async function upsertCustomStory(story) {
     await db.stories.put(story);
+  }
+
+  async function deleteCustomStory(id) {
+    await db.stories.delete(String(id));
   }
 
   async function junkStory(story) {
@@ -133,7 +147,9 @@
     saveLoadout,
     loadLoadout,
     listLoadouts,
+    listCustomStories,
     upsertCustomStory,
+    deleteCustomStory,
     junkStory,
     listJunk,
     restoreJunk,

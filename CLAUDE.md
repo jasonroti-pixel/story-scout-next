@@ -16,16 +16,37 @@ Clips are URL metadata only — never commit media binaries.
 ## Layout
 
 ```
-index.html
-css/style.css
-js/app.js search.js storage.js loadout.js clips.js
-data/stories.json
-pipeline/ingest.py enrich.py merge_twitter.py requirements.txt feeds.yml
+index.html                     root version picker (links to v1/ and v2/)
+v1/                            ORIGINAL arcade app — FROZEN, never edit
+  index.html css/style.css js/{app,search,storage,loadout,clips}.js
+  sw.js manifest.webmanifest assets/
+v2/                            "Peak Arcade" rebuild — operational clone of v1
+  index.html css/style.css css/scenes.css
+  js/{app,search,storage,loadout,clips}.js   same logic as v1
+  js/arcade.js                 visual only: scenes, hidden Nicos, end credits
+  assets/px/*.svg              generated pixel art (Nico sprites, scenes)
+  assets/daily-goods-logo.jpeg
+  assets/src/*.jpg             owner-approved Nico art (source of truth for Nico)
+  tools/pixelart.py palette.py generator (stdlib; re-run to redraw scenes/SVGs)
+  tools/extract_nico.py        samples Nico from assets/src -> tools/nico_data.py
+                               (dev-only, needs Pillow; never hand-draw Nico)
+  PALETTE.md                   expanded palette + usage rules
+  sw.js manifest.webmanifest
+data/stories.json              shared by v1 and v2 (fetched as ../data/…)
 data/twitter_stories.json (optional) data/incoming/*.json
+pipeline/ingest.py enrich.py merge_twitter.py requirements.txt feeds.yml
 .github/workflows/ingest.yml deploy.yml merge-twitter.yml
-sw.js manifest.webmanifest
 README.md CLAUDE.md
 ```
+
+### v1 / v2 rules
+
+- **v1 is frozen.** Do not modify anything under `v1/`.
+- **v2 must stay an operational clone of v1.** It has the same features, data flow, filters and loadout options. Only visuals, palette and fonts differ. Keep JS logic changes in `v2/js/app.js` etc. in lockstep with v1 behaviour. New v2-only behaviour is presentation only and lives in `v2/js/arcade.js`.
+- **Isolation.** v2 uses its own IndexedDB (`StoryScoutNextV2`) and service-worker caches (`ssn-v2-*`, and it deletes only its own old caches). v1 keeps `StoryScoutNext` and `story-scout-next-v6`. Each SW is scoped to its own folder.
+- **v2 art.** Edit `v2/tools/pixelart.py`, run `python3 v2/tools/pixelart.py`, and commit the regenerated `v2/assets/px/*.svg`. This is not a build step: the SVGs are committed.
+- **Nico.** Never generate Nico from scratch. All Nico sprites come from the owner's art in `v2/assets/src/`: run `python3 v2/tools/extract_nico.py` (needs Pillow), then `python3 v2/tools/pixelart.py`. The close-up drives the hero, badge, banner, footer and tab icon. The sprite sheet drives the poses, credits, gallery and eggs.
+- **v2 palette.** Use only the tokens in `v2/PALETTE.md` (six owner colours plus derived ramps), and keep `tools/palette.py`, `css/style.css :root` and `PALETTE.md` in sync.
 
 ## Categories
 
@@ -38,7 +59,7 @@ THE LIST | ENTERTAINMENT | BREAKOUT WATCH | LIFESTYLE CHAT | CANADIAN NEWS | TEC
 ## Working tips
 
 - After pipeline edits: `python3 -m py_compile pipeline/*.py`
-- Local UI: `python3 -m http.server` from repo root
+- Local UI: `python3 -m http.server` from repo root, then open `/` (menu), `/v1/` or `/v2/`
 - Optional merge file: `data/twitter_stories.json` (same schema / `{stories:[…]}` envelope)
 - Merge packs: `python merge_twitter.py` (URL/title match → append unique clips; else net-new)
 - Manual Action: `merge-twitter.yml` (workflow_dispatch; not scheduled)

@@ -44,15 +44,22 @@
       "filter-canadian",
       "filter-clips",
       "btn-theme",
-      "btn-brand",
       "btn-refresh",
       "btn-junk-folder",
       "btn-custom",
-      "btn-save-loadout",
-      "btn-load-loadout",
-      "btn-prep-sheet",
+      "btn-custom-picker",
+      "btn-select-all",
+      "btn-selall-loadout",
+      "btn-copy-loadout",
+      "btn-print-loadout",
+      "btn-email-loadout",
       "btn-clear-loadout",
-      "btn-print-prep",
+      "btn-loadout",
+      "btn-close-loadout",
+      "loadout-pane",
+      "prepActions",
+      "prepList",
+      "prepCount",
       "btn-back-rundowns",
       "last-updated",
       "story-count",
@@ -64,8 +71,6 @@
       "custom-form",
       "junk-dialog",
       "junk-list",
-      "prep-dialog",
-      "prep-body",
       "pwa-status",
       "intro-screen",
       "app-shell",
@@ -80,14 +85,12 @@
       "intro-options-close",
       "intro-theme",
       "intro-theme-opt",
-      "intro-brand",
       "intro-title",
       "intro-presents",
       "intro-brand-logo",
       "header-mascot",
       "header-brand-logo",
       "intro-mascot",
-      "intro-brand-opt",
       "toast",
     ].forEach((id) => {
       els[id] = $(id);
@@ -184,7 +187,23 @@
         throw err;
       }
     }
-    SSLoadout.setStoryIndex(allStories);
+    // Merge user-created custom stories (they persist in this browser's
+    // Dexie table; a remote sync never includes them).
+    try {
+      const customs = await SSStorage.listCustomStories();
+      if (customs && customs.length) {
+        const seen = new Set(allStories.map((s) => String(s.id)));
+        customs.forEach((c) => {
+          if (!seen.has(String(c.id))) {
+            allStories.unshift(c);
+            seen.add(String(c.id));
+          }
+        });
+      }
+    } catch (mergeErr) {
+      console.warn("[app] custom story merge failed", mergeErr);
+    }
+    SSLoadout.setStories(allStories);
     if (SSSearch.whenReady) await SSSearch.whenReady(3000);
     await SSSearch.rebuild(allStories);
     updateStatus();
@@ -293,12 +312,20 @@
       });
   }
 
+  function introUp() {
+    return els["intro-screen"] && !els["intro-screen"].hidden;
+  }
+
   function showRundownView() {
+    // The title screen is home: it carries no data-page and keeps its own
+    // look. Only re-theme once the intro is dismissed and the picker shows.
+    if (!introUp()) setPage("picker");
     if (els["rundown-view"]) els["rundown-view"].hidden = false;
     if (els["edition-view"]) els["edition-view"].hidden = true;
   }
 
   function showEditionView() {
+    if (!introUp()) setPage("board");
     if (els["rundown-view"]) els["rundown-view"].hidden = true;
     if (els["edition-view"]) els["edition-view"].hidden = false;
   }
@@ -379,8 +406,6 @@
     }
     if (els["empty-state"]) els["empty-state"].hidden = true;
 
-    const inLoadout = new Set(SSLoadout.getItems().map((it) => String(it.id)));
-
     root.innerHTML = visibleStories
       .map((s) => {
         const ca =
@@ -388,14 +413,22 @@
             ? '<span class="tag tag-ca" title="Canadian">🇨🇦 CA</span>'
             : "";
         const clip = SSClips.clipCountBadge(s.clips);
-        const selected = inLoadout.has(String(s.id)) ? " selected" : "";
+        const sid = SSLoadout.storyId(s);
+        const selected = SSLoadout.has(sid) ? " selected" : "";
         const debate = s.debate
           ? `<p class="card-debate">${SSClips.escapeHtml(s.debate)}</p>`
           : "";
-        return `<article class="card story-card${s.is_backup ? " is-backup" : ""}${selected}" role="listitem" tabindex="0" data-id="${SSClips.escapeAttr(s.id)}">
+        const customDel = s._custom
+          ? `<button type="button" class="custom-delete" data-custom-id="${SSClips.escapeAttr(
+              s.id
+            )}">DELETE</button>`
+          : "";
+        return `<article class="card story-card${s.is_backup ? " is-backup" : ""}${
+          s._custom ? " custom" : ""
+        }${selected}" role="listitem" tabindex="0" data-id="${SSClips.escapeAttr(sid)}">
           <div class="card-top">
             <span class="tag cat">${SSClips.escapeHtml(s.category || "")}</span>
-            <span class="score-pill">${Number(s.score || 0).toFixed(0)}</span>
+            <span class="score-pill">${s.score === "" ? "—" : Number(s.score || 0).toFixed(0)}</span>
           </div>
           <h3 class="card-title">${SSClips.escapeHtml(s.title || "")}</h3>
           <p class="card-angle">${SSClips.escapeHtml(s.angle || "")}</p>
@@ -406,9 +439,9 @@
             <span>${SSClips.escapeHtml(s.source || "")}</span>
             ${ca}
             ${clip}
+            ${customDel}
           </div>
           <div class="card-actions">
-            <button type="button" class="btn btn-primary" data-act="add" data-id="${SSClips.escapeAttr(s.id)}">+ Loadout</button>
             <button type="button" class="btn" data-act="detail" data-id="${SSClips.escapeAttr(s.id)}">Detail</button>
             <button type="button" class="btn btn-danger" data-act="junk" data-id="${SSClips.escapeAttr(s.id)}">JUNK</button>
           </div>
@@ -416,29 +449,41 @@
       })
       .join("");
 
+    // Production behavior: clicking the card toggles it in the loadout.
     root.querySelectorAll(".story-card").forEach((card) => {
       card.addEventListener("click", (e) => {
-        if (e.target.closest("button")) return;
-        openDetail(card.dataset.id);
+        if (e.target.closest("button") || e.target.closest("a")) return;
+        SSLoadout.toggleStory(card.dataset.id);
+        renderCards();
       });
       card.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") openDetail(card.dataset.id);
+        if (e.key === "Enter" && !e.target.closest("button")) {
+          SSLoadout.toggleStory(card.dataset.id);
+          renderCards();
+        }
       });
     });
     root.querySelectorAll("button[data-act]").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         const id = btn.dataset.id;
-        if (btn.dataset.act === "add") {
-          SSLoadout.addStory(id);
-          renderCards();
-          showToast("Added to loadout");
-        }
         if (btn.dataset.act === "detail") openDetail(id);
         if (btn.dataset.act === "junk") junkStoryById(id);
       });
     });
+    root.querySelectorAll(".custom-delete").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        deleteCustomStory(btn.dataset.customId);
+      });
+    });
   }
+
+  // Called by the loadout panel when an item's X button removes a story,
+  // so the card's selected state refreshes.
+  window.SSLoadoutCardsChanged = function () {
+    renderCards();
+  };
 
   function findStory(id) {
     return allStories.find((s) => String(s.id) === String(id));
@@ -448,7 +493,6 @@
     const s = findStory(id);
     if (!s || !els["detail-body"] || !els["detail-dialog"]) return;
     const ents = s.entities || {};
-    const sent = s.sentiment || {};
     const bullets = (s.bullets || []).map((b) => `<li>${SSClips.escapeHtml(b)}</li>`).join("");
     const caTag = ents.is_canadian ? '<span class="tag tag-ca">🇨🇦 Canadian</span>' : "";
     els["detail-body"].innerHTML = `
@@ -463,13 +507,6 @@
       <div class="detail-section"><h3>Summary</h3><p>${SSClips.escapeHtml(s.summary || "")}</p></div>
       <div class="detail-section"><h3>Bullets</h3><ul>${bullets || "<li>—</li>"}</ul></div>
       <div class="detail-section"><h3>Debate</h3><p class="detail-debate">${SSClips.escapeHtml(s.debate || "")}</p></div>
-      <div class="detail-section"><h3>Entities</h3>
-        <p>People: ${SSClips.escapeHtml((ents.people || []).join(", ") || "—")}</p>
-        <p>Orgs: ${SSClips.escapeHtml((ents.organizations || []).join(", ") || "—")}</p>
-        <p>Places: ${SSClips.escapeHtml((ents.locations || []).join(", ") || "—")}</p>
-        <p>Canadian: ${ents.is_canadian ? "yes" : "no"} · Sentiment: ${SSClips.escapeHtml(sent.label || "—")} (${SSClips.escapeHtml(String(sent.compound ?? "—"))})</p>
-      </div>
-      <div class="detail-section"><h3>Clips (link-out)</h3>${SSClips.renderClipList(s.clips)}</div>
       <div class="detail-section"><h3>Source</h3>
         <p>${SSClips.escapeHtml(s.source || "")} · ${SSClips.escapeHtml(s.source_type || "")}</p>
         ${s.url ? `<p><a href="${SSClips.escapeAttr(s.url)}" target="_blank" rel="noopener noreferrer">Open article ↗</a></p>` : ""}
@@ -481,10 +518,15 @@
     `;
     const addBtn = document.getElementById("detail-add");
     if (addBtn) {
+      const sid = SSLoadout.storyId(s);
+      const syncDetailAddLabel = () => {
+        addBtn.textContent = SSLoadout.has(sid) ? "✓ In loadout" : "+ Loadout";
+      };
+      syncDetailAddLabel();
       addBtn.addEventListener("click", () => {
-        SSLoadout.addStory(s.id);
+        SSLoadout.toggleStory(sid);
+        syncDetailAddLabel();
         renderCards();
-        showToast("Added to loadout");
       });
     }
     const junkBtn = document.getElementById("detail-junk");
@@ -498,25 +540,20 @@
   }
 
   function removeJunkFromLoadout() {
-    if (!SSLoadout || !SSLoadout.getItems || !SSLoadout.setItems) return false;
-    const current = SSLoadout.getItems();
-    const kept = current.filter((item) => !junkIdSet.has(String(item.id)));
-    if (kept.length === current.length) return false;
-    SSLoadout.setItems(kept);
-    return true;
+    if (!SSLoadout || !SSLoadout.getSelectedStories) return false;
+    const before = SSLoadout.count();
+    SSLoadout.getSelectedStories().forEach((s) => {
+      if (junkIdSet.has(String(s.id)))
+        SSLoadout.removeFromPrep(SSLoadout.storyId(s), true);
+    });
+    return SSLoadout.count() !== before;
   }
 
   async function junkStoryById(id) {
     const story = findStory(id);
     if (!story || junkIdSet.has(String(id))) return;
     await SSStorage.junkStory(story);
-    if (SSLoadout && typeof SSLoadout.remove === "function") {
-      SSLoadout.remove(id);
-    } else if (SSLoadout && typeof SSLoadout.removeStory === "function") {
-      SSLoadout.removeStory(id);
-    } else {
-      removeJunkFromLoadout();
-    }
+    if (SSLoadout) SSLoadout.removeFromPrep(SSLoadout.storyId(story));
     await refreshJunkIds();
     if (els["detail-dialog"] && els["detail-dialog"].open) els["detail-dialog"].close();
     buildRundownIndex();
@@ -567,11 +604,26 @@
     }).catch((err) => console.warn("[junk] list failed", err));
   }
 
+  async function deleteCustomStory(cid) {
+    const story = allStories.find((s) => String(s.id) === String(cid));
+    if (story) SSLoadout.removeFromPrep(SSLoadout.storyId(story), true);
+    await SSStorage.deleteCustomStory(cid);
+    allStories = allStories.filter((s) => String(s.id) !== String(cid));
+    SSLoadout.setStories(allStories);
+    await SSSearch.rebuild(allStories);
+    updateStatus();
+    buildRundownIndex();
+    if (activeEdition) await applyFilters();
+    else renderRundownPicker();
+    SSLoadout.render();
+    showToast("CUSTOM STORY DELETED");
+  }
+
   async function restoreJunkStory(id) {
     const story = await SSStorage.restoreJunk(id);
     if (story && !findStory(story.id)) {
       allStories.unshift(story);
-      SSLoadout.setStoryIndex(allStories);
+      SSLoadout.setStories(allStories);
       await SSSearch.rebuild(allStories);
     }
     await refreshJunkIds();
@@ -592,37 +644,31 @@
   }
 
   function brandLabel() {
-    const brand = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
     return brand === "jaystation" ? "Jaystation · Radio Prep" : "Daily Goods · Radio Prep";
   }
 
   function brandShort() {
-    const brand = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
     return brand === "jaystation" ? "JS" : "DG";
   }
 
   function brandLong() {
-    const brand = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
     return brand === "jaystation" ? "JAYSTATION" : "DAILY GOODS";
   }
 
   function syncThemeButtons() {
     const theme = document.documentElement.getAttribute("data-theme") || "night";
     const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
-    if (els["btn-theme"]) els["btn-theme"].textContent = theme === "night" ? "NIGHT" : "DAY";
-    if (els["btn-brand"]) els["btn-brand"].textContent = brandShort();
+    if (els["btn-theme"]) els["btn-theme"].textContent = theme === "night" ? "DAY" : "NIGHT";
     if (els["brand-label"]) els["brand-label"].textContent = brandLabel();
     if (els["intro-theme"]) {
-      els["intro-theme"].textContent = theme === "night" ? "NIGHT MODE" : "DAY MODE";
+      els["intro-theme"].textContent = theme === "night" ? "DAY MODE" : "NIGHT MODE";
     }
     if (els["intro-theme-opt"]) {
-      els["intro-theme-opt"].textContent = "THEME: " + (theme === "night" ? "NIGHT" : "DAY");
+      els["intro-theme-opt"].textContent = "THEME: " + (theme === "night" ? "DAY" : "NIGHT");
     }
-    if (els["intro-brand"]) {
-      els["intro-brand"].textContent =
-        brand === "jaystation" ? "♦ SWITCH TO DAILY GOODS" : "♦ SWITCH TO JAYSTATION";
-    }
-    if (els["intro-brand-opt"]) els["intro-brand-opt"].textContent = "BRAND: " + brandShort();
     if (els["intro-title"]) {
       els["intro-title"].textContent = brand === "jaystation" ? "JAYSTATION" : "THE DAILY GOODS";
     }
@@ -634,29 +680,50 @@
     if (logo) logo.hidden = brand !== "daily-goods";
     const headerLogo = els["header-brand-logo"];
     if (headerLogo) headerLogo.hidden = brand !== "daily-goods";
+    syncPageMeta();
+  }
+
+  /* Per-page duo palettes: home has no data-page (untouched); the rundown
+     picker, story board, and credits each re-theme within their own duo. */
+  function setPage(page) {
+    const html = document.documentElement;
+    if (page) html.setAttribute("data-page", page);
+    else html.removeAttribute("data-page");
+    syncPageMeta();
+  }
+
+  function syncPageMeta() {
     const meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute("content", theme === "day" ? "#e8e4f0" : "#06050f");
+    if (!meta) return;
+    const theme =
+      document.documentElement.getAttribute("data-theme") || "night";
+    const page =
+      document.documentElement.getAttribute("data-page") || "home";
+    const colors = {
+      home: { night: "#012641", day: "#F7E6D2" },
+      picker: { night: "#211138", day: "#FDDFCB" },
+      board: { night: "#012641", day: "#FBC3D8" },
+      credits: { night: "#24080B", day: "#F7E6D2" },
+    };
+    meta.setAttribute(
+      "content",
+      ((colors[page] || colors.home)[theme] || colors.home.night)
+    );
   }
 
   async function applyThemeSettings() {
     const theme = await SSStorage.loadSetting("theme", "night");
-    const brand = await SSStorage.loadSetting("brand", "jaystation");
+    const brand = "jaystation"; // Jaystation is the standard; no brand switch
     document.documentElement.setAttribute("data-theme", theme);
     document.documentElement.setAttribute("data-brand", brand);
     syncThemeButtons();
+    syncPageMeta();
   }
 
   async function toggleTheme() {
     const cur = document.documentElement.getAttribute("data-theme") || "night";
     const next = cur === "night" ? "day" : "night";
     await SSStorage.saveSetting("theme", next);
-    await applyThemeSettings();
-  }
-
-  async function toggleBrand() {
-    const cur = document.documentElement.getAttribute("data-brand") || "daily-goods";
-    const next = cur === "daily-goods" ? "jaystation" : "daily-goods";
-    await SSStorage.saveSetting("brand", next);
     await applyThemeSettings();
   }
 
@@ -696,12 +763,6 @@
     if (els["intro-theme-opt"]) {
       els["intro-theme-opt"].addEventListener("click", () => toggleTheme());
     }
-    if (els["intro-brand"]) {
-      els["intro-brand"].addEventListener("click", () => toggleBrand());
-    }
-    if (els["intro-brand-opt"]) {
-      els["intro-brand-opt"].addEventListener("click", () => toggleBrand());
-    }
   }
 
   function wireUi() {
@@ -739,10 +800,6 @@
       els["btn-theme"].addEventListener("click", () => toggleTheme());
     }
 
-    if (els["btn-brand"]) {
-      els["btn-brand"].addEventListener("click", () => toggleBrand());
-    }
-
     if (els["btn-junk-folder"]) {
       els["btn-junk-folder"].addEventListener("click", () => {
         renderJunkList();
@@ -762,37 +819,49 @@
       });
     }
 
-    if (els["btn-custom"]) {
-      els["btn-custom"].addEventListener("click", () => {
-        if (els["custom-form"]) els["custom-form"].reset();
-        els["custom-dialog"].showModal();
-      });
+    // ADD STORY: exact copy of the original's functionality.
+    function showAddStory() {
+      const form = els["custom-form"];
+      if (form) form.reset();
+      const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
+      const dateInput = form && form.elements.namedItem("cdate");
+      const slotInput = form && form.elements.namedItem("cslot");
+      if (dateInput) dateInput.value = (activeEdition && activeEdition.date) || today;
+      if (slotInput) slotInput.value = (activeEdition && activeEdition.slot) || "am";
+      if (els["custom-dialog"]) els["custom-dialog"].showModal();
+      const titleInput = document.getElementById("addTitle");
+      if (titleInput) titleInput.focus();
     }
+    if (els["btn-custom"]) els["btn-custom"].addEventListener("click", showAddStory);
+    if (els["btn-custom-picker"]) els["btn-custom-picker"].addEventListener("click", showAddStory);
 
     if (els["custom-form"]) {
       els["custom-dialog"].addEventListener("close", async () => {
         if (els["custom-dialog"].returnValue !== "ok") return;
         const fd = new FormData(els["custom-form"]);
         const title = String(fd.get("title") || "").trim();
-        if (!title) return;
-        const bullets = String(fd.get("bullets") || "")
-          .split("\n")
-          .map((x) => x.trim())
-          .filter(Boolean);
+        const url = String(fd.get("url") || "").trim();
+        const angle = String(fd.get("angle") || "").trim();
+        const bulletsRaw = String(fd.get("bullets") || "").trim();
+        const bullets = bulletsRaw ? bulletsRaw.split("\n").map((b) => b.trim()).filter(Boolean) : [];
+        const cdate = String(fd.get("cdate") || "").trim();
+        const cslot = String(fd.get("cslot") || "am") === "pm" ? "pm" : "am";
+        if (!title) { showToast("TITLE REQUIRED"); return; }
+        if (!cdate) { showToast("DATE REQUIRED"); return; }
         const id = "custom-" + Date.now().toString(36);
         const story = {
           id,
-          date: new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" }),
-          slot: new Date().getHours() < 15 ? "am" : "pm",
-          category: String(fd.get("category") || "THE LIST"),
+          _custom: true,
           title,
-          angle: String(fd.get("angle") || title),
+          url,
+          date: cdate,
+          slot: cslot,
+          category: "ADDED STORIES",
+          angle,
           bullets,
-          debate: String(fd.get("debate") || "Agree or disagree — make your case in 30 seconds."),
-          source: "Custom",
-          source_type: "custom",
-          url: String(fd.get("url") || ""),
-          score: 60,
+          debate: "",
+          score: "",
+          source: "",
           is_backup: false,
           entities: { people: [], organizations: [], locations: [], is_canadian: true },
           sentiment: { compound: 0, label: "neutral" },
@@ -808,48 +877,106 @@
         };
         allStories.unshift(story);
         await SSStorage.upsertCustomStory(story);
-        SSLoadout.setStoryIndex(allStories);
+        SSLoadout.setStories(allStories);
         await SSSearch.rebuild(allStories);
         updateStatus();
         buildRundownIndex();
-        if (activeEdition) {
-          await applyFilters();
-        } else {
+        // Like the original: never navigate away. If the story belongs to the
+        // edition on screen, re-render so it appears; on the picker, refresh
+        // the rundown list.
+        if (activeEdition && activeEdition.date === story.date && activeEdition.slot === story.slot) {
+          applyFilters();
+        } else if (!activeEdition) {
           renderRundownPicker();
         }
-        showToast("Custom story added");
+        showToast("CUSTOM STORY ADDED");
       });
     }
 
-    if (els["btn-save-loadout"]) {
-      els["btn-save-loadout"].addEventListener("click", async () => {
-        await SSLoadout.save();
-        showToast("Loadout saved");
+    // Loadout panel: production button set (SELECT ALL = copy, like the original).
+    if (els["btn-selall-loadout"]) {
+      els["btn-selall-loadout"].addEventListener("click", () => {
+        SSLoadout.selectAllText();
       });
     }
-    if (els["btn-load-loadout"]) {
-      els["btn-load-loadout"].addEventListener("click", async () => {
-        await SSLoadout.load();
-        renderCards();
-        showToast("Loadout loaded");
+    if (els["btn-copy-loadout"]) {
+      els["btn-copy-loadout"].addEventListener("click", () => {
+        SSLoadout.copyPrep();
+      });
+    }
+    if (els["btn-print-loadout"]) {
+      els["btn-print-loadout"].addEventListener("click", () => {
+        SSLoadout.printPrep();
+      });
+    }
+    if (els["btn-email-loadout"]) {
+      els["btn-email-loadout"].addEventListener("click", () => {
+        SSLoadout.emailPrep();
       });
     }
     if (els["btn-clear-loadout"]) {
       els["btn-clear-loadout"].addEventListener("click", () => {
-        SSLoadout.clear();
+        SSLoadout.clearPrep();
         renderCards();
-        showToast("Loadout cleared");
       });
     }
-    if (els["btn-prep-sheet"]) {
-      els["btn-prep-sheet"].addEventListener("click", () => {
-        els["prep-body"].innerHTML = SSLoadout.buildPrepHtml(brandLabel());
-        els["prep-dialog"].showModal();
+    // Browser toolbar SELECT ALL: adds every currently visible story.
+    if (els["btn-select-all"]) {
+      els["btn-select-all"].addEventListener("click", () => {
+        SSLoadout.selectAllVisible(visibleStories);
+        renderCards();
       });
     }
-    if (els["btn-print-prep"]) {
-      els["btn-print-prep"].addEventListener("click", () => window.print());
+    if (els["btn-close-loadout"]) {
+      els["btn-close-loadout"].addEventListener("click", () => {
+        closeLoadoutDrawer(false);
+      });
     }
+    if (els["btn-loadout"]) {
+      els["btn-loadout"].addEventListener("click", () => {
+        const pane = els["loadout-pane"];
+        if (!pane) return;
+        if (window.matchMedia("(max-width: 960px)").matches) {
+          if (pane.classList.contains("open")) closeLoadoutDrawer(false);
+          else openLoadoutDrawer();
+        } else {
+          pane.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      });
+    }
+    // Mobile drawer: the OS/browser back gesture should close the drawer,
+    // not navigate away from the board. Push a history entry on open and
+    // close the drawer on popstate instead of leaving the page.
+    let drawerHistoryPushed = false;
+    function openLoadoutDrawer() {
+      const pane = els["loadout-pane"];
+      if (!pane) return;
+      pane.classList.add("open");
+      if (!drawerHistoryPushed) {
+        try {
+          window.history.pushState({ ssnDrawer: "loadout" }, "");
+          drawerHistoryPushed = true;
+        } catch (err) {
+          /* history unavailable */
+        }
+      }
+    }
+    function closeLoadoutDrawer(viaPop) {
+      const pane = els["loadout-pane"];
+      if (!pane || !pane.classList.contains("open")) return;
+      pane.classList.remove("open");
+      if (!viaPop && drawerHistoryPushed) {
+        drawerHistoryPushed = false;
+        window.history.back();
+      }
+    }
+    window.addEventListener("popstate", () => {
+      const pane = els["loadout-pane"];
+      if (pane && pane.classList.contains("open")) {
+        pane.classList.remove("open");
+        drawerHistoryPushed = false;
+      }
+    });
 
     window.addEventListener("online", updateStatus);
     window.addEventListener("offline", updateStatus);
@@ -879,7 +1006,9 @@
       await SSStorage.purgeJunkOlderThan(7);
       await refreshJunkIds();
       await bootstrapStories();
-      await SSLoadout.load();
+      // Working loadout restores from this browser's localStorage
+      // (auto-saved after every change; per-user, never shared).
+      SSLoadout.restore();
       removeJunkFromLoadout();
       if (activeEdition) renderCards();
       else renderRundownPicker();

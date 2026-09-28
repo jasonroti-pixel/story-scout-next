@@ -49,6 +49,15 @@ jobs:
           # text-only model (0.54) is used instead. The run never breaks.
           TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
 
+      - name: Gemini writing pass
+        run: python pipeline/gemini_enrich.py --input data/stories.json --limit 60
+        env:
+          PYTHONUNBUFFERED: "1"
+          # Optional: when set, fresh stories get a Gemini-written angle /
+          # bullets / debate pass in the show's voice. Unset -> the run
+          # still succeeds and template copy stays in place.
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
       - name: Commit stories.json
         run: |
           git config user.name "github-actions[bot]"

@@ -14,7 +14,8 @@
     --panel: #0d0b1e;
     --border: #2a2350;
     --cyan: #00e5ff;
-    --magenta: #ff2fb3;
+    --magenta: #ee005a;
+    --sandy: #faae7b;
     --text: #e8e6ff;
     --muted: #8f8ab8;
   }
@@ -67,7 +68,7 @@
     border-color: var(--cyan);
     box-shadow: 0 8px 32px rgba(0, 229, 255, .18);
   }
-  a.card.v2:hover { border-color: var(--magenta); box-shadow: 0 8px 32px rgba(255, 47, 179, .18); }
+  a.card.v2:hover { border-color: var(--magenta); box-shadow: 0 8px 32px rgba(238, 0, 90, .18); }
   .ver {
     font-family: "Press Start 2P", monospace;
     font-size: 13px;
@@ -75,6 +76,8 @@
     margin-bottom: 14px;
   }
   a.card.v2 .ver { color: var(--magenta); }
+  a.card.fetcher:hover { border-color: var(--sandy); box-shadow: 0 8px 32px rgba(250, 174, 123, .18); }
+  a.card.fetcher .ver { color: var(--sandy); }
   .card h2 { font-size: 20px; margin-bottom: 10px; }
   .card p { color: var(--muted); font-size: 13px; line-height: 1.6; }
   .tag {
@@ -91,19 +94,19 @@
 </head>
 <body>
   <h1>STORY SCOUT NEXT</h1>
-  <p class="sub">Pick your version. Same stories, different ride.</p>
+  <p class="sub">Pick your version. Two builds, different engines.</p>
   <div class="cards">
-    <a class="card" href="v1/">
+    <a class="card" href="https://jasonroti-pixel.github.io/daily-goods-rundowns/app.html">
       <div class="ver">VERSION 1</div>
       <h2>The Original</h2>
-      <p>The classic Story Scout board, frozen as-is. Retro arcade shell, filters, loadout, prep sheet. Nothing changes here.</p>
-      <span class="tag">stable · unchanged</span>
+      <p>The original model. Claude pulls the stories through the daily rundown PDFs: filters, loadout, prep sheet.</p>
+      <span class="tag">stable · claude-fed</span>
     </a>
     <a class="card v2" href="v2/">
       <div class="ver">VERSION 2</div>
-      <h2>The Redesign</h2>
-      <p>The next-generation board. A clean, modern console look over the exact same app. Nothing works differently, it just looks grown up.</p>
-      <span class="tag">new look · same app</span>
+      <h2>Peak Arcade</h2>
+      <p>Upgraded and modified with the latest enhancements: a new story pipeline, AI scoring, living pixel scenery, Nico front and centre. Still in beta.</p>
+      <span class="tag">beta · latest build</span>
     </a>
   </div>
   <footer>THE DAILY GOODS · prep tooling</footer>

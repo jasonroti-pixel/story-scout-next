@@ -4,17 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="description" content="Story Scout Next — Canadian radio-prep story board (static SPA)" />
-  <meta name="theme-color" content="#0a0d13" />
+  <meta name="theme-color" content="#012641" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230a0d13'/%3E%3Ctext x='50%25' y='62%25' text-anchor='middle' font-family='sans-serif' font-weight='bold' font-size='30' fill='%2338bdf8'%3ES2%3C/text%3E%3C/svg%3E" />
-  <title>Story Scout Next — v2</title>
+  <link rel="icon" type="image/svg+xml" href="assets/px/nico-mini.svg" />
+  <title>Story Scout Next — v2 Peak Arcade</title>
 
-  <!-- Fonts: Space Grotesk (display) + Inter (body) -->
+  <!-- Fonts: Pixelify Sans (display) + Silkscreen (labels) + Chakra Petch (body) -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Silkscreen:wght@400;700&family=Chakra+Petch:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/scenes.css" />
+  <link rel="stylesheet" href="css/themes.css" />
 
   <!-- CDN libs (no npm build) -->
   <script src="https://unpkg.com/dexie@4.0.8/dist/dexie.min.js"></script>
@@ -29,128 +31,90 @@
 <body>
   <a class="skip-link" href="#main">Skip to stories</a>
 
-  <!-- Full-screen Arcade intro -->
+  <!-- ============ Title screen ============ -->
   <div id="intro-screen" class="intro-screen" role="dialog" aria-label="Story Scout intro">
-    <div class="intro-sky" aria-hidden="true">
-      <svg class="intro-skyline" viewBox="0 0 320 120" preserveAspectRatio="xMidYMax slice" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="skyGradNight" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#0a0820"/>
-            <stop offset="100%" stop-color="#06050f"/>
-          </linearGradient>
-          <linearGradient id="skyGradDay" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#7ec8ff"/>
-            <stop offset="100%" stop-color="#c8e4ff"/>
-          </linearGradient>
-        </defs>
-        <rect class="sky-fill" width="320" height="120" fill="url(#skyGradNight)"/>
-        <g class="stars">
-          <rect x="20" y="12" width="2" height="2" fill="#eae8ff"/>
-          <rect x="48" y="28" width="2" height="2" fill="#c4c0e8"/>
-          <rect x="80" y="8" width="2" height="2" fill="#eae8ff"/>
-          <rect x="110" y="22" width="2" height="2" fill="#00e5ff"/>
-          <rect x="140" y="14" width="2" height="2" fill="#eae8ff"/>
-          <rect x="175" y="30" width="2" height="2" fill="#c4c0e8"/>
-          <rect x="200" y="10" width="2" height="2" fill="#ffd700"/>
-          <rect x="230" y="24" width="2" height="2" fill="#eae8ff"/>
-          <rect x="260" y="16" width="2" height="2" fill="#b44aff"/>
-          <rect x="290" y="8" width="2" height="2" fill="#eae8ff"/>
-          <rect x="305" y="32" width="2" height="2" fill="#00e5ff"/>
-          <rect x="35" y="40" width="2" height="2" fill="#eae8ff"/>
-          <rect x="155" y="38" width="2" height="2" fill="#c4c0e8"/>
-          <rect x="275" y="42" width="2" height="2" fill="#eae8ff"/>
-        </g>
-        <!-- Pixel city skyline -->
-        <g class="city" fill="#0e0d1f" stroke="#2a2854" stroke-width="1">
-          <rect x="0" y="78" width="18" height="42"/>
-          <rect x="16" y="62" width="22" height="58"/>
-          <rect x="36" y="70" width="14" height="50"/>
-          <rect x="48" y="48" width="28" height="72"/>
-          <rect x="74" y="66" width="16" height="54"/>
-          <rect x="88" y="54" width="24" height="66"/>
-          <rect x="110" y="72" width="12" height="48"/>
-          <rect x="120" y="40" width="32" height="80"/>
-          <rect x="150" y="58" width="18" height="62"/>
-          <rect x="166" y="68" width="14" height="52"/>
-          <rect x="178" y="44" width="30" height="76"/>
-          <rect x="206" y="60" width="20" height="60"/>
-          <rect x="224" y="52" width="26" height="68"/>
-          <rect x="248" y="74" width="14" height="46"/>
-          <rect x="260" y="56" width="28" height="64"/>
-          <rect x="286" y="64" width="18" height="56"/>
-          <rect x="302" y="78" width="18" height="42"/>
-        </g>
-        <!-- Window lights -->
-        <g class="windows" fill="#ffd700">
-          <rect x="52" y="56" width="3" height="3"/><rect x="58" y="56" width="3" height="3"/>
-          <rect x="52" y="64" width="3" height="3"/><rect x="64" y="72" width="3" height="3"/>
-          <rect x="128" y="50" width="3" height="3"/><rect x="136" y="58" width="3" height="3"/>
-          <rect x="186" y="52" width="3" height="3"/><rect x="194" y="60" width="3" height="3"/>
-          <rect x="232" y="60" width="3" height="3"/><rect x="240" y="68" width="3" height="3"/>
-          <rect x="268" y="64" width="3" height="3"/><rect x="276" y="72" width="3" height="3"/>
-        </g>
-      </svg>
-    </div>
+    <div class="px-scene scene-bg" data-scene="city" aria-hidden="true"></div>
 
     <div class="intro-content">
-      <p class="intro-presents" id="intro-presents">THE DAILY GOODS PRESENTS</p>
-      <h1 class="intro-title" id="intro-title">JAYSTATION</h1>
-      <img class="intro-brand-logo pixelated" id="intro-brand-logo" src="assets/daily-goods-logo.jpeg" alt="The Daily Goods" hidden />
-      <p class="intro-subtitle">STORY BOARD</p>
+      <div class="marquee">
+        <div class="marquee-top">
+          <img class="dg-logo" src="assets/daily-goods-logo.jpeg" alt="The Daily Goods" width="56" height="56" />
+          <p class="intro-presents" id="intro-presents">THE DAILY GOODS PRESENTS</p>
+        </div>
+        <h1 class="intro-title" id="intro-title">JAYSTATION</h1>
+        <img class="intro-brand-logo" id="intro-brand-logo" src="assets/daily-goods-logo.jpeg" alt="The Daily Goods" hidden />
+        <p class="intro-subtitle">STORY SCOUT</p>
 
-      <div class="intro-mascot-wrap">
-        <img class="intro-mascot pixelated" id="intro-mascot" src="assets/nico-sit.png" alt="Nico" />
-        <p class="intro-featuring">FEATURING NICO</p>
+        <div class="intro-mascot-wrap">
+          <div class="nico-medallion nico-medallion-xl">
+            <img class="intro-mascot" id="intro-mascot" src="assets/px/nico-hero.png" alt="Nico, smiling" width="200" height="200" />
+          </div>
+          <p class="intro-featuring">FEATURING NICO</p>
+        </div>
+
+        <div class="intro-actions">
+          <button type="button" class="btn btn-primary btn-xl intro-start" id="intro-start">START</button>
+          <div class="intro-actions-row">
+            <button type="button" class="btn" id="intro-options">OPTIONS</button>
+            <button type="button" class="btn" id="intro-theme">DAY MODE</button>
+          </div>
+          <div class="intro-actions-row">
+            <a class="btn btn-warning" href="https://jasonroti-pixel.github.io/daily-goods-rundowns/summarizer.html" target="_blank" rel="noopener" title="Throw Nico some links">↗ NICO FETCHER</a>
+          </div>
+        </div>
+
+        <p class="intro-press-start blink" aria-hidden="true">▶ PRESS START</p>
       </div>
-
-      <div class="intro-actions">
-        <button type="button" class="btn btn-warning" id="intro-brand" title="Switch brand">♦ SWITCH TO DAILY GOODS</button>
-        <button type="button" class="btn btn-primary intro-start" id="intro-start">START</button>
-        <button type="button" class="btn" id="intro-options">OPTIONS</button>
-        <button type="button" class="btn" id="intro-theme">NIGHT MODE</button>
-      </div>
-
-      <p class="intro-press-start blink" aria-hidden="true">Tap start to enter</p>
-      <p class="intro-footer-copy">© 2026 THE DAILY GOODS • TORONTO</p>
+      <p class="intro-footer-copy">© 2026 THE DAILY GOODS · TORONTO</p>
     </div>
 
     <div id="intro-options-panel" class="intro-options-panel panel" hidden>
       <h2 class="section-header">OPTIONS</h2>
       <div class="intro-options-row">
-        <button type="button" class="btn btn-primary" id="intro-theme-opt">THEME: NIGHT</button>
-        <button type="button" class="btn btn-warning" id="intro-brand-opt">BRAND: JS</button>
+        <button type="button" class="btn btn-primary" id="intro-theme-opt">THEME: DAY</button>
       </div>
+      <p class="options-label">NICO SPRITES</p>
       <div class="intro-nico-gallery">
-        <img class="pixelated" src="assets/nico-sit.png" alt="Nico sit" />
-        <img class="pixelated" src="assets/nico-run.png" alt="Nico run" />
-        <img class="pixelated" src="assets/nico-snarl.png" alt="Nico snarl" />
-        <img class="pixelated nico-sheet" src="assets/nico-run-sheet.png" alt="Nico run cycle" />
+        <img src="assets/px/nico-sit-ball.svg" alt="Nico sitting with his ball" />
+        <img src="assets/px/nico-sit-front-ball.svg" alt="Nico sitting, ball at his paws" />
+        <img src="assets/px/nico-run-b.svg" alt="Nico running with his ball" />
+        <img src="assets/px/nico-bow-right.svg" alt="Nico play-bowing at his ball" />
       </div>
-      <button type="button" class="btn" id="intro-options-close">CLOSE</button>
+      <div class="intro-options-row">
+        <button type="button" class="btn btn-success" data-credits>★ ROLL CREDITS</button>
+        <button type="button" class="btn" id="intro-options-close">CLOSE</button>
+      </div>
     </div>
   </div>
+
+  <!-- ============ App ============ -->
+  <div class="px-scene scene-bg app-scene" id="app-scene" data-scene="trail" aria-hidden="true" hidden></div>
 
   <div id="app-shell" class="app-shell" hidden>
     <header class="app-header topbar panel">
       <div class="brand-row">
         <div class="brand-block">
           <div class="brand-lockup">
-            <img class="header-mascot pixelated" id="header-mascot" src="assets/nico-sit.png" alt="" />
-            <img class="header-brand-logo pixelated" id="header-brand-logo" src="assets/daily-goods-logo.jpeg" alt="Daily Goods" hidden />
-            <div>
+            <img class="dg-logo dg-logo-sm" src="assets/daily-goods-logo.jpeg" alt="The Daily Goods" width="48" height="48" />
+            <div class="nico-medallion nico-medallion-sm">
+              <img class="header-mascot" id="header-mascot" src="assets/px/nico-badge.svg" alt="" width="40" height="44" />
+            </div>
+            <img class="header-brand-logo" id="header-brand-logo" src="assets/daily-goods-logo.jpeg" alt="Daily Goods" hidden />
+            <div class="brand-text">
               <h1 class="app-title">STORY SCOUT</h1>
               <p class="app-subtitle" id="brand-label">Jaystation · Radio Prep</p>
             </div>
           </div>
         </div>
         <div class="header-controls">
-          <button type="button" class="btn btn-primary" id="btn-theme" title="Toggle night/day">NIGHT</button>
-          <button type="button" class="btn btn-warning" id="btn-brand" title="Toggle brand">DG</button>
+          <button type="button" class="btn btn-primary" id="btn-theme" title="Toggle night/day">DAY</button>
+          <button type="button" class="btn btn-primary" id="btn-loadout" title="Open loadout">LOADOUT <span class="lo-count" id="loadout-count">0</span></button>
           <button type="button" class="btn btn-danger" id="btn-junk-folder" title="Open Junk folder">🗑 JUNK</button>
           <button type="button" class="btn btn-success" id="btn-refresh" title="Reload stories">SYNC</button>
         </div>
       </div>
       <div class="status-row">
+        <span class="status-dot" aria-hidden="true"></span>
         <span class="text-dim" id="last-updated">Last updated: —</span>
         <span class="tag" id="story-count">0</span>
         <span class="text-dim offline-badge" id="offline-badge" hidden>OFFLINE</span>
@@ -158,14 +122,18 @@
     </header>
 
     <section id="rundown-view" class="rundown-view" aria-label="Rundown picker">
-      <h2 class="section-header rundown-heading">SELECT RUNDOWN</h2>
+      <div class="plate plate-center">
+        <p class="plate-kicker">STAGE SELECT</p>
+        <h2 class="section-header rundown-heading">SELECT RUNDOWN</h2>
+        <p><button type="button" class="add-story-btn" id="btn-custom-picker">+ ADD STORY</button></p>
+      </div>
       <div id="rundown-grid" class="rundown-grid" role="list"></div>
       <p id="rundown-empty" class="empty-state" hidden>No rundowns yet. Sync stories to continue.</p>
     </section>
 
     <div id="edition-view" class="edition-view" hidden>
       <div class="edition-bar panel">
-        <button type="button" class="btn" id="btn-back-rundowns" title="Back to rundowns">← RUNDOWNS</button>
+        <button type="button" class="btn" id="btn-back-rundowns" title="Back to rundowns">◀ RUNDOWNS</button>
         <span class="edition-label" id="edition-label"></span>
       </div>
 
@@ -198,7 +166,8 @@
           </select>
           <label class="chk"><input type="checkbox" id="filter-canadian" /><span>CA only</span></label>
           <label class="chk"><input type="checkbox" id="filter-clips" /><span>Has clips</span></label>
-          <button type="button" class="btn btn-warning" id="btn-custom">+ Custom</button>
+          <button type="button" class="btn" id="btn-select-all">SELECT ALL</button>
+          <button type="button" class="add-story-btn" id="btn-custom">+ ADD STORY</button>
         </div>
       </nav>
 
@@ -208,22 +177,32 @@
           <p id="empty-state" class="empty-state" hidden>No stories match. Try clearing filters.</p>
         </main>
 
-        <aside class="loadout-pane panel" aria-label="Show loadout">
-          <h2 class="pane-title section-header">LOADOUT</h2>
-          <div class="loadout-actions">
-            <button type="button" class="btn btn-primary" id="btn-save-loadout">Save</button>
-            <button type="button" class="btn" id="btn-load-loadout">Load</button>
-            <button type="button" class="btn btn-success" id="btn-prep-sheet">Prep sheet</button>
-            <button type="button" class="btn btn-danger" id="btn-clear-loadout">Clear</button>
+        <aside class="loadout-pane panel" id="loadout-pane" aria-label="Show loadout">
+          <div class="pane-head">
+            <h2 class="pane-title section-header">LOADOUT - PREP SHEET</h2>
+            <img class="pane-nico" src="assets/px/nico-banner.svg" alt="" width="49" height="46" />
+            <button type="button" class="btn btn-close-drawer" id="btn-close-loadout" aria-label="Close loadout">✕</button>
           </div>
-          <ol id="loadout-list" class="loadout-list"></ol>
-          <p class="hint">Drag to reorder · click ★ for backup</p>
+          <p class="prep-count-line"><span id="prepCount">0</span> STORIES</p>
+          <div class="prep-actions loadout-actions" id="prepActions" style="display:none">
+            <button type="button" class="btn" id="btn-selall-loadout">SELECT ALL</button>
+            <button type="button" class="btn" id="btn-copy-loadout">COPY</button>
+            <button type="button" class="btn" id="btn-print-loadout">PRINT</button>
+            <button type="button" class="btn" id="btn-email-loadout">EMAIL</button>
+            <button type="button" class="btn btn-danger" id="btn-clear-loadout">CLEAR</button>
+          </div>
+          <div id="prepList"></div>
+          <p class="hint lo-local">Saved in this browser only — your loadout, nobody else's.</p>
         </aside>
       </div>
     </div>
 
     <footer class="app-footer">
-      <span>Story Scout Next · v2 Console</span>
+      <span class="footer-brand">
+        <img src="assets/px/nico-mini.svg" alt="" width="22" height="24" />
+        Story Scout Next · v2 Peak Arcade
+      </span>
+      <button type="button" class="btn btn-ghost" data-credits>★ CREDITS</button>
       <span id="pwa-status"></span>
     </footer>
   </div>
@@ -241,28 +220,41 @@
   <!-- Custom story modal -->
   <dialog id="custom-dialog" class="dialog">
     <form id="custom-form" method="dialog">
-      <p class="dialog-title section-header">Custom story</p>
-      <label>Title<input class="input" name="title" required maxlength="200" /></label>
-      <label>Category
-        <select class="select" name="category">
-          <option>THE LIST</option>
-          <option>ENTERTAINMENT</option>
-          <option>BREAKOUT WATCH</option>
-          <option>LIFESTYLE CHAT</option>
-          <option>CANADIAN NEWS</option>
-          <option>TECH</option>
-          <option>SPORTS</option>
-          <option>CLOSER</option>
-        </select>
-      </label>
-      <label>Angle<input class="input" name="angle" maxlength="240" /></label>
-      <label>Bullets (one per line)<textarea class="input" name="bullets" rows="3"></textarea></label>
-      <label>Debate<input class="input" name="debate" maxlength="240" /></label>
-      <label>Source URL<input class="input" name="url" type="url" /></label>
-      <menu class="dialog-menu">
-        <button type="submit" class="btn btn-primary" value="ok">Add</button>
-        <button type="submit" class="btn" value="cancel">Cancel</button>
-      </menu>
+      <p class="add-form-title">+ ADD CUSTOM STORY</p>
+      <div class="add-form-row">
+        <label class="add-form-label" for="addTitle">TITLE *</label>
+        <input class="add-form-input" id="addTitle" name="title" type="text" placeholder="Story headline..." />
+      </div>
+      <div class="add-form-row">
+        <label class="add-form-label" for="addUrl">URL</label>
+        <input class="add-form-input" id="addUrl" name="url" type="url" placeholder="https://..." />
+      </div>
+      <div class="add-form-row">
+        <label class="add-form-label" for="addAngle">SUMMARY / THOUGHTS</label>
+        <textarea class="add-form-textarea" id="addAngle" name="angle" rows="3" placeholder="Your angle on this story — why it matters, how to talk about it..."></textarea>
+      </div>
+      <div class="add-form-row">
+        <label class="add-form-label" for="addBullets">TALKING POINTS</label>
+        <textarea class="add-form-textarea" id="addBullets" name="bullets" rows="3" placeholder="One point per line&#10;Each line becomes a bullet point&#10;Great for key facts or debate hooks"></textarea>
+        <div class="add-form-hint">ONE POINT PER LINE</div>
+      </div>
+      <div class="add-form-row add-form-inline">
+        <div>
+          <label class="add-form-label" for="addDate">DATE *</label>
+          <input class="add-form-input" id="addDate" name="cdate" type="date" />
+        </div>
+        <div>
+          <label class="add-form-label" for="addSlot">SLOT *</label>
+          <select class="add-form-select" id="addSlot" name="cslot" style="width:100%">
+            <option value="am">MORNING</option>
+            <option value="pm">EVENING</option>
+          </select>
+        </div>
+      </div>
+      <div class="add-form-actions">
+        <button type="submit" class="add-form-submit" value="ok">ADD STORY</button>
+        <button type="submit" class="add-form-cancel" value="cancel">CANCEL</button>
+      </div>
     </form>
   </dialog>
 
@@ -275,18 +267,11 @@
     </form>
     <p class="dialog-title section-header">Junk folder</p>
     <div id="junk-list" class="junk-list"></div>
+    <div class="px-scene scene-strip" data-scene="alley" aria-hidden="true"></div>
   </dialog>
 
-  <!-- Prep sheet -->
-  <dialog id="prep-dialog" class="dialog prep-dialog">
-    <form method="dialog">
-      <menu class="dialog-menu">
-        <button type="button" class="btn btn-primary" id="btn-print-prep">Print</button>
-        <button type="submit" class="btn" value="cancel">Close</button>
-      </menu>
-    </form>
-    <div id="prep-body" class="prep-body"></div>
-  </dialog>
+  <!-- End credits (built by js/arcade.js) -->
+  <div id="credits" class="credits" role="dialog" aria-modal="true" aria-label="End credits" hidden></div>
 
   <div id="toast" class="toast" hidden role="status"></div>
 
@@ -295,5 +280,6 @@
   <script src="js/clips.js"></script>
   <script src="js/loadout.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/arcade.js"></script>
 </body>
 </html>
