@@ -125,6 +125,7 @@
       <div class="plate plate-center">
         <p class="plate-kicker">STAGE SELECT</p>
         <h2 class="section-header rundown-heading">SELECT RUNDOWN</h2>
+        <p><button type="button" class="add-story-btn" id="btn-custom-picker">+ ADD STORY</button></p>
       </div>
       <div id="rundown-grid" class="rundown-grid" role="list"></div>
       <p id="rundown-empty" class="empty-state" hidden>No rundowns yet. Sync stories to continue.</p>
@@ -166,7 +167,7 @@
           <label class="chk"><input type="checkbox" id="filter-canadian" /><span>CA only</span></label>
           <label class="chk"><input type="checkbox" id="filter-clips" /><span>Has clips</span></label>
           <button type="button" class="btn" id="btn-select-all">SELECT ALL</button>
-          <button type="button" class="btn btn-warning" id="btn-custom">+ Custom</button>
+          <button type="button" class="add-story-btn" id="btn-custom">+ ADD STORY</button>
         </div>
       </nav>
 
@@ -219,35 +220,41 @@
   <!-- Custom story modal -->
   <dialog id="custom-dialog" class="dialog">
     <form id="custom-form" method="dialog">
-      <p class="dialog-title section-header">Custom story</p>
-      <label>Title<input class="input" name="title" required maxlength="200" /></label>
-      <label>Category
-        <select class="select" name="category">
-          <option>THE LIST</option>
-          <option>ENTERTAINMENT</option>
-          <option>BREAKOUT WATCH</option>
-          <option>LIFESTYLE CHAT</option>
-          <option>CANADIAN NEWS</option>
-          <option>TECH</option>
-          <option>SPORTS</option>
-          <option>CLOSER</option>
-        </select>
-      </label>
-      <label>Angle<input class="input" name="angle" maxlength="240" /></label>
-      <label>Bullets (one per line)<textarea class="input" name="bullets" rows="3"></textarea></label>
-      <label>Debate<input class="input" name="debate" maxlength="240" /></label>
-      <label>Source URL<input class="input" name="url" type="url" /></label>
-      <label>Date<input class="input" name="cdate" type="date" required /></label>
-      <label>Slot
-        <select class="select" name="cslot">
-          <option value="am">MORNING</option>
-          <option value="pm">EVENING</option>
-        </select>
-      </label>
-      <menu class="dialog-menu">
-        <button type="submit" class="btn btn-primary" value="ok">Add</button>
-        <button type="submit" class="btn" value="cancel">Cancel</button>
-      </menu>
+      <p class="add-form-title">+ ADD CUSTOM STORY</p>
+      <div class="add-form-row">
+        <label class="add-form-label" for="addTitle">TITLE *</label>
+        <input class="add-form-input" id="addTitle" name="title" type="text" placeholder="Story headline..." />
+      </div>
+      <div class="add-form-row">
+        <label class="add-form-label" for="addUrl">URL</label>
+        <input class="add-form-input" id="addUrl" name="url" type="url" placeholder="https://..." />
+      </div>
+      <div class="add-form-row">
+        <label class="add-form-label" for="addAngle">SUMMARY / THOUGHTS</label>
+        <textarea class="add-form-textarea" id="addAngle" name="angle" rows="3" placeholder="Your angle on this story — why it matters, how to talk about it..."></textarea>
+      </div>
+      <div class="add-form-row">
+        <label class="add-form-label" for="addBullets">TALKING POINTS</label>
+        <textarea class="add-form-textarea" id="addBullets" name="bullets" rows="3" placeholder="One point per line&#10;Each line becomes a bullet point&#10;Great for key facts or debate hooks"></textarea>
+        <div class="add-form-hint">ONE POINT PER LINE</div>
+      </div>
+      <div class="add-form-row add-form-inline">
+        <div>
+          <label class="add-form-label" for="addDate">DATE *</label>
+          <input class="add-form-input" id="addDate" name="cdate" type="date" />
+        </div>
+        <div>
+          <label class="add-form-label" for="addSlot">SLOT *</label>
+          <select class="add-form-select" id="addSlot" name="cslot" style="width:100%">
+            <option value="am">MORNING</option>
+            <option value="pm">EVENING</option>
+          </select>
+        </div>
+      </div>
+      <div class="add-form-actions">
+        <button type="submit" class="add-form-submit" value="ok">ADD STORY</button>
+        <button type="submit" class="add-form-cancel" value="cancel">CANCEL</button>
+      </div>
     </form>
   </dialog>
 

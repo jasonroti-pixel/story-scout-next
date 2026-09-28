@@ -43,6 +43,10 @@
   --dusk: #871568;
   --mauve: #6A224E;
   --ember: #C56754;
+  --yellow: #FFD700;
+  --pink: #FF2D7B;
+  --cyan: #00E5FF;
+  --green: #39FF14;
 
   /* --- Semantic roles: night (default) --- */
   --bg: var(--space-800);
@@ -372,7 +376,61 @@ html[data-theme="day"] .select { box-shadow: inset 3px 3px 0 var(--ant-200); }
 }
 .tag-ca { background: var(--burg-700); border-color: var(--ink); color: var(--ant-50); }
 .tag.cat, .cat-pill { background: var(--indigo-700); border-color: var(--ink); color: var(--ant-50); }
-.tag-custom { background: var(--sandy-600); border-color: var(--ink); color: var(--space-900); }
+
+/* --- ADD STORY (mirrors the original) --- */
+.add-story-btn {
+  font-family: var(--font-label); font-size: var(--fs-xs); padding: 8px 10px;
+  background: transparent; border: 2px solid var(--yellow); color: var(--yellow);
+  cursor: pointer; white-space: nowrap;
+}
+.add-story-btn:hover { background: rgba(255,215,0,0.08); }
+.add-form-title {
+  font-family: var(--font-label); font-size: var(--fs-md); color: var(--yellow);
+  margin: 0 0 20px; text-shadow: 0 0 8px rgba(255,215,0,0.3);
+}
+.add-form-row { margin-bottom: 14px; }
+.add-form-label {
+  font-family: var(--font-label); font-size: var(--fs-xs); color: var(--text-dim);
+  margin-bottom: 6px; display: block;
+}
+.add-form-input, .add-form-select, .add-form-textarea {
+  font-family: var(--font-body); font-size: var(--fs-sm);
+  padding: 8px 10px; background: var(--bg); color: var(--text);
+  border: 2px solid var(--line); width: 100%; outline: none;
+}
+.add-form-input:focus, .add-form-select:focus, .add-form-textarea:focus { border-color: var(--cyan); }
+.add-form-input::placeholder, .add-form-textarea::placeholder { color: var(--text-dim); }
+.add-form-select { cursor: pointer; }
+.add-form-textarea { resize: vertical; min-height: 60px; line-height: 1.5; }
+.add-form-hint {
+  font-family: var(--font-label); font-size: var(--fs-xs); color: var(--text-dim); margin-top: 4px;
+}
+.add-form-inline { display: flex; gap: 10px; }
+.add-form-inline > * { flex: 1; }
+.add-form-actions { display: flex; gap: 10px; margin-top: 20px; }
+.add-form-submit {
+  font-family: var(--font-label); font-size: var(--fs-sm);
+  padding: 10px 20px; border: 2px solid var(--green); background: transparent;
+  color: var(--green); cursor: pointer; flex: 1;
+}
+.add-form-submit:hover { background: rgba(57,255,20,0.1); }
+.add-form-cancel {
+  font-family: var(--font-label); font-size: var(--fs-sm);
+  padding: 10px 20px; border: 2px solid var(--text-dim); background: transparent;
+  color: var(--text-dim); cursor: pointer; flex: 1;
+}
+.add-form-cancel:hover { border-color: var(--pink); color: var(--pink); }
+.story-card.custom .card-title::before {
+  content: "CUSTOM"; font-family: var(--font-label); font-size: var(--fs-xs);
+  color: var(--yellow); background: rgba(255,215,0,0.12); border: 1px solid var(--yellow);
+  padding: 2px 5px; margin-right: 8px; vertical-align: middle;
+}
+.custom-delete {
+  font-family: var(--font-label); font-size: var(--fs-xs);
+  background: none; border: 1px solid var(--pink); color: var(--pink);
+  padding: 2px 6px; cursor: pointer; margin-left: 8px;
+}
+.custom-delete:hover { background: rgba(255,45,123,0.12); }
 .clip-badge {
   display: inline-flex;
   padding: 3px 8px 4px;
@@ -1076,7 +1134,6 @@ html[data-theme="day"] .app-title { text-shadow: 3px 3px 0 var(--sandy-400); }
   line-height: 1;
 }
 .prep-remove:hover { color: var(--text-bright); }
-.custom-delete { font-size: var(--fs-xs); padding: 4px 8px 5px; }
 
 /* Print: like production, print the story cards with selected highlighted */
 @media print {

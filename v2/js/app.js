@@ -47,6 +47,7 @@
       "btn-refresh",
       "btn-junk-folder",
       "btn-custom",
+      "btn-custom-picker",
       "btn-select-all",
       "btn-selall-loadout",
       "btn-copy-loadout",
@@ -418,7 +419,7 @@
           ? `<p class="card-debate">${SSClips.escapeHtml(s.debate)}</p>`
           : "";
         const customDel = s._custom
-          ? `<button type="button" class="btn btn-danger custom-delete" data-custom-id="${SSClips.escapeAttr(
+          ? `<button type="button" class="custom-delete" data-custom-id="${SSClips.escapeAttr(
               s.id
             )}">DELETE</button>`
           : "";
@@ -427,8 +428,7 @@
         }${selected}" role="listitem" tabindex="0" data-id="${SSClips.escapeAttr(sid)}">
           <div class="card-top">
             <span class="tag cat">${SSClips.escapeHtml(s.category || "")}</span>
-            ${s._custom ? '<span class="tag tag-custom">CUSTOM</span>' : ""}
-            <span class="score-pill">${Number(s.score || 0).toFixed(0)}</span>
+            <span class="score-pill">${s.score === "" ? "—" : Number(s.score || 0).toFixed(0)}</span>
           </div>
           <h3 class="card-title">${SSClips.escapeHtml(s.title || "")}</h3>
           <p class="card-angle">${SSClips.escapeHtml(s.angle || "")}</p>
@@ -439,11 +439,11 @@
             <span>${SSClips.escapeHtml(s.source || "")}</span>
             ${ca}
             ${clip}
+            ${customDel}
           </div>
           <div class="card-actions">
             <button type="button" class="btn" data-act="detail" data-id="${SSClips.escapeAttr(s.id)}">Detail</button>
             <button type="button" class="btn btn-danger" data-act="junk" data-id="${SSClips.escapeAttr(s.id)}">JUNK</button>
-            ${customDel}
           </div>
         </article>`;
       })
@@ -827,48 +827,49 @@
       });
     }
 
-    if (els["btn-custom"]) {
-      els["btn-custom"].addEventListener("click", () => {
-        if (els["custom-form"]) els["custom-form"].reset();
-        // Like the original: date/slot default to the rundown being viewed.
-        const form = els["custom-form"];
-        const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
-        const dateInput = form && form.elements.namedItem("cdate");
-        const slotInput = form && form.elements.namedItem("cslot");
-        if (dateInput) dateInput.value = (activeEdition && activeEdition.date) || today;
-        if (slotInput) slotInput.value = (activeEdition && activeEdition.slot) || (new Date().getHours() < 15 ? "am" : "pm");
-        els["custom-dialog"].showModal();
-      });
+    // ADD STORY: exact copy of the original's functionality.
+    function showAddStory() {
+      const form = els["custom-form"];
+      if (form) form.reset();
+      const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
+      const dateInput = form && form.elements.namedItem("cdate");
+      const slotInput = form && form.elements.namedItem("cslot");
+      if (dateInput) dateInput.value = (activeEdition && activeEdition.date) || today;
+      if (slotInput) slotInput.value = (activeEdition && activeEdition.slot) || "am";
+      if (els["custom-dialog"]) els["custom-dialog"].showModal();
+      const titleInput = document.getElementById("addTitle");
+      if (titleInput) titleInput.focus();
     }
+    if (els["btn-custom"]) els["btn-custom"].addEventListener("click", showAddStory);
+    if (els["btn-custom-picker"]) els["btn-custom-picker"].addEventListener("click", showAddStory);
 
     if (els["custom-form"]) {
       els["custom-dialog"].addEventListener("close", async () => {
         if (els["custom-dialog"].returnValue !== "ok") return;
         const fd = new FormData(els["custom-form"]);
         const title = String(fd.get("title") || "").trim();
-        if (!title) { showToast("TITLE REQUIRED"); return; }
+        const url = String(fd.get("url") || "").trim();
+        const angle = String(fd.get("angle") || "").trim();
+        const bulletsRaw = String(fd.get("bullets") || "").trim();
+        const bullets = bulletsRaw ? bulletsRaw.split("\n").map((b) => b.trim()).filter(Boolean) : [];
         const cdate = String(fd.get("cdate") || "").trim();
-        if (!cdate) { showToast("DATE REQUIRED"); return; }
         const cslot = String(fd.get("cslot") || "am") === "pm" ? "pm" : "am";
-        const bullets = String(fd.get("bullets") || "")
-          .split("\n")
-          .map((x) => x.trim())
-          .filter(Boolean);
+        if (!title) { showToast("TITLE REQUIRED"); return; }
+        if (!cdate) { showToast("DATE REQUIRED"); return; }
         const id = "custom-" + Date.now().toString(36);
         const story = {
           id,
           _custom: true,
+          title,
+          url,
           date: cdate,
           slot: cslot,
-          category: String(fd.get("category") || "THE LIST"),
-          title,
-          angle: String(fd.get("angle") || title),
+          category: "ADDED STORIES",
+          angle,
           bullets,
-          debate: String(fd.get("debate") || "Agree or disagree — make your case in 30 seconds."),
-          source: "Custom",
-          source_type: "custom",
-          url: String(fd.get("url") || ""),
-          score: 60,
+          debate: "",
+          score: "",
+          source: "",
           is_backup: false,
           entities: { people: [], organizations: [], locations: [], is_canadian: true },
           sentiment: { compound: 0, label: "neutral" },
@@ -888,9 +889,9 @@
         await SSSearch.rebuild(allStories);
         updateStatus();
         buildRundownIndex();
-        // Like the original: stay exactly where you are. The rundown you are
-        // viewing is never replaced or navigated away from. If the new story
-        // belongs to the edition on screen, re-render so it appears.
+        // Like the original: never navigate away. If the story belongs to the
+        // edition on screen, re-render so it appears; on the picker, refresh
+        // the rundown list.
         if (activeEdition && activeEdition.date === story.date && activeEdition.slot === story.slot) {
           applyFilters();
         } else if (!activeEdition) {
