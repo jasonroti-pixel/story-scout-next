@@ -609,14 +609,14 @@
   function syncThemeButtons() {
     const theme = document.documentElement.getAttribute("data-theme") || "night";
     const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
-    if (els["btn-theme"]) els["btn-theme"].textContent = theme === "night" ? "NIGHT" : "DAY";
+    if (els["btn-theme"]) els["btn-theme"].textContent = theme === "night" ? "DAY" : "NIGHT";
     if (els["btn-brand"]) els["btn-brand"].textContent = brandShort();
     if (els["brand-label"]) els["brand-label"].textContent = brandLabel();
     if (els["intro-theme"]) {
-      els["intro-theme"].textContent = theme === "night" ? "NIGHT MODE" : "DAY MODE";
+      els["intro-theme"].textContent = theme === "night" ? "DAY MODE" : "NIGHT MODE";
     }
     if (els["intro-theme-opt"]) {
-      els["intro-theme-opt"].textContent = "THEME: " + (theme === "night" ? "NIGHT" : "DAY");
+      els["intro-theme-opt"].textContent = "THEME: " + (theme === "night" ? "DAY" : "NIGHT");
     }
     if (els["intro-brand"]) {
       els["intro-brand"].textContent =
