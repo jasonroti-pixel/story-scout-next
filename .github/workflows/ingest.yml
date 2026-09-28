@@ -18,6 +18,14 @@ on:
 permissions:
   contents: write
 
+# One ingest at a time: overlapping runs race on the stories.json push
+# (2026-09-28: two scheduled runs overlapped and the later one's push was
+# rejected as non-fast-forward). Queued runs check out fresh main, so each
+# run builds on the previous run's pushed stories.
+concurrency:
+  group: ingest-stories
+  cancel-in-progress: false
+
 jobs:
   ingest:
     runs-on: ubuntu-latest
@@ -67,5 +75,14 @@ jobs:
             echo "No story changes to commit"
           else
             git commit -m "chore(ingest): refresh data/stories.json [skip ci]"
-            git push
+            # Rebase onto anything pushed while this run was working (another
+            # queued run, a manual push, or Jay's jev-enrich), so the push
+            # below is fast-forward. If the rebase conflicts, bail out cleanly:
+            # the next scheduled run re-fetches and re-merges everything.
+            if git pull --rebase origin main; then
+              git push
+            else
+              git rebase --abort || true
+              echo "Remote moved during run and rebase conflicted; skipping push. Next run will pick up fresh stories."
+            fi
           fi

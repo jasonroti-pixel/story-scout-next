@@ -99,6 +99,15 @@ def gemini_write(api_key: str, title: str, category: str, text: str,
             if angle and bullets:
                 return {"angle": angle, "bullets": bullets, "debate": debate}
             last_error = "empty fields in response"
+        except urllib.error.HTTPError as e:
+            # Capture Google's real error body (e.g. "API key not valid")
+            # instead of just "HTTP Error 400: Bad Request".
+            try:
+                body = e.read().decode("utf-8", "replace")
+            except Exception:
+                body = ""
+            last_error = f"HTTP {e.code}: {body[:300]}"
+            time.sleep(2 * (attempt + 1))
         except Exception as e:  # noqa: BLE001
             last_error = str(e)[:200]
             time.sleep(2 * (attempt + 1))
