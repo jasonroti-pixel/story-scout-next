@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-26T09:48:02.410006+00:00",
+ "generated_at": "2026-09-28T10:18:22.895256+00:00",
  "timezone": "America/Toronto",
- "date": "2026-09-26",
+ "date": "2026-09-28",
  "slot": "am",
- "pipeline_version": "1.1.0",
- "count": 1149,
+ "pipeline_version": "1.2.0",
+ "count": 1229,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -303,6 +303,65 @@
    }
   },
   {
+   "id": "0a2d486219bbae80",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Roseanne’ Star Michael Fishman Apologizes to Fans for the ‘Chaos’ of Roseanne Barr Feud: ‘I’m Gonna Keep Pushing Out Love’",
+   "angle": "‘Roseanne’ Star Michael Fishman Apologizes to Fans for the ‘Chaos’ of Roseanne Barr Feud: ‘I’m Gonna Keep Pushing Out Love’. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Michael Fishman, who played D.J.",
+    "Conner on the ABC sitcom “Roseanne,” has taken to social media after making headlines for feuding with his former co-star Roseanne Barr earlier this month.",
+    "In August, Fishman said that the show’s 2018 reboot “was rightfully canceled” after Barr posted a racist tweet, to which Barr responded that Fishman was [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/roseanne-barr-michael-fishman-apologizes-for-feud-1236877099/",
+   "score": 82.2,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Michael Fishman Apologizes",
+     "Roseanne Barr Feud",
+     "Michael Fishman",
+     "D.J. Conner",
+     "Roseanne Barr",
+     "Fishman",
+     "Barr"
+    ],
+    "organizations": [
+     "ABC"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.6249,
+    "label": "negative"
+   },
+   "summary": "Michael Fishman, who played D.J. Conner on the ABC sitcom “Roseanne,” has taken to social media after making headlines for feuding with his former co-star Roseanne Barr earlier this month. In August, Fishman said that the show’s 2018 reboot “was rightfully canceled” after Barr posted a racist tweet, to which Barr responded that Fishman was [&#8230;]",
+   "cluster_id": "0a2d486219bbae80",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.489584+00:00",
+    "source_published_at": "2026-09-28T00:14:42+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.046,
+     "ENTERTAINMENT": 0.7908,
+     "BREAKOUT WATCH": 0.0433,
+     "LIFESTYLE CHAT": 0.05,
+     "CANADIAN NEWS": 0.0189,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0511
+    }
+   }
+  },
+  {
    "id": "abf4fc1f491496a5",
    "date": "2026-09-24",
    "slot": "am",
@@ -570,6 +629,62 @@
     "ingested_at": "2026-09-26T09:07:50.406502+00:00",
     "source_published_at": "2026-09-26T01:09:17+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "abcd12316485e159",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Email spam filters cost GOP fundraisers estimated $117M in donations last year: bombshell study",
+   "angle": "The little-noticed analysis, published on July 7 by Cameron Ellis of the University of Iowa and Lars Powell of the University of Alabama, could reignite long-running complaints by Republicans who have accused Google…",
+   "bullets": [
+    "The little-noticed analysis, published on July 7 by Cameron Ellis of the University of Iowa and Lars Powell of the University of Alabama, could reignite long-running complaints by Republicans who have accused Google and other tech platforms of suppressing GOP fundraising efforts – while leaving similar ActBlue fundraising emails from Democrats untouched."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/business/email-spam-filters-cost-gop-fundraisers-estimated-117m-in-donations-last-year-bombshell-study/",
+   "score": 79.5,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Email",
+     "Lars Powell"
+    ],
+    "organizations": [
+     "GOP",
+     "Cameron Ellis",
+     "the University of Iowa",
+     "the University of Alabama",
+     "Google"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.7506,
+    "label": "negative"
+   },
+   "summary": "The little-noticed analysis, published on July 7 by Cameron Ellis of the University of Iowa and Lars Powell of the University of Alabama, could reignite long-running complaints by Republicans who have accused Google and other tech platforms of suppressing GOP fundraising efforts – while leaving similar ActBlue fundraising emails from Democrats untouched.",
+   "cluster_id": "abcd12316485e159",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.748853+00:00",
+    "source_published_at": "2026-09-28T10:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4233,
+     "ENTERTAINMENT": 0.1539,
+     "BREAKOUT WATCH": 0.1383,
+     "LIFESTYLE CHAT": 0.1589,
+     "CANADIAN NEWS": 0.0802,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0454
+    }
    }
   },
   {
@@ -1078,6 +1193,59 @@
    }
   },
   {
+   "id": "79542d8dc6d9e99c",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Taylor Swift Wins Video of the Year at 2026 MTV VMAs, Extends Her Record",
+   "angle": "The Grammy winner dedicated her win to late singer Dolly Parton. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Grammy winner dedicated her win to late singer Dolly Parton."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/music/music-news/taylor-swift-extends-record-mtv-vmas-win-1236713296/",
+   "score": 78.5,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Taylor Swift Wins Video",
+     "Grammy",
+     "Dolly Parton"
+    ],
+    "organizations": [
+     "MTV"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9485,
+    "label": "positive"
+   },
+   "summary": "The Grammy winner dedicated her win to late singer Dolly Parton.",
+   "cluster_id": "79542d8dc6d9e99c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.688772+00:00",
+    "source_published_at": "2026-09-28T02:51:38+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0206,
+     "ENTERTAINMENT": 0.9166,
+     "BREAKOUT WATCH": 0.0148,
+     "LIFESTYLE CHAT": 0.0148,
+     "CANADIAN NEWS": 0.0192,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.014
+    }
+   }
+  },
+  {
    "id": "cc91894a379189ab",
    "date": "2026-09-22",
    "slot": "am",
@@ -1394,6 +1562,57 @@
    }
   },
   {
+   "id": "26f9e36d6fb75910",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Worker at care home investigated by BBC struck off for threatening elderly man",
+   "angle": "Amina Sani, who is Nigerian, was found to have threatened the 81-year-old with police and threatened to hit him. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Amina Sani, who is Nigerian, was found to have threatened the 81-year-old with police and threatened to hit him."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cm9dwz5d1j77o?at_medium=RSS&at_campaign=rss",
+   "score": 78.0,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Amina Sani"
+    ],
+    "organizations": [
+     "BBC"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.802,
+    "label": "negative"
+   },
+   "summary": "Amina Sani, who is Nigerian, was found to have threatened the 81-year-old with police and threatened to hit him.",
+   "cluster_id": "26f9e36d6fb75910",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.895579+00:00",
+    "source_published_at": "2026-09-28T05:18:57+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4336,
+     "ENTERTAINMENT": 0.1143,
+     "BREAKOUT WATCH": 0.1715,
+     "LIFESTYLE CHAT": 0.0832,
+     "CANADIAN NEWS": 0.1185,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0789
+    }
+   }
+  },
+  {
    "id": "cabd71cd9d33da30",
    "date": "2026-09-23",
    "slot": "am",
@@ -1473,6 +1692,59 @@
     "ingested_at": "2026-09-24T18:51:55.564867+00:00",
     "source_published_at": "2026-09-24T18:38:10+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "6dc641f4a2a02164",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "MTV Video Music Awards: Taylor Swift Wins Video of the Year, Madonna Nabs Seven Trophies",
+   "angle": "Madonna scooped up three awards during the on-air portion of the ceremony, hosted by Snoop Dogg . Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Madonna scooped up three awards during the on-air portion of the ceremony, hosted by Snoop Dogg ."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/lists/mtv-vmas-2026-winners-list/",
+   "score": 77.9,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Madonna Nabs",
+     "Madonna",
+     "Snoop Dogg"
+    ],
+    "organizations": [
+     "MTV Video Music Awards"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8885,
+    "label": "positive"
+   },
+   "summary": "Madonna scooped up three awards during the on-air portion of the ceremony, hosted by Snoop Dogg .",
+   "cluster_id": "6dc641f4a2a02164",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.836193+00:00",
+    "source_published_at": "2026-09-28T02:21:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1886,
+     "ENTERTAINMENT": 0.5844,
+     "BREAKOUT WATCH": 0.0899,
+     "LIFESTYLE CHAT": 0.0646,
+     "CANADIAN NEWS": 0.0328,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0398
+    }
    }
   },
   {
@@ -1692,6 +1964,57 @@
     "ingested_at": "2026-09-24T18:51:55.408533+00:00",
     "source_published_at": "2026-09-24T18:46:16+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "cb8544327feedc61",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Canadian tombs in Europe",
+   "angle": "Canadian tombs in Europe. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Hi there mapple leaves.",
+    "While visiting the tomb of my grandma, i saw that some war tombs have been displaced after refurbishing an old part of the cemetery.",
+    "As the family won't probably never see it by themselves, here is some photo of the place."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrk3xg/canadian_tombs_in_europe/",
+   "score": 77.7,
+   "is_backup": false,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Europe"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.6652,
+    "label": "negative"
+   },
+   "summary": "Hi there mapple leaves. While visiting the tomb of my grandma, i saw that some war tombs have been displaced after refurbishing an old part of the cemetery. As the family won't probably never see it by themselves, here is some photo of the place.",
+   "cluster_id": "cb8544327feedc61",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.125786+00:00",
+    "source_published_at": "2026-09-27T13:22:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2542,
+     "ENTERTAINMENT": 0.2752,
+     "BREAKOUT WATCH": 0.0856,
+     "LIFESTYLE CHAT": 0.1196,
+     "CANADIAN NEWS": 0.2198,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0455
+    }
    }
   },
   {
@@ -2014,6 +2337,59 @@
    }
   },
   {
+   "id": "4b39c98ec6f28d9d",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "MTV Video Music Awards: Seven Things You Didn’t See on TV",
+   "angle": "Taylor Swift and Madonna caught up during a commercial break, while Lisa celebrated after her performance. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Taylor Swift and Madonna caught up during a commercial break, while Lisa celebrated after her performance."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/music/music-news/2026-mtv-vmas-what-you-didnt-see-on-tv-1236713341/",
+   "score": 77.2,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Taylor Swift",
+     "Madonna",
+     "Lisa"
+    ],
+    "organizations": [
+     "MTV Video Music Awards"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8176,
+    "label": "positive"
+   },
+   "summary": "Taylor Swift and Madonna caught up during a commercial break, while Lisa celebrated after her performance.",
+   "cluster_id": "4b39c98ec6f28d9d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.594369+00:00",
+    "source_published_at": "2026-09-28T03:40:51+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0944,
+     "ENTERTAINMENT": 0.7688,
+     "BREAKOUT WATCH": 0.061,
+     "LIFESTYLE CHAT": 0.0183,
+     "CANADIAN NEWS": 0.0201,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0374
+    }
+   }
+  },
+  {
    "id": "5e5eecb4a831ca53",
    "date": "2026-09-23",
    "slot": "am",
@@ -2056,6 +2432,169 @@
     "ingested_at": "2026-09-23T09:05:31.155077+00:00",
     "source_published_at": "2026-09-23T08:36:47+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "d26f89c2d8c77bad",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Madonna Opens MTV Video Music Awards With Sabrina Carpenter and Charli xcx, Plus Sombr, Debi Mazar and More",
+   "angle": "Madonna performed for the first time in 23 years at the MTV VMAs on Sunday, opening the show by bringing out special guests Sabrina Carpenter and Charli xcx to perform their respective duets. Shelf life through drive…",
+   "bullets": [
+    "Madonna performed for the first time in 23 years at the MTV VMAs on Sunday, opening the show by bringing out special guests Sabrina Carpenter and Charli xcx to perform their respective duets.",
+    "After a 20-minute telecast delay due to the NFL game, the pop icon began her performance perched on the top of a [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/music/awards/madonna-sabrina-carpenter-charli-xcx-mtv-vmas-performance-1236876448/",
+   "score": 76.9,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Madonna",
+     "Plus Sombr",
+     "Sabrina Carpenter"
+    ],
+    "organizations": [
+     "MTV Video Music Awards With Sabrina Carpenter and Charli",
+     "MTV",
+     "NFL"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7906,
+    "label": "positive"
+   },
+   "summary": "Madonna performed for the first time in 23 years at the MTV VMAs on Sunday, opening the show by bringing out special guests Sabrina Carpenter and Charli xcx to perform their respective duets. After a 20-minute telecast delay due to the NFL game, the pop icon began her performance perched on the top of a [&#8230;]",
+   "cluster_id": "d26f89c2d8c77bad",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.428644+00:00",
+    "source_published_at": "2026-09-28T00:16:21+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.087,
+     "ENTERTAINMENT": 0.5381,
+     "BREAKOUT WATCH": 0.1666,
+     "LIFESTYLE CHAT": 0.0519,
+     "CANADIAN NEWS": 0.0842,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0723
+    }
+   }
+  },
+  {
+   "id": "23e078d8c68a04fa",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Texas driver arrested after ‘intentionally’ crashing into a closed Kroger to use bathroom: cops",
+   "angle": "A 60-year-old Texas man crashed his vehicle into a closed Kroger because he needed to use the bathroom and now faces criminal mischief charges. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "A 60-year-old Texas man crashed his vehicle into a closed Kroger because he needed to use the bathroom and now faces criminal mischief charges."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/texas-man-arrested-after-intentionally-crashing-into-a-closed-kroger-to-use-bathroom-cops/",
+   "score": 76.8,
+   "is_backup": false,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Kroger"
+    ],
+    "locations": [
+     "Texas"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.8779,
+    "label": "negative"
+   },
+   "summary": "A 60-year-old Texas man crashed his vehicle into a closed Kroger because he needed to use the bathroom and now faces criminal mischief charges.",
+   "cluster_id": "23e078d8c68a04fa",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.208324+00:00",
+    "source_published_at": "2026-09-28T05:58:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4687,
+     "ENTERTAINMENT": 0.1287,
+     "BREAKOUT WATCH": 0.0548,
+     "LIFESTYLE CHAT": 0.0847,
+     "CANADIAN NEWS": 0.1142,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1489
+    }
+   }
+  },
+  {
+   "id": "cd69a71bf85f54fe",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Florence Pugh Speaks Out Over Cornell University Sexual Assault Case: ‘We Need Our Men to Be as Horrified and Sickened as Us’",
+   "angle": "Florence Pugh has posted a lengthy statement on social media in response to a controversy that has erupted at Cornell University over an alleged sexual assault incident that took place two years ago. Shelf life through…",
+   "bullets": [
+    "Florence Pugh has posted a lengthy statement on social media in response to a controversy that has erupted at Cornell University over an alleged sexual assault incident that took place two years ago.",
+    "Last week, news broke that a former Cornell student had accused seven men of raping and drugging her at a frat house [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/florence-pugh-cornell-university-sexual-assault-case-1236877220/",
+   "score": 76.8,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Florence Pugh Speaks",
+     "Florence Pugh"
+    ],
+    "organizations": [
+     "Cornell University",
+     "Cornell"
+    ],
+    "locations": [
+     "Us"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9761,
+    "label": "negative"
+   },
+   "summary": "Florence Pugh has posted a lengthy statement on social media in response to a controversy that has erupted at Cornell University over an alleged sexual assault incident that took place two years ago. Last week, news broke that a former Cornell student had accused seven men of raping and drugging her at a frat house [&#8230;]",
+   "cluster_id": "cd69a71bf85f54fe",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.074989+00:00",
+    "source_published_at": "2026-09-28T09:10:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2157,
+     "ENTERTAINMENT": 0.3004,
+     "BREAKOUT WATCH": 0.1563,
+     "LIFESTYLE CHAT": 0.1252,
+     "CANADIAN NEWS": 0.1639,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0385
+    }
    }
   },
   {
@@ -2233,6 +2772,115 @@
    }
   },
   {
+   "id": "ec5a2acb7537afd7",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Four dead in helicopter crash near Montreal",
+   "angle": "Four dead in helicopter crash near Montreal. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Police responded to the crash around 2:30 p.m.",
+    "in Sainte-Brigide-d’Iberville, 50 kilometres southeast of Montreal"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-quebec-montreal-helicopter-crash-four-dead/",
+   "score": 76.7,
+   "is_backup": false,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Sainte-Brigide-d’Iberville"
+    ],
+    "locations": [
+     "Montreal"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.8658,
+    "label": "negative"
+   },
+   "summary": "Police responded to the crash around 2:30 p.m. in Sainte-Brigide-d’Iberville, 50 kilometres southeast of Montreal",
+   "cluster_id": "ec5a2acb7537afd7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:16.675962+00:00",
+    "source_published_at": "2026-09-26T20:58:43+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5227,
+     "ENTERTAINMENT": 0.0984,
+     "BREAKOUT WATCH": 0.0934,
+     "LIFESTYLE CHAT": 0.048,
+     "CANADIAN NEWS": 0.1881,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0494
+    }
+   }
+  },
+  {
+   "id": "0ec91f1ea2422ac4",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Kacey Musgraves Pays Heartfelt Tribute to Dolly Parton With ‘I Will Always Love You’ Performance at MTV Video Music Awards",
+   "angle": "Kacey Musgraves led a touching tribute to Dolly Parton at the MTV Video Music Awards 2026, honoring the late country icon just a month after her death with a rendition of &#8220;I Will Always Love You.&#8221; The…",
+   "bullets": [
+    "Kacey Musgraves led a touching tribute to Dolly Parton at the MTV Video Music Awards 2026, honoring the late country icon just a month after her death with a rendition of &#8220;I Will Always Love You.&#8221; The pre-taped performance began with footage of Parton introducing the classic 1974 tune.",
+    "&#8220;I&#8217;d like to leave you fellas [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/music/awards/kacey-musgraves-dolly-parton-tribute-mtv-vmas-performance-1236876461/",
+   "score": 76.6,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Kacey Musgraves",
+     "Dolly Parton"
+    ],
+    "organizations": [
+     "Kacey Musgraves Pays",
+     "MTV Video Music Awards",
+     "the MTV Video Music Awards"
+    ],
+    "locations": [
+     "Parton"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9618,
+    "label": "positive"
+   },
+   "summary": "Kacey Musgraves led a touching tribute to Dolly Parton at the MTV Video Music Awards 2026, honoring the late country icon just a month after her death with a rendition of &#8220;I Will Always Love You.&#8221; The pre-taped performance began with footage of Parton introducing the classic 1974 tune. &#8220;I&#8217;d like to leave you fellas [&#8230;]",
+   "cluster_id": "0ec91f1ea2422ac4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.371172+00:00",
+    "source_published_at": "2026-09-28T00:38:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0129,
+     "ENTERTAINMENT": 0.8199,
+     "BREAKOUT WATCH": 0.0821,
+     "LIFESTYLE CHAT": 0.0302,
+     "CANADIAN NEWS": 0.0287,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0263
+    }
+   }
+  },
+  {
    "id": "2e3e456ef4a4474e",
    "date": "2026-09-25",
    "slot": "am",
@@ -2274,6 +2922,61 @@
    }
   },
   {
+   "id": "227fa0d952318f15",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Taylor Swift Premieres ‘Patient Zero’ Music Video at VMAs, Turning Her New ‘Showgirl: Encore’ Single Into a Dramatic Ghost Story",
+   "angle": "Taylor Swift Premieres ‘Patient Zero’ Music Video at VMAs, Turning Her New ‘Showgirl: Encore’ Single Into a Dramatic Ghost Story. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "It&#8217;s a love story?",
+    "Hardly — it&#8217;s a ghost story.",
+    "Taylor Swift brought her &#8220;Patient Zero&#8221; music video to the MTV Video Music Awards Sunday night for its official world premiere, following up the release of the single at the beginning of the weekend with visuals that take the triangle in the song into more [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/music/news/taylor-swift-vmas-patient-zero-music-video-premiere-1236876944/",
+   "score": 76.4,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Taylor Swift Premieres ‘",
+     "Taylor Swift",
+     "8220;Patient Zero&#8221"
+    ],
+    "organizations": [
+     "the MTV Video Music Awards"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7351,
+    "label": "positive"
+   },
+   "summary": "It&#8217;s a love story? Hardly — it&#8217;s a ghost story. Taylor Swift brought her &#8220;Patient Zero&#8221; music video to the MTV Video Music Awards Sunday night for its official world premiere, following up the release of the single at the beginning of the weekend with visuals that take the triangle in the song into more [&#8230;]",
+   "cluster_id": "227fa0d952318f15",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.254784+00:00",
+    "source_published_at": "2026-09-28T01:55:42+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0734,
+     "ENTERTAINMENT": 0.6839,
+     "BREAKOUT WATCH": 0.0532,
+     "LIFESTYLE CHAT": 0.1036,
+     "CANADIAN NEWS": 0.0376,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0483
+    }
+   }
+  },
+  {
    "id": "ea960deb9cae23a8",
    "date": "2026-09-23",
    "slot": "am",
@@ -2311,6 +3014,55 @@
     "ingested_at": "2026-09-23T18:13:05.655192+00:00",
     "source_published_at": "2026-09-23T17:01:20+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "5fe2cfb5b1d49ddd",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Thousands of illegal ghost plates on cars revealed by new cameras",
+   "angle": "Illegal registration plates are far too easy to get hold of and are putting the public at risk, BBC is told. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Illegal registration plates are far too easy to get hold of and are putting the public at risk, BBC is told."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cq9860162dj2o?at_medium=RSS&at_campaign=rss",
+   "score": 76.3,
+   "is_backup": false,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "BBC"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.8271,
+    "label": "negative"
+   },
+   "summary": "Illegal registration plates are far too easy to get hold of and are putting the public at risk, BBC is told.",
+   "cluster_id": "5fe2cfb5b1d49ddd",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.696788+00:00",
+    "source_published_at": "2026-09-28T05:02:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5075,
+     "ENTERTAINMENT": 0.1285,
+     "BREAKOUT WATCH": 0.0523,
+     "LIFESTYLE CHAT": 0.1505,
+     "CANADIAN NEWS": 0.1238,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0375
+    }
    }
   },
   {
@@ -2374,7 +3126,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/tv/features/lizzie-borden-director-max-winkler-ryan-murphy-1236875327/",
    "score": 76.2,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Inside Ryan Murphy’s",
@@ -2400,6 +3152,60 @@
    }
   },
   {
+   "id": "74f05dd914ef3f73",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Taylor Swift at the 2026 MTV VMAs: Pop’s Biggest Star Accepts Top Prize and Inaugural Honor, Debuts “Patient Zero” Music Video",
+   "angle": "The superstar singer-songwriter recently released a special edition of her 'Life of a Showgirl' album, 'The Life of a Showgirl: Encore Edition.'. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "The superstar singer-songwriter recently released a special edition of her 'Life of a Showgirl' album, 'The Life of a Showgirl: Encore Edition.'"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/music/music-news/taylor-swift-2026-mtv-vmas-artist-director-patient-zero-1236713216/",
+   "score": 76.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Taylor Swift",
+     "Debuts"
+    ],
+    "organizations": [
+     "MTV",
+     "Pop’s Biggest Star Accepts Top Prize",
+     "Music Video"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9201,
+    "label": "positive"
+   },
+   "summary": "The superstar singer-songwriter recently released a special edition of her 'Life of a Showgirl' album, 'The Life of a Showgirl: Encore Edition.'",
+   "cluster_id": "74f05dd914ef3f73",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.893271+00:00",
+    "source_published_at": "2026-09-28T02:08:16+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0546,
+     "ENTERTAINMENT": 0.673,
+     "BREAKOUT WATCH": 0.0911,
+     "LIFESTYLE CHAT": 0.1237,
+     "CANADIAN NEWS": 0.0297,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0279
+    }
+   }
+  },
+  {
    "id": "aea0f2de9d3c897c",
    "date": "2026-09-23",
    "slot": "am",
@@ -2414,7 +3220,7 @@
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/movies/movie-news/luna-media-production-company-munika-lay-toni-wang-1236708108/",
    "score": 76.1,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Producer Toni Wang",
@@ -2456,7 +3262,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/tv/global/argonon-leadership-changes-amanda-goddard-president-ceo-1236873004/",
    "score": 76.1,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Leadership Changes",
@@ -2503,7 +3309,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/film/global/finnish-film-affair-nordic-genre-lab-1236872579/",
    "score": 76.1,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Nordic Genre Lab Participants",
@@ -2549,7 +3355,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/film/news/black-bear-taylor-jenkins-reid-atmosphere-1236873994/",
    "score": 76.1,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Taylor Jenkins Reid’s ‘",
@@ -2594,7 +3400,7 @@
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/news/politics-news/david-ellison-elon-musk-fox-news-hosts-white-house-dinner-1236709831/",
    "score": 76.1,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "David Ellison",
@@ -2645,7 +3451,7 @@
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/movies/movie-reviews/kill-me-now-review-1236709865/",
    "score": 76.1,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Borscht Belt Humor",
@@ -2675,6 +3481,161 @@
    }
   },
   {
+   "id": "0c86668d272c8d2b",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Breece Hall’s rough Jets day ends with in injury scare",
+   "angle": "He finished with just 32 yards on 13 carries, the second consecutive game he’s struggled after rushing for more than 100 yards in the season opener. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "He finished with just 32 yards on 13 carries, the second consecutive game he’s struggled after rushing for more than 100 yards in the season opener."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/breece-halls-rough-jets-day-ends-with-in-injury-scare/",
+   "score": 76.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Breece Hall’s"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.8126,
+    "label": "negative"
+   },
+   "summary": "He finished with just 32 yards on 13 carries, the second consecutive game he’s struggled after rushing for more than 100 yards in the season opener.",
+   "cluster_id": "0c86668d272c8d2b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.361670+00:00",
+    "source_published_at": "2026-09-28T05:00:10+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.108,
+     "ENTERTAINMENT": 0.442,
+     "BREAKOUT WATCH": 0.2263,
+     "LIFESTYLE CHAT": 0.091,
+     "CANADIAN NEWS": 0.0608,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.072
+    }
+   }
+  },
+  {
+   "id": "9b14e88aeb12d838",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "‘Rams got robbed’: Controversial call that may have changed everything in brutal Broncos loss",
+   "angle": "A controversial pass interference call erased Josh Wallace’s late interception as the Rams fell 30-26 to the Broncos, sparking outrage over the officiating. Ask the phones: would you film it, flee it, or pretend you…",
+   "bullets": [
+    "A controversial pass interference call erased Josh Wallace’s late interception as the Rams fell 30-26 to the Broncos, sparking outrage over the officiating."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/did-refs-cost-rams-the-game-controversial-pass-interference-call-sparks-outrage-in-loss-to-broncos/",
+   "score": 76.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rams",
+     "Josh Wallace’s"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9062,
+    "label": "negative"
+   },
+   "summary": "A controversial pass interference call erased Josh Wallace’s late interception as the Rams fell 30-26 to the Broncos, sparking outrage over the officiating.",
+   "cluster_id": "9b14e88aeb12d838",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.160377+00:00",
+    "source_published_at": "2026-09-28T06:29:55+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.308,
+     "ENTERTAINMENT": 0.1895,
+     "BREAKOUT WATCH": 0.0908,
+     "LIFESTYLE CHAT": 0.2203,
+     "CANADIAN NEWS": 0.1263,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0652
+    }
+   }
+  },
+  {
+   "id": "ea7139aac807e3ca",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Watch: Madonna and Taylor Swift win big at the MTV VMAs",
+   "angle": "Taylor Swift, Madonna, and LISA were among the big winners at the MTV Video Music Awards (VMAs) on Sunday evening in downtown Los Angeles. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Taylor Swift, Madonna, and LISA were among the big winners at the MTV Video Music Awards (VMAs) on Sunday evening in downtown Los Angeles."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/videos/ckvgy6j4594yo?at_medium=RSS&at_campaign=rss",
+   "score": 76.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Madonna",
+     "Taylor Swift"
+    ],
+    "organizations": [
+     "MTV",
+     "LISA",
+     "the MTV Video Music Awards"
+    ],
+    "locations": [
+     "Los Angeles"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.91,
+    "label": "positive"
+   },
+   "summary": "Taylor Swift, Madonna, and LISA were among the big winners at the MTV Video Music Awards (VMAs) on Sunday evening in downtown Los Angeles.",
+   "cluster_id": "ea7139aac807e3ca",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.042950+00:00",
+    "source_published_at": "2026-09-28T06:22:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0502,
+     "ENTERTAINMENT": 0.752,
+     "BREAKOUT WATCH": 0.0476,
+     "LIFESTYLE CHAT": 0.0596,
+     "CANADIAN NEWS": 0.0502,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0403
+    }
+   }
+  },
+  {
    "id": "5c3aa8df9dcfcd9b",
    "date": "2026-09-22",
    "slot": "am",
@@ -2689,7 +3650,7 @@
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/movies/movie-news/bfi-london-film-festival-industry-forum-1236707568/",
    "score": 76.0,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [],
     "organizations": [],
@@ -2726,7 +3687,7 @@
    "source_type": "news",
    "url": "https://nypost.com/2026/09/25/us-news/nj-lt-gov-dale-caldwell-resigns-amid-bombshell-sexual-harassment-inquiry/",
    "score": 76.0,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Dale Caldwell",
@@ -2753,6 +3714,61 @@
    }
   },
   {
+   "id": "247fea9c707e3a09",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Matthew Stafford makes unwanted NFL history at worst possible time in Rams’ crushing loss",
+   "angle": "Matthew Stafford threw the 33rd pick-six of his career against the Broncos, passing Brett Favre for the most in NFL history during the Rams’ 30-26 loss. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Matthew Stafford threw the 33rd pick-six of his career against the Broncos, passing Brett Favre for the most in NFL history during the Rams’ 30-26 loss."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/matthew-stafford-makes-ugly-nfl-history-with-record-breaking-pick-six-in-rams-loss-to-broncos/",
+   "score": 76.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Matthew Stafford",
+     "Brett Favre"
+    ],
+    "organizations": [
+     "NFL"
+    ],
+    "locations": [
+     "Rams",
+     "the Rams’ 30"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9022,
+    "label": "negative"
+   },
+   "summary": "Matthew Stafford threw the 33rd pick-six of his career against the Broncos, passing Brett Favre for the most in NFL history during the Rams’ 30-26 loss.",
+   "cluster_id": "247fea9c707e3a09",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.259309+00:00",
+    "source_published_at": "2026-09-28T05:54:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2466,
+     "ENTERTAINMENT": 0.316,
+     "BREAKOUT WATCH": 0.1285,
+     "LIFESTYLE CHAT": 0.0979,
+     "CANADIAN NEWS": 0.1399,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0712
+    }
+   }
+  },
+  {
    "id": "e5b8aef32deef8b5",
    "date": "2026-09-23",
    "slot": "am",
@@ -2767,7 +3783,7 @@
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/movies/movie-news/george-lucas-make-more-star-wars-movies-before-retiring-1236708091/",
    "score": 75.9,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "George Lucas",
@@ -2810,7 +3826,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/film/festivals/scarlett-johansson-paper-tiger-new-york-film-festival-premiere-adam-driver-1236872284/",
    "score": 75.9,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Scarlett Johansson",
@@ -2853,7 +3869,7 @@
    "source_type": "news",
    "url": "https://nypost.com/2026/09/22/us-news/us-backs-taiwan-before-trump-hosts-xi-at-white-house/",
    "score": 75.8,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Xi",
@@ -2901,7 +3917,7 @@
    "source_type": "news",
    "url": "https://pagesix.com/2026/09/24/celebrity-news/milania-giudice-had-suicidal-thoughts-mental-breakdown-during-airport-clash-with-teresa-gia-police/",
    "score": 75.8,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Gia",
@@ -2942,7 +3958,7 @@
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/tv/tv-news/the-beast-in-me-season-2-netflix-claire-danes-1236709432/",
    "score": 75.8,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Netflix Orders Season 2",
@@ -3666,6 +4682,107 @@
    }
   },
   {
+   "id": "2506fadfc1611661",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "'Stay tuned': Canada's unions considering legal action to protect right to strike",
+   "angle": "&#32; submitted by &#32; /u/Typical_Cap895 [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Typical_Cap895 [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrrb6p/stay_tuned_canadas_unions_considering_legal/",
+   "score": 74.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.3818,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/Typical_Cap895 [link] &#32; [comments]",
+   "cluster_id": "2506fadfc1611661",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.012064+00:00",
+    "source_published_at": "2026-09-27T18:15:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3318,
+     "ENTERTAINMENT": 0.1212,
+     "BREAKOUT WATCH": 0.1324,
+     "LIFESTYLE CHAT": 0.0638,
+     "CANADIAN NEWS": 0.2921,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0587
+    }
+   }
+  },
+  {
+   "id": "7d17b83786c28030",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Snoop Dogg Pokes Fun at Madonna in VMAs Monologue: “She Ain’t a Virgin No More”",
+   "angle": "The “Drop It Like It's Hot” rapper hosted the 2026 awards ceremony on Sunday. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The “Drop It Like It's Hot” rapper hosted the 2026 awards ceremony on Sunday."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/music/music-news/snoop-dogg-mtv-vmas-2026-host-highlights-best-moments-1236713193/",
+   "score": 74.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Madonna",
+     "Monologue"
+    ],
+    "organizations": [
+     "Snoop Dogg Pokes Fun"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.765,
+    "label": "positive"
+   },
+   "summary": "The “Drop It Like It's Hot” rapper hosted the 2026 awards ceremony on Sunday.",
+   "cluster_id": "7d17b83786c28030",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.945058+00:00",
+    "source_published_at": "2026-09-28T02:03:22+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0381,
+     "ENTERTAINMENT": 0.6365,
+     "BREAKOUT WATCH": 0.1013,
+     "LIFESTYLE CHAT": 0.0802,
+     "CANADIAN NEWS": 0.1113,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0326
+    }
+   }
+  },
+  {
    "id": "99c7dcddb17a3579",
    "date": "2026-09-23",
    "slot": "am",
@@ -4350,6 +5467,64 @@
    }
   },
   {
+   "id": "5f181c6f3b226aeb",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "New York Public Library hosted author who compared Israel to a ‘dog shelter’",
+   "angle": "Author Benjamin Moser and retired Columbia history prof Rashid Khalidi also glossed over Hamas' Oct. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Author Benjamin Moser and retired Columbia history prof Rashid Khalidi also glossed over Hamas' Oct.",
+    "7, 2023, terrorist attacks against Israel and focused on the Jewish state's retaliatory response in Gaza."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/new-york-public-library-hosted-author-who-compared-israel-to-a-dog-shelter-called-zionists-intellectual-thugs/",
+   "score": 74.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Benjamin Moser",
+     "Rashid Khalidi"
+    ],
+    "organizations": [
+     "New York Public Library",
+     "Columbia",
+     "Hamas"
+    ],
+    "locations": [
+     "Israel",
+     "Gaza"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7184,
+    "label": "negative"
+   },
+   "summary": "Author Benjamin Moser and retired Columbia history prof Rashid Khalidi also glossed over Hamas' Oct. 7, 2023, terrorist attacks against Israel and focused on the Jewish state's retaliatory response in Gaza.",
+   "cluster_id": "5f181c6f3b226aeb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.684801+00:00",
+    "source_published_at": "2026-09-28T10:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4649,
+     "ENTERTAINMENT": 0.176,
+     "BREAKOUT WATCH": 0.1221,
+     "LIFESTYLE CHAT": 0.0849,
+     "CANADIAN NEWS": 0.0789,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0733
+    }
+   }
+  },
+  {
    "id": "0ace279430549b75",
    "date": "2026-09-23",
    "slot": "am",
@@ -4805,6 +5980,55 @@
    }
   },
   {
+   "id": "757fdc2c1fd22c3e",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Say its name",
+   "angle": "Canada’s leaders need to denounce not just the crime but the ideology behind antisemitic attacks. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Canada’s leaders need to denounce not just the crime but the ideology behind antisemitic attacks"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/toronto/article-say-its-name/",
+   "score": 73.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.561,
+    "label": "negative"
+   },
+   "summary": "Canada’s leaders need to denounce not just the crime but the ideology behind antisemitic attacks",
+   "cluster_id": "757fdc2c1fd22c3e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:16.944712+00:00",
+    "source_published_at": "2026-09-26T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1954,
+     "ENTERTAINMENT": 0.3429,
+     "BREAKOUT WATCH": 0.1911,
+     "LIFESTYLE CHAT": 0.0658,
+     "CANADIAN NEWS": 0.1619,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.043
+    }
+   }
+  },
+  {
    "id": "09cf21ee2d880a47",
    "date": "2026-09-22",
    "slot": "am",
@@ -5142,6 +6366,113 @@
    }
   },
   {
+   "id": "2f91870839abbac4",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Banijay Entertainment, Combining All3 Media, Unveils Milestone Mipcom 2026 Lineup, Bowing ’Reputation,’ ‘Date Knight’ and a Formidable Format Franchise Offer (EXCLUSIVE)",
+   "angle": "Harnessing its might with a merged All3 Media for the first time at a market, Banijay Entertainment hits Mipcom 2026 with the biggest presence of any company in the world, with its stand in front of the steps of the…",
+   "bullets": [
+    "Harnessing its might with a merged All3 Media for the first time at a market, Banijay Entertainment hits Mipcom 2026 with the biggest presence of any company in the world, with its stand in front of the steps of the Palais des Festivals now rebaptized Banijay House, and a formidable combined lineup.",
+    "One example of [&#8230;]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/banijay-entertainment-unveils-milestone-mipcom-2026-lineup-1236877216/",
+   "score": 73.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Banijay House"
+    ],
+    "organizations": [
+     "Banijay Entertainment",
+     "Combining All3 Media",
+     "EXCLUSIVE",
+     "the Palais des Festivals"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8531,
+    "label": "positive"
+   },
+   "summary": "Harnessing its might with a merged All3 Media for the first time at a market, Banijay Entertainment hits Mipcom 2026 with the biggest presence of any company in the world, with its stand in front of the steps of the Palais des Festivals now rebaptized Banijay House, and a formidable combined lineup. One example of [&#8230;]",
+   "cluster_id": "2f91870839abbac4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.138724+00:00",
+    "source_published_at": "2026-09-28T08:34:21+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2553,
+     "ENTERTAINMENT": 0.2493,
+     "BREAKOUT WATCH": 0.1357,
+     "LIFESTYLE CHAT": 0.0763,
+     "CANADIAN NEWS": 0.1327,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1507
+    }
+   }
+  },
+  {
+   "id": "4e2e3b7f62bf5482",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Lorne Doerkson takes the reins of B.C. Conservatives, with a party to rebuild and election ahead",
+   "angle": "Doerkson has been handed two daunting tasks: to restore order to his party and persuade a skeptical electorate. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Doerkson has been handed two daunting tasks: to restore order to his party and persuade a skeptical electorate"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/british-columbia/article-lorne-doerkson-takes-the-reins-of-bc-conservatives-with-a-party-to/",
+   "score": 73.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Lorne Doerkson",
+     "Doerkson"
+    ],
+    "organizations": [
+     "B.C. Conservatives"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6486,
+    "label": "positive"
+   },
+   "summary": "Doerkson has been handed two daunting tasks: to restore order to his party and persuade a skeptical electorate",
+   "cluster_id": "4e2e3b7f62bf5482",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:16.898160+00:00",
+    "source_published_at": "2026-09-26T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3047,
+     "ENTERTAINMENT": 0.1482,
+     "BREAKOUT WATCH": 0.0714,
+     "LIFESTYLE CHAT": 0.0537,
+     "CANADIAN NEWS": 0.2717,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1502
+    }
+   }
+  },
+  {
    "id": "92bdc9e85e89013f",
    "date": "2026-09-22",
    "slot": "am",
@@ -5258,6 +6589,55 @@
     "ingested_at": "2026-09-26T09:07:49.428960+00:00",
     "source_published_at": "2026-09-26T04:25:49+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "eaf417d197b11e58",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Felled Sycamore Gap stump has 'encouraging' growth",
+   "angle": "A thick layer of growth surrounds the stump three years after the landmark was illegally felled. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "A thick layer of growth surrounds the stump three years after the landmark was illegally felled."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c8vgyxrlve46o?at_medium=RSS&at_campaign=rss",
+   "score": 73.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Felled Sycamore"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.836,
+    "label": "positive"
+   },
+   "summary": "A thick layer of growth surrounds the stump three years after the landmark was illegally felled.",
+   "cluster_id": "eaf417d197b11e58",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.943425+00:00",
+    "source_published_at": "2026-09-28T05:01:06+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1365,
+     "ENTERTAINMENT": 0.2541,
+     "BREAKOUT WATCH": 0.2329,
+     "LIFESTYLE CHAT": 0.1699,
+     "CANADIAN NEWS": 0.0944,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1122
+    }
    }
   },
   {
@@ -5437,6 +6817,58 @@
    }
   },
   {
+   "id": "dfe00761a7ed65f1",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Susie Wiles reveals brutal toll of fighting cancer while running Trump’s White House",
+   "angle": "Trump's chief of staff wrote that some days just getting out of bed and going to work took all her strength. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Trump's chief of staff wrote that some days just getting out of bed and going to work took all her strength."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/susie-wiles-reveals-brutal-toll-of-fighting-cancer-while-running-trumps-white-house/",
+   "score": 73.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Susie Wiles"
+    ],
+    "organizations": [
+     "Trump’s White House",
+     "Trump"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8316,
+    "label": "negative"
+   },
+   "summary": "Trump's chief of staff wrote that some days just getting out of bed and going to work took all her strength.",
+   "cluster_id": "dfe00761a7ed65f1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.453498+00:00",
+    "source_published_at": "2026-09-28T04:33:16+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.515,
+     "ENTERTAINMENT": 0.1976,
+     "BREAKOUT WATCH": 0.1626,
+     "LIFESTYLE CHAT": 0.0651,
+     "CANADIAN NEWS": 0.0212,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0385
+    }
+   }
+  },
+  {
    "id": "8714b53eb74a5870",
    "date": "2026-09-24",
    "slot": "am",
@@ -5557,6 +6989,108 @@
     "ingested_at": "2026-09-26T09:07:49.326483+00:00",
     "source_published_at": "2026-09-26T05:35:16+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "b672c4daccf3e88b",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Dear Abby: My dad’s hospitality is being taken advantage of by my relative",
+   "angle": "Dear Abby gives advice to a reader whose family member is insisting on staying with her elderly father while on a trip despite his health problems. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Dear Abby gives advice to a reader whose family member is insisting on staying with her elderly father while on a trip despite his health problems."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/lifestyle/dear-abby-my-dads-hospitality-is-being-taken-advantage-of-by-my-relative/",
+   "score": 73.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Abby"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8155,
+    "label": "positive"
+   },
+   "summary": "Dear Abby gives advice to a reader whose family member is insisting on staying with her elderly father while on a trip despite his health problems.",
+   "cluster_id": "b672c4daccf3e88b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.111865+00:00",
+    "source_published_at": "2026-09-28T07:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.149,
+     "ENTERTAINMENT": 0.5292,
+     "BREAKOUT WATCH": 0.0578,
+     "LIFESTYLE CHAT": 0.1493,
+     "CANADIAN NEWS": 0.0616,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0533
+    }
+   }
+  },
+  {
+   "id": "5b6e607cd360cac2",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "MTV Video Music Awards: Taylor Swift’s Record, Madonna’s Domination, Snoop Dogg’s Dig, and More Memorable Moments",
+   "angle": "From performances to tributes, a roundup of the show's highlights. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "From performances to tributes, a roundup of the show's highlights."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/music/music-news/2026-mtv-vmas-best-moments-1236713378/",
+   "score": 73.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Taylor Swift’s Record",
+     "Madonna’s Domination",
+     "Snoop Dogg’s Dig"
+    ],
+    "organizations": [
+     "MTV Video Music Awards"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4215,
+    "label": "positive"
+   },
+   "summary": "From performances to tributes, a roundup of the show's highlights.",
+   "cluster_id": "5b6e607cd360cac2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.499447+00:00",
+    "source_published_at": "2026-09-28T05:27:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0848,
+     "ENTERTAINMENT": 0.8215,
+     "BREAKOUT WATCH": 0.0311,
+     "LIFESTYLE CHAT": 0.0218,
+     "CANADIAN NEWS": 0.0279,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0129
+    }
    }
   },
   {
@@ -6089,6 +7623,59 @@
     "ingested_at": "2026-09-25T19:06:39.963115+00:00",
     "source_published_at": "2026-09-25T17:31:58+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "af42d5ead7bc2459",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Colombian police capture wife and daughter of notorious Ecuadorian gang leader extradited to the US",
+   "angle": "Colombian police arrested the wife and daughter of Ecuadorian gang leader 'Fito' on money laundering charges in an FBI-backed operation. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Colombian police arrested the wife and daughter of Ecuadorian gang leader 'Fito' on money laundering charges in an FBI-backed operation."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/colombian-police-capture-wife-and-daughter-of-ecuadorian-gang-leader-fito-extradited-to-the-united-states/",
+   "score": 73.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Fito"
+    ],
+    "organizations": [
+     "FBI"
+    ],
+    "locations": [
+     "US"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7964,
+    "label": "negative"
+   },
+   "summary": "Colombian police arrested the wife and daughter of Ecuadorian gang leader 'Fito' on money laundering charges in an FBI-backed operation.",
+   "cluster_id": "af42d5ead7bc2459",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.409401+00:00",
+    "source_published_at": "2026-09-28T04:53:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5985,
+     "ENTERTAINMENT": 0.0879,
+     "BREAKOUT WATCH": 0.0646,
+     "LIFESTYLE CHAT": 0.0733,
+     "CANADIAN NEWS": 0.118,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0578
+    }
    }
   },
   {
@@ -7095,6 +8682,55 @@
    }
   },
   {
+   "id": "777527c62fb11884",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Theranos fraudster Elizabeth Holmes writes cryptic post from prison: ‘The truth will set you free’",
+   "angle": "Theranos fraudster Elizabeth Holmes penned a cryptic social media note from behind bars, where she once again proclaimed her innocence and signed the message off with her initials \"EAH.\". Shelf life through drive time…",
+   "bullets": [
+    "Theranos fraudster Elizabeth Holmes penned a cryptic social media note from behind bars, where she once again proclaimed her innocence and signed the message off with her initials \"EAH.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/theranos-fraudster-elizabeth-holmes-writes-cryptic-post-from-prison-the-truth-will-set-you-free/",
+   "score": 72.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Elizabeth Holmes"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7506,
+    "label": "negative"
+   },
+   "summary": "Theranos fraudster Elizabeth Holmes penned a cryptic social media note from behind bars, where she once again proclaimed her innocence and signed the message off with her initials \"EAH.\"",
+   "cluster_id": "777527c62fb11884",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.804146+00:00",
+    "source_published_at": "2026-09-28T09:02:51+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.059,
+     "ENTERTAINMENT": 0.8275,
+     "BREAKOUT WATCH": 0.0299,
+     "LIFESTYLE CHAT": 0.0361,
+     "CANADIAN NEWS": 0.0204,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0271
+    }
+   }
+  },
+  {
    "id": "23d93dcd049caf66",
    "date": "2026-09-22",
    "slot": "am",
@@ -7329,6 +8965,113 @@
     "ingested_at": "2026-09-26T09:07:49.836375+00:00",
     "source_published_at": "2026-09-26T03:17:04+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "0899c871dd6e7e5f",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Mamdani’s claimed triumph over DoorDash ‘corporate greed’ isn’t all it seems",
+   "angle": "No, $131.5 million was not stolen from workers by a greedy delivery company, as Mayor Mamdani suggested in a press conference complete with a giant prop check. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "No, $131.5 million was not stolen from workers by a greedy delivery company, as Mayor Mamdani suggested in a press conference complete with a giant prop check."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/opinion/mamdanis-triumph-over-doordash-greed-isnt-all-it-seems/",
+   "score": 72.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mamdani’s",
+     "Mamdani"
+    ],
+    "organizations": [
+     "DoorDash"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5312,
+    "label": "positive"
+   },
+   "summary": "No, $131.5 million was not stolen from workers by a greedy delivery company, as Mayor Mamdani suggested in a press conference complete with a giant prop check.",
+   "cluster_id": "0899c871dd6e7e5f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.583545+00:00",
+    "source_published_at": "2026-09-28T10:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1101,
+     "ENTERTAINMENT": 0.6432,
+     "BREAKOUT WATCH": 0.0923,
+     "LIFESTYLE CHAT": 0.0216,
+     "CANADIAN NEWS": 0.0923,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0405
+    }
+   }
+  },
+  {
+   "id": "4a6ea0b796535a17",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Korea Box Office: ‘The Assassin(s)’ and ‘Tazza 4’ Dominate Chuseok Holiday Weekend Surge",
+   "angle": "Director Hur Jin-ho&#8217;s political crime thriller &#8220;The Assassin(s)&#8221; powered to the top of the South Korean box office over the weekend of Sep. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "Director Hur Jin-ho&#8217;s political crime thriller &#8220;The Assassin(s)&#8221; powered to the top of the South Korean box office over the weekend of Sep.",
+    "25–27, leading a major holiday box office surge across the peak Chuseok festival frame.",
+    "According to data from KOBIS, the tracking service operated by the Korean Film Council, the newly opened local [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/box-office/korea-box-office-the-assassins-tazza-4-chuseok-holiday-weekend-1236877125/",
+   "score": 72.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Hur Jin-ho&#8217;s"
+    ],
+    "organizations": [
+     "Korea Box Office",
+     "KOBIS",
+     "the Korean Film Council"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7264,
+    "label": "positive"
+   },
+   "summary": "Director Hur Jin-ho&#8217;s political crime thriller &#8220;The Assassin(s)&#8221; powered to the top of the South Korean box office over the weekend of Sep. 25–27, leading a major holiday box office surge across the peak Chuseok festival frame. According to data from KOBIS, the tracking service operated by the Korean Film Council, the newly opened local [&#8230;]",
+   "cluster_id": "4a6ea0b796535a17",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.313027+00:00",
+    "source_published_at": "2026-09-28T01:23:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1304,
+     "ENTERTAINMENT": 0.4223,
+     "BREAKOUT WATCH": 0.3296,
+     "LIFESTYLE CHAT": 0.0421,
+     "CANADIAN NEWS": 0.0436,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0321
+    }
    }
   },
   {
@@ -7940,6 +9683,58 @@
    }
   },
   {
+   "id": "9964478574c5fc33",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "What Happened to Montreal’s Legendary Melon?",
+   "angle": "In its day, the Montreal melon was the Champagne of melons. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "In its day, the Montreal melon was the Champagne of melons.",
+    "An 1885 newspaper described it as “of the largest size … almost round, flattened at both ends, and deeply ribbed, skin green and netted, flesh very thick and of finest flavor.” Some whole melons weighed more than 40 pounds, and the Queen of England received one every year, carefully wrapped in a wooden basket designed to protect the delicate fruit."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrliao/what_happened_to_montreals_legendary_melon/",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Champagne"
+    ],
+    "locations": [
+     "Montreal"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.1027,
+    "label": "positive"
+   },
+   "summary": "In its day, the Montreal melon was the Champagne of melons. An 1885 newspaper described it as “of the largest size … almost round, flattened at both ends, and deeply ribbed, skin green and netted, flesh very thick and of finest flavor.” Some whole melons weighed more than 40 pounds, and the Queen of England received one every year, carefully wrapped in a wooden basket designed to protect the delicate fruit.",
+   "cluster_id": "9964478574c5fc33",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.484696+00:00",
+    "source_published_at": "2026-09-27T14:23:51+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2996,
+     "ENTERTAINMENT": 0.2445,
+     "BREAKOUT WATCH": 0.1215,
+     "LIFESTYLE CHAT": 0.143,
+     "CANADIAN NEWS": 0.1482,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0433
+    }
+   }
+  },
+  {
    "id": "2b1017331325ea6e",
    "date": "2026-09-22",
    "slot": "am",
@@ -8333,6 +10128,57 @@
     "ingested_at": "2026-09-25T09:25:13.007126+00:00",
     "source_published_at": "2026-09-25T01:37:55+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "f58873f15b66fa32",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Police block Protestant Orange Order from controversial parade route",
+   "angle": "They had been unable to make the permitted parade on Sunday morning because protesters had gathered on the mainly-nationalist Garvaghy Road. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "They had been unable to make the permitted parade on Sunday morning because protesters had gathered on the mainly-nationalist Garvaghy Road."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmqlwn60yyq9o?at_medium=RSS&at_campaign=rss",
+   "score": 71.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Garvaghy Road"
+    ],
+    "organizations": [
+     "Protestant Orange Order"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6808,
+    "label": "negative"
+   },
+   "summary": "They had been unable to make the permitted parade on Sunday morning because protesters had gathered on the mainly-nationalist Garvaghy Road.",
+   "cluster_id": "f58873f15b66fa32",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.747090+00:00",
+    "source_published_at": "2026-09-28T10:13:19+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3045,
+     "ENTERTAINMENT": 0.2468,
+     "BREAKOUT WATCH": 0.1502,
+     "LIFESTYLE CHAT": 0.0973,
+     "CANADIAN NEWS": 0.0721,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1292
+    }
    }
   },
   {
@@ -10398,6 +12244,55 @@
    }
   },
   {
+   "id": "cca701226e4f1a7b",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "‘Of course’: German foreign minister says his country wants more Canadian LNG",
+   "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrfvuq/of_course_german_foreign_minister_says_his/",
+   "score": 71.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "LNG"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+   "cluster_id": "cca701226e4f1a7b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.221013+00:00",
+    "source_published_at": "2026-09-27T09:32:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5392,
+     "ENTERTAINMENT": 0.074,
+     "BREAKOUT WATCH": 0.0548,
+     "LIFESTYLE CHAT": 0.0757,
+     "CANADIAN NEWS": 0.2239,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0324
+    }
+   }
+  },
+  {
    "id": "e1f8532f85bba3be",
    "date": "2026-09-22",
    "slot": "am",
@@ -10688,6 +12583,63 @@
    }
   },
   {
+   "id": "936b2effcb1ee1fc",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "China Box Office: ‘Avengers: Endgame Encore’ Tops Pre-Holiday Weekend",
+   "angle": "Marvel Studios&#8217; &#8220;Avengers: Endgame Encore&#8221; claimed the top spot at the mainland China box office during the Sept. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Marvel Studios&#8217; &#8220;Avengers: Endgame Encore&#8221; claimed the top spot at the mainland China box office during the Sept.",
+    "25–27 frame, grossing RMB83.8 million ($12.5 million) over the weekend, according to Artisan Gateway.",
+    "The Marvel epic&#8217;s cumulative lifetime haul in China is now $647.8 million."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/box-office/china-box-office-avengers-endgame-encore-1236877185/",
+   "score": 70.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Gateway",
+     "Dirty Monkeys"
+    ],
+    "organizations": [
+     "China Box Office",
+     "Marvel"
+    ],
+    "locations": [
+     "China"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3818,
+    "label": "positive"
+   },
+   "summary": "Marvel Studios&#8217; &#8220;Avengers: Endgame Encore&#8221; claimed the top spot at the mainland China box office during the Sept. 25–27 frame, grossing RMB83.8 million ($12.5 million) over the weekend, according to Artisan Gateway. The Marvel epic&#8217;s cumulative lifetime haul in China is now $647.8 million. Dirty Monkeys’ war comedy-drama &#8220;Once Upon a Time in the Middle [&#8230;]",
+   "cluster_id": "936b2effcb1ee1fc",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.195770+00:00",
+    "source_published_at": "2026-09-28T05:43:15+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3032,
+     "ENTERTAINMENT": 0.275,
+     "BREAKOUT WATCH": 0.2565,
+     "LIFESTYLE CHAT": 0.0544,
+     "CANADIAN NEWS": 0.0544,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0565
+    }
+   }
+  },
+  {
    "id": "057dca17833b4a1e",
    "date": "2026-09-22",
    "slot": "am",
@@ -10800,6 +12752,106 @@
     "ingested_at": "2026-09-25T09:25:11.843839+00:00",
     "source_published_at": "2026-09-25T06:10:19+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "8d7edae7154f6635",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "How to find your perfect pillow - according to an expert",
+   "angle": "Dr Chris McCarthy talks through the four considerations you need to make before buying your pillow. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Dr Chris McCarthy talks through the four considerations you need to make before buying your pillow."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmn0jey2dde7o?at_medium=RSS&at_campaign=rss",
+   "score": 70.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Chris McCarthy"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5719,
+    "label": "positive"
+   },
+   "summary": "Dr Chris McCarthy talks through the four considerations you need to make before buying your pillow.",
+   "cluster_id": "8d7edae7154f6635",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.287611+00:00",
+    "source_published_at": "2026-09-28T09:45:37+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2879,
+     "ENTERTAINMENT": 0.1763,
+     "BREAKOUT WATCH": 0.1926,
+     "LIFESTYLE CHAT": 0.1949,
+     "CANADIAN NEWS": 0.1059,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0423
+    }
+   }
+  },
+  {
+   "id": "bf99c3c68c0441be",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Liberals Hold 12-Point Lead as Carney Reaches New High and Optimism About Canada Rises Again - Abacus Data",
+   "angle": "&#32; submitted by &#32; /u/hopoke [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/hopoke [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrmmmh/liberals_hold_12point_lead_as_carney_reaches_new/",
+   "score": 70.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Carney Reaches New High"
+    ],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.5719,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/hopoke [link] &#32; [comments]",
+   "cluster_id": "bf99c3c68c0441be",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.267809+00:00",
+    "source_published_at": "2026-09-27T15:10:11+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2644,
+     "ENTERTAINMENT": 0.0747,
+     "BREAKOUT WATCH": 0.0547,
+     "LIFESTYLE CHAT": 0.0881,
+     "CANADIAN NEWS": 0.477,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0412
+    }
    }
   },
   {
@@ -11003,6 +13055,55 @@
    }
   },
   {
+   "id": "e0b7b8d3e56136ca",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Why AOC probably should look to advance in 2028",
+   "angle": "Voters can tell if you don't really need to win — and they like the attitude. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Voters can tell if you don't really need to win — and they like the attitude."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/opinion/why-aoc-probably-should-look-to-advance-in-2028/",
+   "score": 70.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "AOC"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7624,
+    "label": "positive"
+   },
+   "summary": "Voters can tell if you don't really need to win — and they like the attitude.",
+   "cluster_id": "e0b7b8d3e56136ca",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.850963+00:00",
+    "source_published_at": "2026-09-28T09:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2563,
+     "ENTERTAINMENT": 0.2973,
+     "BREAKOUT WATCH": 0.1092,
+     "LIFESTYLE CHAT": 0.1638,
+     "CANADIAN NEWS": 0.1377,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0357
+    }
+   }
+  },
+  {
    "id": "1ad99a7c64166843",
    "date": "2026-09-22",
    "slot": "am",
@@ -11084,6 +13185,53 @@
     "ingested_at": "2026-09-25T19:06:38.764253+00:00",
     "source_published_at": "2026-09-25T19:00:00+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "db14e2d955562c9f",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "You need £17,000 for a first home - here's how to save it",
+   "angle": "Here are four ways you can put money aside to save enough for a deposit on your first home. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Here are four ways you can put money aside to save enough for a deposit on your first home."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cqvgy09kep21o?at_medium=RSS&at_campaign=rss",
+   "score": 70.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7506,
+    "label": "positive"
+   },
+   "summary": "Here are four ways you can put money aside to save enough for a deposit on your first home.",
+   "cluster_id": "db14e2d955562c9f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.241776+00:00",
+    "source_published_at": "2026-09-28T08:21:54+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1976,
+     "ENTERTAINMENT": 0.2402,
+     "BREAKOUT WATCH": 0.1806,
+     "LIFESTYLE CHAT": 0.148,
+     "CANADIAN NEWS": 0.1575,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0761
+    }
    }
   },
   {
@@ -11475,6 +13623,155 @@
     "ingested_at": "2026-09-24T18:19:38.946748+00:00",
     "source_published_at": "2026-09-24T17:36:05+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "a92117bed20c8396",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "2026 VMAS: The Night’s Most Talked-About Style",
+   "angle": "From thoroughly stunning to overtly sexy and beyond, we're spotlighting 10 looks that lit up social media on MTV's biggest night. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "From thoroughly stunning to overtly sexy and beyond, we're spotlighting 10 looks that lit up social media on MTV's biggest night."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/lifestyle/style/2026-vmas-nights-most-talked-about-style-1236713059/",
+   "score": 70.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "MTV"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7425,
+    "label": "positive"
+   },
+   "summary": "From thoroughly stunning to overtly sexy and beyond, we're spotlighting 10 looks that lit up social media on MTV's biggest night.",
+   "cluster_id": "a92117bed20c8396",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.737306+00:00",
+    "source_published_at": "2026-09-28T02:35:54+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0637,
+     "ENTERTAINMENT": 0.7609,
+     "BREAKOUT WATCH": 0.0445,
+     "LIFESTYLE CHAT": 0.0647,
+     "CANADIAN NEWS": 0.0437,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0225
+    }
+   }
+  },
+  {
+   "id": "71946d5fd4aa5a9e",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "What we know about RAF Fairford counter-terror probe and the five men arrested",
+   "angle": "Five men have been arrested as counter-terror police lead an investigation into a major incident near the airbase. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Five men have been arrested as counter-terror police lead an investigation into a major incident near the airbase."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c85ydnwqpzyzo?at_medium=RSS&at_campaign=rss",
+   "score": 70.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "RAF Fairford"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7351,
+    "label": "negative"
+   },
+   "summary": "Five men have been arrested as counter-terror police lead an investigation into a major incident near the airbase.",
+   "cluster_id": "71946d5fd4aa5a9e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.598332+00:00",
+    "source_published_at": "2026-09-28T09:37:33+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5507,
+     "ENTERTAINMENT": 0.113,
+     "BREAKOUT WATCH": 0.0362,
+     "LIFESTYLE CHAT": 0.1388,
+     "CANADIAN NEWS": 0.0625,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0988
+    }
+   }
+  },
+  {
+   "id": "79f78dee48561e85",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Ottawa distillery looks to Europe as U.S. import ban threatens Canadian exports",
+   "angle": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1ws1kjg/ottawa_distillery_looks_to_europe_as_us_import/",
+   "score": 70.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Ottawa",
+     "Europe",
+     "U.S."
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.7351,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]",
+   "cluster_id": "79f78dee48561e85",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:17.960904+00:00",
+    "source_published_at": "2026-09-28T01:33:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2053,
+     "ENTERTAINMENT": 0.1113,
+     "BREAKOUT WATCH": 0.0569,
+     "LIFESTYLE CHAT": 0.0309,
+     "CANADIAN NEWS": 0.5698,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0257
+    }
    }
   },
   {
@@ -12455,6 +14752,108 @@
    }
   },
   {
+   "id": "888d03b479a91a4a",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Texas delivery driver Donald Johnson’s viral $700K fundraiser taken down after organizer revealed to be his daughter",
+   "angle": "GoFundMe has removed a fundraiser that raised more than $281,000 for an 81-year-old Texas delivery driver — who went viral for hauling heavy bags up a flight of stairs to help pay his wife's cancer bills — saying it…",
+   "bullets": [
+    "GoFundMe has removed a fundraiser that raised more than $281,000 for an 81-year-old Texas delivery driver — who went viral for hauling heavy bags up a flight of stairs to help pay his wife's cancer bills — saying it uncovered \"factual misrepresentations.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/texas-delivery-driver-donald-johnsons-viral-700k-fundraiser-taken-down-after-organizer-revealed-to-be-his-daughter/",
+   "score": 69.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Donald Johnson’s"
+    ],
+    "organizations": [],
+    "locations": [
+     "Texas"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4767,
+    "label": "negative"
+   },
+   "summary": "GoFundMe has removed a fundraiser that raised more than $281,000 for an 81-year-old Texas delivery driver — who went viral for hauling heavy bags up a flight of stairs to help pay his wife's cancer bills — saying it uncovered \"factual misrepresentations.\"",
+   "cluster_id": "888d03b479a91a4a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.010992+00:00",
+    "source_published_at": "2026-09-28T08:46:22+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1582,
+     "ENTERTAINMENT": 0.2981,
+     "BREAKOUT WATCH": 0.0963,
+     "LIFESTYLE CHAT": 0.2721,
+     "CANADIAN NEWS": 0.0659,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1094
+    }
+   }
+  },
+  {
+   "id": "9aab42010cf5927a",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Surprise Adam Lambert Performance Caps Hit-Filled George Michael Tribute at 2026 VMAs",
+   "angle": "Raye, Sombr and Teddy Swims took the stage to cover some of the biggest hits from the \"Faith\" singer, who died in 2016. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Raye, Sombr and Teddy Swims took the stage to cover some of the biggest hits from the \"Faith\" singer, who died in 2016."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/music/music-news/adam-lambert-george-michael-tribute-2026-mtv-vmas-1236713332/",
+   "score": 69.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Adam Lambert",
+     "George Michael Tribute",
+     "Teddy Swims"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0772,
+    "label": "positive"
+   },
+   "summary": "Raye, Sombr and Teddy Swims took the stage to cover some of the biggest hits from the \"Faith\" singer, who died in 2016.",
+   "cluster_id": "9aab42010cf5927a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.644450+00:00",
+    "source_published_at": "2026-09-28T03:26:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2239,
+     "ENTERTAINMENT": 0.2733,
+     "BREAKOUT WATCH": 0.1383,
+     "LIFESTYLE CHAT": 0.17,
+     "CANADIAN NEWS": 0.0917,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1029
+    }
+   }
+  },
+  {
    "id": "b896d14804330563",
    "date": "2026-09-22",
    "slot": "am",
@@ -12730,6 +15129,53 @@
     "ingested_at": "2026-09-25T19:06:38.561366+00:00",
     "source_published_at": "2026-09-25T14:10:26+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "8075c7d56e6a5a94",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "You’re poorer than you think",
+   "angle": "&#32; submitted by &#32; /u/Typical_Cap895 [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Typical_Cap895 [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1ws75m4/youre_poorer_than_you_think/",
+   "score": 69.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3612,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/Typical_Cap895 [link] &#32; [comments]",
+   "cluster_id": "8075c7d56e6a5a94",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:17.762381+00:00",
+    "source_published_at": "2026-09-28T06:34:26+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3411,
+     "ENTERTAINMENT": 0.1295,
+     "BREAKOUT WATCH": 0.1715,
+     "LIFESTYLE CHAT": 0.2345,
+     "CANADIAN NEWS": 0.0936,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0298
+    }
    }
   },
   {
@@ -13627,6 +16073,106 @@
    }
   },
   {
+   "id": "f6f701e091fefacb",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Orange Order march row goes to heart of ongoing divisions in Northern Ireland",
+   "angle": "The dispute over the controversial parade is a reminder that the peace process is not over. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The dispute over the controversial parade is a reminder that the peace process is not over."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/ckx2zq7x32wro?at_medium=RSS&at_campaign=rss",
+   "score": 69.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Orange Order"
+    ],
+    "locations": [
+     "Northern Ireland"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6369,
+    "label": "positive"
+   },
+   "summary": "The dispute over the controversial parade is a reminder that the peace process is not over.",
+   "cluster_id": "f6f701e091fefacb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.381171+00:00",
+    "source_published_at": "2026-09-28T08:53:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3874,
+     "ENTERTAINMENT": 0.2805,
+     "BREAKOUT WATCH": 0.0846,
+     "LIFESTYLE CHAT": 0.1348,
+     "CANADIAN NEWS": 0.0803,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0325
+    }
+   }
+  },
+  {
+   "id": "8a572b826070da86",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Popular Night Owls philosophy series builds new nest with first event at U of T",
+   "angle": "In a STEM-focused postsecondary landscape, evening with celebrity philosopher promotes talking about ideas purely for their own sake. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "In a STEM-focused postsecondary landscape, evening with celebrity philosopher promotes talking about ideas purely for their own sake"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-night-owls-philosophy-series-event-university-of-toronto/",
+   "score": 69.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "U of T. In"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6369,
+    "label": "positive"
+   },
+   "summary": "In a STEM-focused postsecondary landscape, evening with celebrity philosopher promotes talking about ideas purely for their own sake",
+   "cluster_id": "8a572b826070da86",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:16.369352+00:00",
+    "source_published_at": "2026-09-28T09:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2649,
+     "ENTERTAINMENT": 0.3579,
+     "BREAKOUT WATCH": 0.171,
+     "LIFESTYLE CHAT": 0.0417,
+     "CANADIAN NEWS": 0.1012,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0634
+    }
+   }
+  },
+  {
    "id": "fa9d8cdba307ff68",
    "date": "2026-09-22",
    "slot": "am",
@@ -14317,6 +16863,210 @@
     "ingested_at": "2026-09-26T09:07:50.045164+00:00",
     "source_published_at": "2026-09-25T23:36:26+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "1bcc662d025163ec",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "UK diesel price hits all-time high, RAC says",
+   "angle": "The US-Israel war with Iran has caused fuel prices to soar. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The US-Israel war with Iran has caused fuel prices to soar."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6n4k987k981o?at_medium=RSS&at_campaign=rss",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "RAC"
+    ],
+    "locations": [
+     "UK",
+     "US",
+     "Iran"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5994,
+    "label": "negative"
+   },
+   "summary": "The US-Israel war with Iran has caused fuel prices to soar.",
+   "cluster_id": "1bcc662d025163ec",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.644986+00:00",
+    "source_published_at": "2026-09-28T10:00:18+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3347,
+     "ENTERTAINMENT": 0.2178,
+     "BREAKOUT WATCH": 0.1518,
+     "LIFESTYLE CHAT": 0.1068,
+     "CANADIAN NEWS": 0.071,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1179
+    }
+   }
+  },
+  {
+   "id": "034d47003aff984d",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Angela Scanlon takes over Sara Cox's drivetime slot on Radio 2",
+   "angle": "The station also announces a new presenter for its country show after Bob Harris's departure. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The station also announces a new presenter for its country show after Bob Harris's departure."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmqxvnyg0xz7o?at_medium=RSS&at_campaign=rss",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Angela Scanlon",
+     "Sara Cox's",
+     "Bob Harris's"
+    ],
+    "organizations": [
+     "Radio 2"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The station also announces a new presenter for its country show after Bob Harris's departure.",
+   "cluster_id": "034d47003aff984d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.428560+00:00",
+    "source_published_at": "2026-09-28T08:05:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1955,
+     "ENTERTAINMENT": 0.3019,
+     "BREAKOUT WATCH": 0.2611,
+     "LIFESTYLE CHAT": 0.0419,
+     "CANADIAN NEWS": 0.0655,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.134
+    }
+   }
+  },
+  {
+   "id": "0ffc2f20011100fb",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "‘It’s devastating’: The U.S.-Canada trade war is putting protein on the menu",
+   "angle": "&#32; submitted by &#32; /u/joe4942 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/joe4942 [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrtkdn/its_devastating_the_uscanada_trade_war_is_putting/",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "U.S.-Canada"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.5994,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/joe4942 [link] &#32; [comments]",
+   "cluster_id": "0ffc2f20011100fb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.318424+00:00",
+    "source_published_at": "2026-09-27T19:43:14+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1004,
+     "ENTERTAINMENT": 0.125,
+     "BREAKOUT WATCH": 0.1807,
+     "LIFESTYLE CHAT": 0.0459,
+     "CANADIAN NEWS": 0.5196,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0283
+    }
+   }
+  },
+  {
+   "id": "05f18c6b82dd5868",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Was this award-winning book written by AI? Scandal deepens skepticism in literary world",
+   "angle": "&#32; submitted by &#32; /u/ubcstaffer123 [link] &#32; [comments]. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "&#32; submitted by &#32; /u/ubcstaffer123 [link] &#32; [comments]"
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1ws1ahx/was_this_awardwinning_book_written_by_ai_scandal/",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "AI"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.5994,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/ubcstaffer123 [link] &#32; [comments]",
+   "cluster_id": "05f18c6b82dd5868",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.418661+00:00",
+    "source_published_at": "2026-09-28T01:20:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3088,
+     "ENTERTAINMENT": 0.0436,
+     "BREAKOUT WATCH": 0.4389,
+     "LIFESTYLE CHAT": 0.0425,
+     "CANADIAN NEWS": 0.0971,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0692
+    }
    }
   },
   {
@@ -16101,6 +18851,57 @@
    }
   },
   {
+   "id": "24b3978581e64006",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Decap is the man behind the drums behind your favorite song",
+   "angle": "I don't think I'm going to hurt anyone's feelings by pointing out that Decap doesn't have the name recognition of Kendrick Lamar, Olivia Rodrigo, or Charli XCX. Explain it like a coworker Slack rant: helpful tool or…",
+   "bullets": [
+    "I don't think I'm going to hurt anyone's feelings by pointing out that Decap doesn't have the name recognition of Kendrick Lamar, Olivia Rodrigo, or Charli XCX.",
+    "But his fingerprints are all over tracks from them, as well as many other artists, including Freddie Gibbs, Bad Bunny, Mac Miller, BTS, and even Ludwig G&#246;ransson's score [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/report/1000994/decap-drums-that-knock-interview",
+   "score": 68.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kendrick Lamar",
+     "Olivia Rodrigo",
+     "Mac Miller",
+     "Ludwig G&#246;ransson's"
+    ],
+    "organizations": [
+     "Decap",
+     "Charli XCX",
+     "Freddie Gibbs",
+     "BTS"
+    ],
+    "locations": [
+     "Bad Bunny"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5106,
+    "label": "negative"
+   },
+   "summary": "I don't think I'm going to hurt anyone's feelings by pointing out that Decap doesn't have the name recognition of Kendrick Lamar, Olivia Rodrigo, or Charli XCX. But his fingerprints are all over tracks from them, as well as many other artists, including Freddie Gibbs, Bad Bunny, Mac Miller, BTS, and even Ludwig G&#246;ransson's score [&#8230;]",
+   "cluster_id": "24b3978581e64006",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.960961+00:00",
+    "source_published_at": "2026-09-26T19:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "477bd5a175d80bf7",
    "date": "2026-09-22",
    "slot": "am",
@@ -16219,6 +19020,151 @@
     "ingested_at": "2026-09-25T09:25:11.754676+00:00",
     "source_published_at": "2026-09-25T06:50:23+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "a8a4b4c7b859ac2d",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Rams run out of oxygen at Mile High in stunning second-half collapse against Broncos",
+   "angle": "The Rams led the Broncos 16-0 at halftime before surrendering 30 second-half points in a stunning 30-26 collapse at Mile High. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Rams led the Broncos 16-0 at halftime before surrendering 30 second-half points in a stunning 30-26 collapse at Mile High."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/rams-collapse-at-mile-high-blow-16-point-halftime-lead-in-stunning-30-26-loss-to-broncos/",
+   "score": 68.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rams"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.296,
+    "label": "negative"
+   },
+   "summary": "The Rams led the Broncos 16-0 at halftime before surrendering 30 second-half points in a stunning 30-26 collapse at Mile High.",
+   "cluster_id": "a8a4b4c7b859ac2d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.311578+00:00",
+    "source_published_at": "2026-09-28T05:35:25+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0574,
+     "ENTERTAINMENT": 0.2895,
+     "BREAKOUT WATCH": 0.2494,
+     "LIFESTYLE CHAT": 0.1375,
+     "CANADIAN NEWS": 0.1084,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1578
+    }
+   }
+  },
+  {
+   "id": "a9dcdad2e9c594c2",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Woman convicted of manslaughter in shaken-baby case hopes to clear her name",
+   "angle": "Jennifer Gaskin’s appeal is the latest in an effort to undo the damage caused by the now widely contested forensic theory of ‘shaken baby syndrome’. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Jennifer Gaskin’s appeal is the latest in an effort to undo the damage caused by the now widely contested forensic theory of ‘shaken baby syndrome’"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-jennifer-gaskin-manslaughter-conviction-shaken-baby-syndrome/",
+   "score": 68.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jennifer Gaskin’s"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.296,
+    "label": "positive"
+   },
+   "summary": "Jennifer Gaskin’s appeal is the latest in an effort to undo the damage caused by the now widely contested forensic theory of ‘shaken baby syndrome’",
+   "cluster_id": "a9dcdad2e9c594c2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:16.318519+00:00",
+    "source_published_at": "2026-09-28T09:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.166,
+     "ENTERTAINMENT": 0.4396,
+     "BREAKOUT WATCH": 0.0997,
+     "LIFESTYLE CHAT": 0.109,
+     "CANADIAN NEWS": 0.1347,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.051
+    }
+   }
+  },
+  {
+   "id": "00da2a067a492daa",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Poilievre pushes for diesel plan as fuel prices soar",
+   "angle": "Conservative Leader called for removal of all taxes on the ‘vital fuel’ until at least Canada Day. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Conservative Leader called for removal of all taxes on the ‘vital fuel’ until at least Canada Day"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-poilievre-pushes-for-diesel-plan-as-fuel-prices-soar/",
+   "score": 68.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Conservative Leader called for removal of all taxes on the ‘vital fuel’ until at least Canada Day",
+   "cluster_id": "00da2a067a492daa",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:16.523661+00:00",
+    "source_published_at": "2026-09-28T02:09:19+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2529,
+     "ENTERTAINMENT": 0.2633,
+     "BREAKOUT WATCH": 0.0964,
+     "LIFESTYLE CHAT": 0.1038,
+     "CANADIAN NEWS": 0.2111,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0726
+    }
    }
   },
   {
@@ -17242,6 +20188,59 @@
    }
   },
   {
+   "id": "b7f8b585b923fa33",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Bombardier in advanced talks to build Saab surveillance aircraft in Canada, CEO says",
+   "angle": "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrybj8/bombardier_in_advanced_talks_to_build_saab/",
+   "score": 67.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Bombardier"
+    ],
+    "organizations": [
+     "Saab"
+    ],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.25,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]",
+   "cluster_id": "b7f8b585b923fa33",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:17.715189+00:00",
+    "source_published_at": "2026-09-27T22:59:44+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1263,
+     "ENTERTAINMENT": 0.0597,
+     "BREAKOUT WATCH": 0.0429,
+     "LIFESTYLE CHAT": 0.0198,
+     "CANADIAN NEWS": 0.7335,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0177
+    }
+   }
+  },
+  {
    "id": "db26666187ea2a2d",
    "date": "2026-09-22",
    "slot": "am",
@@ -17520,6 +20519,57 @@
     "ingested_at": "2026-09-26T09:07:46.673210+00:00",
     "source_published_at": "2026-09-26T00:43:11+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "e34998148cde5dd4",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Off Campus’ Stars Ella Bright and Belmont Cameli Present at 2026 MTV VMAs",
+   "angle": "The actors have been filming season two of the hit Prime Video series all summer. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The actors have been filming season two of the hit Prime Video series all summer."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/off-campus-ella-bright-belmont-cameli-present-2026-mtv-vmas-1236713244/",
+   "score": 67.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Belmont Cameli Present",
+     "MTV",
+     "Prime Video"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4404,
+    "label": "positive"
+   },
+   "summary": "The actors have been filming season two of the hit Prime Video series all summer.",
+   "cluster_id": "e34998148cde5dd4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.783844+00:00",
+    "source_published_at": "2026-09-28T02:33:29+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1517,
+     "ENTERTAINMENT": 0.5387,
+     "BREAKOUT WATCH": 0.0928,
+     "LIFESTYLE CHAT": 0.0743,
+     "CANADIAN NEWS": 0.0332,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1092
+    }
    }
   },
   {
@@ -18857,6 +21907,107 @@
    }
   },
   {
+   "id": "6ba32dcd19c5eea1",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Incoming Air Canada CEO's current airline engaged in 'anti-labour' behaviour, says Canadian union head",
+   "angle": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1ws92hv/incoming_air_canada_ceos_current_airline_engaged/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Incoming Air Canada"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4019,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]",
+   "cluster_id": "6ba32dcd19c5eea1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.369853+00:00",
+    "source_published_at": "2026-09-28T08:33:10+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0761,
+     "ENTERTAINMENT": 0.0156,
+     "BREAKOUT WATCH": 0.0136,
+     "LIFESTYLE CHAT": 0.0227,
+     "CANADIAN NEWS": 0.8658,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0061
+    }
+   }
+  },
+  {
+   "id": "0ae3a9b1afbca08c",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "A Transcript From The Times Interview with Prime Minister Mark Carney of Canada",
+   "angle": "&#32; submitted by &#32; /u/Amutoji [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Amutoji [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrukp3/a_transcript_from_the_times_interview_with_prime/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mark Carney",
+     "Amutoji"
+    ],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/Amutoji [link] &#32; [comments]",
+   "cluster_id": "0ae3a9b1afbca08c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.532407+00:00",
+    "source_published_at": "2026-09-27T20:22:51+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1588,
+     "ENTERTAINMENT": 0.0946,
+     "BREAKOUT WATCH": 0.0429,
+     "LIFESTYLE CHAT": 0.0415,
+     "CANADIAN NEWS": 0.6245,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0376
+    }
+   }
+  },
+  {
    "id": "72f197b3798c84e5",
    "date": "2026-09-22",
    "slot": "am",
@@ -19401,6 +22552,53 @@
    }
   },
   {
+   "id": "d66470cb5435fc73",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Honor’s Magic 9 Pro Max has a big camera and a bigger battery",
+   "angle": "Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a design revamp, a capable camera, and a colossal battery. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a design revamp, a capable camera, and a colossal battery.",
+    "This is Honor's first flagship launch - Robot Phone aside - since it announced its collaboration with camera company Arri.",
+    "The initial impact is twofold."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1001219/honor-magic-9-pro-max-arri-cameras-snapdragon-battery-design-china",
+   "score": 66.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Pro Max",
+     "Arri"
+    ],
+    "organizations": [
+     "Honor"
+    ],
+    "locations": [
+     "China"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.765,
+    "label": "positive"
+   },
+   "summary": "Honor launches its new Magic 9 flagship phones in China today, and the 9 Pro Max features a design revamp, a capable camera, and a colossal battery. This is Honor's first flagship launch - Robot Phone aside - since it announced its collaboration with camera company Arri. The initial impact is twofold.",
+   "cluster_id": "d66470cb5435fc73",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.486910+00:00",
+    "source_published_at": "2026-09-28T08:00:36+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "a09260bc363d4bea",
    "date": "2026-09-22",
    "slot": "am",
@@ -19707,6 +22905,104 @@
     "ingested_at": "2026-09-25T19:06:40.618619+00:00",
     "source_published_at": "2026-09-25T15:05:07+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "9a26729267255a54",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Behold the pawpaw, the tropical ‘alien banana’ that grows right here in Canada | Pawpaws taste like a banana, mango and pineapple all rolled into one",
+   "angle": "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrl1sl/behold_the_pawpaw_the_tropical_alien_banana_that/",
+   "score": 66.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.3612,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]",
+   "cluster_id": "9a26729267255a54",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:17.912893+00:00",
+    "source_published_at": "2026-09-27T14:04:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1059,
+     "ENTERTAINMENT": 0.1848,
+     "BREAKOUT WATCH": 0.0512,
+     "LIFESTYLE CHAT": 0.0731,
+     "CANADIAN NEWS": 0.477,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1079
+    }
+   }
+  },
+  {
+   "id": "505da911486940c6",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Why the PM could finally drop the triple lock pension pledge",
+   "angle": "Andy Burnham said that he would make tough decisions to fund a new national care service. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Andy Burnham said that he would make tough decisions to fund a new national care service."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6jdvmy1287yo?at_medium=RSS&at_campaign=rss",
+   "score": 66.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Andy Burnham"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.1531,
+    "label": "positive"
+   },
+   "summary": "Andy Burnham said that he would make tough decisions to fund a new national care service.",
+   "cluster_id": "505da911486940c6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.140776+00:00",
+    "source_published_at": "2026-09-28T07:38:21+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3118,
+     "ENTERTAINMENT": 0.1714,
+     "BREAKOUT WATCH": 0.0688,
+     "LIFESTYLE CHAT": 0.2953,
+     "CANADIAN NEWS": 0.1006,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0521
+    }
    }
   },
   {
@@ -21463,6 +24759,55 @@
    }
   },
   {
+   "id": "d39ca0da9cebeb26",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Apparent white nationalist gathering spotted on Tkʼemlúps reserve Sunday",
+   "angle": "&#32; submitted by &#32; /u/North_Church [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/North_Church [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrzych/apparent_white_nationalist_gathering_spotted_on/",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Tkʼemlúps"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/North_Church [link] &#32; [comments]",
+   "cluster_id": "d39ca0da9cebeb26",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:17.861816+00:00",
+    "source_published_at": "2026-09-28T00:14:58+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3177,
+     "ENTERTAINMENT": 0.2069,
+     "BREAKOUT WATCH": 0.1781,
+     "LIFESTYLE CHAT": 0.0832,
+     "CANADIAN NEWS": 0.1196,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0946
+    }
+   }
+  },
+  {
    "id": "74f5d1c0406773e9",
    "date": "2026-09-22",
    "slot": "am",
@@ -22641,6 +25986,55 @@
    }
   },
   {
+   "id": "8e439a0127551140",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Pope Leo calls out ‘false compassion’ of medically assisted suicide during French hospital visit",
+   "angle": "The pope told healthcare workers that 'what is legal is not necessarily moral' when it comes to causing death. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "The pope told healthcare workers that 'what is legal is not necessarily moral' when it comes to causing death."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/world-news/pope-leo-calls-out-false-compassion-of-medically-assisted-suicide-during-french-hospital-visit/",
+   "score": 65.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Pope Leo"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.836,
+    "label": "negative"
+   },
+   "summary": "The pope told healthcare workers that 'what is legal is not necessarily moral' when it comes to causing death.",
+   "cluster_id": "8e439a0127551140",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.953515+00:00",
+    "source_published_at": "2026-09-28T08:48:44+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1792,
+     "ENTERTAINMENT": 0.2362,
+     "BREAKOUT WATCH": 0.0697,
+     "LIFESTYLE CHAT": 0.3569,
+     "CANADIAN NEWS": 0.0804,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0776
+    }
+   }
+  },
+  {
    "id": "0521999612130f40",
    "date": "2026-09-22",
    "slot": "am",
@@ -22880,6 +26274,60 @@
    }
   },
   {
+   "id": "e813781a7adb4eca",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Morning Update: Security experts call for Havana Syndrome probe",
+   "angle": "Also in today’s edition: Strikes in Kyiv and mass shootings in South Africa. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Also in today’s edition: Strikes in Kyiv and mass shootings in South Africa"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-morning-update-security-experts-call-for-havana-syndrome-probe/",
+   "score": 65.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Strikes"
+    ],
+    "organizations": [
+     "Havana Syndrome"
+    ],
+    "locations": [
+     "Kyiv",
+     "South Africa"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0258,
+    "label": "neutral"
+   },
+   "summary": "Also in today’s edition: Strikes in Kyiv and mass shootings in South Africa",
+   "cluster_id": "e813781a7adb4eca",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:16.185331+00:00",
+    "source_published_at": "2026-09-28T10:13:40+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2784,
+     "ENTERTAINMENT": 0.266,
+     "BREAKOUT WATCH": 0.1396,
+     "LIFESTYLE CHAT": 0.078,
+     "CANADIAN NEWS": 0.1244,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1137
+    }
+   }
+  },
+  {
    "id": "ed8497a0d24b5f07",
    "date": "2026-09-25",
    "slot": "am",
@@ -22915,6 +26363,57 @@
     "ingested_at": "2026-09-25T19:06:38.359893+00:00",
     "source_published_at": "2026-09-25T12:58:56+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "bdea28c0ec0e4ef3",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Trump-Xi summit: What wasn't said might matter the most",
+   "angle": "The most revealing thing about the summit in Washington may be what the two leaders did not say - and what we still don't know. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The most revealing thing about the summit in Washington may be what the two leaders did not say - and what we still don't know."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cxp84g2ly1mjo?at_medium=RSS&at_campaign=rss",
+   "score": 65.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Trump-Xi"
+    ],
+    "organizations": [],
+    "locations": [
+     "Washington"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0191,
+    "label": "neutral"
+   },
+   "summary": "The most revealing thing about the summit in Washington may be what the two leaders did not say - and what we still don't know.",
+   "cluster_id": "bdea28c0ec0e4ef3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.334507+00:00",
+    "source_published_at": "2026-09-28T07:52:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1126,
+     "ENTERTAINMENT": 0.3051,
+     "BREAKOUT WATCH": 0.08,
+     "LIFESTYLE CHAT": 0.2593,
+     "CANADIAN NEWS": 0.1581,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0848
+    }
    }
   },
   {
@@ -25107,6 +28606,58 @@
    }
   },
   {
+   "id": "702f914f27853b97",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Eviction of 87-year-old sparks encampment protest in Madrid over housing crisis",
+   "angle": "Tens of thousands marched in Madrid and camped in Puerta del Sol to protest the eviction of 87-year-old María del Carmen Abascal. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "Tens of thousands marched in Madrid and camped in Puerta del Sol to protest the eviction of 87-year-old María del Carmen Abascal."
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/world-news/eviction-of-87-year-old-maria-del-carmen-abascal-sparks-encampment-protest-in-madrid-over-housing-crisis/",
+   "score": 64.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "María del Carmen Abascal"
+    ],
+    "locations": [
+     "Madrid",
+     "Puerta"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9201,
+    "label": "negative"
+   },
+   "summary": "Tens of thousands marched in Madrid and camped in Puerta del Sol to protest the eviction of 87-year-old María del Carmen Abascal.",
+   "cluster_id": "702f914f27853b97",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.902627+00:00",
+    "source_published_at": "2026-09-28T08:53:51+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2495,
+     "ENTERTAINMENT": 0.1045,
+     "BREAKOUT WATCH": 0.1809,
+     "LIFESTYLE CHAT": 0.1374,
+     "CANADIAN NEWS": 0.3012,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0265
+    }
+   }
+  },
+  {
    "id": "ce47365f083f8f67",
    "date": "2026-09-22",
    "slot": "am",
@@ -26105,6 +29656,57 @@
    }
   },
   {
+   "id": "96b13e8f21001156",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Check out the 'crazy' lineup of job seekers hoping to get work at Windsor's new Costco",
+   "angle": "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wrrnct/check_out_the_crazy_lineup_of_job_seekers_hoping/",
+   "score": 64.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Windsor's",
+     "Costco",
+     "/u/Academic-Flight-783"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.1027,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]",
+   "cluster_id": "96b13e8f21001156",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:17.813505+00:00",
+    "source_published_at": "2026-09-27T18:28:46+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.114,
+     "ENTERTAINMENT": 0.1538,
+     "BREAKOUT WATCH": 0.1353,
+     "LIFESTYLE CHAT": 0.2563,
+     "CANADIAN NEWS": 0.2643,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0764
+    }
+   }
+  },
+  {
    "id": "2739f3f1d3060de6",
    "date": "2026-09-24",
    "slot": "am",
@@ -27069,6 +30671,52 @@
     "ingested_at": "2026-09-24T09:01:03.879428+00:00",
     "source_published_at": "2026-09-23T20:52:28+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "10792b6727af1abd",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Apple hit with $5.7 billion in damages over haptic patents",
+   "angle": "Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents.",
+    "Now a federal jury in San Diego has awarded Taction over $5.7 billion in damages.",
+    "According to CNBC, \"The lawsuit centered around U.S."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1001118/apple-hit-with-5-7-billion-in-damages-over-haptic-patents",
+   "score": 63.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Apple",
+     "CNBC"
+    ],
+    "locations": [
+     "San Diego",
+     "U.S."
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.34,
+    "label": "negative"
+   },
+   "summary": "Haptics tech company Taction sued Apple in 2021, alleging it infringed two of its patents. Now a federal jury in San Diego has awarded Taction over $5.7 billion in damages. According to CNBC, \"The lawsuit centered around U.S. Patent Nos.",
+   "cluster_id": "10792b6727af1abd",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:21.901260+00:00",
+    "source_published_at": "2026-09-26T21:30:01+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -29472,6 +33120,207 @@
     "ingested_at": "2026-09-26T09:07:48.653132+00:00",
     "source_published_at": "2026-09-26T08:03:01+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "19bbbc3f1964c859",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘NAZA’ Premieres in the U.S., Seeking Change and Stoking Controversy",
+   "angle": "The Israeli-army whistleblower doc arrives on these shores via the NYFF, leaving a cloud of explosive smoke in its wake. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Israeli-army whistleblower doc arrives on these shores via the NYFF, leaving a cloud of explosive smoke in its wake."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/news/politics-news/naza-premieres-united-states-theaters-release-date-1236713360/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "doc",
+     "NYFF"
+    ],
+    "locations": [
+     "U.S."
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The Israeli-army whistleblower doc arrives on these shores via the NYFF, leaving a cloud of explosive smoke in its wake.",
+   "cluster_id": "19bbbc3f1964c859",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.546801+00:00",
+    "source_published_at": "2026-09-28T04:49:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2131,
+     "ENTERTAINMENT": 0.2873,
+     "BREAKOUT WATCH": 0.1758,
+     "LIFESTYLE CHAT": 0.0574,
+     "CANADIAN NEWS": 0.1502,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1161
+    }
+   }
+  },
+  {
+   "id": "2980311ee9d52b1c",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Alcohol is Canada’s biggest drug problem. So why aren’t people getting help?",
+   "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wsa5j5/alcohol_is_canadas_biggest_drug_problem_so_why/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+   "cluster_id": "2980311ee9d52b1c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.060120+00:00",
+    "source_published_at": "2026-09-28T09:39:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1771,
+     "ENTERTAINMENT": 0.1232,
+     "BREAKOUT WATCH": 0.0549,
+     "LIFESTYLE CHAT": 0.0483,
+     "CANADIAN NEWS": 0.5742,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0221
+    }
+   }
+  },
+  {
+   "id": "399bcf3c657b4db2",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Conservatives propose eliminating tax on diesel sales until Canada Day",
+   "angle": "&#32; submitted by &#32; /u/IWasASperm [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/IWasASperm [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wry2jx/conservatives_propose_eliminating_tax_on_diesel/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/IWasASperm [link] &#32; [comments]",
+   "cluster_id": "399bcf3c657b4db2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.174540+00:00",
+    "source_published_at": "2026-09-27T22:48:13+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1867,
+     "ENTERTAINMENT": 0.073,
+     "BREAKOUT WATCH": 0.0746,
+     "LIFESTYLE CHAT": 0.0709,
+     "CANADIAN NEWS": 0.5444,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0504
+    }
+   }
+  },
+  {
+   "id": "a6506fe177e75e69",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Boston-bound Delta flight makes emergency landing in Portugal after smoke fills cabin",
+   "angle": "A Boston-bound Delta Airlines flight was forced to make an emergency landing in Portugal Sunday after smoke filled the cabin – and four people were hospitalized. Make it local in one sentence — who pays, who waits, who…",
+   "bullets": [
+    "A Boston-bound Delta Airlines flight was forced to make an emergency landing in Portugal Sunday after smoke filled the cabin – and four people were hospitalized."
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/world-news/boston-bound-delta-flight-makes-emergency-landing-in-portugal-after-smoke-fills-cabin/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Delta",
+     "Delta Airlines"
+    ],
+    "locations": [
+     "Boston",
+     "Portugal"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.802,
+    "label": "negative"
+   },
+   "summary": "A Boston-bound Delta Airlines flight was forced to make an emergency landing in Portugal Sunday after smoke filled the cabin – and four people were hospitalized.",
+   "cluster_id": "a6506fe177e75e69",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:19.060840+00:00",
+    "source_published_at": "2026-09-28T07:33:28+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1395,
+     "ENTERTAINMENT": 0.1282,
+     "BREAKOUT WATCH": 0.1535,
+     "LIFESTYLE CHAT": 0.2032,
+     "CANADIAN NEWS": 0.2823,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0933
+    }
    }
   },
   {
@@ -32279,6 +36128,55 @@
     "ingested_at": "2026-09-24T09:01:03.448116+00:00",
     "source_published_at": "2026-09-23T23:42:10+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "f25dc3d3f1fcef2f",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Three dead, including child, in Channel crossing attempt",
+   "angle": "A 10-year-old child and two 30-year-old women were on board the boat - which was carrying 105 people. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "A 10-year-old child and two 30-year-old women were on board the boat - which was carrying 105 people."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6vgy71rle35o?at_medium=RSS&at_campaign=rss",
+   "score": 61.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Channel"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6486,
+    "label": "negative"
+   },
+   "summary": "A 10-year-old child and two 30-year-old women were on board the boat - which was carrying 105 people.",
+   "cluster_id": "f25dc3d3f1fcef2f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.845479+00:00",
+    "source_published_at": "2026-09-28T10:02:56+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1895,
+     "ENTERTAINMENT": 0.1429,
+     "BREAKOUT WATCH": 0.1415,
+     "LIFESTYLE CHAT": 0.2737,
+     "CANADIAN NEWS": 0.1335,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.119
+    }
    }
   },
   {
@@ -38335,6 +42233,53 @@
    }
   },
   {
+   "id": "bd6c9fae3f4cf0f1",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Kids turned the comment section of an NPR podcast into a group chat",
+   "angle": "Middle schoolers, likely blocked from other apps and social networks, apparently turned the Spotify comment section under an episode of NPR's Wild Card into an impromptu group chat. Explain it like a coworker Slack…",
+   "bullets": [
+    "Middle schoolers, likely blocked from other apps and social networks, apparently turned the Spotify comment section under an episode of NPR's Wild Card into an impromptu group chat.",
+    "In a new episode of This American Life, host Ira Glass digs into how the kids landed there and why.",
+    "But it mostly boils down to kids [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/entertainment/1001056/this-american-life-npr-kids-group-chat-comment-section",
+   "score": 58.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Ira Glass"
+    ],
+    "organizations": [
+     "NPR",
+     "Spotify",
+     "Wild Card",
+     "This American Life"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.1406,
+    "label": "negative"
+   },
+   "summary": "Middle schoolers, likely blocked from other apps and social networks, apparently turned the Spotify comment section under an episode of NPR's Wild Card into an impromptu group chat. In a new episode of This American Life, host Ira Glass digs into how the kids landed there and why. But it mostly boils down to kids [&#8230;]",
+   "cluster_id": "bd6c9fae3f4cf0f1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:22.020616+00:00",
+    "source_published_at": "2026-09-26T17:32:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "374b27b314d69c6e",
    "date": "2026-09-23",
    "slot": "am",
@@ -39188,6 +43133,57 @@
     "ingested_at": "2026-09-26T09:07:53.021360+00:00",
     "source_published_at": "2026-09-25T11:00:10+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "ded1dbd1dba7da8a",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "The dangerous assumption people make about aging — and how you can prevent a silent but potentially deadly disease",
+   "angle": "The dangerous assumption people make about aging — and how you can prevent a silent but potentially deadly disease. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "Susan Zweig, an endocrinologist specializing in bone health at NYU Langone Health, sets the record straight."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/health/the-dangerous-assumption-people-make-about-aging/",
+   "score": 57.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Susan Zweig"
+    ],
+    "organizations": [
+     "NYU Langone Health"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.09,
+    "label": "positive"
+   },
+   "summary": "Dr. Susan Zweig, an endocrinologist specializing in bone health at NYU Langone Health, sets the record straight.",
+   "cluster_id": "ded1dbd1dba7da8a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:18.631804+00:00",
+    "source_published_at": "2026-09-28T10:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0519,
+     "ENTERTAINMENT": 0.1499,
+     "BREAKOUT WATCH": 0.0642,
+     "LIFESTYLE CHAT": 0.6183,
+     "CANADIAN NEWS": 0.0919,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0238
+    }
    }
   },
   {
@@ -40429,6 +44425,55 @@
    }
   },
   {
+   "id": "fdd6f5bad016a6fb",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "British chess prodigy, 11, becomes youngest woman grandmaster",
+   "angle": "The 11-year-old has broken another chess record after a remarkable performance representing England. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "The 11-year-old has broken another chess record after a remarkable performance representing England."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cqwyzrg7xm2zo?at_medium=RSS&at_campaign=rss",
+   "score": 56.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "England"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.128,
+    "label": "positive"
+   },
+   "summary": "The 11-year-old has broken another chess record after a remarkable performance representing England.",
+   "cluster_id": "fdd6f5bad016a6fb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:20.992222+00:00",
+    "source_published_at": "2026-09-28T09:11:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1697,
+     "ENTERTAINMENT": 0.1794,
+     "BREAKOUT WATCH": 0.1593,
+     "LIFESTYLE CHAT": 0.2125,
+     "CANADIAN NEWS": 0.207,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.072
+    }
+   }
+  },
+  {
    "id": "732fa2bd81b5b8a0",
    "date": "2026-09-22",
    "slot": "am",
@@ -40576,6 +44621,46 @@
     "ingested_at": "2026-09-24T09:01:03.089149+00:00",
     "source_published_at": "2026-09-23T21:30:22+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "2ec7cb199a05199e",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Tesla’s big electric truck faces an even bigger infrastructure challenge",
+   "angle": "The 500-mile Semi arrives as charging gaps still limit electric trucking. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "The 500-mile Semi arrives as charging gaps still limit electric trucking."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/cars/2026/09/teslas-big-electric-truck-faces-an-even-bigger-infrastructure-challenge/",
+   "score": 55.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Tesla"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0772,
+    "label": "positive"
+   },
+   "summary": "The 500-mile Semi arrives as charging gaps still limit electric trucking.",
+   "cluster_id": "2ec7cb199a05199e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T10:18:22.112043+00:00",
+    "source_published_at": "2026-09-26T10:45:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -45711,7 +49796,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "gemini-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "f4de6e870cf78da8",
@@ -45737,7 +49823,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "abfcaa5fb74c797a",
@@ -45764,7 +49851,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "gemini-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "5caaa85301c4f619",
@@ -45790,7 +49878,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "3497afdbf23e9cc0",
@@ -45817,7 +49906,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "gemini-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "64014d7d989168c0",
@@ -45842,7 +49932,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "e8c676dfdb954f64",
@@ -45868,7 +49959,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "gemini-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "2b48dc667254c4d8",
@@ -45894,7 +49986,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "gemini-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "70727e7e417b801f",
@@ -45920,7 +50013,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "gemini-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "7f240d26176a3177",
@@ -45946,7 +50040,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "8ef647e38a12f205",
@@ -45971,7 +50066,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "a057227f59c95626",
@@ -45996,7 +50092,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "5095f68b75fca1da",
@@ -46020,7 +50117,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "386106ee44f44e6d",
@@ -46044,7 +50142,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "147800be940f953f",
@@ -46068,7 +50167,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "3f2a53806ed53771",
@@ -46092,7 +50192,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "79c61d11c31d4634",
@@ -46116,7 +50217,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "aa022ca6970e1178",
@@ -46142,7 +50244,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "8fa248a909c7381f",
@@ -46167,7 +50270,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "9ac817126ec1e6b9",
@@ -46193,7 +50297,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "0b41afc1635d72b3",
@@ -46218,7 +50323,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "aa2261b99bdb7acf",
@@ -46242,7 +50348,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "e964fef7beb7036e",
@@ -46266,7 +50373,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "4d5141cb2bb50886",
@@ -46290,7 +50398,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "cb35c342848f2abf",
@@ -46314,7 +50423,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "c30c1bfc9af2578a",
@@ -46338,7 +50448,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "8c713bebedaca020",
@@ -46362,7 +50473,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "566a52e15e047c95",
@@ -46386,7 +50498,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "c35bd152b345cd2b",
@@ -46410,7 +50523,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "e4ada47d0458d985",
@@ -46434,7 +50548,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "8f55692e717a3298",
@@ -46458,7 +50573,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "3d1c15fe672282f1",
@@ -46483,7 +50599,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   },
   {
    "id": "963ef80dcaa0f2ef",
@@ -46507,7 +50624,8 @@
    "clips": [],
    "meta": {
     "gemini_enrich": "manual-v1"
-   }
+   },
+   "is_backup": true
   }
  ]
 }
