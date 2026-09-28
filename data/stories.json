@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-09-28T10:18:22.895256+00:00",
+ "generated_at": "2026-09-28T11:34:05.677420+00:00",
  "timezone": "America/Toronto",
  "date": "2026-09-28",
  "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 1229,
+ "count": 1243,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -1748,6 +1748,58 @@
    }
   },
   {
+   "id": "267724345deec4b6",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Outstanding’ Geno Smith gave undermanned Jets a shot to upset Lions before fateful play",
+   "angle": "Sunday against the Lions, Geno Smith played the best game of his second Jets stint — albeit in a losing effort. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Sunday against the Lions, Geno Smith played the best game of his second Jets stint — albeit in a losing effort."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/outstanding-geno-smith-gave-undermanned-jets-a-shot-to-upset-lions-before-fateful-play/",
+   "score": 77.9,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Geno Smith",
+     "Jets"
+    ],
+    "organizations": [
+     "Lions"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.5859,
+    "label": "positive"
+   },
+   "summary": "Sunday against the Lions, Geno Smith played the best game of his second Jets stint — albeit in a losing effort.",
+   "cluster_id": "267724345deec4b6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.772788+00:00",
+    "source_published_at": "2026-09-28T10:54:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2309,
+     "ENTERTAINMENT": 0.3553,
+     "BREAKOUT WATCH": 0.1695,
+     "LIFESTYLE CHAT": 0.0835,
+     "CANADIAN NEWS": 0.1002,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0606
+    }
+   }
+  },
+  {
    "id": "229744b364a132e2",
    "date": "2026-09-22",
    "slot": "am",
@@ -3080,7 +3132,7 @@
    "source_type": "news",
    "url": "https://www.bbc.co.uk/news/articles/cv2dwk3z7x5eo?at_medium=RSS&at_campaign=rss",
    "score": 76.2,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Angh"
@@ -3765,6 +3817,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0712
+    }
+   }
+  },
+  {
+   "id": "699a88da40084d50",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "'Thrown under the bus': Former defence chief's memoir lays bare his battles with the Trudeau government",
+   "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wsa1g6/thrown_under_the_bus_former_defence_chiefs_memoir/",
+   "score": 76.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Trudeau"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.296,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+   "cluster_id": "699a88da40084d50",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.271721+00:00",
+    "source_published_at": "2026-09-28T09:33:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2379,
+     "ENTERTAINMENT": 0.2592,
+     "BREAKOUT WATCH": 0.1611,
+     "LIFESTYLE CHAT": 0.0877,
+     "CANADIAN NEWS": 0.159,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0951
     }
    }
   },
@@ -6029,6 +6130,62 @@
    }
   },
   {
+   "id": "98c9b562909ab710",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Casey Affleck on Matt Damon Rivalry, a Chris Nolan Phone Call and Being a Proud “Hollywood Outsider”",
+   "angle": "\"I don't love the system of Hollywood,\" the 'Company' filmmaker confessed during a candid conversation at the Zurich Film Festival, in which he also reflected on his \"mildly traumatic\" Oscar win. Shelf life through…",
+   "bullets": [
+    "\"I don't love the system of Hollywood,\" the 'Company' filmmaker confessed during a candid conversation at the Zurich Film Festival, in which he also reflected on his \"mildly traumatic\" Oscar win."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/casey-affleck-ben-matt-damon-zurich-nolan-company-film-fest-1236713431/",
+   "score": 73.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Casey Affleck",
+     "Matt Damon Rivalry",
+     "Oscar"
+    ],
+    "organizations": [
+     "Chris Nolan Phone Call and Being a Proud “Hollywood Outsider"
+    ],
+    "locations": [
+     "Hollywood",
+     "the Zurich Film Festival"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4646,
+    "label": "positive"
+   },
+   "summary": "\"I don't love the system of Hollywood,\" the 'Company' filmmaker confessed during a candid conversation at the Zurich Film Festival, in which he also reflected on his \"mildly traumatic\" Oscar win.",
+   "cluster_id": "98c9b562909ab710",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:03.247863+00:00",
+    "source_published_at": "2026-09-28T11:31:13+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0255,
+     "ENTERTAINMENT": 0.8084,
+     "BREAKOUT WATCH": 0.0293,
+     "LIFESTYLE CHAT": 0.0583,
+     "CANADIAN NEWS": 0.0303,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0482
+    }
+   }
+  },
+  {
    "id": "09cf21ee2d880a47",
    "date": "2026-09-22",
    "slot": "am",
@@ -6469,6 +6626,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1502
+    }
+   }
+  },
+  {
+   "id": "a5dc79a247ebd197",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "New NHS-style social care system could take decades, Dilnot says",
+   "angle": "Sir Andrew Dilnot, who proposed reforms 15 years ago, says the cost of such a scheme would be \"very substantial\". Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Sir Andrew Dilnot, who proposed reforms 15 years ago, says the cost of such a scheme would be \"very substantial\"."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c83v4qe70r0ko?at_medium=RSS&at_campaign=rss",
+   "score": 73.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Dilnot",
+     "Andrew Dilnot"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6478,
+    "label": "positive"
+   },
+   "summary": "Sir Andrew Dilnot, who proposed reforms 15 years ago, says the cost of such a scheme would be \"very substantial\".",
+   "cluster_id": "a5dc79a247ebd197",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:04.627205+00:00",
+    "source_published_at": "2026-09-28T10:10:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3177,
+     "ENTERTAINMENT": 0.2771,
+     "BREAKOUT WATCH": 0.0721,
+     "LIFESTYLE CHAT": 0.1782,
+     "CANADIAN NEWS": 0.1309,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.024
     }
    }
   },
@@ -7679,6 +7886,64 @@
    }
   },
   {
+   "id": "fbcc4a22f2d85b13",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Celeb-packed Emilio’s Balatto chef-owner opening Long Island red sauce joint",
+   "angle": "“All my people that I grew up with in Wantagh have been dying for me to come out to Long Island,” said Vitolo, whose city clientele includes Taylor Swift, Aaron Judge, Barack Obama and Jaxson Dart. Shelf life through…",
+   "bullets": [
+    "“All my people that I grew up with in Wantagh have been dying for me to come out to Long Island,” said Vitolo, whose city clientele includes Taylor Swift, Aaron Judge, Barack Obama and Jaxson Dart."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/lifestyle/emilios-balatto-chef-opening-long-island-red-sauce-joint/",
+   "score": 73.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Vitolo",
+     "Taylor Swift",
+     "Aaron",
+     "Barack Obama",
+     "Jaxson Dart"
+    ],
+    "organizations": [
+     "Celeb"
+    ],
+    "locations": [
+     "Long Island",
+     "Wantagh"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2023,
+    "label": "positive"
+   },
+   "summary": "“All my people that I grew up with in Wantagh have been dying for me to come out to Long Island,” said Vitolo, whose city clientele includes Taylor Swift, Aaron Judge, Barack Obama and Jaxson Dart.",
+   "cluster_id": "fbcc4a22f2d85b13",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.700442+00:00",
+    "source_published_at": "2026-09-28T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3438,
+     "ENTERTAINMENT": 0.3622,
+     "BREAKOUT WATCH": 0.0523,
+     "LIFESTYLE CHAT": 0.1095,
+     "CANADIAN NEWS": 0.0482,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.084
+    }
+   }
+  },
+  {
    "id": "82b23f16c65eb806",
    "date": "2026-09-22",
    "slot": "am",
@@ -8385,6 +8650,58 @@
     "ingested_at": "2026-09-25T19:06:39.668241+00:00",
     "source_published_at": "2026-09-25T18:27:54+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "a7d921ba39b138e5",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Leonie Fiebich’s perfect shooting helped fuel Liberty’s stunning Game 1 upset: ‘She’s incredible’",
+   "angle": "Star's contributions can sometimes fly under the radar. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Star's contributions can sometimes fly under the radar."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/sports/leonie-fiebichs-perfect-shooting-helped-fuel-libertys-stunning-game-1upset-shes-incredible/",
+   "score": 72.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Leonie Fiebich’s",
+     "Star"
+    ],
+    "organizations": [
+     "Liberty"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5719,
+    "label": "positive"
+   },
+   "summary": "Star's contributions can sometimes fly under the radar.",
+   "cluster_id": "a7d921ba39b138e5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.663164+00:00",
+    "source_published_at": "2026-09-28T11:21:21+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0743,
+     "ENTERTAINMENT": 0.6406,
+     "BREAKOUT WATCH": 0.18,
+     "LIFESTYLE CHAT": 0.0475,
+     "CANADIAN NEWS": 0.0268,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0309
+    }
    }
   },
   {
@@ -11380,6 +11697,58 @@
     "ingested_at": "2026-09-26T09:07:50.155426+00:00",
     "source_published_at": "2026-09-25T21:33:13+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "b51daf17f5901319",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Attorney for lone holdout juror in Lindsay Clancy mistrial pushes back on claims of refusing the law",
+   "angle": "Attorney for lone holdout juror in Lindsay Clancy mistrial pushes back on claims of refusing the law. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Edward Paltzik said juror Michael P.",
+    "Desronvil had 'a mountain of evidence' supporting his position during deliberations."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/attorney-for-lone-holdout-juror-in-lindsay-clancy-mistrial-pushes-back-on-claims-of-refusing-the-law/",
+   "score": 71.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Lindsay Clancy",
+     "Edward Paltzik",
+     "Michael P. Desronvil"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2263,
+    "label": "negative"
+   },
+   "summary": "Edward Paltzik said juror Michael P. Desronvil had 'a mountain of evidence' supporting his position during deliberations.",
+   "cluster_id": "b51daf17f5901319",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.807139+00:00",
+    "source_published_at": "2026-09-28T10:31:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2659,
+     "ENTERTAINMENT": 0.305,
+     "BREAKOUT WATCH": 0.1654,
+     "LIFESTYLE CHAT": 0.1279,
+     "CANADIAN NEWS": 0.0493,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0865
+    }
    }
   },
   {
@@ -14854,6 +15223,58 @@
    }
   },
   {
+   "id": "0a67a97ed6db4bbf",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Businesses in NYC’s East Harlem say MTA’s endless construction is crushing them: ‘Total brutes’",
+   "angle": "East Harlem business owners say the MTA's $8 billion Second Avenue Subway project is ruining their shops, with some seeing sales drop by up to 70%. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "East Harlem business owners say the MTA's $8 billion Second Avenue Subway project is ruining their shops, with some seeing sales drop by up to 70%."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/businesses-in-nycs-east-harlem-say-mtas-endless-construction-is-crushing-them-total-brutes/",
+   "score": 69.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "MTA"
+    ],
+    "locations": [
+     "NYC’s",
+     "East Harlem"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6808,
+    "label": "negative"
+   },
+   "summary": "East Harlem business owners say the MTA's $8 billion Second Avenue Subway project is ruining their shops, with some seeing sales drop by up to 70%.",
+   "cluster_id": "0a67a97ed6db4bbf",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.737943+00:00",
+    "source_published_at": "2026-09-28T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1784,
+     "ENTERTAINMENT": 0.3359,
+     "BREAKOUT WATCH": 0.1646,
+     "LIFESTYLE CHAT": 0.0785,
+     "CANADIAN NEWS": 0.2081,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0344
+    }
+   }
+  },
+  {
    "id": "b896d14804330563",
    "date": "2026-09-22",
    "slot": "am",
@@ -15175,6 +15596,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0298
+    }
+   }
+  },
+  {
+   "id": "20f61f387b21677c",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Monstrous NY shopping mall that aimed to spark troubled downtown devolves into bane of Dem-run city",
+   "angle": "New Roc City opened in Westchester County in 1999 at a cost of nearly $200 million. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "New Roc City opened in Westchester County in 1999 at a cost of nearly $200 million.",
+    "Despite millions more in upgrades, it's a failed experiment."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/monstrous-ny-shopping-mall-that-aimed-to-spark-troubled-downtown-devolves-into-bane-of-dem-run-city/",
+   "score": 69.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "New Roc City",
+     "Westchester County"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6597,
+    "label": "negative"
+   },
+   "summary": "New Roc City opened in Westchester County in 1999 at a cost of nearly $200 million. Despite millions more in upgrades, it's a failed experiment.",
+   "cluster_id": "20f61f387b21677c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.592792+00:00",
+    "source_published_at": "2026-09-28T11:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4084,
+     "ENTERTAINMENT": 0.0997,
+     "BREAKOUT WATCH": 0.1286,
+     "LIFESTYLE CHAT": 0.117,
+     "CANADIAN NEWS": 0.1336,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1126
     }
    }
   },
@@ -17431,6 +17903,59 @@
     "ingested_at": "2026-09-25T09:25:11.800820+00:00",
     "source_published_at": "2026-09-25T06:18:02+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "6e1f84379f02da5e",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "New map shows how key midterm states hit by US-Canada trade war",
+   "angle": "The raging trade war between the US and Canada is hitting home in states hosting some of the 2026 cycle's most competitive Senate contests, according to an analysis obtained by The Post. Make it local in one sentence …",
+   "bullets": [
+    "The raging trade war between the US and Canada is hitting home in states hosting some of the 2026 cycle's most competitive Senate contests, according to an analysis obtained by The Post."
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/new-map-of-trade-war-with-canada-shows-how-states-with-competitive-senate-races-impacted/",
+   "score": 68.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Senate",
+     "Post"
+    ],
+    "locations": [
+     "US",
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.8809,
+    "label": "negative"
+   },
+   "summary": "The raging trade war between the US and Canada is hitting home in states hosting some of the 2026 cycle's most competitive Senate contests, according to an analysis obtained by The Post.",
+   "cluster_id": "6e1f84379f02da5e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.630084+00:00",
+    "source_published_at": "2026-09-28T11:26:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2074,
+     "ENTERTAINMENT": 0.1046,
+     "BREAKOUT WATCH": 0.1604,
+     "LIFESTYLE CHAT": 0.1009,
+     "CANADIAN NEWS": 0.3857,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.041
+    }
    }
   },
   {
@@ -19834,6 +20359,114 @@
     "ingested_at": "2026-09-25T09:25:13.851963+00:00",
     "source_published_at": "2026-09-25T01:25:53+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "b085f30423a6a8b5",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "No one seems to know who owns Wall Street’s iconic ‘Charging Bull’ statue",
+   "angle": "A spokesperson for the Downtown Alliance told The Post that while they do not know who technically owns the Charging Bull, they \"clean it the best we can,\" without a formal agreement in place. Shelf life through drive…",
+   "bullets": [
+    "A spokesperson for the Downtown Alliance told The Post that while they do not know who technically owns the Charging Bull, they \"clean it the best we can,\" without a formal agreement in place."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/09/28/us-news/no-one-seems-to-know-who-owns-wall-streets-iconic-charging-bull-statue/",
+   "score": 67.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "the Downtown Alliance",
+     "Post"
+    ],
+    "locations": [
+     "the Charging Bull"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4717,
+    "label": "positive"
+   },
+   "summary": "A spokesperson for the Downtown Alliance told The Post that while they do not know who technically owns the Charging Bull, they \"clean it the best we can,\" without a formal agreement in place.",
+   "cluster_id": "b085f30423a6a8b5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.843592+00:00",
+    "source_published_at": "2026-09-28T10:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.119,
+     "ENTERTAINMENT": 0.3954,
+     "BREAKOUT WATCH": 0.0669,
+     "LIFESTYLE CHAT": 0.2162,
+     "CANADIAN NEWS": 0.131,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0715
+    }
+   }
+  },
+  {
+   "id": "be574ea4348d2f38",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "African Finance Rising, Distribution Doldrums and Other Hot-Button Topics on the Agenda at This Year’s Durban FilmMart",
+   "angle": "As the fall festival season winds down, the temperature will be heating up next month in Durban, South Africa, where the 17th Durban FilmMart takes place from Oct. Shelf life through drive time — who is overrated and…",
+   "bullets": [
+    "As the fall festival season winds down, the temperature will be heating up next month in Durban, South Africa, where the 17th Durban FilmMart takes place from Oct.",
+    "This year’s event arrives amid surging hopes but lingering anxieties for an African industry at a crossroads.",
+    "For the continent’s filmmakers, there’s plenty of [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/african-finance-distribution-durban-filmmart-1236874090/",
+   "score": 67.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Distribution Doldrums"
+    ],
+    "organizations": [
+     "African Finance Rising"
+    ],
+    "locations": [
+     "Durban",
+     "South Africa"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "As the fall festival season winds down, the temperature will be heating up next month in Durban, South Africa, where the 17th Durban FilmMart takes place from Oct. 9 – 12. This year’s event arrives amid surging hopes but lingering anxieties for an African industry at a crossroads. For the continent’s filmmakers, there’s plenty of [&#8230;]",
+   "cluster_id": "be574ea4348d2f38",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:03.605571+00:00",
+    "source_published_at": "2026-09-28T11:13:47+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0309,
+     "ENTERTAINMENT": 0.7645,
+     "BREAKOUT WATCH": 0.1091,
+     "LIFESTYLE CHAT": 0.0272,
+     "CANADIAN NEWS": 0.0327,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0356
+    }
    }
   },
   {
@@ -24970,6 +25603,58 @@
    }
   },
   {
+   "id": "33d15c90f13d4d96",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Fire that killed mum and 3 children caused by lithium-ion battery",
+   "angle": "Elisha Brabin, 36, and three of her children, died after a blaze at their home in Bootle, Merseyside. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "Elisha Brabin, 36, and three of her children, died after a blaze at their home in Bootle, Merseyside."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cq62jyk6ne4vo?at_medium=RSS&at_campaign=rss",
+   "score": 65.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Elisha Brabin"
+    ],
+    "organizations": [],
+    "locations": [
+     "Bootle",
+     "Merseyside"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8885,
+    "label": "negative"
+   },
+   "summary": "Elisha Brabin, 36, and three of her children, died after a blaze at their home in Bootle, Merseyside.",
+   "cluster_id": "33d15c90f13d4d96",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:04.287186+00:00",
+    "source_published_at": "2026-09-28T11:26:37+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1208,
+     "ENTERTAINMENT": 0.2429,
+     "BREAKOUT WATCH": 0.2589,
+     "LIFESTYLE CHAT": 0.2157,
+     "CANADIAN NEWS": 0.11,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0518
+    }
+   }
+  },
+  {
    "id": "0e7436c86f00a103",
    "date": "2026-09-22",
    "slot": "am",
@@ -27144,6 +27829,55 @@
     "ingested_at": "2026-09-25T19:06:38.626561+00:00",
     "source_published_at": "2026-09-25T14:31:01+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "8cea386debef422e",
+   "date": "2026-09-28",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Astronaut chooses small-town Saskatchewan bison jerky to take to international space station",
+   "angle": "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wsber3/astronaut_chooses_smalltown_saskatchewan_bison/",
+   "score": 65.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Saskatchewan bison"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/CanadianErk [link] &#32; [comments]",
+   "cluster_id": "8cea386debef422e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-09-28T11:34:02.521065+00:00",
+    "source_published_at": "2026-09-28T10:54:11+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1426,
+     "ENTERTAINMENT": 0.1618,
+     "BREAKOUT WATCH": 0.1988,
+     "LIFESTYLE CHAT": 0.1577,
+     "CANADIAN NEWS": 0.2461,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.093
+    }
    }
   },
   {
