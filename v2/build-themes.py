@@ -11,11 +11,12 @@ lighter duo color -> white. Every raw palette token is rebound to the
 gradient color at the token's own relative luminance, so the whole design
 keeps its light/dark structure while every hue falls inside the page's duo
 spectrum. Detail/accent tokens (--rasp-*, --sandy-*, --ember, --dusk, --mauve:
-hot text, primary buttons, headings, scene skies) are instead rebound to a
-complementary gradient built from the 180-degree hue complements of the duo
-colors, so details pop in the complementary hue while staying inside the
-color scheme. Components, semantic roles, and the SVG background scenes all
-reference these tokens, so no markup or component CSS changes.
+hot text, primary buttons, headings, scene skies) are rebound to a gradient
+built from saturation-boosted versions of the duo's OWN colors, so details
+pop while staying strictly inside Jay's palettes. No complementary hues,
+no green: every color on the page comes from his duos. Components, semantic
+roles, and the SVG background scenes all reference these tokens, so no
+markup or component CSS changes.
 
 Home page (no data-page attribute) is untouched.
 """
@@ -42,11 +43,13 @@ def hex_to_rgb(h):
 def rgb_to_hex(rgb):
     return "#%02X%02X%02X" % tuple(max(0, min(255, int(round(c)))) for c in rgb)
 
-def complement(h):
-    """180-degree hue complement, saturation and lightness preserved."""
+def vivid(h):
+    """Same hue and lightness, saturation pushed up so details pop.
+    Stays inside Jay's palette: no hue shift, no green."""
     r, g, b = (c / 255.0 for c in hex_to_rgb(h))
     hh, ll, ss = colorsys.rgb_to_hls(r, g, b)
-    r2, g2, b2 = colorsys.hls_to_rgb((hh + 0.5) % 1.0, ll, ss)
+    ss = min(1.0, ss * 1.7 + 0.15)
+    r2, g2, b2 = colorsys.hls_to_rgb(hh, ll, ss)
     return rgb_to_hex((r2 * 255, g2 * 255, b2 * 255))
 
 def rel_lum(rgb):
@@ -85,19 +88,19 @@ def main():
              (rel_lum(rgb2), rgb2), (1.0, (255, 255, 255))],
             key=lambda s: s[0],
         )
-        # Complementary detail spectrum: same method on the hue complements.
-        comp1, comp2 = complement(c1), complement(c2)
-        crgb1, crgb2 = hex_to_rgb(comp1), hex_to_rgb(comp2)
+        # Detail spectrum: same hues as the duo, saturation boosted.
+        v1, v2 = vivid(c1), vivid(c2)
+        vrgb1, vrgb2 = hex_to_rgb(v1), hex_to_rgb(v2)
         detail_stops = sorted(
-            [(0.0, (0, 0, 0)), (rel_lum(crgb1), crgb1),
-             (rel_lum(crgb2), crgb2), (1.0, (255, 255, 255))],
+            [(0.0, (0, 0, 0)), (rel_lum(vrgb1), vrgb1),
+             (rel_lum(vrgb2), vrgb2), (1.0, (255, 255, 255))],
             key=lambda s: s[0],
         )
         rebound = {}
         for name, val in tokens:
             spec = detail_stops if name in DETAIL_TOKENS else stops
             rebound[name] = rgb_to_hex(gradient_color(spec, rel_lum(hex_to_rgb(val))))
-        print(f"{page}: duo {c1}/{c2} detail {comp1}/{comp2}")
+        print(f"{page}: duo {c1}/{c2} detail {v1}/{v2}")
 
         out.append("")
         out.append(f'html[data-page="{page}"] {{')
