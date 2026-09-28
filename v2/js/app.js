@@ -427,6 +427,7 @@
         }${selected}" role="listitem" tabindex="0" data-id="${SSClips.escapeAttr(sid)}">
           <div class="card-top">
             <span class="tag cat">${SSClips.escapeHtml(s.category || "")}</span>
+            ${s._custom ? '<span class="tag tag-custom">CUSTOM</span>' : ""}
             <span class="score-pill">${Number(s.score || 0).toFixed(0)}</span>
           </div>
           <h3 class="card-title">${SSClips.escapeHtml(s.title || "")}</h3>
