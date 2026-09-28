@@ -165,6 +165,7 @@
           </select>
           <label class="chk"><input type="checkbox" id="filter-canadian" /><span>CA only</span></label>
           <label class="chk"><input type="checkbox" id="filter-clips" /><span>Has clips</span></label>
+          <button type="button" class="btn" id="btn-select-all">SELECT ALL</button>
           <button type="button" class="btn btn-warning" id="btn-custom">+ Custom</button>
         </div>
       </nav>
@@ -177,20 +178,20 @@
 
         <aside class="loadout-pane panel" id="loadout-pane" aria-label="Show loadout">
           <div class="pane-head">
-            <h2 class="pane-title section-header">LOADOUT</h2>
+            <h2 class="pane-title section-header">LOADOUT - PREP SHEET</h2>
             <img class="pane-nico" src="assets/px/nico-banner.svg" alt="" width="49" height="46" />
             <button type="button" class="btn btn-close-drawer" id="btn-close-loadout" aria-label="Close loadout">✕</button>
           </div>
-          <div class="loadout-actions">
-            <button type="button" class="btn btn-primary" id="btn-save-loadout">Save</button>
-            <button type="button" class="btn" id="btn-load-loadout">Load</button>
-            <button type="button" class="btn btn-success" id="btn-prep-sheet">Prep sheet</button>
-            <button type="button" class="btn" id="btn-copy-loadout">Copy</button>
-            <button type="button" class="btn" id="btn-email-loadout">Email</button>
-            <button type="button" class="btn btn-danger" id="btn-clear-loadout">Clear</button>
+          <p class="prep-count-line"><span id="prepCount">0</span> STORIES</p>
+          <div class="prep-actions loadout-actions" id="prepActions" style="display:none">
+            <button type="button" class="btn" id="btn-selall-loadout">SELECT ALL</button>
+            <button type="button" class="btn" id="btn-copy-loadout">COPY</button>
+            <button type="button" class="btn" id="btn-print-loadout">PRINT</button>
+            <button type="button" class="btn" id="btn-email-loadout">EMAIL</button>
+            <button type="button" class="btn btn-danger" id="btn-clear-loadout">CLEAR</button>
           </div>
-          <ol id="loadout-list" class="loadout-list"></ol>
-          <p class="hint">Drag to reorder · click ★ for backup</p>
+          <div id="prepList"></div>
+          <p class="hint lo-local">Saved in this browser only — your loadout, nobody else's.</p>
         </aside>
       </div>
     </div>
@@ -253,17 +254,6 @@
     <p class="dialog-title section-header">Junk folder</p>
     <div id="junk-list" class="junk-list"></div>
     <div class="px-scene scene-strip" data-scene="alley" aria-hidden="true"></div>
-  </dialog>
-
-  <!-- Prep sheet -->
-  <dialog id="prep-dialog" class="dialog prep-dialog">
-    <form method="dialog">
-      <menu class="dialog-menu">
-        <button type="button" class="btn btn-primary" id="btn-print-prep">Print</button>
-        <button type="submit" class="btn" value="cancel">Close</button>
-      </menu>
-    </form>
-    <div id="prep-body" class="prep-body"></div>
   </dialog>
 
   <!-- End credits (built by js/arcade.js) -->

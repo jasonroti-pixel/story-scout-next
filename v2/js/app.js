@@ -47,16 +47,18 @@
       "btn-refresh",
       "btn-junk-folder",
       "btn-custom",
-      "btn-save-loadout",
-      "btn-load-loadout",
-      "btn-prep-sheet",
+      "btn-select-all",
+      "btn-selall-loadout",
       "btn-copy-loadout",
+      "btn-print-loadout",
       "btn-email-loadout",
       "btn-clear-loadout",
       "btn-loadout",
       "btn-close-loadout",
       "loadout-pane",
-      "btn-print-prep",
+      "prepActions",
+      "prepList",
+      "prepCount",
       "btn-back-rundowns",
       "last-updated",
       "story-count",
@@ -68,8 +70,6 @@
       "custom-form",
       "junk-dialog",
       "junk-list",
-      "prep-dialog",
-      "prep-body",
       "pwa-status",
       "intro-screen",
       "app-shell",
@@ -202,7 +202,7 @@
     } catch (mergeErr) {
       console.warn("[app] custom story merge failed", mergeErr);
     }
-    SSLoadout.setStoryIndex(allStories);
+    SSLoadout.setStories(allStories);
     if (SSSearch.whenReady) await SSSearch.whenReady(3000);
     await SSSearch.rebuild(allStories);
     updateStatus();
@@ -399,8 +399,6 @@
     }
     if (els["empty-state"]) els["empty-state"].hidden = true;
 
-    const inLoadout = new Set(SSLoadout.getItems().map((it) => String(it.id)));
-
     root.innerHTML = visibleStories
       .map((s) => {
         const ca =
@@ -408,12 +406,19 @@
             ? '<span class="tag tag-ca" title="Canadian">🇨🇦 CA</span>'
             : "";
         const clip = SSClips.clipCountBadge(s.clips);
-        const selected = inLoadout.has(String(s.id)) ? " selected" : "";
-        const addLabel = inLoadout.has(String(s.id)) ? "✓ In loadout" : "+ Loadout";
+        const sid = SSLoadout.storyId(s);
+        const selected = SSLoadout.has(sid) ? " selected" : "";
         const debate = s.debate
           ? `<p class="card-debate">${SSClips.escapeHtml(s.debate)}</p>`
           : "";
-        return `<article class="card story-card${s.is_backup ? " is-backup" : ""}${selected}" role="listitem" tabindex="0" data-id="${SSClips.escapeAttr(s.id)}">
+        const customDel = s._custom
+          ? `<button type="button" class="btn btn-danger custom-delete" data-custom-id="${SSClips.escapeAttr(
+              s.id
+            )}">DELETE</button>`
+          : "";
+        return `<article class="card story-card${s.is_backup ? " is-backup" : ""}${
+          s._custom ? " custom" : ""
+        }${selected}" role="listitem" tabindex="0" data-id="${SSClips.escapeAttr(sid)}">
           <div class="card-top">
             <span class="tag cat">${SSClips.escapeHtml(s.category || "")}</span>
             <span class="score-pill">${Number(s.score || 0).toFixed(0)}</span>
@@ -429,37 +434,49 @@
             ${clip}
           </div>
           <div class="card-actions">
-            <button type="button" class="btn btn-primary" data-act="add" data-id="${SSClips.escapeAttr(s.id)}">${addLabel}</button>
             <button type="button" class="btn" data-act="detail" data-id="${SSClips.escapeAttr(s.id)}">Detail</button>
             <button type="button" class="btn btn-danger" data-act="junk" data-id="${SSClips.escapeAttr(s.id)}">JUNK</button>
+            ${customDel}
           </div>
         </article>`;
       })
       .join("");
 
+    // Production behavior: clicking the card toggles it in the loadout.
     root.querySelectorAll(".story-card").forEach((card) => {
       card.addEventListener("click", (e) => {
-        if (e.target.closest("button")) return;
-        openDetail(card.dataset.id);
+        if (e.target.closest("button") || e.target.closest("a")) return;
+        SSLoadout.toggleStory(card.dataset.id);
+        renderCards();
       });
       card.addEventListener("keydown", (e) => {
-        if (e.key === "Enter") openDetail(card.dataset.id);
+        if (e.key === "Enter" && !e.target.closest("button")) {
+          SSLoadout.toggleStory(card.dataset.id);
+          renderCards();
+        }
       });
     });
     root.querySelectorAll("button[data-act]").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
         const id = btn.dataset.id;
-        if (btn.dataset.act === "add") {
-          const res = SSLoadout.toggleStory(id);
-          renderCards();
-          showToast(res === "added" ? "ADDED TO LOADOUT" : "REMOVED FROM LOADOUT");
-        }
         if (btn.dataset.act === "detail") openDetail(id);
         if (btn.dataset.act === "junk") junkStoryById(id);
       });
     });
+    root.querySelectorAll(".custom-delete").forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        deleteCustomStory(btn.dataset.customId);
+      });
+    });
   }
+
+  // Called by the loadout panel when an item's X button removes a story,
+  // so the card's selected state refreshes.
+  window.SSLoadoutCardsChanged = function () {
+    renderCards();
+  };
 
   function findStory(id) {
     return allStories.find((s) => String(s.id) === String(id));
@@ -502,16 +519,15 @@
     `;
     const addBtn = document.getElementById("detail-add");
     if (addBtn) {
+      const sid = SSLoadout.storyId(s);
       const syncDetailAddLabel = () => {
-        const inLo = SSLoadout.getItems().some((it) => String(it.id) === String(s.id));
-        addBtn.textContent = inLo ? "✓ In loadout" : "+ Loadout";
+        addBtn.textContent = SSLoadout.has(sid) ? "✓ In loadout" : "+ Loadout";
       };
       syncDetailAddLabel();
       addBtn.addEventListener("click", () => {
-        const res = SSLoadout.toggleStory(s.id);
+        SSLoadout.toggleStory(sid);
         syncDetailAddLabel();
         renderCards();
-        showToast(res === "added" ? "ADDED TO LOADOUT" : "REMOVED FROM LOADOUT");
       });
     }
     const junkBtn = document.getElementById("detail-junk");
@@ -525,25 +541,20 @@
   }
 
   function removeJunkFromLoadout() {
-    if (!SSLoadout || !SSLoadout.getItems || !SSLoadout.setItems) return false;
-    const current = SSLoadout.getItems();
-    const kept = current.filter((item) => !junkIdSet.has(String(item.id)));
-    if (kept.length === current.length) return false;
-    SSLoadout.setItems(kept);
-    return true;
+    if (!SSLoadout || !SSLoadout.getSelectedStories) return false;
+    const before = SSLoadout.count();
+    SSLoadout.getSelectedStories().forEach((s) => {
+      if (junkIdSet.has(String(s.id)))
+        SSLoadout.removeFromPrep(SSLoadout.storyId(s), true);
+    });
+    return SSLoadout.count() !== before;
   }
 
   async function junkStoryById(id) {
     const story = findStory(id);
     if (!story || junkIdSet.has(String(id))) return;
     await SSStorage.junkStory(story);
-    if (SSLoadout && typeof SSLoadout.remove === "function") {
-      SSLoadout.remove(id);
-    } else if (SSLoadout && typeof SSLoadout.removeStory === "function") {
-      SSLoadout.removeStory(id);
-    } else {
-      removeJunkFromLoadout();
-    }
+    if (SSLoadout) SSLoadout.removeFromPrep(SSLoadout.storyId(story));
     await refreshJunkIds();
     if (els["detail-dialog"] && els["detail-dialog"].open) els["detail-dialog"].close();
     buildRundownIndex();
@@ -594,11 +605,26 @@
     }).catch((err) => console.warn("[junk] list failed", err));
   }
 
+  async function deleteCustomStory(cid) {
+    const story = allStories.find((s) => String(s.id) === String(cid));
+    if (story) SSLoadout.removeFromPrep(SSLoadout.storyId(story), true);
+    await SSStorage.deleteCustomStory(cid);
+    allStories = allStories.filter((s) => String(s.id) !== String(cid));
+    SSLoadout.setStories(allStories);
+    await SSSearch.rebuild(allStories);
+    updateStatus();
+    buildRundownIndex();
+    if (activeEdition) await applyFilters();
+    else renderRundownPicker();
+    SSLoadout.render();
+    showToast("CUSTOM STORY DELETED");
+  }
+
   async function restoreJunkStory(id) {
     const story = await SSStorage.restoreJunk(id);
     if (story && !findStory(story.id)) {
       allStories.unshift(story);
-      SSLoadout.setStoryIndex(allStories);
+      SSLoadout.setStories(allStories);
       await SSSearch.rebuild(allStories);
     }
     await refreshJunkIds();
@@ -814,6 +840,7 @@
         const id = "custom-" + Date.now().toString(36);
         const story = {
           id,
+          _custom: true,
           date: new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" }),
           slot: new Date().getHours() < 15 ? "am" : "pm",
           category: String(fd.get("category") || "THE LIST"),
@@ -840,56 +867,49 @@
         };
         allStories.unshift(story);
         await SSStorage.upsertCustomStory(story);
-        SSLoadout.setStoryIndex(allStories);
+        SSLoadout.setStories(allStories);
         await SSSearch.rebuild(allStories);
         updateStatus();
         buildRundownIndex();
         // Jump to the edition the custom story belongs to so it is visible
         // and can be tapped into the loadout.
         openEdition(story.date, story.slot);
-        showToast("Custom story added — tap + Loadout to add it");
+        showToast("CUSTOM STORY ADDED");
       });
     }
 
-    if (els["btn-save-loadout"]) {
-      els["btn-save-loadout"].addEventListener("click", async () => {
-        await SSLoadout.save();
-        showToast("Loadout saved");
+    // Loadout panel: production button set (SELECT ALL = copy, like the original).
+    if (els["btn-selall-loadout"]) {
+      els["btn-selall-loadout"].addEventListener("click", () => {
+        SSLoadout.selectAllText();
       });
-    }
-    if (els["btn-load-loadout"]) {
-      els["btn-load-loadout"].addEventListener("click", async () => {
-        await SSLoadout.load();
-        renderCards();
-        showToast("Loadout loaded");
-      });
-    }
-    if (els["btn-clear-loadout"]) {
-      els["btn-clear-loadout"].addEventListener("click", () => {
-        SSLoadout.clear();
-        renderCards();
-        showToast("Loadout cleared");
-      });
-    }
-    if (els["btn-prep-sheet"]) {
-      els["btn-prep-sheet"].addEventListener("click", () => {
-        els["prep-body"].innerHTML = SSLoadout.buildPrepHtml(brandLabel());
-        els["prep-dialog"].showModal();
-      });
-    }
-    if (els["btn-print-prep"]) {
-      els["btn-print-prep"].addEventListener("click", () => window.print());
     }
     if (els["btn-copy-loadout"]) {
-      els["btn-copy-loadout"].addEventListener("click", async () => {
-        const ok = await SSLoadout.copyPrepText();
-        showToast(ok ? "Loadout copied to clipboard" : "Copy failed — use Prep sheet");
+      els["btn-copy-loadout"].addEventListener("click", () => {
+        SSLoadout.copyPrep();
+      });
+    }
+    if (els["btn-print-loadout"]) {
+      els["btn-print-loadout"].addEventListener("click", () => {
+        SSLoadout.printPrep();
       });
     }
     if (els["btn-email-loadout"]) {
       els["btn-email-loadout"].addEventListener("click", () => {
-        SSLoadout.emailPrepText();
-        showToast("Opening email with loadout");
+        SSLoadout.emailPrep();
+      });
+    }
+    if (els["btn-clear-loadout"]) {
+      els["btn-clear-loadout"].addEventListener("click", () => {
+        SSLoadout.clearPrep();
+        renderCards();
+      });
+    }
+    // Browser toolbar SELECT ALL: adds every currently visible story.
+    if (els["btn-select-all"]) {
+      els["btn-select-all"].addEventListener("click", () => {
+        SSLoadout.selectAllVisible(visibleStories);
+        renderCards();
       });
     }
     if (els["btn-close-loadout"]) {
@@ -971,13 +991,9 @@
       await SSStorage.purgeJunkOlderThan(7);
       await refreshJunkIds();
       await bootstrapStories();
-      // Restore the working loadout from this browser's localStorage
+      // Working loadout restores from this browser's localStorage
       // (auto-saved after every change; per-user, never shared).
       SSLoadout.restore();
-      if (!SSLoadout.getItems().length) {
-        // One-time migration: pick up a pre-fix manual snapshot if present.
-        await SSLoadout.load();
-      }
       removeJunkFromLoadout();
       if (activeEdition) renderCards();
       else renderRundownPicker();

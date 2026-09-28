@@ -86,6 +86,10 @@
     await db.stories.put(story);
   }
 
+  async function deleteCustomStory(id) {
+    await db.stories.delete(String(id));
+  }
+
   async function junkStory(story) {
     if (!story || story.id == null) return;
     await db.junk.put({
@@ -145,6 +149,7 @@
     listLoadouts,
     listCustomStories,
     upsertCustomStory,
+    deleteCustomStory,
     junkStory,
     listJunk,
     restoreJunk,

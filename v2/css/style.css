@@ -906,11 +906,12 @@ html[data-theme="day"] .app-title { text-shadow: 3px 3px 0 var(--sandy-400); }
   border-color: var(--warm);
   box-shadow: var(--drop) var(--drop) 0 var(--sandy-800);
 }
-.story-card.selected::before {
-  content: "IN LOADOUT";
+/* Production "LOADED" badge, top-right of a selected card */
+.story-card.selected::after {
+  content: "LOADED";
   position: absolute;
-  top: -12px;
-  left: 12px;
+  top: 8px;
+  right: 8px;
   padding: 3px 8px 4px;
   font-family: var(--font-label);
   font-size: var(--fs-xs);
@@ -987,63 +988,116 @@ html[data-theme="day"] .app-title { text-shadow: 3px 3px 0 var(--sandy-400); }
 }
 .pane-head .pane-title { margin: 0 0 14px; color: var(--sandy-600); text-shadow: 3px 3px 0 var(--ink); }
 .pane-nico { display: block; width: 49px; height: auto; margin-bottom: -3px; }
-.loadout-actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-.loadout-actions .btn { font-size: var(--fs-xs); }
-.loadout-list {
-  list-style: none;
-  margin: 0 0 12px;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.loadout-list > .hint {
-  padding: 20px 12px;
-  text-align: center;
-  border: 2px dashed var(--line);
-}
-.loadout-item {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 12px;
-  background: var(--surface-2);
-  box-shadow: 3px 3px 0 var(--ink);
-  cursor: grab;
-}
-.loadout-item:hover { border-color: var(--line-strong); }
-.loadout-item.sortable-ghost { opacity: 0.4; }
-.loadout-item.sortable-chosen { border-color: var(--warm); }
-.loadout-item.is-backup { border-style: dashed; border-color: var(--sandy-800); }
-.loadout-item .lo-title {
-  font-weight: 700;
+
+/* Loadout ("prep") panel — production structure, Peak Arcade skin */
+.prep-count-line {
+  margin: 0 0 10px;
+  font-family: var(--font-label);
   font-size: var(--fs-sm);
-  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   color: var(--text-bright);
 }
-.loadout-item .lo-cat {
+.prep-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.prep-actions .btn { font-size: var(--fs-xs); }
+.prep-empty {
+  font-family: var(--font-label);
+  font-size: var(--fs-sm);
+  color: var(--text-dim);
+  text-align: center;
+  padding: 40px 0;
+  line-height: 2.2;
+}
+.prep-empty .blink { animation: blink 1.2s steps(1) infinite; }
+.prep-date-group {
+  font-family: var(--font-label);
+  font-size: var(--fs-xs);
+  color: var(--text-dim);
+  margin: 12px 0 6px;
+  padding-top: 8px;
+  border-top: 2px dashed var(--line);
+  letter-spacing: 0.04em;
+}
+.prep-item {
+  position: relative;
+  padding: 12px;
+  margin-bottom: 8px;
+  background: var(--surface-2);
+  border: var(--bw) solid var(--line);
+  box-shadow: 3px 3px 0 var(--ink);
+}
+.prep-item-cat {
   font-family: var(--font-label);
   font-size: var(--fs-xs);
   text-transform: uppercase;
   color: var(--hot-text);
+  margin-bottom: 4px;
 }
-.loadout-item label {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-family: var(--font-label);
+.prep-custom-tag {
+  color: var(--warm);
+  margin-right: 6px;
+}
+.prep-item-title {
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--text-bright);
+  margin-bottom: 4px;
+  padding-right: 24px;
+  line-height: 1.35;
+}
+.prep-item-angle { font-size: var(--fs-sm); color: var(--text); line-height: 1.4; }
+.prep-item-debate { font-size: var(--fs-sm); color: var(--warm); font-style: italic; margin-top: 4px; }
+.prep-item-url {
   font-size: var(--fs-xs);
-  text-transform: uppercase;
-  color: var(--text-dim);
+  color: var(--cool-text);
+  opacity: 0.8;
+  margin-top: 4px;
+  display: block;
+  word-break: break-all;
 }
-.loadout-item .lo-notes { min-height: 34px; padding: 6px 10px; font-size: var(--fs-sm); }
-.loadout-item .lo-actions { display: flex; gap: 8px; }
-.loadout-item .lo-actions .btn { flex: 1; min-height: 32px; padding: 5px 8px 7px; font-size: var(--fs-xs); }
+.prep-remove {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: none;
+  border: none;
+  color: var(--hot-text);
+  font-family: var(--font-label);
+  font-size: var(--fs-sm);
+  font-weight: 700;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+}
+.prep-remove:hover { color: var(--text-bright); }
+.custom-delete { font-size: var(--fs-xs); padding: 4px 8px 5px; }
+
+/* Print: like production, print the story cards with selected highlighted */
+@media print {
+  .topbar, .intro-screen, .loadout-pane, .toast, .toolbar,
+  .back-nav, .prep-actions, .prep-remove, .card-actions,
+  .story-card::after, .app-footer, .px-scene { display: none !important; }
+  body { background: #fff; color: #111; }
+  .stories-grid { display: block; }
+  .story-card {
+    border: 1px solid #ccc;
+    box-shadow: none;
+    padding: 8px;
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+    background: #fff;
+    color: #111;
+    cursor: default;
+  }
+  .story-card.selected { border: 2px solid #333; background: #f8f8f8; }
+  .card-title { color: #111; }
+  .card-angle, .card-debate { color: #333; }
+}
 
 .hint {
   margin: 0;
