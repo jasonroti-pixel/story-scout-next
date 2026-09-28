@@ -44,7 +44,6 @@
       "filter-canadian",
       "filter-clips",
       "btn-theme",
-      "btn-brand",
       "btn-refresh",
       "btn-junk-folder",
       "btn-custom",
@@ -80,14 +79,12 @@
       "intro-options-close",
       "intro-theme",
       "intro-theme-opt",
-      "intro-brand",
       "intro-title",
       "intro-presents",
       "intro-brand-logo",
       "header-mascot",
       "header-brand-logo",
       "intro-mascot",
-      "intro-brand-opt",
       "toast",
     ].forEach((id) => {
       els[id] = $(id);
@@ -592,17 +589,17 @@
   }
 
   function brandLabel() {
-    const brand = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
     return brand === "jaystation" ? "Jaystation · Radio Prep" : "Daily Goods · Radio Prep";
   }
 
   function brandShort() {
-    const brand = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
     return brand === "jaystation" ? "JS" : "DG";
   }
 
   function brandLong() {
-    const brand = document.documentElement.getAttribute("data-brand") || "daily-goods";
+    const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
     return brand === "jaystation" ? "JAYSTATION" : "DAILY GOODS";
   }
 
@@ -610,7 +607,6 @@
     const theme = document.documentElement.getAttribute("data-theme") || "night";
     const brand = document.documentElement.getAttribute("data-brand") || "jaystation";
     if (els["btn-theme"]) els["btn-theme"].textContent = theme === "night" ? "DAY" : "NIGHT";
-    if (els["btn-brand"]) els["btn-brand"].textContent = brandShort();
     if (els["brand-label"]) els["brand-label"].textContent = brandLabel();
     if (els["intro-theme"]) {
       els["intro-theme"].textContent = theme === "night" ? "DAY MODE" : "NIGHT MODE";
@@ -618,11 +614,6 @@
     if (els["intro-theme-opt"]) {
       els["intro-theme-opt"].textContent = "THEME: " + (theme === "night" ? "DAY" : "NIGHT");
     }
-    if (els["intro-brand"]) {
-      els["intro-brand"].textContent =
-        brand === "jaystation" ? "♦ SWITCH TO DAILY GOODS" : "♦ SWITCH TO JAYSTATION";
-    }
-    if (els["intro-brand-opt"]) els["intro-brand-opt"].textContent = "BRAND: " + brandShort();
     if (els["intro-title"]) {
       els["intro-title"].textContent = brand === "jaystation" ? "JAYSTATION" : "THE DAILY GOODS";
     }
@@ -640,7 +631,7 @@
 
   async function applyThemeSettings() {
     const theme = await SSStorage.loadSetting("theme", "night");
-    const brand = await SSStorage.loadSetting("brand", "jaystation");
+    const brand = "jaystation"; // Jaystation is the standard; no brand switch
     document.documentElement.setAttribute("data-theme", theme);
     document.documentElement.setAttribute("data-brand", brand);
     syncThemeButtons();
@@ -650,13 +641,6 @@
     const cur = document.documentElement.getAttribute("data-theme") || "night";
     const next = cur === "night" ? "day" : "night";
     await SSStorage.saveSetting("theme", next);
-    await applyThemeSettings();
-  }
-
-  async function toggleBrand() {
-    const cur = document.documentElement.getAttribute("data-brand") || "daily-goods";
-    const next = cur === "daily-goods" ? "jaystation" : "daily-goods";
-    await SSStorage.saveSetting("brand", next);
     await applyThemeSettings();
   }
 
@@ -696,12 +680,6 @@
     if (els["intro-theme-opt"]) {
       els["intro-theme-opt"].addEventListener("click", () => toggleTheme());
     }
-    if (els["intro-brand"]) {
-      els["intro-brand"].addEventListener("click", () => toggleBrand());
-    }
-    if (els["intro-brand-opt"]) {
-      els["intro-brand-opt"].addEventListener("click", () => toggleBrand());
-    }
   }
 
   function wireUi() {
@@ -737,10 +715,6 @@
 
     if (els["btn-theme"]) {
       els["btn-theme"].addEventListener("click", () => toggleTheme());
-    }
-
-    if (els["btn-brand"]) {
-      els["btn-brand"].addEventListener("click", () => toggleBrand());
     }
 
     if (els["btn-junk-folder"]) {
