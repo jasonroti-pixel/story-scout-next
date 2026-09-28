@@ -13,7 +13,8 @@ Source of truth (owner-approved art; shapes, faces and poses come from here):
 
 Colours are re-mapped into the site palette (PALETTE.md): the coat onto a
 charcoal ramp by luminance rank, tongue/mouth/ears/eyes/ball onto the matching
-ramps. Then the red plaid bandana from the brief is added at the neck.
+ramps. No bandana: the owner removed the bandana requirement, so the sprites
+show Nico's natural neck and chest straight from the source art.
 
     python3 v2/tools/extract_nico.py
 """
@@ -366,21 +367,9 @@ def main():
 import copy
 
 # Bandana polygons per source grid (cell coords), placed at each neck by eye.
-BANDANAS = {
-    "closeup": [
-        [(8, 90), (94, 76), (96, 86), (9, 100)],                # band under the jaw, follows head tilt
-        [(54, 86), (88, 80), (74, 100)],                        # point, beside the tongue
-    ],
-    "sit-front": [[(14, 33), (58, 33), (58, 38), (14, 38)], [(22, 37), (50, 37), (36, 50)]],
-    "sit-front-ball": [[(8, 33), (46, 33), (46, 38), (8, 38)], [(14, 37), (40, 37), (27, 48)]],
-    "sit-ball": [[(38, 35), (66, 31), (67, 37), (39, 41)], [(43, 39), (63, 36), (54, 50)]],
-    "run-a": [[(53, 11), (58, 10), (62, 27), (57, 28)], [(57, 22), (63, 21), (61, 31)]],
-    "run-b": [[(55, 10), (60, 9), (63, 25), (58, 26)]],
-    "run-c": [[(53, 11), (58, 10), (62, 27), (57, 28)], [(57, 22), (63, 21), (61, 31)]],
-    "leap": [[(64, 9), (69, 8), (72, 24), (67, 25)], [(67, 19), (73, 18), (71, 28)]],
-    "bow-right": [[(80, 26), (85, 25), (88, 44), (83, 45)]],
-    "bow-left": [[(47, 28), (52, 27), (49, 46), (44, 45)]],
-}
+# Bandana requirement removed by the owner (2026-09-27): the sprites ship
+# without it. The bandana() painter below stays for reference only.
+BANDANAS = {}
 
 
 def compose(raw):
