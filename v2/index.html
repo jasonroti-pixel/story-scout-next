@@ -237,6 +237,13 @@
       <label>Bullets (one per line)<textarea class="input" name="bullets" rows="3"></textarea></label>
       <label>Debate<input class="input" name="debate" maxlength="240" /></label>
       <label>Source URL<input class="input" name="url" type="url" /></label>
+      <label>Date<input class="input" name="cdate" type="date" required /></label>
+      <label>Slot
+        <select class="select" name="cslot">
+          <option value="am">MORNING</option>
+          <option value="pm">EVENING</option>
+        </select>
+      </label>
       <menu class="dialog-menu">
         <button type="submit" class="btn btn-primary" value="ok">Add</button>
         <button type="submit" class="btn" value="cancel">Cancel</button>

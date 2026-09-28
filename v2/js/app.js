@@ -830,6 +830,13 @@
     if (els["btn-custom"]) {
       els["btn-custom"].addEventListener("click", () => {
         if (els["custom-form"]) els["custom-form"].reset();
+        // Like the original: date/slot default to the rundown being viewed.
+        const form = els["custom-form"];
+        const today = new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" });
+        const dateInput = form && form.elements.namedItem("cdate");
+        const slotInput = form && form.elements.namedItem("cslot");
+        if (dateInput) dateInput.value = (activeEdition && activeEdition.date) || today;
+        if (slotInput) slotInput.value = (activeEdition && activeEdition.slot) || (new Date().getHours() < 15 ? "am" : "pm");
         els["custom-dialog"].showModal();
       });
     }
@@ -839,7 +846,10 @@
         if (els["custom-dialog"].returnValue !== "ok") return;
         const fd = new FormData(els["custom-form"]);
         const title = String(fd.get("title") || "").trim();
-        if (!title) return;
+        if (!title) { showToast("TITLE REQUIRED"); return; }
+        const cdate = String(fd.get("cdate") || "").trim();
+        if (!cdate) { showToast("DATE REQUIRED"); return; }
+        const cslot = String(fd.get("cslot") || "am") === "pm" ? "pm" : "am";
         const bullets = String(fd.get("bullets") || "")
           .split("\n")
           .map((x) => x.trim())
@@ -848,8 +858,8 @@
         const story = {
           id,
           _custom: true,
-          date: new Date().toLocaleDateString("en-CA", { timeZone: "America/Toronto" }),
-          slot: new Date().getHours() < 15 ? "am" : "pm",
+          date: cdate,
+          slot: cslot,
           category: String(fd.get("category") || "THE LIST"),
           title,
           angle: String(fd.get("angle") || title),
@@ -878,9 +888,14 @@
         await SSSearch.rebuild(allStories);
         updateStatus();
         buildRundownIndex();
-        // Jump to the edition the custom story belongs to so it is visible
-        // and can be tapped into the loadout.
-        openEdition(story.date, story.slot);
+        // Like the original: stay exactly where you are. The rundown you are
+        // viewing is never replaced or navigated away from. If the new story
+        // belongs to the edition on screen, re-render so it appears.
+        if (activeEdition && activeEdition.date === story.date && activeEdition.slot === story.slot) {
+          applyFilters();
+        } else if (!activeEdition) {
+          renderRundownPicker();
+        }
         showToast("CUSTOM STORY ADDED");
       });
     }
