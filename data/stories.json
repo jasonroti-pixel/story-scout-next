@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-01T10:42:53.834559+00:00",
+ "generated_at": "2026-10-01T11:22:26.419526+00:00",
  "timezone": "America/Toronto",
  "date": "2026-10-01",
  "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 1596,
+ "count": 1616,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -206,13 +206,19 @@
    "slot": "am",
    "category": "ENTERTAINMENT",
    "title": "‘Halima,’ First Finnish Pic Ever by Black Female Filmmaker, Bags Fiction Project Prize, ‘Sauna Diplomacy’ Named Best Genre Project at Finnish Film Affair",
-   "angle": "Former BBC journalist Naima Mohamud’s heartfelt and warm comedy “Halima,” about a 10-year-old Somali girl trying to fit in Finland in 1998 took home Helsinki’s Finnish Film Affair’s top prize for Best Fiction on…",
+   "angle": "History was just made in Finland with its first feature film directed by a Black woman, a 1990s comedy about a young Somali girl finding her place. For Canadian audiences who know the newcomer experience firsthand, it is a reminder of how universal and funny the struggle to fit in can be.",
    "bullets": [
-    "Former BBC journalist Naima Mohamud’s heartfelt and warm comedy “Halima,” about a 10-year-old Somali girl trying to fit in Finland in 1998 took home Helsinki’s Finnish Film Affair’s top prize for Best Fiction on Thursday evening.",
-    "The award was handed out by the jury, including U.S.",
-    "producer and executive Jodi Hildebrand (formerly at Condé Nast [&#8230;]"
+    "Naima Mohamud's project \"Halima\" won the Best Fiction project prize at the Finnish Film Affair in Helsinki.",
+    "The award was presented to Mohamud on Thursday evening.",
+    "\"Halima\" is the first Finnish film ever created by a Black female filmmaker.",
+    "Mohamud previously worked as a journalist for the BBC.",
+    "The story of \"Halima\" centers on a 10-year-old Somali girl trying to fit into Finland in 1998.",
+    "The project was categorized as a heartfelt and warm comedy.",
+    "The judging panel included United States producer and executive Jodi Hildebrand.",
+    "Hildebrand formerly worked as an executive at Condé Nast.",
+    "The Finnish Film Affair named \"Sauna Diplomacy\" as its Best Genre Project."
    ],
-   "debate": "Overrated or underrated — where do you land?",
+   "debate": "When you look back at growing up, what was the awkward or funny experience that best captured what it felt like trying to fit in?",
    "source": "Variety",
    "source_type": "news",
    "url": "https://variety.com/2026/film/global/its-alive-films-halima-finnish-film-affair-1236875378/",
@@ -248,7 +254,8 @@
    "meta": {
     "ingested_at": "2026-09-25T09:25:12.590370+00:00",
     "source_published_at": "2026-09-25T07:31:41+00:00",
-    "pipeline_version": "1.1.0"
+    "pipeline_version": "1.1.0",
+    "gemini_enrich": "gemini-v1"
    }
   },
   {
@@ -1304,6 +1311,58 @@
     "ingested_at": "2026-09-24T18:19:39.220809+00:00",
     "source_published_at": "2026-09-24T17:56:07+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "2362a17ce843dba7",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Horrific killing of a Canadian grandma exposes Democrats’ euthanasia goal for the rest of us",
+   "angle": "Canada's assisted-suicide numbers, and shocking stories like Brigitte Stegemann’s, are a warning to America of where the euthanasia movement is headed. Ask the phones: would you film it, flee it, or pretend you saw…",
+   "bullets": [
+    "Canada's assisted-suicide numbers, and shocking stories like Brigitte Stegemann’s, are a warning to America of where the euthanasia movement is headed."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/01/opinion/horrific-killing-of-a-canadian-grandma-exposes-dems-euthanasia-goal/",
+   "score": 79.2,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Brigitte Stegemann’s"
+    ],
+    "organizations": [],
+    "locations": [
+     "Canada",
+     "America"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.9169,
+    "label": "negative"
+   },
+   "summary": "Canada's assisted-suicide numbers, and shocking stories like Brigitte Stegemann’s, are a warning to America of where the euthanasia movement is headed.",
+   "cluster_id": "2362a17ce843dba7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:23.124856+00:00",
+    "source_published_at": "2026-10-01T10:52:31+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4582,
+     "ENTERTAINMENT": 0.2482,
+     "BREAKOUT WATCH": 0.0304,
+     "LIFESTYLE CHAT": 0.0675,
+     "CANADIAN NEWS": 0.1766,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0191
+    }
    }
   },
   {
@@ -3273,7 +3332,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/music/news/global-citizen-festival-2026-canceled-extreme-weather-nyc-1236875816/",
    "score": 77.5,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Wyclef Jean",
@@ -4966,6 +5025,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1301
+    }
+   }
+  },
+  {
+   "id": "78a8e2e26302ff0f",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "bet365 bonus code: Bet $10, get $200 in bonus bets for Steelers vs. Browns",
+   "angle": "Bet $10, get $200 in bonus bets win or lose with the bet365 bonus code for Steelers vs. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Bet $10, get $200 in bonus bets win or lose with the bet365 bonus code for Steelers vs."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/01/betting/bet365-bonus-code-bet-10-get-200-in-bonus-bets-for-steelers-vs-browns/",
+   "score": 76.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Steelers",
+     "Browns"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9442,
+    "label": "positive"
+   },
+   "summary": "Bet $10, get $200 in bonus bets win or lose with the bet365 bonus code for Steelers vs. Browns.",
+   "cluster_id": "78a8e2e26302ff0f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:23.035183+00:00",
+    "source_published_at": "2026-10-01T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3177,
+     "ENTERTAINMENT": 0.3147,
+     "BREAKOUT WATCH": 0.0951,
+     "LIFESTYLE CHAT": 0.1333,
+     "CANADIAN NEWS": 0.0704,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0688
     }
    }
   },
@@ -7992,6 +8101,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.2291
+    }
+   }
+  },
+  {
+   "id": "2aacc7582eac7010",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Pete Davidson calls on Mamdani to ‘fix the f–king BQE,’ claims highway workers are ‘never doing anything’",
+   "angle": "\"Yes, could he fix the \"f--king BQE, please?\" Davidson said in a clip shared on the show's Instagram page. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "\"Yes, could he fix the \"f--king BQE, please?\" Davidson said in a clip shared on the show's Instagram page."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/01/us-news/pete-davidson-calls-out-nyc-mayor-mamdani-to-fix-bqe-during-jimmy-kimmel-live/",
+   "score": 74.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Pete Davidson",
+     "Davidson"
+    ],
+    "organizations": [
+     "BQE"
+    ],
+    "locations": [
+     "Mamdani"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7506,
+    "label": "positive"
+   },
+   "summary": "\"Yes, could he fix the \"f--king BQE, please?\" Davidson said in a clip shared on the show's Instagram page.",
+   "cluster_id": "2aacc7582eac7010",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:22.848127+00:00",
+    "source_published_at": "2026-10-01T11:11:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2501,
+     "ENTERTAINMENT": 0.4937,
+     "BREAKOUT WATCH": 0.0628,
+     "LIFESTYLE CHAT": 0.0771,
+     "CANADIAN NEWS": 0.0616,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0547
     }
    }
   },
@@ -13627,6 +13790,57 @@
    }
   },
   {
+   "id": "c2b344f927ba377f",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "What happened in failed execution of Christa Pike - and what next?",
+   "angle": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/ckge4eql4q7eo?at_medium=RSS&at_campaign=rss",
+   "score": 72.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Christa Pike"
+    ],
+    "organizations": [],
+    "locations": [
+     "Tennessee"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7506,
+    "label": "negative"
+   },
+   "summary": "The convicted killer is in hospital in Tennessee after surviving two lethal injections, in a case that has raised many questions.",
+   "cluster_id": "c2b344f927ba377f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:24.996822+00:00",
+    "source_published_at": "2026-10-01T10:29:49+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2884,
+     "ENTERTAINMENT": 0.2132,
+     "BREAKOUT WATCH": 0.0822,
+     "LIFESTYLE CHAT": 0.1574,
+     "CANADIAN NEWS": 0.1729,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0859
+    }
+   }
+  },
+  {
    "id": "23d93dcd049caf66",
    "date": "2026-09-22",
    "slot": "am",
@@ -15248,6 +15462,56 @@
    }
   },
   {
+   "id": "366174c5fad3c705",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Accused plane hijacker is religious extremist who refused to shake women’s hands: ‘We hired a terrorist’",
+   "angle": "The flydubai staffer accused of trying to hijack a plane carrying 174 people to Israel by stabbing the lead pilot was known as a religious extremist who refused to shake hands with women, according to a colleague.…",
+   "bullets": [
+    "The flydubai staffer accused of trying to hijack a plane carrying 174 people to Israel by stabbing the lead pilot was known as a religious extremist who refused to shake hands with women, according to a colleague.",
+    "The co-pilot responsible for what Israel&#8217;s defense minister called &#8220;a jihadist terrorist attack&#8221; Wednesday has not been named..."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/01/world-news/accused-plane-hijacker-is-religious-extremist-who-refuses-to-shake-womens-hands-we-hired-a-terrorist/",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Israel"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9022,
+    "label": "negative"
+   },
+   "summary": "The flydubai staffer accused of trying to hijack a plane carrying 174 people to Israel by stabbing the lead pilot was known as a religious extremist who refused to shake hands with women, according to a colleague. The co-pilot responsible for what Israel&#8217;s defense minister called &#8220;a jihadist terrorist attack&#8221; Wednesday has not been named...",
+   "cluster_id": "366174c5fad3c705",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:22.760467+00:00",
+    "source_published_at": "2026-10-01T11:16:40+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1635,
+     "ENTERTAINMENT": 0.3842,
+     "BREAKOUT WATCH": 0.0918,
+     "LIFESTYLE CHAT": 0.1304,
+     "CANADIAN NEWS": 0.1648,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0653
+    }
+   }
+  },
+  {
    "id": "2b1017331325ea6e",
    "date": "2026-09-22",
    "slot": "am",
@@ -15444,6 +15708,113 @@
     "ingested_at": "2026-09-25T09:25:14.485114+00:00",
     "source_published_at": "2026-09-24T18:52:23+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "793489371ca4fbe8",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Eeli Tolvanen knows what his new Rangers teammates need from him: ‘Just try to bring energy’",
+   "angle": "Eeli Tolvanen was still unsigned as the summer began to wind down and NHLers in Finland started to head back to their workplaces. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Eeli Tolvanen was still unsigned as the summer began to wind down and NHLers in Finland started to head back to their workplaces.",
+    "“It was totally different,” the 27-year-old forward told Sports+ of his offseason before his first game as a Ranger on Tuesday night in Boston.",
+    "“A pretty long August before I signed."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/01/sports/eeli-tolvanen-knows-what-his-new-rangers-teammates-need-from-him/",
+   "score": 71.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Eeli Tolvanen",
+     "Ranger"
+    ],
+    "organizations": [
+     "Rangers",
+     "NHLers"
+    ],
+    "locations": [
+     "Finland",
+     "Boston"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "Eeli Tolvanen was still unsigned as the summer began to wind down and NHLers in Finland started to head back to their workplaces. “It was totally different,” the 27-year-old forward told Sports+ of his offseason before his first game as a Ranger on Tuesday night in Boston. “A pretty long August before I signed.",
+   "cluster_id": "793489371ca4fbe8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:22.945169+00:00",
+    "source_published_at": "2026-10-01T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1026,
+     "ENTERTAINMENT": 0.369,
+     "BREAKOUT WATCH": 0.1211,
+     "LIFESTYLE CHAT": 0.1325,
+     "CANADIAN NEWS": 0.1267,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1481
+    }
+   }
+  },
+  {
+   "id": "f876370313ee185d",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "11 Best New Shows on Netflix: October 2026’s Top Upcoming Series to Watch",
+   "angle": "This October, Netflix's programming will treat you to scary-good streaming with top TV shows from around the world worth watching all month long. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "This October, Netflix's programming will treat you to scary-good streaming with top TV shows from around the world worth watching all month long."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://decider.com/2026/10/01/best-new-shows-to-watch-on-netflix-october-2026/",
+   "score": 71.9,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Netflix"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.886,
+    "label": "positive"
+   },
+   "summary": "This October, Netflix's programming will treat you to scary-good streaming with top TV shows from around the world worth watching all month long.",
+   "cluster_id": "f876370313ee185d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:23.079162+00:00",
+    "source_published_at": "2026-10-01T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.174,
+     "ENTERTAINMENT": 0.5222,
+     "BREAKOUT WATCH": 0.1726,
+     "LIFESTYLE CHAT": 0.0476,
+     "CANADIAN NEWS": 0.0321,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0515
+    }
    }
   },
   {
@@ -19981,6 +20352,59 @@
    }
   },
   {
+   "id": "982f32cf002c3af1",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Mario Lopez weighs in on ‘Saved by the Bell’ co-star Tiffani Thiessen’s surprising residuals reveal",
+   "angle": "The actress divulged to Page Six last week that her residuals were \"negative,\" quipping that it cost her \"more to print the check.”. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The actress divulged to Page Six last week that her residuals were \"negative,\" quipping that it cost her \"more to print the check.”"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/01/entertainment/mario-lopez-weighs-in-on-saved-by-the-bell-co-star-tiffani-thiessens-residuals-reveal/",
+   "score": 70.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mario Lopez",
+     "Tiffani Thiessen"
+    ],
+    "organizations": [
+     "Bell",
+     "Page Six"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3818,
+    "label": "negative"
+   },
+   "summary": "The actress divulged to Page Six last week that her residuals were \"negative,\" quipping that it cost her \"more to print the check.”",
+   "cluster_id": "982f32cf002c3af1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:22.894136+00:00",
+    "source_published_at": "2026-10-01T11:09:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2139,
+     "ENTERTAINMENT": 0.5552,
+     "BREAKOUT WATCH": 0.0725,
+     "LIFESTYLE CHAT": 0.0764,
+     "CANADIAN NEWS": 0.0483,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0337
+    }
+   }
+  },
+  {
    "id": "057dca17833b4a1e",
    "date": "2026-09-22",
    "slot": "am",
@@ -20787,6 +21211,61 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0692
+    }
+   }
+  },
+  {
+   "id": "efdd1053f0508b8e",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Saskatchewan mayor who clashed with ‘Queen of Canada’ cult to step down",
+   "angle": "Village of Richmound says Brad Miller’s resignation takes effect Oct. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Village of Richmound says Brad Miller’s resignation takes effect Oct.",
+    "14 and that information about a by-election will be shared once a date is set"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-saskatchewan-mayor-steps-down-queen-of-canada-cult/",
+   "score": 70.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Brad Miller’s"
+    ],
+    "organizations": [
+     "Richmound"
+    ],
+    "locations": [
+     "Saskatchewan",
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0516,
+    "label": "positive"
+   },
+   "summary": "Village of Richmound says Brad Miller’s resignation takes effect Oct. 14 and that information about a by-election will be shared once a date is set",
+   "cluster_id": "efdd1053f0508b8e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:21.108697+00:00",
+    "source_published_at": "2026-10-01T10:43:14+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1567,
+     "ENTERTAINMENT": 0.5135,
+     "BREAKOUT WATCH": 0.1165,
+     "LIFESTYLE CHAT": 0.0601,
+     "CANADIAN NEWS": 0.1318,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0215
     }
    }
   },
@@ -21768,6 +22247,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0616
+    }
+   }
+  },
+  {
+   "id": "913e5fcabda239ed",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Dad says autism ‘miracle drug’ drastically and immediately improved his son’s severe symptoms",
+   "angle": "“It changed everything for us,” Matthew Bielski said of his 4-year-old son Lev’s dramatic “life-changing transformation.” “He went from the least affectionate kid to the most affectionate kid almost overnight.”. Shelf…",
+   "bullets": [
+    "“It changed everything for us,” Matthew Bielski said of his 4-year-old son Lev’s dramatic “life-changing transformation.” “He went from the least affectionate kid to the most affectionate kid almost overnight.”"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/01/health/dad-autism-miracle-drug-drastically-improved-my-sons-symptoms/",
+   "score": 70.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Matthew Bielski",
+     "Lev"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3153,
+    "label": "positive"
+   },
+   "summary": "“It changed everything for us,” Matthew Bielski said of his 4-year-old son Lev’s dramatic “life-changing transformation.” “He went from the least affectionate kid to the most affectionate kid almost overnight.”",
+   "cluster_id": "913e5fcabda239ed",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:23.171852+00:00",
+    "source_published_at": "2026-10-01T10:44:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.134,
+     "ENTERTAINMENT": 0.6084,
+     "BREAKOUT WATCH": 0.0648,
+     "LIFESTYLE CHAT": 0.071,
+     "CANADIAN NEWS": 0.0525,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0693
     }
    }
   },
@@ -26361,6 +26890,60 @@
    }
   },
   {
+   "id": "222f5dc5846a4e8c",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Kendall Jenner and Jacob Elordi’s LA living plans revealed as relationship is ‘going really well’",
+   "angle": "While the “Kardashians” star has joined the Oscar nominee on some of his house-hunting excursions, the insider explained that the two aren’t shopping for a home together. Shelf life through drive time — who is…",
+   "bullets": [
+    "While the “Kardashians” star has joined the Oscar nominee on some of his house-hunting excursions, the insider explained that the two aren’t shopping for a home together."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/01/celebrity-news/kendall-jenner-and-jacob-elordis-la-living-plans-revealed-as-relationship-is-going-really-well/",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kendall Jenner",
+     "Jacob Elordi’s",
+     "Oscar"
+    ],
+    "organizations": [],
+    "locations": [
+     "LA",
+     "n’t"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "While the “Kardashians” star has joined the Oscar nominee on some of his house-hunting excursions, the insider explained that the two aren’t shopping for a home together.",
+   "cluster_id": "222f5dc5846a4e8c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:22.992599+00:00",
+    "source_published_at": "2026-10-01T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.104,
+     "ENTERTAINMENT": 0.4447,
+     "BREAKOUT WATCH": 0.1515,
+     "LIFESTYLE CHAT": 0.0822,
+     "CANADIAN NEWS": 0.0636,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.154
+    }
+   }
+  },
+  {
    "id": "c03bc6c018168d8b",
    "date": "2026-09-22",
    "slot": "am",
@@ -28707,6 +29290,58 @@
    }
   },
   {
+   "id": "6a94adfa436695a4",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "What a leaked Canada-EU summit document reveals about Mark Carney’s turn to Europe",
+   "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wuvagy/what_a_leaked_canadaeu_summit_document_reveals/",
+   "score": 68.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mark Carney’s"
+    ],
+    "organizations": [],
+    "locations": [
+     "Canada",
+     "Europe"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.3182,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+   "cluster_id": "6a94adfa436695a4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:22.461873+00:00",
+    "source_published_at": "2026-10-01T09:52:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0532,
+     "ENTERTAINMENT": 0.2765,
+     "BREAKOUT WATCH": 0.0642,
+     "LIFESTYLE CHAT": 0.0694,
+     "CANADIAN NEWS": 0.5025,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0343
+    }
+   }
+  },
+  {
    "id": "d728f826c1b8d632",
    "date": "2026-09-22",
    "slot": "am",
@@ -29687,6 +30322,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0514
+    }
+   }
+  },
+  {
+   "id": "2d6f55df4a849589",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Hydro-Québec asks provincial regulator to hike energy rates for large data centres",
+   "angle": "Proposal that could double the cost of energy for companies such as Google will be heard at a public hearing. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Proposal that could double the cost of energy for companies such as Google will be heard at a public hearing"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/business/article-hearing-on-hydro-quebec-proposal-energy-rates-for-data-centres/",
+   "score": 67.9,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Hydro-Québec",
+     "Google"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "Proposal that could double the cost of energy for companies such as Google will be heard at a public hearing",
+   "cluster_id": "2d6f55df4a849589",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:20.944896+00:00",
+    "source_published_at": "2026-10-01T11:07:01+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.48,
+     "ENTERTAINMENT": 0.1514,
+     "BREAKOUT WATCH": 0.1283,
+     "LIFESTYLE CHAT": 0.1064,
+     "CANADIAN NEWS": 0.0775,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0566
     }
    }
   },
@@ -30908,6 +31593,107 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0139
+    }
+   }
+  },
+  {
+   "id": "9e9903832c79026c",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "US home prices are finally cooling — but a Mid-Atlantic region just surged 6.3%",
+   "angle": "Home prices across an Eastern swath surged 6.3% year over year, leading the nation even as housing markets elsewhere cool. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Home prices across an Eastern swath surged 6.3% year over year, leading the nation even as housing markets elsewhere cool."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/01/real-estate/mid-atlantic-home-prices-surge-6-3-as-us-housing-market-cools/",
+   "score": 67.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Eastern"
+    ],
+    "locations": [
+     "US",
+     "Mid-Atlantic"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4497,
+    "label": "positive"
+   },
+   "summary": "Home prices across an Eastern swath surged 6.3% year over year, leading the nation even as housing markets elsewhere cool.",
+   "cluster_id": "9e9903832c79026c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:22.802832+00:00",
+    "source_published_at": "2026-10-01T11:14:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3425,
+     "ENTERTAINMENT": 0.187,
+     "BREAKOUT WATCH": 0.2147,
+     "LIFESTYLE CHAT": 0.1271,
+     "CANADIAN NEWS": 0.076,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0526
+    }
+   }
+  },
+  {
+   "id": "c6eb40cf0457c6e1",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Employees in Manitoba no longer need sick notes for short absences",
+   "angle": "Under the new rules, employers can’t ask for medical documentation when an employee misses a week or less of work, or 10 days or fewer over a calendar year. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "Under the new rules, employers can’t ask for medical documentation when an employee misses a week or less of work, or 10 days or fewer over a calendar year"
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-manitoba-sick-note-rules/",
+   "score": 67.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Manitoba"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.7506,
+    "label": "negative"
+   },
+   "summary": "Under the new rules, employers can’t ask for medical documentation when an employee misses a week or less of work, or 10 days or fewer over a calendar year",
+   "cluster_id": "c6eb40cf0457c6e1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:21.027538+00:00",
+    "source_published_at": "2026-10-01T10:57:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1326,
+     "ENTERTAINMENT": 0.2621,
+     "BREAKOUT WATCH": 0.3299,
+     "LIFESTYLE CHAT": 0.1334,
+     "CANADIAN NEWS": 0.0825,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0593
     }
    }
   },
@@ -43781,6 +44567,53 @@
    }
   },
   {
+   "id": "38490ebc2bc986a9",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Why are hundreds of prisoners being released early?",
+   "angle": "More people going to prison, and for longer, is why governments including the current one have had to release prisoners early. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "More people going to prison, and for longer, is why governments including the current one have had to release prisoners early."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cp3rxlyz6w3o?at_medium=RSS&at_campaign=rss",
+   "score": 63.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.872,
+    "label": "negative"
+   },
+   "summary": "More people going to prison, and for longer, is why governments including the current one have had to release prisoners early.",
+   "cluster_id": "38490ebc2bc986a9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:25.126008+00:00",
+    "source_published_at": "2026-10-01T10:33:02+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2669,
+     "ENTERTAINMENT": 0.1707,
+     "BREAKOUT WATCH": 0.0997,
+     "LIFESTYLE CHAT": 0.3022,
+     "CANADIAN NEWS": 0.0996,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0608
+    }
+   }
+  },
+  {
    "id": "a5ce4eccae742b0a",
    "date": "2026-09-22",
    "slot": "am",
@@ -48393,6 +49226,55 @@
    }
   },
   {
+   "id": "a37b209a748163a3",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Netflix’s New Releases Coming in October 2026",
+   "angle": "Take a look at the movies and TV shows that are hitting the streaming service this month. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Take a look at the movies and TV shows that are hitting the streaming service this month."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/netflix-october-2026-new-releases-movies-tv-1236718064/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Netflix’s New Releases Coming"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Take a look at the movies and TV shows that are hitting the streaming service this month.",
+   "cluster_id": "a37b209a748163a3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:23.487773+00:00",
+    "source_published_at": "2026-10-01T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.139,
+     "ENTERTAINMENT": 0.6166,
+     "BREAKOUT WATCH": 0.0692,
+     "LIFESTYLE CHAT": 0.0634,
+     "CANADIAN NEWS": 0.0495,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0622
+    }
+   }
+  },
+  {
    "id": "5dea52253aa150d7",
    "date": "2026-09-22",
    "slot": "am",
@@ -49054,6 +49936,55 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "462be6b339a339e1",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Foundation proposes national policy agenda on menopause",
+   "angle": "Menopause Foundation of Canada is calling for more training among health providers and increased research funding. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "Menopause Foundation of Canada is calling for more training among health providers and increased research funding"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-foundation-proposes-national-policy-agenda-on-menopause/",
+   "score": 62.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Menopause Foundation of Canada"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "Menopause Foundation of Canada is calling for more training among health providers and increased research funding",
+   "cluster_id": "462be6b339a339e1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:20.983114+00:00",
+    "source_published_at": "2026-10-01T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1426,
+     "ENTERTAINMENT": 0.0728,
+     "BREAKOUT WATCH": 0.0568,
+     "LIFESTYLE CHAT": 0.5678,
+     "CANADIAN NEWS": 0.1358,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0242
+    }
    }
   },
   {
@@ -55784,6 +56715,112 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "e2cf07bc746a81c8",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Minimum wage hike is now in effect across five provinces",
+   "angle": "Bumps of between 25 and 40 cents come in Ontario, Prince Edward Island, Nova Scotia, Manitoba and Saskatchewan. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "Bumps of between 25 and 40 cents come in Ontario, Prince Edward Island, Nova Scotia, Manitoba and Saskatchewan"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-minimum-wage-hike-provinces/",
+   "score": 60.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Ontario",
+     "Prince Edward Island",
+     "Nova Scotia",
+     "Manitoba",
+     "Saskatchewan"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Bumps of between 25 and 40 cents come in Ontario, Prince Edward Island, Nova Scotia, Manitoba and Saskatchewan",
+   "cluster_id": "e2cf07bc746a81c8",
+   "related_count": 1,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:20.904180+00:00",
+    "source_published_at": "2026-10-01T10:49:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2483,
+     "ENTERTAINMENT": 0.0645,
+     "BREAKOUT WATCH": 0.0603,
+     "LIFESTYLE CHAT": 0.1903,
+     "CANADIAN NEWS": 0.3882,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0485
+    }
+   }
+  },
+  {
+   "id": "2fb5ad4e9799fc1f",
+   "date": "2026-10-01",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Minimum wage hike is now in effect across five provinces",
+   "angle": "Bumps of between 25 and 40 cents come in Ontario, Prince Edward Island, Nova Scotia, Manitoba and Saskatchewan. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "Bumps of between 25 and 40 cents come in Ontario, Prince Edward Island, Nova Scotia, Manitoba and Saskatchewan"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-minimum-wage-hike-is-now-in-effect-across-five-provinces/",
+   "score": 60.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Ontario",
+     "Prince Edward Island",
+     "Nova Scotia",
+     "Manitoba",
+     "Saskatchewan"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Bumps of between 25 and 40 cents come in Ontario, Prince Edward Island, Nova Scotia, Manitoba and Saskatchewan",
+   "cluster_id": "e2cf07bc746a81c8",
+   "related_count": 1,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-01T11:22:21.065948+00:00",
+    "source_published_at": "2026-10-01T10:50:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2483,
+     "ENTERTAINMENT": 0.0645,
+     "BREAKOUT WATCH": 0.0603,
+     "LIFESTYLE CHAT": 0.1903,
+     "CANADIAN NEWS": 0.3882,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0485
+    }
    }
   },
   {
