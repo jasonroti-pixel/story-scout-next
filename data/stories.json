@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-05T11:12:46.689147+00:00",
+ "generated_at": "2026-10-05T12:12:01.665858+00:00",
  "timezone": "America/Toronto",
  "date": "2026-10-05",
  "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 1993,
+ "count": 2010,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -1710,6 +1710,67 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0315
+    }
+   }
+  },
+  {
+   "id": "ea76f77f1008aaae",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Jack O’Connell and Odessa A’zion to Play Flat-Earthers in ‘The End of the World as We Know It’ for Studiocanal, Working Title and ‘An Irish Goodbye’ Oscar Winners (EXCLUSIVE)",
+   "angle": "Ross White and Tom Berkeley, the filmmaking duo behind the Oscar and BAFTA winning short film &#8220;An Irish Goodbye,&#8221; have teamed up with Studiocanal, Working Title, Parkville Pictures and Film4 for their…",
+   "bullets": [
+    "Ross White and Tom Berkeley, the filmmaking duo behind the Oscar and BAFTA winning short film &#8220;An Irish Goodbye,&#8221; have teamed up with Studiocanal, Working Title, Parkville Pictures and Film4 for their feature debut and landed two hugely in-demand stars as their leads.",
+    "&#8220;The End of the World as We Know It&#8221; will see BAFTA [&#8230;]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/jack-oconnell-odessa-azion-tend-of-the-world-as-we-know-it-1236897026/",
+   "score": 79.8,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Jack O’Connell",
+     "Odessa",
+     "Ross White",
+     "Tom Berkeley",
+     "Oscar",
+     "8220;An Irish"
+    ],
+    "organizations": [
+     "Working Title",
+     "EXCLUSIVE",
+     "BAFTA",
+     "Parkville Pictures",
+     "Film4"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8788,
+    "label": "positive"
+   },
+   "summary": "Ross White and Tom Berkeley, the filmmaking duo behind the Oscar and BAFTA winning short film &#8220;An Irish Goodbye,&#8221; have teamed up with Studiocanal, Working Title, Parkville Pictures and Film4 for their feature debut and landed two hugely in-demand stars as their leads. &#8220;The End of the World as We Know It&#8221; will see BAFTA [&#8230;]",
+   "cluster_id": "ea76f77f1008aaae",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:58.942378+00:00",
+    "source_published_at": "2026-10-05T11:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3929,
+     "ENTERTAINMENT": 0.1843,
+     "BREAKOUT WATCH": 0.111,
+     "LIFESTYLE CHAT": 0.0765,
+     "CANADIAN NEWS": 0.1272,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1081
     }
    }
   },
@@ -3461,7 +3522,7 @@
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/tv/tv-news/big-brother-season-28-winner-america-favorite-houseguest-1236720612/",
    "score": 78.4,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Rick Devens",
@@ -6346,6 +6407,60 @@
    }
   },
   {
+   "id": "a1917d176237cc6f",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Rob Lowe’s son John Owen shares moving message after 13-year-old cousin Fiona’s death",
+   "angle": "Over the weekend, the \"Unstable\" co-creator took to his Instagram Stories to share Emily Dickinson's poem \"Hope Is the Thing With Feathers.\". Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Over the weekend, the \"Unstable\" co-creator took to his Instagram Stories to share Emily Dickinson's poem \"Hope Is the Thing With Feathers.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/05/celebrity-news/rob-lowes-son-john-owen-shares-moving-message-after-13-year-old-cousin-fionas-death/",
+   "score": 76.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rob Lowe’s",
+     "John Owen",
+     "Fiona",
+     "Emily Dickinson's"
+    ],
+    "organizations": [
+     "Instagram Stories"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5719,
+    "label": "negative"
+   },
+   "summary": "Over the weekend, the \"Unstable\" co-creator took to his Instagram Stories to share Emily Dickinson's poem \"Hope Is the Thing With Feathers.\"",
+   "cluster_id": "a1917d176237cc6f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:57.587479+00:00",
+    "source_published_at": "2026-10-05T12:01:38+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.109,
+     "ENTERTAINMENT": 0.5834,
+     "BREAKOUT WATCH": 0.1143,
+     "LIFESTYLE CHAT": 0.0827,
+     "CANADIAN NEWS": 0.0758,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0347
+    }
+   }
+  },
+  {
    "id": "0ec91f1ea2422ac4",
    "date": "2026-09-28",
    "slot": "am",
@@ -9205,6 +9320,62 @@
    }
   },
   {
+   "id": "2eebbaba9a42a8a6",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Artificial’ Took on a Big Tech Giant. Hollywood Wasn’t Ready",
+   "angle": "Luca Guadagnino and star Andrew Garfield speak frankly about what went into their daring film about Sam Altman and OpenAI, and what led to Neon rescuing it after Amazon decided not to release it: “The fight is on to…",
+   "bullets": [
+    "Luca Guadagnino and star Andrew Garfield speak frankly about what went into their daring film about Sam Altman and OpenAI, and what led to Neon rescuing it after Amazon decided not to release it: “The fight is on to make sure that we are allowed to make things freely.”"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/artificial-exclusive-luca-guadagnino-andrew-garfield-1236721477/",
+   "score": 75.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Luca Guadagnino",
+     "Andrew Garfield",
+     "Sam Altman"
+    ],
+    "organizations": [
+     "Hollywood Wasn’t Ready",
+     "Amazon"
+    ],
+    "locations": [
+     "OpenAI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6597,
+    "label": "positive"
+   },
+   "summary": "Luca Guadagnino and star Andrew Garfield speak frankly about what went into their daring film about Sam Altman and OpenAI, and what led to Neon rescuing it after Amazon decided not to release it: “The fight is on to make sure that we are allowed to make things freely.”",
+   "cluster_id": "2eebbaba9a42a8a6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:58.390109+00:00",
+    "source_published_at": "2026-10-05T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.072,
+     "ENTERTAINMENT": 0.6273,
+     "BREAKOUT WATCH": 0.0661,
+     "LIFESTYLE CHAT": 0.066,
+     "CANADIAN NEWS": 0.1169,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0516
+    }
+   }
+  },
+  {
    "id": "d29261de2c905e3e",
    "date": "2026-09-22",
    "slot": "am",
@@ -11683,6 +11854,60 @@
    }
   },
   {
+   "id": "c7d56013bdca945d",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Mamdani’s ‘fast track’ to NYC neighborhood destruction",
+   "angle": "Watch out: The ham-handed Mamdani approach to the housing market is about to impose chaos on select neighborhoods in the name of social justice. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Watch out: The ham-handed Mamdani approach to the housing market is about to impose chaos on select neighborhoods in the name of social justice.",
+    "City Hall just flagged a dozen, mostly higher-income community districts across the five boroughs as shirking their duty to “produce” more affordable housing; they&#8217;ll now be fast-tracked for new projects as..."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/05/opinion/mamdanis-fast-track-to-nyc-neighborhood-destruction/",
+   "score": 74.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mamdani’s",
+     "Mamdani"
+    ],
+    "organizations": [],
+    "locations": [
+     "NYC",
+     "City Hall"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7351,
+    "label": "negative"
+   },
+   "summary": "Watch out: The ham-handed Mamdani approach to the housing market is about to impose chaos on select neighborhoods in the name of social justice. City Hall just flagged a dozen, mostly higher-income community districts across the five boroughs as shirking their duty to “produce” more affordable housing; they&#8217;ll now be fast-tracked for new projects as...",
+   "cluster_id": "c7d56013bdca945d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:57.938891+00:00",
+    "source_published_at": "2026-10-05T11:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1368,
+     "ENTERTAINMENT": 0.5097,
+     "BREAKOUT WATCH": 0.0625,
+     "LIFESTYLE CHAT": 0.1341,
+     "CANADIAN NEWS": 0.089,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0679
+    }
+   }
+  },
+  {
    "id": "f3780f79d2ebcbf2",
    "date": "2026-10-02",
    "slot": "am",
@@ -12467,6 +12692,62 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0127
+    }
+   }
+  },
+  {
+   "id": "f49a0067b5922f57",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Mark Ruffalo Tells Trump ‘Hands Off Our F—ing Vote’ or ‘I’m Gonna Hulk Out’: ‘You Won’t Like Me When I’m Angry’",
+   "angle": "Mark Ruffalo made a passionate speech at a Hands Off Our Vote event in New York City on Sunday night, slamming U.S. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Mark Ruffalo made a passionate speech at a Hands Off Our Vote event in New York City on Sunday night, slamming U.S.",
+    "President Donald Trump and saying he&#8217;s going to &#8220;Hulk out&#8221; if he attempts to restrict voting in the upcoming midterm elections.",
+    "The midterms are set to take place on Nov."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/mark-ruffalo-slams-trump-voting-rights-hulk-out-1236898975/",
+   "score": 74.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mark Ruffalo Tells",
+     "Mark Ruffalo",
+     "Donald Trump"
+    ],
+    "organizations": [],
+    "locations": [
+     "New York City",
+     "U.S."
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5106,
+    "label": "positive"
+   },
+   "summary": "Mark Ruffalo made a passionate speech at a Hands Off Our Vote event in New York City on Sunday night, slamming U.S. President Donald Trump and saying he&#8217;s going to &#8220;Hulk out&#8221; if he attempts to restrict voting in the upcoming midterm elections. The midterms are set to take place on Nov. 3 and could [&#8230;]",
+   "cluster_id": "f49a0067b5922f57",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:58.881825+00:00",
+    "source_published_at": "2026-10-05T11:44:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1476,
+     "ENTERTAINMENT": 0.7243,
+     "BREAKOUT WATCH": 0.0354,
+     "LIFESTYLE CHAT": 0.021,
+     "CANADIAN NEWS": 0.0592,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0125
     }
    }
   },
@@ -13407,6 +13688,61 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.129
+    }
+   }
+  },
+  {
+   "id": "3f447677d81f9b2e",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "These Giants aren’t supposed to be atop the NFC East — but their reality is exceeding the optics",
+   "angle": "Maybe, after a preseason of optimism that revived a trajectory, it’ll be a different ending for Deonte Banks after all. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Maybe, after a preseason of optimism that revived a trajectory, it’ll be a different ending for Deonte Banks after all.",
+    "Maybe, after a similar preseason of optimism that revived a similar trajectory, it’ll be different for these Giants under John Harbaugh after all, too."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/05/sports/the-giants-first-place-reality-is-exceeding-their-optics/",
+   "score": 73.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "John Harbaugh"
+    ],
+    "organizations": [
+     "Giants",
+     "Imagine Banks"
+    ],
+    "locations": [
+     "the NFC East"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8745,
+    "label": "positive"
+   },
+   "summary": "Maybe, after a preseason of optimism that revived a trajectory, it’ll be a different ending for Deonte Banks after all. Maybe, after a similar preseason of optimism that revived a similar trajectory, it’ll be different for these Giants under John Harbaugh after all, too. Imagine Banks —...",
+   "cluster_id": "3f447677d81f9b2e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:57.786366+00:00",
+    "source_published_at": "2026-10-05T11:40:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1136,
+     "ENTERTAINMENT": 0.3541,
+     "BREAKOUT WATCH": 0.186,
+     "LIFESTYLE CHAT": 0.0965,
+     "CANADIAN NEWS": 0.1428,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1069
     }
    }
   },
@@ -19434,6 +19770,57 @@
    }
   },
   {
+   "id": "ad40aef98d617ae5",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Indian singer Anuv Jain on finding success without the Bollywood boost",
+   "angle": "The star reveals why he is \"very selective\" about releasing music - and shares his future collab hopes. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The star reveals why he is \"very selective\" about releasing music - and shares his future collab hopes."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c933xnneg2zvo?at_medium=RSS&at_campaign=rss",
+   "score": 72.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Anuv Jain"
+    ],
+    "organizations": [
+     "Bollywood"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7537,
+    "label": "positive"
+   },
+   "summary": "The star reveals why he is \"very selective\" about releasing music - and shares his future collab hopes.",
+   "cluster_id": "ad40aef98d617ae5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:12:00.032599+00:00",
+    "source_published_at": "2026-10-05T11:10:28+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0713,
+     "ENTERTAINMENT": 0.5396,
+     "BREAKOUT WATCH": 0.0503,
+     "LIFESTYLE CHAT": 0.2374,
+     "CANADIAN NEWS": 0.0456,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0559
+    }
+   }
+  },
+  {
    "id": "23d93dcd049caf66",
    "date": "2026-09-22",
    "slot": "am",
@@ -19802,6 +20189,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.11
+    }
+   }
+  },
+  {
+   "id": "de287d419d8a0af1",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "White House ‘monitoring’ suspected plague outbreak in Russia after lab worker dead, hundreds quarantined",
+   "angle": "The White House confirmed it is aware of a suspected plague outbreak in Russia and is “monitoring the situation” after a young lab worker was killed and some 200 others forced into quarantine. Ask the phones: would you…",
+   "bullets": [
+    "The White House confirmed it is aware of a suspected plague outbreak in Russia and is “monitoring the situation” after a young lab worker was killed and some 200 others forced into quarantine."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/05/us-news/white-house-monitoring-suspected-plague-outbreak-in-russia-after-lab-worker-dead-hundreds-quarantined/",
+   "score": 72.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "White House",
+     "The White House"
+    ],
+    "locations": [
+     "Russia"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9393,
+    "label": "negative"
+   },
+   "summary": "The White House confirmed it is aware of a suspected plague outbreak in Russia and is “monitoring the situation” after a young lab worker was killed and some 200 others forced into quarantine.",
+   "cluster_id": "de287d419d8a0af1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:57.884385+00:00",
+    "source_published_at": "2026-10-05T11:31:40+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3997,
+     "ENTERTAINMENT": 0.0632,
+     "BREAKOUT WATCH": 0.1101,
+     "LIFESTYLE CHAT": 0.1419,
+     "CANADIAN NEWS": 0.2305,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0545
     }
    }
   },
@@ -23048,6 +23487,56 @@
    }
   },
   {
+   "id": "ce4aab801dd3c200",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Christa Pike’s lawyer calls for death row sentence to be thrown out after ‘tortuous’ failed execution",
+   "angle": "\"I don't think that attempting another execution is going to bring justice,\" Stephen Ferrell, an assistant federal defender, said. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "\"I don't think that attempting another execution is going to bring justice,\" Stephen Ferrell, an assistant federal defender, said."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/05/us-news/christa-pikes-lawyer-calls-for-death-row-sentence-to-be-thrown-out-after-tortuous-failed-execution/",
+   "score": 71.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Christa Pike’s",
+     "Stephen Ferrell"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4767,
+    "label": "negative"
+   },
+   "summary": "\"I don't think that attempting another execution is going to bring justice,\" Stephen Ferrell, an assistant federal defender, said.",
+   "cluster_id": "ce4aab801dd3c200",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:57.633848+00:00",
+    "source_published_at": "2026-10-05T12:01:11+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1775,
+     "ENTERTAINMENT": 0.4591,
+     "BREAKOUT WATCH": 0.1865,
+     "LIFESTYLE CHAT": 0.0624,
+     "CANADIAN NEWS": 0.075,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0396
+    }
+   }
+  },
+  {
    "id": "b42e6a21ef12b2d1",
    "date": "2026-09-22",
    "slot": "am",
@@ -26273,6 +26762,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0391
+    }
+   }
+  },
+  {
+   "id": "9331abb1f304c9fd",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Spanish PM Sánchez calls early election after housing protests",
+   "angle": "Sánchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Sánchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmdx39k49xw0o?at_medium=RSS&at_campaign=rss",
+   "score": 71.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "PM Sánchez",
+     "Sánchez",
+     "Spain"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8074,
+    "label": "negative"
+   },
+   "summary": "Sánchez says Spain will head to the polls on 29 November after recent defeats on measures aimed at addressing the country's housing crisis.",
+   "cluster_id": "9331abb1f304c9fd",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:59.531505+00:00",
+    "source_published_at": "2026-10-05T10:18:47+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1299,
+     "ENTERTAINMENT": 0.5607,
+     "BREAKOUT WATCH": 0.0605,
+     "LIFESTYLE CHAT": 0.0565,
+     "CANADIAN NEWS": 0.1481,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0443
     }
    }
   },
@@ -31271,6 +31811,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0384
+    }
+   }
+  },
+  {
+   "id": "831075ab5046fc07",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Lawyer for ‘Cornell 7’ defendant calls for Letitia James to step down from probe after Facebook post sparks ‘impartiality’ questions",
+   "angle": "An attorney for one of the \"Cornell 7\" has called on New York Attorney General Letitia James to step down from the investigation for being biased against the accused students. Shelf life through drive time — who is…",
+   "bullets": [
+    "An attorney for one of the \"Cornell 7\" has called on New York Attorney General Letitia James to step down from the investigation for being biased against the accused students."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/05/us-news/lawyer-for-one-of-the-cornell-7-calls-for-letitia-james-to-step-down-from-investigation/",
+   "score": 70.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Letitia James"
+    ],
+    "organizations": [],
+    "locations": [
+     "New York"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5106,
+    "label": "negative"
+   },
+   "summary": "An attorney for one of the \"Cornell 7\" has called on New York Attorney General Letitia James to step down from the investigation for being biased against the accused students.",
+   "cluster_id": "831075ab5046fc07",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:57.731818+00:00",
+    "source_published_at": "2026-10-05T11:56:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2789,
+     "ENTERTAINMENT": 0.3486,
+     "BREAKOUT WATCH": 0.1064,
+     "LIFESTYLE CHAT": 0.0463,
+     "CANADIAN NEWS": 0.0654,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1545
     }
    }
   },
@@ -39303,6 +39894,55 @@
    }
   },
   {
+   "id": "36fec0e6da4e96f9",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Michael Douglas snaps at reporter while addressing rumored sex addiction in tense interview",
+   "angle": "The actor insisted in his upcoming memoir, \"One Helluva Ride,\" that he was \"never a f--king sex addict\" despite previous reports he went to rehab. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "The actor insisted in his upcoming memoir, \"One Helluva Ride,\" that he was \"never a f--king sex addict\" despite previous reports he went to rehab."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/05/celebrity-news/michael-douglas-snaps-at-reporter-addressing-rumored-sex-addiction-in-tense-interview/",
+   "score": 68.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Michael Douglas"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.34,
+    "label": "negative"
+   },
+   "summary": "The actor insisted in his upcoming memoir, \"One Helluva Ride,\" that he was \"never a f--king sex addict\" despite previous reports he went to rehab.",
+   "cluster_id": "36fec0e6da4e96f9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:57.834556+00:00",
+    "source_published_at": "2026-10-05T11:36:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1072,
+     "ENTERTAINMENT": 0.5168,
+     "BREAKOUT WATCH": 0.109,
+     "LIFESTYLE CHAT": 0.0499,
+     "CANADIAN NEWS": 0.0947,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1224
+    }
+   }
+  },
+  {
    "id": "955c2dd1c816b15a",
    "date": "2026-09-22",
    "slot": "am",
@@ -39979,6 +40619,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0996
+    }
+   }
+  },
+  {
+   "id": "76beca96baffd91b",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Jewish Greens chair says she could leave party over 'Zionism is racism' motion",
+   "angle": "The motion, which has divided senior party figures, backs a \"single democratic Palestinian state in all of historic Palestine\". Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The motion, which has divided senior party figures, backs a \"single democratic Palestinian state in all of historic Palestine\"."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cm4g1dxe50nyo?at_medium=RSS&at_campaign=rss",
+   "score": 68.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Palestine"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.0258,
+    "label": "neutral"
+   },
+   "summary": "The motion, which has divided senior party figures, backs a \"single democratic Palestinian state in all of historic Palestine\".",
+   "cluster_id": "76beca96baffd91b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:59.753438+00:00",
+    "source_published_at": "2026-10-05T11:23:02+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2281,
+     "ENTERTAINMENT": 0.4466,
+     "BREAKOUT WATCH": 0.1267,
+     "LIFESTYLE CHAT": 0.0699,
+     "CANADIAN NEWS": 0.0762,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0526
     }
    }
   },
@@ -41860,6 +42549,57 @@
    }
   },
   {
+   "id": "6f340ad67d3ba7a6",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Flydubai co-pilot planned to crash plane into Tel Aviv airport or building, reports say",
+   "angle": "The Omani national was a \"lone wolf\" extremist, according to the reports. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "The Omani national was a \"lone wolf\" extremist, according to the reports."
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cm3691y79xp5o?at_medium=RSS&at_campaign=rss",
+   "score": 67.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "lone wolf"
+    ],
+    "organizations": [],
+    "locations": [
+     "Tel Aviv"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.5859,
+    "label": "negative"
+   },
+   "summary": "The Omani national was a \"lone wolf\" extremist, according to the reports.",
+   "cluster_id": "6f340ad67d3ba7a6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:59.664345+00:00",
+    "source_published_at": "2026-10-05T11:34:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1977,
+     "ENTERTAINMENT": 0.1667,
+     "BREAKOUT WATCH": 0.1144,
+     "LIFESTYLE CHAT": 0.1452,
+     "CANADIAN NEWS": 0.283,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0929
+    }
+   }
+  },
+  {
    "id": "371133ca0241385d",
    "date": "2026-09-22",
    "slot": "am",
@@ -42265,6 +43005,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0476
+    }
+   }
+  },
+  {
+   "id": "16b4f2e9e24c8ce8",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Why are data centres such a big deal in Scotland?",
+   "angle": "At least 23 huge data centres are planned in Scotland, causing significant concern for campaigners. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "At least 23 huge data centres are planned in Scotland, causing significant concern for campaigners."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6qxv55882z1o?at_medium=RSS&at_campaign=rss",
+   "score": 67.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Scotland"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4767,
+    "label": "positive"
+   },
+   "summary": "At least 23 huge data centres are planned in Scotland, causing significant concern for campaigners.",
+   "cluster_id": "16b4f2e9e24c8ce8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:59.983763+00:00",
+    "source_published_at": "2026-10-05T10:04:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.393,
+     "ENTERTAINMENT": 0.0894,
+     "BREAKOUT WATCH": 0.1347,
+     "LIFESTYLE CHAT": 0.1392,
+     "CANADIAN NEWS": 0.1509,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0929
     }
    }
   },
@@ -44530,6 +45319,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0558
+    }
+   }
+  },
+  {
+   "id": "938c67b9df254dd6",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Devon Sawa and His 10-Year-Old Daughter Were Just As Stunned By The ‘Coven Academy’ Season Finale As Fans Are: “The Biggest Cliffhanger Ever”",
+   "angle": "Devon Sawa and His 10-Year-Old Daughter Were Just As Stunned By The ‘Coven Academy’ Season Finale As Fans Are: “The Biggest Cliffhanger Ever”. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "\"It's a huge bombshell.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://decider.com/2026/10/05/coven-academy-devon-sawa-interview/",
+   "score": 67.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Devon Sawa"
+    ],
+    "organizations": [
+     "The ‘Coven Academy’ Season Finale As Fans"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2263,
+    "label": "positive"
+   },
+   "summary": "\"It's a huge bombshell.\"",
+   "cluster_id": "938c67b9df254dd6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:11:57.681205+00:00",
+    "source_published_at": "2026-10-05T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2216,
+     "ENTERTAINMENT": 0.4481,
+     "BREAKOUT WATCH": 0.0599,
+     "LIFESTYLE CHAT": 0.1,
+     "CANADIAN NEWS": 0.1115,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0589
     }
    }
   },
@@ -51121,6 +51961,53 @@
      "SPORTS": 0.0,
      "CLOSER": 0.0513
     }
+   }
+  },
+  {
+   "id": "984fa45929591c28",
+   "date": "2026-10-05",
+   "slot": "am",
+   "category": "TECH",
+   "title": "TCL’s paperlike OLED phone made me more excited for the iPhone Duo",
+   "angle": "I've spent most of the last couple weeks using an otherwise unexceptional midrange Android phone with one amazing feature: a matte OLED display. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "I've spent most of the last couple weeks using an otherwise unexceptional midrange Android phone with one amazing feature: a matte OLED display.",
+    "That screen is by far the best thing about the TCL P80 Ultra, and weirdly, it's made me more excited for the iPhone Duo and its matte inner display.",
+    "2023's TCL Nxtpaper [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1004079/tcl-p80-ultra-nxtpaper-matte-display-iphone-duo",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "P80 Ultra"
+    ],
+    "organizations": [
+     "TCL",
+     "Android",
+     "the iPhone Duo",
+     "TCL Nxtpaper [&#8230"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9039,
+    "label": "positive"
+   },
+   "summary": "I've spent most of the last couple weeks using an otherwise unexceptional midrange Android phone with one amazing feature: a matte OLED display. That screen is by far the best thing about the TCL P80 Ultra, and weirdly, it's made me more excited for the iPhone Duo and its matte inner display. 2023's TCL Nxtpaper [&#8230;]",
+   "cluster_id": "984fa45929591c28",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-05T12:12:00.276952+00:00",
+    "source_published_at": "2026-10-05T12:02:41+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
