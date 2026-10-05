@@ -74,7 +74,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No story changes to commit"
           else
-            git commit -m "chore(ingest): refresh data/stories.json [skip ci]"
+            git commit -m "chore(ingest): refresh data/stories.json"
             # Rebase onto anything pushed while this run was working (another
             # queued run, a manual push, or Jay's jev-enrich), so the push
             # below is fast-forward. If the rebase conflicts, bail out cleanly:
