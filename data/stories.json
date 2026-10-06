@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-06T17:02:54.155064+00:00",
+ "generated_at": "2026-10-06T19:16:38.301779+00:00",
  "timezone": "America/Toronto",
  "date": "2026-10-06",
  "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 2219,
+ "count": 2279,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -12,11 +12,19 @@
    "slot": "am",
    "category": "ENTERTAINMENT",
    "title": "Netflix’s ‘A Different World’ Is a Bold, Fun and Timely Reboot Centering the Uniqueness of Gen Z: TV Review",
-   "angle": "Thirty-nine years after the beloved NBC series premiered, Netflix is reopening the gates of the fictional, historically Black Hillman College with “A Different World.” Created by Felicia Pride and executive produced by…",
+   "angle": "Nearly four decades later, Netflix is taking us back to Hillman College with a Gen Z reboot of the classic sitcom 'A Different World.' It is reopening the debate over whether modern updates can capture the magic of the originals or if television classics are better left untouched.",
    "bullets": [
-    "Thirty-nine years after the beloved NBC series premiered, Netflix is reopening the gates of the fictional, historically Black Hillman College with “A Different World.” Created by Felicia Pride and executive produced by Debbie Allen (who helmed the first version of the sitcom), the bold and brilliant reboot follows Deborah Wayne (an outstanding Maleah Joi Moon), [&#8230;]"
+    "Netflix launched a reboot titled \"A Different World.\"",
+    "The reboot arrived 39 years after the original series premiered on NBC.",
+    "The series returned to the fictional setting of Hillman College, a historically Black institution.",
+    "Felicia Pride created the new version of the show.",
+    "Debbie Allen, who helmed the original sitcom, returned as an executive producer for the project.",
+    "The new storyline followed a character named Deborah Wayne.",
+    "Maleah Joi Moon portrayed Deborah Wayne in the production.",
+    "A television review described the project as a \"bold and brilliant reboot.\"",
+    "The same review characterized the lead acting as \"an outstanding Maleah Joi Moon.\""
    ],
-   "debate": "Overrated or underrated — where do you land?",
+   "debate": "Should classic sitcoms like 'A Different World' be remade for Gen Z audiences, or should streamers leave beloved television staples alone?",
    "source": "Variety",
    "source_type": "news",
    "url": "https://variety.com/2026/tv/reviews/a-different-world-review-netflix-1236865625/",
@@ -50,7 +58,8 @@
    "meta": {
     "ingested_at": "2026-09-24T09:01:02.685692+00:00",
     "source_published_at": "2026-09-24T07:01:00+00:00",
-    "pipeline_version": "1.1.0"
+    "pipeline_version": "1.1.0",
+    "gemini_enrich": "gemini-v1"
    }
   },
   {
@@ -781,6 +790,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0304
+    }
+   }
+  },
+  {
+   "id": "d18e71d2f5c61f0e",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "BBC Releases ‘Blue Planet III’ Trailer at London Premiere With Blue Carpet, Splashy Piccadilly Lights Takeover",
+   "angle": "Host David Attenborough promises more “underwater life, which is more surprising, more sophisticated and even more important than we ever realized.” And Hans Zimmer calls his musical work on the franchise “the most…",
+   "bullets": [
+    "Host David Attenborough promises more “underwater life, which is more surprising, more sophisticated and even more important than we ever realized.” And Hans Zimmer calls his musical work on the franchise “the most important work I've ever done.”"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/bbc-blue-planet-iii-trailer-released-piccadilly-lights-event-1236722312/",
+   "score": 81.1,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "David Attenborough",
+     "Hans Zimmer"
+    ],
+    "organizations": [
+     "BBC Releases ‘Blue Planet III’ Trailer"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.9069,
+    "label": "positive"
+   },
+   "summary": "Host David Attenborough promises more “underwater life, which is more surprising, more sophisticated and even more important than we ever realized.” And Hans Zimmer calls his musical work on the franchise “the most important work I've ever done.”",
+   "cluster_id": "d18e71d2f5c61f0e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.749984+00:00",
+    "source_published_at": "2026-10-06T18:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2775,
+     "ENTERTAINMENT": 0.3934,
+     "BREAKOUT WATCH": 0.0356,
+     "LIFESTYLE CHAT": 0.1682,
+     "CANADIAN NEWS": 0.0528,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0724
     }
    }
   },
@@ -2109,6 +2170,62 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1116
+    }
+   }
+  },
+  {
+   "id": "be7e98963f4f9339",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Zhang Yimou Teases Chinese ‘Three-Body Problem’ Movie at Busan Film Festival’s Star-Packed Opening",
+   "angle": "Alfonso Cuarón, Korean star Hyun Bin and the cast of Lee Chang-dong's 'Possible Love' walked the red carpet for Asia's leading film festival, where Michelle Yeoh and Ann Hui both received career honors. Shelf life…",
+   "bullets": [
+    "Alfonso Cuarón, Korean star Hyun Bin and the cast of Lee Chang-dong's 'Possible Love' walked the red carpet for Asia's leading film festival, where Michelle Yeoh and Ann Hui both received career honors."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/zhang-yimou-chinese-three-body-problem-movi-1236723364/",
+   "score": 79.6,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Zhang Yimou",
+     "Alfonso Cuarón",
+     "Hyun Bin",
+     "Lee Chang-dong's",
+     "Michelle Yeoh",
+     "Ann Hui"
+    ],
+    "organizations": [],
+    "locations": [
+     "Asia"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8591,
+    "label": "positive"
+   },
+   "summary": "Alfonso Cuarón, Korean star Hyun Bin and the cast of Lee Chang-dong's 'Possible Love' walked the red carpet for Asia's leading film festival, where Michelle Yeoh and Ann Hui both received career honors.",
+   "cluster_id": "be7e98963f4f9339",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.803539+00:00",
+    "source_published_at": "2026-10-06T17:32:19+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0398,
+     "ENTERTAINMENT": 0.8631,
+     "BREAKOUT WATCH": 0.0512,
+     "LIFESTYLE CHAT": 0.0148,
+     "CANADIAN NEWS": 0.0166,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0146
     }
    }
   },
@@ -3458,7 +3575,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/tv/news/the-parsifal-mosaic-tv-show-sam-worthington-hulu-1236874353/",
    "score": 78.5,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Sam Worthington",
@@ -3504,7 +3621,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/film/news/david-ellison-trump-white-house-state-dinner-chinese-president-cnn-1236875329/",
    "score": 78.5,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "David Ellison Attends",
@@ -3764,6 +3881,64 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1561
+    }
+   }
+  },
+  {
+   "id": "012d9b61630bfa6a",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘East of Eden’ Hits 6.5 Million Views in Four Days on Netflix",
+   "angle": "&#8220;East of Eden&#8221; amassed 6.5 million views in its first four days of streaming on Netflix. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "&#8220;East of Eden&#8221; amassed 6.5 million views in its first four days of streaming on Netflix.",
+    "That total took the John Steinbeck adaptation to the No.",
+    "1 spot on the streamer&#8217;s weekly TV rankings."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/east-of-eden-ratings-views-netflix-1236903373/",
+   "score": 78.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "John Steinbeck",
+     "Zoe Kazan",
+     "Florence Pugh",
+     "Steinbeck"
+    ],
+    "organizations": [
+     "Penguin Classics [&"
+    ],
+    "locations": [
+     "Netflix"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7506,
+    "label": "positive"
+   },
+   "summary": "&#8220;East of Eden&#8221; amassed 6.5 million views in its first four days of streaming on Netflix. That total took the John Steinbeck adaptation to the No. 1 spot on the streamer&#8217;s weekly TV rankings.",
+   "cluster_id": "012d9b61630bfa6a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.916060+00:00",
+    "source_published_at": "2026-10-06T19:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0685,
+     "ENTERTAINMENT": 0.5688,
+     "BREAKOUT WATCH": 0.1106,
+     "LIFESTYLE CHAT": 0.0565,
+     "CANADIAN NEWS": 0.087,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1087
     }
    }
   },
@@ -5692,6 +5867,65 @@
    }
   },
   {
+   "id": "09ddf340bc17dfc8",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Cupertino’ Review: Robert and Michelle King Tackle Big Tech in Their Latest Broadcast Winner",
+   "angle": "The CBS hour-long stars Mike Colter and Rachel Keller as legal professionals protecting the Davids in the Goliath-dominated world of Silicon Valley. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "The CBS hour-long stars Mike Colter and Rachel Keller as legal professionals protecting the Davids in the Goliath-dominated world of Silicon Valley."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-reviews/cupertino-review-robert-michelle-king-cbs-1236722065/",
+   "score": 77.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Robert",
+     "Michelle King Tackle Big Tech",
+     "Mike Colter",
+     "Rachel Keller",
+     "Goliath"
+    ],
+    "organizations": [
+     "Their Latest Broadcast Winner",
+     "CBS"
+    ],
+    "locations": [
+     "Davids",
+     "Silicon Valley"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6486,
+    "label": "positive"
+   },
+   "summary": "The CBS hour-long stars Mike Colter and Rachel Keller as legal professionals protecting the Davids in the Goliath-dominated world of Silicon Valley.",
+   "cluster_id": "09ddf340bc17dfc8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.776469+00:00",
+    "source_published_at": "2026-10-06T17:36:11+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2142,
+     "ENTERTAINMENT": 0.4121,
+     "BREAKOUT WATCH": 0.2084,
+     "LIFESTYLE CHAT": 0.0465,
+     "CANADIAN NEWS": 0.0733,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0456
+    }
+   }
+  },
+  {
    "id": "13ac2ab504902728",
    "date": "2026-09-23",
    "slot": "am",
@@ -5881,6 +6115,64 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0245
+    }
+   }
+  },
+  {
+   "id": "aecdd1a7f13f043e",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Busta Rhymes Breaks Down ‘Dillagence II’ Album and Writing to J Dilla Beats in Grammy Museum Q&A With Anderson .Paak",
+   "angle": "Busta Rhymes discussed the fundamentals of his new album &#8220;Dillagence II&#8221; last night at Los Angeles&#8217; Grammy Museum, breaking down a handful of key tracks during a Q&#38;A with musician Anderson .Paak…",
+   "bullets": [
+    "Busta Rhymes discussed the fundamentals of his new album &#8220;Dillagence II&#8221; last night at Los Angeles&#8217; Grammy Museum, breaking down a handful of key tracks during a Q&#38;A with musician Anderson .Paak and performing a string of his greatest hits along with a guest appearance from Common.",
+    "On &#8220;Dillagence II,&#8221; which was released in August, [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/music/news/busta-rhymes-discusses-dillagence-ii-j-dilla-grammy-museum-1236903197/",
+   "score": 77.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Busta Rhymes Breaks Down ‘Dillagence II",
+     "Writing",
+     "Anderson",
+     "Busta Rhymes",
+     "Grammy Museum"
+    ],
+    "organizations": [
+     "Grammy Museum Q&A"
+    ],
+    "locations": [
+     "Los Angeles&#8217"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6369,
+    "label": "positive"
+   },
+   "summary": "Busta Rhymes discussed the fundamentals of his new album &#8220;Dillagence II&#8221; last night at Los Angeles&#8217; Grammy Museum, breaking down a handful of key tracks during a Q&#38;A with musician Anderson .Paak and performing a string of his greatest hits along with a guest appearance from Common. On &#8220;Dillagence II,&#8221; which was released in August, [&#8230;]",
+   "cluster_id": "aecdd1a7f13f043e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.040935+00:00",
+    "source_published_at": "2026-10-06T17:53:04+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1955,
+     "ENTERTAINMENT": 0.2334,
+     "BREAKOUT WATCH": 0.185,
+     "LIFESTYLE CHAT": 0.0766,
+     "CANADIAN NEWS": 0.1165,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.193
     }
    }
   },
@@ -10189,6 +10481,57 @@
    }
   },
   {
+   "id": "121629bfb3c9b9ad",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "U.S. person arrested in connection with deadly Tumbler Ridge shooting",
+   "angle": "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wz8mg9/us_person_arrested_in_connection_with_deadly/",
+   "score": 75.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Tumbler Ridge"
+    ],
+    "locations": [
+     "U.S."
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.4767,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]",
+   "cluster_id": "121629bfb3c9b9ad",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:35.952594+00:00",
+    "source_published_at": "2026-10-06T17:27:48+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2861,
+     "ENTERTAINMENT": 0.1255,
+     "BREAKOUT WATCH": 0.2,
+     "LIFESTYLE CHAT": 0.0541,
+     "CANADIAN NEWS": 0.2616,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0727
+    }
+   }
+  },
+  {
    "id": "712b3c7bae676e01",
    "date": "2026-09-22",
    "slot": "am",
@@ -11090,6 +11433,61 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1583
+    }
+   }
+  },
+  {
+   "id": "22fcefdfa409c577",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Noel Gallagher Explains His Mostly Silent Reunion With Liam in Unseen Footage From Oasis Tour Doc: ‘Family Is Different, You Don’t Have to Say Anything’",
+   "angle": "There&#8217;s perhaps a good reason why the long-awaited reunion of Oasis brothers Liam and Noel Gallagher after more than a decade apart wasn&#8217;t filled with emotion or, indeed, a whole lot of conversation, and…",
+   "bullets": [
+    "There&#8217;s perhaps a good reason why the long-awaited reunion of Oasis brothers Liam and Noel Gallagher after more than a decade apart wasn&#8217;t filled with emotion or, indeed, a whole lot of conversation, and it&#8217;s not simply due to the nature of the individuals.",
+    "Noel explained it himself in an unseen clip from &#8220;Oasis: Don&#8217;t [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/noel-gallagher-explains-oasis-reunion-family-is-different-1236902192/",
+   "score": 75.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Noel Gallagher Explains",
+     "Liam",
+     "Noel Gallagher",
+     "Noel"
+    ],
+    "organizations": [],
+    "locations": [
+     "Oasis"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4404,
+    "label": "positive"
+   },
+   "summary": "There&#8217;s perhaps a good reason why the long-awaited reunion of Oasis brothers Liam and Noel Gallagher after more than a decade apart wasn&#8217;t filled with emotion or, indeed, a whole lot of conversation, and it&#8217;s not simply due to the nature of the individuals. Noel explained it himself in an unseen clip from &#8220;Oasis: Don&#8217;t [&#8230;]",
+   "cluster_id": "22fcefdfa409c577",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.165684+00:00",
+    "source_published_at": "2026-10-06T17:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2856,
+     "ENTERTAINMENT": 0.3375,
+     "BREAKOUT WATCH": 0.1143,
+     "LIFESTYLE CHAT": 0.0787,
+     "CANADIAN NEWS": 0.1222,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0618
     }
    }
   },
@@ -12640,6 +13038,64 @@
    }
   },
   {
+   "id": "670d3f239cb210d9",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Inaugural Fantastic: Brasil at Rio Film Festival Creates International Bridge for Latin American Genre Cinema, Announces Winners",
+   "angle": "RIO DE JANEIRO, Brazil – Fantastic:Brasil debuted at this year’s Rio Film Festival as a new industry platform for genre cinema in the largest country in South America. Shelf life through drive time — who is overrated…",
+   "bullets": [
+    "RIO DE JANEIRO, Brazil – Fantastic:Brasil debuted at this year’s Rio Film Festival as a new industry platform for genre cinema in the largest country in South America.",
+    "The initiative is a partnership between the Fantastic Pavilion Cannes, Rio Market, Festival do Rio, FICCI Industria, #LINK Documentary Industry Meeting, Mórbido Film Fest, and Sitges, and [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/inaugural-fantastic-brasil-at-rio-festival-unveils-winners-1236903332/",
+   "score": 74.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Brasil"
+    ],
+    "organizations": [
+     "RIO DE JANEIRO",
+     "the Fantastic Pavilion Cannes",
+     "FICCI Industria"
+    ],
+    "locations": [
+     "Rio Film Festival Creates International Bridge",
+     "Brazil",
+     "South America"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9682,
+    "label": "positive"
+   },
+   "summary": "RIO DE JANEIRO, Brazil – Fantastic:Brasil debuted at this year’s Rio Film Festival as a new industry platform for genre cinema in the largest country in South America. The initiative is a partnership between the Fantastic Pavilion Cannes, Rio Market, Festival do Rio, FICCI Industria, #LINK Documentary Industry Meeting, Mórbido Film Fest, and Sitges, and [&#8230;]",
+   "cluster_id": "670d3f239cb210d9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.946300+00:00",
+    "source_published_at": "2026-10-06T18:58:21+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1077,
+     "ENTERTAINMENT": 0.6459,
+     "BREAKOUT WATCH": 0.101,
+     "LIFESTYLE CHAT": 0.0397,
+     "CANADIAN NEWS": 0.0677,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.038
+    }
+   }
+  },
+  {
    "id": "99c7dcddb17a3579",
    "date": "2026-09-23",
    "slot": "am",
@@ -12990,6 +13446,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.018
+    }
+   }
+  },
+  {
+   "id": "6b0379b98afbd584",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Spartacus’ Creator Steven S. DeKnight, Batman Exec Producer Michael E. Uslan Team for Oni Adventure Comic ‘Dr. Syn’ (Exclusive)",
+   "angle": "The literary hero, forgotten by many, headlined a series of books and plays in the early 20th century. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The literary hero, forgotten by many, headlined a series of books and plays in the early 20th century."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/news/general-news/dr-syn-comic-in-the-works-1236722815/",
+   "score": 74.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Steven S. DeKnight",
+     "Michael E. Uslan Team"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7579,
+    "label": "positive"
+   },
+   "summary": "The literary hero, forgotten by many, headlined a series of books and plays in the early 20th century.",
+   "cluster_id": "6b0379b98afbd584",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.663075+00:00",
+    "source_published_at": "2026-10-06T18:30:33+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2095,
+     "ENTERTAINMENT": 0.3677,
+     "BREAKOUT WATCH": 0.2028,
+     "LIFESTYLE CHAT": 0.0618,
+     "CANADIAN NEWS": 0.0573,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1009
     }
    }
   },
@@ -13646,6 +14152,129 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0821
+    }
+   }
+  },
+  {
+   "id": "dd9f604b62ba1a26",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Jessica Biel to Play Hugh Hefner’s Wife in ‘Playmates’ Movie for Searchlight",
+   "angle": "Jessica Biel has joined the cast of the upcoming film &#8220;Playmates,&#8221; Variety has learned. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Jessica Biel has joined the cast of the upcoming film &#8220;Playmates,&#8221; Variety has learned.",
+    "Biel will now star opposite previously announced cast members Lily-Rose Depp, Bill Pullman, and Indiana Elle.",
+    "The film will mark the feature writing and directorial debut of Lorraine Nicholson."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/jessica-biel-playmates-movie-hugh-hefner-wife-1236902521/",
+   "score": 74.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jessica Biel",
+     "Play Hugh Hefner’s Wife",
+     "Biel",
+     "Lily-Rose Depp",
+     "Bill Pullman",
+     "Indiana Elle",
+     "Lorraine Nicholson"
+    ],
+    "organizations": [
+     "the upcoming film &#",
+     "Variety",
+     "states, &#",
+     "Elle"
+    ],
+    "locations": [
+     "Searchlight"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.34,
+    "label": "positive"
+   },
+   "summary": "Jessica Biel has joined the cast of the upcoming film &#8220;Playmates,&#8221; Variety has learned. Biel will now star opposite previously announced cast members Lily-Rose Depp, Bill Pullman, and Indiana Elle. The film will mark the feature writing and directorial debut of Lorraine Nicholson.",
+   "cluster_id": "dd9f604b62ba1a26",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.885049+00:00",
+    "source_published_at": "2026-10-06T19:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0534,
+     "ENTERTAINMENT": 0.841,
+     "BREAKOUT WATCH": 0.0247,
+     "LIFESTYLE CHAT": 0.0317,
+     "CANADIAN NEWS": 0.0151,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.034
+    }
+   }
+  },
+  {
+   "id": "95fadebc365ea828",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Cynthia Erivo Called Sunny Hostin to Explain Why ‘The View’ Host’s Comments on Cornell 7 Case Sparked Backlash: ‘Lead With Empathy’ and Not the Law",
+   "angle": "&#8220;The View&#8221; co-host Sunny Hostin revealed on the show&#8217;s &#8220;Behind the Table&#8221; podcast (via Entertainment Weekly) that Cynthia Erivo called her with concerns over Hostin&#8217;s viral segment…",
+   "bullets": [
+    "&#8220;The View&#8221; co-host Sunny Hostin revealed on the show&#8217;s &#8220;Behind the Table&#8221; podcast (via Entertainment Weekly) that Cynthia Erivo called her with concerns over Hostin&#8217;s viral segment discussing the Cornell 7 sexual assault case.",
+    "The &#8220;Wicked&#8221; Oscar nominee explained to Hostin why she was getting backlash for her remarks.",
+    "Hostin was accused of defending the [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/sunny-hostin-cornell-7-backlash-cynthia-erivo-called-concerns-1236903245/",
+   "score": 74.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Cynthia Erivo",
+     "Sunny Hostin",
+     "Oscar",
+     "Hostin"
+    ],
+    "organizations": [
+     "Cornell 7 Case Sparked Backlash",
+     "Entertainment Weekly"
+    ],
+    "locations": [
+     "Hostin"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.34,
+    "label": "positive"
+   },
+   "summary": "&#8220;The View&#8221; co-host Sunny Hostin revealed on the show&#8217;s &#8220;Behind the Table&#8221; podcast (via Entertainment Weekly) that Cynthia Erivo called her with concerns over Hostin&#8217;s viral segment discussing the Cornell 7 sexual assault case. The &#8220;Wicked&#8221; Oscar nominee explained to Hostin why she was getting backlash for her remarks. Hostin was accused of defending the [&#8230;]",
+   "cluster_id": "95fadebc365ea828",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.979110+00:00",
+    "source_published_at": "2026-10-06T18:33:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0226,
+     "ENTERTAINMENT": 0.9082,
+     "BREAKOUT WATCH": 0.0206,
+     "LIFESTYLE CHAT": 0.0138,
+     "CANADIAN NEWS": 0.0255,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0093
     }
    }
   },
@@ -17530,6 +18159,55 @@
    }
   },
   {
+   "id": "4e281763a80a7ca8",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Ice cream shop rips rude customers for poor staff treatment in viral post: ‘Grow up and act your age’",
+   "angle": "Boomer Mass-holes beware: an ice cream shop owner is calling out rude customers. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Boomer Mass-holes beware: an ice cream shop owner is calling out rude customers."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/lifestyle/ice-cream-shop-rips-rude-customers-for-in-viral-post/",
+   "score": 73.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Boomer Mass-holes"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8442,
+    "label": "negative"
+   },
+   "summary": "Boomer Mass-holes beware: an ice cream shop owner is calling out rude customers.",
+   "cluster_id": "4e281763a80a7ca8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.564673+00:00",
+    "source_published_at": "2026-10-06T18:55:02+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3265,
+     "ENTERTAINMENT": 0.303,
+     "BREAKOUT WATCH": 0.111,
+     "LIFESTYLE CHAT": 0.1261,
+     "CANADIAN NEWS": 0.0703,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0631
+    }
+   }
+  },
+  {
    "id": "d5860df5a4ef7e24",
    "date": "2026-09-22",
    "slot": "am",
@@ -18300,6 +18978,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0702
+    }
+   }
+  },
+  {
+   "id": "d9c69fab749d2e8b",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Myles Garrett’s girlfriend Chloe Kim reveals life-changing diagnosis after ‘struggling’ for years",
+   "angle": "Olympic snowboarder and Los Angeles star Myles Garrett's girlfriend, Chloe Kim, revealed she was recently diagnosed with a life-changing condition after struggling for years. Shelf life through drive time — who is…",
+   "bullets": [
+    "Olympic snowboarder and Los Angeles star Myles Garrett's girlfriend, Chloe Kim, revealed she was recently diagnosed with a life-changing condition after struggling for years."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/sports/myles-garretts-girlfriend-chloe-kim-reveals-adhd-diagnosis/",
+   "score": 73.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Myles Garrett’s",
+     "Chloe Kim",
+     "Myles Garrett's"
+    ],
+    "organizations": [],
+    "locations": [
+     "Los Angeles"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4215,
+    "label": "negative"
+   },
+   "summary": "Olympic snowboarder and Los Angeles star Myles Garrett's girlfriend, Chloe Kim, revealed she was recently diagnosed with a life-changing condition after struggling for years.",
+   "cluster_id": "d9c69fab749d2e8b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.292554+00:00",
+    "source_published_at": "2026-10-06T19:10:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1893,
+     "ENTERTAINMENT": 0.3407,
+     "BREAKOUT WATCH": 0.1397,
+     "LIFESTYLE CHAT": 0.1466,
+     "CANADIAN NEWS": 0.0574,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1263
     }
    }
   },
@@ -21577,6 +22308,111 @@
    }
   },
   {
+   "id": "2824c1612acfe8cb",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Crunchyroll’s Inaugural Anime Future Forum Hopes to Connect Fans and Creators",
+   "angle": "Anime giant Crunchyroll kicks off its inaugural Anime Future Forum at New York’s Javits Convention Center, on Oct. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Anime giant Crunchyroll kicks off its inaugural Anime Future Forum at New York’s Javits Convention Center, on Oct.",
+    "The event will serve as a precursor to New York’s Comic Con.",
+    "Over 90 companies will be represented, with top anime studios showcased."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/biz/news/crunchyroll-anime-future-forum-1236897800/",
+   "score": 72.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Toho",
+     "Taichi Ueda"
+    ],
+    "organizations": [
+     "Crunchyroll’s Inaugural Anime Future Forum Hopes to Connect Fans",
+     "Creators",
+     "Crunchyroll"
+    ],
+    "locations": [
+     "New York’s",
+     "New York’s Comic Con"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5574,
+    "label": "positive"
+   },
+   "summary": "Anime giant Crunchyroll kicks off its inaugural Anime Future Forum at New York’s Javits Convention Center, on Oct. 7. The event will serve as a precursor to New York’s Comic Con. Over 90 companies will be represented, with top anime studios showcased.",
+   "cluster_id": "2824c1612acfe8cb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.072126+00:00",
+    "source_published_at": "2026-10-06T17:36:47+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1557,
+     "ENTERTAINMENT": 0.5939,
+     "BREAKOUT WATCH": 0.11,
+     "LIFESTYLE CHAT": 0.037,
+     "CANADIAN NEWS": 0.0695,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0339
+    }
+   }
+  },
+  {
+   "id": "af5e7383717bd7fe",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Apple TV’s great year continues with Small Prophets",
+   "angle": "Apple TV has had a really great run in 2026 - and a cozy new addition is helping expand its lineup even more. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Apple TV has had a really great run in 2026 - and a cozy new addition is helping expand its lineup even more.",
+    "As the streaming service has attempted to grow in order to better compete with the likes of Disney and Netflix, it has steadily broadened the range of its series.",
+    "This year has [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/entertainment/1005781/small-prophets-review-apple-tv",
+   "score": 72.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Apple TV’s",
+     "Apple TV",
+     "Disney"
+    ],
+    "locations": [
+     "Netflix"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9565,
+    "label": "positive"
+   },
+   "summary": "Apple TV has had a really great run in 2026 - and a cozy new addition is helping expand its lineup even more. As the streaming service has attempted to grow in order to better compete with the likes of Disney and Netflix, it has steadily broadened the range of its series. This year has [&#8230;]",
+   "cluster_id": "af5e7383717bd7fe",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.843127+00:00",
+    "source_published_at": "2026-10-06T17:15:16+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "bb39c8d28b013f56",
    "date": "2026-09-22",
    "slot": "am",
@@ -22782,6 +23618,56 @@
    }
   },
   {
+   "id": "266af076c8a57d93",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Shia LaBeouf Settles Lawsuit From FKA Twigs Over Illegal NDA",
+   "angle": "The singer-songwriter filed the lawsuit after the actor accused her of violating the terms of a settlement resolving accusations of sexual battery and abuse by LaBeouf. Shelf life through drive time — who is overrated…",
+   "bullets": [
+    "The singer-songwriter filed the lawsuit after the actor accused her of violating the terms of a settlement resolving accusations of sexual battery and abuse by LaBeouf."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/news/general-news/shia-labeouf-settles-lawsuit-from-fka-twigs-illegal-nda-1236723495/",
+   "score": 72.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Shia LaBeouf",
+     "LaBeouf"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9432,
+    "label": "negative"
+   },
+   "summary": "The singer-songwriter filed the lawsuit after the actor accused her of violating the terms of a settlement resolving accusations of sexual battery and abuse by LaBeouf.",
+   "cluster_id": "266af076c8a57d93",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.828648+00:00",
+    "source_published_at": "2026-10-06T17:22:16+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2364,
+     "ENTERTAINMENT": 0.3507,
+     "BREAKOUT WATCH": 0.1607,
+     "LIFESTYLE CHAT": 0.1227,
+     "CANADIAN NEWS": 0.0818,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0477
+    }
+   }
+  },
+  {
    "id": "e3bfeeff0cb2cb50",
    "date": "2026-09-22",
    "slot": "am",
@@ -23408,6 +24294,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.065
+    }
+   }
+  },
+  {
+   "id": "97762483a7b3e64e",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Record Store Day Black Friday 2026 Lineup Unveiled: Noah Kahan, Katseye, Sombr, Springsteen, ‘Wicked,’ ‘KPop Demon Hunters’ and 180 More Exclusives",
+   "angle": "Another Black Friday, another Record Store Day Black Friday&#8230; that also happens to be pink Friday, yellow Friday, silver Friday, crystal clear Friday, &#8220;red and yellow splatter&#8221; Friday, &#8220;organic…",
+   "bullets": [
+    "Another Black Friday, another Record Store Day Black Friday&#8230; that also happens to be pink Friday, yellow Friday, silver Friday, crystal clear Friday, &#8220;red and yellow splatter&#8221; Friday, &#8220;organic earth brown&#8221; Friday, &#8220;sky blue&#8221; Friday, &#8220;black-and-white galaxy&#8221; Friday and&#8230; well, you get the picture.",
+    "But the semiannual Record Store Day sales events in independent retail [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/music/news/record-store-day-black-friday-2026-vinyl-noah-kahan-katseye-1236902199/",
+   "score": 72.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Record Store",
+     "Noah Kahan",
+     "Katseye"
+    ],
+    "organizations": [
+     "Lineup Unveiled"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3291,
+    "label": "positive"
+   },
+   "summary": "Another Black Friday, another Record Store Day Black Friday&#8230; that also happens to be pink Friday, yellow Friday, silver Friday, crystal clear Friday, &#8220;red and yellow splatter&#8221; Friday, &#8220;organic earth brown&#8221; Friday, &#8220;sky blue&#8221; Friday, &#8220;black-and-white galaxy&#8221; Friday and&#8230; well, you get the picture. But the semiannual Record Store Day sales events in independent retail [&#8230;]",
+   "cluster_id": "97762483a7b3e64e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.135011+00:00",
+    "source_published_at": "2026-10-06T17:30:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3122,
+     "ENTERTAINMENT": 0.3319,
+     "BREAKOUT WATCH": 0.0873,
+     "LIFESTYLE CHAT": 0.1486,
+     "CANADIAN NEWS": 0.0904,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0295
     }
    }
   },
@@ -25416,6 +26356,57 @@
    }
   },
   {
+   "id": "b810cf8b3bc6d466",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "NFL Week 5 Survivor picks, analysis: Armageddon of games to sort through",
+   "angle": "NFL Week 5 Survivor picks, analysis: Armageddon of games to sort through. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Everyone survived to Week 5."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/betting/nfl-week-5-survivor-pool-rankings-strategy-advice-and-model-picks/",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Armageddon"
+    ],
+    "organizations": [
+     "NFL"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7003,
+    "label": "positive"
+   },
+   "summary": "Everyone survived to Week 5.",
+   "cluster_id": "b810cf8b3bc6d466",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.219197+00:00",
+    "source_published_at": "2026-10-06T19:16:04+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5721,
+     "ENTERTAINMENT": 0.0938,
+     "BREAKOUT WATCH": 0.1313,
+     "LIFESTYLE CHAT": 0.073,
+     "CANADIAN NEWS": 0.0923,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0375
+    }
+   }
+  },
+  {
    "id": "2b1017331325ea6e",
    "date": "2026-09-22",
    "slot": "am",
@@ -25972,6 +26963,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1364
+    }
+   }
+  },
+  {
+   "id": "ea23e16a0bf989c5",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Andrew Scott on ‘Elsinore’ and Being an Out Gay Actor in 2026: “I’ve Been Able to Thrive in This Situation, and That Feels Genuinely Extraordinary”",
+   "angle": "Scott, previously best known for playing the (hot) priest in 'Fleabag,' says of Ian Charleson, the 'Chariots of Fire' actor he plays in 'Elsinore' whose opportunities were limited because he was gay: \"I thought when I…",
+   "bullets": [
+    "Scott, previously best known for playing the (hot) priest in 'Fleabag,' says of Ian Charleson, the 'Chariots of Fire' actor he plays in 'Elsinore' whose opportunities were limited because he was gay: \"I thought when I was starting out that that was my fate too, but bit by bit, for whatever reason, that's turned out not to be the case.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/andrew-scott-on-elsinore-and-being-an-out-gay-actor-in-2026-1236722049/",
+   "score": 71.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Andrew Scott",
+     "Ian Charleson"
+    ],
+    "organizations": [
+     "Scott",
+     "the 'Chariots of Fire'"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4854,
+    "label": "positive"
+   },
+   "summary": "Scott, previously best known for playing the (hot) priest in 'Fleabag,' says of Ian Charleson, the 'Chariots of Fire' actor he plays in 'Elsinore' whose opportunities were limited because he was gay: \"I thought when I was starting out that that was my fate too, but bit by bit, for whatever reason, that's turned out not to be the case.\"",
+   "cluster_id": "ea23e16a0bf989c5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.696271+00:00",
+    "source_published_at": "2026-10-06T18:30:18+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0902,
+     "ENTERTAINMENT": 0.5373,
+     "BREAKOUT WATCH": 0.0935,
+     "LIFESTYLE CHAT": 0.1329,
+     "CANADIAN NEWS": 0.0557,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0904
     }
    }
   },
@@ -28881,6 +29925,61 @@
    }
   },
   {
+   "id": "aa05124f99b96317",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Meghan Markle gives rare listen to 5-year-old Princess Lilibet’s voice in sweet home video",
+   "angle": "The Duchess of Sussex and her husband, Prince Harry, share Lilibet and 7-year-old son, Archie. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Duchess of Sussex and her husband, Prince Harry, share Lilibet and 7-year-old son, Archie."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/06/royal-family/meghan-markle-gives-rare-listen-to-5-year-old-princess-lilibets-voice-in-sweet-home-video/",
+   "score": 71.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Prince Harry"
+    ],
+    "organizations": [
+     "Meghan Markle",
+     "The Duchess of Sussex",
+     "Archie"
+    ],
+    "locations": [
+     "Lilibet"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6369,
+    "label": "positive"
+   },
+   "summary": "The Duchess of Sussex and her husband, Prince Harry, share Lilibet and 7-year-old son, Archie.",
+   "cluster_id": "aa05124f99b96317",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.442825+00:00",
+    "source_published_at": "2026-10-06T19:01:25+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1818,
+     "ENTERTAINMENT": 0.5261,
+     "BREAKOUT WATCH": 0.0631,
+     "LIFESTYLE CHAT": 0.0819,
+     "CANADIAN NEWS": 0.0953,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0519
+    }
+   }
+  },
+  {
    "id": "5f34cfe4eeaaf186",
    "date": "2026-09-22",
    "slot": "am",
@@ -29791,6 +30890,112 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.195
+    }
+   }
+  },
+  {
+   "id": "cc82af181e54e6ed",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Moment boat smuggling 14 illegal immigrants intercepted off Newport Beach in latest federal takedown",
+   "angle": "New bodycam video shows the dicey moment federal agents with guns drawn boarded a suspected human trafficking boat. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "New bodycam video shows the dicey moment federal agents with guns drawn boarded a suspected human trafficking boat."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/us-news/boat-smuggling-14-illegal-immigrants-intercepted-off-newport-beach-in-latest-federal-takedown/",
+   "score": 71.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Newport Beach"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8225,
+    "label": "negative"
+   },
+   "summary": "New bodycam video shows the dicey moment federal agents with guns drawn boarded a suspected human trafficking boat.",
+   "cluster_id": "cc82af181e54e6ed",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.393096+00:00",
+    "source_published_at": "2026-10-06T19:04:37+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4565,
+     "ENTERTAINMENT": 0.2378,
+     "BREAKOUT WATCH": 0.0868,
+     "LIFESTYLE CHAT": 0.0596,
+     "CANADIAN NEWS": 0.0803,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0789
+    }
+   }
+  },
+  {
+   "id": "b42a7d83bb76269b",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Warner Bros. Water Tower Already Repainted to Add ‘A Skydance Corporation’ After Merger Closes",
+   "angle": "David Ellison wasted no time in adding the Skydance name to the iconic Warner Bros. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "David Ellison wasted no time in adding the Skydance name to the iconic Warner Bros.",
+    "water tower in Burbank.",
+    "On Tuesday morning, shortly after Paramount officially closed its $111 billion merger with Warner Bros."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/warner-bros-water-tower-repainted-skydance-corporation-merger-1236902751/",
+   "score": 71.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "David Ellison"
+    ],
+    "organizations": [
+     "Warner Bros.",
+     "Paramount",
+     "Warner Bros. Discovery"
+    ],
+    "locations": [
+     "Burbank"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6249,
+    "label": "negative"
+   },
+   "summary": "David Ellison wasted no time in adding the Skydance name to the iconic Warner Bros. water tower in Burbank. On Tuesday morning, shortly after Paramount officially closed its $111 billion merger with Warner Bros. Discovery to form Skydance, the famous landmark on the Warner Bros. studio lot was updated with a new line: &#8220;A Skydance [&#8230;]",
+   "cluster_id": "b42a7d83bb76269b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.101492+00:00",
+    "source_published_at": "2026-10-06T17:32:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2184,
+     "ENTERTAINMENT": 0.4386,
+     "BREAKOUT WATCH": 0.085,
+     "LIFESTYLE CHAT": 0.0579,
+     "CANADIAN NEWS": 0.1293,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0709
     }
    }
   },
@@ -36645,6 +37850,56 @@
    }
   },
   {
+   "id": "533838e9d8b807ba",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "DePaul’s Alumni Vision Fund Is Helping Filmmakers Take the Next Step",
+   "angle": "With professional production resources, industry mentorship and financial support, DePaul’s School of Cinematic Arts is investing in its filmmakers long after graduation. Shelf life through drive time — who is…",
+   "bullets": [
+    "With professional production resources, industry mentorship and financial support, DePaul’s School of Cinematic Arts is investing in its filmmakers long after graduation."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/news/general-news/depaul-alumni-vision-fund-1236709822/",
+   "score": 70.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "DePaul’s Alumni Vision Fund Is Helping Filmmakers Take",
+     "DePaul’s School of Cinematic Arts"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7096,
+    "label": "positive"
+   },
+   "summary": "With professional production resources, industry mentorship and financial support, DePaul’s School of Cinematic Arts is investing in its filmmakers long after graduation.",
+   "cluster_id": "533838e9d8b807ba",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.614846+00:00",
+    "source_published_at": "2026-10-06T18:41:55+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1407,
+     "ENTERTAINMENT": 0.6095,
+     "BREAKOUT WATCH": 0.0534,
+     "LIFESTYLE CHAT": 0.0709,
+     "CANADIAN NEWS": 0.0818,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0438
+    }
+   }
+  },
+  {
    "id": "8c7e415ef0c92b5d",
    "date": "2026-09-22",
    "slot": "am",
@@ -39784,6 +41039,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0951
+    }
+   }
+  },
+  {
+   "id": "40e1bbf9b5b8e5fe",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Peacock’s ‘The Good Daughter’ Trailer: Rose Byrne, Meghann Fahy Attempt to Solve Small-Town Murder in Suspenseful Thriller Series",
+   "angle": "The limited series is is adapted from Karin Slaughter‘s bestselling novel. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The limited series is is adapted from Karin Slaughter‘s bestselling novel."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/peacocks-the-good-daughter-trailer-rose-byrne-meghann-fahy-1236723543/",
+   "score": 69.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rose Byrne",
+     "Meghann Fahy Attempt",
+     "Solve Small-Town Murder"
+    ],
+    "organizations": [
+     "Peacock’s ‘The Good Daughter’ Trailer",
+     "Karin Slaughter‘s"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0516,
+    "label": "negative"
+   },
+   "summary": "The limited series is is adapted from Karin Slaughter‘s bestselling novel.",
+   "cluster_id": "40e1bbf9b5b8e5fe",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.638504+00:00",
+    "source_published_at": "2026-10-06T18:36:26+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2085,
+     "ENTERTAINMENT": 0.3965,
+     "BREAKOUT WATCH": 0.1096,
+     "LIFESTYLE CHAT": 0.0975,
+     "CANADIAN NEWS": 0.1391,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0489
     }
    }
   },
@@ -43775,6 +45084,57 @@
    }
   },
   {
+   "id": "e2d1f13a9b152202",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Guest makes shocking joke during speech at OnlyFans star Annie Knight’s wedding",
+   "angle": "The lavish $180,000 affair saw the high-earning adult content creator marry her long-time partner in front of 72 close friends and family members. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "The lavish $180,000 affair saw the high-earning adult content creator marry her long-time partner in front of 72 close friends and family members."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/lifestyle/guest-makes-shocking-joke-during-speech-at-onlyfans-star-annie-knights-wedding/",
+   "score": 68.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Annie Knight"
+    ],
+    "organizations": [
+     "Guest"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3818,
+    "label": "positive"
+   },
+   "summary": "The lavish $180,000 affair saw the high-earning adult content creator marry her long-time partner in front of 72 close friends and family members.",
+   "cluster_id": "e2d1f13a9b152202",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.244718+00:00",
+    "source_published_at": "2026-10-06T19:14:40+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0503,
+     "ENTERTAINMENT": 0.7581,
+     "BREAKOUT WATCH": 0.0789,
+     "LIFESTYLE CHAT": 0.0567,
+     "CANADIAN NEWS": 0.0331,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0228
+    }
+   }
+  },
+  {
    "id": "33934d30d0424581",
    "date": "2026-09-22",
    "slot": "am",
@@ -45609,6 +46969,109 @@
    }
   },
   {
+   "id": "a45be082717b9afa",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Tear gas in Paris and Marseille as school protests grow across France",
+   "angle": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c8x23706pvz3o?at_medium=RSS&at_campaign=rss",
+   "score": 68.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Marseille"
+    ],
+    "locations": [
+     "Paris",
+     "France"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5423,
+    "label": "negative"
+   },
+   "summary": "Crowds of mainly teenagers called for more resources for schools and an end to what they called police repression.",
+   "cluster_id": "a45be082717b9afa",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.190040+00:00",
+    "source_published_at": "2026-10-06T18:03:19+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.32,
+     "ENTERTAINMENT": 0.227,
+     "BREAKOUT WATCH": 0.1209,
+     "LIFESTYLE CHAT": 0.1071,
+     "CANADIAN NEWS": 0.1299,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0951
+    }
+   }
+  },
+  {
+   "id": "2c2a397f7c2ad0c4",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Asos confirms hackers sent 'unauthorised' notification to app users",
+   "angle": "Asos confirmed an \"unauthorised customer notification\" was sent out via its app on Tuesday, after users raised alarm. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Asos confirmed an \"unauthorised customer notification\" was sent out via its app on Tuesday, after users raised alarm."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cj62ylzpr6d3o?at_medium=RSS&at_campaign=rss",
+   "score": 68.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Asos"
+    ],
+    "organizations": [
+     "Asos"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.34,
+    "label": "negative"
+   },
+   "summary": "Asos confirmed an \"unauthorised customer notification\" was sent out via its app on Tuesday, after users raised alarm.",
+   "cluster_id": "2c2a397f7c2ad0c4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.256909+00:00",
+    "source_published_at": "2026-10-06T17:50:19+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2906,
+     "ENTERTAINMENT": 0.2466,
+     "BREAKOUT WATCH": 0.201,
+     "LIFESTYLE CHAT": 0.0694,
+     "CANADIAN NEWS": 0.0941,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0984
+    }
+   }
+  },
+  {
    "id": "955c2dd1c816b15a",
    "date": "2026-09-22",
    "slot": "am",
@@ -46444,6 +47907,56 @@
    }
   },
   {
+   "id": "7afb2edd5456a1f3",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "AppLovin allegedly served ‘obscene’ ads to kids, ‘graphic depictions of sex’: lawsuit",
+   "angle": "Digital advertising giant AppLovin has allegedly been serving sexually explicit and violent ads in games played by kids – all while bypassing parental controls meant to shield them. Ask the phones: would you film it…",
+   "bullets": [
+    "Digital advertising giant AppLovin has allegedly been serving sexually explicit and violent ads in games played by kids – all while bypassing parental controls meant to shield them."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/business/applovin-allegedly-serving-obscene-ads-to-kids/",
+   "score": 68.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "AppLovin",
+     "Digital"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5267,
+    "label": "negative"
+   },
+   "summary": "Digital advertising giant AppLovin has allegedly been serving sexually explicit and violent ads in games played by kids – all while bypassing parental controls meant to shield them.",
+   "cluster_id": "7afb2edd5456a1f3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.367567+00:00",
+    "source_published_at": "2026-10-06T19:06:01+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.38,
+     "ENTERTAINMENT": 0.1683,
+     "BREAKOUT WATCH": 0.1769,
+     "LIFESTYLE CHAT": 0.0824,
+     "CANADIAN NEWS": 0.1456,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0468
+    }
+   }
+  },
+  {
    "id": "c9a5cb0e9cecf47e",
    "date": "2026-09-22",
    "slot": "am",
@@ -46725,6 +48238,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0119
+    }
+   }
+  },
+  {
+   "id": "8371dd9bdde4db99",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Jane Austen popcorn bucket sparks buying frenzy, debate among lit purists: ‘Where I draw the line.’",
+   "angle": "\"Sense and Sensibility\" is getting its own popcorn bucket. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "\"Sense and Sensibility\" is getting its own popcorn bucket.",
+    "Jane Austen purists are concerned."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/lifestyle/jane-austen-popcorn-bucket-sparks-buying-frenzy/",
+   "score": 68.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jane Austen"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3182,
+    "label": "negative"
+   },
+   "summary": "\"Sense and Sensibility\" is getting its own popcorn bucket. Jane Austen purists are concerned.",
+   "cluster_id": "8371dd9bdde4db99",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.318467+00:00",
+    "source_published_at": "2026-10-06T19:08:05+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5369,
+     "ENTERTAINMENT": 0.2115,
+     "BREAKOUT WATCH": 0.0521,
+     "LIFESTYLE CHAT": 0.0944,
+     "CANADIAN NEWS": 0.0601,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.045
     }
    }
   },
@@ -49770,6 +51333,57 @@
    }
   },
   {
+   "id": "2ebe0ca3a19409ea",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Seahawks pull about-face on Joe Mixon signing in surprise twist",
+   "angle": "Seahawks pull about-face on Joe Mixon signing in surprise twist. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "His NFL comeback has been put on hold."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/sports/seahawks-pull-about-face-on-joe-mixon-signing-in-surprise-twist/",
+   "score": 67.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Joe Mixon"
+    ],
+    "organizations": [
+     "NFL"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "His NFL comeback has been put on hold.",
+   "cluster_id": "2ebe0ca3a19409ea",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.267312+00:00",
+    "source_published_at": "2026-10-06T19:13:31+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2198,
+     "ENTERTAINMENT": 0.4671,
+     "BREAKOUT WATCH": 0.118,
+     "LIFESTYLE CHAT": 0.053,
+     "CANADIAN NEWS": 0.0721,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0701
+    }
+   }
+  },
+  {
    "id": "b08176469d7cf71e",
    "date": "2026-09-22",
    "slot": "am",
@@ -50316,6 +51930,55 @@
    }
   },
   {
+   "id": "fafc4792c05d089a",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Madison LeCroy compared these $6 T-shirts to Skims, and now our team buys them in bulk",
+   "angle": "\"These shirts are so flattering, so soft and so affordable,\" one staffer raved, after buying them in multiple colors. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "\"These shirts are so flattering, so soft and so affordable,\" one staffer raved, after buying them in multiple colors."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/06/style/madison-lecroy-favorite-trendy-queen-t-shirt-is-6-at-october-prime-day/",
+   "score": 67.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Madison LeCroy"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4572,
+    "label": "positive"
+   },
+   "summary": "\"These shirts are so flattering, so soft and so affordable,\" one staffer raved, after buying them in multiple colors.",
+   "cluster_id": "fafc4792c05d089a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.589862+00:00",
+    "source_published_at": "2026-10-06T18:51:10+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.396,
+     "ENTERTAINMENT": 0.1465,
+     "BREAKOUT WATCH": 0.066,
+     "LIFESTYLE CHAT": 0.077,
+     "CANADIAN NEWS": 0.1767,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1379
+    }
+   }
+  },
+  {
    "id": "88bd7e060ce2d27a",
    "date": "2026-09-23",
    "slot": "am",
@@ -50805,6 +52468,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1338
+    }
+   }
+  },
+  {
+   "id": "c41c341b2c71cf03",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "U.S. suspect charged with conspiracy in Tumbler Ridge mass shooting.",
+   "angle": "U.S. suspect charged with conspiracy in Tumbler Ridge mass shooting.. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "&#32; submitted by &#32; /u/MrLyle [link] &#32; [comments]"
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wza7s8/us_suspect_charged_with_conspiracy_in_tumbler/",
+   "score": 67.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "MrLyle"
+    ],
+    "organizations": [
+     "/u/"
+    ],
+    "locations": [
+     "U.S.",
+     "Tumbler Ridge"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7506,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/MrLyle [link] &#32; [comments]",
+   "cluster_id": "c41c341b2c71cf03",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.048076+00:00",
+    "source_published_at": "2026-10-06T18:27:55+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2442,
+     "ENTERTAINMENT": 0.0943,
+     "BREAKOUT WATCH": 0.2941,
+     "LIFESTYLE CHAT": 0.0433,
+     "CANADIAN NEWS": 0.2633,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0609
     }
    }
   },
@@ -54313,6 +56030,68 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1662
+    }
+   }
+  },
+  {
+   "id": "d66e2046634c9942",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "RedBird Ponied Up $4 Billion to Fund Paramount’s Warner Bros. Discovery Takeover",
+   "angle": "RedBird Capital Partners, led by Gerry Cardinale, invested $4 billion into Paramount&#8217;s deal to merge with Warner Bros. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "RedBird Capital Partners, led by Gerry Cardinale, invested $4 billion into Paramount&#8217;s deal to merge with Warner Bros.",
+    "Discovery, the biggest Hollywood M&#38;A deal in history, a source familiar with the deal confirmed to Variety.",
+    "RedBird had already invested $2 billion in David Ellison&#8217;s Skydance Media for its takeover of Paramount Global, a deal that [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/redbird-4-billion-investment-paramount-warner-bros-discovery-merger-1236902647/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "RedBird Ponied",
+     "Gerry Cardinale"
+    ],
+    "organizations": [
+     "Warner Bros. Discovery Takeover",
+     "Capital Partners",
+     "Warner Bros. Discovery",
+     "Variety",
+     "RedBird",
+     "Paramount Global"
+    ],
+    "locations": [
+     "Hollywood",
+     "David"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "RedBird Capital Partners, led by Gerry Cardinale, invested $4 billion into Paramount&#8217;s deal to merge with Warner Bros. Discovery, the biggest Hollywood M&#38;A deal in history, a source familiar with the deal confirmed to Variety. RedBird had already invested $2 billion in David Ellison&#8217;s Skydance Media for its takeover of Paramount Global, a deal that [&#8230;]",
+   "cluster_id": "d66e2046634c9942",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.008472+00:00",
+    "source_published_at": "2026-10-06T18:17:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2247,
+     "ENTERTAINMENT": 0.503,
+     "BREAKOUT WATCH": 0.0691,
+     "LIFESTYLE CHAT": 0.0499,
+     "CANADIAN NEWS": 0.1069,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0464
     }
    }
   },
@@ -58916,6 +60695,60 @@
    }
   },
   {
+   "id": "89711aa71811e60c",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "David Ellison Rallies the Troops at Warner Bros.’ Lot",
+   "angle": "\"It wasn’t easy to get here,\" the Skydance CEO said to the Burbank crowd. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "\"It wasn’t easy to get here,\" the Skydance CEO said to the Burbank crowd.",
+    "\"At times it was downright ugly.",
+    "And at nearly every turn, someone told us it couldn’t be done."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/business/business-news/david-ellison-warner-bros-lot-1236723566/",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "David Ellison"
+    ],
+    "organizations": [
+     "Warner Bros.’ Lot",
+     "Burbank"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.1027,
+    "label": "negative"
+   },
+   "summary": "\"It wasn’t easy to get here,\" the Skydance CEO said to the Burbank crowd. \"At times it was downright ugly. And at nearly every turn, someone told us it couldn’t be done.",
+   "cluster_id": "89711aa71811e60c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.723210+00:00",
+    "source_published_at": "2026-10-06T18:15:36+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1401,
+     "ENTERTAINMENT": 0.4115,
+     "BREAKOUT WATCH": 0.1156,
+     "LIFESTYLE CHAT": 0.1857,
+     "CANADIAN NEWS": 0.0734,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0737
+    }
+   }
+  },
+  {
    "id": "74f5d1c0406773e9",
    "date": "2026-09-22",
    "slot": "am",
@@ -59999,6 +61832,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0482
+    }
+   }
+  },
+  {
+   "id": "31d7c1400049f30c",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Nets vs. Hornets prediction: Brooklyn’s newfound culture will show in preseason",
+   "angle": "Nets vs. Hornets prediction: Brooklyn’s newfound culture will show in preseason. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Basketball is back ..."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/betting/nets-vs-hornets-prediction-nba-preseason-odds-picks-best-bets/",
+   "score": 65.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Brooklyn"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "Basketball is back ... well, almost.",
+   "cluster_id": "31d7c1400049f30c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.465584+00:00",
+    "source_published_at": "2026-10-06T19:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1877,
+     "ENTERTAINMENT": 0.5861,
+     "BREAKOUT WATCH": 0.109,
+     "LIFESTYLE CHAT": 0.0232,
+     "CANADIAN NEWS": 0.0748,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0193
     }
    }
   },
@@ -61786,6 +63668,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0429
+    }
+   }
+  },
+  {
+   "id": "681ee69d95e41aa0",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Chiefs owner’s wife is ‘so sick’ of the narrative that plagues team",
+   "angle": "Chiefs owner’s wife is ‘so sick’ of the narrative that plagues team. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Tavia Hunt is backing her team once again."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/sports/tavia-hunt-wife-of-chiefs-owner-rails-against-narrative-dogging-team/",
+   "score": 65.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Tavia Hunt"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0258,
+    "label": "neutral"
+   },
+   "summary": "Tavia Hunt is backing her team once again.",
+   "cluster_id": "681ee69d95e41aa0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.341213+00:00",
+    "source_published_at": "2026-10-06T19:06:15+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3254,
+     "ENTERTAINMENT": 0.5049,
+     "BREAKOUT WATCH": 0.0631,
+     "LIFESTYLE CHAT": 0.0446,
+     "CANADIAN NEWS": 0.0188,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0431
     }
    }
   },
@@ -63867,6 +65798,57 @@
    }
   },
   {
+   "id": "93ce538d47ad0168",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Canada's Bill C-22 could drive out a tool 20 million people use to beat censorship",
+   "angle": "&#32; submitted by &#32; /u/SaveDnet-FRed0 [link] &#32; [comments]. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/SaveDnet-FRed0 [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wz9lnl/canadas_bill_c22_could_drive_out_a_tool_20/",
+   "score": 65.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Bill C-22"
+    ],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/SaveDnet-FRed0 [link] &#32; [comments]",
+   "cluster_id": "93ce538d47ad0168",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:35.905241+00:00",
+    "source_published_at": "2026-10-06T18:05:04+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1826,
+     "ENTERTAINMENT": 0.0821,
+     "BREAKOUT WATCH": 0.1442,
+     "LIFESTYLE CHAT": 0.2747,
+     "CANADIAN NEWS": 0.2055,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1108
+    }
+   }
+  },
+  {
    "id": "c60860e1813f6cf8",
    "date": "2026-09-23",
    "slot": "am",
@@ -63953,6 +65935,49 @@
      "SPORTS": 0.0,
      "CLOSER": 0.0198
     }
+   }
+  },
+  {
+   "id": "5a1d86471012cc16",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Neutrino physicist wins 2026 Nobel Physics Prize",
+   "angle": "Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/science/2026/10/neutrino-physicist-wins-2026-nobel-physics-prize/",
+   "score": 64.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Francis Halzen"
+    ],
+    "organizations": [
+     "University of Wisconsin-Madison",
+     "IceCube Neutrino Observatory"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7906,
+    "label": "positive"
+   },
+   "summary": "Francis Halzen of University of Wisconsin-Madison led development of IceCube Neutrino Observatory.",
+   "cluster_id": "5a1d86471012cc16",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.961793+00:00",
+    "source_published_at": "2026-10-06T16:53:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -64506,6 +66531,110 @@
     "ingested_at": "2026-09-26T09:07:52.377982+00:00",
     "source_published_at": "2026-09-25T21:36:20+00:00",
     "pipeline_version": "1.1.0"
+   }
+  },
+  {
+   "id": "1cd983037582197c",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "U.S. police arrest suspect from Washington state in connection with Tumbler Ridge shooting",
+   "angle": "A 30-year-old person was charged with conspiracy to murder in the attack that left eight people dead. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "A 30-year-old person was charged with conspiracy to murder in the attack that left eight people dead"
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-us-police-arrest-man-washington-state-connection-with-tumbler-ridge/",
+   "score": 64.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Tumbler Ridge"
+    ],
+    "locations": [
+     "U.S.",
+     "Washington"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9678,
+    "label": "negative"
+   },
+   "summary": "A 30-year-old person was charged with conspiracy to murder in the attack that left eight people dead",
+   "cluster_id": "1cd983037582197c",
+   "related_count": 1,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:35.046918+00:00",
+    "source_published_at": "2026-10-06T18:01:22+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2347,
+     "ENTERTAINMENT": 0.0584,
+     "BREAKOUT WATCH": 0.3796,
+     "LIFESTYLE CHAT": 0.0398,
+     "CANADIAN NEWS": 0.2157,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0718
+    }
+   }
+  },
+  {
+   "id": "66e669379c8da629",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "U.S. police arrest suspect from Washington state in connection with Tumbler Ridge shooting",
+   "angle": "A 30-year-old person was charged with conspiracy to murder in the February attack that left eight people dead. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "A 30-year-old person was charged with conspiracy to murder in the February attack that left eight people dead"
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-us-police-arrest-person-washington-tumbler-ridge-shooting/",
+   "score": 64.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Tumbler Ridge"
+    ],
+    "locations": [
+     "U.S.",
+     "Washington"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9678,
+    "label": "negative"
+   },
+   "summary": "A 30-year-old person was charged with conspiracy to murder in the February attack that left eight people dead",
+   "cluster_id": "1cd983037582197c",
+   "related_count": 1,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:35.072289+00:00",
+    "source_published_at": "2026-10-06T19:12:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2347,
+     "ENTERTAINMENT": 0.0584,
+     "BREAKOUT WATCH": 0.3796,
+     "LIFESTYLE CHAT": 0.0398,
+     "CANADIAN NEWS": 0.2157,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0718
+    }
    }
   },
   {
@@ -65303,6 +67432,51 @@
    }
   },
   {
+   "id": "3576ef26697de250",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "The Sonos Beam 2 soundbar is $140 off",
+   "angle": "The Sonos Beam Gen 2 soundbar is on sale for $359 at Amazon and Best Buy during October Prime Day, a healthy $140 discount from its usual price, and $10 lower than the previous Prime Day price. Explain it like a…",
+   "bullets": [
+    "The Sonos Beam Gen 2 soundbar is on sale for $359 at Amazon and Best Buy during October Prime Day, a healthy $140 discount from its usual price, and $10 lower than the previous Prime Day price.",
+    "The biggest draw here may be obvious — its native connectivity to other Sonos products — though it’s [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/gadgets/1004180/sonos-beam-2-soundbar-prime-day-deal-sale",
+   "score": 64.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Best Buy"
+    ],
+    "organizations": [
+     "The Sonos Beam",
+     "Amazon",
+     "Sonos"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7506,
+    "label": "positive"
+   },
+   "summary": "The Sonos Beam Gen 2 soundbar is on sale for $359 at Amazon and Best Buy during October Prime Day, a healthy $140 discount from its usual price, and $10 lower than the previous Prime Day price. The biggest draw here may be obvious — its native connectivity to other Sonos products — though it’s [&#8230;]",
+   "cluster_id": "3576ef26697de250",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.671478+00:00",
+    "source_published_at": "2026-10-06T19:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "04f7c1dab287fc62",
    "date": "2026-09-22",
    "slot": "am",
@@ -65538,6 +67712,48 @@
    "meta": {
     "ingested_at": "2026-09-28T20:29:04.897017+00:00",
     "source_published_at": "2026-09-28T17:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "c1fc42cacb7bff98",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "The best October Prime Day tech deals we found",
+   "angle": "Amazon’s Prime Big Deal Days event has begun, and it lasts through 3AM ET on Thursday, October 8th. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Amazon’s Prime Big Deal Days event has begun, and it lasts through 3AM ET on Thursday, October 8th.",
+    "We’ve spun through the company’s huge list of deals to find products that Verge readers will like (and that we personally like, too).",
+    "Prime subscribers can get in on plenty of headphone deals, plus some great products [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/gadgets/996983/best-october-prime-day-deal-sale-tech",
+   "score": 64.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Amazon"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9393,
+    "label": "positive"
+   },
+   "summary": "Amazon’s Prime Big Deal Days event has begun, and it lasts through 3AM ET on Thursday, October 8th. We’ve spun through the company’s huge list of deals to find products that Verge readers will like (and that we personally like, too). Prime subscribers can get in on plenty of headphone deals, plus some great products [&#8230;]",
+   "cluster_id": "c1fc42cacb7bff98",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.700539+00:00",
+    "source_published_at": "2026-10-06T18:35:04+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -68549,6 +70765,56 @@
    }
   },
   {
+   "id": "1d80b15af02709ce",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "NFL refs push back against suspensions after heated Week 4 scenes",
+   "angle": "The NFL Referees Association plans to challenge the suspensions handed to two officials on Monday. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The NFL Referees Association plans to challenge the suspensions handed to two officials on Monday."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/sports/nfl-refs-push-back-on-suspensions-after-heated-week-4-scenes/",
+   "score": 63.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "NFL",
+     "The NFL Referees Association"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0772,
+    "label": "positive"
+   },
+   "summary": "The NFL Referees Association plans to challenge the suspensions handed to two officials on Monday.",
+   "cluster_id": "1d80b15af02709ce",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.514486+00:00",
+    "source_published_at": "2026-10-06T18:59:04+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4183,
+     "ENTERTAINMENT": 0.1433,
+     "BREAKOUT WATCH": 0.161,
+     "LIFESTYLE CHAT": 0.1063,
+     "CANADIAN NEWS": 0.0962,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0748
+    }
+   }
+  },
+  {
    "id": "321c1f0bfff39700",
    "date": "2026-09-22",
    "slot": "am",
@@ -69247,6 +71513,49 @@
    "meta": {
     "ingested_at": "2026-10-06T17:02:52.647905+00:00",
     "source_published_at": "2026-10-06T17:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "415ae206d2bb725a",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Samsung’s Z Fold 8 is hundreds off ahead of iPhone Duo launch",
+   "angle": "I don’t suppose there are many iPhone users who might be tempted by the Samsung Galaxy Z Fold 8 now that the iPhone Duo is both real and coming very soon. Explain it like a coworker Slack rant: helpful tool or creep…",
+   "bullets": [
+    "I don’t suppose there are many iPhone users who might be tempted by the Samsung Galaxy Z Fold 8 now that the iPhone Duo is both real and coming very soon.",
+    "But if you’ll entertain a great deal, there are big discounts happening for both the passport-style Z Fold 8 and the slimmer, taller Z [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/gadgets/1005524/samsung-z-fold-8-ultra-foldable-prime-day-deal-sale",
+   "score": 63.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Samsung’s Z Fold 8",
+     "the Samsung Galaxy Z Fold 8",
+     "the iPhone Duo"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8625,
+    "label": "positive"
+   },
+   "summary": "I don’t suppose there are many iPhone users who might be tempted by the Samsung Galaxy Z Fold 8 now that the iPhone Duo is both real and coming very soon. But if you’ll entertain a great deal, there are big discounts happening for both the passport-style Z Fold 8 and the slimmer, taller Z [&#8230;]",
+   "cluster_id": "415ae206d2bb725a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.757677+00:00",
+    "source_published_at": "2026-10-06T18:00:00+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -70916,6 +73225,46 @@
    "meta": {
     "ingested_at": "2026-10-06T17:02:53.252837+00:00",
     "source_published_at": "2026-10-06T13:29:46+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "222967f5fe134507",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Support Ars and get a better reading experience in return",
+   "angle": "ArsPro gives you more ways to read while directly supporting our journalism. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "ArsPro gives you more ways to read while directly supporting our journalism."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/staff/2026/10/make-ars-better-with-an-arspro-subscription/",
+   "score": 63.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "ArsPro"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8176,
+    "label": "positive"
+   },
+   "summary": "ArsPro gives you more ways to read while directly supporting our journalism.",
+   "cluster_id": "222967f5fe134507",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.918752+00:00",
+    "source_published_at": "2026-10-06T17:21:15+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -75308,6 +77657,152 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0453
+    }
+   }
+  },
+  {
+   "id": "60e4f098810a6976",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "47 editor-approved Prime Day luggage and travel deals are flying off the shelves",
+   "angle": "Prime Day travel deals just landed — here’s what our editors take everywhere. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Prime Day travel deals just landed — here’s what our editors take everywhere."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/shopping/amazon-prime-big-deal-days-luggage-travel-deals-october-2026/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Prime Day travel deals just landed — here’s what our editors take everywhere.",
+   "cluster_id": "60e4f098810a6976",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.418290+00:00",
+    "source_published_at": "2026-10-06T19:04:34+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0764,
+     "ENTERTAINMENT": 0.6674,
+     "BREAKOUT WATCH": 0.0807,
+     "LIFESTYLE CHAT": 0.0858,
+     "CANADIAN NEWS": 0.0512,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0385
+    }
+   }
+  },
+  {
+   "id": "5f5cb2e56300843d",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Roll-out begins for passport-free airport e-gates",
+   "angle": "The system uses facial technology to check travellers against immigration and passport information. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The system uses facial technology to check travellers against immigration and passport information."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmp3g5qg1gxzo?at_medium=RSS&at_campaign=rss",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The system uses facial technology to check travellers against immigration and passport information.",
+   "cluster_id": "5f5cb2e56300843d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.585856+00:00",
+    "source_published_at": "2026-10-06T17:38:29+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2962,
+     "ENTERTAINMENT": 0.1389,
+     "BREAKOUT WATCH": 0.139,
+     "LIFESTYLE CHAT": 0.0664,
+     "CANADIAN NEWS": 0.2619,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0976
+    }
+   }
+  },
+  {
+   "id": "29161196f3913aa0",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Feds give U.S. owner of Stelco 5 days to explain planned layoffs at Hamilton plant",
+   "angle": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]"
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1wz9w5q/feds_give_us_owner_of_stelco_5_days_to_explain/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Stelco 5 days",
+     "Hamilton"
+    ],
+    "locations": [
+     "U.S."
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]",
+   "cluster_id": "29161196f3913aa0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:35.881534+00:00",
+    "source_published_at": "2026-10-06T18:15:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1778,
+     "ENTERTAINMENT": 0.1508,
+     "BREAKOUT WATCH": 0.327,
+     "LIFESTYLE CHAT": 0.0587,
+     "CANADIAN NEWS": 0.2053,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0803
     }
    }
   },
@@ -80838,6 +83333,46 @@
    }
   },
   {
+   "id": "be3bee1ed2a4e0cb",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "The best deals under $25 during October Prime Day",
+   "angle": "You could spend a lot on gadgets in our main October Prime Day roundup and get maybe one or two things. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "You could spend a lot on gadgets in our main October Prime Day roundup and get maybe one or two things.",
+    "That’s all well and good, but you could spend as much (or less) and have a bunch of items arrive at your home instead.",
+    "If you’re on a tight budget, or you just have [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/gadgets/1005547/the-best-deals-under-25-during-october-prime-day",
+   "score": 61.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6249,
+    "label": "positive"
+   },
+   "summary": "You could spend a lot on gadgets in our main October Prime Day roundup and get maybe one or two things. That’s all well and good, but you could spend as much (or less) and have a bunch of items arrive at your home instead. If you’re on a tight budget, or you just have [&#8230;]",
+   "cluster_id": "be3bee1ed2a4e0cb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.728523+00:00",
+    "source_published_at": "2026-10-06T18:15:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "4018af567382ef97",
    "date": "2026-09-22",
    "slot": "am",
@@ -83690,6 +86225,53 @@
    }
   },
   {
+   "id": "0d16f37fbe493004",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Alexa can’t control the aux input on Amazon Echo speakers anymore",
+   "angle": "If you've been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working. Explain it like a coworker Slack rant: helpful tool or…",
+   "bullets": [
+    "If you've been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working.",
+    "Ars Technica points to this Reddit poster claiming they received a message from Amazon and says an unnamed spokesperson confirmed the change.",
+    "When contacted by [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1006103/amazon-alexa-aux-voice-commands",
+   "score": 60.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Alexa",
+     "Amazon Echo",
+     "Amazon"
+    ],
+    "locations": [
+     "Amazon Echo",
+     "Reddit"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5106,
+    "label": "positive"
+   },
+   "summary": "If you've been using an older Amazon Echo device as a speaker through its 3.5mm aux input, Alexa voice commands to play or pause from line in may stop working. Ars Technica points to this Reddit poster claiming they received a message from Amazon and says an unnamed spokesperson confirmed the change. When contacted by [&#8230;]",
+   "cluster_id": "0d16f37fbe493004",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.644114+00:00",
+    "source_published_at": "2026-10-06T19:03:56+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "f68e131ed372e164",
    "date": "2026-09-22",
    "slot": "am",
@@ -84570,6 +87152,56 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "c94a58e768a00c9b",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Ontario refers private career college OSAP concerns to OPP",
+   "angle": "Referal comes after a provincial audit raised ‘serious concerns’ about three career colleges. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "Referal comes after a provincial audit raised ‘serious concerns’ about three career colleges"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/toronto/article-ontario-refers-private-career-college-osap-concerns-to-opp/",
+   "score": 60.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "OSAP",
+     "OPP"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Referal comes after a provincial audit raised ‘serious concerns’ about three career colleges",
+   "cluster_id": "c94a58e768a00c9b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:35.096182+00:00",
+    "source_published_at": "2026-10-06T19:06:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1912,
+     "ENTERTAINMENT": 0.1685,
+     "BREAKOUT WATCH": 0.0977,
+     "LIFESTYLE CHAT": 0.2516,
+     "CANADIAN NEWS": 0.2415,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0494
+    }
    }
   },
   {
@@ -86318,6 +88950,55 @@
    }
   },
   {
+   "id": "1a4c9afd165d249d",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Kim Kardashian praises the centuries-old device celebs are using to live longer — but experts ‘strongly advise against’ it",
+   "angle": "Experts caution that the therapy's anti-aging claims outpace the science, while the device itself can carry serious risk. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "Experts caution that the therapy's anti-aging claims outpace the science, while the device itself can carry serious risk."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/06/health/experts-strongly-advise-against-kim-kardashian-approved-health-device/",
+   "score": 59.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kim Kardashian"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2263,
+    "label": "negative"
+   },
+   "summary": "Experts caution that the therapy's anti-aging claims outpace the science, while the device itself can carry serious risk.",
+   "cluster_id": "1a4c9afd165d249d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:36.540059+00:00",
+    "source_published_at": "2026-10-06T18:56:41+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2515,
+     "ENTERTAINMENT": 0.0553,
+     "BREAKOUT WATCH": 0.0868,
+     "LIFESTYLE CHAT": 0.5174,
+     "CANADIAN NEWS": 0.0519,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0373
+    }
+   }
+  },
+  {
    "id": "c3dc47e8fb31b1bc",
    "date": "2026-09-22",
    "slot": "am",
@@ -86631,6 +89312,49 @@
      "SPORTS": 0.0,
      "CLOSER": 0.1002
     }
+   }
+  },
+  {
+   "id": "eef1695918d88cb6",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Paramount completes $111B Warner merger, creating “Skydance” behemoth",
+   "angle": "Paramount completes $111B Warner merger, creating “Skydance” behemoth. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Paramount now owns Warner Bros.",
+    "as last-ditch effort to stop $111B merger fails."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+   "score": 59.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Paramount",
+     "Warner",
+     "Warner Bros."
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4215,
+    "label": "negative"
+   },
+   "summary": "Paramount now owns Warner Bros. as last-ditch effort to stop $111B merger fails.",
+   "cluster_id": "eef1695918d88cb6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.896605+00:00",
+    "source_published_at": "2026-10-06T17:33:44+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -90954,6 +93678,49 @@
    }
   },
   {
+   "id": "26a0e06f74f3c83c",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Two mystery PlayStation products have leaked — one might be a PlayStation Portal OLED",
+   "angle": "Is Sony about to announce a new PlayStation Portal game streaming handheld? Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Is Sony about to announce a new PlayStation Portal game streaming handheld?",
+    "The Wi-Fi Alliance recently certified two unannounced PlayStation products of some kind, and the certification documents indicate that they could be updates to the PlayStation Portal, which might mean we're getting the OLED screen rumored earlier this year.",
+    "The two devices, which are [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/games/1006092/playstation-portal-oled-wi-fi-alliance-certifications",
+   "score": 57.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Sony",
+     "The Wi-Fi Alliance"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "Is Sony about to announce a new PlayStation Portal game streaming handheld? The Wi-Fi Alliance recently certified two unannounced PlayStation products of some kind, and the certification documents indicate that they could be updates to the PlayStation Portal, which might mean we're getting the OLED screen rumored earlier this year. The two devices, which are [&#8230;]",
+   "cluster_id": "26a0e06f74f3c83c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.615473+00:00",
+    "source_published_at": "2026-10-06T19:12:26+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "ea36c1448b7e80d4",
    "date": "2026-09-22",
    "slot": "am",
@@ -91363,6 +94130,46 @@
    }
   },
   {
+   "id": "ea515f84cab5858b",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Why is NASA bringing 7,500 contractors back to work as civil servants?",
+   "angle": "\"The administrator's directive is a coherent and necessary vision for the future.\". Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "\"The administrator's directive is a coherent and necessary vision for the future.\""
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/space/2026/10/why-is-nasa-bringing-7500-contractors-back-to-work-as-civil-servants/",
+   "score": 57.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "NASA"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.25,
+    "label": "positive"
+   },
+   "summary": "\"The administrator's directive is a coherent and necessary vision for the future.\"",
+   "cluster_id": "ea515f84cab5858b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:38.008649+00:00",
+    "source_published_at": "2026-10-06T16:00:02+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "d179e4ecc2dc6c00",
    "date": "2026-10-05",
    "slot": "pm",
@@ -91416,6 +94223,47 @@
      "SPORTS": 0.0,
      "CLOSER": 0.0858
     }
+   }
+  },
+  {
+   "id": "bc872b2d284dc904",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Googlebook \"Better Together\" phone features don't work with Samsung at launch",
+   "angle": "Googlebooks require Android 17, but Samsung's Android 17 phones won't work yet. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Googlebooks require Android 17, but Samsung's Android 17 phones won't work yet."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/gadgets/2026/10/googlebook-better-together-phone-features-dont-work-with-samsung-at-launch/",
+   "score": 57.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Samsung",
+     "Android"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2382,
+    "label": "positive"
+   },
+   "summary": "Googlebooks require Android 17, but Samsung's Android 17 phones won't work yet.",
+   "cluster_id": "bc872b2d284dc904",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.985372+00:00",
+    "source_published_at": "2026-10-06T16:15:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -92765,6 +95613,49 @@
    }
   },
   {
+   "id": "6aed023361cdd70a",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "All-electric camping gets a solar upgrade: The 2027 Pebble Flow",
+   "angle": "The Pebble Flow has a 45 kWh LFP battery and can even charge an EV. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "The Pebble Flow has a 45 kWh LFP battery and can even charge an EV."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/cars/2026/10/this-self-parking-electric-travel-trailer-gets-a-solar-upgrade-for-2027/",
+   "score": 57.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "LFP"
+    ],
+    "organizations": [
+     "The Pebble Flow",
+     "EV"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The Pebble Flow has a 45 kWh LFP battery and can even charge an EV.",
+   "cluster_id": "6aed023361cdd70a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:38.030917+00:00",
+    "source_published_at": "2026-10-06T15:23:28+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "4c64312076078c68",
    "date": "2026-09-25",
    "slot": "am",
@@ -93350,6 +96241,92 @@
    }
   },
   {
+   "id": "460b2b51672247f7",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Netflix expands TV game lineup with Conjuring spinoff",
+   "angle": "Netflix just announced The Conjuring: Unspoken, a new horror game set in The Conjuring universe that you can play with your phone as a controller, and it will launch exclusively on the service on October 13th. Explain…",
+   "bullets": [
+    "Netflix just announced The Conjuring: Unspoken, a new horror game set in The Conjuring universe that you can play with your phone as a controller, and it will launch exclusively on the service on October 13th.",
+    "Here's Netflix's description of the game: The Conjuring: Unspoken is an interactive paranormal investigation you can play from your [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/streaming/1005942/netflix-the-conjuring-unspoken-games",
+   "score": 56.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Netflix"
+    ],
+    "locations": [
+     "Netflix"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.128,
+    "label": "positive"
+   },
+   "summary": "Netflix just announced The Conjuring: Unspoken, a new horror game set in The Conjuring universe that you can play with your phone as a controller, and it will launch exclusively on the service on October 13th. Here's Netflix's description of the game: The Conjuring: Unspoken is an interactive paranormal investigation you can play from your [&#8230;]",
+   "cluster_id": "460b2b51672247f7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.784841+00:00",
+    "source_published_at": "2026-10-06T17:43:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "885dfac8b40d6821",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Our first five impressions of Googlebooks — exciting but underbaked",
+   "angle": "Our first five impressions of Googlebooks — exciting but underbaked. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Googlebooks are here.",
+    "The first models went on sale Sunday, October 4th, and we received review units of all five Googlebooks about 24 hours ago.",
+    "Since then, we've been in a mad dash to put the devices through their paces and get a check on what it's like to use these Android laptops."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1005745/google-googlebook-android-laptops-dell-acer-asus-lenovo-hp-impressions",
+   "score": 56.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Googlebooks",
+     "Android"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.128,
+    "label": "positive"
+   },
+   "summary": "Googlebooks are here. The first models went on sale Sunday, October 4th, and we received review units of all five Googlebooks about 24 hours ago. Since then, we've been in a mad dash to put the devices through their paces and get a check on what it's like to use these Android laptops.",
+   "cluster_id": "885dfac8b40d6821",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.815728+00:00",
+    "source_published_at": "2026-10-06T17:31:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "c54b771871e9dc65",
    "date": "2026-10-02",
    "slot": "am",
@@ -93901,6 +96878,49 @@
    "meta": {
     "ingested_at": "2026-10-02T10:18:17.509149+00:00",
     "source_published_at": "2026-10-01T19:19:42+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "8b21f23aac41d02b",
+   "date": "2026-10-06",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Amazon kills Alexa’s ability to control Echo speakers' AUX input",
+   "angle": "Amazon hasn't made an Echo with a 3.5mm port in six years. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Amazon hasn't made an Echo with a 3.5mm port in six years."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/gadgets/2026/10/amazon-bricks-alexas-ability-to-control-echo-speakers-aux-input/",
+   "score": 55.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Amazon",
+     "Alexa"
+    ],
+    "locations": [
+     "Echo"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0516,
+    "label": "positive"
+   },
+   "summary": "Amazon hasn't made an Echo with a 3.5mm port in six years.",
+   "cluster_id": "8b21f23aac41d02b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-06T19:16:37.940378+00:00",
+    "source_published_at": "2026-10-06T17:03:16+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
