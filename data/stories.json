@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-08T19:38:58.114899+00:00",
+ "generated_at": "2026-10-08T20:20:54.598354+00:00",
  "timezone": "America/Toronto",
  "date": "2026-10-08",
  "slot": "pm",
  "pipeline_version": "1.2.0",
- "count": 2561,
+ "count": 2591,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -3133,6 +3133,67 @@
    }
   },
   {
+   "id": "c2ff28fb473cdc68",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Make or Break for Aaron Glenn? Jets vs. Browns Week 5 Preview | Gang’s All Here",
+   "angle": "Make or Break for Aaron Glenn? Jets vs. Browns Week 5 Preview | Gang’s All Here. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Browns Watch Party: https://www.tickpick.com/organizer/event/jets-watch-party-w-new-york-post-sports-75106695 The pressure is officially on.",
+    "Brian Costello, Ryan Sampson, and Frankie Vittorini preview a massive Week 5 matchup as the New York Jets return to MetLife to take on the Cleveland Browns.",
+    "With criticism piling up around head coach Aaron Glenn and the team trying to bounce..."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/video/make-or-break-for-aaron-glenn-jets-vs-browns-week-5-preview-gangs-all-here/",
+   "score": 79.4,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Aaron Glenn",
+     "Jets",
+     "Gang’s",
+     "Brian Costello",
+     "Ryan Sampson",
+     "Frankie Vittorini"
+    ],
+    "organizations": [
+     "Browns Week 5",
+     "Browns Watch Party",
+     "the New York Jets",
+     "MetLife"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.34,
+    "label": "negative"
+   },
+   "summary": "Tickets for Jets vs. Browns Watch Party: https://www.tickpick.com/organizer/event/jets-watch-party-w-new-york-post-sports-75106695 The pressure is officially on. Brian Costello, Ryan Sampson, and Frankie Vittorini preview a massive Week 5 matchup as the New York Jets return to MetLife to take on the Cleveland Browns. With criticism piling up around head coach Aaron Glenn and the team trying to bounce...",
+   "cluster_id": "c2ff28fb473cdc68",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.468107+00:00",
+    "source_published_at": "2026-10-08T20:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1303,
+     "ENTERTAINMENT": 0.5932,
+     "BREAKOUT WATCH": 0.1118,
+     "LIFESTYLE CHAT": 0.0663,
+     "CANADIAN NEWS": 0.0441,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0544
+    }
+   }
+  },
+  {
    "id": "976412d23ab618d3",
    "date": "2026-10-02",
    "slot": "am",
@@ -3631,7 +3692,7 @@
    "source_type": "news",
    "url": "https://nypost.com/2026/09/24/us-news/judge-blocks-trumps-white-house-media-ban-orders-access-to-be-restored/",
    "score": 79.0,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Trump’s",
@@ -3971,6 +4032,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0842
+    }
+   }
+  },
+  {
+   "id": "d3a940a82d2a28fd",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "Trump honors Elon Musk, Jensen Haung and other top tech CEOs with prestigious science award",
+   "angle": "President Trump on Thursday honored his friends and tech bros with the National Medal of Science to celebrate a new “golden age” for American technology -- and even came away with a medal himself. Ask the phones: would…",
+   "bullets": [
+    "President Trump on Thursday honored his friends and tech bros with the National Medal of Science to celebrate a new “golden age” for American technology -- and even came away with a medal himself."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/us-news/trump-honors-elon-musk-jensen-haung-and-other-top-tech-ceos-with-prestigious-science-award/",
+   "score": 78.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Elon Musk",
+     "Jensen Haung",
+     "Trump"
+    ],
+    "organizations": [
+     "the National Medal of Science"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9761,
+    "label": "positive"
+   },
+   "summary": "President Trump on Thursday honored his friends and tech bros with the National Medal of Science to celebrate a new “golden age” for American technology -- and even came away with a medal himself.",
+   "cluster_id": "d3a940a82d2a28fd",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.070611+00:00",
+    "source_published_at": "2026-10-08T20:17:49+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.422,
+     "ENTERTAINMENT": 0.1871,
+     "BREAKOUT WATCH": 0.1356,
+     "LIFESTYLE CHAT": 0.0508,
+     "CANADIAN NEWS": 0.1595,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.045
     }
    }
   },
@@ -7261,6 +7375,61 @@
    }
   },
   {
+   "id": "1e7dc2b5678775a6",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Gypsy Rose Blanchard makes decision on attending Ken Urker’s funeral amid family drama",
+   "angle": "Ken was found dead with drug paraphernalia and a gun in his Louisiana home on on Oct.1, his 34th birthday. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Ken was found dead with drug paraphernalia and a gun in his Louisiana home on on Oct.1, his 34th birthday."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/08/celebrity-news/gypsy-rose-blanchard-makes-decision-on-attending-ken-urkers-funeral/",
+   "score": 77.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Gypsy Rose Blanchard",
+     "Ken Urker’s",
+     "Ken"
+    ],
+    "organizations": [
+     "Oct.1"
+    ],
+    "locations": [
+     "Louisiana"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8481,
+    "label": "negative"
+   },
+   "summary": "Ken was found dead with drug paraphernalia and a gun in his Louisiana home on on Oct.1, his 34th birthday.",
+   "cluster_id": "1e7dc2b5678775a6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.218920+00:00",
+    "source_published_at": "2026-10-08T20:10:22+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0779,
+     "ENTERTAINMENT": 0.5208,
+     "BREAKOUT WATCH": 0.1645,
+     "LIFESTYLE CHAT": 0.046,
+     "CANADIAN NEWS": 0.0939,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0968
+    }
+   }
+  },
+  {
    "id": "13ac2ab504902728",
    "date": "2026-09-23",
    "slot": "am",
@@ -8173,6 +8342,118 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0352
+    }
+   }
+  },
+  {
+   "id": "6902fd7bcbb1e3bb",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Osleys Iglesias vs. Oliver Zaren: Here’s Where to Watch the IBF and IBO Titles Boxing Match Live Online",
+   "angle": "In a titles fight, promoters Eye of the Tiger Management goes to Canada for a prime match between two elite southpaw boxers. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "In a titles fight, promoters Eye of the Tiger Management goes to Canada for a prime match between two elite southpaw boxers.",
+    "In the main event, 28-year-old Cuban boxer Osleys Iglesias defends his IBF and IBO super middleweight title belts against 26-year-old Dane Oliver Zaren.",
+    "It&#8217;s a scheduled for 12 rounds."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/shopping/news/how-to-watch-osleys-iglesias-vs-oliver-zaren-boxing-live-online-1236904455/",
+   "score": 77.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Osleys Iglesias",
+     "Oliver Zaren",
+     "Dane Oliver Zaren"
+    ],
+    "organizations": [
+     "IBF",
+     "IBO"
+    ],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.3182,
+    "label": "positive"
+   },
+   "summary": "In a titles fight, promoters Eye of the Tiger Management goes to Canada for a prime match between two elite southpaw boxers. In the main event, 28-year-old Cuban boxer Osleys Iglesias defends his IBF and IBO super middleweight title belts against 26-year-old Dane Oliver Zaren. It&#8217;s a scheduled for 12 rounds.",
+   "cluster_id": "6902fd7bcbb1e3bb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.806335+00:00",
+    "source_published_at": "2026-10-08T20:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2369,
+     "ENTERTAINMENT": 0.3253,
+     "BREAKOUT WATCH": 0.0931,
+     "LIFESTYLE CHAT": 0.0415,
+     "CANADIAN NEWS": 0.2354,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0677
+    }
+   }
+  },
+  {
+   "id": "65b2c1d2c49d7c69",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Colin Jost, Danny Chun Set New Comedy Series ‘6 Bed 1 Bath,’ Produced Outside Studio System",
+   "angle": "Colin Jost and &#8220;The Office&#8221; writer Danny Chun are launching a new, original comedy series produced outside the Hollywood studio system. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Colin Jost and &#8220;The Office&#8221; writer Danny Chun are launching a new, original comedy series produced outside the Hollywood studio system.",
+    "Titled &#8220;6 Bed 1 Bath,&#8221; the sitcom follows a group of five roommates in their 20s who share an apartment with a man who has lived there since 1982 and continued to build new [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/colin-jost-new-comedy-show-6-bed-1-bath-danny-chun-1236905732/",
+   "score": 77.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Colin Jost",
+     "Danny Chun Set",
+     "Danny Chun"
+    ],
+    "organizations": [],
+    "locations": [
+     "Hollywood"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8176,
+    "label": "positive"
+   },
+   "summary": "Colin Jost and &#8220;The Office&#8221; writer Danny Chun are launching a new, original comedy series produced outside the Hollywood studio system. Titled &#8220;6 Bed 1 Bath,&#8221; the sitcom follows a group of five roommates in their 20s who share an apartment with a man who has lived there since 1982 and continued to build new [&#8230;]",
+   "cluster_id": "65b2c1d2c49d7c69",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.844455+00:00",
+    "source_published_at": "2026-10-08T20:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1009,
+     "ENTERTAINMENT": 0.5625,
+     "BREAKOUT WATCH": 0.0787,
+     "LIFESTYLE CHAT": 0.0986,
+     "CANADIAN NEWS": 0.0884,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.071
     }
    }
   },
@@ -14735,6 +15016,59 @@
    }
   },
   {
+   "id": "7a1b9d003d92f05c",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "It’s time for the Yankees to move on from Aaron Boone",
+   "angle": "Aaron Boone’s managed the Yankees for nine years, and he is zero for nine now. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Aaron Boone’s managed the Yankees for nine years, and he is zero for nine now.",
+    "That isn’t good, or certainly good enough."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/sports/one-telling-stat-makes-aaron-boones-yankees-future-clear/",
+   "score": 75.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Aaron Boone",
+     "Aaron Boone’s"
+    ],
+    "organizations": [
+     "Yankees"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.802,
+    "label": "positive"
+   },
+   "summary": "Aaron Boone’s managed the Yankees for nine years, and he is zero for nine now. That isn’t good, or certainly good enough.",
+   "cluster_id": "7a1b9d003d92f05c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.310830+00:00",
+    "source_published_at": "2026-10-08T20:06:06+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3189,
+     "ENTERTAINMENT": 0.2883,
+     "BREAKOUT WATCH": 0.0775,
+     "LIFESTYLE CHAT": 0.1897,
+     "CANADIAN NEWS": 0.0585,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0672
+    }
+   }
+  },
+  {
    "id": "5ee2c9522f54d96a",
    "date": "2026-09-23",
    "slot": "am",
@@ -17296,6 +17630,62 @@
    }
   },
   {
+   "id": "e86049baaa394766",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Army mass shooter Nadal Hassan’s execution will be public, carried out by ‘soldiers with rifles’ at Fort Hood: Hegseth",
+   "angle": "The defense chief said he believes it's important Hasan be executed on the Texas base where he carried out the mass murder. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The defense chief said he believes it's important Hasan be executed on the Texas base where he carried out the mass murder."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/us-news/army-mass-shooter-nadal-hassans-execution-will-be-public-carried-out-at-fort-hood-hegseth/",
+   "score": 74.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Nadal Hassan’s",
+     "Hegseth",
+     "Hasan"
+    ],
+    "organizations": [
+     "Army"
+    ],
+    "locations": [
+     "Fort Hood",
+     "Texas"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5267,
+    "label": "negative"
+   },
+   "summary": "The defense chief said he believes it's important Hasan be executed on the Texas base where he carried out the mass murder.",
+   "cluster_id": "e86049baaa394766",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.190940+00:00",
+    "source_published_at": "2026-10-08T20:11:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1467,
+     "ENTERTAINMENT": 0.5373,
+     "BREAKOUT WATCH": 0.1168,
+     "LIFESTYLE CHAT": 0.0894,
+     "CANADIAN NEWS": 0.0511,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0587
+    }
+   }
+  },
+  {
    "id": "155ffeaa51ef05e4",
    "date": "2026-09-24",
    "slot": "am",
@@ -19208,6 +19598,57 @@
    }
   },
   {
+   "id": "6338d355a504243c",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Cornell 7’ Jane Doe was ‘misled’ by DA about status of criminal probe into alleged gang rape: attorney",
+   "angle": "It turned out the probe wrapped shortly after it started, when Tompkins County District Attorney Matthew Van Houten decided against pressing charges days after cops first spoke with her. Shelf life through drive time …",
+   "bullets": [
+    "It turned out the probe wrapped shortly after it started, when Tompkins County District Attorney Matthew Van Houten decided against pressing charges days after cops first spoke with her."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/us-news/cornell-7-jane-doe-was-misled-by-da-about-status-of-criminal-probe-into-alleged-gang-rape-attorney/",
+   "score": 73.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Matthew Van Houten"
+    ],
+    "organizations": [],
+    "locations": [
+     "Tompkins County District"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8807,
+    "label": "negative"
+   },
+   "summary": "It turned out the probe wrapped shortly after it started, when Tompkins County District Attorney Matthew Van Houten decided against pressing charges days after cops first spoke with her.",
+   "cluster_id": "6338d355a504243c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.402400+00:00",
+    "source_published_at": "2026-10-08T20:00:51+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2377,
+     "ENTERTAINMENT": 0.3234,
+     "BREAKOUT WATCH": 0.1442,
+     "LIFESTYLE CHAT": 0.1237,
+     "CANADIAN NEWS": 0.0695,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1016
+    }
+   }
+  },
+  {
    "id": "e134fe15f339620f",
    "date": "2026-09-22",
    "slot": "am",
@@ -19722,6 +20163,50 @@
      "SPORTS": 0.0,
      "CLOSER": 0.0691
     }
+   }
+  },
+  {
+   "id": "24471b348ef26ab3",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "R.I.P. Margaret Hamilton, whose code saved the Apollo 11 Moon landing",
+   "angle": "Hamilton also coined the term \"software engineering\" and founded two successful software companies. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Hamilton also coined the term \"software engineering\" and founded two successful software companies."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
+   "score": 73.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Margaret Hamilton",
+     "Moon",
+     "Hamilton"
+    ],
+    "organizations": [
+     "Apollo"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.765,
+    "label": "positive"
+   },
+   "summary": "Hamilton also coined the term \"software engineering\" and founded two successful software companies.",
+   "cluster_id": "24471b348ef26ab3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:54.095736+00:00",
+    "source_published_at": "2026-10-08T20:15:53+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -24315,6 +24800,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.059
+    }
+   }
+  },
+  {
+   "id": "50ea1f9ce94b7977",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Here’s how to watch Buccaneers-Cowboys for free on Thursday Night Football",
+   "angle": "Tampa Bay is still on the hunt for their first win. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Tampa Bay is still on the hunt for their first win."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/sports/how-to-watch-bucs-cowboys-for-free-on-thursday-night-football/",
+   "score": 73.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Tampa Bay"
+    ],
+    "organizations": [
+     "Buccaneers-Cowboys"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7964,
+    "label": "positive"
+   },
+   "summary": "Tampa Bay is still on the hunt for their first win.",
+   "cluster_id": "50ea1f9ce94b7977",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.158035+00:00",
+    "source_published_at": "2026-10-08T20:15:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0549,
+     "ENTERTAINMENT": 0.6674,
+     "BREAKOUT WATCH": 0.0946,
+     "LIFESTYLE CHAT": 0.0385,
+     "CANADIAN NEWS": 0.0852,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0595
     }
    }
   },
@@ -30299,6 +30835,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1577
+    }
+   }
+  },
+  {
+   "id": "b774c2993cb3730f",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "Alleged J.R. Smith assault victim given protective order against ex-NBA star after ‘serious bodily injury’",
+   "angle": "Alleged J.R. Smith assault victim given protective order against ex-NBA star after ‘serious bodily injury’. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The order is to remain in effect until Dec.",
+    "29, the document states."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/sports/alleged-j-r-smith-assault-victim-given-protective-order-against-ex-nba-star-after-serious-bodily-injury/",
+   "score": 72.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "J.R. Smith"
+    ],
+    "organizations": [
+     "ex-NBA"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7096,
+    "label": "negative"
+   },
+   "summary": "The order is to remain in effect until Dec. 29, the document states.",
+   "cluster_id": "b774c2993cb3730f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.129805+00:00",
+    "source_published_at": "2026-10-08T20:15:28+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1979,
+     "ENTERTAINMENT": 0.1875,
+     "BREAKOUT WATCH": 0.1786,
+     "LIFESTYLE CHAT": 0.1609,
+     "CANADIAN NEWS": 0.156,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1191
     }
    }
   },
@@ -36776,6 +37364,57 @@
    }
   },
   {
+   "id": "f2159194d7527d4a",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Rihanna reveals staggering number of unreleased songs she’s sitting on",
+   "angle": "The Grammy winner released her last album back in 2016. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Grammy winner released her last album back in 2016."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/08/entertainment/rihanna-reveals-number-of-unreleased-songs-shes-sitting-on/",
+   "score": 71.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Grammy"
+    ],
+    "organizations": [],
+    "locations": [
+     "Rihanna"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6249,
+    "label": "positive"
+   },
+   "summary": "The Grammy winner released her last album back in 2016.",
+   "cluster_id": "f2159194d7527d4a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.099270+00:00",
+    "source_published_at": "2026-10-08T20:17:36+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0189,
+     "ENTERTAINMENT": 0.884,
+     "BREAKOUT WATCH": 0.0429,
+     "LIFESTYLE CHAT": 0.0245,
+     "CANADIAN NEWS": 0.0136,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0161
+    }
+   }
+  },
+  {
    "id": "dbd1afb60e8646ce",
    "date": "2026-09-22",
    "slot": "am",
@@ -39137,6 +39776,56 @@
    }
   },
   {
+   "id": "3ceab9f335f4a194",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "NFL ‘Thursday Night Football’ betting promos: Earn over $5k in sportsbook, prediction market bonuses for Buccaneers vs. Cowboys",
+   "angle": "Here's how to score more than $5,000 in bonuses for \"Thursday Night Football.\". Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Here's how to score more than $5,000 in bonuses for \"Thursday Night Football.\""
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/betting/nfl-thursday-night-football-betting-promos-earn-over-5k-in-sportsbook-prediction-market-bonuses-for-buccaneers-vs-cowboys/",
+   "score": 71.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "NFL",
+     "Cowboys"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.802,
+    "label": "positive"
+   },
+   "summary": "Here's how to score more than $5,000 in bonuses for \"Thursday Night Football.\"",
+   "cluster_id": "3ceab9f335f4a194",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.341299+00:00",
+    "source_published_at": "2026-10-08T20:05:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3333,
+     "ENTERTAINMENT": 0.222,
+     "BREAKOUT WATCH": 0.1255,
+     "LIFESTYLE CHAT": 0.1542,
+     "CANADIAN NEWS": 0.111,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.054
+    }
+   }
+  },
+  {
    "id": "e1f8532f85bba3be",
    "date": "2026-09-22",
    "slot": "am",
@@ -40163,6 +40852,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1722
+    }
+   }
+  },
+  {
+   "id": "e2c204291f1abedd",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Below’ on Netflix, Where Josh Hartnett Faces Down A Sea Monster In Newfoundland",
+   "angle": "‘Below’ on Netflix, Where Josh Hartnett Faces Down A Sea Monster In Newfoundland. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "It's like Widow's Bay, but serious."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://decider.com/2026/10/08/below-on-netflix-review-stream-it-or-skip-it/",
+   "score": 70.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Josh Hartnett"
+    ],
+    "organizations": [],
+    "locations": [
+     "Netflix",
+     "Newfoundland"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0772,
+    "label": "positive"
+   },
+   "summary": "It's like Widow's Bay, but serious.",
+   "cluster_id": "e2c204291f1abedd",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.430500+00:00",
+    "source_published_at": "2026-10-08T20:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1329,
+     "ENTERTAINMENT": 0.4221,
+     "BREAKOUT WATCH": 0.137,
+     "LIFESTYLE CHAT": 0.0622,
+     "CANADIAN NEWS": 0.168,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0779
     }
    }
   },
@@ -47904,6 +48645,59 @@
    }
   },
   {
+   "id": "2419f52ce9aa501a",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "THE LIST",
+   "title": "Dodgers sound alarm about Shohei Ohtani: ‘Going to be in big trouble’",
+   "angle": "Despite Shohei Ohtani's brutal .154 OPS in the NLDS, one Los Angeles Dodgers executive knows it's a matter of time he turns it around. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Despite Shohei Ohtani's brutal .154 OPS in the NLDS, one Los Angeles Dodgers executive knows it's a matter of time he turns it around."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/sports/dodgers-big-trouble-alarm-shohei-ohtani-mlb-playoffs/",
+   "score": 69.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Shohei Ohtani",
+     "Shohei Ohtani's"
+    ],
+    "organizations": [
+     "NLDS",
+     "Los Angeles Dodgers"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2486,
+    "label": "positive"
+   },
+   "summary": "Despite Shohei Ohtani's brutal .154 OPS in the NLDS, one Los Angeles Dodgers executive knows it's a matter of time he turns it around.",
+   "cluster_id": "2419f52ce9aa501a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.370707+00:00",
+    "source_published_at": "2026-10-08T20:01:04+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2415,
+     "ENTERTAINMENT": 0.2087,
+     "BREAKOUT WATCH": 0.1399,
+     "LIFESTYLE CHAT": 0.2403,
+     "CANADIAN NEWS": 0.1132,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0565
+    }
+   }
+  },
+  {
    "id": "81cd773f0654c45d",
    "date": "2026-09-22",
    "slot": "am",
@@ -53846,6 +54640,61 @@
    }
   },
   {
+   "id": "539ca4baef55cba8",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Blakeman urges Jewish New Yorkers to ‘get into this fight’ ahead of November election",
+   "angle": "Republican candidate for governor Bruce Blakeman made an emotional appeal to Jews, urging them to vote for him as the only choice to \"stop\" Israel-bashing New York City Mayor Zohran Mamdani. Shelf life through drive…",
+   "bullets": [
+    "Republican candidate for governor Bruce Blakeman made an emotional appeal to Jews, urging them to vote for him as the only choice to \"stop\" Israel-bashing New York City Mayor Zohran Mamdani."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/us-news/blakeman-urges-jewish-new-yorkers-to-get-into-this-fight-ahead-of-election-showdown/",
+   "score": 68.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Bruce Blakeman",
+     "Zohran Mamdani"
+    ],
+    "organizations": [
+     "Blakeman"
+    ],
+    "locations": [
+     "Israel",
+     "New York City"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.1531,
+    "label": "negative"
+   },
+   "summary": "Republican candidate for governor Bruce Blakeman made an emotional appeal to Jews, urging them to vote for him as the only choice to \"stop\" Israel-bashing New York City Mayor Zohran Mamdani.",
+   "cluster_id": "539ca4baef55cba8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.281237+00:00",
+    "source_published_at": "2026-10-08T20:07:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2634,
+     "ENTERTAINMENT": 0.4611,
+     "BREAKOUT WATCH": 0.041,
+     "LIFESTYLE CHAT": 0.0858,
+     "CANADIAN NEWS": 0.051,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0977
+    }
+   }
+  },
+  {
    "id": "35088d8df1600419",
    "date": "2026-09-22",
    "slot": "am",
@@ -59769,6 +60618,57 @@
    }
   },
   {
+   "id": "585e8a3ab6de8408",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Ryan Murphy Says He’d “Never” Do Another All-Star ‘AHS’ Season as Big as 13 Again",
+   "angle": "The co-creator tells The Hollywood Reporter he wants to continue doing the horror anthology series \"forever,\" but wouldn't repeat the likes of season 13: \"I like how it ends with a lot of the characters.\". Shelf life…",
+   "bullets": [
+    "The co-creator tells The Hollywood Reporter he wants to continue doing the horror anthology series \"forever,\" but wouldn't repeat the likes of season 13: \"I like how it ends with a lot of the characters.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-features/ryan-murphy-american-horror-story-season-13-ending-future-1236720747/",
+   "score": 67.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Ryan Murphy"
+    ],
+    "organizations": [],
+    "locations": [
+     "Hollywood"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2728,
+    "label": "negative"
+   },
+   "summary": "The co-creator tells The Hollywood Reporter he wants to continue doing the horror anthology series \"forever,\" but wouldn't repeat the likes of season 13: \"I like how it ends with a lot of the characters.\"",
+   "cluster_id": "585e8a3ab6de8408",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.534137+00:00",
+    "source_published_at": "2026-10-08T19:49:21+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0409,
+     "ENTERTAINMENT": 0.7867,
+     "BREAKOUT WATCH": 0.0305,
+     "LIFESTYLE CHAT": 0.0531,
+     "CANADIAN NEWS": 0.0654,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0235
+    }
+   }
+  },
+  {
    "id": "b08176469d7cf71e",
    "date": "2026-09-22",
    "slot": "am",
@@ -62222,6 +63122,111 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0436
+    }
+   }
+  },
+  {
+   "id": "4a712dc88979ee4d",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "Meet Cosmic Salon, the ‘Chronovisor’ Directors Who Are Curry Barkers for the Library Set",
+   "angle": "Childhood friends Jack Auen and Kevin Walker turned a $55,000 budget, a cold-emailed professor and a Vatican conspiracy theory into an unlikely thriller. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "Childhood friends Jack Auen and Kevin Walker turned a $55,000 budget, a cold-emailed professor and a Vatican conspiracy theory into an unlikely thriller.",
+    "Now they’re working with UTA."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-features/cosmic-salon-chronovisor-directors-jack-auen-kevin-walker-1236725624/",
+   "score": 67.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jack Auen",
+     "Kevin Walker"
+    ],
+    "organizations": [
+     "Meet Cosmic Salon",
+     "UTA"
+    ],
+    "locations": [
+     "Vatican"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0258,
+    "label": "neutral"
+   },
+   "summary": "Childhood friends Jack Auen and Kevin Walker turned a $55,000 budget, a cold-emailed professor and a Vatican conspiracy theory into an unlikely thriller. Now they’re working with UTA.",
+   "cluster_id": "4a712dc88979ee4d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.565198+00:00",
+    "source_published_at": "2026-10-08T19:48:47+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2438,
+     "ENTERTAINMENT": 0.2707,
+     "BREAKOUT WATCH": 0.0883,
+     "LIFESTYLE CHAT": 0.1279,
+     "CANADIAN NEWS": 0.1843,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0851
+    }
+   }
+  },
+  {
+   "id": "535384f113852994",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "BREAKOUT WATCH",
+   "title": "Fury as vandals scrawl seven-letter slur across California church that invites gay people inside",
+   "angle": "A southern California church known for inviting gay people inside at times when others closed their doors was vandalized with a seven-letter anti-gay slur sparking fury from patrons. Name-drop them now so you can claim…",
+   "bullets": [
+    "A southern California church known for inviting gay people inside at times when others closed their doors was vandalized with a seven-letter anti-gay slur sparking fury from patrons."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/us-news/lgbtq-inclusive-weho-church-vandalized-with-homophobic-slur/",
+   "score": 67.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "California"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.7269,
+    "label": "negative"
+   },
+   "summary": "A southern California church known for inviting gay people inside at times when others closed their doors was vandalized with a seven-letter anti-gay slur sparking fury from patrons.",
+   "cluster_id": "535384f113852994",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.039034+00:00",
+    "source_published_at": "2026-10-08T20:18:15+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1943,
+     "ENTERTAINMENT": 0.1798,
+     "BREAKOUT WATCH": 0.2379,
+     "LIFESTYLE CHAT": 0.1313,
+     "CANADIAN NEWS": 0.0669,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1897
     }
    }
   },
@@ -70479,6 +71484,49 @@
    }
   },
   {
+   "id": "bf363e15443810eb",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "ICE detainees in Georgia used the facility’s video calling software to expose the conditions inside",
+   "angle": "Four men detained at an ICE detention center in rural Georgia used the facility's video conferencing software to expose both the conditions inside and President Donald Trump's hostile takeover of the immigration…",
+   "bullets": [
+    "Four men detained at an ICE detention center in rural Georgia used the facility's video conferencing software to expose both the conditions inside and President Donald Trump's hostile takeover of the immigration courts.",
+    "In the five-minute video, the men describe an intentionally dysfunctional legal system designed to keep them trapped in federal custody for months [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/report/1008342/folkston-georgia-ice-detention-hunger-strike-video",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Donald Trump"
+    ],
+    "organizations": [],
+    "locations": [
+     "Georgia"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8979,
+    "label": "negative"
+   },
+   "summary": "Four men detained at an ICE detention center in rural Georgia used the facility's video conferencing software to expose both the conditions inside and President Donald Trump's hostile takeover of the immigration courts. In the five-minute video, the men describe an intentionally dysfunctional legal system designed to keep them trapped in federal custody for months [&#8230;]",
+   "cluster_id": "bf363e15443810eb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:53.769025+00:00",
+    "source_published_at": "2026-10-08T19:45:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "74f5d1c0406773e9",
    "date": "2026-09-22",
    "slot": "am",
@@ -73638,6 +74686,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0753
+    }
+   }
+  },
+  {
+   "id": "e04e7ff0561a853d",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "ENTERTAINMENT",
+   "title": "‘Eternally Yours’ Review: CBS’ Vampire Comedy From ‘Ghosts’ Creators Is Severely Anemic",
+   "angle": "Ed Weeks and Allegra Edwards star as bloodsuckers whose 500-year marriage has lost its spark. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Ed Weeks and Allegra Edwards star as bloodsuckers whose 500-year marriage has lost its spark."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-reviews/eternally-yours-review-cbs-vampires-1236725129/",
+   "score": 65.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "CBS",
+     "Allegra"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2263,
+    "label": "negative"
+   },
+   "summary": "Ed Weeks and Allegra Edwards star as bloodsuckers whose 500-year marriage has lost its spark.",
+   "cluster_id": "e04e7ff0561a853d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.499253+00:00",
+    "source_published_at": "2026-10-08T20:02:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1189,
+     "ENTERTAINMENT": 0.7506,
+     "BREAKOUT WATCH": 0.0405,
+     "LIFESTYLE CHAT": 0.0448,
+     "CANADIAN NEWS": 0.0208,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0243
     }
    }
   },
@@ -90401,6 +91499,53 @@
    }
   },
   {
+   "id": "7bd525b884109b29",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "California is trying to shut down robot vs. human cage matches",
+   "angle": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. Explain it like a coworker Slack rant…",
+   "bullets": [
+    "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times.",
+    "The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1008401/california-shut-down-rek-fighting-robot-company-human",
+   "score": 62.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Frankie LaPenna",
+     "Rek"
+    ],
+    "organizations": [
+     "The California State Athletic Commission",
+     "The New York Times"
+    ],
+    "locations": [
+     "California"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3818,
+    "label": "negative"
+   },
+   "summary": "The California State Athletic Commission sent a cease-and-desist letter to a startup that hosted a match between a human and a robot last month, as reported by The New York Times. The fight, which took place on September 18th, pitted a human, Frankie LaPenna, against a humanoid robot owned by a tech startup, Rek, that [&#8230;]",
+   "cluster_id": "7bd525b884109b29",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:53.731070+00:00",
+    "source_published_at": "2026-10-08T20:06:56+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "3789fae1a8a18776",
    "date": "2026-09-23",
    "slot": "am",
@@ -93433,6 +94578,58 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "23ab00f8845d49e9",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "CANADIAN NEWS",
+   "title": "Big tech can’t ‘tell us what to do,’ Carney says on Musk’s separatism talk",
+   "angle": "&#32; submitted by &#32; /u/HabFan4Life [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/HabFan4Life [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x10hdt/big_tech_cant_tell_us_what_to_do_carney_says_on/",
+   "score": 62.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Carney",
+     "Musk"
+    ],
+    "organizations": [],
+    "locations": [
+     "n’t"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/HabFan4Life [link] &#32; [comments]",
+   "cluster_id": "23ab00f8845d49e9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:51.409242+00:00",
+    "source_published_at": "2026-10-08T19:36:43+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.109,
+     "ENTERTAINMENT": 0.2863,
+     "BREAKOUT WATCH": 0.1782,
+     "LIFESTYLE CHAT": 0.0702,
+     "CANADIAN NEWS": 0.3156,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0408
+    }
    }
   },
   {
@@ -98514,6 +99711,53 @@
    }
   },
   {
+   "id": "b4a954c963d44559",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "LIFESTYLE CHAT",
+   "title": "The cost of Halloween candy spiked 71% in 5 years — consider a few boo-dget swaps",
+   "angle": "Halloween participation is holding strong, with 74% of Americans planning to celebrate this year, but keeping the candy bowl, skull, or pumpkin full costs noticeably more than it used to. Easy phone-in: is this smart…",
+   "bullets": [
+    "Halloween participation is holding strong, with 74% of Americans planning to celebrate this year, but keeping the candy bowl, skull, or pumpkin full costs noticeably more than it used to."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/lifestyle/the-cost-of-halloween-candy-spiked-71-in-5-years-consider-these-boo-dget-swaps/",
+   "score": 60.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5423,
+    "label": "positive"
+   },
+   "summary": "Halloween participation is holding strong, with 74% of Americans planning to celebrate this year, but keeping the candy bowl, skull, or pumpkin full costs noticeably more than it used to.",
+   "cluster_id": "b4a954c963d44559",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.249437+00:00",
+    "source_published_at": "2026-10-08T20:09:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2872,
+     "ENTERTAINMENT": 0.124,
+     "BREAKOUT WATCH": 0.0761,
+     "LIFESTYLE CHAT": 0.335,
+     "CANADIAN NEWS": 0.1354,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0423
+    }
+   }
+  },
+  {
    "id": "cf183823cff57496",
    "date": "2026-09-22",
    "slot": "am",
@@ -99152,6 +100396,47 @@
    "meta": {
     "ingested_at": "2026-09-28T20:29:05.225071+00:00",
     "source_published_at": "2026-09-28T19:04:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "a5eddc09be45e19c",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "RFK Jr. unveils sweeping federal initiative to find evidence of vaccine injuries",
+   "angle": "\"[T]he Trump-RFK Jr anti-vax agenda keeps getting more corrupt and dangerous.\". Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "\"[T]he Trump-RFK Jr anti-vax agenda keeps getting more corrupt and dangerous.\""
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/health/2026/10/rfk-jr-unveils-sweeping-federal-initiative-to-find-evidence-of-vaccine-injuries/",
+   "score": 60.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "RFK",
+     "Trump-RFK Jr anti-vax agenda"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5209,
+    "label": "negative"
+   },
+   "summary": "\"[T]he Trump-RFK Jr anti-vax agenda keeps getting more corrupt and dangerous.\"",
+   "cluster_id": "a5eddc09be45e19c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:54.173583+00:00",
+    "source_published_at": "2026-10-08T19:26:32+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -101797,6 +103082,46 @@
      "SPORTS": 0.0,
      "CLOSER": 0.0263
     }
+   }
+  },
+  {
+   "id": "d7f318171ec8f6f3",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Driver wins $76 after ALPR led to bogus traffic stop, drug searches",
+   "angle": "Driver wins $76 after ALPR led to bogus traffic stop, drug searches. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Mass surveillance gets stupider."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/tech-policy/2026/10/driver-wins-76-after-alpr-led-to-bogus-traffic-stop-drug-searches/",
+   "score": 59.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "ALPR"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.25,
+    "label": "negative"
+   },
+   "summary": "Mass surveillance gets stupider.",
+   "cluster_id": "d7f318171ec8f6f3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:54.146537+00:00",
+    "source_published_at": "2026-10-08T19:42:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -104583,6 +105908,44 @@
    }
   },
   {
+   "id": "6e82965edc2bf718",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "An experimental tour-de-force: Entanglement between glass bead and light",
+   "angle": "Getting a glass bead to act like a quantum object by entangling it with light. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Getting a glass bead to act like a quantum object by entangling it with light."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/science/2026/10/suspended-glass-bead-entangled-with-light-maybe-a-quantum-memory/",
+   "score": 58.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3612,
+    "label": "positive"
+   },
+   "summary": "Getting a glass bead to act like a quantum object by entangling it with light.",
+   "cluster_id": "6e82965edc2bf718",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:54.198262+00:00",
+    "source_published_at": "2026-10-08T18:45:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "c289272e07777606",
    "date": "2026-09-22",
    "slot": "am",
@@ -105369,6 +106732,51 @@
    "meta": {
     "ingested_at": "2026-10-07T10:49:41.876892+00:00",
     "source_published_at": "2026-10-06T20:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "fffcb5798daff03d",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Microsoft’s new Windows Search is exactly what Windows 11 needs",
+   "angle": "Windows Search has been one of the most frustrating parts of Windows 11, and now Microsoft is addressing this with a significant overhaul. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Windows Search has been one of the most frustrating parts of Windows 11, and now Microsoft is addressing this with a significant overhaul.",
+    "A new redesigned Windows Search is now in testing that is much faster, more capable, and a lot more modern.",
+    "\"This new Windows Search experience is built for speed,\" says Anshul Rawat, [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/news/1008320/microsoft-windows-search-overhaul-windows-11",
+   "score": 58.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Anshul Rawat"
+    ],
+    "organizations": [
+     "Microsoft",
+     "Windows Search"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.128,
+    "label": "positive"
+   },
+   "summary": "Windows Search has been one of the most frustrating parts of Windows 11, and now Microsoft is addressing this with a significant overhaul. A new redesigned Windows Search is now in testing that is much faster, more capable, and a lot more modern. \"This new Windows Search experience is built for speed,\" says Anshul Rawat, [&#8230;]",
+   "cluster_id": "fffcb5798daff03d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:53.806871+00:00",
+    "source_published_at": "2026-10-08T19:30:21+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -107567,6 +108975,44 @@
    }
   },
   {
+   "id": "60579a96b08f99f6",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "TECH",
+   "title": "Let's Encrypt cuts certificate lifetimes to 64 days starting February 2027",
+   "angle": "Free SSL/TLS certificate lifetimes reduce to 64 days in February. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Free SSL/TLS certificate lifetimes reduce to 64 days in February."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/gadgets/2026/10/lets-encrypt-cuts-certificate-lifetimes-to-64-days-starting-february-2027/",
+   "score": 57.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "Free SSL/TLS certificate lifetimes reduce to 64 days in February.",
+   "cluster_id": "60579a96b08f99f6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:54.119987+00:00",
+    "source_published_at": "2026-10-08T19:57:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "ea36c1448b7e80d4",
    "date": "2026-09-22",
    "slot": "am",
@@ -108494,6 +109940,55 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "f60181fa8464b064",
+   "date": "2026-10-08",
+   "slot": "pm",
+   "category": "LIFESTYLE CHAT",
+   "title": "Study reveals whether diet soda or water is better for weight loss",
+   "angle": "The study included 493 participants ranging from 18 to 65 years old, all of whom had a body mass index (BMI) between 27 and 35 (overweight or obese). Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "The study included 493 participants ranging from 18 to 65 years old, all of whom had a body mass index (BMI) between 27 and 35 (overweight or obese)."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/08/health/study-reveals-whether-diet-soda-or-water-is-better-for-weight-loss/",
+   "score": 57.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "BMI"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2263,
+    "label": "negative"
+   },
+   "summary": "The study included 493 participants ranging from 18 to 65 years old, all of whom had a body mass index (BMI) between 27 and 35 (overweight or obese).",
+   "cluster_id": "f60181fa8464b064",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-08T20:20:52.005738+00:00",
+    "source_published_at": "2026-10-08T20:20:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1011,
+     "ENTERTAINMENT": 0.0772,
+     "BREAKOUT WATCH": 0.0345,
+     "LIFESTYLE CHAT": 0.7456,
+     "CANADIAN NEWS": 0.0202,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0215
+    }
    }
   },
   {
