@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-12T11:25:37.207408+00:00",
+ "generated_at": "2026-10-12T12:37:51.356351+00:00",
  "timezone": "America/Toronto",
  "date": "2026-10-12",
  "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 2947,
+ "count": 2971,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -7430,6 +7430,57 @@
    }
   },
   {
+   "id": "b5405761af700911",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Neither the Giants nor the Jets impressed, but they survived, and that’s better than the alternative",
+   "angle": "The outcomes for both the Giants and Jets were different from what the fanbases have become accustomed to. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The outcomes for both the Giants and Jets were different from what the fanbases have become accustomed to."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/sports/giants-jets-didnt-impress-but-they-survived-in-week-5/",
+   "score": 78.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jets"
+    ],
+    "organizations": [
+     "Giants"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.8188,
+    "label": "positive"
+   },
+   "summary": "The outcomes for both the Giants and Jets were different from what the fanbases have become accustomed to.",
+   "cluster_id": "b5405761af700911",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.651309+00:00",
+    "source_published_at": "2026-10-12T11:40:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1763,
+     "ENTERTAINMENT": 0.3309,
+     "BREAKOUT WATCH": 0.0819,
+     "LIFESTYLE CHAT": 0.2852,
+     "CANADIAN NEWS": 0.0547,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.071
+    }
+   }
+  },
+  {
    "id": "9e581861ed438ada",
    "date": "2026-09-22",
    "slot": "am",
@@ -9173,6 +9224,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0744
+    }
+   }
+  },
+  {
+   "id": "f8008a29887990c0",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "So Who’s Ogling Mikey Madison More: Sean Baker in ‘Anora’ or Aaron Sorkin in ‘The Social Network’?",
+   "angle": "Both movies have Mikey Madison dressing up like a sex worker. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Both movies have Mikey Madison dressing up like a sex worker.",
+    "Only one of them does it for a good reason."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://decider.com/2026/10/12/mikey-madison-in-the-social-reckoning-vs-anora/",
+   "score": 77.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Sean Baker",
+     "Anora",
+     "Aaron Sorkin",
+     "Mikey Madison"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6597,
+    "label": "positive"
+   },
+   "summary": "Both movies have Mikey Madison dressing up like a sex worker. Only one of them does it for a good reason.",
+   "cluster_id": "f8008a29887990c0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.066080+00:00",
+    "source_published_at": "2026-10-12T12:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1045,
+     "ENTERTAINMENT": 0.2955,
+     "BREAKOUT WATCH": 0.0982,
+     "LIFESTYLE CHAT": 0.1458,
+     "CANADIAN NEWS": 0.2103,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1457
     }
    }
   },
@@ -20025,6 +20129,62 @@
    }
   },
   {
+   "id": "c59e916a4c9d44e2",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Why losing Aaron Donald and Myles Garrett might have made the Rams’ defense even stronger",
+   "angle": "The Rams' defense thrived without Aaron Donald and Myles Garrett against the Eagles. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The Rams' defense thrived without Aaron Donald and Myles Garrett against the Eagles.",
+    "Here's why those valuable snaps could pay off in the NFL playoffs."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/sports/rams-defense-proves-it-can-dominate-without-aaron-donald-myles-garrett-in-win-over-eagles/",
+   "score": 74.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Aaron Donald",
+     "Myles Garrett",
+     "Rams"
+    ],
+    "organizations": [
+     "NFL"
+    ],
+    "locations": [
+     "Eagles"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5719,
+    "label": "positive"
+   },
+   "summary": "The Rams' defense thrived without Aaron Donald and Myles Garrett against the Eagles. Here's why those valuable snaps could pay off in the NFL playoffs.",
+   "cluster_id": "c59e916a4c9d44e2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.485704+00:00",
+    "source_published_at": "2026-10-12T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2467,
+     "ENTERTAINMENT": 0.0627,
+     "BREAKOUT WATCH": 0.1016,
+     "LIFESTYLE CHAT": 0.22,
+     "CANADIAN NEWS": 0.1411,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.228
+    }
+   }
+  },
+  {
    "id": "99c7dcddb17a3579",
    "date": "2026-09-23",
    "slot": "am",
@@ -24057,6 +24217,62 @@
    }
   },
   {
+   "id": "14e50a0eea3a4215",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Hammer Films Owner John Gore Studios Acquires Rights to ‘The Woman in Black’ Author Susan Hill’s Complete Works (EXCLUSIVE)",
+   "angle": "British horror icon Hammer Films could be returning to the chilling world of one of its most successful movies. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "British horror icon Hammer Films could be returning to the chilling world of one of its most successful movies.",
+    "John Gore Studios, which owns Hammer (bought by theater mogul John Gore in late 2023) has acquired all rights to the works of Dame Susan Hill, who famously wrote the 1983 Gothic horror &#8220;The Woman in [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/john-gore-studios-acquires-woman-in-black-author-works-1236907333/",
+   "score": 73.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "John Gore",
+     "Susan Hill",
+     "Hammer Films",
+     "John Gore Studios",
+     "Hammer"
+    ],
+    "organizations": [
+     "Gothic horror &"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2901,
+    "label": "negative"
+   },
+   "summary": "British horror icon Hammer Films could be returning to the chilling world of one of its most successful movies. John Gore Studios, which owns Hammer (bought by theater mogul John Gore in late 2023) has acquired all rights to the works of Dame Susan Hill, who famously wrote the 1983 Gothic horror &#8220;The Woman in [&#8230;]",
+   "cluster_id": "14e50a0eea3a4215",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:48.475794+00:00",
+    "source_published_at": "2026-10-12T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1006,
+     "ENTERTAINMENT": 0.4049,
+     "BREAKOUT WATCH": 0.2456,
+     "LIFESTYLE CHAT": 0.0557,
+     "CANADIAN NEWS": 0.1147,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0785
+    }
+   }
+  },
+  {
    "id": "73bcb8dbd9dbef4e",
    "date": "2026-09-22",
    "slot": "am",
@@ -24722,6 +24938,62 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0189
+    }
+   }
+  },
+  {
+   "id": "5dabf4a2683845b8",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Sense and Sensibility’ and ‘Hamnet’ Breakout Bodhi Rae Breathnach Signs With UTA (EXCLUSIVE)",
+   "angle": "Bodhi Rae Breathnach, the young Irish-English actress who made her feature film debut in Chloe Zhao&#8217;s critically-acclaimed awards darling and box office hit &#8220;Hamnet,&#8221; has been signed by UTA for…",
+   "bullets": [
+    "Bodhi Rae Breathnach, the young Irish-English actress who made her feature film debut in Chloe Zhao&#8217;s critically-acclaimed awards darling and box office hit &#8220;Hamnet,&#8221; has been signed by UTA for representation in the U.S.",
+    "The signing comes just as the 15-year-old&#8217;s latest film &#8220;Sense and Sensibility&#8221; prepares to opens in the U.S.",
+    "The fresh take [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/bodhi-rae-breathnach-signs-with-uta-1236908881/",
+   "score": 73.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rae Breathnach"
+    ],
+    "organizations": [
+     "UTA"
+    ],
+    "locations": [
+     "Chloe Zhao&#8217;s",
+     "U.S."
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8842,
+    "label": "positive"
+   },
+   "summary": "Bodhi Rae Breathnach, the young Irish-English actress who made her feature film debut in Chloe Zhao&#8217;s critically-acclaimed awards darling and box office hit &#8220;Hamnet,&#8221; has been signed by UTA for representation in the U.S. The signing comes just as the 15-year-old&#8217;s latest film &#8220;Sense and Sensibility&#8221; prepares to opens in the U.S. The fresh take [&#8230;]",
+   "cluster_id": "5dabf4a2683845b8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:48.537945+00:00",
+    "source_published_at": "2026-10-12T11:41:11+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0866,
+     "ENTERTAINMENT": 0.5687,
+     "BREAKOUT WATCH": 0.168,
+     "LIFESTYLE CHAT": 0.0309,
+     "CANADIAN NEWS": 0.089,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0568
     }
    }
   },
@@ -28925,6 +29197,111 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0326
+    }
+   }
+  },
+  {
+   "id": "1b5037583a20a319",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Zelensky says Russia still striking energy facilities despite Trump declaration of energy ceasefire",
+   "angle": "Ukrainian President Zelensky said that Russia has continued to strike Ukraine’s energy facilities even after President Trump said that the warring countries had agreed on an energy ceasefire. Ask the phones: would you…",
+   "bullets": [
+    "Ukrainian President Zelensky said that Russia has continued to strike Ukraine’s energy facilities even after President Trump said that the warring countries had agreed on an energy ceasefire."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/world-news/zelensky-says-russia-still-striking-energy-facilities-despite-trump-declaration-of-energy-ceasefire/",
+   "score": 73.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Zelensky",
+     "Trump"
+    ],
+    "organizations": [],
+    "locations": [
+     "Russia",
+     "Ukraine"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6249,
+    "label": "positive"
+   },
+   "summary": "Ukrainian President Zelensky said that Russia has continued to strike Ukraine’s energy facilities even after President Trump said that the warring countries had agreed on an energy ceasefire.",
+   "cluster_id": "1b5037583a20a319",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.597972+00:00",
+    "source_published_at": "2026-10-12T11:47:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.7579,
+     "ENTERTAINMENT": 0.0632,
+     "BREAKOUT WATCH": 0.0862,
+     "LIFESTYLE CHAT": 0.0275,
+     "CANADIAN NEWS": 0.0419,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0234
+    }
+   }
+  },
+  {
+   "id": "0f866aa6620c1769",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Tom Cruise film Digger could lose $245m at box office",
+   "angle": "The film dropped by around 60% in its second weekend, and could become one of Hollywood's biggest flops. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The film dropped by around 60% in its second weekend, and could become one of Hollywood's biggest flops."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cke8re5v1pgmo?at_medium=RSS&at_campaign=rss",
+   "score": 73.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Tom Cruise",
+     "Digger"
+    ],
+    "organizations": [],
+    "locations": [
+     "Hollywood"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6249,
+    "label": "negative"
+   },
+   "summary": "The film dropped by around 60% in its second weekend, and could become one of Hollywood's biggest flops.",
+   "cluster_id": "0f866aa6620c1769",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:49.452075+00:00",
+    "source_published_at": "2026-10-12T11:29:18+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2478,
+     "ENTERTAINMENT": 0.4879,
+     "BREAKOUT WATCH": 0.0897,
+     "LIFESTYLE CHAT": 0.0654,
+     "CANADIAN NEWS": 0.0756,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0336
     }
    }
   },
@@ -33884,6 +34261,53 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0245
+    }
+   }
+  },
+  {
+   "id": "f61dc212835d72da",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "How Islanders helped superfan, 18, beat near-fatal rare cancer: ‘Treated me like family’",
+   "angle": "\"I'm just super happy to be here — super happy to enjoy the game, and thankful for the Islanders, for everything they've done for me.\". Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "\"I'm just super happy to be here — super happy to enjoy the game, and thankful for the Islanders, for everything they've done for me.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/sports/how-islanders-helped-superfan-beat-near-fatal-rare-cancer/",
+   "score": 72.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9648,
+    "label": "positive"
+   },
+   "summary": "\"I'm just super happy to be here — super happy to enjoy the game, and thankful for the Islanders, for everything they've done for me.\"",
+   "cluster_id": "f61dc212835d72da",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.380084+00:00",
+    "source_published_at": "2026-10-12T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.143,
+     "ENTERTAINMENT": 0.4061,
+     "BREAKOUT WATCH": 0.1851,
+     "LIFESTYLE CHAT": 0.093,
+     "CANADIAN NEWS": 0.0525,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1203
     }
    }
   },
@@ -48455,6 +48879,53 @@
    }
   },
   {
+   "id": "02642e2c8c213bcf",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "56% of Canadians Who Don't Own a Home Don't Expect to Ever Own One — More Than Double the Global Average",
+   "angle": "&#32; submitted by &#32; /u/Tuckebarry [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Tuckebarry [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x3zw5i/56_of_canadians_who_dont_own_a_home_dont_expect/",
+   "score": 71.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/Tuckebarry [link] &#32; [comments]",
+   "cluster_id": "02642e2c8c213bcf",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:46.254457+00:00",
+    "source_published_at": "2026-10-12T11:56:56+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3455,
+     "ENTERTAINMENT": 0.1141,
+     "BREAKOUT WATCH": 0.0859,
+     "LIFESTYLE CHAT": 0.2453,
+     "CANADIAN NEWS": 0.1664,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0428
+    }
+   }
+  },
+  {
    "id": "e1f8532f85bba3be",
    "date": "2026-09-22",
    "slot": "am",
@@ -53463,6 +53934,55 @@
    }
   },
   {
+   "id": "f59e09700f951956",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "New ‘agency’ determines who is a real New Yorker — and it has already denied its most famous native",
+   "angle": "New ‘agency’ determines who is a real New Yorker — and it has already denied its most famous native. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Do you have enough suffering points?"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/us-news/new-agency-determines-who-is-a-real-new-yorker-and-it-has-already-denied-its-most-famous-native/",
+   "score": 70.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "New Yorker"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7184,
+    "label": "negative"
+   },
+   "summary": "Do you have enough suffering points?",
+   "cluster_id": "f59e09700f951956",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.702072+00:00",
+    "source_published_at": "2026-10-12T11:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4655,
+     "ENTERTAINMENT": 0.209,
+     "BREAKOUT WATCH": 0.0586,
+     "LIFESTYLE CHAT": 0.1544,
+     "CANADIAN NEWS": 0.07,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0424
+    }
+   }
+  },
+  {
    "id": "da6cbc4fa9e29ca2",
    "date": "2026-09-22",
    "slot": "am",
@@ -54485,6 +55005,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1493
+    }
+   }
+  },
+  {
+   "id": "78bd196edf80864e",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "John Stamos gives heartbreaking update on Beach Boys singer Mike Love’s ‘serious’ health issues",
+   "angle": "\"My beloved friend, father figure, musical hero and mentor, Mike Love, is facing serious health challenges,\" the \"Full House\" actor wrote. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "\"My beloved friend, father figure, musical hero and mentor, Mike Love, is facing serious health challenges,\" the \"Full House\" actor wrote."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/12/celebrity-news/john-stamos-gives-heartbreaking-update-on-beach-boys-singer-mike-loves-serious-health-issues/",
+   "score": 70.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "John Stamos",
+     "Mike Love’s",
+     "Mike Love"
+    ],
+    "organizations": [
+     "Beach Boys"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9062,
+    "label": "positive"
+   },
+   "summary": "\"My beloved friend, father figure, musical hero and mentor, Mike Love, is facing serious health challenges,\" the \"Full House\" actor wrote.",
+   "cluster_id": "78bd196edf80864e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.119970+00:00",
+    "source_published_at": "2026-10-12T12:28:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.112,
+     "ENTERTAINMENT": 0.2301,
+     "BREAKOUT WATCH": 0.063,
+     "LIFESTYLE CHAT": 0.5222,
+     "CANADIAN NEWS": 0.0371,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0356
     }
    }
   },
@@ -57028,6 +57601,63 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1256
+    }
+   }
+  },
+  {
+   "id": "e8400893c85dbe96",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Another Hollywood ending? Why the Rams could stun Josh Allen and the Bills on Monday night",
+   "angle": "Another Hollywood ending? Why the Rams could stun Josh Allen and the Bills on Monday night. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Bills Week 5 preview, prediction and key matchup as Matthew Stafford and Josh Allen collide on Monday Night Football at SoFi Stadium."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/sports/rams-vs-bills-week-5-preview-mnf/",
+   "score": 69.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rams",
+     "Josh Allen",
+     "Matthew Stafford"
+    ],
+    "organizations": [
+     "Bills",
+     "Bills Week 5"
+    ],
+    "locations": [
+     "Hollywood",
+     "SoFi Stadium"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0772,
+    "label": "negative"
+   },
+   "summary": "Rams vs. Bills Week 5 preview, prediction and key matchup as Matthew Stafford and Josh Allen collide on Monday Night Football at SoFi Stadium.",
+   "cluster_id": "e8400893c85dbe96",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.432675+00:00",
+    "source_published_at": "2026-10-12T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1775,
+     "ENTERTAINMENT": 0.5626,
+     "BREAKOUT WATCH": 0.0436,
+     "LIFESTYLE CHAT": 0.1074,
+     "CANADIAN NEWS": 0.0846,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0242
     }
    }
   },
@@ -60612,6 +61242,65 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.096
+    }
+   }
+  },
+  {
+   "id": "f7f7c4bda002d2b6",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "RTL Touts YouTube Partnership, With ‘Cobra 11’ Driving 26% Rise in Subscriptions and Opening New Revenue Streams",
+   "angle": "Germany’s leading broadcaster RTL Deutschland unpacked its recent partnership with YouTube at Mipcom Cannes, revealing that its long-running action series &#8220;Cobra 11&#8221; has thrived on the platform. Ask the…",
+   "bullets": [
+    "Germany’s leading broadcaster RTL Deutschland unpacked its recent partnership with YouTube at Mipcom Cannes, revealing that its long-running action series &#8220;Cobra 11&#8221; has thrived on the platform.",
+    "On stage alongside Pedro Pina, YouTube’s VP for EMEA, RTL Deutschland chief executive Stephan Schmitter said the broadcaster uploaded more than 200 full episodes of the series to [&#8230;]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/rtl-touts-youtube-cobra-11-rise-subscriptions-1236908811/",
+   "score": 69.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Pedro Pina",
+     "YouTube’s VP",
+     "Stephan Schmitter"
+    ],
+    "organizations": [
+     "Deutschland",
+     "YouTube",
+     "EMEA"
+    ],
+    "locations": [
+     "Germany",
+     "Deutschland"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0258,
+    "label": "neutral"
+   },
+   "summary": "Germany’s leading broadcaster RTL Deutschland unpacked its recent partnership with YouTube at Mipcom Cannes, revealing that its long-running action series &#8220;Cobra 11&#8221; has thrived on the platform. On stage alongside Pedro Pina, YouTube’s VP for EMEA, RTL Deutschland chief executive Stephan Schmitter said the broadcaster uploaded more than 200 full episodes of the series to [&#8230;]",
+   "cluster_id": "f7f7c4bda002d2b6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:48.410349+00:00",
+    "source_published_at": "2026-10-12T12:21:24+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3643,
+     "ENTERTAINMENT": 0.3409,
+     "BREAKOUT WATCH": 0.1112,
+     "LIFESTYLE CHAT": 0.0701,
+     "CANADIAN NEWS": 0.0538,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0597
     }
    }
   },
@@ -71707,6 +72396,59 @@
    }
   },
   {
+   "id": "9a7c036eaec8e894",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "France open to defence deals with Canada despite its push for arms autonomy, envoy says",
+   "angle": "In February, Canada became the first non-European partner in an EU loan program for joint defence projects called Security Action for Europe, or SAFE. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "In February, Canada became the first non-European partner in an EU loan program for joint defence projects called Security Action for Europe, or SAFE"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-france-open-to-defence-deals-with-canada/",
+   "score": 67.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "EU",
+     "Security Action for Europe"
+    ],
+    "locations": [
+     "France",
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.7804,
+    "label": "positive"
+   },
+   "summary": "In February, Canada became the first non-European partner in an EU loan program for joint defence projects called Security Action for Europe, or SAFE",
+   "cluster_id": "9a7c036eaec8e894",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:44.595367+00:00",
+    "source_published_at": "2026-10-12T12:16:44+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1793,
+     "ENTERTAINMENT": 0.0467,
+     "BREAKOUT WATCH": 0.0628,
+     "LIFESTYLE CHAT": 0.0425,
+     "CANADIAN NEWS": 0.6183,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0504
+    }
+   }
+  },
+  {
    "id": "59674ed3684bf0b4",
    "date": "2026-09-22",
    "slot": "am",
@@ -72434,6 +73176,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0553
+    }
+   }
+  },
+  {
+   "id": "c25c61cd1f764f55",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Who are the Houthis, and why are they so hard to fight?",
+   "angle": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand. Shelf life through drive time — who is…",
+   "bullets": [
+    "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/videos/cmy56nzd6y69o?at_medium=RSS&at_campaign=rss",
+   "score": 67.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Houthis",
+     "Frank Gardner"
+    ],
+    "organizations": [],
+    "locations": [
+     "Iran"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0696,
+    "label": "positive"
+   },
+   "summary": "Security correspondent Frank Gardner explains how the Iran-backed Houthis' precision strikes and guerrilla tactics have made it difficult for Saudi forces to gain the upper hand.",
+   "cluster_id": "c25c61cd1f764f55",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:49.606327+00:00",
+    "source_published_at": "2026-10-12T12:15:01+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3006,
+     "ENTERTAINMENT": 0.4054,
+     "BREAKOUT WATCH": 0.0612,
+     "LIFESTYLE CHAT": 0.134,
+     "CANADIAN NEWS": 0.0509,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.048
     }
    }
   },
@@ -78518,6 +79312,60 @@
    }
   },
   {
+   "id": "5db5d32fca58ce3f",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Rep. Ilhan Omar’s DC home raided by DHS as part of probe into Dem’s immigration paperwork",
+   "angle": "The raid is part of an investigation into Rep. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The raid is part of an investigation into Rep.",
+    "Ilhan Omar's immigration documents, which were filled out by her late father when she was a child."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/us-news/rep-ilhan-omars-dc-home-raided-by-dhs-as-part-of-probe-into-democrats-immigration-paperwork/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Ilhan Omar’s DC",
+     "Ilhan Omar's"
+    ],
+    "organizations": [
+     "DHS",
+     "Dem’s"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The raid is part of an investigation into Rep. Ilhan Omar's immigration documents, which were filled out by her late father when she was a child.",
+   "cluster_id": "5db5d32fca58ce3f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.226167+00:00",
+    "source_published_at": "2026-10-12T12:08:04+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1347,
+     "ENTERTAINMENT": 0.5577,
+     "BREAKOUT WATCH": 0.0933,
+     "LIFESTYLE CHAT": 0.0955,
+     "CANADIAN NEWS": 0.061,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0577
+    }
+   }
+  },
+  {
    "id": "72f197b3798c84e5",
    "date": "2026-09-22",
    "slot": "am",
@@ -80651,6 +81499,57 @@
    }
   },
   {
+   "id": "142a7cd968ce462b",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Brooklyn store Art of Play defends viral ‘misunderstanding’ with Kelly Clarkson after being branded a ‘liar’",
+   "angle": "The \"American Idol\" alum took aim at the curiosity shop as \"rude\" and \"condescending\" in a scathing statement via X over the weekend. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The \"American Idol\" alum took aim at the curiosity shop as \"rude\" and \"condescending\" in a scathing statement via X over the weekend."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/12/celebrity-news/brooklyn-store-art-of-play-defends-viral-misunderstanding-with-kelly-clarkson/",
+   "score": 66.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kelly Clarkson"
+    ],
+    "organizations": [],
+    "locations": [
+     "Brooklyn"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.1531,
+    "label": "negative"
+   },
+   "summary": "The \"American Idol\" alum took aim at the curiosity shop as \"rude\" and \"condescending\" in a scathing statement via X over the weekend.",
+   "cluster_id": "142a7cd968ce462b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.173590+00:00",
+    "source_published_at": "2026-10-12T12:10:47+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1409,
+     "ENTERTAINMENT": 0.6544,
+     "BREAKOUT WATCH": 0.0556,
+     "LIFESTYLE CHAT": 0.0495,
+     "CANADIAN NEWS": 0.0653,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0343
+    }
+   }
+  },
+  {
    "id": "02ad443bacabca0d",
    "date": "2026-09-22",
    "slot": "am",
@@ -82200,6 +83099,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.011
+    }
+   }
+  },
+  {
+   "id": "7b8e3bf88a2ac8ed",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "YouTube Making Nice with Legacy TV",
+   "angle": "The global video platform continues its charm offensive at TV market Mipcom, arguing it wants to be a partner, not predator of traditional TV. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The global video platform continues its charm offensive at TV market Mipcom, arguing it wants to be a partner, not predator of traditional TV."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/youtube-on-working-with-legacy-tv-mipcom-1236727664/",
+   "score": 66.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "YouTube Making Nice"
+    ],
+    "organizations": [
+     "Mipcom"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.128,
+    "label": "negative"
+   },
+   "summary": "The global video platform continues its charm offensive at TV market Mipcom, arguing it wants to be a partner, not predator of traditional TV.",
+   "cluster_id": "7b8e3bf88a2ac8ed",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.852351+00:00",
+    "source_published_at": "2026-10-12T12:18:38+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3595,
+     "ENTERTAINMENT": 0.3167,
+     "BREAKOUT WATCH": 0.1111,
+     "LIFESTYLE CHAT": 0.0796,
+     "CANADIAN NEWS": 0.0702,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0628
     }
    }
   },
@@ -86346,6 +87296,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0121
+    }
+   }
+  },
+  {
+   "id": "93bc62acd75eda98",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Commanders broadcast in disbelief of stunning OT gaffe: ‘You gotta be kidding me’",
+   "angle": "Like much of the football world, the Commanders’ radio booth was disgusted by the ending of their Week 5 matchup with the Giants on Sunday. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Like much of the football world, the Commanders’ radio booth was disgusted by the ending of their Week 5 matchup with the Giants on Sunday."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/sports/commanders-broadcast-in-disbelief-of-stunning-ot-gaffe/",
+   "score": 65.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "OT",
+     "Giants"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "Like much of the football world, the Commanders’ radio booth was disgusted by the ending of their Week 5 matchup with the Giants on Sunday.",
+   "cluster_id": "93bc62acd75eda98",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.011499+00:00",
+    "source_published_at": "2026-10-12T12:32:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2551,
+     "ENTERTAINMENT": 0.2649,
+     "BREAKOUT WATCH": 0.2106,
+     "LIFESTYLE CHAT": 0.1376,
+     "CANADIAN NEWS": 0.0829,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.049
     }
    }
   },
@@ -91434,6 +92434,55 @@
    }
   },
   {
+   "id": "38e7b6a32bf5e2ef",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "The Post’s college football rankings, Heisman watch following Week 6",
+   "angle": "The Post’s Zach Braziller ranks the top teams after Week 6 of the college football season:. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Post’s Zach Braziller ranks the top teams after Week 6 of the college football season:"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/sports/the-posts-college-football-rankings-heisman-watch-following-week-6-4/",
+   "score": 65.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Post"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2023,
+    "label": "positive"
+   },
+   "summary": "The Post’s Zach Braziller ranks the top teams after Week 6 of the college football season:",
+   "cluster_id": "38e7b6a32bf5e2ef",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.326152+00:00",
+    "source_published_at": "2026-10-12T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1687,
+     "ENTERTAINMENT": 0.4652,
+     "BREAKOUT WATCH": 0.0896,
+     "LIFESTYLE CHAT": 0.1679,
+     "CANADIAN NEWS": 0.0702,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0384
+    }
+   }
+  },
+  {
    "id": "c60860e1813f6cf8",
    "date": "2026-09-23",
    "slot": "am",
@@ -94689,6 +95738,55 @@
    }
   },
   {
+   "id": "47ddf62e9201deb1",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "The 10 Best Horror Movies Now Streaming on Shudder",
+   "angle": "The 10 Best Horror Movies Now Streaming on Shudder. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Get the most out of Spooky Season."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://decider.com/2026/10/12/the-10-best-horror-movies-now-streaming-on-shudder/",
+   "score": 64.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Spooky Season"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.128,
+    "label": "positive"
+   },
+   "summary": "Get the most out of Spooky Season.",
+   "cluster_id": "47ddf62e9201deb1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.273707+00:00",
+    "source_published_at": "2026-10-12T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0342,
+     "ENTERTAINMENT": 0.5653,
+     "BREAKOUT WATCH": 0.0653,
+     "LIFESTYLE CHAT": 0.2437,
+     "CANADIAN NEWS": 0.0628,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0287
+    }
+   }
+  },
+  {
    "id": "73bd438ba7d6616b",
    "date": "2026-09-22",
    "slot": "am",
@@ -95281,6 +96379,51 @@
      "SPORTS": 0.0,
      "CLOSER": 0.1536
     }
+   }
+  },
+  {
+   "id": "f3888ed50e066cb7",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "TECH",
+   "title": "How Apple can win the smart home",
+   "angle": "This week, Apple is hosting its first-ever dedicated smart home event. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "This week, Apple is hosting its first-ever dedicated smart home event.",
+    "While the company hasn't shared details about what it will reveal at the \"Welcome Home experience\" in New York City on Tuesday, October 13th, it doesn't take an army of internet sleuths to deduce we'll get news about Apple Home - specifically, new hardware."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1009324/how-apple-can-win-the-smart-home",
+   "score": 64.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Apple",
+     "the \"Welcome Home",
+     "Apple Home"
+    ],
+    "locations": [
+     "New York City"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9211,
+    "label": "positive"
+   },
+   "summary": "This week, Apple is hosting its first-ever dedicated smart home event. While the company hasn't shared details about what it will reveal at the \"Welcome Home experience\" in New York City on Tuesday, October 13th, it doesn't take an army of internet sleuths to deduce we'll get news about Apple Home - specifically, new hardware. [&#8230;]",
+   "cluster_id": "f3888ed50e066cb7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:49.960148+00:00",
+    "source_published_at": "2026-10-12T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -97739,6 +98882,53 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0264
+    }
+   }
+  },
+  {
+   "id": "b9d87ddf46b0fdb6",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Meet the ‘chronoworkers’ who are ditching the 9 to 5 — and following their body clocks instead",
+   "angle": "Structuring your job around your personal circadian rhythm has become the workplace trend of the return-to-office era, and it’s already dividing offices into two camps: the biologically enlightened, and the deeply…",
+   "bullets": [
+    "Structuring your job around your personal circadian rhythm has become the workplace trend of the return-to-office era, and it’s already dividing offices into two camps: the biologically enlightened, and the deeply annoyed."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/12/health/meet-the-chronoworkers-following-their-body-clocks-instead-of-the-9-to-5/",
+   "score": 63.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.079,
+    "label": "positive"
+   },
+   "summary": "Structuring your job around your personal circadian rhythm has become the workplace trend of the return-to-office era, and it’s already dividing offices into two camps: the biologically enlightened, and the deeply annoyed.",
+   "cluster_id": "b9d87ddf46b0fdb6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:47.545174+00:00",
+    "source_published_at": "2026-10-12T11:59:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4265,
+     "ENTERTAINMENT": 0.1913,
+     "BREAKOUT WATCH": 0.0376,
+     "LIFESTYLE CHAT": 0.245,
+     "CANADIAN NEWS": 0.0568,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0427
     }
    }
   },
@@ -101145,6 +102335,55 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "aac51dfaaaa1f44f",
+   "date": "2026-10-12",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Federal Tracker: Liberals 45%, Conservatives 29%; Poilievre Ratings Worsen",
+   "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x3yqab/federal_tracker_liberals_45_conservatives_29/",
+   "score": 63.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Poilievre Ratings Worsen"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5106,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+   "cluster_id": "aac51dfaaaa1f44f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-12T12:37:46.854678+00:00",
+    "source_published_at": "2026-10-12T10:52:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2662,
+     "ENTERTAINMENT": 0.0947,
+     "BREAKOUT WATCH": 0.1174,
+     "LIFESTYLE CHAT": 0.073,
+     "CANADIAN NEWS": 0.397,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0517
+    }
    }
   },
   {
