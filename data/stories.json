@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-12T22:07:10.752910+00:00",
+ "generated_at": "2026-10-13T11:17:50.881250+00:00",
  "timezone": "America/Toronto",
- "date": "2026-10-12",
- "slot": "pm",
+ "date": "2026-10-13",
+ "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 3061,
+ "count": 3127,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -2075,6 +2075,61 @@
    }
   },
   {
+   "id": "2a75fc2ff5a3aed8",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Russia's offensive ability is broken, Kyiv's former top general tells BBC",
+   "angle": "In his first interview since being forced from his post, Gen Syrskyi speaks about Ukraine's future in the war. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "In his first interview since being forced from his post, Gen Syrskyi speaks about Ukraine's future in the war."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c9y7lgg2vdggo?at_medium=RSS&at_campaign=rss",
+   "score": 80.7,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Kyiv",
+     "Gen Syrskyi"
+    ],
+    "organizations": [
+     "BBC"
+    ],
+    "locations": [
+     "Russia",
+     "Ukraine"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.872,
+    "label": "negative"
+   },
+   "summary": "In his first interview since being forced from his post, Gen Syrskyi speaks about Ukraine's future in the war.",
+   "cluster_id": "2a75fc2ff5a3aed8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.957912+00:00",
+    "source_published_at": "2026-10-13T05:02:34+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1649,
+     "ENTERTAINMENT": 0.3056,
+     "BREAKOUT WATCH": 0.1777,
+     "LIFESTYLE CHAT": 0.1218,
+     "CANADIAN NEWS": 0.1444,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0857
+    }
+   }
+  },
+  {
    "id": "f372f160b6827883",
    "date": "2026-09-28",
    "slot": "am",
@@ -2316,12 +2371,18 @@
    "date": "2026-09-22",
    "slot": "am",
    "category": "ENTERTAINMENT",
-   "title": "‘Digger’ London premiere red carpet: Tom Cruise, Hannah Waddingham, Salma Hayek and more",
-   "angle": "From the film's star Tom Cruise to Salma Hayek, scroll through to see all the best photos from the starry red carpet. Shelf life through drive time — who is overrated and who actually delivered?",
+   "title": "‘Digger’ London premiere red carpet: Tom Cruise, Hannah Waddingham, Salma Hayek and more",
+   "angle": "Tom Cruise stepped out in London alongside Salma Hayek and Hannah Waddingham for the premiere of his new film 'Digger.' With studios banking on classic star wattage, we want to know if old-school celebrity power still convinces you to buy a ticket at your local Canadian theatre.",
    "bullets": [
-    "From the film's star Tom Cruise to Salma Hayek, scroll through to see all the best photos from the starry red carpet."
+    "The film 'Digger' held its premiere red carpet event in London.",
+    "Tom Cruise starred in the featured film 'Digger.'",
+    "Cruise attended the red carpet event in London to promote the film.",
+    "Salma Hayek appeared on the red carpet for the London premiere.",
+    "Hannah Waddingham attended the red carpet screening in London.",
+    "Multiple additional celebrity guests joined Cruise, Waddingham, and Hayek on the red carpet.",
+    "Event coverage documented photos of the featured attendees throughout the London premiere."
    ],
-   "debate": "Overrated or underrated — where do you land?",
+   "debate": "Does seeing massive Hollywood stars like Tom Cruise on a red carpet still make you want to go to the cinema, or has star power lost its pull?",
    "source": "NY Post",
    "source_type": "news",
    "url": "https://pagesix.com/2026/09/22/photos/digger-london-premiere-red-carpet-tom-cruise-hannah-waddingham-salma-hayek-and-more/",
@@ -2350,7 +2411,8 @@
    "meta": {
     "ingested_at": "2026-09-22T18:30:43.090264+00:00",
     "source_published_at": "2026-09-22T18:12:26+00:00",
-    "pipeline_version": "1.1.0"
+    "pipeline_version": "1.1.0",
+    "gemini_enrich": "gemini-v1"
    }
   },
   {
@@ -2546,12 +2608,18 @@
    "slot": "am",
    "category": "ENTERTAINMENT",
    "title": "Florence Pugh and Hoon Lee Form the Beating Heart of Netflix’s Rich ‘East of Eden’ Adaptation: TV Review",
-   "angle": "“East of Eden,” the John Steinbeck novel, opens with a place: the author’s native Salinas Valley, the fertile terrain transitioning from the nation’s frontier to its bread basket at the turn of the 20th century. Shelf…",
+   "angle": "Netflix is taking on John Steinbeck's classic 'East of Eden' with Florence Pugh leading the charge, but this adaptation puts the notorious Cathy Ames front and centre right from the opening scene. When Hollywood revisits literary royalty, do you want a strictly faithful retelling, or is it time to let a new character take the spotlight?",
    "bullets": [
-    "“East of Eden,” the John Steinbeck novel, opens with a place: the author’s native Salinas Valley, the fertile terrain transitioning from the nation’s frontier to its bread basket at the turn of the 20th century.",
-    "“East of Eden,” the Netflix limited series created by actor and screenwriter Zoe Kazan, opens with a person: Cathy Ames [&#8230;]"
+    "Netflix produced a limited television series adaptation titled \"East of Eden.\"",
+    "Actor and screenwriter Zoe Kazan created the new limited series for the streaming platform.",
+    "The television project was adapted from the classic novel written by author John Steinbeck.",
+    "Steinbeck's original novel opened with a geographic focus on the author's native Salinas Valley.",
+    "The text described the Salinas Valley setting as \"fertile terrain transitioning from the nation's frontier to its bread basket at the turn of the 20th century.\"",
+    "Kazan's adaptation opened directly on the character Cathy Ames rather than the physical landscape.",
+    "Actor Florence Pugh starred in the limited series alongside co-star Hoon Lee.",
+    "A television review stated that Florence Pugh and Hoon Lee formed the \"beating heart\" of the production."
    ],
-   "debate": "Overrated or underrated — where do you land?",
+   "debate": "When streaming services adapt classic literature, do you want them to stay completely faithful to the book, or should they reinvent the story for modern viewers?",
    "source": "Variety",
    "source_type": "news",
    "url": "https://variety.com/2026/tv/reviews/east-of-eden-review-netflix-florence-pugh-1236893918/",
@@ -2596,7 +2664,8 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.04
-    }
+    },
+    "gemini_enrich": "gemini-v1"
    }
   },
   {
@@ -3004,11 +3073,17 @@
    "slot": "am",
    "category": "ENTERTAINMENT",
    "title": "‘American Horror Story: 13’ Jeffrey Dahmer Actor on That ‘Coven’ Cliffhanger and Sharing the Serial Killer With Co-Star Evan Peters",
-   "angle": "Seth Gabel returns as the notorious Dahmer in the new season of Ryan Murphy's horror franchise, reuniting him with Peters, who took on the role in the first season of 'Monster.'. Shelf life through drive time — who is…",
+   "angle": "Two different actors who played Jeffrey Dahmer are now sharing the screen in the upcoming season of American Horror Story. For Canadian television fans who cannot resist a Ryan Murphy spectacle, the question is whether this is inspired casting or proof that Hollywood has completely run out of fresh horror ideas.",
    "bullets": [
-    "Seth Gabel returns as the notorious Dahmer in the new season of Ryan Murphy's horror franchise, reuniting him with Peters, who took on the role in the first season of 'Monster.'"
+    "Seth Gabel returned to portray serial killer Jeffrey Dahmer in the television horror franchise produced by Ryan Murphy.",
+    "The new production was designated as the 13th installment of the series, titled 'American Horror Story: 13.'",
+    "Actor Evan Peters reunited with Gabel for the new season of the horror franchise.",
+    "Peters previously portrayed Dahmer during the first season of the television series 'Monster.'",
+    "The new installment established a shared history between Gabel and Peters, who both portrayed Dahmer across Murphy projects.",
+    "Gabel addressed the experience of sharing the Dahmer role with his co-star Peters.",
+    "Gabel also commented on a storyline cliffhanger connected to the 'Coven' season of the franchise."
    ],
-   "debate": "Overrated or underrated — where do you land?",
+   "debate": "Are you excited to see American Horror Story bring back two different Jeffrey Dahmer actors, or has television officially reached serial killer burnout?",
    "source": "Hollywood Reporter",
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/tv/tv-features/ahs-13-jeffrey-dahmer-return-seth-gabel-cliffhanger-1236717562/",
@@ -3049,7 +3124,8 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0466
-    }
+    },
+    "gemini_enrich": "gemini-v1"
    }
   },
   {
@@ -3845,7 +3921,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/tv/reviews/below-review-netflix-josh-hartnett-1236904980/",
    "score": 79.6,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Josh Hartnett",
@@ -4367,6 +4443,117 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.091
+    }
+   }
+  },
+  {
+   "id": "ba811728f8c3e961",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Breaking Bad’ Stars Bryan Cranston, Aaron Paul, Others Remember R.J. Mitte: “Sweetheart of a Young Man”",
+   "angle": "Mitte played Walter White Jr., the son of Cranston and Anna Gunn's characters, on Vince Gilligan's Emmy-winning series. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Mitte played Walter White Jr., the son of Cranston and Anna Gunn's characters, on Vince Gilligan's Emmy-winning series."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/breaking-bad-stars-react-r-j-mitte-death-1236728237/",
+   "score": 79.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Bryan Cranston",
+     "Aaron Paul",
+     "R.J. Mitte",
+     "Mitte",
+     "Walter White Jr.",
+     "Cranston",
+     "Anna Gunn's",
+     "Vince Gilligan's"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.34,
+    "label": "positive"
+   },
+   "summary": "Mitte played Walter White Jr., the son of Cranston and Anna Gunn's characters, on Vince Gilligan's Emmy-winning series.",
+   "cluster_id": "ba811728f8c3e961",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.303021+00:00",
+    "source_published_at": "2026-10-12T22:54:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1107,
+     "ENTERTAINMENT": 0.3385,
+     "BREAKOUT WATCH": 0.2188,
+     "LIFESTYLE CHAT": 0.1591,
+     "CANADIAN NEWS": 0.0875,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0853
+    }
+   }
+  },
+  {
+   "id": "a9043418d6c296f1",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Marion Cotillard to Serve as Marrakech Film Festival Jury President",
+   "angle": "Oscar-winning French actor Marion Cotillard will preside over the competition jury at the 23rd Marrakech Film Festival in November. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Oscar-winning French actor Marion Cotillard will preside over the competition jury at the 23rd Marrakech Film Festival in November.",
+    "Alongside her to be announced jury members, the &#8220;Inception&#8221; and &#8220;Dark Knight Rises&#8221; star will lead the decision of which film is awarded the Étoile d’Or out of Marrakech&#8217;s international competition, which consists of first and [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/festivals/marion-cotillard-marrakech-film-festival-jury-president-1236909854/",
+   "score": 79.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Marion Cotillard",
+     "Serve",
+     "Oscar",
+     "8220;Dark Knight"
+    ],
+    "organizations": [
+     "and &"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8442,
+    "label": "positive"
+   },
+   "summary": "Oscar-winning French actor Marion Cotillard will preside over the competition jury at the 23rd Marrakech Film Festival in November. Alongside her to be announced jury members, the &#8220;Inception&#8221; and &#8220;Dark Knight Rises&#8221; star will lead the decision of which film is awarded the Étoile d’Or out of Marrakech&#8217;s international competition, which consists of first and [&#8230;]",
+   "cluster_id": "a9043418d6c296f1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.561862+00:00",
+    "source_published_at": "2026-10-13T09:42:47+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0496,
+     "ENTERTAINMENT": 0.7824,
+     "BREAKOUT WATCH": 0.075,
+     "LIFESTYLE CHAT": 0.0388,
+     "CANADIAN NEWS": 0.0353,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0188
     }
    }
   },
@@ -5024,6 +5211,63 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.066
+    }
+   }
+  },
+  {
+   "id": "9d23307a08a0f2f6",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Ink’ Finally Meets Its Native Audience at London Film Festival, and Jack O’Connell Has Thoughts",
+   "angle": "Guy Pearce and director Danny Boyle also stopped to talk to The Hollywood Reporter about bringing Rupert Murdoch's Fleet Street origin story to U.K. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Guy Pearce and director Danny Boyle also stopped to talk to The Hollywood Reporter about bringing Rupert Murdoch's Fleet Street origin story to U.K.",
+    "fans: \"If it doesn't work here, it's not going to work anywhere.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/ink-bfi-london-film-festival-danny-boyle-jack-o-connell-1236727950/",
+   "score": 79.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jack O’Connell Has",
+     "Guy Pearce",
+     "Danny Boyle",
+     "Rupert Murdoch's"
+    ],
+    "organizations": [],
+    "locations": [
+     "Hollywood",
+     "Fleet Street",
+     "U.K."
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.3182,
+    "label": "positive"
+   },
+   "summary": "Guy Pearce and director Danny Boyle also stopped to talk to The Hollywood Reporter about bringing Rupert Murdoch's Fleet Street origin story to U.K. fans: \"If it doesn't work here, it's not going to work anywhere.\"",
+   "cluster_id": "9d23307a08a0f2f6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.217258+00:00",
+    "source_published_at": "2026-10-12T23:49:38+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0425,
+     "ENTERTAINMENT": 0.7504,
+     "BREAKOUT WATCH": 0.0837,
+     "LIFESTYLE CHAT": 0.0436,
+     "CANADIAN NEWS": 0.0513,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0286
     }
    }
   },
@@ -7127,6 +7371,61 @@
    }
   },
   {
+   "id": "3ead283569f453b9",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Jeremy Strong Texted Jessica Chastain After ‘Other Mommy’ Dominated Box Office Over ‘Social Reckoning’ Flop",
+   "angle": "&#8220;Other Mommy&#8221; may have dominated &#8220;The Social Reckoning&#8221; at the box office this past weekend, but there&#8217;s no hard feelings between longtime friends Jessica Chastain and Jeremy Strong. Shelf…",
+   "bullets": [
+    "&#8220;Other Mommy&#8221; may have dominated &#8220;The Social Reckoning&#8221; at the box office this past weekend, but there&#8217;s no hard feelings between longtime friends Jessica Chastain and Jeremy Strong.",
+    "Chastain, who stars as a demonic mother in horror movie &#8220;Other Mommy,&#8221; shared on her Instagram Story Monday night a playful string of text messages with Strong, [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/jeremy-strong-texted-jessica-chastain-other-mommy-social-reckoning-1236909803/",
+   "score": 78.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jeremy Strong",
+     "Jessica Chastain",
+     "Instagram Story"
+    ],
+    "organizations": [],
+    "locations": [
+     "Chastain",
+     "Strong"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9505,
+    "label": "positive"
+   },
+   "summary": "&#8220;Other Mommy&#8221; may have dominated &#8220;The Social Reckoning&#8221; at the box office this past weekend, but there&#8217;s no hard feelings between longtime friends Jessica Chastain and Jeremy Strong. Chastain, who stars as a demonic mother in horror movie &#8220;Other Mommy,&#8221; shared on her Instagram Story Monday night a playful string of text messages with Strong, [&#8230;]",
+   "cluster_id": "3ead283569f453b9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.408494+00:00",
+    "source_published_at": "2026-10-13T10:18:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0326,
+     "ENTERTAINMENT": 0.7503,
+     "BREAKOUT WATCH": 0.0961,
+     "LIFESTYLE CHAT": 0.0398,
+     "CANADIAN NEWS": 0.054,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0271
+    }
+   }
+  },
+  {
    "id": "cc91894a379189ab",
    "date": "2026-09-22",
    "slot": "am",
@@ -7603,6 +7902,56 @@
    }
   },
   {
+   "id": "fcca226fd084ceaa",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Canadians are still boycotting Las Vegas. The Sin City slump is now a major election issue",
+   "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x4tir8/canadians_are_still_boycotting_las_vegas_the_sin/",
+   "score": 78.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Las Vegas",
+     "Sin City"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.743,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+   "cluster_id": "fcca226fd084ceaa",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:46.519405+00:00",
+    "source_published_at": "2026-10-13T10:55:55+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3544,
+     "ENTERTAINMENT": 0.1194,
+     "BREAKOUT WATCH": 0.051,
+     "LIFESTYLE CHAT": 0.1047,
+     "CANADIAN NEWS": 0.2899,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0805
+    }
+   }
+  },
+  {
    "id": "26562fa81339259b",
    "date": "2026-10-09",
    "slot": "am",
@@ -7652,6 +8001,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0615
+    }
+   }
+  },
+  {
+   "id": "f0350cec9b3d85a5",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "'Disabled or not, everyone deserves an opportunity' - Breaking Bad actor RJ Mitte",
+   "angle": "The Breaking Bad actor, who died aged 34, spoke to BBC Newsnight in 2015 about working in the film industry. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Breaking Bad actor, who died aged 34, spoke to BBC Newsnight in 2015 about working in the film industry."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/videos/cked3y2qpn3wo?at_medium=RSS&at_campaign=rss",
+   "score": 78.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mitte"
+    ],
+    "organizations": [
+     "BBC Newsnight"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.8316,
+    "label": "negative"
+   },
+   "summary": "The Breaking Bad actor, who died aged 34, spoke to BBC Newsnight in 2015 about working in the film industry.",
+   "cluster_id": "f0350cec9b3d85a5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.421662+00:00",
+    "source_published_at": "2026-10-13T08:40:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1114,
+     "ENTERTAINMENT": 0.4412,
+     "BREAKOUT WATCH": 0.1872,
+     "LIFESTYLE CHAT": 0.0852,
+     "CANADIAN NEWS": 0.1444,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0306
     }
    }
   },
@@ -12659,6 +13059,57 @@
    }
   },
   {
+   "id": "d7d9894947476224",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Inquest begins in death of Regis Korchinski-Paquet who fell from balcony while police were in her home",
+   "angle": "Toronto woman died in 2020 after police responded to calls about a family dispute at the apartment. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Toronto woman died in 2020 after police responded to calls about a family dispute at the apartment"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/toronto/article-regis-korchinski-paquet-death-inquest/",
+   "score": 76.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Regis Korchinski-Paquet"
+    ],
+    "locations": [
+     "Toronto"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.8807,
+    "label": "negative"
+   },
+   "summary": "Toronto woman died in 2020 after police responded to calls about a family dispute at the apartment",
+   "cluster_id": "d7d9894947476224",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:45.281531+00:00",
+    "source_published_at": "2026-10-13T10:35:36+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1511,
+     "ENTERTAINMENT": 0.2824,
+     "BREAKOUT WATCH": 0.209,
+     "LIFESTYLE CHAT": 0.0695,
+     "CANADIAN NEWS": 0.1785,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1095
+    }
+   }
+  },
+  {
    "id": "669fdb2b5b0aa467",
    "date": "2026-09-23",
    "slot": "am",
@@ -14262,6 +14713,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0591
+    }
+   }
+  },
+  {
+   "id": "c7ae25dbe792c2b4",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Kyrsten Sinema’s ex-bodyguard allegedly vowed to punish ex politician, threatened to ‘decapitate’ judge, chilling texts show",
+   "angle": "Kyrsten Sinema’s ex-bodyguard turned lover allegedly threatened to punish the former lawmaker and threatened to decapitate a judge, chilling text messages show, as he appeared in court for violating his no-contact…",
+   "bullets": [
+    "Kyrsten Sinema’s ex-bodyguard turned lover allegedly threatened to punish the former lawmaker and threatened to decapitate a judge, chilling text messages show, as he appeared in court for violating his no-contact order in place against her."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/us-news/kyrsten-sinemas-ex-bodyguard-allegedly-vowed-to-punish-ex-politician-threatened-to-decapitate-judge-chilling-texts-show/",
+   "score": 76.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kyrsten Sinema’s",
+     "Kyrsten Sinema"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9403,
+    "label": "negative"
+   },
+   "summary": "Kyrsten Sinema’s ex-bodyguard turned lover allegedly threatened to punish the former lawmaker and threatened to decapitate a judge, chilling text messages show, as he appeared in court for violating his no-contact order in place against her.",
+   "cluster_id": "c7ae25dbe792c2b4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.365241+00:00",
+    "source_published_at": "2026-10-13T10:42:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2884,
+     "ENTERTAINMENT": 0.3848,
+     "BREAKOUT WATCH": 0.1136,
+     "LIFESTYLE CHAT": 0.0433,
+     "CANADIAN NEWS": 0.1202,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0498
     }
    }
   },
@@ -17271,6 +17772,61 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0392
+    }
+   }
+  },
+  {
+   "id": "41ad3a6ce3212b79",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘IvyBears’ Hits Cannes After YouTube Breakout, Spawns Animated Feature Project (EXCLUSIVE)",
+   "angle": "A theater and film studies&#8217; graduate, it was eventually Kaan Haylaz&#8217;s lifelong love for gummies that led him to commercial success, and the birth of the &#8216;IvyBears&#8217; vitamins brand and IP. Shelf…",
+   "bullets": [
+    "A theater and film studies&#8217; graduate, it was eventually Kaan Haylaz&#8217;s lifelong love for gummies that led him to commercial success, and the birth of the &#8216;IvyBears&#8217; vitamins brand and IP.",
+    "&#8220;IvyBears was never simply a consumer brand that suddenly decided to venture into entertainment,&#8221; he told Variety in an online interview in the wake [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/ivybears-series-feature-animation-ai-mipcom-moontrail-1236908753/",
+   "score": 75.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "YouTube Breakout",
+     "Kaan"
+    ],
+    "organizations": [
+     "Spawns Animated Feature Project (",
+     "IP",
+     "Variety"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8788,
+    "label": "positive"
+   },
+   "summary": "A theater and film studies&#8217; graduate, it was eventually Kaan Haylaz&#8217;s lifelong love for gummies that led him to commercial success, and the birth of the &#8216;IvyBears&#8217; vitamins brand and IP. &#8220;IvyBears was never simply a consumer brand that suddenly decided to venture into entertainment,&#8221; he told Variety in an online interview in the wake [&#8230;]",
+   "cluster_id": "41ad3a6ce3212b79",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.669873+00:00",
+    "source_published_at": "2026-10-13T09:16:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2113,
+     "ENTERTAINMENT": 0.4727,
+     "BREAKOUT WATCH": 0.0472,
+     "LIFESTYLE CHAT": 0.1107,
+     "CANADIAN NEWS": 0.0678,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0903
     }
    }
   },
@@ -20384,6 +20940,61 @@
    }
   },
   {
+   "id": "d3977d483d6e4af3",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Alberta government recommended Sam Mraiche-linked company to build recovery centre, lawyer alleges",
+   "angle": "Former lawyer for Tsuut’ina Nation says province played role in First Nation’s selection of Melewka Homes Ltd. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Former lawyer for Tsuut’ina Nation says province played role in First Nation’s selection of Melewka Homes Ltd."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-alberta-recommended-sam-mraiche-linked-company-recovery-centre-lawyer/",
+   "score": 74.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Sam Mraiche"
+    ],
+    "organizations": [
+     "Tsuut’ina Nation",
+     "First Nation’s",
+     "Melewka Homes Ltd."
+    ],
+    "locations": [
+     "Alberta"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "Former lawyer for Tsuut’ina Nation says province played role in First Nation’s selection of Melewka Homes Ltd.",
+   "cluster_id": "d3977d483d6e4af3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:45.497679+00:00",
+    "source_published_at": "2026-10-13T08:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5109,
+     "ENTERTAINMENT": 0.1395,
+     "BREAKOUT WATCH": 0.1313,
+     "LIFESTYLE CHAT": 0.0428,
+     "CANADIAN NEWS": 0.1367,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0389
+    }
+   }
+  },
+  {
    "id": "64be3e503af0d64b",
    "date": "2026-09-24",
    "slot": "am",
@@ -20960,6 +21571,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0211
+    }
+   }
+  },
+  {
+   "id": "2c1734051b61ad5c",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Horror Adaptation of Dante’s ‘The Divine Comedy,’ by ‘Invoking Yell’ Director Patricio Valladares, Gets First Look From Skincrawl Studios",
+   "angle": "Skincrawl Studios has debuted a first glimpse at Chilean filmmaker Patricio Valladares’ supernatural horror feature “The Divine Comedy,” a modern re-telling of Dante’s “Inferno.” The Irish production and distribution…",
+   "bullets": [
+    "Skincrawl Studios has debuted a first glimpse at Chilean filmmaker Patricio Valladares’ supernatural horror feature “The Divine Comedy,” a modern re-telling of Dante’s “Inferno.” The Irish production and distribution shingle, which specializes in horror and adjacent genre movies, is handling worldwide sales on the film, which recently wrapped principal photography.",
+    "&#8220;The Divine Comedy&#8221; is a [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/patricio-valladares-the-divine-comedy-skincrawl-studios-1236909263/",
+   "score": 74.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Invoking Yell",
+     "Patricio Valladares",
+     "Dante’s “"
+    ],
+    "organizations": [
+     "Skincrawl Studios"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.0772,
+    "label": "negative"
+   },
+   "summary": "Skincrawl Studios has debuted a first glimpse at Chilean filmmaker Patricio Valladares’ supernatural horror feature “The Divine Comedy,” a modern re-telling of Dante’s “Inferno.” The Irish production and distribution shingle, which specializes in horror and adjacent genre movies, is handling worldwide sales on the film, which recently wrapped principal photography. &#8220;The Divine Comedy&#8221; is a [&#8230;]",
+   "cluster_id": "2c1734051b61ad5c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.724758+00:00",
+    "source_published_at": "2026-10-13T08:57:53+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0632,
+     "ENTERTAINMENT": 0.7536,
+     "BREAKOUT WATCH": 0.0369,
+     "LIFESTYLE CHAT": 0.0484,
+     "CANADIAN NEWS": 0.0663,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0315
     }
    }
   },
@@ -22555,6 +23220,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0445
+    }
+   }
+  },
+  {
+   "id": "26e24cf748c57d6d",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "EJAE Honored at Gyopo’s Chuseok Benefit: “I’m So Proud to Celebrate Where We Come From”",
+   "angle": "The 'KPop Demon Hunters' star took home a slew of awards earlier this year for her songwriting in the Netflix animated movie. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The 'KPop Demon Hunters' star took home a slew of awards earlier this year for her songwriting in the Netflix animated movie."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/news/general-news/ejae-gyopo-chuseok-benefit-1236728401/",
+   "score": 74.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "EJAE Honored"
+    ],
+    "organizations": [
+     "Gyopo’s Chuseok Benefit"
+    ],
+    "locations": [
+     "Netflix"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9528,
+    "label": "positive"
+   },
+   "summary": "The 'KPop Demon Hunters' star took home a slew of awards earlier this year for her songwriting in the Netflix animated movie.",
+   "cluster_id": "26e24cf748c57d6d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.130678+00:00",
+    "source_published_at": "2026-10-13T00:44:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0349,
+     "ENTERTAINMENT": 0.815,
+     "BREAKOUT WATCH": 0.0768,
+     "LIFESTYLE CHAT": 0.0182,
+     "CANADIAN NEWS": 0.0215,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0335
     }
    }
   },
@@ -24454,6 +25172,57 @@
    }
   },
   {
+   "id": "0de18451b0868cbf",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Manitoba’s ‘Wheat City’ wants to fix its derelict buildings. But how?",
+   "angle": "Abandoned properties in Brandon are an issue that crosses partisan lines in the coming municipal elections. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Abandoned properties in Brandon are an issue that crosses partisan lines in the coming municipal elections"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-manitoba-brandon-wheat-city-fix-derelict-buildings/",
+   "score": 74.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Manitoba’s ‘Wheat City"
+    ],
+    "locations": [
+     "Brandon"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.6124,
+    "label": "negative"
+   },
+   "summary": "Abandoned properties in Brandon are an issue that crosses partisan lines in the coming municipal elections",
+   "cluster_id": "0de18451b0868cbf",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:45.410632+00:00",
+    "source_published_at": "2026-10-13T10:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4299,
+     "ENTERTAINMENT": 0.0831,
+     "BREAKOUT WATCH": 0.1835,
+     "LIFESTYLE CHAT": 0.0515,
+     "CANADIAN NEWS": 0.1962,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0558
+    }
+   }
+  },
+  {
    "id": "8054b0c30a3d6342",
    "date": "2026-09-22",
    "slot": "am",
@@ -25372,6 +26141,63 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0487
+    }
+   }
+  },
+  {
+   "id": "08323b37e6cdd2b5",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Skydance, Movistar Plus Expand Strategic Alliance In Win-Win Move Into Co-Branded Original Series",
+   "angle": "In what looks like a coup for both parties, Skydance and Movistar Plus, the biggest Spanish pay TV/SVOD operator, are expanding their strategic alliance, strengthening Skydance’s deal in distribution on Movistar Plus…",
+   "bullets": [
+    "In what looks like a coup for both parties, Skydance and Movistar Plus, the biggest Spanish pay TV/SVOD operator, are expanding their strategic alliance, strengthening Skydance’s deal in distribution on Movistar Plus and taking it to th enext level by including co-production.",
+    "The two-year deal continuation of the distribution of HBO Max and Warner Bros."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/skydance-movistar-plus-hbo-max-jointly-branded-series-1236909926/",
+   "score": 73.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Movistar Plus"
+    ],
+    "organizations": [
+     "Movistar Plus Expand Strategic Alliance",
+     "Co-Branded Original Series",
+     "Skydance",
+     "Movistar Plus",
+     "HBO",
+     "Warner Bros."
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.891,
+    "label": "positive"
+   },
+   "summary": "In what looks like a coup for both parties, Skydance and Movistar Plus, the biggest Spanish pay TV/SVOD operator, are expanding their strategic alliance, strengthening Skydance’s deal in distribution on Movistar Plus and taking it to th enext level by including co-production. The two-year deal continuation of the distribution of HBO Max and Warner Bros. [&#8230;]",
+   "cluster_id": "08323b37e6cdd2b5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.356043+00:00",
+    "source_published_at": "2026-10-13T11:09:41+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1738,
+     "ENTERTAINMENT": 0.4045,
+     "BREAKOUT WATCH": 0.0612,
+     "LIFESTYLE CHAT": 0.115,
+     "CANADIAN NEWS": 0.1571,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0884
     }
    }
   },
@@ -26766,6 +27592,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0492
+    }
+   }
+  },
+  {
+   "id": "ea2dfa6753ee0821",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "James McAvoy calls out ‘Band of Brothers’ co-star for bullying him on set",
+   "angle": "The actor broke down the \"terrible\" experience, which took place his first day filming the series, on \"Watch What Happens Live\" Monday. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The actor broke down the \"terrible\" experience, which took place his first day filming the series, on \"Watch What Happens Live\" Monday."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/13/entertainment/james-mcavoy-calls-out-band-of-brothers-co-star-for-bullying-him-on-set/",
+   "score": 73.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "James McAvoy"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8689,
+    "label": "negative"
+   },
+   "summary": "The actor broke down the \"terrible\" experience, which took place his first day filming the series, on \"Watch What Happens Live\" Monday.",
+   "cluster_id": "ea2dfa6753ee0821",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.227971+00:00",
+    "source_published_at": "2026-10-13T11:14:43+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.024,
+     "ENTERTAINMENT": 0.7319,
+     "BREAKOUT WATCH": 0.0583,
+     "LIFESTYLE CHAT": 0.0933,
+     "CANADIAN NEWS": 0.0221,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0704
     }
    }
   },
@@ -29259,6 +30134,58 @@
    }
   },
   {
+   "id": "f5837a57b830df76",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Collin Gosselin threatens to take legal action against mom Kate over alleged abuse: ‘Justice is very important to me’",
+   "angle": "Collin has been estranged from his mother since 2016, when she sent him to a behavioral health institution at age 11 over alleged behavioral issues. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Collin has been estranged from his mother since 2016, when she sent him to a behavioral health institution at age 11 over alleged behavioral issues."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/13/celebrity-news/collin-gosselin-threatens-to-take-legal-action-against-mom-kate-over-alleged-abuse/",
+   "score": 73.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Collin Gosselin",
+     "Kate"
+    ],
+    "organizations": [],
+    "locations": [
+     "Collin"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6378,
+    "label": "negative"
+   },
+   "summary": "Collin has been estranged from his mother since 2016, when she sent him to a behavioral health institution at age 11 over alleged behavioral issues.",
+   "cluster_id": "f5837a57b830df76",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.272344+00:00",
+    "source_published_at": "2026-10-13T11:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1176,
+     "ENTERTAINMENT": 0.6223,
+     "BREAKOUT WATCH": 0.0672,
+     "LIFESTYLE CHAT": 0.1104,
+     "CANADIAN NEWS": 0.0461,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0364
+    }
+   }
+  },
+  {
    "id": "d5860df5a4ef7e24",
    "date": "2026-09-22",
    "slot": "am",
@@ -30556,6 +31483,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0454
+    }
+   }
+  },
+  {
+   "id": "c785a8d2674a5f6a",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Tyson’ Review: Netflix’s Docuseries Tells Mike Tyson’s Story as Only Mike Tyson Could, and Already Has Several Times",
+   "angle": "Floyd Russ' four-part project follows the boxer from rough childhood to athletic stardom to decades of self-inflicted adversity. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Floyd Russ' four-part project follows the boxer from rough childhood to athletic stardom to decades of self-inflicted adversity."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-reviews/tyson-review-netflix-mike-tyson-documentary-1236728369/",
+   "score": 73.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mike Tyson’s Story",
+     "Mike Tyson",
+     "Floyd Russ'"
+    ],
+    "organizations": [
+     "Netflix’s Docuseries Tells",
+     "Already Has Several Times"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4215,
+    "label": "negative"
+   },
+   "summary": "Floyd Russ' four-part project follows the boxer from rough childhood to athletic stardom to decades of self-inflicted adversity.",
+   "cluster_id": "c785a8d2674a5f6a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.003593+00:00",
+    "source_published_at": "2026-10-13T07:01:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0883,
+     "ENTERTAINMENT": 0.6758,
+     "BREAKOUT WATCH": 0.0377,
+     "LIFESTYLE CHAT": 0.0652,
+     "CANADIAN NEWS": 0.1107,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0222
     }
    }
   },
@@ -36341,6 +37322,159 @@
    }
   },
   {
+   "id": "e6d05ac93dbd9ea0",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Gen Z thinks they’re so special, they can’t even deal with romantic relationships",
+   "angle": "\"The belief that we are deserving of special treatment makes it difficult to form equal partnerships, especially with people who were raised to think the same way,\" writes Daniel Cox in \"Generation Uncoupled.\". Shelf…",
+   "bullets": [
+    "\"The belief that we are deserving of special treatment makes it difficult to form equal partnerships, especially with people who were raised to think the same way,\" writes Daniel Cox in \"Generation Uncoupled.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/opinion/gen-z-thinks-theyre-so-special-they-cant-even-deal-with-romantic-relationships/",
+   "score": 72.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Daniel Cox"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.75,
+    "label": "positive"
+   },
+   "summary": "\"The belief that we are deserving of special treatment makes it difficult to form equal partnerships, especially with people who were raised to think the same way,\" writes Daniel Cox in \"Generation Uncoupled.\"",
+   "cluster_id": "e6d05ac93dbd9ea0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.505867+00:00",
+    "source_published_at": "2026-10-13T10:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1754,
+     "ENTERTAINMENT": 0.3458,
+     "BREAKOUT WATCH": 0.1256,
+     "LIFESTYLE CHAT": 0.235,
+     "CANADIAN NEWS": 0.079,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0392
+    }
+   }
+  },
+  {
+   "id": "b7ffd3b860d28920",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Teen wakes up in coffin at her own funeral, shocking mourners",
+   "angle": "A viral video has captured the shocking moment a 15-year-old girl – believed to be dead – suddenly woke up inside a coffin at her funeral in Guatemala. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "A viral video has captured the shocking moment a 15-year-old girl – believed to be dead – suddenly woke up inside a coffin at her funeral in Guatemala."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/world-news/guatemala-teen-wakes-up-in-coffin-at-her-own-funeral-shocking-mourners/",
+   "score": 72.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Guatemala"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9477,
+    "label": "negative"
+   },
+   "summary": "A viral video has captured the shocking moment a 15-year-old girl – believed to be dead – suddenly woke up inside a coffin at her funeral in Guatemala.",
+   "cluster_id": "b7ffd3b860d28920",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.603933+00:00",
+    "source_published_at": "2026-10-13T09:12:44+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0788,
+     "ENTERTAINMENT": 0.6534,
+     "BREAKOUT WATCH": 0.0699,
+     "LIFESTYLE CHAT": 0.052,
+     "CANADIAN NEWS": 0.1073,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0386
+    }
+   }
+  },
+  {
+   "id": "55533ee126e496c9",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Raindance to Launch U.K.’s First Major Vertical Festival and Market (EXCLUSIVE)",
+   "angle": "Raindance to Launch U.K.’s First Major Vertical Festival and Market (EXCLUSIVE). Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "may have been slower than other markets to jump onto the boom in short-form vertical media, projected to generate $150 billion in revenue in markets outside China this year, but it is now getting its own dedicated festival.",
+    "British indie film stalwart Raindance is launching Raindance Vertical, a one-day festival and financing market [&#8230;]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/raindance-to-launch-uk-first-vertical-media-festival-market-1236909834/",
+   "score": 72.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "First Major Vertical Festival and",
+     "Raindance",
+     "Raindance Vertical"
+    ],
+    "locations": [
+     "U.K.",
+     "China"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9473,
+    "label": "positive"
+   },
+   "summary": "The U.K. may have been slower than other markets to jump onto the boom in short-form vertical media, projected to generate $150 billion in revenue in markets outside China this year, but it is now getting its own dedicated festival. British indie film stalwart Raindance is launching Raindance Vertical, a one-day festival and financing market [&#8230;]",
+   "cluster_id": "55533ee126e496c9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.509165+00:00",
+    "source_published_at": "2026-10-13T09:59:36+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3105,
+     "ENTERTAINMENT": 0.2148,
+     "BREAKOUT WATCH": 0.146,
+     "LIFESTYLE CHAT": 0.1191,
+     "CANADIAN NEWS": 0.1552,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0544
+    }
+   }
+  },
+  {
    "id": "23d93dcd049caf66",
    "date": "2026-09-22",
    "slot": "am",
@@ -38126,6 +39260,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0504
+    }
+   }
+  },
+  {
+   "id": "a23bbfcc6e16bf95",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "How Chaney Johnson is channeling ‘Brooklyn grit’ in grinding his way toward a bigger Nets role",
+   "angle": "Now, the über-athletic Johnson is threatening to force his way from a two-way feel-good story into being more than that. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Now, the über-athletic Johnson is threatening to force his way from a two-way feel-good story into being more than that."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/sports/chaney-johnson-is-channeling-brooklyn-grit-into-bigger-nets-role/",
+   "score": 72.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Chaney Johnson",
+     "Johnson"
+    ],
+    "organizations": [],
+    "locations": [
+     "Brooklyn"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5267,
+    "label": "negative"
+   },
+   "summary": "Now, the über-athletic Johnson is threatening to force his way from a two-way feel-good story into being more than that.",
+   "cluster_id": "a23bbfcc6e16bf95",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.409067+00:00",
+    "source_published_at": "2026-10-13T10:40:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2908,
+     "ENTERTAINMENT": 0.1452,
+     "BREAKOUT WATCH": 0.1022,
+     "LIFESTYLE CHAT": 0.2877,
+     "CANADIAN NEWS": 0.1088,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0654
     }
    }
   },
@@ -41161,6 +42347,115 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1759
+    }
+   }
+  },
+  {
+   "id": "d967782fb321196f",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "J.K. Rowling Docuseries Set at BBC",
+   "angle": "The BBC is set to broadcast a two-part docuseries about “Harry Potter” author J.K. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The BBC is set to broadcast a two-part docuseries about “Harry Potter” author J.K.",
+    "Produced by Rogan Scotland (“Becoming Frida Kahlo”), it will trace her “dramatic rise, cultural influence and contested legacy, using her life as a lens through which to explore three decades of profound social, political and technological change,” according to the [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/j-k-rowling-docuseries-bbc-1236909874/",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Harry Potter",
+     "J.K. Rowling"
+    ],
+    "organizations": [
+     "J.K. Rowling Docuseries Set",
+     "BBC"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The BBC is set to broadcast a two-part docuseries about “Harry Potter” author J.K. Rowling. Produced by Rogan Scotland (“Becoming Frida Kahlo”), it will trace her “dramatic rise, cultural influence and contested legacy, using her life as a lens through which to explore three decades of profound social, political and technological change,” according to the [&#8230;]",
+   "cluster_id": "d967782fb321196f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.458800+00:00",
+    "source_published_at": "2026-10-13T10:14:53+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1255,
+     "ENTERTAINMENT": 0.3046,
+     "BREAKOUT WATCH": 0.1389,
+     "LIFESTYLE CHAT": 0.2618,
+     "CANADIAN NEWS": 0.1178,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0515
+    }
+   }
+  },
+  {
+   "id": "cdb5b78a17637db2",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Chris Mason: Why the prime minister wants to talk about Brexit again",
+   "angle": "For the first time since the UK left the EU, we have a prime minister who will \"unflinchingly\" debate Brexit, says the BBC's political editor Chris Mason. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "For the first time since the UK left the EU, we have a prime minister who will \"unflinchingly\" debate Brexit, says the BBC's political editor Chris Mason."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cxvgdql2y7zqo?at_medium=RSS&at_campaign=rss",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Chris Mason",
+     "Brexit"
+    ],
+    "organizations": [
+     "EU",
+     "BBC"
+    ],
+    "locations": [
+     "UK"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "For the first time since the UK left the EU, we have a prime minister who will \"unflinchingly\" debate Brexit, says the BBC's political editor Chris Mason.",
+   "cluster_id": "cdb5b78a17637db2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.916274+00:00",
+    "source_published_at": "2026-10-13T01:27:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2894,
+     "ENTERTAINMENT": 0.3769,
+     "BREAKOUT WATCH": 0.0771,
+     "LIFESTYLE CHAT": 0.0766,
+     "CANADIAN NEWS": 0.1008,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0793
     }
    }
   },
@@ -45089,6 +46384,59 @@
    }
   },
   {
+   "id": "9271f3932d15c135",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "RCMP strengthens ties with FBI, but critics warn Mounties are too dependent on U.S.",
+   "angle": "Canada needs a radically reformed national police force better able to push its own complex cases through the courts, law professor says. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Canada needs a radically reformed national police force better able to push its own complex cases through the courts, law professor says"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-rcmp-fbi-ties-critics-warn-mounties-too-dependent-on-us/",
+   "score": 71.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "RCMP",
+     "FBI"
+    ],
+    "locations": [
+     "U.S",
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.3506,
+    "label": "positive"
+   },
+   "summary": "Canada needs a radically reformed national police force better able to push its own complex cases through the courts, law professor says",
+   "cluster_id": "9271f3932d15c135",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:45.455747+00:00",
+    "source_published_at": "2026-10-13T09:12:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5496,
+     "ENTERTAINMENT": 0.0823,
+     "BREAKOUT WATCH": 0.0576,
+     "LIFESTYLE CHAT": 0.0618,
+     "CANADIAN NEWS": 0.2239,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0248
+    }
+   }
+  },
+  {
    "id": "9caee6ceb1f804a1",
    "date": "2026-09-22",
    "slot": "am",
@@ -45979,6 +47327,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0204
+    }
+   }
+  },
+  {
+   "id": "c7219d880f33e1ff",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘It’s a Wonderful Life’ 80th Anniversary Box Set Includes 4K Remaster, Limited-Edition Keepsakes",
+   "angle": "Released in December 1946, the Christmas fantasy film is now regarded as one of the best movies of all time. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Released in December 1946, the Christmas fantasy film is now regarded as one of the best movies of all time."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/its-a-wonderful-life-80th-anniversary-box-set-buy-online-1236728551/",
+   "score": 71.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "K Remaster, Limited-Edition Keepsakes"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.836,
+    "label": "positive"
+   },
+   "summary": "Released in December 1946, the Christmas fantasy film is now regarded as one of the best movies of all time.",
+   "cluster_id": "c7219d880f33e1ff",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.959517+00:00",
+    "source_published_at": "2026-10-13T09:24:16+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1084,
+     "ENTERTAINMENT": 0.5579,
+     "BREAKOUT WATCH": 0.0418,
+     "LIFESTYLE CHAT": 0.1005,
+     "CANADIAN NEWS": 0.0492,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.142
     }
    }
   },
@@ -50440,6 +51837,166 @@
    }
   },
   {
+   "id": "d654bd85ab549e70",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Knifeman with blades strapped to both hands stabs 8 in South Korea shopping mall: reports",
+   "angle": "A man stabbed at least eight people at a shopping mall in the South Korean city of Incheon, police and fire officials said Tuesday. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "A man stabbed at least eight people at a shopping mall in the South Korean city of Incheon, police and fire officials said Tuesday."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/world-news/eight-people-stabbed-in-south-korea-shopping-mall/",
+   "score": 71.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Knifeman",
+     "Incheon"
+    ],
+    "locations": [
+     "South Korea"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.802,
+    "label": "negative"
+   },
+   "summary": "A man stabbed at least eight people at a shopping mall in the South Korean city of Incheon, police and fire officials said Tuesday.",
+   "cluster_id": "d654bd85ab549e70",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.649984+00:00",
+    "source_published_at": "2026-10-13T09:10:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2701,
+     "ENTERTAINMENT": 0.1288,
+     "BREAKOUT WATCH": 0.2656,
+     "LIFESTYLE CHAT": 0.0632,
+     "CANADIAN NEWS": 0.1688,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1035
+    }
+   }
+  },
+  {
+   "id": "383e18ed4d26451d",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘God of War’s’ Bruno Velazquez, ‘Mandalorian & Grogu’s’ Hal Hickel Detail Cinema-Gaming Crossover at View Conference",
+   "angle": "James Cameron’s “Avatar” technology helped shape the look of Sony Santa Monica Studio’s “God of War” games, game director Bruno Velazquez revealed at View Conference in Turin on Monday during a discussion of how…",
+   "bullets": [
+    "James Cameron’s “Avatar” technology helped shape the look of Sony Santa Monica Studio’s “God of War” games, game director Bruno Velazquez revealed at View Conference in Turin on Monday during a discussion of how increasingly intertwined filmmaking and video game production have become.",
+    "Velazquez said the studio sought to present the two most recent mainline [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/artisans/global/god-of-war-mandalorian-grogu-cinema-gaming-view-1236909776/",
+   "score": 71.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Detail Cinema-Gaming Crossover",
+     "James Cameron’s",
+     "Monica Studio’s",
+     "Bruno Velazquez"
+    ],
+    "organizations": [
+     "Sony",
+     "View Conference",
+     "Velazquez"
+    ],
+    "locations": [
+     "Turin"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "James Cameron’s “Avatar” technology helped shape the look of Sony Santa Monica Studio’s “God of War” games, game director Bruno Velazquez revealed at View Conference in Turin on Monday during a discussion of how increasingly intertwined filmmaking and video game production have become. Velazquez said the studio sought to present the two most recent mainline [&#8230;]",
+   "cluster_id": "383e18ed4d26451d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.830220+00:00",
+    "source_published_at": "2026-10-13T07:15:33+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0755,
+     "ENTERTAINMENT": 0.6226,
+     "BREAKOUT WATCH": 0.1518,
+     "LIFESTYLE CHAT": 0.0384,
+     "CANADIAN NEWS": 0.0789,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0328
+    }
+   }
+  },
+  {
+   "id": "c624d0e2403a7012",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "One dead and several hurt after rollercoaster incident at US amusement park",
+   "angle": "Aerial footage at the park after the incident shows a stuck rollercoaster with riders being helped off. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Aerial footage at the park after the incident shows a stuck rollercoaster with riders being helped off."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o?at_medium=RSS&at_campaign=rss",
+   "score": 71.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "US"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.802,
+    "label": "negative"
+   },
+   "summary": "Aerial footage at the park after the incident shows a stuck rollercoaster with riders being helped off.",
+   "cluster_id": "c624d0e2403a7012",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.124269+00:00",
+    "source_published_at": "2026-10-13T10:28:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1044,
+     "ENTERTAINMENT": 0.3498,
+     "BREAKOUT WATCH": 0.1713,
+     "LIFESTYLE CHAT": 0.0667,
+     "CANADIAN NEWS": 0.2124,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0955
+    }
+   }
+  },
+  {
    "id": "e1f8532f85bba3be",
    "date": "2026-09-22",
    "slot": "am",
@@ -51815,6 +53372,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0206
+    }
+   }
+  },
+  {
+   "id": "dccf883448fd22c7",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Collin Gosselin eviscerates mom Kate in scathing memoir about ‘violent’ childhood",
+   "angle": "The 22-year-old bared all in \"In the Shadow of Eight,\" reflecting on growing up with Kate, dad Jon Gosselin and his seven siblings. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The 22-year-old bared all in \"In the Shadow of Eight,\" reflecting on growing up with Kate, dad Jon Gosselin and his seven siblings."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/13/parents/collin-gosselin-eviscerates-mom-kate-in-scathing-memoir-about-violent-childhood/",
+   "score": 70.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Collin Gosselin",
+     "Kate",
+     "Jon Gosselin"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.1779,
+    "label": "positive"
+   },
+   "summary": "The 22-year-old bared all in \"In the Shadow of Eight,\" reflecting on growing up with Kate, dad Jon Gosselin and his seven siblings.",
+   "cluster_id": "dccf883448fd22c7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.694734+00:00",
+    "source_published_at": "2026-10-13T09:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1883,
+     "ENTERTAINMENT": 0.287,
+     "BREAKOUT WATCH": 0.183,
+     "LIFESTYLE CHAT": 0.1038,
+     "CANADIAN NEWS": 0.1449,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0932
     }
    }
   },
@@ -53354,6 +54962,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0208
+    }
+   }
+  },
+  {
+   "id": "f25dab002e75d89c",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "An insurance policy with no guarantee - the complex issue of egg freezing in sport",
+   "angle": "BBC Sport examines the potential benefits, risks and unanswered questions facing female athletes about egg freezing. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "BBC Sport examines the potential benefits, risks and unanswered questions facing female athletes about egg freezing."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/sport/netball/articles/cv98zl9579ggo?at_medium=RSS&at_campaign=rss",
+   "score": 70.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "BBC Sport"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.2593,
+    "label": "negative"
+   },
+   "summary": "BBC Sport examines the potential benefits, risks and unanswered questions facing female athletes about egg freezing.",
+   "cluster_id": "f25dab002e75d89c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.547727+00:00",
+    "source_published_at": "2026-10-13T05:12:56+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3202,
+     "ENTERTAINMENT": 0.2767,
+     "BREAKOUT WATCH": 0.1151,
+     "LIFESTYLE CHAT": 0.0959,
+     "CANADIAN NEWS": 0.1468,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0452
     }
    }
   },
@@ -55276,6 +56933,60 @@
    }
   },
   {
+   "id": "1fa274fdfe199f86",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "UK growth forecast upgraded but higher energy prices to hit economy next year",
+   "angle": "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmglw0r21zexo?at_medium=RSS&at_campaign=rss",
+   "score": 70.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Andy Burnham"
+    ],
+    "organizations": [
+     "IMF",
+     "Budget"
+    ],
+    "locations": [
+     "UK"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5346,
+    "label": "positive"
+   },
+   "summary": "The prediction from the IMF comes as final preparations are being made for the first Budget under Prime Minister Andy Burnham.",
+   "cluster_id": "1fa274fdfe199f86",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.873765+00:00",
+    "source_published_at": "2026-10-13T09:38:54+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.6603,
+     "ENTERTAINMENT": 0.1129,
+     "BREAKOUT WATCH": 0.064,
+     "LIFESTYLE CHAT": 0.0489,
+     "CANADIAN NEWS": 0.022,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0918
+    }
+   }
+  },
+  {
    "id": "60d30241ba09168f",
    "date": "2026-09-22",
    "slot": "am",
@@ -55743,6 +57454,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0638
+    }
+   }
+  },
+  {
+   "id": "18285722ce66fda1",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "I lost my hair to MS treatment - now my wigs are worn by Naomi Campbell and Serena Williams",
+   "angle": "Antonia Okonma Shittu's wig business was launched after a shock diagnosis, and she now wants to help other women feel their best. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Antonia Okonma Shittu's wig business was launched after a shock diagnosis, and she now wants to help other women feel their best."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cq1kdndp83lmo?at_medium=RSS&at_campaign=rss",
+   "score": 70.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Naomi Campbell",
+     "Serena Williams"
+    ],
+    "organizations": [
+     "Antonia Okonma Shittu's"
+    ],
+    "locations": [
+     "MS"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3182,
+    "label": "positive"
+   },
+   "summary": "Antonia Okonma Shittu's wig business was launched after a shock diagnosis, and she now wants to help other women feel their best.",
+   "cluster_id": "18285722ce66fda1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.380266+00:00",
+    "source_published_at": "2026-10-13T00:14:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2404,
+     "ENTERTAINMENT": 0.2824,
+     "BREAKOUT WATCH": 0.082,
+     "LIFESTYLE CHAT": 0.2076,
+     "CANADIAN NEWS": 0.1112,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0766
     }
    }
   },
@@ -61678,6 +63443,108 @@
    }
   },
   {
+   "id": "1dd67d1f8b930f86",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Emergency calls from botched Christa Pike execution released to US media",
+   "angle": "A series of calls, obtained by the Associated Press, reveal emergency services were delayed in reaching Pike. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "A series of calls, obtained by the Associated Press, reveal emergency services were delayed in reaching Pike."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/videos/cqpvgrkp0xpyo?at_medium=RSS&at_campaign=rss",
+   "score": 69.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "the Associated Press",
+     "Pike"
+    ],
+    "locations": [
+     "US"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6486,
+    "label": "negative"
+   },
+   "summary": "A series of calls, obtained by the Associated Press, reveal emergency services were delayed in reaching Pike.",
+   "cluster_id": "1dd67d1f8b930f86",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.040017+00:00",
+    "source_published_at": "2026-10-13T08:20:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1981,
+     "ENTERTAINMENT": 0.2989,
+     "BREAKOUT WATCH": 0.1087,
+     "LIFESTYLE CHAT": 0.1667,
+     "CANADIAN NEWS": 0.133,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0946
+    }
+   }
+  },
+  {
+   "id": "da141bf10144008b",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Bulgaria summons Russian ambassador after ship sinks in Black Sea drone attack",
+   "angle": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
+   "score": 69.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Bulgaria",
+     "Black Sea"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6486,
+    "label": "negative"
+   },
+   "summary": "Eleven crew members are missing after a merchant ship was sunk overnight, local officials say.",
+   "cluster_id": "da141bf10144008b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.249921+00:00",
+    "source_published_at": "2026-10-13T10:57:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2961,
+     "ENTERTAINMENT": 0.1845,
+     "BREAKOUT WATCH": 0.2571,
+     "LIFESTYLE CHAT": 0.0643,
+     "CANADIAN NEWS": 0.1138,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0842
+    }
+   }
+  },
+  {
    "id": "81cd773f0654c45d",
    "date": "2026-09-22",
    "slot": "am",
@@ -62782,6 +64649,55 @@
    }
   },
   {
+   "id": "f75f02fb3a87cbf5",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Former ‘SNL’ Star Ego Nwodim Reacts to Shane Gillis’ Controversial Joke About Women",
+   "angle": "The comedian is drawing heat for a joke he made during his 'SNL' opening monologue over the weekend. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The comedian is drawing heat for a joke he made during his 'SNL' opening monologue over the weekend."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/ego-nwodim-reacts-shane-gillis-controversial-joke-snl-1236728321/",
+   "score": 69.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "SNL"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6369,
+    "label": "positive"
+   },
+   "summary": "The comedian is drawing heat for a joke he made during his 'SNL' opening monologue over the weekend.",
+   "cluster_id": "f75f02fb3a87cbf5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.258669+00:00",
+    "source_published_at": "2026-10-12T23:37:06+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1868,
+     "ENTERTAINMENT": 0.6104,
+     "BREAKOUT WATCH": 0.0556,
+     "LIFESTYLE CHAT": 0.073,
+     "CANADIAN NEWS": 0.0281,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.046
+    }
+   }
+  },
+  {
    "id": "fa9d8cdba307ff68",
    "date": "2026-09-22",
    "slot": "am",
@@ -63275,6 +65191,113 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0718
+    }
+   }
+  },
+  {
+   "id": "185b70eb670afe9c",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "The future of fitness is… robotoic! Exoskeletons promise to supercharge your workout — but do they work?",
+   "angle": "The Post took this sci-fi gadget for a spin in Central Park to see if the future of fitness lives up to the hype. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Post took this sci-fi gadget for a spin in Central Park to see if the future of fitness lives up to the hype."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/health/exoskeletons-promise-to-supercharge-your-workout-but-do-they-work/",
+   "score": 69.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Post"
+    ],
+    "locations": [
+     "Central Park"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.63,
+    "label": "positive"
+   },
+   "summary": "The Post took this sci-fi gadget for a spin in Central Park to see if the future of fitness lives up to the hype.",
+   "cluster_id": "185b70eb670afe9c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.315890+00:00",
+    "source_published_at": "2026-10-13T10:59:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2296,
+     "ENTERTAINMENT": 0.3876,
+     "BREAKOUT WATCH": 0.0862,
+     "LIFESTYLE CHAT": 0.1212,
+     "CANADIAN NEWS": 0.1417,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0337
+    }
+   }
+  },
+  {
+   "id": "cf4e708d0b993bd7",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "CJ ENM, MBC Group Enter Long-Term Pact to Expand Korean Entertainment Across Middle East, North Africa, a ‘Natural Next Step’ (EXCLUSIVE)",
+   "angle": "MBC GROUP and CJ ENM have signed a long-term strategic partnership aimed at expanding premium Korean entertainment across the Middle East and North Africa (MENA), bringing together two leading media and entertainment…",
+   "bullets": [
+    "MBC GROUP and CJ ENM have signed a long-term strategic partnership aimed at expanding premium Korean entertainment across the Middle East and North Africa (MENA), bringing together two leading media and entertainment groups with complementary reach across the region and Asia.",
+    "At the centre of the partnership is the launch of a dedicated Tving space [&#8230;]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/cj-enm-mbc-group-expand-partnership-mipcom-1236909790/",
+   "score": 69.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "CJ ENM",
+     "MBC Group",
+     "Expand Korean Entertainment Across"
+    ],
+    "locations": [
+     "North Africa",
+     "the Middle East",
+     "Asia"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.9329,
+    "label": "positive"
+   },
+   "summary": "MBC GROUP and CJ ENM have signed a long-term strategic partnership aimed at expanding premium Korean entertainment across the Middle East and North Africa (MENA), bringing together two leading media and entertainment groups with complementary reach across the region and Asia. At the centre of the partnership is the launch of a dedicated Tving space [&#8230;]",
+   "cluster_id": "cf4e708d0b993bd7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.614876+00:00",
+    "source_published_at": "2026-10-13T09:37:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.11,
+     "ENTERTAINMENT": 0.2071,
+     "BREAKOUT WATCH": 0.1305,
+     "LIFESTYLE CHAT": 0.2366,
+     "CANADIAN NEWS": 0.1092,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.2066
     }
    }
   },
@@ -66308,6 +68331,53 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0193
+    }
+   }
+  },
+  {
+   "id": "f8eb985523a5be36",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Hundreds more prisoners being freed in second phase of early release scheme",
+   "angle": "Second tranche of prisoners being released includes those serving up to two and a half years. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Second tranche of prisoners being released includes those serving up to two and a half years."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cwzrdnrrmgymo?at_medium=RSS&at_campaign=rss",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6032,
+    "label": "negative"
+   },
+   "summary": "Second tranche of prisoners being released includes those serving up to two and a half years.",
+   "cluster_id": "f8eb985523a5be36",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.165515+00:00",
+    "source_published_at": "2026-10-13T09:45:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4228,
+     "ENTERTAINMENT": 0.1275,
+     "BREAKOUT WATCH": 0.1315,
+     "LIFESTYLE CHAT": 0.1281,
+     "CANADIAN NEWS": 0.1351,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.055
     }
    }
   },
@@ -71457,6 +73527,62 @@
    }
   },
   {
+   "id": "0e3fdf16e32e32c3",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Skydance, Spain’s Movistar Plus Expand Strategic Alliance, Will Launch Local Series Under Joint Label",
+   "angle": "Movistar Plus will continue to feature HBO Max on its streaming platform, while the new deal also covers “select Skydance TV channels, major WB theatrical releases and new content agreements.”. Ask the phones: would…",
+   "bullets": [
+    "Movistar Plus will continue to feature HBO Max on its streaming platform, while the new deal also covers “select Skydance TV channels, major WB theatrical releases and new content agreements.”"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/business/business-news/skydance-spain-movistar-plus-deal-local-series-joint-label-1236728607/",
+   "score": 68.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Movistar Plus"
+    ],
+    "organizations": [
+     "HBO",
+     "Skydance TV",
+     "WB"
+    ],
+    "locations": [
+     "Skydance",
+     "Spain"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3182,
+    "label": "positive"
+   },
+   "summary": "Movistar Plus will continue to feature HBO Max on its streaming platform, while the new deal also covers “select Skydance TV channels, major WB theatrical releases and new content agreements.”",
+   "cluster_id": "0e3fdf16e32e32c3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.915391+00:00",
+    "source_published_at": "2026-10-13T10:41:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4073,
+     "ENTERTAINMENT": 0.2895,
+     "BREAKOUT WATCH": 0.1015,
+     "LIFESTYLE CHAT": 0.0631,
+     "CANADIAN NEWS": 0.0639,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0747
+    }
+   }
+  },
+  {
    "id": "d728f826c1b8d632",
    "date": "2026-09-22",
    "slot": "am",
@@ -73497,6 +75623,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0278
+    }
+   }
+  },
+  {
+   "id": "7ca6229d6e35fb38",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘High Potential’ Lands Post-Super Bowl Showcase on ABC and Disney+",
+   "angle": "The series was already the network's most watched show. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The series was already the network's most watched show."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/high-potential-super-bowl-lxi-abc-1236728241/",
+   "score": 68.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "ABC",
+     "Disney+"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The series was already the network's most watched show.",
+   "cluster_id": "7ca6229d6e35fb38",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.170265+00:00",
+    "source_published_at": "2026-10-13T00:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1054,
+     "ENTERTAINMENT": 0.6081,
+     "BREAKOUT WATCH": 0.1072,
+     "LIFESTYLE CHAT": 0.0495,
+     "CANADIAN NEWS": 0.0522,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0776
     }
    }
   },
@@ -79502,6 +81678,56 @@
    }
   },
   {
+   "id": "797775ada8e6d870",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "I earn £120,000 a year making social media videos go viral",
+   "angle": "Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c84g12v3lk20o?at_medium=RSS&at_campaign=rss",
+   "score": 67.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Instagram",
+     "TikTok"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4215,
+    "label": "positive"
+   },
+   "summary": "Social media \"clippers\" make short, vertical videos that appear on the likes of Instagram and TikTok.",
+   "cluster_id": "797775ada8e6d870",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.462855+00:00",
+    "source_published_at": "2026-10-12T23:01:45+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0414,
+     "ENTERTAINMENT": 0.7813,
+     "BREAKOUT WATCH": 0.0461,
+     "LIFESTYLE CHAT": 0.0912,
+     "CANADIAN NEWS": 0.0169,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0231
+    }
+   }
+  },
+  {
    "id": "f63cc9a7e2c10b1d",
    "date": "2026-09-23",
    "slot": "am",
@@ -82004,6 +84230,111 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0852
+    }
+   }
+  },
+  {
+   "id": "d5c740e8986a8242",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Keri Russell Recalls “Having Sex All the Time” With Matthew Rhys on ‘The Americans’ Set",
+   "angle": "The couple met while filming the FX period spy drama, which ran from 2013 to 2018. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The couple met while filming the FX period spy drama, which ran from 2013 to 2018."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/keri-russell-sex-all-time-matthew-rhys-the-americans-set-1236728382/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Keri Russell Recalls",
+     "Matthew Rhys"
+    ],
+    "organizations": [
+     "FX"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The couple met while filming the FX period spy drama, which ran from 2013 to 2018.",
+   "cluster_id": "d5c740e8986a8242",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.045268+00:00",
+    "source_published_at": "2026-10-13T01:56:43+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2328,
+     "ENTERTAINMENT": 0.3312,
+     "BREAKOUT WATCH": 0.1039,
+     "LIFESTYLE CHAT": 0.1046,
+     "CANADIAN NEWS": 0.0793,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1482
+    }
+   }
+  },
+  {
+   "id": "fa4aefd6b10c9887",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Linda Duncombe, Banking Executive and Film Producer, Dies at 55",
+   "angle": "She also served on the board of directors for the SAG-AFTRA Foundation and EnCorps. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "She also served on the board of directors for the SAG-AFTRA Foundation and EnCorps."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/business/business-news/linda-duncombe-dead-banking-executive-film-producer-1236728404/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Linda Duncombe",
+     "Film Producer"
+    ],
+    "organizations": [
+     "SAG-AFTRA Foundation",
+     "EnCorps"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "She also served on the board of directors for the SAG-AFTRA Foundation and EnCorps.",
+   "cluster_id": "fa4aefd6b10c9887",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.086669+00:00",
+    "source_published_at": "2026-10-13T00:49:43+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0705,
+     "ENTERTAINMENT": 0.5089,
+     "BREAKOUT WATCH": 0.1537,
+     "LIFESTYLE CHAT": 0.1167,
+     "CANADIAN NEWS": 0.0423,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1079
     }
    }
   },
@@ -85344,6 +87675,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0208
+    }
+   }
+  },
+  {
+   "id": "5e923bbb7b403a3d",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Where the US midterm elections will be won and lost",
+   "angle": "An in-depth look at the key polling, races and issues ahead of an election that will define Trump’s final two years as president. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "An in-depth look at the key polling, races and issues ahead of an election that will define Trump’s final two years as president."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cr20wlp09gn3o?at_medium=RSS&at_campaign=rss",
+   "score": 66.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Trump"
+    ],
+    "locations": [
+     "US"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.34,
+    "label": "positive"
+   },
+   "summary": "An in-depth look at the key polling, races and issues ahead of an election that will define Trump’s final two years as president.",
+   "cluster_id": "5e923bbb7b403a3d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.504251+00:00",
+    "source_published_at": "2026-10-13T05:02:44+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.6231,
+     "ENTERTAINMENT": 0.156,
+     "BREAKOUT WATCH": 0.0859,
+     "LIFESTYLE CHAT": 0.0427,
+     "CANADIAN NEWS": 0.0562,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0361
     }
    }
   },
@@ -88721,6 +91103,255 @@
    }
   },
   {
+   "id": "b1d4d2f93f01da11",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Pickleball company files for bankruptcy as founder acknowledges business mistake: ‘I own it’",
+   "angle": "Founder Jorge Barragan said about 40 locations had corporate guarantee arrangements that became untenable for the company. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Founder Jorge Barragan said about 40 locations had corporate guarantee arrangements that became untenable for the company"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/business/pickleball-company-files-for-bankruptcy-as-founder-acknowledges-business-mistake-i-own-it/",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jorge Barragan"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.1027,
+    "label": "negative"
+   },
+   "summary": "Founder Jorge Barragan said about 40 locations had corporate guarantee arrangements that became untenable for the company",
+   "cluster_id": "b1d4d2f93f01da11",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.736756+00:00",
+    "source_published_at": "2026-10-13T07:35:24+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3971,
+     "ENTERTAINMENT": 0.3385,
+     "BREAKOUT WATCH": 0.0988,
+     "LIFESTYLE CHAT": 0.0896,
+     "CANADIAN NEWS": 0.0319,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0441
+    }
+   }
+  },
+  {
+   "id": "e5e7428bf55a23bb",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Publicly owned rail is popular. But is it making the trains run on time?",
+   "angle": "Meeting travellers' expectations could be challenging, experts warn. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Meeting travellers' expectations could be challenging, experts warn."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/ck5yn0n14r8do?at_medium=RSS&at_campaign=rss",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.296,
+    "label": "positive"
+   },
+   "summary": "Meeting travellers' expectations could be challenging, experts warn.",
+   "cluster_id": "e5e7428bf55a23bb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.082712+00:00",
+    "source_published_at": "2026-10-12T23:37:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3113,
+     "ENTERTAINMENT": 0.1737,
+     "BREAKOUT WATCH": 0.0955,
+     "LIFESTYLE CHAT": 0.2717,
+     "CANADIAN NEWS": 0.0814,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0665
+    }
+   }
+  },
+  {
+   "id": "e5570b55449e4ade",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Morning Update: Carney seeks to charm Alberta",
+   "angle": "Also in today’s edition: RCMP’s ties with FBI and new details about Belleville synagogue shooter. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "Also in today’s edition: RCMP’s ties with FBI and new details about Belleville synagogue shooter"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-morning-update-carney-seeks-to-charm-alberta/",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Carney"
+    ],
+    "organizations": [
+     "RCMP",
+     "FBI"
+    ],
+    "locations": [
+     "Alberta",
+     "Belleville"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4019,
+    "label": "positive"
+   },
+   "summary": "Also in today’s edition: RCMP’s ties with FBI and new details about Belleville synagogue shooter",
+   "cluster_id": "e5570b55449e4ade",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:45.323264+00:00",
+    "source_published_at": "2026-10-13T10:33:39+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3252,
+     "ENTERTAINMENT": 0.2051,
+     "BREAKOUT WATCH": 0.0382,
+     "LIFESTYLE CHAT": 0.0359,
+     "CANADIAN NEWS": 0.3712,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0244
+    }
+   }
+  },
+  {
+   "id": "014560bb0fb691d8",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Trade minister leading 300-member mission to India this week",
+   "angle": "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x4koth/trade_minister_leading_300member_mission_to_india/",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "/u/Academic-Flight-783"
+    ],
+    "locations": [
+     "India"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/Academic-Flight-783 [link] &#32; [comments]",
+   "cluster_id": "014560bb0fb691d8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:46.767848+00:00",
+    "source_published_at": "2026-10-13T02:13:38+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5276,
+     "ENTERTAINMENT": 0.0881,
+     "BREAKOUT WATCH": 0.1163,
+     "LIFESTYLE CHAT": 0.0612,
+     "CANADIAN NEWS": 0.1587,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0481
+    }
+   }
+  },
+  {
+   "id": "b5e7d2a9b7b48e3f",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Liberals Hold 21-Point Lead",
+   "angle": "&#32; submitted by &#32; /u/hopoke [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/hopoke [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x4hpxk/liberals_hold_21point_lead/",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/hopoke [link] &#32; [comments]",
+   "cluster_id": "b5e7d2a9b7b48e3f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:46.893058+00:00",
+    "source_published_at": "2026-10-12T23:50:42+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3473,
+     "ENTERTAINMENT": 0.2013,
+     "BREAKOUT WATCH": 0.1278,
+     "LIFESTYLE CHAT": 0.1196,
+     "CANADIAN NEWS": 0.147,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0569
+    }
+   }
+  },
+  {
    "id": "74f5d1c0406773e9",
    "date": "2026-09-22",
    "slot": "am",
@@ -90198,6 +92829,57 @@
    }
   },
   {
+   "id": "d8934899b136c68b",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Canada Proposes Adding 15 Aquatic Species under Species at Risk Act",
+   "angle": "&#32; submitted by &#32; /u/Leather-Paramedic-10 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Leather-Paramedic-10 [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x4kjle/canada_proposes_adding_15_aquatic_species_under/",
+   "score": 65.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Aquatic Species"
+    ],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.2732,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/Leather-Paramedic-10 [link] &#32; [comments]",
+   "cluster_id": "d8934899b136c68b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:46.561185+00:00",
+    "source_published_at": "2026-10-13T02:06:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0801,
+     "ENTERTAINMENT": 0.0572,
+     "BREAKOUT WATCH": 0.1934,
+     "LIFESTYLE CHAT": 0.2533,
+     "CANADIAN NEWS": 0.3366,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0795
+    }
+   }
+  },
+  {
    "id": "0a8e4ff9fd099138",
    "date": "2026-09-23",
    "slot": "am",
@@ -91315,6 +93997,61 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0209
+    }
+   }
+  },
+  {
+   "id": "be681b5858671061",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Trump’s right to push a Ukraine-Russia energy cease-fire — but it must be real",
+   "angle": "President Donald Trump’s announcement Sunday that Ukraine and Russia reached an “energy cease-fire” clearly jumped the gun, but he’s absolutely right to be pushing hard for such a deal. Ask the phones: would you film…",
+   "bullets": [
+    "President Donald Trump’s announcement Sunday that Ukraine and Russia reached an “energy cease-fire” clearly jumped the gun, but he’s absolutely right to be pushing hard for such a deal.",
+    "That is, as long as the accord halts attacks on all energy facilities."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/opinion/trumps-right-to-push-a-ukraine-russia-energy-cease-fire-but-it-must-be-real/",
+   "score": 65.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Donald Trump"
+    ],
+    "organizations": [
+     "Trump"
+    ],
+    "locations": [
+     "Ukraine",
+     "Russia"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0516,
+    "label": "negative"
+   },
+   "summary": "President Donald Trump’s announcement Sunday that Ukraine and Russia reached an “energy cease-fire” clearly jumped the gun, but he’s absolutely right to be pushing hard for such a deal. That is, as long as the accord halts attacks on all energy facilities.",
+   "cluster_id": "be681b5858671061",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.458539+00:00",
+    "source_published_at": "2026-10-13T10:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.7491,
+     "ENTERTAINMENT": 0.0892,
+     "BREAKOUT WATCH": 0.0856,
+     "LIFESTYLE CHAT": 0.0288,
+     "CANADIAN NEWS": 0.0264,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0208
     }
    }
   },
@@ -93225,6 +95962,55 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "65a4f739964bbde4",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Dear Abby: My family is afraid I’ll start hallucinating again without a support system near me",
+   "angle": "Dear Abby advises a person who has schizoaffective bipolar disorder and doesn't want to live with their family anymore once they graduate from college. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Dear Abby advises a person who has schizoaffective bipolar disorder and doesn't want to live with their family anymore once they graduate from college."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/lifestyle/dear-abby-my-family-is-afraid-ill-start-hallucinating-again-without-a-support-system-near-me/",
+   "score": 65.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Abby"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0052,
+    "label": "neutral"
+   },
+   "summary": "Dear Abby advises a person who has schizoaffective bipolar disorder and doesn't want to live with their family anymore once they graduate from college.",
+   "cluster_id": "65a4f739964bbde4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.822947+00:00",
+    "source_published_at": "2026-10-13T07:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2903,
+     "ENTERTAINMENT": 0.3344,
+     "BREAKOUT WATCH": 0.1587,
+     "LIFESTYLE CHAT": 0.0754,
+     "CANADIAN NEWS": 0.0716,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0697
+    }
    }
   },
   {
@@ -95866,6 +98652,57 @@
    }
   },
   {
+   "id": "6335ed5fb8957346",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Majority of Canadians support closer formal ties with European Union: poll",
+   "angle": "Approval ratings for the idea were highest in British Columbia and lowest in the Prairies. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "Approval ratings for the idea were highest in British Columbia and lowest in the Prairies"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-majority-of-canadians-support-closer-formal-ties-with-european-union/",
+   "score": 64.9,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "European Union"
+    ],
+    "locations": [
+     "British Columbia"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "Approval ratings for the idea were highest in British Columbia and lowest in the Prairies",
+   "cluster_id": "6335ed5fb8957346",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:45.366678+00:00",
+    "source_published_at": "2026-10-13T10:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.158,
+     "ENTERTAINMENT": 0.1984,
+     "BREAKOUT WATCH": 0.1963,
+     "LIFESTYLE CHAT": 0.1074,
+     "CANADIAN NEWS": 0.2776,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0622
+    }
+   }
+  },
+  {
    "id": "86f5f0e96d4be8da",
    "date": "2026-09-22",
    "slot": "am",
@@ -96718,6 +99555,58 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "534996681f56c434",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Kentucky teen finishes Chicago Marathon less than a year after spinal injury left him paralyzed",
+   "angle": "“Every single day, it was in the back of my head, I was like, ‘Am I gonna walk again? Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "“Every single day, it was in the back of my head, I was like, ‘Am I gonna walk again?",
+    "Am I gonna be able to do the same thing that I was doing two weeks ago, a day ago?’”"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/us-news/kentucky-teen-wyatt-anderson-finishes-chicago-marathon-less-than-a-year-after-spinal-injury-left-him-paralyzed/",
+   "score": 64.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Chicago Marathon"
+    ],
+    "locations": [
+     "Kentucky"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.168,
+    "label": "negative"
+   },
+   "summary": "“Every single day, it was in the back of my head, I was like, ‘Am I gonna walk again? Am I gonna be able to do the same thing that I was doing two weeks ago, a day ago?’”",
+   "cluster_id": "534996681f56c434",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.869570+00:00",
+    "source_published_at": "2026-10-13T06:56:41+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0659,
+     "ENTERTAINMENT": 0.4409,
+     "BREAKOUT WATCH": 0.1813,
+     "LIFESTYLE CHAT": 0.0939,
+     "CANADIAN NEWS": 0.0742,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1438
+    }
    }
   },
   {
@@ -98263,6 +101152,55 @@
    }
   },
   {
+   "id": "25991279c323623f",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Death threats and isolation - the cost of fighting sexual violence in Iraq",
+   "angle": "Women say they share stories of abuse to highlight the issue, despite social pressure and safety fears. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "Women say they share stories of abuse to highlight the issue, despite social pressure and safety fears."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cqd089r55vp3o?at_medium=RSS&at_campaign=rss",
+   "score": 64.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Iraq"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9404,
+    "label": "negative"
+   },
+   "summary": "Women say they share stories of abuse to highlight the issue, despite social pressure and safety fears.",
+   "cluster_id": "25991279c323623f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.593695+00:00",
+    "source_published_at": "2026-10-13T05:02:57+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3328,
+     "ENTERTAINMENT": 0.1778,
+     "BREAKOUT WATCH": 0.0577,
+     "LIFESTYLE CHAT": 0.3546,
+     "CANADIAN NEWS": 0.0474,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0297
+    }
+   }
+  },
+  {
    "id": "6fb10f45e163ed67",
    "date": "2026-09-22",
    "slot": "am",
@@ -99126,6 +102064,55 @@
    }
   },
   {
+   "id": "f17b89506823522d",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Poundland in rescue talks as owners seek buyer",
+   "angle": "The leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/ckr5ydvvln0mo?at_medium=RSS&at_campaign=rss",
+   "score": 64.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Poundland"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.128,
+    "label": "negative"
+   },
+   "summary": "The leadership team is attempting a buyout, but a union has warned the retailer could fall into administration instead.",
+   "cluster_id": "f17b89506823522d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.207960+00:00",
+    "source_published_at": "2026-10-13T09:52:13+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3402,
+     "ENTERTAINMENT": 0.3048,
+     "BREAKOUT WATCH": 0.0673,
+     "LIFESTYLE CHAT": 0.1157,
+     "CANADIAN NEWS": 0.1087,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0632
+    }
+   }
+  },
+  {
    "id": "73bd438ba7d6616b",
    "date": "2026-09-22",
    "slot": "am",
@@ -99815,6 +102802,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0079
+    }
+   }
+  },
+  {
+   "id": "475a2ae51b57e20b",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Delta flight arriving from NY evacuated over bomb threat after landing in Tel Aviv: reports",
+   "angle": "A Delta flight arriving from New York was evacuated Tuesday after landing at Tel Aviv airport over a bomb threat, according to reports. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "A Delta flight arriving from New York was evacuated Tuesday after landing at Tel Aviv airport over a bomb threat, according to reports."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/us-news/delta-flight-arriving-from-ny-evacuated-after-landing-in-tel-aviv-over-bomb-threat-reports/",
+   "score": 64.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Delta"
+    ],
+    "locations": [
+     "NY",
+     "Tel Aviv",
+     "New York"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9217,
+    "label": "negative"
+   },
+   "summary": "A Delta flight arriving from New York was evacuated Tuesday after landing at Tel Aviv airport over a bomb threat, according to reports.",
+   "cluster_id": "475a2ae51b57e20b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.779766+00:00",
+    "source_published_at": "2026-10-13T07:14:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2562,
+     "ENTERTAINMENT": 0.1499,
+     "BREAKOUT WATCH": 0.2741,
+     "LIFESTYLE CHAT": 0.075,
+     "CANADIAN NEWS": 0.1679,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0769
     }
    }
   },
@@ -101854,6 +104894,110 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "a24dfbb296934aa2",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Whistleblowing Portal Launches in U.K. for Entertainment Industry Workers to Report Abuse, Harassment and Discrimination",
+   "angle": "Workers across the U.K.&#8217;s film, TV, music and theater sectors are now able to report whistleblowing concerns, including those relating to harassment and abuse, following the launch of a new portal by the Creative…",
+   "bullets": [
+    "Workers across the U.K.&#8217;s film, TV, music and theater sectors are now able to report whistleblowing concerns, including those relating to harassment and abuse, following the launch of a new portal by the Creative Industries Independent Standards Authority (CIISA).",
+    "As an officially designated whistleblowing body, people will now be able to report concerns to CIISA [&#8230;]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/whistleblowing-service-launches-in-uk-for-film-tv-workers-1236909610/",
+   "score": 63.9,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Whistleblowing Portal Launches",
+     "Entertainment Industry Workers to Report Abuse",
+     "the Creative Industries Independent Standards Authority",
+     "CIISA [&#8230"
+    ],
+    "locations": [
+     "U.K."
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.886,
+    "label": "negative"
+   },
+   "summary": "Workers across the U.K.&#8217;s film, TV, music and theater sectors are now able to report whistleblowing concerns, including those relating to harassment and abuse, following the launch of a new portal by the Creative Industries Independent Standards Authority (CIISA). As an officially designated whistleblowing body, people will now be able to report concerns to CIISA [&#8230;]",
+   "cluster_id": "a24dfbb296934aa2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:48.778114+00:00",
+    "source_published_at": "2026-10-13T08:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0874,
+     "ENTERTAINMENT": 0.0775,
+     "BREAKOUT WATCH": 0.1584,
+     "LIFESTYLE CHAT": 0.3198,
+     "CANADIAN NEWS": 0.3125,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0444
+    }
+   }
+  },
+  {
+   "id": "6eacc94f72f325e9",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Billions more for defence, but Canada's military still faces an old budget squeeze",
+   "angle": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x4tid0/billions_more_for_defence_but_canadas_military/",
+   "score": 63.9,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0872,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/DogeDoRight [link] &#32; [comments]",
+   "cluster_id": "6eacc94f72f325e9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:46.934355+00:00",
+    "source_published_at": "2026-10-13T10:55:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3029,
+     "ENTERTAINMENT": 0.0941,
+     "BREAKOUT WATCH": 0.1252,
+     "LIFESTYLE CHAT": 0.1111,
+     "CANADIAN NEWS": 0.3212,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0455
+    }
    }
   },
   {
@@ -112258,6 +115402,55 @@
    }
   },
   {
+   "id": "91f52618a96ddc5f",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Carney, Poilievre both set to hit the pre-vote hustings in Alberta",
+   "angle": "&#32; submitted by &#32; /u/shiftless_wonder [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/shiftless_wonder [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x4i39q/carney_poilievre_both_set_to_hit_the_prevote/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Alberta"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/shiftless_wonder [link] &#32; [comments]",
+   "cluster_id": "91f52618a96ddc5f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.141393+00:00",
+    "source_published_at": "2026-10-13T00:07:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0701,
+     "ENTERTAINMENT": 0.0361,
+     "BREAKOUT WATCH": 0.0437,
+     "LIFESTYLE CHAT": 0.0267,
+     "CANADIAN NEWS": 0.7896,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0339
+    }
+   }
+  },
+  {
    "id": "5dea52253aa150d7",
    "date": "2026-09-22",
    "slot": "am",
@@ -115404,6 +118597,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0395
+    }
+   }
+  },
+  {
+   "id": "ba2af11897782401",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Cut screen time in classrooms to avoid long-term health issues, clinicians urge",
+   "angle": "A group of clinicians warns technology use in English schools is driving a rise in health problems like short-sightedness. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "A group of clinicians warns technology use in English schools is driving a rise in health problems like short-sightedness."
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cq4g18prn4l4o?at_medium=RSS&at_campaign=rss",
+   "score": 62.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "clinicians warns"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7184,
+    "label": "negative"
+   },
+   "summary": "A group of clinicians warns technology use in English schools is driving a rise in health problems like short-sightedness.",
+   "cluster_id": "ba2af11897782401",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.293703+00:00",
+    "source_published_at": "2026-10-13T09:35:43+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0924,
+     "ENTERTAINMENT": 0.1365,
+     "BREAKOUT WATCH": 0.0904,
+     "LIFESTYLE CHAT": 0.2536,
+     "CANADIAN NEWS": 0.3432,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0839
     }
    }
   },
@@ -120411,6 +123653,46 @@
    }
   },
   {
+   "id": "74a1478a45a64094",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "TECH",
+   "title": "39-year-old unvaccinated woman becomes 6th measles death in Pennsylvania",
+   "angle": "As of Friday, state health officials reported 1,136 cases across 41 counties. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "As of Friday, state health officials reported 1,136 cases across 41 counties."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/health/2026/10/39-year-old-unvaccinated-woman-becomes-6th-measles-death-in-pennsylvania/",
+   "score": 61.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Pennsylvania"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5994,
+    "label": "negative"
+   },
+   "summary": "As of Friday, state health officials reported 1,136 cases across 41 counties.",
+   "cluster_id": "74a1478a45a64094",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:50.138127+00:00",
+    "source_published_at": "2026-10-12T21:54:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "9f3ced3b5c33cd6b",
    "date": "2026-09-24",
    "slot": "am",
@@ -120959,6 +124241,61 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "5e11c29035baf918",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "US military archbishop urges Catholic soldiers to refuse involvement in Army firing squad execution",
+   "angle": "Catholics serving in the Army should request to be excused from participating in the planned firing squad execution of a convicted Fort Hood mass shooter, which the Pentagon has proposed livestreaming, a prominent U.S.…",
+   "bullets": [
+    "Catholics serving in the Army should request to be excused from participating in the planned firing squad execution of a convicted Fort Hood mass shooter, which the Pentagon has proposed livestreaming, a prominent U.S.",
+    "archbishop who oversees Catholic pastoral services for the military said on Monday."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/us-news/us-military-archbishop-timothy-broglio-urges-catholic-soldiers-to-refuse-involvement-in-army-firing-squad-execution/",
+   "score": 60.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Army",
+     "Pentagon"
+    ],
+    "locations": [
+     "US",
+     "Fort Hood",
+     "U.S."
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5719,
+    "label": "negative"
+   },
+   "summary": "Catholics serving in the Army should request to be excused from participating in the planned firing squad execution of a convicted Fort Hood mass shooter, which the Pentagon has proposed livestreaming, a prominent U.S. archbishop who oversees Catholic pastoral services for the military said on Monday.",
+   "cluster_id": "5e11c29035baf918",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:47.559042+00:00",
+    "source_published_at": "2026-10-13T09:41:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2384,
+     "ENTERTAINMENT": 0.1532,
+     "BREAKOUT WATCH": 0.3415,
+     "LIFESTYLE CHAT": 0.0724,
+     "CANADIAN NEWS": 0.1407,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0539
+    }
    }
   },
   {
@@ -132717,6 +136054,49 @@
    }
   },
   {
+   "id": "895674673f7dc474",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Character.AI files for bankruptcy",
+   "angle": "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney.",
+    "The company, which builds various online bots for users to chat or roleplay with, has faced mounting scrutiny and lawsuits over the safety of its chatbots, but has continued releasing [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009802/character-ai-files-for-bankruptcy-disney",
+   "score": 57.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Disney"
+    ],
+    "locations": [
+     "AI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2382,
+    "label": "positive"
+   },
+   "summary": "Character.AI, one of the first breakout startups of the generative AI boom, has filed for bankruptcy and is selling some of its assets to Disney. The company, which builds various online bots for users to chat or roleplay with, has faced mounting scrutiny and lawsuits over the safety of its chatbots, but has continued releasing [&#8230;]",
+   "cluster_id": "895674673f7dc474",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.645123+00:00",
+    "source_published_at": "2026-10-13T10:32:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "eda3fca466f1c548",
    "date": "2026-09-22",
    "slot": "am",
@@ -138424,6 +141804,59 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "7242a33bc7b5460f",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Rwanda to host F1's first race in Africa since 1993",
+   "angle": "Rwanda signs a 10-year deal with Formula 1 to host races in the African country, starting \"in the early 2030s\". Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "Rwanda signs a 10-year deal with Formula 1 to host races in the African country, starting \"in the early 2030s\"."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/sport/formula1/articles/c5rmy3v3mn9jo?at_medium=RSS&at_campaign=rss",
+   "score": 55.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Formula 1"
+    ],
+    "locations": [
+     "Rwanda",
+     "F1",
+     "Africa"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Rwanda signs a 10-year deal with Formula 1 to host races in the African country, starting \"in the early 2030s\".",
+   "cluster_id": "7242a33bc7b5460f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T11:17:49.336178+00:00",
+    "source_published_at": "2026-10-13T09:20:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.171,
+     "ENTERTAINMENT": 0.2445,
+     "BREAKOUT WATCH": 0.2709,
+     "LIFESTYLE CHAT": 0.0605,
+     "CANADIAN NEWS": 0.1855,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0676
+    }
    }
   },
   {
