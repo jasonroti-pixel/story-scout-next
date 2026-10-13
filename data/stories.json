@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-13T11:17:50.881250+00:00",
+ "generated_at": "2026-10-13T12:24:40.619383+00:00",
  "timezone": "America/Toronto",
  "date": "2026-10-13",
  "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 3127,
+ "count": 3147,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -12846,6 +12846,61 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0351
+    }
+   }
+  },
+  {
+   "id": "0ac08fe0bb06c08e",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Korean Content Giant CJ ENM, Middle Eastern Broadcaster MBC Strike Streaming Deal",
+   "angle": "The agreement, unveiled at MIPCOM, will bring a TVing-branded hub to Shahid, with simultaneous Korean series releases across the Middle East and North Africa and an exclusive window on MBC4. Shelf life through drive…",
+   "bullets": [
+    "The agreement, unveiled at MIPCOM, will bring a TVing-branded hub to Shahid, with simultaneous Korean series releases across the Middle East and North Africa and an exclusive window on MBC4."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/business/business-news/korean-content-giant-cj-enm-middle-eastern-broadcaster-mbc-streaming-deal-1236728618/",
+   "score": 76.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Shahid",
+     "MBC4"
+    ],
+    "organizations": [
+     "MIPCOM"
+    ],
+    "locations": [
+     "the Middle East",
+     "North Africa"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "The agreement, unveiled at MIPCOM, will bring a TVing-branded hub to Shahid, with simultaneous Korean series releases across the Middle East and North Africa and an exclusive window on MBC4.",
+   "cluster_id": "0ac08fe0bb06c08e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:38.021721+00:00",
+    "source_published_at": "2026-10-13T11:40:42+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1652,
+     "ENTERTAINMENT": 0.2285,
+     "BREAKOUT WATCH": 0.2192,
+     "LIFESTYLE CHAT": 0.1032,
+     "CANADIAN NEWS": 0.1483,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1357
     }
    }
   },
@@ -26202,6 +26257,58 @@
    }
   },
   {
+   "id": "5755d1895fe9db65",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Cornell 7’ accuser sent roommate 3-letter text during alleged gang rape, newly released messages show",
+   "angle": "The text appears to have been sent from Jane Doe's phone in the middle of what she later alleged was a drunken, ketamine-fuelled gang-rape in the Chi Phi frat house. Shelf life through drive time — who is overrated and…",
+   "bullets": [
+    "The text appears to have been sent from Jane Doe's phone in the middle of what she later alleged was a drunken, ketamine-fuelled gang-rape in the Chi Phi frat house."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/us-news/cornell-7-accuser-sent-3-letter-text-during-alleged-gang-rape-messages-show/",
+   "score": 73.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jane Doe's",
+     "Chi Phi"
+    ],
+    "organizations": [
+     "frat house"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6908,
+    "label": "negative"
+   },
+   "summary": "The text appears to have been sent from Jane Doe's phone in the middle of what she later alleged was a drunken, ketamine-fuelled gang-rape in the Chi Phi frat house.",
+   "cluster_id": "5755d1895fe9db65",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.458733+00:00",
+    "source_published_at": "2026-10-13T12:13:28+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1479,
+     "ENTERTAINMENT": 0.2315,
+     "BREAKOUT WATCH": 0.1885,
+     "LIFESTYLE CHAT": 0.0863,
+     "CANADIAN NEWS": 0.1378,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.208
+    }
+   }
+  },
+  {
    "id": "73bcb8dbd9dbef4e",
    "date": "2026-09-22",
    "slot": "am",
@@ -29385,6 +29492,60 @@
    }
   },
   {
+   "id": "a1d0db7d969616c3",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "MI5 tackling more state threats than during Cold War, warns intelligence chief",
+   "angle": "Sir Ken McCallum says Russia, Iran and emerging threats from AI were increasing the risks to Britain. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Sir Ken McCallum says Russia, Iran and emerging threats from AI were increasing the risks to Britain."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c60rl5vwpk02o?at_medium=RSS&at_campaign=rss",
+   "score": 73.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Ken McCallum"
+    ],
+    "organizations": [],
+    "locations": [
+     "Russia",
+     "Iran",
+     "AI",
+     "Britain"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8473,
+    "label": "negative"
+   },
+   "summary": "Sir Ken McCallum says Russia, Iran and emerging threats from AI were increasing the risks to Britain.",
+   "cluster_id": "a1d0db7d969616c3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:38.828014+00:00",
+    "source_published_at": "2026-10-13T12:00:47+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5849,
+     "ENTERTAINMENT": 0.0722,
+     "BREAKOUT WATCH": 0.1949,
+     "LIFESTYLE CHAT": 0.0703,
+     "CANADIAN NEWS": 0.0352,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0426
+    }
+   }
+  },
+  {
    "id": "92bdc9e85e89013f",
    "date": "2026-09-22",
    "slot": "am",
@@ -30182,6 +30343,62 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0364
+    }
+   }
+  },
+  {
+   "id": "adf4984ed0b5d558",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Ukraine got no warning about latest Russian strikes on Kyiv, Zelensky says after latest Trump critique",
+   "angle": "Ukrainian officials did not get a heads-up from \"our partners\" about the latest Russian assault on civilian sites in Kyiv. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Ukrainian officials did not get a heads-up from \"our partners\" about the latest Russian assault on civilian sites in Kyiv."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/world-news/ukraine-got-no-warning-about-latest-russian-strikes-on-kyiv-zelensky-says-after-latest-trump-critique/",
+   "score": 73.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kyiv",
+     "Zelensky"
+    ],
+    "organizations": [
+     "Trump"
+    ],
+    "locations": [
+     "Ukraine",
+     "Ukrainian",
+     "Kyiv"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6444,
+    "label": "negative"
+   },
+   "summary": "Ukrainian officials did not get a heads-up from \"our partners\" about the latest Russian assault on civilian sites in Kyiv.",
+   "cluster_id": "adf4984ed0b5d558",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.817526+00:00",
+    "source_published_at": "2026-10-13T11:48:06+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3248,
+     "ENTERTAINMENT": 0.4395,
+     "BREAKOUT WATCH": 0.0777,
+     "LIFESTYLE CHAT": 0.0517,
+     "CANADIAN NEWS": 0.0761,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0302
     }
    }
   },
@@ -35785,6 +36002,113 @@
    }
   },
   {
+   "id": "c6dd52b747e039cf",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Beloved therapy donkey killed by hunter who blames bad shot",
+   "angle": "Beloved therapy donkey killed by hunter who blames bad shot. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "A beloved therapy donkey has been killed by a hunter – who blamed it on his bad shot.",
+    "Angelique was with the rest of her herd in her pen at the Hasty’s Haven sanctuary in South Carolina when she was struck by a stray bullet on Sunday, the first day of the..."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/us-news/beloved-therapy-donkey-killed-by-hunter-who-blames-bad-shot/",
+   "score": 72.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "the Hasty’s Haven",
+     "South Carolina"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.967,
+    "label": "negative"
+   },
+   "summary": "What an ass. A beloved therapy donkey has been killed by a hunter – who blamed it on his bad shot. Angelique was with the rest of her herd in her pen at the Hasty’s Haven sanctuary in South Carolina when she was struck by a stray bullet on Sunday, the first day of the...",
+   "cluster_id": "c6dd52b747e039cf",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.417287+00:00",
+    "source_published_at": "2026-10-13T12:21:41+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0319,
+     "ENTERTAINMENT": 0.6277,
+     "BREAKOUT WATCH": 0.1684,
+     "LIFESTYLE CHAT": 0.0776,
+     "CANADIAN NEWS": 0.05,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0444
+    }
+   }
+  },
+  {
+   "id": "14297d7d624ee6b0",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "A Super Bowl roster with a special teams circus: Rams have nobody to blame but themselves",
+   "angle": "The Rams' special teams nightmare continues as Harrison Mevis' blocked field goal costs LA a 37-34 overtime loss to the Bills. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Rams' special teams nightmare continues as Harrison Mevis' blocked field goal costs LA a 37-34 overtime loss to the Bills.",
+    "Is Sean McVay to blame?"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/sports/rams-special-teams-meltdown-costs-them-overtime-loss-to-bills-as-sean-mcvay-fumes/",
+   "score": 72.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rams",
+     "Harrison Mevis'",
+     "Sean McVay"
+    ],
+    "organizations": [
+     "Bills"
+    ],
+    "locations": [
+     "LA"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3716,
+    "label": "negative"
+   },
+   "summary": "The Rams' special teams nightmare continues as Harrison Mevis' blocked field goal costs LA a 37-34 overtime loss to the Bills. Is Sean McVay to blame?",
+   "cluster_id": "14297d7d624ee6b0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.538373+00:00",
+    "source_published_at": "2026-10-13T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2059,
+     "ENTERTAINMENT": 0.2708,
+     "BREAKOUT WATCH": 0.093,
+     "LIFESTYLE CHAT": 0.1316,
+     "CANADIAN NEWS": 0.1737,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1249
+    }
+   }
+  },
+  {
    "id": "fbfd64a5c14f1293",
    "date": "2026-09-24",
    "slot": "am",
@@ -38266,6 +38590,102 @@
    }
   },
   {
+   "id": "bc1dee2e91f0c7d8",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Nara Smith’s favorite books make her feel nostalgic and inspired",
+   "angle": "The influencer, whose new cookbook \"Homemade\" is out now, gravitates \"toward books with characters you keep thinking about after you’ve finished them.\". Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "The influencer, whose new cookbook \"Homemade\" is out now, gravitates \"toward books with characters you keep thinking about after you’ve finished them.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/13/lifestyle/nara-smith-shares-her-six-favorite-books/",
+   "score": 72.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Nara Smith’s"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7351,
+    "label": "positive"
+   },
+   "summary": "The influencer, whose new cookbook \"Homemade\" is out now, gravitates \"toward books with characters you keep thinking about after you’ve finished them.\"",
+   "cluster_id": "bc1dee2e91f0c7d8",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.578450+00:00",
+    "source_published_at": "2026-10-13T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2667,
+     "ENTERTAINMENT": 0.3984,
+     "BREAKOUT WATCH": 0.0739,
+     "LIFESTYLE CHAT": 0.1595,
+     "CANADIAN NEWS": 0.0685,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.033
+    }
+   }
+  },
+  {
+   "id": "c0df2738499a7e38",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Murder investigation launched into deaths of four people in house fire",
+   "angle": "A man, a woman and two children died after a house fire and two other children are critically ill. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "A man, a woman and two children died after a house fire and two other children are critically ill."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cq073814llkjo?at_medium=RSS&at_campaign=rss",
+   "score": 72.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9371,
+    "label": "negative"
+   },
+   "summary": "A man, a woman and two children died after a house fire and two other children are critically ill.",
+   "cluster_id": "c0df2738499a7e38",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:39.209339+00:00",
+    "source_published_at": "2026-10-13T11:38:10+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3013,
+     "ENTERTAINMENT": 0.1327,
+     "BREAKOUT WATCH": 0.072,
+     "LIFESTYLE CHAT": 0.1559,
+     "CANADIAN NEWS": 0.1493,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1888
+    }
+   }
+  },
+  {
    "id": "e3bfeeff0cb2cb50",
    "date": "2026-09-22",
    "slot": "am",
@@ -40281,6 +40701,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0133
+    }
+   }
+  },
+  {
+   "id": "18e21307fe352c55",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "The Best Free Movies Online You Can Watch Right Now",
+   "angle": "You don't have to pay a dime to watch any of these great films. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "You don't have to pay a dime to watch any of these great films."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://decider.com/2026/10/13/watch-free-movies-online-best-tubi-movies-october-2026/",
+   "score": 72.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "The Best Free Movies Online You Can Watch"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9169,
+    "label": "positive"
+   },
+   "summary": "You don't have to pay a dime to watch any of these great films.",
+   "cluster_id": "18e21307fe352c55",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.698566+00:00",
+    "source_published_at": "2026-10-13T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2913,
+     "ENTERTAINMENT": 0.2632,
+     "BREAKOUT WATCH": 0.1157,
+     "LIFESTYLE CHAT": 0.1777,
+     "CANADIAN NEWS": 0.0635,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0886
     }
    }
   },
@@ -44520,6 +44989,57 @@
    }
   },
   {
+   "id": "7862bf579ef152f1",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Georgia Six Flags closes 9 rides after guest falls to his death in tragic roller coaster accident",
+   "angle": "Cobb County Police Department major crimes unit detectives are investigating. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Cobb County Police Department major crimes unit detectives are investigating."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/us-news/georgia-six-flags-closes-rides-after-guest-killed-in-roller-coaster-incident/",
+   "score": 71.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Cobb County Police Department"
+    ],
+    "locations": [
+     "Georgia"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.875,
+    "label": "negative"
+   },
+   "summary": "Cobb County Police Department major crimes unit detectives are investigating.",
+   "cluster_id": "7862bf579ef152f1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.737678+00:00",
+    "source_published_at": "2026-10-13T11:58:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4805,
+     "ENTERTAINMENT": 0.114,
+     "BREAKOUT WATCH": 0.1457,
+     "LIFESTYLE CHAT": 0.095,
+     "CANADIAN NEWS": 0.0851,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0797
+    }
+   }
+  },
+  {
    "id": "b42e6a21ef12b2d1",
    "date": "2026-09-22",
    "slot": "am",
@@ -47380,6 +47900,59 @@
    }
   },
   {
+   "id": "a6728194035b72d7",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Former ‘SNL’ star fires back at Shane Gillis’ monologue amid outrage",
+   "angle": "Singer Maren Morris, \"Schitt's Creek\" alum Dan Levy and more A-listers have spoken out publicly against the comedian's controversial joke. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Singer Maren Morris, \"Schitt's Creek\" alum Dan Levy and more A-listers have spoken out publicly against the comedian's controversial joke."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/13/entertainment/former-snl-star-fires-back-at-shane-gillis-monologue-amid-outrage/",
+   "score": 71.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Maren Morris",
+     "Dan Levy"
+    ],
+    "organizations": [
+     "SNL",
+     "Schitt's Creek"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4404,
+    "label": "negative"
+   },
+   "summary": "Singer Maren Morris, \"Schitt's Creek\" alum Dan Levy and more A-listers have spoken out publicly against the comedian's controversial joke.",
+   "cluster_id": "a6728194035b72d7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.497099+00:00",
+    "source_published_at": "2026-10-13T12:12:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.114,
+     "ENTERTAINMENT": 0.3331,
+     "BREAKOUT WATCH": 0.2214,
+     "LIFESTYLE CHAT": 0.223,
+     "CANADIAN NEWS": 0.0705,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.038
+    }
+   }
+  },
+  {
    "id": "5f34cfe4eeaaf186",
    "date": "2026-09-22",
    "slot": "am",
@@ -49737,6 +50310,53 @@
    }
   },
   {
+   "id": "a66cbdac42e10b1b",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Major panty liner brand contained cancer-causing agent; users struck by disease: suit",
+   "angle": "Each woman suffered one or more injuries in more than half a dozen categories, including cancer, thyroid disease, infection and immune and inflammatory diseases. Ask the phones: would you film it, flee it, or pretend…",
+   "bullets": [
+    "Each woman suffered one or more injuries in more than half a dozen categories, including cancer, thyroid disease, infection and immune and inflammatory diseases."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/health/carefree-panty-liners-face-lawsuit-over-dangerous-carcinogenic-claim/",
+   "score": 71.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8126,
+    "label": "negative"
+   },
+   "summary": "Each woman suffered one or more injuries in more than half a dozen categories, including cancer, thyroid disease, infection and immune and inflammatory diseases.",
+   "cluster_id": "a66cbdac42e10b1b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.662327+00:00",
+    "source_published_at": "2026-10-13T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3086,
+     "ENTERTAINMENT": 0.1435,
+     "BREAKOUT WATCH": 0.134,
+     "LIFESTYLE CHAT": 0.2863,
+     "CANADIAN NEWS": 0.0795,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.048
+    }
+   }
+  },
+  {
    "id": "09c88fae5b0b4652",
    "date": "2026-09-23",
    "slot": "am",
@@ -51997,6 +52617,61 @@
    }
   },
   {
+   "id": "f526ade76358079c",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Ex-Mets That Could RETURN In 2027 | Straight Outta Flushing",
+   "angle": "On a new episode of Straight Outta Flushing, Tyler Ward lists four former Mets who have a strong chance at returning to Queens for the club’s 2027 campaign after being shipped out of New York at the 2026 trade…",
+   "bullets": [
+    "On a new episode of Straight Outta Flushing, Tyler Ward lists four former Mets who have a strong chance at returning to Queens for the club’s 2027 campaign after being shipped out of New York at the 2026 trade deadline."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/video/ex-mets-that-could-return-in-2027-straight-outta-flushing/",
+   "score": 71.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Ex-Mets That Could RETURN",
+     "Straight Outta Flushing",
+     "Mets",
+     "Queens"
+    ],
+    "locations": [
+     "Tyler Ward",
+     "New York"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7964,
+    "label": "positive"
+   },
+   "summary": "On a new episode of Straight Outta Flushing, Tyler Ward lists four former Mets who have a strong chance at returning to Queens for the club’s 2027 campaign after being shipped out of New York at the 2026 trade deadline.",
+   "cluster_id": "f526ade76358079c",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.620387+00:00",
+    "source_published_at": "2026-10-13T12:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0867,
+     "ENTERTAINMENT": 0.3625,
+     "BREAKOUT WATCH": 0.1884,
+     "LIFESTYLE CHAT": 0.201,
+     "CANADIAN NEWS": 0.097,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0643
+    }
+   }
+  },
+  {
    "id": "e1f8532f85bba3be",
    "date": "2026-09-22",
    "slot": "am",
@@ -54152,6 +54827,56 @@
    }
   },
   {
+   "id": "bc1b2cc7c96a2d2d",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "The NFC East’s chaos has opened a door for the Giants",
+   "angle": "Think about this for a moment — the division just went winless in a week when two of its teams played each other. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Think about this for a moment — the division just went winless in a week when two of its teams played each other."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/sports/nfc-east-chaos-opens-door-for-giants/",
+   "score": 70.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "The NFC East’s",
+     "Giants"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7739,
+    "label": "negative"
+   },
+   "summary": "Think about this for a moment — the division just went winless in a week when two of its teams played each other.",
+   "cluster_id": "bc1b2cc7c96a2d2d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.774941+00:00",
+    "source_published_at": "2026-10-13T11:50:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.126,
+     "ENTERTAINMENT": 0.45,
+     "BREAKOUT WATCH": 0.1745,
+     "LIFESTYLE CHAT": 0.0418,
+     "CANADIAN NEWS": 0.0742,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1335
+    }
+   }
+  },
+  {
    "id": "aa5ac4f33aab0cb4",
    "date": "2026-09-22",
    "slot": "am",
@@ -55456,6 +56181,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0408
+    }
+   }
+  },
+  {
+   "id": "3ebcc38741b4d7a7",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "BA flight forced to turn back over cracked window",
+   "angle": "British Airways said the plane landed safely at Gatwick and passengers were due to resume their journey. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "British Airways said the plane landed safely at Gatwick and passengers were due to resume their journey."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cj1dwrxq1wndo?at_medium=RSS&at_campaign=rss",
+   "score": 70.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Gatwick"
+    ],
+    "organizations": [
+     "BA",
+     "British Airways"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0516,
+    "label": "positive"
+   },
+   "summary": "British Airways said the plane landed safely at Gatwick and passengers were due to resume their journey.",
+   "cluster_id": "3ebcc38741b4d7a7",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:39.056291+00:00",
+    "source_published_at": "2026-10-13T11:48:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1949,
+     "ENTERTAINMENT": 0.287,
+     "BREAKOUT WATCH": 0.2234,
+     "LIFESTYLE CHAT": 0.0766,
+     "CANADIAN NEWS": 0.1618,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0563
     }
    }
   },
@@ -61296,6 +62073,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0736
+    }
+   }
+  },
+  {
+   "id": "9824ad847c8e2b8f",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Disney Circles Character.ai as Chatbot Company Files For Chapter 11 Bankruptcy",
+   "angle": "The entertainment giant, which recently hired the AI firm's former CEO, is the stalking horse bidder in the proceeding for certain assets. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The entertainment giant, which recently hired the AI firm's former CEO, is the stalking horse bidder in the proceeding for certain assets."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/business/digital/disney-may-buy-character-ai-chatbot-chapter-11-bankruptcy-1236728629/",
+   "score": 69.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Disney Circles Character.ai",
+     "Chatbot Company Files"
+    ],
+    "locations": [
+     "AI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6808,
+    "label": "positive"
+   },
+   "summary": "The entertainment giant, which recently hired the AI firm's former CEO, is the stalking horse bidder in the proceeding for certain assets.",
+   "cluster_id": "9824ad847c8e2b8f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.980528+00:00",
+    "source_published_at": "2026-10-13T11:52:13+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3534,
+     "ENTERTAINMENT": 0.2986,
+     "BREAKOUT WATCH": 0.1913,
+     "LIFESTYLE CHAT": 0.0526,
+     "CANADIAN NEWS": 0.0371,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0671
     }
    }
   },
@@ -85131,6 +85960,57 @@
    }
   },
   {
+   "id": "aa513ec4075f2740",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "911 dispatcher assumed call that Christa Pike had survived her execution was a ‘prank’",
+   "angle": "Authorities were baffled when they received a 911 call from Tennessee prison officials requesting medical help for convicted killer Christa Pike after she survived her botched execution — with one dispatcher believing…",
+   "bullets": [
+    "Authorities were baffled when they received a 911 call from Tennessee prison officials requesting medical help for convicted killer Christa Pike after she survived her botched execution — with one dispatcher believing it was someone “prank calling” them, according to new audio."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/13/us-news/911-dispatcher-assumed-call-that-christa-pike-had-survived-her-execution-was-a-prank/",
+   "score": 66.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Christa Pike"
+    ],
+    "organizations": [],
+    "locations": [
+     "Tennessee"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.1779,
+    "label": "positive"
+   },
+   "summary": "Authorities were baffled when they received a 911 call from Tennessee prison officials requesting medical help for convicted killer Christa Pike after she survived her botched execution — with one dispatcher believing it was someone “prank calling” them, according to new audio.",
+   "cluster_id": "aa513ec4075f2740",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.861766+00:00",
+    "source_published_at": "2026-10-13T11:22:38+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0683,
+     "ENTERTAINMENT": 0.3722,
+     "BREAKOUT WATCH": 0.1219,
+     "LIFESTYLE CHAT": 0.1417,
+     "CANADIAN NEWS": 0.088,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.2078
+    }
+   }
+  },
+  {
    "id": "4c025240eeb3882e",
    "date": "2026-09-22",
    "slot": "am",
@@ -105001,6 +105881,55 @@
    }
   },
   {
+   "id": "7260953da3f2e504",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "More than $4B worth of condos sitting empty in Vancouver",
+   "angle": "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x4ui0t/more_than_4b_worth_of_condos_sitting_empty_in/",
+   "score": 63.9,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Vancouver"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0935,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]",
+   "cluster_id": "7260953da3f2e504",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:36.809963+00:00",
+    "source_published_at": "2026-10-13T11:49:02+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1996,
+     "ENTERTAINMENT": 0.0541,
+     "BREAKOUT WATCH": 0.1546,
+     "LIFESTYLE CHAT": 0.2689,
+     "CANADIAN NEWS": 0.2811,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0417
+    }
+   }
+  },
+  {
    "id": "1903a1248c0632cd",
    "date": "2026-09-22",
    "slot": "am",
@@ -108489,6 +109418,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1206
+    }
+   }
+  },
+  {
+   "id": "fa2c32087993461f",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Three things we've learnt about the UK economy from the IMF",
+   "angle": "The influential economics body has upgraded its UK growth forecast for this year, but risks remain. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The influential economics body has upgraded its UK growth forecast for this year, but risks remain."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmly05l1g15yo?at_medium=RSS&at_campaign=rss",
+   "score": 63.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "IMF"
+    ],
+    "locations": [
+     "UK"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0258,
+    "label": "neutral"
+   },
+   "summary": "The influential economics body has upgraded its UK growth forecast for this year, but risks remain.",
+   "cluster_id": "fa2c32087993461f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:38.864775+00:00",
+    "source_published_at": "2026-10-13T11:58:43+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2153,
+     "ENTERTAINMENT": 0.331,
+     "BREAKOUT WATCH": 0.1968,
+     "LIFESTYLE CHAT": 0.1368,
+     "CANADIAN NEWS": 0.0309,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0891
     }
    }
   },
@@ -115447,6 +116427,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0339
+    }
+   }
+  },
+  {
+   "id": "bd4aa0bfaecfe777",
+   "date": "2026-10-13",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "2 roller coasters closed at Canada's Wonderland after someone dies on similar ride in Georgia | CBC News",
+   "angle": "&#32; submitted by &#32; /u/demolcd [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/demolcd [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x4uzw2/2_roller_coasters_closed_at_canadas_wonderland/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "CBC News"
+    ],
+    "locations": [
+     "Canada",
+     "Wonderland",
+     "Georgia"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/demolcd [link] &#32; [comments]",
+   "cluster_id": "bd4aa0bfaecfe777",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-13T12:24:37.223958+00:00",
+    "source_published_at": "2026-10-13T12:13:29+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0273,
+     "ENTERTAINMENT": 0.0444,
+     "BREAKOUT WATCH": 0.0546,
+     "LIFESTYLE CHAT": 0.0397,
+     "CANADIAN NEWS": 0.807,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0269
     }
    }
   },
