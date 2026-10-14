@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-13T20:18:13.262173+00:00",
+ "generated_at": "2026-10-14T09:18:02.005709+00:00",
  "timezone": "America/Toronto",
- "date": "2026-10-13",
- "slot": "pm",
+ "date": "2026-10-14",
+ "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 3228,
+ "count": 3308,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -1340,6 +1340,63 @@
     "ingested_at": "2026-09-24T18:19:39.483242+00:00",
     "source_published_at": "2026-09-24T17:00:00+00:00",
     "pipeline_version": "1.1.0",
+    "gemini_enrich": "gemini-v1"
+   }
+  },
+  {
+   "id": "f523a383b5eb3456",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Elon Musk, two racist uncles, left to do all Alberta Separatist posting after Russian bot farm goes offline",
+   "angle": "A satirical post making the rounds claims that after Russian bot farms went offline, the entire Alberta separatist movement is down to Elon Musk and a couple of angry uncles. How much of the political anger we see online in Canada is actually homegrown, and how much is just digital noise?",
+   "bullets": [
+    "A post submitted by user Hotter_Noodle appeared on Reddit addressing online discourse around Alberta separatism.",
+    "The submission was filed under the entertainment category.",
+    "The headline stated that Elon Musk was left to handle posting duties regarding Alberta separatism.",
+    "The headline claimed that \"two racist uncles\" were also left to conduct the remaining posting.",
+    "The post attributed the change in online activity to a \"Russian bot farm\" going offline.",
+    "The submission included navigation prompts linking directly to an outside source and an associated comments thread.",
+    "The satirical headline framed the remaining public support for Alberta separatism as consisting entirely of Musk and two family members following the bot farm shutdown."
+   ],
+   "debate": "When you see extreme political movements blowing up online in Canada, do you believe it reflects genuine grassroots anger or coordinated foreign bot accounts?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5a0ne/elon_musk_two_racist_uncles_left_to_do_all/",
+   "score": 81.7,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Elon Musk",
+     "Alberta Separatist"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.6705,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/Hotter_Noodle [link] &#32; [comments]",
+   "cluster_id": "f523a383b5eb3456",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.159207+00:00",
+    "source_published_at": "2026-10-13T21:58:15+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2475,
+     "ENTERTAINMENT": 0.3232,
+     "BREAKOUT WATCH": 0.1619,
+     "LIFESTYLE CHAT": 0.048,
+     "CANADIAN NEWS": 0.1298,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0896
+    },
     "gemini_enrich": "gemini-v1"
    }
   },
@@ -2953,6 +3010,73 @@
    }
   },
   {
+   "id": "00392d96a8a23e6e",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Todd Haynes on Pedro Pascal-Led ‘De Noche,’ What You Can’t See on Screen and the Radical Power of Love",
+   "angle": "Director Todd Haynes hired his costume designer on the spot after she claimed the most critical part of an actor's wardrobe is its smell. Does obsessing over invisible details like scent translate through the screen for viewers, or is it pure Hollywood pretension?",
+   "bullets": [
+    "Oscar-nominated filmmaker Todd Haynes appeared at the Lumière Film Festival in Lyon, France.",
+    "Haynes discussed details surrounding his upcoming feature film titled \"De Noche.\"",
+    "The production \"De Noche\" was developed as a romantic noir drama.",
+    "Actor Pedro Pascal was cast in the leading role for \"De Noche.\"",
+    "Mexican costume designer Anna Terrazas collaborated with Haynes on the project.",
+    "Terrazas told Haynes during their discussions that the most important aspect of a costume was what it smelled like.",
+    "Haynes recounted that his immediate hiring response to Terrazas was, \"You’re hired.\""
+   ],
+   "debate": "Does obsessing over invisible details like how a costume smells make a movie better, or is that taking artistic immersion too far?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/todd-haynes-pedro-pascal-de-noche-christine-vachon-1236910991/",
+   "score": 80.4,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Pedro Pascal-Led ‘De Noche",
+     "Anna Terrazas",
+     "Todd Haynes",
+     "You&#8217;re",
+     "Oscar",
+     "Pedro Pascal-starring"
+    ],
+    "organizations": [
+     "Screen",
+     "the Radical Power of Love",
+     "LYON",
+     "France &#",
+     "the Lumière Film Festival"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9441,
+    "label": "positive"
+   },
+   "summary": "LYON, France &#8212; When Mexican costume designer Anna Terrazas told Todd Haynes that the most important thing about a costume was what it smelled like, the filmmaker had just one response: “You&#8217;re hired.” The Oscar-nominated director shared the anecdote about his upcoming Pedro Pascal-starring romantic noir drama “De Noche” at the Lumière Film Festival on [&#8230;]",
+   "cluster_id": "00392d96a8a23e6e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.600725+00:00",
+    "source_published_at": "2026-10-14T07:14:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0432,
+     "ENTERTAINMENT": 0.8004,
+     "BREAKOUT WATCH": 0.0436,
+     "LIFESTYLE CHAT": 0.056,
+     "CANADIAN NEWS": 0.0207,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0361
+    },
+    "gemini_enrich": "gemini-v1"
+   }
+  },
+  {
    "id": "23cdfcf9212a2e8a",
    "date": "2026-09-23",
    "slot": "am",
@@ -3365,11 +3489,17 @@
    "slot": "am",
    "category": "ENTERTAINMENT",
    "title": "The Hollywood Reporter Honors ‘The Koreans’ Star Han Ji-min With Trailblazer Award at Busan Gala",
-   "angle": "Studio executives, 'Bedford Park' star Moon Choi and 'KPop Demon Hunters' producer Agnes Lee were among the guests at THR and the Motion Picture Association’s American Film Night, celebrating creative ties between…",
+   "angle": "Hollywood is deepening its ties with South Korean entertainment, honoring actor Han Ji-min at a high-profile Busan industry gala. As major studios invest heavily in cross-border cinema, it raises the question of whether international joint ventures are delivering better entertainment to audiences back home.",
    "bullets": [
-    "Studio executives, 'Bedford Park' star Moon Choi and 'KPop Demon Hunters' producer Agnes Lee were among the guests at THR and the Motion Picture Association’s American Film Night, celebrating creative ties between Hollywood and Korea."
+    "The Hollywood Reporter presented actor Han Ji-min with the Trailblazer Award at an industry gala in Busan.",
+    "Han was recognized following her starring work in the project \"The Koreans.\"",
+    "The award presentation took place during American Film Night, an event co-hosted by The Hollywood Reporter and the Motion Picture Association.",
+    "Organizers held the American Film Night gathering to celebrate ongoing creative ties between Hollywood and Korea.",
+    "Moon Choi, star of \"Bedford Park,\" attended the Busan gathering as an invited guest.",
+    "Agnes Lee, producer of \"KPop Demon Hunters,\" was among the entertainment figures present at the event.",
+    "Multiple studio executives were also listed among the attendees at the Busan celebration."
    ],
-   "debate": "Overrated or underrated — where do you land?",
+   "debate": "As North American entertainment companies pour money into foreign creative markets like South Korea, do these global partnerships produce genuinely better stories, or are they just calculated attempts to secure international box office?",
    "source": "Hollywood Reporter",
    "source_type": "news",
    "url": "https://www.hollywoodreporter.com/movies/movie-news/thr-han-ji-min-trailblazer-award-busan-film-festival-1236725235/",
@@ -3414,7 +3544,8 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0233
-    }
+    },
+    "gemini_enrich": "gemini-v1"
    }
   },
   {
@@ -3819,7 +3950,7 @@
    "source_type": "news",
    "url": "https://variety.com/2026/film/global/jack-oconnell-odessa-azion-tend-of-the-world-as-we-know-it-1236897026/",
    "score": 79.8,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Jack O’Connell",
@@ -3879,7 +4010,7 @@
    "source_type": "news",
    "url": "https://nypost.com/2026/10/09/us-news/mike-collins-fends-off-claims-hes-a-bigot-slams-trust-fund-kid-jon-ossoff-in-georgia-senate-debate/",
    "score": 79.7,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Mike Collins",
@@ -4340,6 +4471,64 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.143
+    }
+   }
+  },
+  {
+   "id": "cc8f255978a2465e",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "‘Bonnie and Clyde’ illegal immigrant couple accused of brazen jewelry theft spree across four states",
+   "angle": "Rudi Lacatusu, 28, and Mirabela Lacatusu, 26, Romanian nationals accused of targeting victims on Long Island, are now in U.S. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Rudi Lacatusu, 28, and Mirabela Lacatusu, 26, Romanian nationals accused of targeting victims on Long Island, are now in U.S.",
+    "Immigration and Customs Enforcement (ICE) custody, DHS announced Tuesday."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/bonnie-and-clyde-illegal-immigrant-couple-accused-of-brazen-jewelry-theft-spree-across-four-states/",
+   "score": 79.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Bonnie",
+     "Clyde",
+     "Rudi Lacatusu",
+     "Mirabela Lacatusu"
+    ],
+    "organizations": [
+     "U.S. Immigration",
+     "DHS"
+    ],
+    "locations": [
+     "Long Island"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8519,
+    "label": "negative"
+   },
+   "summary": "Rudi Lacatusu, 28, and Mirabela Lacatusu, 26, Romanian nationals accused of targeting victims on Long Island, are now in U.S. Immigration and Customs Enforcement (ICE) custody, DHS announced Tuesday.",
+   "cluster_id": "cc8f255978a2465e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.157026+00:00",
+    "source_published_at": "2026-10-14T07:40:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4136,
+     "ENTERTAINMENT": 0.1258,
+     "BREAKOUT WATCH": 0.0809,
+     "LIFESTYLE CHAT": 0.1814,
+     "CANADIAN NEWS": 0.1334,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0649
     }
    }
   },
@@ -6021,6 +6210,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0329
+    }
+   }
+  },
+  {
+   "id": "61fdcecacfb20098",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Islanders teammates happy to see Kyle Palmieri bust out: ‘awesome’",
+   "angle": "Kyle Palmieri scored for the first time in 11 months in Tuesday’s 3-2 win over the Canucks — then added the game-winning goal for good measure. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Kyle Palmieri scored for the first time in 11 months in Tuesday’s 3-2 win over the Canucks — then added the game-winning goal for good measure."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/sports/islanders-teammates-happy-to-see-kyle-palmieri-bust-out-awesome/",
+   "score": 78.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kyle Palmieri"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.886,
+    "label": "positive"
+   },
+   "summary": "Kyle Palmieri scored for the first time in 11 months in Tuesday’s 3-2 win over the Canucks — then added the game-winning goal for good measure.",
+   "cluster_id": "61fdcecacfb20098",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.637628+00:00",
+    "source_published_at": "2026-10-14T06:22:33+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2322,
+     "ENTERTAINMENT": 0.3005,
+     "BREAKOUT WATCH": 0.1546,
+     "LIFESTYLE CHAT": 0.0465,
+     "CANADIAN NEWS": 0.2057,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0605
     }
    }
   },
@@ -10573,6 +10811,66 @@
    }
   },
   {
+   "id": "f46d9d2e3ab8e58f",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Russell T Davies Calls BBC Boss’ AI ‘Doctor Who’ Comment ‘Clumsy’ and Teases Show’s Future: ‘You’ll Start to See Production’ in ‘Summer Next Year’",
+   "angle": "Outgoing &#8220;Doctor Who&#8221; showrunner Russell T. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Outgoing &#8220;Doctor Who&#8221; showrunner Russell T.",
+    "Davies has criticized BBC director general Matt Brittin over recent comments he made regarding an AI-generated episode of the cult show.",
+    "Speaking at the Royal Television Society conference last month, Brittin said he&#8217;d been sent a fully AI-generated episode of “Doctor Who,” which he described as “pretty good.&#8221; Although [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/russell-t-davies-bbc-boss-ai-doctor-who-comment-clumsy-1236911048/",
+   "score": 77.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Russell T. Davies",
+     "Matt Brittin",
+     "he&#8217;d"
+    ],
+    "organizations": [
+     "Russell T Davies",
+     "BBC",
+     "the Royal Television Society",
+     "Brittin"
+    ],
+    "locations": [
+     "AI"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.3612,
+    "label": "negative"
+   },
+   "summary": "Outgoing &#8220;Doctor Who&#8221; showrunner Russell T. Davies has criticized BBC director general Matt Brittin over recent comments he made regarding an AI-generated episode of the cult show. Speaking at the Royal Television Society conference last month, Brittin said he&#8217;d been sent a fully AI-generated episode of “Doctor Who,” which he described as “pretty good.&#8221; Although [&#8230;]",
+   "cluster_id": "f46d9d2e3ab8e58f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.245041+00:00",
+    "source_published_at": "2026-10-14T09:04:04+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0928,
+     "ENTERTAINMENT": 0.633,
+     "BREAKOUT WATCH": 0.1502,
+     "LIFESTYLE CHAT": 0.0371,
+     "CANADIAN NEWS": 0.0303,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0565
+    }
+   }
+  },
+  {
    "id": "b0c8a1eb9f8e49ce",
    "date": "2026-09-25",
    "slot": "am",
@@ -10945,6 +11243,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.2102
+    }
+   }
+  },
+  {
+   "id": "229370af1d2acd24",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Advanced voting for Alberta's separation referendum begins",
+   "angle": "Alberta NDP Leader Naheed Nenshi is encouraging Albertans to head to the polls as 311 polling stations opened Tuesday for the first of five days of advanced voting for the Oct. Shelf life through drive time — who is…",
+   "bullets": [
+    "Alberta NDP Leader Naheed Nenshi is encouraging Albertans to head to the polls as 311 polling stations opened Tuesday for the first of five days of advanced voting for the Oct."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/video-advanced-voting-for-albertas-separation-referendum-begins/",
+   "score": 77.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Naheed Nenshi"
+    ],
+    "organizations": [
+     "NDP"
+    ],
+    "locations": [
+     "Alberta"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.7506,
+    "label": "positive"
+   },
+   "summary": "Alberta NDP Leader Naheed Nenshi is encouraging Albertans to head to the polls as 311 polling stations opened Tuesday for the first of five days of advanced voting for the Oct. 19 referendum.",
+   "cluster_id": "229370af1d2acd24",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:56.437986+00:00",
+    "source_published_at": "2026-10-13T22:11:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2067,
+     "ENTERTAINMENT": 0.2338,
+     "BREAKOUT WATCH": 0.1234,
+     "LIFESTYLE CHAT": 0.1253,
+     "CANADIAN NEWS": 0.2052,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1056
     }
    }
   },
@@ -12833,6 +13184,159 @@
    }
   },
   {
+   "id": "02c91f955121fb90",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Matt Rempe makes ‘impact’ and gets in fight in return to lineup",
+   "angle": "Matt Rempe was back in the Rangers lineup for their 4-1 win over the Lightning, after the forward served as a healthy scratch in six straight games. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Matt Rempe was back in the Rangers lineup for their 4-1 win over the Lightning, after the forward served as a healthy scratch in six straight games."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/sports/matt-rempe-makes-impact-and-gets-in-fight-in-return-to-lineup/",
+   "score": 77.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Matt Rempe"
+    ],
+    "organizations": [
+     "Rangers"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.7003,
+    "label": "positive"
+   },
+   "summary": "Matt Rempe was back in the Rangers lineup for their 4-1 win over the Lightning, after the forward served as a healthy scratch in six straight games.",
+   "cluster_id": "02c91f955121fb90",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.492862+00:00",
+    "source_published_at": "2026-10-14T06:56:48+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1627,
+     "ENTERTAINMENT": 0.3899,
+     "BREAKOUT WATCH": 0.1001,
+     "LIFESTYLE CHAT": 0.0689,
+     "CANADIAN NEWS": 0.1846,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0939
+    }
+   }
+  },
+  {
+   "id": "d306d058a3151341",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "One stolen every four minutes - inside the police battle against vehicle thieves",
+   "angle": "Officers tell the BBC they are overstretched and struggling to keep up with sophisticated criminals. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Officers tell the BBC they are overstretched and struggling to keep up with sophisticated criminals."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cqpvgyz30zepo?at_medium=RSS&at_campaign=rss",
+   "score": 77.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "BBC"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.9001,
+    "label": "negative"
+   },
+   "summary": "Officers tell the BBC they are overstretched and struggling to keep up with sophisticated criminals.",
+   "cluster_id": "d306d058a3151341",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.812219+00:00",
+    "source_published_at": "2026-10-14T05:01:07+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4244,
+     "ENTERTAINMENT": 0.167,
+     "BREAKOUT WATCH": 0.1449,
+     "LIFESTYLE CHAT": 0.143,
+     "CANADIAN NEWS": 0.0617,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.059
+    }
+   }
+  },
+  {
+   "id": "ce469b346c303a0b",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Chris Mason: Lib Dems rally behind Davey as he pledges change",
+   "angle": "The BBC's political editor Chris Mason looks at the fallout from the Lib Dem frontbench resignations. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The BBC's political editor Chris Mason looks at the fallout from the Lib Dem frontbench resignations."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cqy7l03ydkyko?at_medium=RSS&at_campaign=rss",
+   "score": 77.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Chris Mason",
+     "Lib Dems",
+     "Lib Dem"
+    ],
+    "organizations": [
+     "BBC"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.296,
+    "label": "negative"
+   },
+   "summary": "The BBC's political editor Chris Mason looks at the fallout from the Lib Dem frontbench resignations.",
+   "cluster_id": "ce469b346c303a0b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.321187+00:00",
+    "source_published_at": "2026-10-14T05:11:33+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1465,
+     "ENTERTAINMENT": 0.595,
+     "BREAKOUT WATCH": 0.09,
+     "LIFESTYLE CHAT": 0.0868,
+     "CANADIAN NEWS": 0.0276,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0542
+    }
+   }
+  },
+  {
    "id": "d26f89c2d8c77bad",
    "date": "2026-09-28",
    "slot": "am",
@@ -13283,6 +13787,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0779
+    }
+   }
+  },
+  {
+   "id": "7b0ddcd1f70bf6e0",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Canadian astronaut Joshua Kutryk shares first impressions from space",
+   "angle": "Kutryk and his crewmates aboard the International Space Station observed the Northern Lights over the weekend. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Kutryk and his crewmates aboard the International Space Station observed the Northern Lights over the weekend"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/science/article-canadian-astronaut-joshua-kutryk-shares-first-impressions-from-space/",
+   "score": 76.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Joshua Kutryk",
+     "Kutryk"
+    ],
+    "organizations": [
+     "the International Space Station"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "Kutryk and his crewmates aboard the International Space Station observed the Northern Lights over the weekend",
+   "cluster_id": "7b0ddcd1f70bf6e0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:56.482010+00:00",
+    "source_published_at": "2026-10-13T21:14:53+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3436,
+     "ENTERTAINMENT": 0.1843,
+     "BREAKOUT WATCH": 0.0844,
+     "LIFESTYLE CHAT": 0.1321,
+     "CANADIAN NEWS": 0.1296,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1261
     }
    }
   },
@@ -14357,6 +14913,61 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0856
+    }
+   }
+  },
+  {
+   "id": "d0bc0808e55583e4",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Mikael Marcimain’s ‘The Cold Song’ Marks a Rare Return to Big Swing European TV Drama (Exclusive First Look)",
+   "angle": "Miso Film Sweden’s six-part adaptation of Linn Ullmann’s novel, backed by SVT and the New8 collective, arrives at Mipcom as European drama budgets tighten and commissioners retreat to safer formats. Shelf life through…",
+   "bullets": [
+    "Miso Film Sweden’s six-part adaptation of Linn Ullmann’s novel, backed by SVT and the New8 collective, arrives at Mipcom as European drama budgets tighten and commissioners retreat to safer formats."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/mikael-marcimain-the-cold-song-first-look-images-1236729634/",
+   "score": 76.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mikael Marcimain’s",
+     "Film Sweden",
+     "Linn Ullmann’s"
+    ],
+    "organizations": [
+     "SVT",
+     "New8",
+     "Mipcom"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7579,
+    "label": "positive"
+   },
+   "summary": "Miso Film Sweden’s six-part adaptation of Linn Ullmann’s novel, backed by SVT and the New8 collective, arrives at Mipcom as European drama budgets tighten and commissioners retreat to safer formats.",
+   "cluster_id": "d0bc0808e55583e4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.784453+00:00",
+    "source_published_at": "2026-10-14T07:07:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0882,
+     "ENTERTAINMENT": 0.7363,
+     "BREAKOUT WATCH": 0.0584,
+     "LIFESTYLE CHAT": 0.0255,
+     "CANADIAN NEWS": 0.0674,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0242
     }
    }
   },
@@ -18136,6 +18747,61 @@
    }
   },
   {
+   "id": "e5eec26ef4bb1ac1",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Theo James, Hoyeon, Christian Slater Thriller ‘The Hole’ Lands Summer 2027 Release From Orion (Exclusive)",
+   "angle": "Yeom Hye-ran also stars in director Kim Jee-woon's feature that adapts Hye-young Pyun's novel. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Yeom Hye-ran also stars in director Kim Jee-woon's feature that adapts Hye-young Pyun's novel."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/the-hole-theo-james-hoyeon-christian-slater-release-orion-1236729322/",
+   "score": 75.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Theo James",
+     "Hoyeon",
+     "Slater Thriller",
+     "Yeom Hye-ran",
+     "Kim Jee-woon"
+    ],
+    "organizations": [
+     "Pyun"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "Yeom Hye-ran also stars in director Kim Jee-woon's feature that adapts Hye-young Pyun's novel.",
+   "cluster_id": "e5eec26ef4bb1ac1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.125175+00:00",
+    "source_published_at": "2026-10-14T00:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2495,
+     "ENTERTAINMENT": 0.3852,
+     "BREAKOUT WATCH": 0.1008,
+     "LIFESTYLE CHAT": 0.096,
+     "CANADIAN NEWS": 0.0602,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1082
+    }
+   }
+  },
+  {
    "id": "984580af6868d0b6",
    "date": "2026-09-22",
    "slot": "am",
@@ -20931,6 +21597,57 @@
    }
   },
   {
+   "id": "e7eb1ecce47e9b1b",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Watch: BBC joins police on front line against car theft",
+   "angle": "Investigations reporter NJ Convery has been out on a nighttime hunt for vehicle thieves. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Investigations reporter NJ Convery has been out on a nighttime hunt for vehicle thieves."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/videos/cw4g195p3g23o?at_medium=RSS&at_campaign=rss",
+   "score": 75.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "NJ Convery"
+    ],
+    "organizations": [
+     "BBC"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.5106,
+    "label": "negative"
+   },
+   "summary": "Investigations reporter NJ Convery has been out on a nighttime hunt for vehicle thieves.",
+   "cluster_id": "e7eb1ecce47e9b1b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.856914+00:00",
+    "source_published_at": "2026-10-14T05:00:37+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1482,
+     "ENTERTAINMENT": 0.4332,
+     "BREAKOUT WATCH": 0.2118,
+     "LIFESTYLE CHAT": 0.0577,
+     "CANADIAN NEWS": 0.078,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0711
+    }
+   }
+  },
+  {
    "id": "202553c401ba3a91",
    "date": "2026-09-22",
    "slot": "am",
@@ -22452,6 +23169,116 @@
    }
   },
   {
+   "id": "a5f3f70a9fb6ea87",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Judge Extends Block on Trump’s White House Ban on CNN, MS NOW and Politico",
+   "angle": "Following President Donald Trump&#8217;s White House ban on CNN, MS NOW and Politico last month, a federal judge has once again blocked him from doing so. Ask the phones: would you film it, flee it, or pretend you saw…",
+   "bullets": [
+    "Following President Donald Trump&#8217;s White House ban on CNN, MS NOW and Politico last month, a federal judge has once again blocked him from doing so.",
+    "District Judge Timothy J.",
+    "Kelly wrote in the ruling issued Tuesday evening that the outlets are &#8220;likely to succeed not only on their due process claim, but also [&#8230;]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/judge-blocks-trump-administrations-ban-cnn-ms-now-politico-1236910947/",
+   "score": 74.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Politico",
+     "Donald",
+     "Timothy J. Kelly"
+    ],
+    "organizations": [
+     "Trump’s White House",
+     "CNN",
+     "MS NOW",
+     "White House",
+     "Politico"
+    ],
+    "locations": [
+     "U.S."
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5789,
+    "label": "negative"
+   },
+   "summary": "Following President Donald Trump&#8217;s White House ban on CNN, MS NOW and Politico last month, a federal judge has once again blocked him from doing so. U.S. District Judge Timothy J. Kelly wrote in the ruling issued Tuesday evening that the outlets are &#8220;likely to succeed not only on their due process claim, but also [&#8230;]",
+   "cluster_id": "a5f3f70a9fb6ea87",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.718830+00:00",
+    "source_published_at": "2026-10-14T03:59:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.7333,
+     "ENTERTAINMENT": 0.0975,
+     "BREAKOUT WATCH": 0.059,
+     "LIFESTYLE CHAT": 0.0218,
+     "CANADIAN NEWS": 0.0368,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0515
+    }
+   }
+  },
+  {
+   "id": "efcf74168e31b4ad",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Changes to prescribing safer supply drugs approved by Ontario’s medical regulator",
+   "angle": "Efforts are being made to reduce the amount of opioids making their way to the streets. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Efforts are being made to reduce the amount of opioids making their way to the streets"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/toronto/article-safer-supply-drugs-opioids-ontario/",
+   "score": 74.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Ontario"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.6808,
+    "label": "positive"
+   },
+   "summary": "Efforts are being made to reduce the amount of opioids making their way to the streets",
+   "cluster_id": "efcf74168e31b4ad",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:56.528295+00:00",
+    "source_published_at": "2026-10-13T21:10:06+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.275,
+     "ENTERTAINMENT": 0.2047,
+     "BREAKOUT WATCH": 0.1394,
+     "LIFESTYLE CHAT": 0.1342,
+     "CANADIAN NEWS": 0.1656,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0811
+    }
+   }
+  },
+  {
    "id": "7d17b83786c28030",
    "date": "2026-09-28",
    "slot": "am",
@@ -22614,6 +23441,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.2427
+    }
+   }
+  },
+  {
+   "id": "21fd8c2a1a7adf10",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Edinburgh Film Festival Reveals Dates for 2027 Edition (EXCLUSIVE)",
+   "angle": "The Edinburgh International Film Festival has announced the dates for its 80th edition, set to run Aug. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Edinburgh International Film Festival has announced the dates for its 80th edition, set to run Aug.",
+    "Supported by Screen Scotland, the milestone edition will honour the festival&#8217;s long history while building on the success of its revitalised iteration, launched in 2024 under the leadership of CEO and festival director Paul Ridd and [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/global/edinburgh-film-festival-reveals-2027-dates-1236910766/",
+   "score": 74.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Paul Ridd"
+    ],
+    "organizations": [
+     "Edinburgh Film Festival Reveals Dates",
+     "The Edinburgh International Film Festival",
+     "Screen Scotland"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9684,
+    "label": "positive"
+   },
+   "summary": "The Edinburgh International Film Festival has announced the dates for its 80th edition, set to run Aug. 12-18, 2027. Supported by Screen Scotland, the milestone edition will honour the festival&#8217;s long history while building on the success of its revitalised iteration, launched in 2024 under the leadership of CEO and festival director Paul Ridd and [&#8230;]",
+   "cluster_id": "21fd8c2a1a7adf10",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.300739+00:00",
+    "source_published_at": "2026-10-14T09:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0648,
+     "ENTERTAINMENT": 0.7205,
+     "BREAKOUT WATCH": 0.0788,
+     "LIFESTYLE CHAT": 0.0378,
+     "CANADIAN NEWS": 0.0255,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0726
     }
    }
   },
@@ -23353,6 +24234,65 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1771
+    }
+   }
+  },
+  {
+   "id": "9f4961bb5c38a322",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "ORF-Enterprise Boards ‘Crème de la Crème’ – About a Sperm Bank Business – Produced by Whatever Pictures and a ‘Playful and Irreverent’ Series",
+   "angle": "Finnish production company Whatever Pictures has signed a new global sales deal with ORF-Enterprise, part of Austrian braodcaster ORF, which has acquired international distribution rights to the comedy drama “Crème de…",
+   "bullets": [
+    "Finnish production company Whatever Pictures has signed a new global sales deal with ORF-Enterprise, part of Austrian braodcaster ORF, which has acquired international distribution rights to the comedy drama “Crème de la Crème.” Commissioned domestically by Finnish broadcaster YLE, the show is written and directed by showrunner Jukka Vidgrén, Topi Koljonen, Henna Rinnekangas, Juuso Laatio [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/orf-enterprise-creme-de-la-creme-whatever-pictures-rein-film-1236910449/",
+   "score": 74.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jukka Vidgrén",
+     "Topi Koljonen",
+     "Henna Rinnekangas",
+     "Juuso Laatio"
+    ],
+    "organizations": [
+     "Sperm Bank Business",
+     "Whatever Pictures",
+     "ORF-Enterprise",
+     "ORF",
+     "Commissioned",
+     "YLE"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3612,
+    "label": "positive"
+   },
+   "summary": "Finnish production company Whatever Pictures has signed a new global sales deal with ORF-Enterprise, part of Austrian braodcaster ORF, which has acquired international distribution rights to the comedy drama “Crème de la Crème.” Commissioned domestically by Finnish broadcaster YLE, the show is written and directed by showrunner Jukka Vidgrén, Topi Koljonen, Henna Rinnekangas, Juuso Laatio [&#8230;]",
+   "cluster_id": "9f4961bb5c38a322",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.475471+00:00",
+    "source_published_at": "2026-10-14T08:22:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1724,
+     "ENTERTAINMENT": 0.5352,
+     "BREAKOUT WATCH": 0.0896,
+     "LIFESTYLE CHAT": 0.0693,
+     "CANADIAN NEWS": 0.0803,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0532
     }
    }
   },
@@ -24825,6 +25765,58 @@
    }
   },
   {
+   "id": "250879b1afe02c68",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Ella Langley seemingly hits back after ‘The Voice’ coach Riley Green appears to take credit for her success: ‘Typical’",
+   "angle": "“There was a girl that reminded me a lot of y’all. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "“There was a girl that reminded me a lot of y’all.",
+    "I took her on tour with me.",
+    "Her name’s Ella Langley.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/14/entertainment/ella-langley-responds-after-the-voice-coach-riley-green-appears-to-take-credit-for-her-success/",
+   "score": 74.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Ella Langley",
+     "Riley Green"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.743,
+    "label": "positive"
+   },
+   "summary": "“There was a girl that reminded me a lot of y’all. I took her on tour with me. Her name’s Ella Langley.\"",
+   "cluster_id": "250879b1afe02c68",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.589131+00:00",
+    "source_published_at": "2026-10-14T06:30:18+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0483,
+     "ENTERTAINMENT": 0.7415,
+     "BREAKOUT WATCH": 0.102,
+     "LIFESTYLE CHAT": 0.0333,
+     "CANADIAN NEWS": 0.0271,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0478
+    }
+   }
+  },
+  {
    "id": "f3780f79d2ebcbf2",
    "date": "2026-10-02",
    "slot": "am",
@@ -25888,6 +26880,63 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.4715
+    }
+   }
+  },
+  {
+   "id": "ddc4e9607887ff3f",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "The Negative Melted, the Legend Didn’t: Inside the Resurrection of Kamal Amrohi and Meena Kumari’s Storied Indian Epic ‘Pakeezah’",
+   "angle": "The Negative Melted, the Legend Didn’t: Inside the Resurrection of Kamal Amrohi and Meena Kumari’s Storied Indian Epic ‘Pakeezah’. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "3, 1972, the prints of “Pakeezah” arrived at Bombay’s Maratha Mandir cinema in a palanquin pulled by four horses.",
+    "Military bands played outside, police held back the thousands crowding the gates, and inside, the film’s star, Meena Kumari, sat beside her husband, director Kamal Amrohi, and gripped his wrist so [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/festivals/kamal-amrohi-meena-kumari-pakeezah-rescued-melted-negative-1236909987/",
+   "score": 74.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Meena Kumari’s",
+     "Pakeezah",
+     "Meena Kumari",
+     "Kamal Amrohi"
+    ],
+    "organizations": [
+     "The Negative Melted",
+     "Storied Indian Epic ‘",
+     "Bombay’s Maratha Mandir"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3182,
+    "label": "negative"
+   },
+   "summary": "On the night of Feb. 3, 1972, the prints of “Pakeezah” arrived at Bombay’s Maratha Mandir cinema in a palanquin pulled by four horses. Military bands played outside, police held back the thousands crowding the gates, and inside, the film’s star, Meena Kumari, sat beside her husband, director Kamal Amrohi, and gripped his wrist so [&#8230;]",
+   "cluster_id": "ddc4e9607887ff3f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.666156+00:00",
+    "source_published_at": "2026-10-14T07:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0472,
+     "ENTERTAINMENT": 0.8364,
+     "BREAKOUT WATCH": 0.0372,
+     "LIFESTYLE CHAT": 0.027,
+     "CANADIAN NEWS": 0.0287,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0235
     }
    }
   },
@@ -26972,6 +28021,106 @@
    }
   },
   {
+   "id": "da9e87b8647db119",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Russian strikes leave 600,000 without power in Ukraine, Zelensky says",
+   "angle": "Ukraine's president says \"critical\" infrastructure was hit overnight, while emergency services say at least three were killed. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Ukraine's president says \"critical\" infrastructure was hit overnight, while emergency services say at least three were killed."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cm2d6e62p49do?at_medium=RSS&at_campaign=rss",
+   "score": 74.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Zelensky"
+    ],
+    "organizations": [],
+    "locations": [
+     "Ukraine"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9022,
+    "label": "negative"
+   },
+   "summary": "Ukraine's president says \"critical\" infrastructure was hit overnight, while emergency services say at least three were killed.",
+   "cluster_id": "da9e87b8647db119",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.905413+00:00",
+    "source_published_at": "2026-10-14T07:21:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.383,
+     "ENTERTAINMENT": 0.1234,
+     "BREAKOUT WATCH": 0.2159,
+     "LIFESTYLE CHAT": 0.099,
+     "CANADIAN NEWS": 0.0723,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1065
+    }
+   }
+  },
+  {
+   "id": "1a72bb08d1f87469",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Montreal-based software firm Lightspeed cuts 250 roles",
+   "angle": "&#32; submitted by &#32; /u/joe4942 [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/joe4942 [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x57utf/montrealbased_software_firm_lightspeed_cuts_250/",
+   "score": 74.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Montreal"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.296,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/joe4942 [link] &#32; [comments]",
+   "cluster_id": "1a72bb08d1f87469",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.720682+00:00",
+    "source_published_at": "2026-10-13T20:29:56+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3041,
+     "ENTERTAINMENT": 0.1695,
+     "BREAKOUT WATCH": 0.2341,
+     "LIFESTYLE CHAT": 0.1395,
+     "CANADIAN NEWS": 0.0876,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0652
+    }
+   }
+  },
+  {
    "id": "b6b6cd1b2feb207d",
    "date": "2026-09-23",
    "slot": "am",
@@ -27379,6 +28528,110 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.2408
+    }
+   }
+  },
+  {
+   "id": "1eb2f68d7654eb92",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Ben Affleck Calls Filming ‘Justice League’ a “Low Point” in His Career: “About as Gross as It Gets”",
+   "angle": "The actor played Bruce Wayne/Batman in the 2017 superhero pic, which underwent extensive reshoots, ultimately changing director Zack Snyder’s creative vision for the film. Shelf life through drive time — who is…",
+   "bullets": [
+    "The actor played Bruce Wayne/Batman in the 2017 superhero pic, which underwent extensive reshoots, ultimately changing director Zack Snyder’s creative vision for the film."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/ben-affleck-calls-justice-league-low-point-career-1236729523/",
+   "score": 73.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Ben Affleck",
+     "Career",
+     "Zack Snyder"
+    ],
+    "organizations": [
+     "Bruce Wayne/Batman"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "The actor played Bruce Wayne/Batman in the 2017 superhero pic, which underwent extensive reshoots, ultimately changing director Zack Snyder’s creative vision for the film.",
+   "cluster_id": "1eb2f68d7654eb92",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.880123+00:00",
+    "source_published_at": "2026-10-14T03:49:22+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0313,
+     "ENTERTAINMENT": 0.7996,
+     "BREAKOUT WATCH": 0.0407,
+     "LIFESTYLE CHAT": 0.0524,
+     "CANADIAN NEWS": 0.0492,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0267
+    }
+   }
+  },
+  {
+   "id": "d5a2c38db8040013",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Pablo Torre Reveals Art of Play Security Camera Footage, and It Doesn’t Look Great for Kelly Clarkson",
+   "angle": "Clarkson fans are going to want to look away from a moment like this. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Clarkson fans are going to want to look away from a moment like this."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/music/music-news/art-of-play-security-footage-kelly-clarkson-viral-visit-1236729466/",
+   "score": 73.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kelly Clarkson"
+    ],
+    "organizations": [
+     "Clarkson"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.8934,
+    "label": "positive"
+   },
+   "summary": "Clarkson fans are going to want to look away from a moment like this.",
+   "cluster_id": "d5a2c38db8040013",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.973066+00:00",
+    "source_published_at": "2026-10-14T02:19:24+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2656,
+     "ENTERTAINMENT": 0.4658,
+     "BREAKOUT WATCH": 0.0878,
+     "LIFESTYLE CHAT": 0.0557,
+     "CANADIAN NEWS": 0.0652,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0598
     }
    }
   },
@@ -30726,6 +31979,59 @@
    }
   },
   {
+   "id": "4eb1f9ae59885cb1",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Trump says ‘massive’ oil, gas, mineral exploration to begin in Greenland",
+   "angle": "US President Donald Trump said on Wednesday that \"massive\" oil, gas and mineral exploration is getting ready to begin in Greenland. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "US President Donald Trump said on Wednesday that \"massive\" oil, gas and mineral exploration is getting ready to begin in Greenland."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/business/trump-says-massive-oil-gas-mineral-exploration-to-begin-in-greenland/",
+   "score": 73.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Trump",
+     "Donald Trump"
+    ],
+    "organizations": [],
+    "locations": [
+     "Greenland",
+     "US"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6486,
+    "label": "positive"
+   },
+   "summary": "US President Donald Trump said on Wednesday that \"massive\" oil, gas and mineral exploration is getting ready to begin in Greenland.",
+   "cluster_id": "4eb1f9ae59885cb1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.396487+00:00",
+    "source_published_at": "2026-10-14T07:06:26+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.9257,
+     "ENTERTAINMENT": 0.0096,
+     "BREAKOUT WATCH": 0.0214,
+     "LIFESTYLE CHAT": 0.0067,
+     "CANADIAN NEWS": 0.0305,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.006
+    }
+   }
+  },
+  {
    "id": "92bdc9e85e89013f",
    "date": "2026-09-22",
    "slot": "am",
@@ -31583,6 +32889,59 @@
    }
   },
   {
+   "id": "4b1f7a3bee4e2393",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Drake Bell Slams SAG-AFTRA After Not Qualifying for Health Insurance: “Do Not Become an Actor”",
+   "angle": "Bell, who rose to fame on 'Drake &#38; Josh,' has turned his focus to music in recent years. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Bell, who rose to fame on 'Drake &#38; Josh,' has turned his focus to music in recent years."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/drake-bell-slams-sag-aftra-health-insurance-not-qualifying-1236729416/",
+   "score": 73.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Drake Bell Slams SAG-AFTRA",
+     "Bell",
+     "Josh"
+    ],
+    "organizations": [
+     "Drake &"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4404,
+    "label": "positive"
+   },
+   "summary": "Bell, who rose to fame on 'Drake &#38; Josh,' has turned his focus to music in recent years.",
+   "cluster_id": "4b1f7a3bee4e2393",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.022406+00:00",
+    "source_published_at": "2026-10-14T00:37:36+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0771,
+     "ENTERTAINMENT": 0.6124,
+     "BREAKOUT WATCH": 0.0961,
+     "LIFESTYLE CHAT": 0.0784,
+     "CANADIAN NEWS": 0.0934,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0425
+    }
+   }
+  },
+  {
    "id": "d5860df5a4ef7e24",
    "date": "2026-09-22",
    "slot": "am",
@@ -32343,6 +33702,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.011
+    }
+   }
+  },
+  {
+   "id": "f7e4653baa18debb",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Hurricane Isaias death toll rises to 6 in Florida as storm recovery continues",
+   "angle": "The death toll in Florida from Hurricane Isaias has risen to six, Gov. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The death toll in Florida from Hurricane Isaias has risen to six, Gov.",
+    "Ron DeSantis announced during a news conference Tuesday."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/hurricane-isaias-florida-death-toll-rises-to-6-killed-from-storm/",
+   "score": 73.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Ron DeSantis"
+    ],
+    "organizations": [
+     "Hurricane Isaias"
+    ],
+    "locations": [
+     "Florida"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8316,
+    "label": "negative"
+   },
+   "summary": "The death toll in Florida from Hurricane Isaias has risen to six, Gov. Ron DeSantis announced during a news conference Tuesday.",
+   "cluster_id": "f7e4653baa18debb",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.052629+00:00",
+    "source_published_at": "2026-10-14T08:32:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2243,
+     "ENTERTAINMENT": 0.2316,
+     "BREAKOUT WATCH": 0.1886,
+     "LIFESTYLE CHAT": 0.1074,
+     "CANADIAN NEWS": 0.1833,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0648
     }
    }
   },
@@ -33443,6 +34856,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0475
+    }
+   }
+  },
+  {
+   "id": "f7f620caf08f15f4",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Family pays tribute to 'warm and engaging' man killed in tiger attack",
+   "angle": "William Chapman was attacked by the tiger after he entered its pen at Yorkshire Wildlife Park. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "William Chapman was attacked by the tiger after he entered its pen at Yorkshire Wildlife Park."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/ck054nvzr676o?at_medium=RSS&at_campaign=rss",
+   "score": 73.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "William Chapman"
+    ],
+    "organizations": [],
+    "locations": [
+     "Yorkshire Wildlife Park"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8074,
+    "label": "negative"
+   },
+   "summary": "William Chapman was attacked by the tiger after he entered its pen at Yorkshire Wildlife Park.",
+   "cluster_id": "f7f620caf08f15f4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.764724+00:00",
+    "source_published_at": "2026-10-14T08:44:04+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1575,
+     "ENTERTAINMENT": 0.3545,
+     "BREAKOUT WATCH": 0.172,
+     "LIFESTYLE CHAT": 0.0822,
+     "CANADIAN NEWS": 0.1199,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1139
     }
    }
   },
@@ -34894,6 +36358,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0555
+    }
+   }
+  },
+  {
+   "id": "d82017b4f7b5e66e",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Steven Galloway accuses UBC of making up excuses to fire him to protect its reputation",
+   "angle": "Author says university ‘as corrupt an institution as you’re likely to find’ in cross-examination. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Author says university ‘as corrupt an institution as you’re likely to find’ in cross-examination"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-steven-galloway-gets-cross-examined-on-ubcs-reasons-for-his/",
+   "score": 73.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Steven Galloway"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.296,
+    "label": "negative"
+   },
+   "summary": "Author says university ‘as corrupt an institution as you’re likely to find’ in cross-examination",
+   "cluster_id": "d82017b4f7b5e66e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:55.913323+00:00",
+    "source_published_at": "2026-10-14T02:50:24+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4444,
+     "ENTERTAINMENT": 0.1866,
+     "BREAKOUT WATCH": 0.0713,
+     "LIFESTYLE CHAT": 0.0447,
+     "CANADIAN NEWS": 0.2121,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0409
     }
    }
   },
@@ -36388,6 +37901,58 @@
    }
   },
   {
+   "id": "b2e47886f932b85f",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Former Alberta premiers argue against separation as referendum vote approaches",
+   "angle": "Rachel Notley shared a stage with her long-time political foe, Jason Kenney, to form a unified front on Tuesday. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Rachel Notley shared a stage with her long-time political foe, Jason Kenney, to form a unified front on Tuesday"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/alberta/article-former-alberta-premiers-argue-against-separation-referendum-vote/",
+   "score": 72.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rachel Notley",
+     "Jason Kenney"
+    ],
+    "organizations": [],
+    "locations": [
+     "Alberta"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.0772,
+    "label": "negative"
+   },
+   "summary": "Rachel Notley shared a stage with her long-time political foe, Jason Kenney, to form a unified front on Tuesday",
+   "cluster_id": "b2e47886f932b85f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:56.007732+00:00",
+    "source_published_at": "2026-10-14T02:47:43+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1805,
+     "ENTERTAINMENT": 0.2811,
+     "BREAKOUT WATCH": 0.1576,
+     "LIFESTYLE CHAT": 0.0499,
+     "CANADIAN NEWS": 0.2068,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1241
+    }
+   }
+  },
+  {
    "id": "35e2c266e2d7372c",
    "date": "2026-09-22",
    "slot": "am",
@@ -37492,6 +39057,58 @@
    }
   },
   {
+   "id": "0969823db880fbea",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "DC Studios’ ‘Clayface’: First Reactions",
+   "angle": "The body horror film co-written by Mike Flanagan and directed by James Watkins hits theaters on Oct. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The body horror film co-written by Mike Flanagan and directed by James Watkins hits theaters on Oct."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/dc-studios-clayface-first-reactions-1236729618/",
+   "score": 72.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mike Flanagan",
+     "James Watkins"
+    ],
+    "organizations": [
+     "DC Studios’ ‘Clayface"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5719,
+    "label": "negative"
+   },
+   "summary": "The body horror film co-written by Mike Flanagan and directed by James Watkins hits theaters on Oct. 23.",
+   "cluster_id": "0969823db880fbea",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.831738+00:00",
+    "source_published_at": "2026-10-14T06:35:31+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.095,
+     "ENTERTAINMENT": 0.6135,
+     "BREAKOUT WATCH": 0.0666,
+     "LIFESTYLE CHAT": 0.0861,
+     "CANADIAN NEWS": 0.0715,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0674
+    }
+   }
+  },
+  {
    "id": "fbfd64a5c14f1293",
    "date": "2026-09-24",
    "slot": "am",
@@ -38250,6 +39867,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.4244
+    }
+   }
+  },
+  {
+   "id": "b2781d9fd2648c0b",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Saudi Arabia overturns death sentence for man over Facebook comment, Sri Lanka says",
+   "angle": "Anojan Sivarasa's case sent shockwaves through Sri Lanka, spurring diplomatic efforts to seek clemency. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Anojan Sivarasa's case sent shockwaves through Sri Lanka, spurring diplomatic efforts to seek clemency."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2v0vn7r1do?at_medium=RSS&at_campaign=rss",
+   "score": 72.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Sri Lanka",
+     "Anojan Sivarasa's"
+    ],
+    "organizations": [],
+    "locations": [
+     "Saudi Arabia",
+     "Sri Lanka"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5574,
+    "label": "negative"
+   },
+   "summary": "Anojan Sivarasa's case sent shockwaves through Sri Lanka, spurring diplomatic efforts to seek clemency.",
+   "cluster_id": "b2781d9fd2648c0b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.091125+00:00",
+    "source_published_at": "2026-10-14T06:11:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3486,
+     "ENTERTAINMENT": 0.1315,
+     "BREAKOUT WATCH": 0.1382,
+     "LIFESTYLE CHAT": 0.1256,
+     "CANADIAN NEWS": 0.1748,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0812
     }
    }
   },
@@ -41314,6 +42984,55 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "d8a026b14e3d97b9",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Our memorial garden helps us grieve - a cemetery felt too far away",
+   "angle": "Emma Moore shares how creating a special place at home has helped her family. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Emma Moore shares how creating a special place at home has helped her family."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cm4gvyvxyl1go?at_medium=RSS&at_campaign=rss",
+   "score": 72.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Emma Moore"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7269,
+    "label": "positive"
+   },
+   "summary": "Emma Moore shares how creating a special place at home has helped her family.",
+   "cluster_id": "d8a026b14e3d97b9",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.554437+00:00",
+    "source_published_at": "2026-10-14T06:55:14+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1134,
+     "ENTERTAINMENT": 0.3698,
+     "BREAKOUT WATCH": 0.1774,
+     "LIFESTYLE CHAT": 0.1079,
+     "CANADIAN NEWS": 0.1586,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0729
+    }
    }
   },
   {
@@ -44608,6 +46327,55 @@
    }
   },
   {
+   "id": "85d26330e3929738",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "The Papers: 'Spy chief's grim warning' and 'tiger victim was child actor'",
+   "angle": "Wednesday's papers are dominated by coverage of a speech given by the MI5 chief and the death of a man in a tiger enclosure. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Wednesday's papers are dominated by coverage of a speech given by the MI5 chief and the death of a man in a tiger enclosure."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cmze41x6l116o?at_medium=RSS&at_campaign=rss",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "MI5"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9022,
+    "label": "negative"
+   },
+   "summary": "Wednesday's papers are dominated by coverage of a speech given by the MI5 chief and the death of a man in a tiger enclosure.",
+   "cluster_id": "85d26330e3929738",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.508701+00:00",
+    "source_published_at": "2026-10-14T04:53:19+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2171,
+     "ENTERTAINMENT": 0.3338,
+     "BREAKOUT WATCH": 0.0904,
+     "LIFESTYLE CHAT": 0.1253,
+     "CANADIAN NEWS": 0.1644,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.069
+    }
+   }
+  },
+  {
    "id": "2b1017331325ea6e",
    "date": "2026-09-22",
    "slot": "am",
@@ -45424,6 +47192,66 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0752
+    }
+   }
+  },
+  {
+   "id": "8d597ef845ec4f98",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Banijay Kids & Family Sells ’Little Princess’ to Sky U.K. (EXCLUSIVE)",
+   "angle": "“Little Princess,” the British pre-school animation classic, is heading to Sky UK, in a deal struck with Banijay Kids &#38; Family which sees the pay TV buying its complete catalog. Shelf life through drive time — who…",
+   "bullets": [
+    "“Little Princess,” the British pre-school animation classic, is heading to Sky UK, in a deal struck with Banijay Kids &#38; Family which sees the pay TV buying its complete catalog.",
+    "Further new distribution deals on “Little Princess,” a four-time BAFTA nominee, have been struck with Nordisk Film, RTV Slovenia and Italy’s TIM.",
+    "Based on the [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/global/banijay-kids-family-little-princess-sky-u-k-nordisk-film-1236911035/",
+   "score": 71.9,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Sky U.K.",
+     "Sky UK",
+     "Nordisk Film"
+    ],
+    "organizations": [
+     "Banijay Kids & Family Sells ’Little Princess’",
+     "Banijay Kids &",
+     "BAFTA",
+     "TIM"
+    ],
+    "locations": [
+     "Italy"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2885,
+    "label": "negative"
+   },
+   "summary": "“Little Princess,” the British pre-school animation classic, is heading to Sky UK, in a deal struck with Banijay Kids &#38; Family which sees the pay TV buying its complete catalog. Further new distribution deals on “Little Princess,” a four-time BAFTA nominee, have been struck with Nordisk Film, RTV Slovenia and Italy’s TIM. Based on the [&#8230;]",
+   "cluster_id": "8d597ef845ec4f98",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.184137+00:00",
+    "source_published_at": "2026-10-14T09:09:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1432,
+     "ENTERTAINMENT": 0.4954,
+     "BREAKOUT WATCH": 0.0802,
+     "LIFESTYLE CHAT": 0.1073,
+     "CANADIAN NEWS": 0.0908,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0829
     }
    }
   },
@@ -46767,6 +48595,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0203
+    }
+   }
+  },
+  {
+   "id": "2c9e08ad1ddbd13d",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Cycling advocates rally, petition Supreme Court to rule on Toronto bike-lane removal",
+   "angle": "Cyclists gather along Bloor Street West to hold night-long protest against removal of bike lanes. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Cyclists gather along Bloor Street West to hold night-long protest against removal of bike lanes"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-cycling-advocates-rally-petition-supreme-court-to-rule-on-toronto-bike/",
+   "score": 71.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Supreme Court"
+    ],
+    "locations": [
+     "Toronto",
+     "Bloor Street West"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.3818,
+    "label": "positive"
+   },
+   "summary": "Cyclists gather along Bloor Street West to hold night-long protest against removal of bike lanes",
+   "cluster_id": "2c9e08ad1ddbd13d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:56.147837+00:00",
+    "source_published_at": "2026-10-14T02:24:55+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5484,
+     "ENTERTAINMENT": 0.089,
+     "BREAKOUT WATCH": 0.1003,
+     "LIFESTYLE CHAT": 0.0896,
+     "CANADIAN NEWS": 0.1125,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0604
     }
    }
   },
@@ -49785,6 +51665,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1088
+    }
+   }
+  },
+  {
+   "id": "8faabe2c130652a5",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Wyoming grad student accused of poisoning a colleague, arrested fleeing to China",
+   "angle": "She allegedly bought a chemical, acrylamide, over eBay, and it was first detected when the alleged victim’s wife and others tested water from the coffee maker he used to brew tea. Ask the phones: would you film it…",
+   "bullets": [
+    "She allegedly bought a chemical, acrylamide, over eBay, and it was first detected when the alleged victim’s wife and others tested water from the coffee maker he used to brew tea."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/wyoming-grad-student-aili-wang-accused-of-poisoning-colleague-arrested-at-lax-fleeing-to-china/",
+   "score": 71.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "eBay"
+    ],
+    "locations": [
+     "Wyoming",
+     "China"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8442,
+    "label": "negative"
+   },
+   "summary": "She allegedly bought a chemical, acrylamide, over eBay, and it was first detected when the alleged victim’s wife and others tested water from the coffee maker he used to brew tea.",
+   "cluster_id": "8faabe2c130652a5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.205032+00:00",
+    "source_published_at": "2026-10-14T07:38:11+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4486,
+     "ENTERTAINMENT": 0.2221,
+     "BREAKOUT WATCH": 0.0859,
+     "LIFESTYLE CHAT": 0.1001,
+     "CANADIAN NEWS": 0.0643,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0789
     }
    }
   },
@@ -54621,6 +56553,56 @@
    }
   },
   {
+   "id": "e4d29791bad0f021",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Nanaimo’s most prolific criminal’ back on the street again - BC | Globalnews.ca",
+   "angle": "&#32; submitted by &#32; /u/Apprehensive_Idea758 [link] &#32; [comments]. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Apprehensive_Idea758 [link] &#32; [comments]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5g5hp/nanaimos_most_prolific_criminal_back_on_the/",
+   "score": 71.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "BC",
+     "Globalnews.ca."
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/Apprehensive_Idea758 [link] &#32; [comments]",
+   "cluster_id": "e4d29791bad0f021",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.858134+00:00",
+    "source_published_at": "2026-10-14T02:48:39+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1344,
+     "ENTERTAINMENT": 0.3964,
+     "BREAKOUT WATCH": 0.2437,
+     "LIFESTYLE CHAT": 0.0893,
+     "CANADIAN NEWS": 0.1008,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0353
+    }
+   }
+  },
+  {
    "id": "e1f8532f85bba3be",
    "date": "2026-09-22",
    "slot": "am",
@@ -57741,6 +59723,57 @@
    }
   },
   {
+   "id": "f3cb18061530acea",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Breaking Bad’ star RJ Mitte’s ex-girlfriend pays emotional tribute after his tragic death at 34",
+   "angle": "\"RJ was the first person to show me how a man is supposed to treat a woman,\" Saint Sasha wrote. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "\"RJ was the first person to show me how a man is supposed to treat a woman,\" Saint Sasha wrote."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/14/celebrity-news/breaking-bad-star-rj-mittes-former-girlfriend-pays-emotional-tribute-after-his-tragic-death-at-34/",
+   "score": 70.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mitte’s"
+    ],
+    "organizations": [
+     "Saint Sasha"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5574,
+    "label": "negative"
+   },
+   "summary": "\"RJ was the first person to show me how a man is supposed to treat a woman,\" Saint Sasha wrote.",
+   "cluster_id": "f3cb18061530acea",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.250222+00:00",
+    "source_published_at": "2026-10-14T07:37:37+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0321,
+     "ENTERTAINMENT": 0.6587,
+     "BREAKOUT WATCH": 0.0902,
+     "LIFESTYLE CHAT": 0.0663,
+     "CANADIAN NEWS": 0.1009,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0518
+    }
+   }
+  },
+  {
    "id": "1ad99a7c64166843",
    "date": "2026-09-22",
    "slot": "am",
@@ -58283,6 +60316,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0643
+    }
+   }
+  },
+  {
+   "id": "59d39620a12053c5",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "B.C. party leaders make economic pitch to business community ahead of election",
+   "angle": "Eby touted major projects and supports for job creation as opposition leaders took aim at NDP government’s economic record. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Eby touted major projects and supports for job creation as opposition leaders took aim at NDP government’s economic record"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-bc-party-leaders-make-economic-pitch-to-business-community-ahead-of/",
+   "score": 70.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "B.C."
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7479,
+    "label": "positive"
+   },
+   "summary": "Eby touted major projects and supports for job creation as opposition leaders took aim at NDP government’s economic record",
+   "cluster_id": "59d39620a12053c5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:56.196659+00:00",
+    "source_published_at": "2026-10-14T01:47:26+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4885,
+     "ENTERTAINMENT": 0.1041,
+     "BREAKOUT WATCH": 0.0894,
+     "LIFESTYLE CHAT": 0.0523,
+     "CANADIAN NEWS": 0.2048,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0609
     }
    }
   },
@@ -59073,6 +61155,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1421
+    }
+   }
+  },
+  {
+   "id": "a70907300ff127c2",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Accused accomplice in Tumbler Ridge shooting denied pretrial release",
+   "angle": "Accused accomplice in Tumbler Ridge shooting denied pretrial release. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "District Court judge ruled that the suspect, a Washington State resident, will remain in custody"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-tumbler-ridge-shooter-alleged-conspirator-remain-custody-pending/",
+   "score": 70.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "District Court"
+    ],
+    "locations": [
+     "Tumbler Ridge",
+     "U.S.",
+     "Washington State"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.743,
+    "label": "negative"
+   },
+   "summary": "A U.S. District Court judge ruled that the suspect, a Washington State resident, will remain in custody",
+   "cluster_id": "a70907300ff127c2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:56.053881+00:00",
+    "source_published_at": "2026-10-13T21:51:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3613,
+     "ENTERTAINMENT": 0.0799,
+     "BREAKOUT WATCH": 0.1522,
+     "LIFESTYLE CHAT": 0.0628,
+     "CANADIAN NEWS": 0.296,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0479
     }
    }
   },
@@ -60339,6 +62474,61 @@
    }
   },
   {
+   "id": "11624f34e568831d",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Going Big in Japan: International French Hit ‘Bright Minds’ Season 7 Heads to Tokyo (EXCLUSIVE)",
+   "angle": "The latest season of French hit “Bright Minds” marks a major milestone for France TV Distribution’s light crime series, with part of the filming taking place in Tokyo for the first time due to its huge popularity in…",
+   "bullets": [
+    "The latest season of French hit “Bright Minds” marks a major milestone for France TV Distribution’s light crime series, with part of the filming taking place in Tokyo for the first time due to its huge popularity in the country.",
+    "The unprecedented co-production between JLA Productions and NHK Enterprises of Japan was made possible thanks [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/global/global/japan-bright-minds-france-tv-distribution-nhk-jla-1236908898/",
+   "score": 70.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "France TV Distribution’s",
+     "JLA Productions",
+     "NHK Enterprises"
+    ],
+    "locations": [
+     "Japan",
+     "Tokyo"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7213,
+    "label": "positive"
+   },
+   "summary": "The latest season of French hit “Bright Minds” marks a major milestone for France TV Distribution’s light crime series, with part of the filming taking place in Tokyo for the first time due to its huge popularity in the country. The unprecedented co-production between JLA Productions and NHK Enterprises of Japan was made possible thanks [&#8230;]",
+   "cluster_id": "11624f34e568831d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.533409+00:00",
+    "source_published_at": "2026-10-14T08:15:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2641,
+     "ENTERTAINMENT": 0.2754,
+     "BREAKOUT WATCH": 0.1473,
+     "LIFESTYLE CHAT": 0.0463,
+     "CANADIAN NEWS": 0.1091,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1578
+    }
+   }
+  },
+  {
    "id": "da6cbc4fa9e29ca2",
    "date": "2026-09-22",
    "slot": "am",
@@ -61418,6 +63608,57 @@
    }
   },
   {
+   "id": "e6236957b557892d",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Bail denied to U.S. suspect charged in connection with Tumbler Ridge school shooting",
+   "angle": "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5f322/bail_denied_to_us_suspect_charged_in_connection/",
+   "score": 70.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Tumbler Ridge"
+    ],
+    "locations": [
+     "U.S."
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.7096,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/cyclinginvancouver [link] &#32; [comments]",
+   "cluster_id": "e6236957b557892d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.675872+00:00",
+    "source_published_at": "2026-10-14T01:55:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1736,
+     "ENTERTAINMENT": 0.132,
+     "BREAKOUT WATCH": 0.2323,
+     "LIFESTYLE CHAT": 0.0557,
+     "CANADIAN NEWS": 0.3432,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0632
+    }
+   }
+  },
+  {
    "id": "8c7e415ef0c92b5d",
    "date": "2026-09-22",
    "slot": "am",
@@ -62480,6 +64721,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0514
+    }
+   }
+  },
+  {
+   "id": "712adad4142f5cc6",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "What about Alberta’s nine other referendum questions?",
+   "angle": "Premier Danielle Smith is asking voters to consider policies that would upend immigration and require reopening the Constitution. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Premier Danielle Smith is asking voters to consider policies that would upend immigration and require reopening the Constitution"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/alberta/article-what-are-the-alberta-referendum-questions/",
+   "score": 70.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Danielle Smith"
+    ],
+    "organizations": [],
+    "locations": [
+     "Alberta"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Premier Danielle Smith is asking voters to consider policies that would upend immigration and require reopening the Constitution",
+   "cluster_id": "712adad4142f5cc6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:55.772700+00:00",
+    "source_published_at": "2026-10-14T09:07:56+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3274,
+     "ENTERTAINMENT": 0.3429,
+     "BREAKOUT WATCH": 0.0407,
+     "LIFESTYLE CHAT": 0.1041,
+     "CANADIAN NEWS": 0.157,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0279
     }
    }
   },
@@ -64175,6 +66467,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0611
+    }
+   }
+  },
+  {
+   "id": "789c18e2530100b2",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Parke Brings Back Its Sold-Out Shrunken Sweatshirt in Fan-Favorite Colorways",
+   "angle": "The brand's limited-edition launch reissues the cropped version of its signature (always out-of-stock) mockneck and restocks the beloved original in core shades. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "The brand's limited-edition launch reissues the cropped version of its signature (always out-of-stock) mockneck and restocks the beloved original in core shades."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/parke-october-2026-everyday-edit-mockneck-sweatshirt-restock-1236729249/",
+   "score": 69.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Fan-Favorite Colorways"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6808,
+    "label": "positive"
+   },
+   "summary": "The brand's limited-edition launch reissues the cropped version of its signature (always out-of-stock) mockneck and restocks the beloved original in core shades.",
+   "cluster_id": "789c18e2530100b2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.074861+00:00",
+    "source_published_at": "2026-10-14T00:03:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2109,
+     "ENTERTAINMENT": 0.2474,
+     "BREAKOUT WATCH": 0.1686,
+     "LIFESTYLE CHAT": 0.0932,
+     "CANADIAN NEWS": 0.149,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1309
     }
    }
   },
@@ -67720,6 +70061,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0397
+    }
+   }
+  },
+  {
+   "id": "7d1c15645d19bb77",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Sylvester Stallone calls himself an ‘idiot’ for doing his own stunts, details nine back surgeries",
+   "angle": "Sylvester Stallone admitted that he was an \"idiot\" for performing his own stunts after extensive medical procedures. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Sylvester Stallone admitted that he was an \"idiot\" for performing his own stunts after extensive medical procedures."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/14/celebrity-news/sylvester-stallone-calls-himself-an-idiot-for-doing-his-own-stunts-details-nine-back-surgeries/",
+   "score": 69.4,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Sylvester Stallone"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4404,
+    "label": "negative"
+   },
+   "summary": "Sylvester Stallone admitted that he was an \"idiot\" for performing his own stunts after extensive medical procedures.",
+   "cluster_id": "7d1c15645d19bb77",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.349432+00:00",
+    "source_published_at": "2026-10-14T07:09:26+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2639,
+     "ENTERTAINMENT": 0.3262,
+     "BREAKOUT WATCH": 0.1179,
+     "LIFESTYLE CHAT": 0.0544,
+     "CANADIAN NEWS": 0.0554,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1822
     }
    }
   },
@@ -71408,6 +73798,108 @@
    }
   },
   {
+   "id": "b9f828966a192713",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Indiana gunman accuses IHOP cook of having sex with his wife before chasing him with knife: court docs",
+   "angle": "An Indiana gunman stormed into an IHOP restaurant accusing a cook of having sex with his wife – before chasing him in the parking lot armed with a knife and leading cops on a 110mph police chase, according to court…",
+   "bullets": [
+    "An Indiana gunman stormed into an IHOP restaurant accusing a cook of having sex with his wife – before chasing him in the parking lot armed with a knife and leading cops on a 110mph police chase, according to court documents.",
+    "Austen Wable, 28, charged into the pancake house chain’s eatery in Muncie on Thursday..."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/indiana-gunman-austen-wable-accuses-ihop-cook-of-having-sex-with-his-wife-before-chasing-him-with-knife-court-docs/",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Indiana",
+     "Muncie"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5994,
+    "label": "negative"
+   },
+   "summary": "An Indiana gunman stormed into an IHOP restaurant accusing a cook of having sex with his wife – before chasing him in the parking lot armed with a knife and leading cops on a 110mph police chase, according to court documents. Austen Wable, 28, charged into the pancake house chain’s eatery in Muncie on Thursday...",
+   "cluster_id": "b9f828966a192713",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.106646+00:00",
+    "source_published_at": "2026-10-14T08:05:23+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3598,
+     "ENTERTAINMENT": 0.1409,
+     "BREAKOUT WATCH": 0.2268,
+     "LIFESTYLE CHAT": 0.0773,
+     "CANADIAN NEWS": 0.1033,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0919
+    }
+   }
+  },
+  {
+   "id": "b4a1b3259814ea98",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Tallinn Black Nights Fest Unveils Baltic Film Competition",
+   "angle": "“This year’s selection demonstrates the strength of Baltic co-productions and the growing contribution of our filmmakers to international cinema.”. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "“This year’s selection demonstrates the strength of Baltic co-productions and the growing contribution of our filmmakers to international cinema.”"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/poff-2026-tallinn-black-nights-baltic-film-competition-1236729636/",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Tallinn Black Nights Fest Unveils Baltic Film Competition"
+    ],
+    "locations": [
+     "Baltic"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5994,
+    "label": "positive"
+   },
+   "summary": "“This year’s selection demonstrates the strength of Baltic co-productions and the growing contribution of our filmmakers to international cinema.”",
+   "cluster_id": "b4a1b3259814ea98",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.685568+00:00",
+    "source_published_at": "2026-10-14T07:45:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0902,
+     "ENTERTAINMENT": 0.7153,
+     "BREAKOUT WATCH": 0.0719,
+     "LIFESTYLE CHAT": 0.0458,
+     "CANADIAN NEWS": 0.0579,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0189
+    }
+   }
+  },
+  {
    "id": "c03bc6c018168d8b",
    "date": "2026-09-22",
    "slot": "am",
@@ -72427,6 +74919,53 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0484
+    }
+   }
+  },
+  {
+   "id": "2bff780ce5883c24",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "‘Slow Horses’ Season 6, Episode 5 Kills [SPOILER] In Jaw-Dropping Cold Open",
+   "angle": "‘Slow Horses’ Season 6, Episode 5 Kills [SPOILER] In Jaw-Dropping Cold Open. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "And that's just the first nine minutes!"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://decider.com/2026/10/14/slow-horses-season-6-episode-5-kyle-soller-assassin-jim-dies/",
+   "score": 68.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5848,
+    "label": "negative"
+   },
+   "summary": "And that's just the first nine minutes!",
+   "cluster_id": "2bff780ce5883c24",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.443793+00:00",
+    "source_published_at": "2026-10-14T07:01:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.26,
+     "ENTERTAINMENT": 0.2578,
+     "BREAKOUT WATCH": 0.1933,
+     "LIFESTYLE CHAT": 0.1182,
+     "CANADIAN NEWS": 0.089,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0817
     }
    }
   },
@@ -76169,6 +78708,62 @@
    }
   },
   {
+   "id": "ba452289ab0b9918",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Tallinn-Bound Indian Drama ‘Kidney’ Boarded by Shiladitya Bora’s Platoon One Films (EXCLUSIVE)",
+   "angle": "Indian drama “Kidney,” the second feature from filmmaking siblings Aakarsh and Agrim Sansanwal, has been boarded by Shiladitya Bora’s Platoon One Films, which joins as co-producer ahead of the film’s slot in the…",
+   "bullets": [
+    "Indian drama “Kidney,” the second feature from filmmaking siblings Aakarsh and Agrim Sansanwal, has been boarded by Shiladitya Bora’s Platoon One Films, which joins as co-producer ahead of the film’s slot in the Critics’ Picks Competition at Estonia’s Tallinn Black Nights Film Festival (PÖFF).",
+    "The film is produced by Enfant Terrible Productions, the Mumbai outfit [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/tallinn-indian-drama-kidney-platoon-one-films-1236909621/",
+   "score": 68.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Shiladitya Bora’s"
+    ],
+    "organizations": [
+     "Tallinn-Bound Indian Drama ‘Kidney’ Boarded",
+     "the Critics’ Picks Competition",
+     "Enfant Terrible Productions"
+    ],
+    "locations": [
+     "Mumbai"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3254,
+    "label": "positive"
+   },
+   "summary": "Indian drama “Kidney,” the second feature from filmmaking siblings Aakarsh and Agrim Sansanwal, has been boarded by Shiladitya Bora’s Platoon One Films, which joins as co-producer ahead of the film’s slot in the Critics’ Picks Competition at Estonia’s Tallinn Black Nights Film Festival (PÖFF). The film is produced by Enfant Terrible Productions, the Mumbai outfit [&#8230;]",
+   "cluster_id": "ba452289ab0b9918",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.418182+00:00",
+    "source_published_at": "2026-10-14T08:30:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0727,
+     "ENTERTAINMENT": 0.778,
+     "BREAKOUT WATCH": 0.0771,
+     "LIFESTYLE CHAT": 0.0222,
+     "CANADIAN NEWS": 0.0257,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0243
+    }
+   }
+  },
+  {
    "id": "c9a5cb0e9cecf47e",
    "date": "2026-09-22",
    "slot": "am",
@@ -78800,6 +81395,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0531
+    }
+   }
+  },
+  {
+   "id": "678aa24933be3acf",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Record $85M Lotto Max jackpot triggers last-minute ticket rush",
+   "angle": "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5elhp/record_85m_lotto_max_jackpot_triggers_lastminute/",
+   "score": 68.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Lotto Max"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]",
+   "cluster_id": "678aa24933be3acf",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.299831+00:00",
+    "source_published_at": "2026-10-14T01:30:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3529,
+     "ENTERTAINMENT": 0.1678,
+     "BREAKOUT WATCH": 0.1184,
+     "LIFESTYLE CHAT": 0.0679,
+     "CANADIAN NEWS": 0.2537,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0393
     }
    }
   },
@@ -81814,6 +84458,55 @@
    }
   },
   {
+   "id": "bfb373946cd5b9ae",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "How a Chinese surveillance camera giant operated 'illegally' in Canada for almost a decade before being banned",
+   "angle": "&#32; submitted by &#32; /u/CaliperLee62 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/CaliperLee62 [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5bl0k/how_a_chinese_surveillance_camera_giant_operated/",
+   "score": 67.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.4588,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/CaliperLee62 [link] &#32; [comments]",
+   "cluster_id": "bfb373946cd5b9ae",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.630683+00:00",
+    "source_published_at": "2026-10-13T23:07:11+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1869,
+     "ENTERTAINMENT": 0.1926,
+     "BREAKOUT WATCH": 0.1031,
+     "LIFESTYLE CHAT": 0.0502,
+     "CANADIAN NEWS": 0.4263,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0409
+    }
+   }
+  },
+  {
    "id": "88bd7e060ce2d27a",
    "date": "2026-09-23",
    "slot": "am",
@@ -83399,6 +86092,109 @@
    }
   },
   {
+   "id": "c03f8cebd50a0915",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Shipwreck thought to be 4,700 years old found off coast of Turkey",
+   "angle": "Archaeologists say the wreck is up to 4,700 years old, dating to the Early Bronze Age. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Archaeologists say the wreck is up to 4,700 years old, dating to the Early Bronze Age."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+   "score": 67.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "the Early Bronze Age"
+    ],
+    "locations": [
+     "Turkey"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.4404,
+    "label": "negative"
+   },
+   "summary": "Archaeologists say the wreck is up to 4,700 years old, dating to the Early Bronze Age.",
+   "cluster_id": "c03f8cebd50a0915",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.996341+00:00",
+    "source_published_at": "2026-10-14T05:00:35+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2571,
+     "ENTERTAINMENT": 0.1406,
+     "BREAKOUT WATCH": 0.2294,
+     "LIFESTYLE CHAT": 0.1974,
+     "CANADIAN NEWS": 0.147,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0285
+    }
+   }
+  },
+  {
+   "id": "65ca754a8b374987",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Kenney says UCP must choose federalist roots, expel separatists after Alberta referendum",
+   "angle": "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5beuk/kenney_says_ucp_must_choose_federalist_roots/",
+   "score": 67.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Kenney",
+     "UCP"
+    ],
+    "locations": [
+     "Alberta"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.4404,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/ZestyBeanDude [link] &#32; [comments]",
+   "cluster_id": "65ca754a8b374987",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.347165+00:00",
+    "source_published_at": "2026-10-13T22:59:39+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2372,
+     "ENTERTAINMENT": 0.0673,
+     "BREAKOUT WATCH": 0.089,
+     "LIFESTYLE CHAT": 0.0699,
+     "CANADIAN NEWS": 0.4977,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0389
+    }
+   }
+  },
+  {
    "id": "0eca9511d98a4006",
    "date": "2026-09-22",
    "slot": "am",
@@ -84186,6 +86982,59 @@
    }
   },
   {
+   "id": "2dbcafdc1881fad2",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Six Flags ‘Goliath’ rider who fell to his death was member of roller coaster enthusiasts Facebook group",
+   "angle": "The Atlanta teacher who was killed after falling from the &#8220;Goliath&#8221; Six Flags ride was a member of a roller coaster enthusiasts Facebook group.&nbsp; Hassan Kariem, 42, joined the public Facebook group…",
+   "bullets": [
+    "The Atlanta teacher who was killed after falling from the &#8220;Goliath&#8221; Six Flags ride was a member of a roller coaster enthusiasts Facebook group.&nbsp; Hassan Kariem, 42, joined the public Facebook group “Roller Coaster Enthusiasts Club” on March 15 – seven months before his death at the Six Flags Over Georgia theme park."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/hassan-kariem-the-six-flags-goliath-rider-who-fell-to-his-death-was-member-of-roller-coaster-enthusiasts-facebook-group/",
+   "score": 67.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Goliath",
+     "Hassan Kariem"
+    ],
+    "organizations": [],
+    "locations": [
+     "Atlanta",
+     "Georgia"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8271,
+    "label": "negative"
+   },
+   "summary": "The Atlanta teacher who was killed after falling from the &#8220;Goliath&#8221; Six Flags ride was a member of a roller coaster enthusiasts Facebook group.&nbsp; Hassan Kariem, 42, joined the public Facebook group “Roller Coaster Enthusiasts Club” on March 15 – seven months before his death at the Six Flags Over Georgia theme park. The group,...",
+   "cluster_id": "2dbcafdc1881fad2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.960137+00:00",
+    "source_published_at": "2026-10-14T08:48:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0651,
+     "ENTERTAINMENT": 0.2642,
+     "BREAKOUT WATCH": 0.3014,
+     "LIFESTYLE CHAT": 0.164,
+     "CANADIAN NEWS": 0.0468,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1584
+    }
+   }
+  },
+  {
    "id": "5d539ca477beca34",
    "date": "2026-09-22",
    "slot": "am",
@@ -84955,6 +87804,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0877
+    }
+   }
+  },
+  {
+   "id": "8f5066e71758d2da",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Canadians want more compact-car, EV options like Europe: survey",
+   "angle": "&#32; submitted by &#32; /u/IDontScript [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/IDontScript [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5brgc/canadians_want_more_compactcar_ev_options_like/",
+   "score": 67.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "EV"
+    ],
+    "locations": [
+     "Europe"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4215,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/IDontScript [link] &#32; [comments]",
+   "cluster_id": "8f5066e71758d2da",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.206173+00:00",
+    "source_published_at": "2026-10-13T23:15:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1197,
+     "ENTERTAINMENT": 0.0933,
+     "BREAKOUT WATCH": 0.0568,
+     "LIFESTYLE CHAT": 0.0834,
+     "CANADIAN NEWS": 0.5833,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0635
     }
    }
   },
@@ -87675,6 +90575,157 @@
    }
   },
   {
+   "id": "253d8a6707731a48",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Noah Centineo, Andrew Koji’s ‘Street Fighter’: First Reactions",
+   "angle": "Director Kitao Sakurai's adaptation of the iconic Capcom video game is set to hit theaters on Oct. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Director Kitao Sakurai's adaptation of the iconic Capcom video game is set to hit theaters on Oct."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/street-fighter-2026-movie-first-reactions-1236729666/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Andrew Koji’s ‘Street Fighter",
+     "Kitao Sakurai's"
+    ],
+    "organizations": [
+     "Noah Centineo",
+     "Capcom"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Director Kitao Sakurai's adaptation of the iconic Capcom video game is set to hit theaters on Oct. 16.",
+   "cluster_id": "253d8a6707731a48",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.732793+00:00",
+    "source_published_at": "2026-10-14T07:36:39+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1442,
+     "ENTERTAINMENT": 0.6069,
+     "BREAKOUT WATCH": 0.0479,
+     "LIFESTYLE CHAT": 0.06,
+     "CANADIAN NEWS": 0.1026,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0384
+    }
+   }
+  },
+  {
+   "id": "655b5ad7956aa9c4",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Two Internet Sensations Collide: Lola Blankets Gets a LoveShackFancy Makeover",
+   "angle": "Hollywood's favorite faux fur throw gets a dose of whimsy in a limited-release collab that's unmistakably Lola Blankets x LoveShackFancy. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Hollywood's favorite faux fur throw gets a dose of whimsy in a limited-release collab that's unmistakably Lola Blankets x LoveShackFancy."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/lifestyle/shopping/lola-blankets-loveshackfancy-release-date-price-buy-2026-1236729455/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Lola Blankets"
+    ],
+    "locations": [
+     "Hollywood"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4019,
+    "label": "positive"
+   },
+   "summary": "Hollywood's favorite faux fur throw gets a dose of whimsy in a limited-release collab that's unmistakably Lola Blankets x LoveShackFancy.",
+   "cluster_id": "655b5ad7956aa9c4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.926794+00:00",
+    "source_published_at": "2026-10-14T02:50:44+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1798,
+     "ENTERTAINMENT": 0.4489,
+     "BREAKOUT WATCH": 0.0697,
+     "LIFESTYLE CHAT": 0.0705,
+     "CANADIAN NEWS": 0.1221,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.109
+    }
+   }
+  },
+  {
+   "id": "7efccb5456d4bc1e",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Nearly two-thirds of Torontonians support bike lane removals on major streets by the province: poll",
+   "angle": "Nearly two-thirds of Torontonians support bike lane removals on major streets by the province: poll. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]"
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5c714/nearly_twothirds_of_torontonians_support_bike/",
+   "score": 67.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4019,
+    "label": "positive"
+   },
+   "summary": "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]",
+   "cluster_id": "7efccb5456d4bc1e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.441763+00:00",
+    "source_published_at": "2026-10-13T23:35:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2137,
+     "ENTERTAINMENT": 0.2136,
+     "BREAKOUT WATCH": 0.2478,
+     "LIFESTYLE CHAT": 0.1153,
+     "CANADIAN NEWS": 0.1509,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0588
+    }
+   }
+  },
+  {
    "id": "72f197b3798c84e5",
    "date": "2026-09-22",
    "slot": "am",
@@ -89537,6 +92588,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0331
+    }
+   }
+  },
+  {
+   "id": "eeaeacdff54c07da",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Hundreds of Royal Mail staff quitting each week under new efficiency plans",
+   "angle": "The CWU says more posties are leaving since a new delivery system was brought in that it claims is not working in hundreds of offices. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The CWU says more posties are leaving since a new delivery system was brought in that it claims is not working in hundreds of offices."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cm5ynp0vz3p7o?at_medium=RSS&at_campaign=rss",
+   "score": 66.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Royal Mail",
+     "CWU"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3612,
+    "label": "positive"
+   },
+   "summary": "The CWU says more posties are leaving since a new delivery system was brought in that it claims is not working in hundreds of offices.",
+   "cluster_id": "eeaeacdff54c07da",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.140224+00:00",
+    "source_published_at": "2026-10-14T07:18:08+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5067,
+     "ENTERTAINMENT": 0.1586,
+     "BREAKOUT WATCH": 0.063,
+     "LIFESTYLE CHAT": 0.1534,
+     "CANADIAN NEWS": 0.0872,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0312
     }
    }
   },
@@ -92469,6 +95570,60 @@
    }
   },
   {
+   "id": "44efc457425d668d",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Pope diagnosed with lung cancer but had successful surgery, Vatican says",
+   "angle": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/ck1wvd9dvv22o?at_medium=RSS&at_campaign=rss",
+   "score": 66.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Pope",
+     "Pope Leo"
+    ],
+    "organizations": [
+     "Vatican"
+    ],
+    "locations": [
+     "Vatican"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7184,
+    "label": "positive"
+   },
+   "summary": "Pope Leo had a \"peaceful night\" in the hospital after the surgery to remove a lower lobe of his right lung, the Vatican says.",
+   "cluster_id": "44efc457425d668d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.186370+00:00",
+    "source_published_at": "2026-10-14T08:53:40+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1809,
+     "ENTERTAINMENT": 0.2019,
+     "BREAKOUT WATCH": 0.1473,
+     "LIFESTYLE CHAT": 0.2678,
+     "CANADIAN NEWS": 0.1295,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0726
+    }
+   }
+  },
+  {
    "id": "86e3e138a64399aa",
    "date": "2026-09-28",
    "slot": "am",
@@ -95034,6 +98189,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0375
+    }
+   }
+  },
+  {
+   "id": "91a0a422994398a0",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Pictured: Winning entries for Wildlife Photographer of the Year 2026",
+   "angle": "Striking images including an urban coyote and an elephant carrying a dead calf are among this year's winners. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Striking images including an urban coyote and an elephant carrying a dead calf are among this year's winners."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cw5y4nv05rp8o?at_medium=RSS&at_campaign=rss",
+   "score": 66.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Wildlife Photographer of"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.296,
+    "label": "positive"
+   },
+   "summary": "Striking images including an urban coyote and an elephant carrying a dead calf are among this year's winners.",
+   "cluster_id": "91a0a422994398a0",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.278553+00:00",
+    "source_published_at": "2026-10-13T23:26:54+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4641,
+     "ENTERTAINMENT": 0.1195,
+     "BREAKOUT WATCH": 0.1097,
+     "LIFESTYLE CHAT": 0.092,
+     "CANADIAN NEWS": 0.102,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1127
     }
    }
   },
@@ -97738,6 +100942,60 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0097
+    }
+   }
+  },
+  {
+   "id": "13610f8504554700",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Gales and heavy rain to impact UK as yellow wind warning issued",
+   "angle": "The Met Office has issued a yellow warning for wind in north-west Scotland on Wednesday with 70mph gusts possible, as Ben Rich explains. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Met Office has issued a yellow warning for wind in north-west Scotland on Wednesday with 70mph gusts possible, as Ben Rich explains."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/weather/articles/cxvgdq0jj8d2o?at_medium=RSS&at_campaign=rss",
+   "score": 65.5,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Ben Rich"
+    ],
+    "organizations": [
+     "The Met Office"
+    ],
+    "locations": [
+     "UK",
+     "Scotland"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0516,
+    "label": "negative"
+   },
+   "summary": "The Met Office has issued a yellow warning for wind in north-west Scotland on Wednesday with 70mph gusts possible, as Ben Rich explains.",
+   "cluster_id": "13610f8504554700",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.231819+00:00",
+    "source_published_at": "2026-10-13T23:55:49+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2411,
+     "ENTERTAINMENT": 0.3699,
+     "BREAKOUT WATCH": 0.0888,
+     "LIFESTYLE CHAT": 0.1038,
+     "CANADIAN NEWS": 0.1324,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0641
     }
    }
   },
@@ -102322,6 +105580,100 @@
    }
   },
   {
+   "id": "4477e38186794403",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Saudi employee charged with planting recording device in OpenAI office",
+   "angle": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo?at_medium=RSS&at_campaign=rss",
+   "score": 65.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "USB"
+    ],
+    "locations": [
+     "OpenAI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2023,
+    "label": "negative"
+   },
+   "summary": "Prosecutors say the device, wrapped in toilet paper, was found inserted in a USB port on the back of a TV in an executive conference room.",
+   "cluster_id": "4477e38186794403",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.952076+00:00",
+    "source_published_at": "2026-10-13T21:42:49+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2544,
+     "ENTERTAINMENT": 0.204,
+     "BREAKOUT WATCH": 0.2399,
+     "LIFESTYLE CHAT": 0.0629,
+     "CANADIAN NEWS": 0.1615,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0774
+    }
+   }
+  },
+  {
+   "id": "7d2365f5019575ae",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Martin Shkreli livestreamed himself violating lifetime pharma ban, FTC says",
+   "angle": "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/health/2026/10/martin-shkreli-livestreamed-himself-violating-lifetime-pharma-ban-ftc-says/",
+   "score": 65.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Martin Shkreli"
+    ],
+    "organizations": [
+     "FTC",
+     "Shkreli"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7964,
+    "label": "negative"
+   },
+   "summary": "\"I can always find a couple of biotech stocks to smoke,\" Shkreli said in a livestream.",
+   "cluster_id": "7d2365f5019575ae",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:01.149537+00:00",
+    "source_published_at": "2026-10-13T22:48:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "c60860e1813f6cf8",
    "date": "2026-09-23",
    "slot": "am",
@@ -106067,6 +109419,53 @@
    }
   },
   {
+   "id": "6ec803e44d1742cc",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+   "angle": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices.",
+    "The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national.",
+    "Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+   "score": 64.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "OpenAI",
+     "Alfozan"
+    ],
+    "organizations": [
+     "OpenAI",
+     "Abdulrahman Alfozan",
+     "the Department [&#8230"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5267,
+    "label": "negative"
+   },
+   "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department [&#8230;]",
+   "cluster_id": "6ec803e44d1742cc",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.662834+00:00",
+    "source_published_at": "2026-10-13T20:45:25+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "73bd438ba7d6616b",
    "date": "2026-09-22",
    "slot": "am",
@@ -108594,6 +111993,63 @@
    }
   },
   {
+   "id": "898bc01bc8700b8e",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "Canadian astronaut Joshua Kutryk having a blast at the International Space Station",
+   "angle": "Canadian astronaut Joshua Kutryk says he's having a blast on the International Space Station but the mission also shows how Canada can contribute to the leading edge of space flight. Make it local in one sentence — who…",
+   "bullets": [
+    "Canadian astronaut Joshua Kutryk says he's having a blast on the International Space Station but the mission also shows how Canada can contribute to the leading edge of space flight.",
+    "Kutryk is on a six-month mission to the ISS."
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/video-canadian-astronaut-joshua-kutryk-having-a-blast-at-the-international/",
+   "score": 64.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Joshua Kutryk",
+     "Kutryk"
+    ],
+    "organizations": [
+     "the International Space Station",
+     "ISS"
+    ],
+    "locations": [
+     "the International Space Station",
+     "Canada"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Canadian astronaut Joshua Kutryk says he's having a blast on the International Space Station but the mission also shows how Canada can contribute to the leading edge of space flight. Kutryk is on a six-month mission to the ISS.",
+   "cluster_id": "898bc01bc8700b8e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:56.619281+00:00",
+    "source_published_at": "2026-10-13T20:17:31+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.128,
+     "ENTERTAINMENT": 0.2439,
+     "BREAKOUT WATCH": 0.0971,
+     "LIFESTYLE CHAT": 0.1181,
+     "CANADIAN NEWS": 0.3369,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.076
+    }
+   }
+  },
+  {
    "id": "2739f3f1d3060de6",
    "date": "2026-09-24",
    "slot": "am",
@@ -109965,6 +113421,58 @@
    }
   },
   {
+   "id": "f3afdd7756300313",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "As Stelco rejects demand to halt layoffs, NDP leaders call on Carney to nationalize steelmaker",
+   "angle": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5awbd/as_stelco_rejects_demand_to_halt_layoffs_ndp/",
+   "score": 63.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Stelco",
+     "NDP"
+    ],
+    "locations": [
+     "Carney"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5719,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/Immediate-Link490 [link] &#32; [comments]",
+   "cluster_id": "f3afdd7756300313",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:57.537334+00:00",
+    "source_published_at": "2026-10-13T22:36:01+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0348,
+     "ENTERTAINMENT": 0.0354,
+     "BREAKOUT WATCH": 0.0513,
+     "LIFESTYLE CHAT": 0.0199,
+     "CANADIAN NEWS": 0.8335,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.025
+    }
+   }
+  },
+  {
    "id": "a5ce4eccae742b0a",
    "date": "2026-09-22",
    "slot": "am",
@@ -110778,6 +114286,57 @@
    }
   },
   {
+   "id": "52947f942ee58ebe",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Young South Dakota deputy dies three days after being shot during a confrontation at a home",
+   "angle": "A 26-year-old South Dakota sheriff's deputy has died after being shot during a confrontation at a Sioux Falls home that also left a suspect wounded. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "A 26-year-old South Dakota sheriff's deputy has died after being shot during a confrontation at a Sioux Falls home that also left a suspect wounded."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/south-dakota-deputy-katherine-frank-dies-days-after-being-shot-during-sioux-falls-confrontation/",
+   "score": 63.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Sioux Falls"
+    ],
+    "locations": [
+     "South Dakota"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8555,
+    "label": "negative"
+   },
+   "summary": "A 26-year-old South Dakota sheriff's deputy has died after being shot during a confrontation at a Sioux Falls home that also left a suspect wounded.",
+   "cluster_id": "52947f942ee58ebe",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.540106+00:00",
+    "source_published_at": "2026-10-14T06:37:48+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.076,
+     "ENTERTAINMENT": 0.2546,
+     "BREAKOUT WATCH": 0.3214,
+     "LIFESTYLE CHAT": 0.098,
+     "CANADIAN NEWS": 0.1135,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1366
+    }
+   }
+  },
+  {
    "id": "498fff1be7fc434c",
    "date": "2026-09-22",
    "slot": "am",
@@ -111244,6 +114803,55 @@
    }
   },
   {
+   "id": "213022b2500b4e64",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Why the lonely in China are hiring 'temporary children'",
+   "angle": "A new industry being dubbed the “loneliness economy” has emerged in China, with people hiring themselves out as companions to help the elderly. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "A new industry being dubbed the “loneliness economy” has emerged in China, with people hiring themselves out as companions to help the elderly."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/videos/cm8xkxn8lqkeo?at_medium=RSS&at_campaign=rss",
+   "score": 63.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "China"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0516,
+    "label": "positive"
+   },
+   "summary": "A new industry being dubbed the “loneliness economy” has emerged in China, with people hiring themselves out as companions to help the elderly.",
+   "cluster_id": "213022b2500b4e64",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.043664+00:00",
+    "source_published_at": "2026-10-13T22:00:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3513,
+     "ENTERTAINMENT": 0.173,
+     "BREAKOUT WATCH": 0.0988,
+     "LIFESTYLE CHAT": 0.1447,
+     "CANADIAN NEWS": 0.1751,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.057
+    }
+   }
+  },
+  {
    "id": "f34fc6e4e2c59bcb",
    "date": "2026-09-22",
    "slot": "am",
@@ -111586,6 +115194,65 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0093
+    }
+   }
+  },
+  {
+   "id": "cd275e6f49dc3ca2",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Philippine-Italian Sales Alliance Targets Indie Film Buyers in Asia, Europe and North America (EXCLUSIVE)",
+   "angle": "A new Philippine-Italian sales alliance aims to put independent films in front of buyers in Asia, Europe and North America. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "A new Philippine-Italian sales alliance aims to put independent films in front of buyers in Asia, Europe and North America.",
+    "Fire &#38; Ice Media, the Philippine producer and sales agent, and Italy’s Coccinelle Film Sales unveiled the strategic partnership at Busan&#8217;s Asian Contents &#38; Film Market.",
+    "The pair will work together on a handpicked group [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/markets-festivals/philippine-italian-sales-firms-fire-ice-coccinelle-unite-indies-1236911055/",
+   "score": 63.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Philippine-Italian Sales Alliance Targets Indie Film Buyers",
+     "Fire &",
+     "Asian Contents &",
+     "Film Market"
+    ],
+    "locations": [
+     "Asia",
+     "Europe",
+     "North America",
+     "Italy"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0431,
+    "label": "neutral"
+   },
+   "summary": "A new Philippine-Italian sales alliance aims to put independent films in front of buyers in Asia, Europe and North America. Fire &#38; Ice Media, the Philippine producer and sales agent, and Italy’s Coccinelle Film Sales unveiled the strategic partnership at Busan&#8217;s Asian Contents &#38; Film Market. The pair will work together on a handpicked group [&#8230;]",
+   "cluster_id": "cd275e6f49dc3ca2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:59.359308+00:00",
+    "source_published_at": "2026-10-14T08:53:45+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2469,
+     "ENTERTAINMENT": 0.4339,
+     "BREAKOUT WATCH": 0.0745,
+     "LIFESTYLE CHAT": 0.0458,
+     "CANADIAN NEWS": 0.1392,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0596
     }
    }
   },
@@ -119805,6 +123472,98 @@
    }
   },
   {
+   "id": "390f5bb65f886778",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "New bridge linking China and North Korea will open more than a decade late",
+   "angle": "The bridge initially was expected to enter use in 2014 after China apparently completed construction of access roads, customs facilities and other related infrastructure on its side. Ask the phones: would you film it…",
+   "bullets": [
+    "The bridge initially was expected to enter use in 2014 after China apparently completed construction of access roads, customs facilities and other related infrastructure on its side."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/world-news/new-bridge-linking-china-and-north-korea-will-open-more-than-a-decade-late/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "China",
+     "North Korea"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "The bridge initially was expected to enter use in 2014 after China apparently completed construction of access roads, customs facilities and other related infrastructure on its side.",
+   "cluster_id": "390f5bb65f886778",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.300374+00:00",
+    "source_published_at": "2026-10-14T07:28:27+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5619,
+     "ENTERTAINMENT": 0.1224,
+     "BREAKOUT WATCH": 0.0679,
+     "LIFESTYLE CHAT": 0.0472,
+     "CANADIAN NEWS": 0.0997,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1009
+    }
+   }
+  },
+  {
+   "id": "dc97fc8b112f9f9f",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Trump commercial railing against his enemies kept airing after court blocked it",
+   "angle": "US attorney apologized to court, said government has stopped running Trump ads. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "US attorney apologized to court, said government has stopped running Trump ads."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/tech-policy/2026/10/trumps-taxpayer-funded-ads-kept-airing-on-tv-the-day-after-judge-blocked-them/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Trump"
+    ],
+    "organizations": [],
+    "locations": [
+     "US"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5994,
+    "label": "negative"
+   },
+   "summary": "US attorney apologized to court, said government has stopped running Trump ads.",
+   "cluster_id": "dc97fc8b112f9f9f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:01.284647+00:00",
+    "source_published_at": "2026-10-13T19:50:37+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "5dea52253aa150d7",
    "date": "2026-09-22",
    "slot": "am",
@@ -125434,6 +129193,98 @@
    }
   },
   {
+   "id": "7413fd70990a464b",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "What we know about the deadly Six Flags rollercoaster incident in Georgia",
+   "angle": "Hassan Jihad Ibn Kariem died on Monday after police say he was ejected from a ride at an amusement park. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "Hassan Jihad Ibn Kariem died on Monday after police say he was ejected from a ride at an amusement park."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cke8r4nmy36qo?at_medium=RSS&at_campaign=rss",
+   "score": 61.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Hassan Jihad",
+     "Ibn Kariem"
+    ],
+    "organizations": [],
+    "locations": [
+     "Georgia"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2732,
+    "label": "negative"
+   },
+   "summary": "Hassan Jihad Ibn Kariem died on Monday after police say he was ejected from a ride at an amusement park.",
+   "cluster_id": "7413fd70990a464b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.412477+00:00",
+    "source_published_at": "2026-10-14T00:59:16+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0828,
+     "ENTERTAINMENT": 0.1995,
+     "BREAKOUT WATCH": 0.2717,
+     "LIFESTYLE CHAT": 0.0582,
+     "CANADIAN NEWS": 0.1838,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.2039
+    }
+   }
+  },
+  {
+   "id": "9452f98968f0cc70",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
+   "angle": "Disney may acquire tech from one of the first chatbot makers linked to child suicide. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Disney may acquire tech from one of the first chatbot makers linked to child suicide."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+   "score": 61.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Disney"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6705,
+    "label": "negative"
+   },
+   "summary": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
+   "cluster_id": "9452f98968f0cc70",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:01.329265+00:00",
+    "source_published_at": "2026-10-13T18:23:33+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
    "id": "fd3fc5a537c89b7a",
    "date": "2026-09-22",
    "slot": "am",
@@ -127147,6 +130998,48 @@
    "meta": {
     "ingested_at": "2026-10-13T20:18:12.850426+00:00",
     "source_published_at": "2026-10-13T17:00:39+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "64abb37c535d0eb3",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Topgolf saved over $11.3 million after leaving VMware",
+   "angle": "Topgolf and VMware \"ran deep\" before the migration. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Topgolf and VMware \"ran deep\" before the migration."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/information-technology/2026/10/topgolf-saved-over-11-3-million-after-leaving-vmware/",
+   "score": 61.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Topgolf"
+    ],
+    "organizations": [
+     "VMware"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4215,
+    "label": "positive"
+   },
+   "summary": "Topgolf and VMware \"ran deep\" before the migration.",
+   "cluster_id": "64abb37c535d0eb3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:01.240151+00:00",
+    "source_published_at": "2026-10-13T21:33:43+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -136117,6 +140010,55 @@
    }
   },
   {
+   "id": "93eb32733cd8b938",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Popular erectile dysfunction pill may deliver additional boost to aging men",
+   "angle": "Tadalafil helped early muscle cells grow and survive over a seven-day period, research found. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "Tadalafil helped early muscle cells grow and survive over a seven-day period, research found."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/health/popular-erectile-dysfunction-pill-may-deliver-additional-boost-to-aging-men/",
+   "score": 59.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Tadalafil"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4019,
+    "label": "positive"
+   },
+   "summary": "Tadalafil helped early muscle cells grow and survive over a seven-day period, research found.",
+   "cluster_id": "93eb32733cd8b938",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:17:58.005683+00:00",
+    "source_published_at": "2026-10-14T08:43:20+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1957,
+     "ENTERTAINMENT": 0.1116,
+     "BREAKOUT WATCH": 0.298,
+     "LIFESTYLE CHAT": 0.2655,
+     "CANADIAN NEWS": 0.0852,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.044
+    }
+   }
+  },
+  {
    "id": "3861e0f115c8de9d",
    "date": "2026-09-25",
    "slot": "am",
@@ -136734,6 +140676,48 @@
    "meta": {
     "ingested_at": "2026-10-02T18:52:45.904371+00:00",
     "source_published_at": "2026-10-02T14:29:05+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "6b6f41fec886b5e4",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Apple’s HomeView ad is confusing to everyone except parents",
+   "angle": "Apple's ad introducing its new HomeView smart display is a little unusual. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "Apple's ad introducing its new HomeView smart display is a little unusual.",
+    "It's fast-paced and unruly, depicting a family of five as they rush through the morning routine.",
+    "There's yelling and mess, misplaced keys and discarded eggshells."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1010561/apple-homeview-commercial-reaction",
+   "score": 58.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Apple"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3716,
+    "label": "negative"
+   },
+   "summary": "Apple's ad introducing its new HomeView smart display is a little unusual. It's fast-paced and unruly, depicting a family of five as they rush through the morning routine. There's yelling and mess, misplaced keys and discarded eggshells.",
+   "cluster_id": "6b6f41fec886b5e4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.610915+00:00",
+    "source_published_at": "2026-10-13T22:10:00+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -138257,6 +142241,46 @@
      "SPORTS": 0.0,
      "CLOSER": 0.1256
     }
+   }
+  },
+  {
+   "id": "a8a056ec7c72afa5",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Skydance’s Discovery+ prices increase by up to 20 percent",
+   "angle": "The higher prices are said to be unrelated to the Skydance merger. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "The higher prices are said to be unrelated to the Skydance merger."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/gadgets/2026/10/skydances-discovery-prices-increase-by-up-to-20-percent/",
+   "score": 58.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Skydance’s"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.3182,
+    "label": "positive"
+   },
+   "summary": "The higher prices are said to be unrelated to the Skydance merger.",
+   "cluster_id": "a8a056ec7c72afa5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:01.372840+00:00",
+    "source_published_at": "2026-10-13T18:06:06+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -140050,6 +144074,56 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "9f8149a876998789",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "'I applied for 200 jobs' - How 'spray and pray' AI job applications can backfire",
+   "angle": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests.",
+    "But some say their peer group has no choice."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c623dnkn8pkyo?at_medium=RSS&at_campaign=rss",
+   "score": 57.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "AI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2846,
+    "label": "negative"
+   },
+   "summary": "Graduates are increasingly using AI to misrepresent themselves in job applications, research suggests. But some say their peer group has no choice.",
+   "cluster_id": "9f8149a876998789",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:00.460659+00:00",
+    "source_published_at": "2026-10-14T08:27:17+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3017,
+     "ENTERTAINMENT": 0.0978,
+     "BREAKOUT WATCH": 0.3692,
+     "LIFESTYLE CHAT": 0.0983,
+     "CANADIAN NEWS": 0.0624,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0706
+    }
    }
   },
   {
@@ -142893,6 +146967,49 @@
      "SPORTS": 0.0,
      "CLOSER": 0.5035
     }
+   }
+  },
+  {
+   "id": "a40d6b49ef88ac07",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "ESA targets Anbernic emulation handhelds as \"superfake\" piracy enablers",
+   "angle": "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards. Explain it like a coworker Slack rant: helpful tool or creep factor?",
+   "bullets": [
+    "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards."
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "Ars Technica",
+   "source_type": "news",
+   "url": "https://arstechnica.com/gaming/2026/10/esa-targets-anbernic-emulation-handhelds-as-superfake-piracy-enablers/",
+   "score": 57.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Anbernic"
+    ],
+    "organizations": [
+     "ESA",
+     "SD"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "But third-party sellers, not Anbernic, are the ones routinely selling ROM-filled SD cards.",
+   "cluster_id": "a40d6b49ef88ac07",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T09:18:01.197919+00:00",
+    "source_published_at": "2026-10-13T21:55:49+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
