@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-14T18:25:03.932198+00:00",
+ "generated_at": "2026-10-14T19:06:17.773072+00:00",
  "timezone": "America/Toronto",
  "date": "2026-10-14",
  "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 3397,
+ "count": 3425,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -15723,6 +15723,56 @@
    }
   },
   {
+   "id": "9e649ff140fe9e86",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "NYPD cop stabbed 10 times by illegal immigrants chased thugs despite his injuries: prosecutors",
+   "angle": "The revelation came as the two accused attackers – D’Angelo Caraballo and Sneinder Mejia – were arraigned on attempted murder charges. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The revelation came as the two accused attackers – D’Angelo Caraballo and Sneinder Mejia – were arraigned on attempted murder charges."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/nypd-cop-stabbed-10-times-by-illegal-immigrants-chased-thugs-despite-his-injuries-prosecutors/",
+   "score": 76.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "D’Angelo Caraballo",
+     "Sneinder Mejia"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9595,
+    "label": "negative"
+   },
+   "summary": "The revelation came as the two accused attackers – D’Angelo Caraballo and Sneinder Mejia – were arraigned on attempted murder charges.",
+   "cluster_id": "9e649ff140fe9e86",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.438453+00:00",
+    "source_published_at": "2026-10-14T18:42:19+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3131,
+     "ENTERTAINMENT": 0.285,
+     "BREAKOUT WATCH": 0.1046,
+     "LIFESTYLE CHAT": 0.1056,
+     "CANADIAN NEWS": 0.0893,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1023
+    }
+   }
+  },
+  {
    "id": "69684fbf91cdb5ab",
    "date": "2026-10-02",
    "slot": "am",
@@ -18974,6 +19024,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.174
+    }
+   }
+  },
+  {
+   "id": "4eefc5d28d9b1cbd",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "We are behind you and that will not change, PM tells Zelensky",
+   "angle": "The Ukrainian president visited London in an effort to bolster support among European allies following a row with Donald Trump. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The Ukrainian president visited London in an effort to bolster support among European allies following a row with Donald Trump."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/cm0rl1gkz97do?at_medium=RSS&at_campaign=rss",
+   "score": 76.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Zelensky",
+     "Donald Trump"
+    ],
+    "organizations": [],
+    "locations": [
+     "London"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.4019,
+    "label": "positive"
+   },
+   "summary": "The Ukrainian president visited London in an effort to bolster support among European allies following a row with Donald Trump.",
+   "cluster_id": "4eefc5d28d9b1cbd",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:15.756673+00:00",
+    "source_published_at": "2026-10-14T17:20:58+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5288,
+     "ENTERTAINMENT": 0.0872,
+     "BREAKOUT WATCH": 0.0987,
+     "LIFESTYLE CHAT": 0.0925,
+     "CANADIAN NEWS": 0.1558,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.037
     }
    }
   },
@@ -30687,6 +30789,59 @@
    }
   },
   {
+   "id": "b8932bbd63cbff38",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Hollywood Unlocked founder Jason Lee ousted as Stockton vice mayor after bitter leadership clashes",
+   "angle": "Hollywood Unlocked founder Jason Lee was ousted as Stockton vice mayor after bitter clashes with city leaders and a dramatic City Council showdown. Shelf life through drive time — who is overrated and who actually…",
+   "bullets": [
+    "Hollywood Unlocked founder Jason Lee was ousted as Stockton vice mayor after bitter clashes with city leaders and a dramatic City Council showdown."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/hollywood-unlocked-founder-jason-lee-ousted-as-stockton-vice-mayor/",
+   "score": 73.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Jason Lee",
+     "Stockton"
+    ],
+    "organizations": [
+     "Hollywood Unlocked",
+     "City Council"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6808,
+    "label": "negative"
+   },
+   "summary": "Hollywood Unlocked founder Jason Lee was ousted as Stockton vice mayor after bitter clashes with city leaders and a dramatic City Council showdown.",
+   "cluster_id": "b8932bbd63cbff38",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.527583+00:00",
+    "source_published_at": "2026-10-14T18:35:57+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1631,
+     "ENTERTAINMENT": 0.4599,
+     "BREAKOUT WATCH": 0.0685,
+     "LIFESTYLE CHAT": 0.0634,
+     "CANADIAN NEWS": 0.0759,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1691
+    }
+   }
+  },
+  {
    "id": "e134fe15f339620f",
    "date": "2026-09-22",
    "slot": "am",
@@ -40718,6 +40873,61 @@
    }
   },
   {
+   "id": "834e1b6faf065e24",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Maximum Pleasure Guaranteed’ Renewed for Season 2 at Apple TV",
+   "angle": "&#8220;Maximum Pleasure Guaranteed&#8221; has been renewed for a second season at Apple TV. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "&#8220;Maximum Pleasure Guaranteed&#8221; has been renewed for a second season at Apple TV.",
+    "Per the official logline, the series stars &#8220;follows newly divorced mom Paula (Tatiana Maslany) as she falls down a dangerous rabbit hole of blackmail, murder and youth soccer.",
+    "Convinced she witnessed a crime — while simultaneously struggling through a custody battle and [&#8230;]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/tv/news/maximum-pleasure-guaranteed-season-2-apple-tv-1236912202/",
+   "score": 72.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Paula"
+    ],
+    "organizations": [
+     "Apple TV. &",
+     "Apple TV",
+     "Tatiana Maslany"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.765,
+    "label": "negative"
+   },
+   "summary": "&#8220;Maximum Pleasure Guaranteed&#8221; has been renewed for a second season at Apple TV. Per the official logline, the series stars &#8220;follows newly divorced mom Paula (Tatiana Maslany) as she falls down a dangerous rabbit hole of blackmail, murder and youth soccer. Convinced she witnessed a crime — while simultaneously struggling through a custody battle and [&#8230;]",
+   "cluster_id": "834e1b6faf065e24",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:15.121118+00:00",
+    "source_published_at": "2026-10-14T19:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1397,
+     "ENTERTAINMENT": 0.6254,
+     "BREAKOUT WATCH": 0.0588,
+     "LIFESTYLE CHAT": 0.0457,
+     "CANADIAN NEWS": 0.0332,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.097
+    }
+   }
+  },
+  {
    "id": "fbfd64a5c14f1293",
    "date": "2026-09-24",
    "slot": "am",
@@ -41529,6 +41739,61 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1219
+    }
+   }
+  },
+  {
+   "id": "f562b8ad7940b148",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Dodgers outfielder rips MLB over ‘soft porn’ Sydney Sweeney playoff ad",
+   "angle": "Los Angeles Dodgers outfielder Alex Call criticized MLB and networks for airing Sydney Sweeney's Novig ads in a social media post. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Los Angeles Dodgers outfielder Alex Call criticized MLB and networks for airing Sydney Sweeney's Novig ads in a social media post."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/sports/dodgers-outfielder-mlb-soft-porn-sydney-sweeney-playoff-ad/",
+   "score": 72.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Sydney Sweeney",
+     "Alex Call",
+     "Novig"
+    ],
+    "organizations": [
+     "MLB",
+     "Los Angeles Dodgers",
+     "Sydney Sweeney's"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3612,
+    "label": "negative"
+   },
+   "summary": "Los Angeles Dodgers outfielder Alex Call criticized MLB and networks for airing Sydney Sweeney's Novig ads in a social media post.",
+   "cluster_id": "f562b8ad7940b148",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.387025+00:00",
+    "source_published_at": "2026-10-14T18:45:27+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0921,
+     "ENTERTAINMENT": 0.8087,
+     "BREAKOUT WATCH": 0.0157,
+     "LIFESTYLE CHAT": 0.0346,
+     "CANADIAN NEWS": 0.0319,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0171
     }
    }
   },
@@ -42610,6 +42875,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0963
+    }
+   }
+  },
+  {
+   "id": "b88cad736bb70167",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Hospital patient charged with attempted murder for setting another patient on fire",
+   "angle": "A 48-year-old man faces attempted murder charges after allegedly setting a patient on fire at a hospital in Sydney. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "A 48-year-old man faces attempted murder charges after allegedly setting a patient on fire at a hospital in Sydney."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/world-news/hospital-patient-charged-with-attempted-murder-for-setting-another-patient-on-fire-in-his-bed/",
+   "score": 72.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Sydney"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9524,
+    "label": "negative"
+   },
+   "summary": "A 48-year-old man faces attempted murder charges after allegedly setting a patient on fire at a hospital in Sydney.",
+   "cluster_id": "b88cad736bb70167",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.481363+00:00",
+    "source_published_at": "2026-10-14T18:36:09+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1429,
+     "ENTERTAINMENT": 0.246,
+     "BREAKOUT WATCH": 0.1474,
+     "LIFESTYLE CHAT": 0.1807,
+     "CANADIAN NEWS": 0.1777,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1053
     }
    }
   },
@@ -48242,6 +48556,58 @@
    }
   },
   {
+   "id": "bacba5862ad5519f",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Brooklyn store owner breaks down ‘ludicrous’ interaction with Kelly Clarkson over mechanical bird",
+   "angle": "\"Fifteen minutes later, the entire weight of the internet came crashing down upon us, and we were caught completely unprepared,\" store owner Adam Rubin said. Ask the phones: would you film it, flee it, or pretend you…",
+   "bullets": [
+    "\"Fifteen minutes later, the entire weight of the internet came crashing down upon us, and we were caught completely unprepared,\" store owner Adam Rubin said."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/14/celebrity-news/brooklyn-store-owner-breaks-down-ludicrous-interaction-with-kelly-clarkson-over-mechanical-bird/",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kelly Clarkson",
+     "Adam Rubin"
+    ],
+    "organizations": [],
+    "locations": [
+     "Brooklyn"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "\"Fifteen minutes later, the entire weight of the internet came crashing down upon us, and we were caught completely unprepared,\" store owner Adam Rubin said.",
+   "cluster_id": "bacba5862ad5519f",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.624050+00:00",
+    "source_published_at": "2026-10-14T18:35:02+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3302,
+     "ENTERTAINMENT": 0.3106,
+     "BREAKOUT WATCH": 0.1542,
+     "LIFESTYLE CHAT": 0.0775,
+     "CANADIAN NEWS": 0.0733,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0542
+    }
+   }
+  },
+  {
    "id": "2b1017331325ea6e",
    "date": "2026-09-22",
    "slot": "am",
@@ -49169,6 +49535,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.032
+    }
+   }
+  },
+  {
+   "id": "bc116950b9594ad1",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Box Office: ‘Street Fighter’ Aims for $30 Million Opening, ‘You Can See Everything’ Could Score $8 Million Start",
+   "angle": "Box Office: ‘Street Fighter’ Aims for $30 Million Opening, ‘You Can See Everything’ Could Score $8 Million Start. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Movie theater operators are hoping the adage proves true as four new movies aim to bolster the October box office.",
+    "Paramount&#8217;s video game adaptation “Street Fighter” will lead over fellow newcomers, with opening weekend estimates of $25 million to $35 million from 3,500 North American theaters."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/box-office/street-fighter-box-office-opening-weekend-projections-1236910614/",
+   "score": 71.9,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Box Office: ‘Street Fighter’ Aims"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.891,
+    "label": "positive"
+   },
+   "summary": "Strength in numbers? Movie theater operators are hoping the adage proves true as four new movies aim to bolster the October box office. Paramount&#8217;s video game adaptation “Street Fighter” will lead over fellow newcomers, with opening weekend estimates of $25 million to $35 million from 3,500 North American theaters.",
+   "cluster_id": "bc116950b9594ad1",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:15.233970+00:00",
+    "source_published_at": "2026-10-14T18:45:14+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1948,
+     "ENTERTAINMENT": 0.5257,
+     "BREAKOUT WATCH": 0.1505,
+     "LIFESTYLE CHAT": 0.0569,
+     "CANADIAN NEWS": 0.0335,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0387
     }
    }
   },
@@ -51977,6 +52393,60 @@
    }
   },
   {
+   "id": "482cc5301f0caaa4",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Brewers vs. Dodgers NLCS picks: Game 3 odds, best bets, predictions",
+   "angle": "The Yankees’ Aaron Judge missed the entire postseason. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "The Yankees’ Aaron Judge missed the entire postseason.",
+    "So has the Dodgers’ Shohei Ohtani, even though he has played."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/betting/brewers-vs-dodgers-nlcs-picks-game-3-odds-best-bets-predictions/",
+   "score": 71.6,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Aaron"
+    ],
+    "organizations": [
+     "Dodgers NLCS",
+     "Yankees",
+     "the Dodgers’ Shohei Ohtani"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.6597,
+    "label": "positive"
+   },
+   "summary": "The Yankees’ Aaron Judge missed the entire postseason. So has the Dodgers’ Shohei Ohtani, even though he has played.",
+   "cluster_id": "482cc5301f0caaa4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.017511+00:00",
+    "source_published_at": "2026-10-14T19:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2181,
+     "ENTERTAINMENT": 0.4356,
+     "BREAKOUT WATCH": 0.0746,
+     "LIFESTYLE CHAT": 0.1815,
+     "CANADIAN NEWS": 0.0416,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0486
+    }
+   }
+  },
+  {
    "id": "cf4fbc9e9b9275da",
    "date": "2026-09-22",
    "slot": "am",
@@ -54433,6 +54903,58 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.175
+    }
+   }
+  },
+  {
+   "id": "90b68499669deaaa",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Kennesaw State vs. Missouri State prediction: Owls snap skid on Wednesday night",
+   "angle": "You may have missed it, but Kennesaw State put together one of the most surprising college football seasons in the modern era in 2025. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "You may have missed it, but Kennesaw State put together one of the most surprising college football seasons in the modern era in 2025.",
+    "The Owls were pegged by sportsbooks, modelers, and pundits as one of the worst teams in the country, but they defied all of those predictions with a 10-win season that culminated..."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/betting/kennesaw-state-vs-missouri-state-prediction-college-football-week-7-odds-picks-and-best-bets-on-wednesday/",
+   "score": 71.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kennesaw State"
+    ],
+    "organizations": [
+     "Missouri State"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.6322,
+    "label": "negative"
+   },
+   "summary": "You may have missed it, but Kennesaw State put together one of the most surprising college football seasons in the modern era in 2025. The Owls were pegged by sportsbooks, modelers, and pundits as one of the worst teams in the country, but they defied all of those predictions with a 10-win season that culminated...",
+   "cluster_id": "90b68499669deaaa",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:13.972447+00:00",
+    "source_published_at": "2026-10-14T19:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2758,
+     "ENTERTAINMENT": 0.1978,
+     "BREAKOUT WATCH": 0.1565,
+     "LIFESTYLE CHAT": 0.1286,
+     "CANADIAN NEWS": 0.1621,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0792
     }
    }
   },
@@ -62684,6 +63206,60 @@
    }
   },
   {
+   "id": "f9ea0f0f347826de",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Global diesel shortages could drag into 2027, IEA warns",
+   "angle": "The world's diesel shortage could persist well into 2027 due to the ongoing wars in Ukraine and Iran, resulting in high fuel prices and economic stagnation around the globe, the International Energy Agency (IAE) warned…",
+   "bullets": [
+    "The world's diesel shortage could persist well into 2027 due to the ongoing wars in Ukraine and Iran, resulting in high fuel prices and economic stagnation around the globe, the International Energy Agency (IAE) warned on Wednesday."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/world-news/global-diesel-shortages-could-drag-into-2027-iea-warns/",
+   "score": 70.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "IEA",
+     "the International Energy Agency",
+     "IAE"
+    ],
+    "locations": [
+     "Ukraine",
+     "Iran"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7506,
+    "label": "negative"
+   },
+   "summary": "The world's diesel shortage could persist well into 2027 due to the ongoing wars in Ukraine and Iran, resulting in high fuel prices and economic stagnation around the globe, the International Energy Agency (IAE) warned on Wednesday.",
+   "cluster_id": "f9ea0f0f347826de",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.066178+00:00",
+    "source_published_at": "2026-10-14T18:59:38+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.5871,
+     "ENTERTAINMENT": 0.0948,
+     "BREAKOUT WATCH": 0.075,
+     "LIFESTYLE CHAT": 0.0925,
+     "CANADIAN NEWS": 0.0856,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0649
+    }
+   }
+  },
+  {
    "id": "3d11257282512b3b",
    "date": "2026-09-22",
    "slot": "am",
@@ -64886,6 +65462,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0977
+    }
+   }
+  },
+  {
+   "id": "60af5eb276c6a210",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Three California universities rank in top 10 for world’s best colleges",
+   "angle": "The annual rankings evaluated 2,297 universities across 118 countries and territories. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The annual rankings evaluated 2,297 universities across 118 countries and territories."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/three-california-universities-make-top-10-global-ranking/",
+   "score": 70.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "California"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7184,
+    "label": "positive"
+   },
+   "summary": "The annual rankings evaluated 2,297 universities across 118 countries and territories.",
+   "cluster_id": "60af5eb276c6a210",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.577579+00:00",
+    "source_published_at": "2026-10-14T18:35:22+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3897,
+     "ENTERTAINMENT": 0.156,
+     "BREAKOUT WATCH": 0.2232,
+     "LIFESTYLE CHAT": 0.139,
+     "CANADIAN NEWS": 0.0347,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0574
     }
    }
   },
@@ -67184,6 +67809,118 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0208
+    }
+   }
+  },
+  {
+   "id": "230d2335df818264",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Scooter Braun and Todrick Hall join forces to produce star-studded Off-Broadway musical ‘Midnight’ to rave reviews",
+   "angle": "Hall and his manager, Caryn Sterling, have teamed up with Braun alongside listed producer, former Disney CEO Bob Chapek, to bring the production to life. Ask the phones: would you film it, flee it, or pretend you saw…",
+   "bullets": [
+    "Hall and his manager, Caryn Sterling, have teamed up with Braun alongside listed producer, former Disney CEO Bob Chapek, to bring the production to life."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://pagesix.com/2026/10/14/celebrity-news/scooter-braun-and-todrick-hall-join-forces-to-produce-star-studded-off-broadway-musical-midnight-to-rave-reviews/",
+   "score": 70.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Todrick Hall",
+     "Bob Chapek"
+    ],
+    "organizations": [
+     "Scooter Braun",
+     "Off-Broadway",
+     "Caryn Sterling",
+     "Braun",
+     "Disney"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.296,
+    "label": "positive"
+   },
+   "summary": "Hall and his manager, Caryn Sterling, have teamed up with Braun alongside listed producer, former Disney CEO Bob Chapek, to bring the production to life.",
+   "cluster_id": "230d2335df818264",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.298285+00:00",
+    "source_published_at": "2026-10-14T18:53:52+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4397,
+     "ENTERTAINMENT": 0.1825,
+     "BREAKOUT WATCH": 0.0966,
+     "LIFESTYLE CHAT": 0.0692,
+     "CANADIAN NEWS": 0.0932,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1188
+    }
+   }
+  },
+  {
+   "id": "b160b4b2ea50484e",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Bob Daly to Step Down as Chair of AFI Board of Directors (EXCLUSIVE)",
+   "angle": "After 17 years of leadership, Bob Daly will step down as chair of the American Film Institute Board of Directors at the next trustee meeting on Wednesday, Oct. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "After 17 years of leadership, Bob Daly will step down as chair of the American Film Institute Board of Directors at the next trustee meeting on Wednesday, Oct.",
+    "21, Variety can reveal exclusively.",
+    "Daly, former Warner Bros."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/film/news/bob-daly-step-down-chair-of-afi-board-of-directors-1236912235/",
+   "score": 70.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Bob Daly"
+    ],
+    "organizations": [
+     "the American Film Institute Board of Directors",
+     "Variety",
+     "Warner Bros.",
+     "the AFI Board"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4995,
+    "label": "positive"
+   },
+   "summary": "After 17 years of leadership, Bob Daly will step down as chair of the American Film Institute Board of Directors at the next trustee meeting on Wednesday, Oct. 21, Variety can reveal exclusively. Daly, former Warner Bros. chair and co-CEO, joined the AFI Board in April 1981 and was named chair on Oct. 8, 2009, [&#8230;]",
+   "cluster_id": "b160b4b2ea50484e",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:15.173006+00:00",
+    "source_published_at": "2026-10-14T18:49:53+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1594,
+     "ENTERTAINMENT": 0.5234,
+     "BREAKOUT WATCH": 0.1363,
+     "LIFESTYLE CHAT": 0.0539,
+     "CANADIAN NEWS": 0.0793,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0477
     }
    }
   },
@@ -76711,6 +77448,57 @@
    }
   },
   {
+   "id": "6a34670d1d32652d",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "U.S. officials ‘closely watching’ for Canadian interference in midterm elections, Hoekstra says",
+   "angle": "U.S. officials ‘closely watching’ for Canadian interference in midterm elections, Hoekstra says. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "ambassador warns Canadian politicians to keep their ‘nose out’ of American politics"
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-us-ambassador-hoekstra-midterm-election-interference/",
+   "score": 69.0,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Hoekstra"
+    ],
+    "locations": [
+     "U.S."
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": -0.1027,
+    "label": "negative"
+   },
+   "summary": "U.S. ambassador warns Canadian politicians to keep their ‘nose out’ of American politics",
+   "cluster_id": "6a34670d1d32652d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:11.805766+00:00",
+    "source_published_at": "2026-10-14T18:29:12+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3992,
+     "ENTERTAINMENT": 0.1426,
+     "BREAKOUT WATCH": 0.1094,
+     "LIFESTYLE CHAT": 0.0219,
+     "CANADIAN NEWS": 0.302,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0249
+    }
+   }
+  },
+  {
    "id": "c03bc6c018168d8b",
    "date": "2026-09-22",
    "slot": "am",
@@ -78208,6 +78996,55 @@
    }
   },
   {
+   "id": "5de94c0ea8dd6d03",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘Maximum Pleasure Guaranteed’ Scores Season 2 Renewal at Apple TV",
+   "angle": "Production on the second season is set to begin in the first half of 2027. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "Production on the second season is set to begin in the first half of 2027."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/tv/tv-news/maximum-pleasure-guaranteed-renewed-season-2-apple-tv-1236729947/",
+   "score": 68.7,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Apple TV"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5719,
+    "label": "positive"
+   },
+   "summary": "Production on the second season is set to begin in the first half of 2027.",
+   "cluster_id": "5de94c0ea8dd6d03",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.665063+00:00",
+    "source_published_at": "2026-10-14T19:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1799,
+     "ENTERTAINMENT": 0.4567,
+     "BREAKOUT WATCH": 0.1215,
+     "LIFESTYLE CHAT": 0.0976,
+     "CANADIAN NEWS": 0.0885,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0559
+    }
+   }
+  },
+  {
    "id": "d61a616bfa3150ff",
    "date": "2026-09-23",
    "slot": "am",
@@ -78873,6 +79710,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1183
+    }
+   }
+  },
+  {
+   "id": "9dfe9cf7c8f88f3a",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "CLOSER",
+   "title": "Debate erupts after mom asks family to pay for uninvited siblings at party",
+   "angle": "CLOSER: THE KICKER/GOODBYES — A mom sparked an online debate after asking a parent to pay $74 for uninvited siblings at a Lazer Tag party, leaving her $111 out of pocket. Kicker energy: leave them smiling on the way to…",
+   "bullets": [
+    "A mom sparked an online debate after asking a parent to pay $74 for uninvited siblings at a Lazer Tag party, leaving her $111 out of pocket."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/lifestyle/debate-erupts-after-mom-asks-family-to-pay-for-uninvited-siblings-at-party/",
+   "score": 68.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Lazer Tag party"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5574,
+    "label": "positive"
+   },
+   "summary": "A mom sparked an online debate after asking a parent to pay $74 for uninvited siblings at a Lazer Tag party, leaving her $111 out of pocket.",
+   "cluster_id": "9dfe9cf7c8f88f3a",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.249624+00:00",
+    "source_published_at": "2026-10-14T18:55:37+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1441,
+     "ENTERTAINMENT": 0.2388,
+     "BREAKOUT WATCH": 0.186,
+     "LIFESTYLE CHAT": 0.0879,
+     "CANADIAN NEWS": 0.0845,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.2588
     }
    }
   },
@@ -81729,6 +82615,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0411
+    }
+   }
+  },
+  {
+   "id": "48ab8e5e994f5239",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Netflix to shed 1,000 jobs in steepest cuts since 2022",
+   "angle": "The cuts equate to around 6% of the streaming giant's total workforce worldwide. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "The cuts equate to around 6% of the streaming giant's total workforce worldwide."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c6zxj0gzk4x4o?at_medium=RSS&at_campaign=rss",
+   "score": 68.3,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Netflix"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.5267,
+    "label": "negative"
+   },
+   "summary": "The cuts equate to around 6% of the streaming giant's total workforce worldwide.",
+   "cluster_id": "48ab8e5e994f5239",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:16.070159+00:00",
+    "source_published_at": "2026-10-14T16:47:32+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3337,
+     "ENTERTAINMENT": 0.2512,
+     "BREAKOUT WATCH": 0.0712,
+     "LIFESTYLE CHAT": 0.1856,
+     "CANADIAN NEWS": 0.0772,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0811
     }
    }
   },
@@ -85127,6 +86062,55 @@
    }
   },
   {
+   "id": "4b6b2d1169d377c6",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Gael Monfils’ retirement plan takes surprising twist after US Open exit",
+   "angle": "Gael Monfils’ retirement plan takes surprising twist after US Open exit. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "Tennis fans were met with a surprise this week."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/sports/gael-monfils-retirement-plan-takes-surprising-twist-after-us-open/",
+   "score": 67.9,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "US"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.4939,
+    "label": "positive"
+   },
+   "summary": "Tennis fans were met with a surprise this week.",
+   "cluster_id": "4b6b2d1169d377c6",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.339341+00:00",
+    "source_published_at": "2026-10-14T18:45:29+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.4084,
+     "ENTERTAINMENT": 0.2323,
+     "BREAKOUT WATCH": 0.1532,
+     "LIFESTYLE CHAT": 0.0541,
+     "CANADIAN NEWS": 0.0741,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0779
+    }
+   }
+  },
+  {
    "id": "371133ca0241385d",
    "date": "2026-09-22",
    "slot": "am",
@@ -85842,6 +86826,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0179
+    }
+   }
+  },
+  {
+   "id": "7280e55cab4843b4",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Wannabe LA mayor Nithya Raman claims she suffered rare psychiatric moment during Karen Bass debate",
+   "angle": "\"Oh, you know, to be honest with you, I'm so sorry but I was in fugue state and I don't remember very much of it at all,\" mayoral candidate Nithya Raman said. Shelf life through drive time — who is overrated and who…",
+   "bullets": [
+    "\"Oh, you know, to be honest with you, I'm so sorry but I was in fugue state and I don't remember very much of it at all,\" mayoral candidate Nithya Raman said."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/nithya-raman-says-she-was-in-fugue-state-debating-karen-bass/",
+   "score": 67.8,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Nithya Raman",
+     "Karen Bass"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.0825,
+    "label": "negative"
+   },
+   "summary": "\"Oh, you know, to be honest with you, I'm so sorry but I was in fugue state and I don't remember very much of it at all,\" mayoral candidate Nithya Raman said.",
+   "cluster_id": "7280e55cab4843b4",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.203516+00:00",
+    "source_published_at": "2026-10-14T18:56:19+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.232,
+     "ENTERTAINMENT": 0.3318,
+     "BREAKOUT WATCH": 0.1804,
+     "LIFESTYLE CHAT": 0.121,
+     "CANADIAN NEWS": 0.0555,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0793
     }
    }
   },
@@ -88327,6 +89361,55 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0114
+    }
+   }
+  },
+  {
+   "id": "aead605cd278a5f5",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Boys are falling behind girls in school. What’s driving the gap?",
+   "angle": "&#32; submitted by &#32; /u/Capital-Aide-1006 [link] &#32; [comments]. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "&#32; submitted by &#32; /u/Capital-Aide-1006 [link] &#32; [comments]"
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Reddit r/canada",
+   "source_type": "social",
+   "url": "https://www.reddit.com/r/canada/comments/1x5zr6h/boys_are_falling_behind_girls_in_school_whats/",
+   "score": 67.5,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "/u/Capital-Aide-1006"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.1531,
+    "label": "negative"
+   },
+   "summary": "&#32; submitted by &#32; /u/Capital-Aide-1006 [link] &#32; [comments]",
+   "cluster_id": "aead605cd278a5f5",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:13.741184+00:00",
+    "source_published_at": "2026-10-14T18:55:06+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1646,
+     "ENTERTAINMENT": 0.4875,
+     "BREAKOUT WATCH": 0.1065,
+     "LIFESTYLE CHAT": 0.0803,
+     "CANADIAN NEWS": 0.0936,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0674
     }
    }
   },
@@ -91236,6 +92319,56 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.2985
+    }
+   }
+  },
+  {
+   "id": "d141724182fa2c06",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "NYU Langone throws Halloween party for pediatric cancer patients",
+   "angle": "“This is the first time he's been out since he was diagnosed. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "“This is the first time he's been out since he was diagnosed.",
+    "We haven’t taken him anywhere but the doctor’s office and hospital.\""
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/us-news/nyu-langone-throws-party-for-pediatric-cancer-patients-in-treatment-for-halloween/",
+   "score": 67.1,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "NYU Langone"
+    ],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.2144,
+    "label": "negative"
+   },
+   "summary": "“This is the first time he's been out since he was diagnosed. We haven’t taken him anywhere but the doctor’s office and hospital.\"",
+   "cluster_id": "d141724182fa2c06",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.156941+00:00",
+    "source_published_at": "2026-10-14T18:56:50+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1628,
+     "ENTERTAINMENT": 0.3801,
+     "BREAKOUT WATCH": 0.1089,
+     "LIFESTYLE CHAT": 0.154,
+     "CANADIAN NEWS": 0.0478,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1463
     }
    }
   },
@@ -98795,6 +99928,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.1273
+    }
+   }
+  },
+  {
+   "id": "e9cb577dd1a130e2",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "Southern California inn ranked among most haunted hotels in America",
+   "angle": "An historic ocean liner-turned-hotel on the Southern California coast is the perfect place for ghost hunters looking for a good scare this Halloween. Ask the phones: would you film it, flee it, or pretend you saw…",
+   "bullets": [
+    "An historic ocean liner-turned-hotel on the Southern California coast is the perfect place for ghost hunters looking for a good scare this Halloween."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/lifestyle/southern-california-inn-ranked-among-most-haunted-hotels-in-us/",
+   "score": 66.2,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "Southern California",
+     "America",
+     "the Southern California"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.3167,
+    "label": "negative"
+   },
+   "summary": "An historic ocean liner-turned-hotel on the Southern California coast is the perfect place for ghost hunters looking for a good scare this Halloween.",
+   "cluster_id": "e9cb577dd1a130e2",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:14.111691+00:00",
+    "source_published_at": "2026-10-14T18:56:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3448,
+     "ENTERTAINMENT": 0.1835,
+     "BREAKOUT WATCH": 0.1553,
+     "LIFESTYLE CHAT": 0.0676,
+     "CANADIAN NEWS": 0.1134,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1353
     }
    }
   },
@@ -110761,6 +111945,48 @@
    "meta": {
     "ingested_at": "2026-10-10T10:24:27.644368+00:00",
     "source_published_at": "2026-10-09T21:15:38+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "ee1acf01cecd7436",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "As a TV enthusiast, I was hoping for more from the Apple TV 4K",
+   "angle": "It's been four long years since the last Apple TV 4K was released, and in that time there have been lots of hopes and dreams for features in whatever comes next. Explain it like a coworker Slack rant: helpful tool or…",
+   "bullets": [
+    "It's been four long years since the last Apple TV 4K was released, and in that time there have been lots of hopes and dreams for features in whatever comes next.",
+    "A new chip, 4K/120Hz support, audio passthrough, a remote locator, better home control integration - the 2022 Apple TV 4K is a great box, [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/tech/1011324/apple-tv-4k-missed-features",
+   "score": 64.6,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "Apple",
+     "Apple TV 4K"
+    ],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.9612,
+    "label": "positive"
+   },
+   "summary": "It's been four long years since the last Apple TV 4K was released, and in that time there have been lots of hopes and dreams for features in whatever comes next. A new chip, 4K/120Hz support, audio passthrough, a remote locator, better home control integration - the 2022 Apple TV 4K is a great box, [&#8230;]",
+   "cluster_id": "ee1acf01cecd7436",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:16.590237+00:00",
+    "source_published_at": "2026-10-14T18:38:59+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
@@ -127408,6 +128634,66 @@
    }
   },
   {
+   "id": "4bb479eb2bb96f26",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Warner Records Names Jim Roppo Vice Chairman",
+   "angle": "Just hours after his departure from Republic Records was announced, Jim Roppo has been officially named vice chairman of Warner Records Group. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "Just hours after his departure from Republic Records was announced, Jim Roppo has been officially named vice chairman of Warner Records Group.",
+    "He will be based in Los Angeles and report to Chairman &#38; CEO Aaron Bay-Schuck; his start date will be confirmed in the coming weeks.",
+    "Roppo joins the company following nearly three decades [&#8230;]"
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "Variety",
+   "source_type": "news",
+   "url": "https://variety.com/2026/music/news/warner-records-jim-roppo-vice-chairman-1236912271/",
+   "score": 63.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Names Jim Roppo",
+     "Jim Roppo",
+     "Aaron Bay-Schuck",
+     "Roppo"
+    ],
+    "organizations": [
+     "Warner Records",
+     "Republic Records",
+     "Warner Records Group"
+    ],
+    "locations": [
+     "Los Angeles"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.0,
+    "label": "neutral"
+   },
+   "summary": "Just hours after his departure from Republic Records was announced, Jim Roppo has been officially named vice chairman of Warner Records Group. He will be based in Los Angeles and report to Chairman &#38; CEO Aaron Bay-Schuck; his start date will be confirmed in the coming weeks. Roppo joins the company following nearly three decades [&#8230;]",
+   "cluster_id": "4bb479eb2bb96f26",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:15.287206+00:00",
+    "source_published_at": "2026-10-14T18:33:55+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1136,
+     "ENTERTAINMENT": 0.2837,
+     "BREAKOUT WATCH": 0.3784,
+     "LIFESTYLE CHAT": 0.0944,
+     "CANADIAN NEWS": 0.0563,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0736
+    }
+   }
+  },
+  {
    "id": "5dea52253aa150d7",
    "date": "2026-09-22",
    "slot": "am",
@@ -128173,6 +129459,53 @@
    }
   },
   {
+   "id": "7d537376b3cf9490",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "BREAKOUT WATCH",
+   "title": "Shoebox-sized apartment? These clever storage hacks optimize any space",
+   "angle": "Shoebox-sized apartment? These clever storage hacks optimize any space. Name-drop them now so you can claim you called it first.",
+   "bullets": [
+    "Small space, big storage solutions."
+   ],
+   "debate": "Agree or disagree — make your case in 30 seconds.",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/14/shopping/the-9-best-storage-hacks-to-optimize-space-in-a-small-nyc-apartment/",
+   "score": 62.8,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7845,
+    "label": "positive"
+   },
+   "summary": "Small space, big storage solutions.",
+   "cluster_id": "7d537376b3cf9490",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:13.914719+00:00",
+    "source_published_at": "2026-10-14T19:03:22+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1806,
+     "ENTERTAINMENT": 0.2148,
+     "BREAKOUT WATCH": 0.2302,
+     "LIFESTYLE CHAT": 0.1403,
+     "CANADIAN NEWS": 0.0863,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.1478
+    }
+   }
+  },
+  {
    "id": "3789fae1a8a18776",
    "date": "2026-09-23",
    "slot": "am",
@@ -128609,6 +129942,52 @@
      "SPORTS": 0.0,
      "CLOSER": 0.1237
     }
+   }
+  },
+  {
+   "id": "0a3035ce11f254c3",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "The AI race is back on",
+   "angle": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Explain it like a coworker Slack rant: helpful tool or…",
+   "bullets": [
+    "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust.",
+    "Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender.",
+    "Even the latest [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+   "score": 62.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "OpenAI"
+    ],
+    "organizations": [
+     "Meta"
+    ],
+    "locations": [
+     "AI"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.5719,
+    "label": "positive"
+   },
+   "summary": "Last week, Anthropic and OpenAI looked like they had the AI race to themselves, pulling ahead with increasingly powerful models that left their rivals in the dust. Google seemed hopelessly far behind, while Meta, despite spending billions to revive its floundering AI ambitions, had yet to establish itself as a serious contender. Even the latest [&#8230;]",
+   "cluster_id": "0a3035ce11f254c3",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:16.480621+00:00",
+    "source_published_at": "2026-10-14T19:06:03+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
    }
   },
   {
@@ -133175,6 +134554,54 @@
    "meta": {
     "ingested_at": "2026-10-14T09:18:01.329265+00:00",
     "source_published_at": "2026-10-13T18:23:33+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "keywords-hint",
+    "section_probs": null
+   }
+  },
+  {
+   "id": "45dfe01c4dcdbd6b",
+   "date": "2026-10-14",
+   "slot": "am",
+   "category": "TECH",
+   "title": "Now that Character.AI is going bankrupt, what happens to all of its users&#8217; data?",
+   "angle": "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. Explain it…",
+   "bullets": [
+    "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding.",
+    "James is among 40 bipartisan AGs who filed a notice of interest in Character.AI's bankruptcy case \"to put all parties on notice of the regulatory issues that [&#8230;]"
+   ],
+   "debate": "Helpful innovation or privacy nightmare?",
+   "source": "The Verge",
+   "source_type": "news",
+   "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy",
+   "score": 61.7,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Letitia James",
+     "James"
+    ],
+    "organizations": [
+     "Character",
+     "AI"
+    ],
+    "locations": [
+     "New York",
+     "Character"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.2732,
+    "label": "positive"
+   },
+   "summary": "New York Attorney General Letitia James revealed a years-long multi-state investigation against Character.AI as they now seek to require protections on consumer data sold through its bankruptcy proceeding. James is among 40 bipartisan AGs who filed a notice of interest in Character.AI's bankruptcy case \"to put all parties on notice of the regulatory issues that [&#8230;]",
+   "cluster_id": "45dfe01c4dcdbd6b",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-14T19:06:16.537522+00:00",
+    "source_published_at": "2026-10-14T18:47:54+00:00",
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
