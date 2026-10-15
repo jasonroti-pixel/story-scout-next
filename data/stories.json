@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-15T08:50:57.753161+00:00",
+ "generated_at": "2026-10-15T09:36:24.901789+00:00",
  "timezone": "America/Toronto",
  "date": "2026-10-15",
  "slot": "am",
  "pipeline_version": "1.2.0",
- "count": 3518,
+ "count": 3524,
  "stories": [
   {
    "id": "b510ed3856735d95",
@@ -1110,6 +1110,62 @@
     "source_published_at": "2026-09-21T18:43:56+00:00",
     "pipeline_version": "1.1.0",
     "gemini_enrich": "gemini-v1"
+   }
+  },
+  {
+   "id": "62154fe5343b5c92",
+   "date": "2026-10-15",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "‘7 Miles Out,’ Starring Lucy Halliday, Tells a Coming-of-Age Story Full of Grief, Music and Friendship",
+   "angle": "Carol Morley's adaptation of her semi-autobiographical novel about her adolescence near Manchester also stars Gemma Whelan and Aidan Gillen and premieres at the BFI London Film Festival. Shelf life through drive time …",
+   "bullets": [
+    "Carol Morley's adaptation of her semi-autobiographical novel about her adolescence near Manchester also stars Gemma Whelan and Aidan Gillen and premieres at the BFI London Film Festival."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "Hollywood Reporter",
+   "source_type": "news",
+   "url": "https://www.hollywoodreporter.com/movies/movie-news/7-miles-out-carol-morley-film-lucy-halliday-grief-music-lff-1236729975/",
+   "score": 82.4,
+   "is_backup": false,
+   "entities": {
+    "people": [
+     "Tells",
+     "Carol Morley's",
+     "Gemma Whelan",
+     "Aidan Gillen"
+    ],
+    "organizations": [
+     "the BFI London Film Festival"
+    ],
+    "locations": [
+     "Manchester"
+    ],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.6369,
+    "label": "positive"
+   },
+   "summary": "Carol Morley's adaptation of her semi-autobiographical novel about her adolescence near Manchester also stars Gemma Whelan and Aidan Gillen and premieres at the BFI London Film Festival.",
+   "cluster_id": "62154fe5343b5c92",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-15T09:36:23.171854+00:00",
+    "source_published_at": "2026-10-15T09:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0446,
+     "ENTERTAINMENT": 0.7405,
+     "BREAKOUT WATCH": 0.0873,
+     "LIFESTYLE CHAT": 0.0463,
+     "CANADIAN NEWS": 0.0307,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0506
+    }
    }
   },
   {
@@ -3424,12 +3480,19 @@
    "slot": "pm",
    "category": "ENTERTAINMENT",
    "title": "Katherine Mallen Kupferer, Audrey Grace Marshall, Dean Norris, Jordan Ladd Join ‘The Attentionist’ from Caroline Kepnes (EXCLUSIVE)",
-   "angle": "Caroline Kepnes, author of the novel series &#8220;You,&#8221; which inspired the global Netflix hit, has assembled a team of buzzy actors for her series directorial debut. Shelf life through drive time — who is…",
+   "angle": "Caroline Kepnes, the author who brought global audiences the hit Netflix thriller You, is stepping behind the camera for her series directorial debut with The Attentionist. With proven television talent like Dean Norris on board, it will be fascinating to see if the mind behind our favorite streaming obsession can deliver that same magic from the director's chair.",
    "bullets": [
-    "Caroline Kepnes, author of the novel series &#8220;You,&#8221; which inspired the global Netflix hit, has assembled a team of buzzy actors for her series directorial debut.",
-    "Katherine Mallen Kupferer, Audrey Grace Marshall, Dean Norris and Jordan Ladd will star in “The Attentionist,” a digital-first project that combines elements of a &#8217;90s family dramedy and a [&#8230;]"
+    "Caroline Kepnes launched her series directorial debut with a new project titled \"The Attentionist.\"",
+    "Kepnes previously authored the novel series \"You.\"",
+    "The novel series \"You\" served as the inspiration for a global hit show on Netflix.",
+    "Production planned \"The Attentionist\" as a digital-first project.",
+    "The upcoming series integrated stylistic elements of a 1990s family dramedy.",
+    "Katherine Mallen Kupferer was cast to star in the production.",
+    "Audrey Grace Marshall joined the cast of the project.",
+    "Dean Norris signed on as a star for the upcoming series.",
+    "Jordan Ladd was added to the production's ensemble cast."
    ],
-   "debate": "Overrated or underrated — where do you land?",
+   "debate": "When an author creates a massive hit television adaptation, do you want to see them take full creative control as a director, or should they stick to writing the books?",
    "source": "Variety",
    "source_type": "news",
    "url": "https://variety.com/2026/film/news/the-attentionist-cast-dean-norris-caroline-kepnes-1236909199/",
@@ -3473,7 +3536,8 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0543
-    }
+    },
+    "gemini_enrich": "gemini-v1"
    }
   },
   {
@@ -3907,7 +3971,7 @@
    "source_type": "news",
    "url": "https://www.theglobeandmail.com/world/video-taylor-swift-makes-vma-history/",
    "score": 80.1,
-   "is_backup": false,
+   "is_backup": true,
    "entities": {
     "people": [
      "Taylor Swift",
@@ -27970,6 +28034,58 @@
    }
   },
   {
+   "id": "7160d0a538e911db",
+   "date": "2026-10-15",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Mamdani and Menin’s deal to kill Central Park carriage trade is all about privileged prejudice",
+   "angle": "The accord to kill these jobs by June 2028 bears all the hallmarks of elite virtue-signaling, but then the mayor and speaker didn't win their high offices thanks to working-class voters. Shelf life through drive time …",
+   "bullets": [
+    "The accord to kill these jobs by June 2028 bears all the hallmarks of elite virtue-signaling, but then the mayor and speaker didn't win their high offices thanks to working-class voters."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/15/opinion/mamdani-and-menins-deal-to-kill-central-park-carriage-trade-is-about-privileged-prejudice/",
+   "score": 74.3,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Mamdani",
+     "Menin"
+    ],
+    "organizations": [],
+    "locations": [
+     "Central Park"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.7317,
+    "label": "negative"
+   },
+   "summary": "The accord to kill these jobs by June 2028 bears all the hallmarks of elite virtue-signaling, but then the mayor and speaker didn't win their high offices thanks to working-class voters.",
+   "cluster_id": "7160d0a538e911db",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-15T09:36:22.741541+00:00",
+    "source_published_at": "2026-10-15T09:30:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.2302,
+     "ENTERTAINMENT": 0.5646,
+     "BREAKOUT WATCH": 0.0523,
+     "LIFESTYLE CHAT": 0.0433,
+     "CANADIAN NEWS": 0.0722,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0375
+    }
+   }
+  },
+  {
    "id": "155ffeaa51ef05e4",
    "date": "2026-09-24",
    "slot": "am",
@@ -28921,6 +29037,59 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0237
+    }
+   }
+  },
+  {
+   "id": "7a786b075eb1d067",
+   "date": "2026-10-15",
+   "slot": "am",
+   "category": "ENTERTAINMENT",
+   "title": "Arizona university cancer researcher Rachna Shroff dies of disease she was trying to cure",
+   "angle": "A University of Arizona cancer researcher has died at the age of 47 from the disease she was trying to cure. Shelf life through drive time — who is overrated and who actually delivered?",
+   "bullets": [
+    "A University of Arizona cancer researcher has died at the age of 47 from the disease she was trying to cure."
+   ],
+   "debate": "Overrated or underrated — where do you land?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/15/us-news/university-of-arizona-cancer-researcher-rachna-shroff-dies-of-disease-she-was-trying-to-cure/",
+   "score": 74.2,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Rachna Shroff"
+    ],
+    "organizations": [
+     "University of Arizona"
+    ],
+    "locations": [
+     "Arizona"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.9246,
+    "label": "negative"
+   },
+   "summary": "A University of Arizona cancer researcher has died at the age of 47 from the disease she was trying to cure.",
+   "cluster_id": "7a786b075eb1d067",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-15T09:36:22.765241+00:00",
+    "source_published_at": "2026-10-15T09:09:30+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.0743,
+     "ENTERTAINMENT": 0.3419,
+     "BREAKOUT WATCH": 0.2832,
+     "LIFESTYLE CHAT": 0.1396,
+     "CANADIAN NEWS": 0.0638,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0972
     }
    }
   },
@@ -50060,6 +50229,57 @@
      "TECH": 0.0,
      "SPORTS": 0.0,
      "CLOSER": 0.0869
+    }
+   }
+  },
+  {
+   "id": "0a25436c7f582659",
+   "date": "2026-10-15",
+   "slot": "am",
+   "category": "THE LIST",
+   "title": "North Korea holds first underwater-launched missile tests in nearly 3 years",
+   "angle": "North Korea tested two strategic cruise missiles from a submarine, likely mobilizing the Hero Kim Kun Ok vessel for its first public test. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
+   "bullets": [
+    "North Korea tested two strategic cruise missiles from a submarine, likely mobilizing the Hero Kim Kun Ok vessel for its first public test."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "NY Post",
+   "source_type": "news",
+   "url": "https://nypost.com/2026/10/15/world-news/north-korea-holds-first-underwater-launched-missile-tests-in-nearly-3-years/",
+   "score": 72.0,
+   "is_backup": true,
+   "entities": {
+    "people": [
+     "Kim Kun"
+    ],
+    "organizations": [],
+    "locations": [
+     "North Korea"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": 0.7003,
+    "label": "positive"
+   },
+   "summary": "North Korea tested two strategic cruise missiles from a submarine, likely mobilizing the Hero Kim Kun Ok vessel for its first public test.",
+   "cluster_id": "0a25436c7f582659",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-15T09:36:22.714397+00:00",
+    "source_published_at": "2026-10-15T09:30:44+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.3421,
+     "ENTERTAINMENT": 0.0544,
+     "BREAKOUT WATCH": 0.2362,
+     "LIFESTYLE CHAT": 0.0646,
+     "CANADIAN NEWS": 0.078,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.2246
     }
    }
   },
@@ -101819,6 +102039,55 @@
    }
   },
   {
+   "id": "7d7c8300737c3efc",
+   "date": "2026-10-15",
+   "slot": "am",
+   "category": "LIFESTYLE CHAT",
+   "title": "Sign up now",
+   "angle": "From news and politics to technology and the royals, get the best BBC journalism to your inbox. Easy phone-in: is this smart living or lifestyle cosplay?",
+   "bullets": [
+    "From news and politics to technology and the royals, get the best BBC journalism to your inbox."
+   ],
+   "debate": "Would you do this / try this? Why or why not?",
+   "source": "BBC News",
+   "source_type": "news",
+   "url": "https://www.bbc.co.uk/news/articles/c2lkky9zngvo?at_medium=RSS&at_campaign=rss",
+   "score": 66.4,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [
+     "BBC"
+    ],
+    "locations": [],
+    "is_canadian": true
+   },
+   "sentiment": {
+    "compound": 0.6369,
+    "label": "positive"
+   },
+   "summary": "From news and politics to technology and the royals, get the best BBC journalism to your inbox.",
+   "cluster_id": "7d7c8300737c3efc",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-15T09:36:24.122084+00:00",
+    "source_published_at": "2026-09-09T10:24:59+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.1772,
+     "ENTERTAINMENT": 0.2,
+     "BREAKOUT WATCH": 0.0495,
+     "LIFESTYLE CHAT": 0.2842,
+     "CANADIAN NEWS": 0.2419,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0472
+    }
+   }
+  },
+  {
    "id": "c4ed7216d637b5cb",
    "date": "2026-09-22",
    "slot": "am",
@@ -125576,6 +125845,56 @@
     "pipeline_version": "1.2.0",
     "section_model": "keywords-hint",
     "section_probs": null
+   }
+  },
+  {
+   "id": "c0092cfe752a9c6d",
+   "date": "2026-10-15",
+   "slot": "am",
+   "category": "CANADIAN NEWS",
+   "title": "How a contested B.C. supportive housing project won over its neighbours",
+   "angle": "For years, acrimony dominated the conversation in this Fraser Valley community – but residents’ worst fears never materialized. Make it local in one sentence — who pays, who waits, who shrugs?",
+   "bullets": [
+    "For years, acrimony dominated the conversation in this Fraser Valley community – but residents’ worst fears never materialized"
+   ],
+   "debate": "Does this change how you see the story locally?",
+   "source": "Globe and Mail",
+   "source_type": "news",
+   "url": "https://www.theglobeandmail.com/canada/article-municipal-elections-bc-supportive-housing-project-won-over-neighbours/",
+   "score": 63.1,
+   "is_backup": true,
+   "entities": {
+    "people": [],
+    "organizations": [],
+    "locations": [
+     "B.C.",
+     "Fraser Valley"
+    ],
+    "is_canadian": false
+   },
+   "sentiment": {
+    "compound": -0.8126,
+    "label": "negative"
+   },
+   "summary": "For years, acrimony dominated the conversation in this Fraser Valley community – but residents’ worst fears never materialized",
+   "cluster_id": "c0092cfe752a9c6d",
+   "related_count": 0,
+   "clips": [],
+   "meta": {
+    "ingested_at": "2026-10-15T09:36:21.440356+00:00",
+    "source_published_at": "2026-10-15T09:00:00+00:00",
+    "pipeline_version": "1.2.0",
+    "section_model": "ml-v1",
+    "section_probs": {
+     "THE LIST": 0.279,
+     "ENTERTAINMENT": 0.0798,
+     "BREAKOUT WATCH": 0.1117,
+     "LIFESTYLE CHAT": 0.0539,
+     "CANADIAN NEWS": 0.4263,
+     "TECH": 0.0,
+     "SPORTS": 0.0,
+     "CLOSER": 0.0494
+    }
    }
   },
   {
