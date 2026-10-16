@@ -14,8 +14,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
 from typing import Any
@@ -105,6 +106,34 @@ def slot_for_now(now: datetime | None = None) -> str:
     now = now or datetime.now(TZ)
     # Morning prep vs evening prep
     return "am" if now.hour < 15 else "pm"
+
+
+# GitHub's cron scheduler routinely fires hours late (4-6h delays observed).
+# Deriving am/pm from the wall clock at execution time meant a 23:30 run
+# executing at 04:00 was labeled "am", so the evening prep silently vanished
+# from the board. Derive the slot from the cron schedule that triggered the
+# run instead (passed as INGEST_SCHEDULE); the wall clock is only a fallback
+# for manual runs.
+SCHEDULE_SLOT = {
+    "30 13 * * 1-5": "am",  # 09:30 America/Toronto, weekdays (EDT)
+    "30 14 * * 1-5": "am",  # 09:30 America/Toronto, weekdays (EST)
+    "30 3 * * 2-6": "pm",   # 23:30 America/Toronto, weeknights (EDT)
+    "30 4 * * 2-6": "pm",   # 23:30 America/Toronto, weeknights (EST)
+    "30 3 * * 1": "pm",     # 23:30 America/Toronto, Sunday (EDT)
+    "30 4 * * 1": "pm",     # 23:30 America/Toronto, Sunday (EST)
+}
+
+
+def slot_and_date_for_schedule(now: datetime, schedule: str) -> tuple[str, str]:
+    slot = SCHEDULE_SLOT.get(schedule.strip())
+    if slot is None:
+        return slot_for_now(now), now.date().isoformat()
+    date = now.date()
+    if slot == "pm" and now.hour < 12:
+        # Evening run fired late and executed after midnight: the batch
+        # belongs to the previous evening's prep.
+        date = date - timedelta(days=1)
+    return slot, date.isoformat()
 
 
 def parse_published(entry: dict[str, Any]) -> str:
@@ -301,8 +330,8 @@ def run(max_stories: int | None = None, fetch_full: bool = True) -> Path:
     target_canadian = int(pipeline_cfg.get("target_canadian") or 12)
     pipeline_version = str(pipeline_cfg.get("pipeline_version") or "1.1.0")
     now = datetime.now(TZ)
-    date = now.date().isoformat()
-    slot = slot_for_now(now)
+    schedule = os.environ.get("INGEST_SCHEDULE", "")
+    slot, date = slot_and_date_for_schedule(now, schedule)
 
     raw_items: list[dict[str, Any]] = []
     seen_urls: set[str] = set()

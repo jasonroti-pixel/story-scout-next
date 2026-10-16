@@ -52,6 +52,11 @@ jobs:
         run: python ingest.py --no-fulltext
         env:
           PYTHONUNBUFFERED: "1"
+          # The cron expression that triggered this run (empty on manual
+          # dispatch). ingest.py maps it to the intended am/pm slot, because
+          # GitHub often fires crons hours late and the wall clock at
+          # execution time no longer reflects the intended slot.
+          INGEST_SCHEDULE: ${{ github.event.schedule }}
           # Optional: when set, ingest fetches Jev features per story and uses
           # the stacked section model (0.62 test). Unset or failing -> the
           # text-only model (0.54) is used instead. The run never breaks.
