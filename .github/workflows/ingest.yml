@@ -1,18 +1,13 @@
 name: Ingest Stories
 
 on:
-  schedule:
-    # Mon–Fri 09:30 America/Toronto
-    # EDT (UTC-4): 13:30 UTC | EST (UTC-5): 14:30 UTC — use 13:30 (EDT) + 14:30 (EST)
-    - cron: "30 13 * * 1-5"
-    - cron: "30 14 * * 1-5"
-    # Mon–Fri 23:30 America/Toronto
-    # EDT: 03:30 UTC next day | EST: 04:30 UTC next day
-    - cron: "30 3 * * 2-6"
-    - cron: "30 4 * * 2-6"
-    # Sunday 23:30 America/Toronto
-    - cron: "30 3 * * 1"
-    - cron: "30 4 * * 1"
+  # NOTE (2026-10-19): GitHub's cron scheduler fired these 4-8 hours late as
+  # routine, and the old dual EDT/EST cron pairs fired every slot twice.
+  # Scheduling moved off GitHub: an external scheduler triggers
+  # workflow_dispatch at exactly 09:30 / 23:30 America/Toronto (DST-safe, so
+  # no EDT/EST pair needed). ingest.py falls back to the wall clock for the
+  # am/pm slot when INGEST_SCHEDULE is empty, which is correct for on-time
+  # triggers (am before 15:00 Toronto, pm after).
   workflow_dispatch:
 
 permissions:
@@ -52,10 +47,10 @@ jobs:
         run: python ingest.py --no-fulltext
         env:
           PYTHONUNBUFFERED: "1"
-          # The cron expression that triggered this run (empty on manual
-          # dispatch). ingest.py maps it to the intended am/pm slot, because
-          # GitHub often fires crons hours late and the wall clock at
-          # execution time no longer reflects the intended slot.
+          # The cron expression that triggered this run (empty on
+          # workflow_dispatch). ingest.py maps it to the intended am/pm slot
+          # when present, else falls back to the wall clock, which is correct
+          # for on-time external triggers.
           INGEST_SCHEDULE: ${{ github.event.schedule }}
           # Optional: when set, ingest fetches Jev features per story and uses
           # the stacked section model (0.62 test). Unset or failing -> the
