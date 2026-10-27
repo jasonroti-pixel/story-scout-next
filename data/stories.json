@@ -1660,16 +1660,16 @@
     "ingested_at": "2026-10-27T03:51:40.194186+00:00",
     "source_published_at": "2026-10-27T02:55:14+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0576,
-     "ENTERTAINMENT": 0.6694,
-     "BREAKOUT WATCH": 0.0864,
-     "LIFESTYLE CHAT": 0.0394,
-     "CANADIAN NEWS": 0.0488,
+     "THE LIST": 0.0627,
+     "ENTERTAINMENT": 0.7245,
+     "BREAKOUT WATCH": 0.0758,
+     "LIFESTYLE CHAT": 0.0442,
+     "CANADIAN NEWS": 0.0274,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0983
+     "CLOSER": 0.0653
     }
    }
   },
@@ -4100,16 +4100,16 @@
     "ingested_at": "2026-10-27T03:51:40.644239+00:00",
     "source_published_at": "2026-10-26T23:10:59+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2344,
-     "ENTERTAINMENT": 0.3921,
-     "BREAKOUT WATCH": 0.0848,
-     "LIFESTYLE CHAT": 0.0955,
-     "CANADIAN NEWS": 0.1384,
+     "THE LIST": 0.2676,
+     "ENTERTAINMENT": 0.3809,
+     "BREAKOUT WATCH": 0.061,
+     "LIFESTYLE CHAT": 0.101,
+     "CANADIAN NEWS": 0.1068,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0549
+     "CLOSER": 0.0827
     }
    }
   },
@@ -10520,7 +10520,7 @@
    "id": "64a435046fc3f5ff",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "ENTERTAINMENT",
    "title": "Freddy Peralta’s stellar Rays postseason comes to crashing halt in World Series Game 3",
    "angle": "Freddy Peralta’s turnaround with the Rays may be coming to a disappointing end after the right-hander had a rough exit in Tampa Bay's Game 3 loss to the Brewers. Ask the phones: would you film it, flee it, or pretend…",
    "bullets": [
@@ -10557,16 +10557,16 @@
     "ingested_at": "2026-10-27T03:51:38.639481+00:00",
     "source_published_at": "2026-10-27T03:12:41+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2662,
-     "ENTERTAINMENT": 0.2634,
-     "BREAKOUT WATCH": 0.1927,
-     "LIFESTYLE CHAT": 0.0961,
-     "CANADIAN NEWS": 0.1383,
+     "THE LIST": 0.2422,
+     "ENTERTAINMENT": 0.362,
+     "BREAKOUT WATCH": 0.1062,
+     "LIFESTYLE CHAT": 0.0803,
+     "CANADIAN NEWS": 0.135,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0434
+     "CLOSER": 0.0743
     }
    }
   },
@@ -13794,7 +13794,7 @@
    "id": "f04cb660ded3f544",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "CANADIAN NEWS",
    "title": "Olivia Chow’s mayoral win was not a vote for Toronto’s status quo",
    "angle": "The former city councillor and NDP MP should be more ambitious in her second term as mayor. Shelf life through drive time — who is overrated and who actually delivered?",
    "bullets": [
@@ -13830,16 +13830,16 @@
     "ingested_at": "2026-10-27T03:51:36.443880+00:00",
     "source_published_at": "2026-10-27T03:21:12+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1674,
-     "ENTERTAINMENT": 0.6238,
-     "BREAKOUT WATCH": 0.066,
-     "LIFESTYLE CHAT": 0.0331,
-     "CANADIAN NEWS": 0.0726,
+     "THE LIST": 0.1754,
+     "ENTERTAINMENT": 0.1324,
+     "BREAKOUT WATCH": 0.0373,
+     "LIFESTYLE CHAT": 0.0588,
+     "CANADIAN NEWS": 0.5635,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.037
+     "CLOSER": 0.0325
     }
    }
   },
@@ -16009,7 +16009,7 @@
    "id": "dc8a22a3377f85f6",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "Crown withdraws criminal charges against pro-Palestinian protesters arrested in Montreal sit-in",
    "angle": "Criminal charges against pro-Palestinian protesters arrested during a 2024 sit-in at a Montreal bank have been dropped in exchange for $300 fines. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -16043,16 +16043,16 @@
     "ingested_at": "2026-10-27T03:51:37.058862+00:00",
     "source_published_at": "2026-10-26T21:28:53+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.5117,
-     "ENTERTAINMENT": 0.1084,
-     "BREAKOUT WATCH": 0.0929,
-     "LIFESTYLE CHAT": 0.0506,
-     "CANADIAN NEWS": 0.1273,
+     "THE LIST": 0.1667,
+     "ENTERTAINMENT": 0.0374,
+     "BREAKOUT WATCH": 0.0304,
+     "LIFESTYLE CHAT": 0.0673,
+     "CANADIAN NEWS": 0.6468,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1091
+     "CLOSER": 0.0516
     }
    }
   },
@@ -16658,7 +16658,7 @@
    "id": "12a7973fcc8a3c0a",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "Crown withdraws criminal charges against pro-Palestinian protesters arrested at Montreal sit-in",
    "angle": "More than a dozen people arrested pleaded guilty to violating a municipal noise bylaw and agreed to pay $300 fines. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -16692,16 +16692,16 @@
     "ingested_at": "2026-10-27T03:51:37.004467+00:00",
     "source_published_at": "2026-10-26T18:18:32+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.4513,
-     "ENTERTAINMENT": 0.0839,
-     "BREAKOUT WATCH": 0.0962,
-     "LIFESTYLE CHAT": 0.1223,
-     "CANADIAN NEWS": 0.1157,
+     "THE LIST": 0.1488,
+     "ENTERTAINMENT": 0.0384,
+     "BREAKOUT WATCH": 0.0244,
+     "LIFESTYLE CHAT": 0.115,
+     "CANADIAN NEWS": 0.6246,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1307
+     "CLOSER": 0.0488
     }
    }
   },
@@ -21304,7 +21304,7 @@
    "id": "c4dfd8b0075bdee2",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "CLOSER",
    "title": "Toronto fundraiser Elizabeth Tory was a maestro at working a room",
    "angle": "A devoted volunteer with Sunnybrook Health Sciences Centre and other organizations, she was legendary in Canadian charity and business circles for her drive, accomplishments and wit. Shelf life through drive time — who…",
    "bullets": [
@@ -21340,16 +21340,16 @@
     "ingested_at": "2026-10-27T03:51:37.221221+00:00",
     "source_published_at": "2026-10-26T19:43:19+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0784,
-     "ENTERTAINMENT": 0.4569,
-     "BREAKOUT WATCH": 0.0769,
-     "LIFESTYLE CHAT": 0.0759,
-     "CANADIAN NEWS": 0.1627,
+     "THE LIST": 0.0783,
+     "ENTERTAINMENT": 0.0978,
+     "BREAKOUT WATCH": 0.1188,
+     "LIFESTYLE CHAT": 0.0919,
+     "CANADIAN NEWS": 0.1433,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1492
+     "CLOSER": 0.4698
     }
    }
   },
@@ -23597,16 +23597,16 @@
     "ingested_at": "2026-10-27T03:51:39.402872+00:00",
     "source_published_at": "2026-10-27T03:29:31+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2867,
-     "ENTERTAINMENT": 0.2883,
-     "BREAKOUT WATCH": 0.1206,
-     "LIFESTYLE CHAT": 0.0403,
-     "CANADIAN NEWS": 0.1583,
+     "THE LIST": 0.0777,
+     "ENTERTAINMENT": 0.7396,
+     "BREAKOUT WATCH": 0.0686,
+     "LIFESTYLE CHAT": 0.0316,
+     "CANADIAN NEWS": 0.0223,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1057
+     "CLOSER": 0.0602
     }
    }
   },
@@ -23614,7 +23614,7 @@
    "id": "fb34eeb74622591b",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "ENTERTAINMENT",
    "title": "Searchlight Pictures Marketing EVP Michelle Hooper Exits Studio",
    "angle": "Michelle Hooper is leaving Searchlight Pictures as executive vice president of marketing after two decades with the company. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -23655,16 +23655,16 @@
     "ingested_at": "2026-10-27T03:51:40.320307+00:00",
     "source_published_at": "2026-10-27T01:29:38+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3876,
-     "ENTERTAINMENT": 0.2833,
-     "BREAKOUT WATCH": 0.1067,
-     "LIFESTYLE CHAT": 0.1126,
-     "CANADIAN NEWS": 0.0729,
+     "THE LIST": 0.1495,
+     "ENTERTAINMENT": 0.6325,
+     "BREAKOUT WATCH": 0.0783,
+     "LIFESTYLE CHAT": 0.0728,
+     "CANADIAN NEWS": 0.0259,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0369
+     "CLOSER": 0.0409
     }
    }
   },
@@ -23672,7 +23672,7 @@
    "id": "86286da6834d0977",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "LIFESTYLE CHAT",
    "title": "My husband's death was hard enough - then came the admin",
    "angle": "Louisa says her experience of dealing with household bills after her husband John died left her feeling \"frustrated and angry\". Shelf life through drive time — who is overrated and who actually delivered?",
    "bullets": [
@@ -23705,16 +23705,16 @@
     "ingested_at": "2026-10-27T03:51:41.350141+00:00",
     "source_published_at": "2026-10-27T01:26:18+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0837,
-     "ENTERTAINMENT": 0.5852,
-     "BREAKOUT WATCH": 0.1631,
-     "LIFESTYLE CHAT": 0.0443,
-     "CANADIAN NEWS": 0.0627,
+     "THE LIST": 0.0767,
+     "ENTERTAINMENT": 0.1437,
+     "BREAKOUT WATCH": 0.2056,
+     "LIFESTYLE CHAT": 0.4725,
+     "CANADIAN NEWS": 0.0463,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0609
+     "CLOSER": 0.0552
     }
    }
   },
@@ -30123,7 +30123,7 @@
    "id": "c6a36b3aba10f29a",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "CANADIAN NEWS",
    "title": "Canadian Blood Services says longtime plasma donor’s death not connected to donation",
    "angle": "Charity’s CEO said person’s death earlier this fall was from natural causes. Shelf life through drive time — who is overrated and who actually delivered?",
    "bullets": [
@@ -30155,16 +30155,16 @@
     "ingested_at": "2026-10-27T03:51:36.554446+00:00",
     "source_published_at": "2026-10-26T09:00:00+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2557,
-     "ENTERTAINMENT": 0.4147,
-     "BREAKOUT WATCH": 0.1596,
-     "LIFESTYLE CHAT": 0.0633,
-     "CANADIAN NEWS": 0.079,
+     "THE LIST": 0.1682,
+     "ENTERTAINMENT": 0.0735,
+     "BREAKOUT WATCH": 0.049,
+     "LIFESTYLE CHAT": 0.0764,
+     "CANADIAN NEWS": 0.6067,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0277
+     "CLOSER": 0.0262
     }
    }
   },
@@ -30213,16 +30213,16 @@
     "ingested_at": "2026-10-27T03:51:40.588062+00:00",
     "source_published_at": "2026-10-26T23:44:45+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0266,
-     "ENTERTAINMENT": 0.8664,
-     "BREAKOUT WATCH": 0.0284,
-     "LIFESTYLE CHAT": 0.024,
-     "CANADIAN NEWS": 0.0233,
+     "THE LIST": 0.0274,
+     "ENTERTAINMENT": 0.8761,
+     "BREAKOUT WATCH": 0.0327,
+     "LIFESTYLE CHAT": 0.0228,
+     "CANADIAN NEWS": 0.0157,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0313
+     "CLOSER": 0.0252
     }
    }
   },
@@ -31239,7 +31239,7 @@
    "id": "d9d62272ae814fe7",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "ENTERTAINMENT",
    "title": "Neil Young Files $10 Million Suit Against Trump for Using ‘Rockin’ in the Free World,’ Six Years After a Prior Settlement Over the Same Song",
    "angle": "Neil Young has filed a $10 million lawsuit Monday against Donald J. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -31281,16 +31281,16 @@
     "ingested_at": "2026-10-27T03:51:40.520684+00:00",
     "source_published_at": "2026-10-26T23:50:34+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.4968,
-     "ENTERTAINMENT": 0.1587,
-     "BREAKOUT WATCH": 0.2599,
-     "LIFESTYLE CHAT": 0.0256,
-     "CANADIAN NEWS": 0.0306,
+     "THE LIST": 0.1781,
+     "ENTERTAINMENT": 0.5735,
+     "BREAKOUT WATCH": 0.1723,
+     "LIFESTYLE CHAT": 0.0343,
+     "CANADIAN NEWS": 0.0151,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0285
+     "CLOSER": 0.0267
     }
    }
   },
@@ -34838,7 +34838,7 @@
    "id": "e9cf3dca43701dee",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "ENTERTAINMENT",
    "title": "Valkyries one win from WNBA crown after shutting down Dream in Game 5",
    "angle": "The Valkyries are one win away from a WNBA championship. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -34879,16 +34879,16 @@
     "ingested_at": "2026-10-27T03:51:38.582243+00:00",
     "source_published_at": "2026-10-27T03:35:06+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2181,
-     "ENTERTAINMENT": 0.1434,
-     "BREAKOUT WATCH": 0.1955,
-     "LIFESTYLE CHAT": 0.1148,
-     "CANADIAN NEWS": 0.1295,
+     "THE LIST": 0.2187,
+     "ENTERTAINMENT": 0.2793,
+     "BREAKOUT WATCH": 0.0921,
+     "LIFESTYLE CHAT": 0.1239,
+     "CANADIAN NEWS": 0.1262,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1988
+     "CLOSER": 0.1597
     }
    }
   },
@@ -34934,16 +34934,16 @@
     "ingested_at": "2026-10-27T03:51:39.640951+00:00",
     "source_published_at": "2026-10-27T01:49:48+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0794,
-     "ENTERTAINMENT": 0.5852,
-     "BREAKOUT WATCH": 0.1792,
-     "LIFESTYLE CHAT": 0.0418,
-     "CANADIAN NEWS": 0.0538,
+     "THE LIST": 0.0555,
+     "ENTERTAINMENT": 0.7164,
+     "BREAKOUT WATCH": 0.1173,
+     "LIFESTYLE CHAT": 0.0355,
+     "CANADIAN NEWS": 0.0226,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0607
+     "CLOSER": 0.0526
     }
    }
   },
@@ -38140,16 +38140,16 @@
     "ingested_at": "2026-10-27T03:51:39.583956+00:00",
     "source_published_at": "2026-10-27T01:51:44+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2561,
-     "ENTERTAINMENT": 0.5513,
-     "BREAKOUT WATCH": 0.0619,
-     "LIFESTYLE CHAT": 0.0287,
-     "CANADIAN NEWS": 0.0267,
+     "THE LIST": 0.287,
+     "ENTERTAINMENT": 0.4068,
+     "BREAKOUT WATCH": 0.1386,
+     "LIFESTYLE CHAT": 0.0354,
+     "CANADIAN NEWS": 0.0166,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0753
+     "CLOSER": 0.1155
     }
    }
   },
@@ -38487,7 +38487,7 @@
    "id": "f19697dacd1ee733",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "BC Ferries board cuts ties with CEO Nicolas Jimenez",
    "angle": "BC Ferries board cuts ties with CEO Nicolas Jimenez. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -38524,16 +38524,16 @@
     "ingested_at": "2026-10-27T03:51:36.779547+00:00",
     "source_published_at": "2026-10-26T21:45:35+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2852,
-     "ENTERTAINMENT": 0.2088,
-     "BREAKOUT WATCH": 0.163,
-     "LIFESTYLE CHAT": 0.0282,
-     "CANADIAN NEWS": 0.255,
+     "THE LIST": 0.1559,
+     "ENTERTAINMENT": 0.0516,
+     "BREAKOUT WATCH": 0.0473,
+     "LIFESTYLE CHAT": 0.0518,
+     "CANADIAN NEWS": 0.6635,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0599
+     "CLOSER": 0.0299
     }
    }
   },
@@ -44178,16 +44178,16 @@
     "ingested_at": "2026-10-27T03:51:40.257737+00:00",
     "source_published_at": "2026-10-27T01:50:39+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0718,
-     "ENTERTAINMENT": 0.654,
-     "BREAKOUT WATCH": 0.099,
-     "LIFESTYLE CHAT": 0.0283,
-     "CANADIAN NEWS": 0.0644,
+     "THE LIST": 0.0587,
+     "ENTERTAINMENT": 0.72,
+     "BREAKOUT WATCH": 0.0862,
+     "LIFESTYLE CHAT": 0.0339,
+     "CANADIAN NEWS": 0.0339,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0824
+     "CLOSER": 0.0673
     }
    }
   },
@@ -45190,7 +45190,7 @@
    "id": "d0db2ade76cb55aa",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "U.S. officials accuse Canada of midterm meddling — but Trump has endorsed foreign candidates",
    "angle": "&#32; submitted by &#32; /u/PhotonReactor1 [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -45225,16 +45225,16 @@
     "ingested_at": "2026-10-27T03:51:38.139060+00:00",
     "source_published_at": "2026-10-26T14:16:06+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.4311,
-     "ENTERTAINMENT": 0.0588,
-     "BREAKOUT WATCH": 0.1254,
-     "LIFESTYLE CHAT": 0.0342,
-     "CANADIAN NEWS": 0.3307,
+     "THE LIST": 0.3763,
+     "ENTERTAINMENT": 0.0341,
+     "BREAKOUT WATCH": 0.0701,
+     "LIFESTYLE CHAT": 0.0452,
+     "CANADIAN NEWS": 0.4667,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0197
+     "CLOSER": 0.0075
     }
    }
   },
@@ -46533,16 +46533,16 @@
     "ingested_at": "2026-10-27T03:51:39.233214+00:00",
     "source_published_at": "2026-10-27T02:29:13+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0952,
-     "ENTERTAINMENT": 0.3637,
-     "BREAKOUT WATCH": 0.1396,
-     "LIFESTYLE CHAT": 0.1111,
-     "CANADIAN NEWS": 0.2149,
+     "THE LIST": 0.115,
+     "ENTERTAINMENT": 0.4391,
+     "BREAKOUT WATCH": 0.0746,
+     "LIFESTYLE CHAT": 0.0903,
+     "CANADIAN NEWS": 0.1732,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0755
+     "CLOSER": 0.1078
     }
    }
   },
@@ -47971,16 +47971,16 @@
     "ingested_at": "2026-10-27T03:51:41.504648+00:00",
     "source_published_at": "2026-10-27T01:00:02+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1458,
-     "ENTERTAINMENT": 0.2872,
-     "BREAKOUT WATCH": 0.1283,
-     "LIFESTYLE CHAT": 0.157,
-     "CANADIAN NEWS": 0.1108,
+     "THE LIST": 0.2158,
+     "ENTERTAINMENT": 0.2441,
+     "BREAKOUT WATCH": 0.08,
+     "LIFESTYLE CHAT": 0.1445,
+     "CANADIAN NEWS": 0.1654,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1709
+     "CLOSER": 0.1502
     }
    }
   },
@@ -49381,7 +49381,7 @@
    "id": "4107eaf46807abac",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "Toronto driver not sure where to park after city removes bike lanes",
    "angle": "&#32; submitted by &#32; /u/Apprehensive_Idea758 [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -49413,16 +49413,16 @@
     "ingested_at": "2026-10-27T03:51:37.755646+00:00",
     "source_published_at": "2026-10-26T15:34:38+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3712,
-     "ENTERTAINMENT": 0.1797,
-     "BREAKOUT WATCH": 0.1261,
-     "LIFESTYLE CHAT": 0.0463,
-     "CANADIAN NEWS": 0.167,
+     "THE LIST": 0.1331,
+     "ENTERTAINMENT": 0.0378,
+     "BREAKOUT WATCH": 0.0302,
+     "LIFESTYLE CHAT": 0.0471,
+     "CANADIAN NEWS": 0.7038,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1097
+     "CLOSER": 0.0481
     }
    }
   },
@@ -50513,7 +50513,7 @@
    "id": "7ff24d10feb5bd49",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "Olivia Chow re-elected mayor of Toronto, staving off challenger Brad Bradford",
    "angle": "With almost all votes counted, Chow had 54 per cent of the vote, compared to Bradford’s 41 per cent. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -50551,16 +50551,16 @@
     "ingested_at": "2026-10-27T03:51:36.393140+00:00",
     "source_published_at": "2026-10-27T01:14:23+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3983,
-     "ENTERTAINMENT": 0.3776,
-     "BREAKOUT WATCH": 0.0743,
-     "LIFESTYLE CHAT": 0.0534,
-     "CANADIAN NEWS": 0.0421,
+     "THE LIST": 0.2991,
+     "ENTERTAINMENT": 0.0812,
+     "BREAKOUT WATCH": 0.0288,
+     "LIFESTYLE CHAT": 0.0836,
+     "CANADIAN NEWS": 0.4761,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0542
+     "CLOSER": 0.0312
     }
    }
   },
@@ -51448,16 +51448,16 @@
     "ingested_at": "2026-10-27T03:51:38.461711+00:00",
     "source_published_at": "2026-10-27T03:47:21+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1887,
-     "ENTERTAINMENT": 0.5621,
-     "BREAKOUT WATCH": 0.0755,
-     "LIFESTYLE CHAT": 0.074,
-     "CANADIAN NEWS": 0.0579,
+     "THE LIST": 0.0369,
+     "ENTERTAINMENT": 0.8485,
+     "BREAKOUT WATCH": 0.0294,
+     "LIFESTYLE CHAT": 0.0381,
+     "CANADIAN NEWS": 0.0211,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0417
+     "CLOSER": 0.0259
     }
    }
   },
@@ -52330,16 +52330,16 @@
     "ingested_at": "2026-10-27T03:51:38.988849+00:00",
     "source_published_at": "2026-10-27T02:36:03+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2866,
-     "ENTERTAINMENT": 0.3112,
-     "BREAKOUT WATCH": 0.1448,
-     "LIFESTYLE CHAT": 0.1366,
-     "CANADIAN NEWS": 0.0458,
+     "THE LIST": 0.0834,
+     "ENTERTAINMENT": 0.6775,
+     "BREAKOUT WATCH": 0.0824,
+     "LIFESTYLE CHAT": 0.0805,
+     "CANADIAN NEWS": 0.0173,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.075
+     "CLOSER": 0.059
     }
    }
   },
@@ -52381,16 +52381,16 @@
     "ingested_at": "2026-10-27T03:51:39.872353+00:00",
     "source_published_at": "2026-10-26T22:54:43+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0626,
-     "ENTERTAINMENT": 0.8477,
-     "BREAKOUT WATCH": 0.0146,
-     "LIFESTYLE CHAT": 0.0257,
-     "CANADIAN NEWS": 0.0148,
+     "THE LIST": 0.0533,
+     "ENTERTAINMENT": 0.8511,
+     "BREAKOUT WATCH": 0.024,
+     "LIFESTYLE CHAT": 0.0272,
+     "CANADIAN NEWS": 0.011,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0346
+     "CLOSER": 0.0334
     }
    }
   },
@@ -54648,7 +54648,7 @@
    "id": "99696083f51347af",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "Asia Pays Top Dollar For Canadian Oil Amid Slump in US Prices",
    "angle": "&#32; submitted by &#32; /u/Digitking003 [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -54682,16 +54682,16 @@
     "ingested_at": "2026-10-27T03:51:38.026578+00:00",
     "source_published_at": "2026-10-26T13:46:50+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3097,
-     "ENTERTAINMENT": 0.1266,
-     "BREAKOUT WATCH": 0.2817,
-     "LIFESTYLE CHAT": 0.0835,
-     "CANADIAN NEWS": 0.1569,
+     "THE LIST": 0.1923,
+     "ENTERTAINMENT": 0.0453,
+     "BREAKOUT WATCH": 0.0924,
+     "LIFESTYLE CHAT": 0.0899,
+     "CANADIAN NEWS": 0.5567,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0415
+     "CLOSER": 0.0235
     }
    }
   },
@@ -55503,7 +55503,7 @@
    "id": "4a96597aafd7b1e2",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "BREAKOUT WATCH",
    "title": "California sorority girls mowed down by drunk frat bro in horror Tesla smash, lawsuit claims: ‘Left like run-over garbage’",
    "angle": "Two California college students were allegedly mowed down by a drunk fraternity brother who was speeding in a Tesla before callously fleeing the scene, leaving the bloodied women sprawled in the street “like run over…",
    "bullets": [
@@ -55540,16 +55540,16 @@
     "ingested_at": "2026-10-27T03:51:39.175655+00:00",
     "source_published_at": "2026-10-27T02:30:00+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2666,
-     "ENTERTAINMENT": 0.17,
-     "BREAKOUT WATCH": 0.2147,
-     "LIFESTYLE CHAT": 0.1149,
-     "CANADIAN NEWS": 0.1617,
+     "THE LIST": 0.2057,
+     "ENTERTAINMENT": 0.2322,
+     "BREAKOUT WATCH": 0.2569,
+     "LIFESTYLE CHAT": 0.0713,
+     "CANADIAN NEWS": 0.0796,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0721
+     "CLOSER": 0.1543
     }
    }
   },
@@ -56731,16 +56731,16 @@
     "ingested_at": "2026-10-27T03:51:38.816376+00:00",
     "source_published_at": "2026-10-27T02:54:40+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1231,
-     "ENTERTAINMENT": 0.6284,
-     "BREAKOUT WATCH": 0.1149,
-     "LIFESTYLE CHAT": 0.0482,
-     "CANADIAN NEWS": 0.0286,
+     "THE LIST": 0.0945,
+     "ENTERTAINMENT": 0.6855,
+     "BREAKOUT WATCH": 0.0964,
+     "LIFESTYLE CHAT": 0.0474,
+     "CANADIAN NEWS": 0.0177,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0567
+     "CLOSER": 0.0585
     }
    }
   },
@@ -56782,16 +56782,16 @@
     "ingested_at": "2026-10-27T03:51:39.046674+00:00",
     "source_published_at": "2026-10-27T02:35:40+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1651,
-     "ENTERTAINMENT": 0.2895,
-     "BREAKOUT WATCH": 0.2336,
-     "LIFESTYLE CHAT": 0.0289,
-     "CANADIAN NEWS": 0.1429,
+     "THE LIST": 0.1154,
+     "ENTERTAINMENT": 0.3435,
+     "BREAKOUT WATCH": 0.2569,
+     "LIFESTYLE CHAT": 0.0323,
+     "CANADIAN NEWS": 0.0548,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.14
+     "CLOSER": 0.1971
     }
    }
   },
@@ -56837,16 +56837,16 @@
     "ingested_at": "2026-10-27T03:51:41.451492+00:00",
     "source_published_at": "2026-10-27T00:31:11+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.445,
-     "ENTERTAINMENT": 0.209,
-     "BREAKOUT WATCH": 0.076,
-     "LIFESTYLE CHAT": 0.0653,
-     "CANADIAN NEWS": 0.1298,
+     "THE LIST": 0.5936,
+     "ENTERTAINMENT": 0.145,
+     "BREAKOUT WATCH": 0.1575,
+     "LIFESTYLE CHAT": 0.0302,
+     "CANADIAN NEWS": 0.0343,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0748
+     "CLOSER": 0.0394
     }
    }
   },
@@ -58402,16 +58402,16 @@
     "ingested_at": "2026-10-27T03:51:39.990540+00:00",
     "source_published_at": "2026-10-27T03:41:10+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0614,
-     "ENTERTAINMENT": 0.6714,
-     "BREAKOUT WATCH": 0.0981,
-     "LIFESTYLE CHAT": 0.0571,
-     "CANADIAN NEWS": 0.0783,
+     "THE LIST": 0.0297,
+     "ENTERTAINMENT": 0.8507,
+     "BREAKOUT WATCH": 0.0478,
+     "LIFESTYLE CHAT": 0.0234,
+     "CANADIAN NEWS": 0.0251,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0337
+     "CLOSER": 0.0234
     }
    }
   },
@@ -59673,16 +59673,16 @@
     "ingested_at": "2026-10-27T03:51:40.869832+00:00",
     "source_published_at": "2026-10-26T19:27:21+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.4219,
-     "ENTERTAINMENT": 0.3249,
-     "BREAKOUT WATCH": 0.087,
-     "LIFESTYLE CHAT": 0.0486,
-     "CANADIAN NEWS": 0.0513,
+     "THE LIST": 0.5752,
+     "ENTERTAINMENT": 0.1476,
+     "BREAKOUT WATCH": 0.1682,
+     "LIFESTYLE CHAT": 0.0386,
+     "CANADIAN NEWS": 0.0246,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0663
+     "CLOSER": 0.0457
     }
    }
   },
@@ -62702,16 +62702,16 @@
     "ingested_at": "2026-10-27T03:51:41.245492+00:00",
     "source_published_at": "2026-10-27T00:11:27+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1152,
-     "ENTERTAINMENT": 0.5648,
-     "BREAKOUT WATCH": 0.1517,
-     "LIFESTYLE CHAT": 0.0388,
-     "CANADIAN NEWS": 0.0721,
+     "THE LIST": 0.0707,
+     "ENTERTAINMENT": 0.7011,
+     "BREAKOUT WATCH": 0.1135,
+     "LIFESTYLE CHAT": 0.0389,
+     "CANADIAN NEWS": 0.0273,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0575
+     "CLOSER": 0.0485
     }
    }
   },
@@ -63972,7 +63972,7 @@
    "id": "1e8cf862dff5217b",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "CLOSER",
    "title": "Horrifying moment shooting breaks out at Airbnb rented for music video in California",
    "angle": "A wild rap video shoot at a California Airbnb exploded into a chaotic shooting battle early Sunday after uninvited guests were denied entry. Shelf life through drive time — who is overrated and who actually delivered?",
    "bullets": [
@@ -64006,16 +64006,16 @@
     "ingested_at": "2026-10-27T03:51:38.696855+00:00",
     "source_published_at": "2026-10-27T03:04:33+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1937,
-     "ENTERTAINMENT": 0.3205,
-     "BREAKOUT WATCH": 0.1054,
-     "LIFESTYLE CHAT": 0.1019,
-     "CANADIAN NEWS": 0.0868,
+     "THE LIST": 0.2008,
+     "ENTERTAINMENT": 0.2121,
+     "BREAKOUT WATCH": 0.1777,
+     "LIFESTYLE CHAT": 0.0801,
+     "CANADIAN NEWS": 0.0631,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1916
+     "CLOSER": 0.2662
     }
    }
   },
@@ -68629,16 +68629,16 @@
     "ingested_at": "2026-10-27T03:51:41.192637+00:00",
     "source_published_at": "2026-10-26T22:07:26+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1751,
-     "ENTERTAINMENT": 0.3776,
-     "BREAKOUT WATCH": 0.0948,
-     "LIFESTYLE CHAT": 0.2067,
-     "CANADIAN NEWS": 0.0665,
+     "THE LIST": 0.0864,
+     "ENTERTAINMENT": 0.6421,
+     "BREAKOUT WATCH": 0.0615,
+     "LIFESTYLE CHAT": 0.1154,
+     "CANADIAN NEWS": 0.0348,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0793
+     "CLOSER": 0.0599
     }
    }
   },
@@ -75026,16 +75026,16 @@
     "ingested_at": "2026-10-27T03:51:40.058704+00:00",
     "source_published_at": "2026-10-27T03:39:24+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1338,
-     "ENTERTAINMENT": 0.7354,
-     "BREAKOUT WATCH": 0.0523,
-     "LIFESTYLE CHAT": 0.0235,
-     "CANADIAN NEWS": 0.0338,
+     "THE LIST": 0.0861,
+     "ENTERTAINMENT": 0.8039,
+     "BREAKOUT WATCH": 0.05,
+     "LIFESTYLE CHAT": 0.0216,
+     "CANADIAN NEWS": 0.0138,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0211
+     "CLOSER": 0.0246
     }
    }
   },
@@ -79957,16 +79957,16 @@
     "ingested_at": "2026-10-27T03:51:38.193356+00:00",
     "source_published_at": "2026-10-26T21:09:15+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0934,
-     "ENTERTAINMENT": 0.0428,
-     "BREAKOUT WATCH": 0.1611,
-     "LIFESTYLE CHAT": 0.1213,
-     "CANADIAN NEWS": 0.5473,
+     "THE LIST": 0.1133,
+     "ENTERTAINMENT": 0.0289,
+     "BREAKOUT WATCH": 0.0762,
+     "LIFESTYLE CHAT": 0.0823,
+     "CANADIAN NEWS": 0.6885,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0342
+     "CLOSER": 0.0108
     }
    }
   },
@@ -84092,7 +84092,7 @@
    "id": "64decc3c29b044a4",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "CLOSER",
    "title": "Steve Kerr weighs in on ‘breakfast’ time tipoff for WNBA Finals game",
    "angle": "“It’s better than having it at the YMCA that night in front of 75 people,” the Warriors coach quipped about the accommodations made for the Game 6 of the WNBA Finals between the Golden State Valkyries and Atlanta…",
    "bullets": [
@@ -84129,16 +84129,16 @@
     "ingested_at": "2026-10-27T03:51:38.932827+00:00",
     "source_published_at": "2026-10-27T02:39:23+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1323,
-     "ENTERTAINMENT": 0.3651,
-     "BREAKOUT WATCH": 0.1038,
-     "LIFESTYLE CHAT": 0.2285,
-     "CANADIAN NEWS": 0.0572,
+     "THE LIST": 0.0876,
+     "ENTERTAINMENT": 0.1531,
+     "BREAKOUT WATCH": 0.1174,
+     "LIFESTYLE CHAT": 0.1397,
+     "CANADIAN NEWS": 0.1021,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1131
+     "CLOSER": 0.4002
     }
    }
   },
@@ -84178,16 +84178,16 @@
     "ingested_at": "2026-10-27T03:51:37.920319+00:00",
     "source_published_at": "2026-10-26T22:19:35+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1539,
-     "ENTERTAINMENT": 0.2711,
-     "BREAKOUT WATCH": 0.2299,
-     "LIFESTYLE CHAT": 0.1158,
-     "CANADIAN NEWS": 0.1528,
+     "THE LIST": 0.0848,
+     "ENTERTAINMENT": 0.3796,
+     "BREAKOUT WATCH": 0.2244,
+     "LIFESTYLE CHAT": 0.0833,
+     "CANADIAN NEWS": 0.0494,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0765
+     "CLOSER": 0.1786
     }
    }
   },
@@ -84228,16 +84228,16 @@
     "ingested_at": "2026-10-27T03:51:38.247055+00:00",
     "source_published_at": "2026-10-26T18:05:33+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1335,
-     "ENTERTAINMENT": 0.2756,
-     "BREAKOUT WATCH": 0.1235,
-     "LIFESTYLE CHAT": 0.1622,
-     "CANADIAN NEWS": 0.2101,
+     "THE LIST": 0.0819,
+     "ENTERTAINMENT": 0.4237,
+     "BREAKOUT WATCH": 0.1677,
+     "LIFESTYLE CHAT": 0.0904,
+     "CANADIAN NEWS": 0.047,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0951
+     "CLOSER": 0.1892
     }
    }
   },
@@ -84925,7 +84925,7 @@
    "id": "dab0a74afbf33df0",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "Cowichan Tribes to bring forward private property protection solution, lawyer says",
    "angle": "Cowichan Tribes to bring forward private property protection solution, lawyer says. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -84959,16 +84959,16 @@
     "ingested_at": "2026-10-27T03:51:36.665418+00:00",
     "source_published_at": "2026-10-27T00:35:54+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.4278,
-     "ENTERTAINMENT": 0.122,
-     "BREAKOUT WATCH": 0.0436,
-     "LIFESTYLE CHAT": 0.0649,
-     "CANADIAN NEWS": 0.314,
+     "THE LIST": 0.1496,
+     "ENTERTAINMENT": 0.0419,
+     "BREAKOUT WATCH": 0.0157,
+     "LIFESTYLE CHAT": 0.063,
+     "CANADIAN NEWS": 0.7095,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0278
+     "CLOSER": 0.0204
     }
    }
   },
@@ -90319,16 +90319,16 @@
     "ingested_at": "2026-10-27T03:51:40.977785+00:00",
     "source_published_at": "2026-10-27T03:10:55+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0765,
-     "ENTERTAINMENT": 0.6624,
-     "BREAKOUT WATCH": 0.1362,
-     "LIFESTYLE CHAT": 0.0546,
-     "CANADIAN NEWS": 0.0221,
+     "THE LIST": 0.0489,
+     "ENTERTAINMENT": 0.7756,
+     "BREAKOUT WATCH": 0.0867,
+     "LIFESTYLE CHAT": 0.0435,
+     "CANADIAN NEWS": 0.0144,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0484
+     "CLOSER": 0.0309
     }
    }
   },
@@ -91580,7 +91580,7 @@
    "id": "b8eec2ef974cdf27",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "CLOSER",
    "title": "Yaxel Lendeborg’s girlfriend Tacarra makes telling 3-word comment about Warriors future",
    "angle": "Golden State Warriors rookie Yaxel Lendeborg's girlfriend, Tacarra Shyann, seems to be enjoying her boyfriend's first NBA season. Shelf life through drive time — who is overrated and who actually delivered?",
    "bullets": [
@@ -91618,16 +91618,16 @@
     "ingested_at": "2026-10-27T03:51:39.289312+00:00",
     "source_published_at": "2026-10-27T02:27:00+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1677,
-     "ENTERTAINMENT": 0.3754,
-     "BREAKOUT WATCH": 0.1884,
-     "LIFESTYLE CHAT": 0.1135,
-     "CANADIAN NEWS": 0.1067,
+     "THE LIST": 0.1305,
+     "ENTERTAINMENT": 0.1001,
+     "BREAKOUT WATCH": 0.2607,
+     "LIFESTYLE CHAT": 0.0942,
+     "CANADIAN NEWS": 0.1101,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0482
+     "CLOSER": 0.3044
     }
    }
   },
@@ -91669,16 +91669,16 @@
     "ingested_at": "2026-10-27T03:51:37.273210+00:00",
     "source_published_at": "2026-10-26T19:46:04+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.5399,
-     "ENTERTAINMENT": 0.1241,
-     "BREAKOUT WATCH": 0.0623,
-     "LIFESTYLE CHAT": 0.0703,
-     "CANADIAN NEWS": 0.1602,
+     "THE LIST": 0.4775,
+     "ENTERTAINMENT": 0.0287,
+     "BREAKOUT WATCH": 0.0302,
+     "LIFESTYLE CHAT": 0.0551,
+     "CANADIAN NEWS": 0.399,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0432
+     "CLOSER": 0.0095
     }
    }
   },
@@ -97374,16 +97374,16 @@
     "ingested_at": "2026-10-27T03:51:38.518133+00:00",
     "source_published_at": "2026-10-27T03:36:40+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1152,
-     "ENTERTAINMENT": 0.5343,
-     "BREAKOUT WATCH": 0.1213,
-     "LIFESTYLE CHAT": 0.1057,
-     "CANADIAN NEWS": 0.0409,
+     "THE LIST": 0.0802,
+     "ENTERTAINMENT": 0.6902,
+     "BREAKOUT WATCH": 0.0829,
+     "LIFESTYLE CHAT": 0.0705,
+     "CANADIAN NEWS": 0.0196,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0826
+     "CLOSER": 0.0566
     }
    }
   },
@@ -97428,16 +97428,16 @@
     "ingested_at": "2026-10-27T03:51:39.758291+00:00",
     "source_published_at": "2026-10-26T23:24:11+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0547,
-     "ENTERTAINMENT": 0.7999,
-     "BREAKOUT WATCH": 0.0432,
-     "LIFESTYLE CHAT": 0.0137,
-     "CANADIAN NEWS": 0.0321,
+     "THE LIST": 0.0347,
+     "ENTERTAINMENT": 0.8564,
+     "BREAKOUT WATCH": 0.0408,
+     "LIFESTYLE CHAT": 0.0156,
+     "CANADIAN NEWS": 0.0132,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0563
+     "CLOSER": 0.0393
     }
    }
   },
@@ -100227,16 +100227,16 @@
     "ingested_at": "2026-10-27T03:51:38.083620+00:00",
     "source_published_at": "2026-10-26T08:20:51+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1449,
-     "ENTERTAINMENT": 0.2278,
-     "BREAKOUT WATCH": 0.1259,
-     "LIFESTYLE CHAT": 0.0518,
-     "CANADIAN NEWS": 0.4084,
+     "THE LIST": 0.046,
+     "ENTERTAINMENT": 0.0327,
+     "BREAKOUT WATCH": 0.0228,
+     "LIFESTYLE CHAT": 0.0503,
+     "CANADIAN NEWS": 0.8288,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0412
+     "CLOSER": 0.0194
     }
    }
   },
@@ -102377,7 +102377,7 @@
    "id": "a91780b63325cd4e",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "LIFESTYLE CHAT",
    "title": "'I'm a single mum on £41,000 and limit my weekly shop to £40.' What do you want from the Budget?",
    "angle": "People earning from £380 a month to £150,000 a year tell the BBC what they want to see in this year's Budget. Shelf life through drive time — who is overrated and who actually delivered?",
    "bullets": [
@@ -102410,16 +102410,16 @@
     "ingested_at": "2026-10-27T03:51:41.298878+00:00",
     "source_published_at": "2026-10-27T00:01:00+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1674,
-     "ENTERTAINMENT": 0.3575,
-     "BREAKOUT WATCH": 0.1026,
-     "LIFESTYLE CHAT": 0.1188,
-     "CANADIAN NEWS": 0.136,
+     "THE LIST": 0.093,
+     "ENTERTAINMENT": 0.1514,
+     "BREAKOUT WATCH": 0.1098,
+     "LIFESTYLE CHAT": 0.5137,
+     "CANADIAN NEWS": 0.073,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1177
+     "CLOSER": 0.059
     }
    }
   },
@@ -109541,16 +109541,16 @@
     "ingested_at": "2026-10-27T03:51:39.455231+00:00",
     "source_published_at": "2026-10-27T01:54:13+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2387,
-     "ENTERTAINMENT": 0.3045,
-     "BREAKOUT WATCH": 0.1627,
-     "LIFESTYLE CHAT": 0.0592,
-     "CANADIAN NEWS": 0.0515,
+     "THE LIST": 0.1451,
+     "ENTERTAINMENT": 0.5435,
+     "BREAKOUT WATCH": 0.1189,
+     "LIFESTYLE CHAT": 0.0544,
+     "CANADIAN NEWS": 0.0259,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1834
+     "CLOSER": 0.1123
     }
    }
   },
@@ -109590,16 +109590,16 @@
     "ingested_at": "2026-10-27T03:51:37.864370+00:00",
     "source_published_at": "2026-10-26T17:03:56+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1331,
-     "ENTERTAINMENT": 0.5483,
-     "BREAKOUT WATCH": 0.1269,
-     "LIFESTYLE CHAT": 0.0635,
-     "CANADIAN NEWS": 0.0904,
+     "THE LIST": 0.1446,
+     "ENTERTAINMENT": 0.4776,
+     "BREAKOUT WATCH": 0.086,
+     "LIFESTYLE CHAT": 0.091,
+     "CANADIAN NEWS": 0.112,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0377
+     "CLOSER": 0.0888
     }
    }
   },
@@ -111743,16 +111743,16 @@
     "ingested_at": "2026-10-27T03:51:37.539797+00:00",
     "source_published_at": "2026-10-26T23:32:03+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2527,
-     "ENTERTAINMENT": 0.0505,
-     "BREAKOUT WATCH": 0.1337,
-     "LIFESTYLE CHAT": 0.0465,
-     "CANADIAN NEWS": 0.4877,
+     "THE LIST": 0.1,
+     "ENTERTAINMENT": 0.0173,
+     "BREAKOUT WATCH": 0.0332,
+     "LIFESTYLE CHAT": 0.0483,
+     "CANADIAN NEWS": 0.7844,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0289
+     "CLOSER": 0.0169
     }
    }
   },
@@ -113015,16 +113015,16 @@
     "ingested_at": "2026-10-27T03:51:39.524780+00:00",
     "source_published_at": "2026-10-27T01:54:08+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0673,
-     "ENTERTAINMENT": 0.688,
-     "BREAKOUT WATCH": 0.0627,
-     "LIFESTYLE CHAT": 0.0852,
-     "CANADIAN NEWS": 0.0547,
+     "THE LIST": 0.0316,
+     "ENTERTAINMENT": 0.8453,
+     "BREAKOUT WATCH": 0.0358,
+     "LIFESTYLE CHAT": 0.0362,
+     "CANADIAN NEWS": 0.0253,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0421
+     "CLOSER": 0.0258
     }
    }
   },
@@ -115320,16 +115320,16 @@
     "ingested_at": "2026-10-27T03:51:38.761491+00:00",
     "source_published_at": "2026-10-27T03:00:00+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.4387,
-     "ENTERTAINMENT": 0.1649,
-     "BREAKOUT WATCH": 0.1755,
-     "LIFESTYLE CHAT": 0.0473,
-     "CANADIAN NEWS": 0.114,
+     "THE LIST": 0.3774,
+     "ENTERTAINMENT": 0.2263,
+     "BREAKOUT WATCH": 0.2432,
+     "LIFESTYLE CHAT": 0.0459,
+     "CANADIAN NEWS": 0.0319,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0596
+     "CLOSER": 0.0753
     }
    }
   },
@@ -115371,16 +115371,16 @@
     "ingested_at": "2026-10-27T03:51:39.701354+00:00",
     "source_published_at": "2026-10-26T23:45:29+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.7705,
-     "ENTERTAINMENT": 0.044,
-     "BREAKOUT WATCH": 0.1317,
-     "LIFESTYLE CHAT": 0.0182,
-     "CANADIAN NEWS": 0.0157,
+     "THE LIST": 0.3753,
+     "ENTERTAINMENT": 0.3542,
+     "BREAKOUT WATCH": 0.1795,
+     "LIFESTYLE CHAT": 0.0426,
+     "CANADIAN NEWS": 0.0143,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.02
+     "CLOSER": 0.0341
     }
    }
   },
@@ -117035,16 +117035,16 @@
     "ingested_at": "2026-10-27T03:51:41.086523+00:00",
     "source_published_at": "2026-10-27T01:48:04+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3796,
-     "ENTERTAINMENT": 0.203,
-     "BREAKOUT WATCH": 0.141,
-     "LIFESTYLE CHAT": 0.0754,
-     "CANADIAN NEWS": 0.1458,
+     "THE LIST": 0.3899,
+     "ENTERTAINMENT": 0.206,
+     "BREAKOUT WATCH": 0.2149,
+     "LIFESTYLE CHAT": 0.0746,
+     "CANADIAN NEWS": 0.0524,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0552
+     "CLOSER": 0.0623
     }
    }
   },
@@ -117736,16 +117736,16 @@
     "ingested_at": "2026-10-27T03:51:36.948322+00:00",
     "source_published_at": "2026-10-26T22:08:35+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1742,
-     "ENTERTAINMENT": 0.1795,
-     "BREAKOUT WATCH": 0.0347,
-     "LIFESTYLE CHAT": 0.0218,
-     "CANADIAN NEWS": 0.5679,
+     "THE LIST": 0.2441,
+     "ENTERTAINMENT": 0.0316,
+     "BREAKOUT WATCH": 0.0221,
+     "LIFESTYLE CHAT": 0.0177,
+     "CANADIAN NEWS": 0.6802,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0219
+     "CLOSER": 0.0043
     }
    }
   },
@@ -120643,16 +120643,16 @@
     "ingested_at": "2026-10-27T03:51:36.723638+00:00",
     "source_published_at": "2026-10-27T00:24:36+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0435,
-     "ENTERTAINMENT": 0.1966,
-     "BREAKOUT WATCH": 0.0207,
-     "LIFESTYLE CHAT": 0.0434,
-     "CANADIAN NEWS": 0.6622,
+     "THE LIST": 0.0833,
+     "ENTERTAINMENT": 0.0246,
+     "BREAKOUT WATCH": 0.0135,
+     "LIFESTYLE CHAT": 0.0323,
+     "CANADIAN NEWS": 0.839,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0336
+     "CLOSER": 0.0073
     }
    }
   },
@@ -123934,16 +123934,16 @@
     "ingested_at": "2026-10-27T03:51:40.390614+00:00",
     "source_published_at": "2026-10-27T00:29:09+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0484,
-     "ENTERTAINMENT": 0.4258,
-     "BREAKOUT WATCH": 0.2392,
-     "LIFESTYLE CHAT": 0.0878,
-     "CANADIAN NEWS": 0.0588,
+     "THE LIST": 0.0338,
+     "ENTERTAINMENT": 0.712,
+     "BREAKOUT WATCH": 0.1239,
+     "LIFESTYLE CHAT": 0.0466,
+     "CANADIAN NEWS": 0.0216,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.14
+     "CLOSER": 0.0621
     }
    }
   },
@@ -123951,7 +123951,7 @@
    "id": "6a3b79e209047e53",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "Chris Mason: Budget is imminent as tricky issues pile up for Burnham",
    "angle": "From Brexit debates to North Sea oil, there is plenty getting the cabinet, the Labour Party and the country talking. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -123989,16 +123989,16 @@
     "ingested_at": "2026-10-27T03:51:40.699637+00:00",
     "source_published_at": "2026-10-26T23:03:14+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3645,
-     "ENTERTAINMENT": 0.334,
-     "BREAKOUT WATCH": 0.0769,
-     "LIFESTYLE CHAT": 0.0535,
-     "CANADIAN NEWS": 0.083,
+     "THE LIST": 0.1891,
+     "ENTERTAINMENT": 0.0257,
+     "BREAKOUT WATCH": 0.0153,
+     "LIFESTYLE CHAT": 0.0499,
+     "CANADIAN NEWS": 0.7027,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0881
+     "CLOSER": 0.0173
     }
    }
   },
@@ -127074,16 +127074,16 @@
     "ingested_at": "2026-10-27T03:51:41.556532+00:00",
     "source_published_at": "2026-10-26T15:37:33+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3553,
-     "ENTERTAINMENT": 0.1475,
-     "BREAKOUT WATCH": 0.1765,
-     "LIFESTYLE CHAT": 0.1134,
-     "CANADIAN NEWS": 0.1438,
+     "THE LIST": 0.5591,
+     "ENTERTAINMENT": 0.0652,
+     "BREAKOUT WATCH": 0.2379,
+     "LIFESTYLE CHAT": 0.0586,
+     "CANADIAN NEWS": 0.0391,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0636
+     "CLOSER": 0.0401
     }
    }
   },
@@ -128018,16 +128018,16 @@
     "ingested_at": "2026-10-27T03:51:41.030150+00:00",
     "source_published_at": "2026-10-27T02:58:48+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.4533,
-     "ENTERTAINMENT": 0.1502,
-     "BREAKOUT WATCH": 0.0866,
-     "LIFESTYLE CHAT": 0.0627,
-     "CANADIAN NEWS": 0.1792,
+     "THE LIST": 0.7147,
+     "ENTERTAINMENT": 0.0583,
+     "BREAKOUT WATCH": 0.1358,
+     "LIFESTYLE CHAT": 0.0216,
+     "CANADIAN NEWS": 0.054,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0681
+     "CLOSER": 0.0157
     }
    }
   },
@@ -129108,7 +129108,7 @@
    "id": "9fa53bc7e2410293",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "What slim margins from B.C.’s last election can tell us about the coming vote",
    "angle": "Some of the close calls from 2024 were decided by a handful of voters – think the number of people who can fit in an elevator, or riders on a midday bus. Ask the phones: would you film it, flee it, or pretend you saw…",
    "bullets": [
@@ -129140,16 +129140,16 @@
     "ingested_at": "2026-10-27T03:51:37.332031+00:00",
     "source_published_at": "2026-10-23T11:00:00+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2267,
-     "ENTERTAINMENT": 0.2117,
-     "BREAKOUT WATCH": 0.1203,
-     "LIFESTYLE CHAT": 0.1819,
-     "CANADIAN NEWS": 0.2064,
+     "THE LIST": 0.0971,
+     "ENTERTAINMENT": 0.0574,
+     "BREAKOUT WATCH": 0.0266,
+     "LIFESTYLE CHAT": 0.1132,
+     "CANADIAN NEWS": 0.6791,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0529
+     "CLOSER": 0.0265
     }
    }
   },
@@ -132896,7 +132896,7 @@
    "id": "5adc0c435999bbdb",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "ENTERTAINMENT",
    "title": "Netflix Hires Former Apple Exec Steve Wilson to Lead Podcast Acquisitions",
    "angle": "The streaming giant made its first big move into podcasts in fall 2025. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -132931,16 +132931,16 @@
     "ingested_at": "2026-10-27T03:51:39.924278+00:00",
     "source_published_at": "2026-10-26T22:52:57+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3202,
-     "ENTERTAINMENT": 0.2539,
-     "BREAKOUT WATCH": 0.1055,
-     "LIFESTYLE CHAT": 0.0683,
-     "CANADIAN NEWS": 0.1275,
+     "THE LIST": 0.1276,
+     "ENTERTAINMENT": 0.606,
+     "BREAKOUT WATCH": 0.0906,
+     "LIFESTYLE CHAT": 0.0541,
+     "CANADIAN NEWS": 0.0328,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1247
+     "CLOSER": 0.0889
     }
    }
   },
@@ -132991,16 +132991,16 @@
     "ingested_at": "2026-10-27T03:51:40.453040+00:00",
     "source_published_at": "2026-10-27T00:05:03+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1149,
-     "ENTERTAINMENT": 0.6988,
-     "BREAKOUT WATCH": 0.0935,
-     "LIFESTYLE CHAT": 0.019,
-     "CANADIAN NEWS": 0.0355,
+     "THE LIST": 0.0851,
+     "ENTERTAINMENT": 0.7259,
+     "BREAKOUT WATCH": 0.0893,
+     "LIFESTYLE CHAT": 0.0328,
+     "CANADIAN NEWS": 0.0263,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0383
+     "CLOSER": 0.0405
     }
    }
   },
@@ -133008,7 +133008,7 @@
    "id": "b95eef5e4e6f044b",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "CANADIAN NEWS",
    "title": "B.C. First Nations chief warns ripping up DRIPA is a ‘declaration of war’",
    "angle": "&#32; submitted by &#32; /u/PA-Rugby-Fan [link] &#32; [comments]. Ask the phones: would you film it, flee it, or pretend you saw nothing?",
    "bullets": [
@@ -133041,16 +133041,16 @@
     "ingested_at": "2026-10-27T03:51:37.810481+00:00",
     "source_published_at": "2026-10-27T00:48:45+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.4755,
-     "ENTERTAINMENT": 0.0493,
-     "BREAKOUT WATCH": 0.119,
-     "LIFESTYLE CHAT": 0.0582,
-     "CANADIAN NEWS": 0.2531,
+     "THE LIST": 0.2224,
+     "ENTERTAINMENT": 0.0292,
+     "BREAKOUT WATCH": 0.0481,
+     "LIFESTYLE CHAT": 0.0832,
+     "CANADIAN NEWS": 0.592,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.045
+     "CLOSER": 0.0251
     }
    }
   },
@@ -135805,16 +135805,16 @@
     "ingested_at": "2026-10-27T03:51:38.301525+00:00",
     "source_published_at": "2026-10-26T19:53:32+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1006,
-     "ENTERTAINMENT": 0.0163,
-     "BREAKOUT WATCH": 0.0489,
-     "LIFESTYLE CHAT": 0.0411,
-     "CANADIAN NEWS": 0.775,
+     "THE LIST": 0.1583,
+     "ENTERTAINMENT": 0.0093,
+     "BREAKOUT WATCH": 0.0338,
+     "LIFESTYLE CHAT": 0.0282,
+     "CANADIAN NEWS": 0.7668,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0182
+     "CLOSER": 0.0035
     }
    }
   },
@@ -135822,7 +135822,7 @@
    "id": "2e01176049127ac2",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "CANADIAN NEWS",
+   "category": "ENTERTAINMENT",
    "title": "House-size blocks of ice are falling from permafrost landslides in Canada",
    "angle": "&#32; submitted by &#32; /u/This_Phase3861 [link] &#32; [comments]. Make it local in one sentence — who pays, who waits, who shrugs?",
    "bullets": [
@@ -135856,16 +135856,16 @@
     "ingested_at": "2026-10-27T03:51:38.407693+00:00",
     "source_published_at": "2026-10-26T23:07:31+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1889,
-     "ENTERTAINMENT": 0.0275,
-     "BREAKOUT WATCH": 0.0467,
-     "LIFESTYLE CHAT": 0.0356,
-     "CANADIAN NEWS": 0.6758,
+     "THE LIST": 0.1718,
+     "ENTERTAINMENT": 0.2497,
+     "BREAKOUT WATCH": 0.1931,
+     "LIFESTYLE CHAT": 0.0563,
+     "CANADIAN NEWS": 0.1512,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0255
+     "CLOSER": 0.1779
     }
    }
   },
@@ -138985,7 +138985,7 @@
    "id": "064b46b15e4d6f3e",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "ENTERTAINMENT",
    "title": "Storm Boelo leaves 22,000 without power as Met Office issues new wind warning",
    "angle": "A yellow warning for strong winds came in effect at 18:00 on Monday across the west coast of England, Wales and Scotland and eastern parts of Northern Ireland. Ask the phones: would you film it, flee it, or pretend you…",
    "bullets": [
@@ -139025,16 +139025,16 @@
     "ingested_at": "2026-10-27T03:51:40.927206+00:00",
     "source_published_at": "2026-10-26T22:43:44+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2798,
-     "ENTERTAINMENT": 0.1983,
-     "BREAKOUT WATCH": 0.1085,
-     "LIFESTYLE CHAT": 0.1684,
-     "CANADIAN NEWS": 0.1556,
+     "THE LIST": 0.1719,
+     "ENTERTAINMENT": 0.3134,
+     "BREAKOUT WATCH": 0.1523,
+     "LIFESTYLE CHAT": 0.1076,
+     "CANADIAN NEWS": 0.0779,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0895
+     "CLOSER": 0.177
     }
    }
   },
@@ -143479,7 +143479,7 @@
    "id": "a333ccec792630e7",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "LIFESTYLE CHAT",
+   "category": "BREAKOUT WATCH",
    "title": "Jordan carries out deadly strike in Syria in retaliation for church attack",
    "angle": "The attack on a village in Syria killed five people, including women and children, Syrian health officials said. Easy phone-in: is this smart living or lifestyle cosplay?",
    "bullets": [
@@ -143513,16 +143513,16 @@
     "ingested_at": "2026-10-27T03:51:41.139030+00:00",
     "source_published_at": "2026-10-27T02:40:17+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0536,
-     "ENTERTAINMENT": 0.1507,
-     "BREAKOUT WATCH": 0.2483,
-     "LIFESTYLE CHAT": 0.3828,
-     "CANADIAN NEWS": 0.0867,
+     "THE LIST": 0.2184,
+     "ENTERTAINMENT": 0.166,
+     "BREAKOUT WATCH": 0.4201,
+     "LIFESTYLE CHAT": 0.109,
+     "CANADIAN NEWS": 0.039,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0778
+     "CLOSER": 0.0474
     }
    }
   },
@@ -143568,16 +143568,16 @@
     "ingested_at": "2026-10-27T03:51:37.166095+00:00",
     "source_published_at": "2026-10-26T20:18:27+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1297,
-     "ENTERTAINMENT": 0.1449,
-     "BREAKOUT WATCH": 0.0456,
-     "LIFESTYLE CHAT": 0.086,
-     "CANADIAN NEWS": 0.532,
+     "THE LIST": 0.1251,
+     "ENTERTAINMENT": 0.043,
+     "BREAKOUT WATCH": 0.0247,
+     "LIFESTYLE CHAT": 0.0609,
+     "CANADIAN NEWS": 0.7262,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0618
+     "CLOSER": 0.0202
     }
    }
   },
@@ -143585,7 +143585,7 @@
    "id": "b6c5ad05a62bb215",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "CANADIAN NEWS",
    "title": "Japanese seafood company to buy N.S.-based High Liner Foods",
    "angle": "&#32; submitted by &#32; /u/stanxv [link] &#32; [comments]. Shelf life through drive time — who is overrated and who actually delivered?",
    "bullets": [
@@ -143617,16 +143617,16 @@
     "ingested_at": "2026-10-27T03:51:38.353369+00:00",
     "source_published_at": "2026-10-26T19:01:55+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1711,
-     "ENTERTAINMENT": 0.3109,
-     "BREAKOUT WATCH": 0.2199,
-     "LIFESTYLE CHAT": 0.0578,
-     "CANADIAN NEWS": 0.1741,
+     "THE LIST": 0.0959,
+     "ENTERTAINMENT": 0.0912,
+     "BREAKOUT WATCH": 0.0515,
+     "LIFESTYLE CHAT": 0.0634,
+     "CANADIAN NEWS": 0.6705,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0662
+     "CLOSER": 0.0275
     }
    }
   },
@@ -147958,16 +147958,16 @@
     "ingested_at": "2026-10-27T03:51:39.108685+00:00",
     "source_published_at": "2026-10-27T02:31:12+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0778,
-     "ENTERTAINMENT": 0.6157,
-     "BREAKOUT WATCH": 0.11,
-     "LIFESTYLE CHAT": 0.1121,
-     "CANADIAN NEWS": 0.0293,
+     "THE LIST": 0.0417,
+     "ENTERTAINMENT": 0.7718,
+     "BREAKOUT WATCH": 0.0612,
+     "LIFESTYLE CHAT": 0.0637,
+     "CANADIAN NEWS": 0.0196,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0551
+     "CLOSER": 0.042
     }
    }
   },
@@ -154558,7 +154558,7 @@
    "id": "524da517d03a2419",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "THE LIST",
+   "category": "ENTERTAINMENT",
    "title": "Disney+ to Add Channel 4 Network and On-Demand Content in U.K., Ireland Under “Most Ambitious” EMEA Deal Yet",
    "angle": "Disney's latest local broadcaster pact, a \"first-of-its-kind collaboration,\" covers \"distinctive and buzzy\" content that can find new audiences, Disney+'s Karl Holmes and Channel 4 CEO Priya Dogra tell THR. Ask the…",
    "bullets": [
@@ -154599,16 +154599,16 @@
     "ingested_at": "2026-10-27T03:51:39.817563+00:00",
     "source_published_at": "2026-10-26T23:17:00+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3312,
-     "ENTERTAINMENT": 0.2415,
-     "BREAKOUT WATCH": 0.1016,
-     "LIFESTYLE CHAT": 0.1303,
-     "CANADIAN NEWS": 0.1423,
+     "THE LIST": 0.1015,
+     "ENTERTAINMENT": 0.6666,
+     "BREAKOUT WATCH": 0.072,
+     "LIFESTYLE CHAT": 0.0762,
+     "CANADIAN NEWS": 0.0324,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.053
+     "CLOSER": 0.0513
     }
    }
   },
@@ -154616,7 +154616,7 @@
    "id": "556b5954533204ad",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "ENTERTAINMENT",
+   "category": "THE LIST",
    "title": "Israel and the US are both going to the polls - the consequences will be global",
    "angle": "The next fortnight sees two elections on different continents. Shelf life through drive time — who is overrated and who actually delivered?",
    "bullets": [
@@ -154652,16 +154652,16 @@
     "ingested_at": "2026-10-27T03:51:40.815561+00:00",
     "source_published_at": "2026-10-26T16:30:34+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3693,
-     "ENTERTAINMENT": 0.4054,
-     "BREAKOUT WATCH": 0.0784,
-     "LIFESTYLE CHAT": 0.0639,
-     "CANADIAN NEWS": 0.0425,
+     "THE LIST": 0.6858,
+     "ENTERTAINMENT": 0.0934,
+     "BREAKOUT WATCH": 0.135,
+     "LIFESTYLE CHAT": 0.026,
+     "CANADIAN NEWS": 0.0391,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0405
+     "CLOSER": 0.0206
     }
    }
   },
@@ -158704,7 +158704,7 @@
    "id": "bb6088a69505c009",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "LIFESTYLE CHAT",
+   "category": "BREAKOUT WATCH",
    "title": "Alleged arsonist sets girlfriend on fire inside NYC apartment as daughter watched in horror: prosecutors",
    "angle": "The dad first threatened his 11-year-old daughter with a knife before he committed his brutal blazing assault on his girlfriend, according to court documents. Easy phone-in: is this smart living or lifestyle cosplay?",
    "bullets": [
@@ -158736,16 +158736,16 @@
     "ingested_at": "2026-10-27T03:51:38.874482+00:00",
     "source_published_at": "2026-10-27T02:48:15+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1576,
-     "ENTERTAINMENT": 0.2092,
-     "BREAKOUT WATCH": 0.1868,
-     "LIFESTYLE CHAT": 0.222,
-     "CANADIAN NEWS": 0.0919,
+     "THE LIST": 0.1563,
+     "ENTERTAINMENT": 0.2327,
+     "BREAKOUT WATCH": 0.2357,
+     "LIFESTYLE CHAT": 0.1256,
+     "CANADIAN NEWS": 0.0432,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1325
+     "CLOSER": 0.2065
     }
    }
   },
@@ -165196,16 +165196,16 @@
     "ingested_at": "2026-10-27T03:51:36.889584+00:00",
     "source_published_at": "2026-10-26T17:28:38+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.3036,
-     "ENTERTAINMENT": 0.0364,
-     "BREAKOUT WATCH": 0.0439,
-     "LIFESTYLE CHAT": 0.0317,
-     "CANADIAN NEWS": 0.5489,
+     "THE LIST": 0.1492,
+     "ENTERTAINMENT": 0.0161,
+     "BREAKOUT WATCH": 0.0189,
+     "LIFESTYLE CHAT": 0.0305,
+     "CANADIAN NEWS": 0.7719,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0356
+     "CLOSER": 0.0133
     }
    }
   },
@@ -165250,16 +165250,16 @@
     "ingested_at": "2026-10-27T03:51:37.974283+00:00",
     "source_published_at": "2026-10-26T17:17:40+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2266,
-     "ENTERTAINMENT": 0.1504,
-     "BREAKOUT WATCH": 0.0396,
-     "LIFESTYLE CHAT": 0.0553,
-     "CANADIAN NEWS": 0.4879,
+     "THE LIST": 0.1161,
+     "ENTERTAINMENT": 0.0346,
+     "BREAKOUT WATCH": 0.0166,
+     "LIFESTYLE CHAT": 0.0545,
+     "CANADIAN NEWS": 0.7529,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0402
+     "CLOSER": 0.0252
     }
    }
   },
@@ -178977,16 +178977,16 @@
     "ingested_at": "2026-10-27T03:51:39.347101+00:00",
     "source_published_at": "2026-10-27T02:21:09+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.296,
-     "ENTERTAINMENT": 0.3579,
-     "BREAKOUT WATCH": 0.0996,
-     "LIFESTYLE CHAT": 0.1231,
-     "CANADIAN NEWS": 0.0842,
+     "THE LIST": 0.2331,
+     "ENTERTAINMENT": 0.3455,
+     "BREAKOUT WATCH": 0.1737,
+     "LIFESTYLE CHAT": 0.0842,
+     "CANADIAN NEWS": 0.0505,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0391
+     "CLOSER": 0.113
     }
    }
   },
@@ -199670,16 +199670,16 @@
     "ingested_at": "2026-10-27T03:51:36.836197+00:00",
     "source_published_at": "2026-10-26T16:56:36+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2459,
-     "ENTERTAINMENT": 0.1413,
-     "BREAKOUT WATCH": 0.0392,
-     "LIFESTYLE CHAT": 0.4378,
-     "CANADIAN NEWS": 0.0781,
+     "THE LIST": 0.0838,
+     "ENTERTAINMENT": 0.0852,
+     "BREAKOUT WATCH": 0.0459,
+     "LIFESTYLE CHAT": 0.7093,
+     "CANADIAN NEWS": 0.0423,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0577
+     "CLOSER": 0.0335
     }
    }
   },
@@ -200179,16 +200179,16 @@
     "ingested_at": "2026-10-27T03:51:37.701836+00:00",
     "source_published_at": "2026-10-26T22:20:52+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.0995,
-     "ENTERTAINMENT": 0.0558,
-     "BREAKOUT WATCH": 0.0561,
-     "LIFESTYLE CHAT": 0.0149,
-     "CANADIAN NEWS": 0.7607,
+     "THE LIST": 0.203,
+     "ENTERTAINMENT": 0.0142,
+     "BREAKOUT WATCH": 0.0404,
+     "LIFESTYLE CHAT": 0.016,
+     "CANADIAN NEWS": 0.724,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.013
+     "CLOSER": 0.0024
     }
    }
   },
@@ -202291,16 +202291,16 @@
     "ingested_at": "2026-10-27T03:51:36.501704+00:00",
     "source_published_at": "2026-10-26T17:56:37+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1634,
-     "ENTERTAINMENT": 0.1136,
-     "BREAKOUT WATCH": 0.1282,
-     "LIFESTYLE CHAT": 0.035,
-     "CANADIAN NEWS": 0.5062,
+     "THE LIST": 0.0543,
+     "ENTERTAINMENT": 0.0257,
+     "BREAKOUT WATCH": 0.0195,
+     "LIFESTYLE CHAT": 0.0309,
+     "CANADIAN NEWS": 0.8488,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0536
+     "CLOSER": 0.0207
     }
    }
   },
@@ -205413,7 +205413,7 @@
    "id": "5e6dc47fc0f9f3f9",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "BREAKOUT WATCH",
+   "category": "ENTERTAINMENT",
    "title": "‘Ghosts: The Possession of Button House’ Scares Up U.K., Ireland Box Office Win",
    "angle": "Lionsgate U.K.&#8217;s horror-comedy &#8220;Ghosts: The Possession of Button House&#8221; debuted at the summit of the U.K. Name-drop them now so you can claim you called it first.",
    "bullets": [
@@ -205453,16 +205453,16 @@
     "ingested_at": "2026-10-27T03:51:40.124646+00:00",
     "source_published_at": "2026-10-27T03:28:11+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1016,
-     "ENTERTAINMENT": 0.223,
-     "BREAKOUT WATCH": 0.3342,
-     "LIFESTYLE CHAT": 0.1382,
-     "CANADIAN NEWS": 0.1052,
+     "THE LIST": 0.066,
+     "ENTERTAINMENT": 0.5176,
+     "BREAKOUT WATCH": 0.2041,
+     "LIFESTYLE CHAT": 0.102,
+     "CANADIAN NEWS": 0.0293,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0979
+     "CLOSER": 0.081
     }
    }
   },
@@ -207557,16 +207557,16 @@
     "ingested_at": "2026-10-27T03:51:37.593998+00:00",
     "source_published_at": "2026-10-26T19:33:06+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.08,
-     "ENTERTAINMENT": 0.1139,
-     "BREAKOUT WATCH": 0.082,
-     "LIFESTYLE CHAT": 0.0667,
-     "CANADIAN NEWS": 0.5758,
+     "THE LIST": 0.0818,
+     "ENTERTAINMENT": 0.028,
+     "BREAKOUT WATCH": 0.0357,
+     "LIFESTYLE CHAT": 0.0463,
+     "CANADIAN NEWS": 0.7904,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0815
+     "CLOSER": 0.0178
     }
    }
   },
@@ -207604,16 +207604,16 @@
     "ingested_at": "2026-10-27T03:51:37.647490+00:00",
     "source_published_at": "2026-10-26T21:10:50+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.1695,
-     "ENTERTAINMENT": 0.1334,
-     "BREAKOUT WATCH": 0.0543,
-     "LIFESTYLE CHAT": 0.0592,
-     "CANADIAN NEWS": 0.554,
+     "THE LIST": 0.1247,
+     "ENTERTAINMENT": 0.0325,
+     "BREAKOUT WATCH": 0.0236,
+     "LIFESTYLE CHAT": 0.0428,
+     "CANADIAN NEWS": 0.7671,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0296
+     "CLOSER": 0.0093
     }
    }
   },
@@ -211786,7 +211786,7 @@
    "id": "fa394c64ddb4aadb",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "LIFESTYLE CHAT",
+   "category": "ENTERTAINMENT",
    "title": "Will the public change its mind about Meghan?",
    "angle": "This complicated - and developing - story could prove to be a turning point for Meghan. Easy phone-in: is this smart living or lifestyle cosplay?",
    "bullets": [
@@ -211820,16 +211820,16 @@
     "ingested_at": "2026-10-27T03:51:41.399923+00:00",
     "source_published_at": "2026-10-26T20:03:05+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2215,
-     "ENTERTAINMENT": 0.2726,
-     "BREAKOUT WATCH": 0.1045,
-     "LIFESTYLE CHAT": 0.2788,
-     "CANADIAN NEWS": 0.0824,
+     "THE LIST": 0.095,
+     "ENTERTAINMENT": 0.6794,
+     "BREAKOUT WATCH": 0.0691,
+     "LIFESTYLE CHAT": 0.0934,
+     "CANADIAN NEWS": 0.0267,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0402
+     "CLOSER": 0.0363
     }
    }
   },
@@ -212680,7 +212680,7 @@
    "id": "c0968830379c0a52",
    "date": "2026-10-26",
    "slot": "pm",
-   "category": "LIFESTYLE CHAT",
+   "category": "CANADIAN NEWS",
    "title": "Nearly 89% of Ontarians now have primary care, province says",
    "angle": "A calculation from the latest numbers shows that 1.8 million people remain without a health care provider. Easy phone-in: is this smart living or lifestyle cosplay?",
    "bullets": [
@@ -212710,16 +212710,16 @@
     "ingested_at": "2026-10-27T03:51:36.609085+00:00",
     "source_published_at": "2026-10-27T01:57:22+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2525,
-     "ENTERTAINMENT": 0.1709,
-     "BREAKOUT WATCH": 0.0662,
-     "LIFESTYLE CHAT": 0.3168,
-     "CANADIAN NEWS": 0.081,
+     "THE LIST": 0.1267,
+     "ENTERTAINMENT": 0.0547,
+     "BREAKOUT WATCH": 0.0193,
+     "LIFESTYLE CHAT": 0.2441,
+     "CANADIAN NEWS": 0.5182,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.1126
+     "CLOSER": 0.0371
     }
    }
   },
@@ -214491,16 +214491,16 @@
     "ingested_at": "2026-10-27T03:51:40.756977+00:00",
     "source_published_at": "2026-10-27T01:57:48+00:00",
     "pipeline_version": "1.2.0",
-    "section_model": "ml-v1",
+    "section_model": "ml-stacked-v1",
     "section_probs": {
-     "THE LIST": 0.2619,
-     "ENTERTAINMENT": 0.1448,
-     "BREAKOUT WATCH": 0.1748,
-     "LIFESTYLE CHAT": 0.1051,
-     "CANADIAN NEWS": 0.2659,
+     "THE LIST": 0.2656,
+     "ENTERTAINMENT": 0.0222,
+     "BREAKOUT WATCH": 0.045,
+     "LIFESTYLE CHAT": 0.0501,
+     "CANADIAN NEWS": 0.6104,
      "TECH": 0.0,
      "SPORTS": 0.0,
-     "CLOSER": 0.0474
+     "CLOSER": 0.0067
     }
    }
   },
